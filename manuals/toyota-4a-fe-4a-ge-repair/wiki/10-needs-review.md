@@ -25,8 +25,20 @@ Only Starting System is transcribed so far; its flags:
 | 04-cooling-system | Thermostat valve lift "at 95°C" | OCR read 96°C; page image (CO-13) and the °F value (203°F = 95°C) confirm **95°C** — corrected from image. |
 | 04-cooling-system | Cooling-fan circuit fuse/FL ratings | Read from a wiring diagram (e.g. "80A (AT171)" OCR'd "SOA"); verify against the page image before quoting. |
 
-Chapters EM, FI, LU, IG, CH, and the spec sections are **not yet cleaned** — their flags
-will be added as they're transcribed. Done so far: Introduction, Cooling System, Starting
-System. The FI and Service-Specification sections' running page codes did not OCR in the
+| 05-lubrication-system | Missing pages ≈ LU-10…LU-13 | Oil-pump removal/disassembly/inspection/assembly absent (section ends at LU-9); troubleshooting cites LU-12/13 for the relief valve but those pages aren't present. |
+| 05-lubrication-system | Oil capacity differs vs Service Specs | LU-8 prints w/ filter 3.2 L (3.3 US qts); the A-2 spec section (not yet transcribed) prints 3.3 L (3.5 US qts). Reconcile when Service Specs is done. |
+| 06-ignition-system | 4WD ignition-coil values | Primary 0.38–0.46 Ω / secondary 7.7–10.3 kΩ appear ONLY in the OCR'd diagnostic flowchart (unit-ambiguous); the IG-8 detail page shows 2WD only. Verify against a complete copy. This scan is a 2WD 4A-FE. |
+| 06-ignition-system | Missing pages IG-3, IG-5, IG-10…IG-14 | Troubleshooting (IG-3) and distributor R&R detail (IG-10…14) absent from this scan. |
+
+Chapters EM, FI, CH, and the spec sections are **not yet cleaned** — their flags will be
+added as they're transcribed. **Done so far: Introduction, Cooling, Lubrication, Ignition,
+Starting.** The FI and Service-Specification sections' running page codes did not OCR in the
 header/footer band, so `check_page_continuity.py` can't gap-check them automatically; check
 them by eye during cleanup.
+
+### Note on 4A-FE vs 4A-GE specificity
+Per [issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9), the alphabetical
+index is split per engine. Many spec/procedure pages in this scan are titled `(4A-FE)`; the
+4A-GE equivalents (ignition IIA, EFI) are largely **not present** in this scan. When a value
+is engine-specific, cite the engine; when the manual leaves it untagged, don't assume it
+applies to both without checking.

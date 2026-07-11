@@ -1,10 +1,13 @@
-<!-- index-model: 4A-FE -->
-# Alphabetical Index — 4A-FE
+<!-- index-model: 4A-GE -->
+# Alphabetical Index — 4A-GE
 
-Back-of-manual index **for the 4A-FE engine**. Includes entries that apply to both engines
-(also listed in the [4A-GE index](11b-alphabetical-index.md)) plus 4A-FE-only entries
-(marked `[4A-FE]`). **Covers only the transcribed chapters so far** (Introduction, Cooling,
-Lubrication, Ignition, Starting) — grows as more are cleaned.
+Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to both engines
+(also listed in the [4A-FE index](11a-alphabetical-index.md)) plus 4A-GE-only entries
+(marked `[4A-GE]`). **Covers only the transcribed chapters so far.**
+
+> Note: much of this scan's engine-specific content (e.g. the Integrated Ignition Assembly)
+> is **4A-FE only** and is intentionally **absent** here — a 4A-GE user should not be handed
+> 4A-FE ignition specs. 4A-GE-specific ignition/EFI pages were not present in this scan.
 
 ---
 
@@ -22,7 +25,6 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 - Catalytic converter, precautions — [01-introduction.md#p8](01-introduction.md#p8) ([PDF p.8])
 - Clutch pinion gear clearance (starter) — [07-starting-system.md#p212](07-starting-system.md#p212) ([PDF p.212])
 - Coolant, check and replacement — [04-cooling-system.md#p174](04-cooling-system.md#p174) ([PDF p.174])
-- Coolant capacity [4A-FE], w/ heater — [04-cooling-system.md#p174](04-cooling-system.md#p174) ([PDF p.174])
 - Cooling fan, electric — inspection — [04-cooling-system.md#p186](04-cooling-system.md#p186) ([PDF p.186])
 - Cooling fan relay, inspection — [04-cooling-system.md#p188](04-cooling-system.md#p188) ([PDF p.188])
 - Cooling system, description — [04-cooling-system.md#p171](04-cooling-system.md#p171) ([PDF p.171])
@@ -30,7 +32,6 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 
 ## D
 
-- Distributor air gap [4A-FE] (0.2 mm or more) — [06-ignition-system.md#p202](06-ignition-system.md#p202) ([PDF p.202])
 - Drive belt (alternator), adjust — [04-cooling-system.md#p181](04-cooling-system.md#p181) ([PDF p.181])
 
 ## E
@@ -49,15 +50,8 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 
 ## H
 
-- High-tension cord resistance [4A-FE] (25 kΩ max) — [06-ignition-system.md#p201](06-ignition-system.md#p201) ([PDF p.201])
 - Hold-in test (starter) — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
 - How to use this manual — [01-introduction.md#p3](01-introduction.md#p3) ([PDF p.3])
-
-## I
-
-- Ignition coil resistance [4A-FE] (primary 1.28–1.56 kΩ, secondary 10.4–14.0 kΩ) — [06-ignition-system.md#p202](06-ignition-system.md#p202) ([PDF p.202])
-- Ignition system circuit / ESA [4A-FE] — [06-ignition-system.md#p199](06-ignition-system.md#p199) ([PDF p.199])
-- Integrated Ignition Assembly (IIA) [4A-FE] — [06-ignition-system.md#p204](06-ignition-system.md#p204) ([PDF p.204])
 
 ## N
 
@@ -66,17 +60,15 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 
 ## O
 
-- Oil capacity [4A-FE] — [05-lubrication-system.md#p195](05-lubrication-system.md#p195) ([PDF p.195])
 - Oil drain plug, torque (15 N·m) — [05-lubrication-system.md#p195](05-lubrication-system.md#p195) ([PDF p.195])
 - Oil filter, replacement — [05-lubrication-system.md#p194](05-lubrication-system.md#p194) ([PDF p.194])
 - Oil pressure (idle 0.3, 3000 rpm 2.5–5.0 kg/cm²) — [05-lubrication-system.md#p193](05-lubrication-system.md#p193) ([PDF p.193])
-- Oil pressure switch, adhesive [4A-FE] — [05-lubrication-system.md#p193](05-lubrication-system.md#p193) ([PDF p.193])
 - Oil pump, components — [05-lubrication-system.md#p196](05-lubrication-system.md#p196) ([PDF p.196])
 
 ## P
 
-- Pickup coil (signal generator) resistance [4A-FE] (140–180 Ω) — [06-ignition-system.md#p203](06-ignition-system.md#p203) ([PDF p.203])
 - Pinion gear clearance, starter (1–5 mm) — [07-starting-system.md#p212](07-starting-system.md#p212) ([PDF p.212])
+- Planetary type starter, components [4A-GE] — [07-starting-system.md#p210](07-starting-system.md#p210) ([PDF p.210])
 - Planetary type starter, performance test — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
 - Precautions, ignition system — [06-ignition-system.md#p198](06-ignition-system.md#p198) ([PDF p.198])
 - Precoated parts, recoating — [01-introduction.md#p6](01-introduction.md#p6) ([PDF p.6])
@@ -91,7 +83,6 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 ## S
 
 - Seal packing (water pump), Part No. 08826-00100 — [04-cooling-system.md#p178](04-cooling-system.md#p178) ([PDF p.178])
-- Spark plug [4A-FE] (ND Q16R-U / NGK BCPR5EY, gap 0.8 mm, torque 180 kg-cm) — [06-ignition-system.md#p201](06-ignition-system.md#p201) ([PDF p.201])
 - Starting system, circuit — [07-starting-system.md#p209](07-starting-system.md#p209) ([PDF p.209])
 - Starting system, troubleshooting — [07-starting-system.md#p209](07-starting-system.md#p209) ([PDF p.209])
 
@@ -100,6 +91,7 @@ Lubrication, Ignition, Starting) — grows as more are cleaned.
 - Thermostat, operating temperature (82°C) — [04-cooling-system.md#p172](04-cooling-system.md#p172) ([PDF p.172])
 - Thermostat, valve lift (8 mm at 95°C) — [04-cooling-system.md#p182](04-cooling-system.md#p182) ([PDF p.182])
 - Thermostat, valve opening temperature (80–84°C) — [04-cooling-system.md#p182](04-cooling-system.md#p182) ([PDF p.182])
+- Thermostat, water inlet fasteners [4A-GE] (two bolts) — [04-cooling-system.md#p182](04-cooling-system.md#p182) ([PDF p.182])
 
 ## W
 

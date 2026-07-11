@@ -86,12 +86,29 @@ def parse_chapters(index_md: Path) -> list[tuple[str, int]]:
     return rows
 
 
-def parse_alpha(files: list[Path]) -> list[tuple[str, str, int]]:
-    """Flatten the 11a..11d index into (letter, term, page) in document order."""
-    entries: list[tuple[str, str, int]] = []
+MODEL_MARKER_RE = re.compile(r"<!--\s*index-model:\s*(.+?)\s*-->")
+
+
+def parse_alpha(files: list[Path]) -> list[tuple[str | None, list[tuple[str, str, int]]]]:
+    """Parse the 11*-alphabetical-index files into ordered per-model groups.
+
+    A file may declare `<!-- index-model: 4A-FE -->` at the top; files sharing a
+    model marker merge into one group and render as a titled index section ("…
+    Alphabetical Index (4A-FE)"). Files with no marker merge into a single default
+    group (model=None) that renders as the plain "Alphabetical Index" — so a manual
+    whose index is only split by letter range (like manual 1) is unaffected. An entry
+    that applies to several models is expected to appear in each of those model files."""
+    order: list[str | None] = []
+    by_model: dict[str | None, list[tuple[str, str, int]]] = {}
     for f in files:
+        text = f.read_text(encoding="utf-8")
+        mm = MODEL_MARKER_RE.search(text)
+        model = mm.group(1).strip() if mm else None
+        if model not in by_model:
+            by_model[model] = []
+            order.append(model)
         letter = "#"
-        for line in f.read_text(encoding="utf-8").splitlines():
+        for line in text.splitlines():
             lm = LETTER_RE.match(line)
             if lm:
                 letter = lm.group("letter")
@@ -99,8 +116,8 @@ def parse_alpha(files: list[Path]) -> list[tuple[str, str, int]]:
             em = ENTRY_RE.match(line)
             if em:
                 term = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", em.group("term")).strip()
-                entries.append((letter, term, int(em.group("page"))))
-    return entries
+                by_model[model].append((letter, term, int(em.group("page"))))
+    return [(m, by_model[m]) for m in order]
 
 
 # --- PDF rendering ------------------------------------------------------------
@@ -254,16 +271,20 @@ def build(doc: fitz.Document, chapters, alpha, title: str) -> list[tuple[int, st
                         "page": start - 1, "to": fitz.Point(0, 0)})
         y += 20
 
-    # --- Alphabetical index ---
-    lay = Layout(doc, w, h, f"{title} — Alphabetical Index")
-    current_letter = None
-    for letter, term, page_no in alpha:
-        if letter != current_letter:
-            lay.letter(letter)
-            current_letter = letter
-        lay.entry(term, page_no)
-    if lay.first_page_no:
-        toc.append((1, "Index — Alphabetical", lay.first_page_no))
+    # --- Alphabetical index (one titled section per model group) ---
+    for model, entries in alpha:
+        if not entries:
+            continue
+        suffix = f" ({model})" if model else ""
+        lay = Layout(doc, w, h, f"{title} — Alphabetical Index{suffix}")
+        current_letter = None
+        for letter, term, page_no in entries:
+            if letter != current_letter:
+                lay.letter(letter)
+                current_letter = letter
+            lay.entry(term, page_no)
+        if lay.first_page_no:
+            toc.append((1, f"Index — Alphabetical{suffix}", lay.first_page_no))
     return toc
 
 
@@ -280,8 +301,10 @@ def strip_prior_index(doc: fitz.Document) -> None:
     base = int(m.group(1))
     if 0 < base < doc.page_count:
         doc.delete_pages(from_page=base, to_page=doc.page_count - 1)
-    # drop outline entries that pointed into the removed pages
-    doc.set_toc([t for t in doc.get_toc() if t[2] <= base])
+    # drop outline entries that pointed into the removed pages. After delete_pages,
+    # entries targeting a removed page come back as page -1, so require a valid page
+    # (1..base) — otherwise stale index entries accumulate across re-bakes.
+    doc.set_toc([t for t in doc.get_toc() if 0 < t[2] <= base])
 
 
 def main() -> int:
@@ -326,7 +349,7 @@ def main() -> int:
     doc = fitz.open(src)
     strip_prior_index(doc)                     # idempotent: clear any prior appended index
     n_source = doc.page_count
-    bad = [p for _, _, p in alpha if p < 1 or p > n_source] + \
+    bad = [p for _, entries in alpha for _, _, p in entries if p < 1 or p > n_source] + \
           [p for _, p in chapters if p < 1 or p > n_source]
     if bad:
         sys.exit(f"{len(bad)} entry page(s) out of range 1..{n_source}, e.g. {bad[:5]}")
@@ -355,8 +378,10 @@ def main() -> int:
     final = fitz.open(str(out))
     added = final.page_count - n_source
     final.close()
+    n_alpha = sum(len(e) for _, e in alpha)
+    groups = ", ".join(f"{m or 'general'}:{len(e)}" for m, e in alpha if e)
     print(f"Appended {added} index page(s): "
-          f"{len(chapters)} chapters + {len(alpha)} alphabetical entries.")
+          f"{len(chapters)} chapters + {n_alpha} alphabetical entries ({groups}).")
     where = "into the source PDF (in place)" if in_place else "to a new file; source untouched"
     print(f"Wrote {out} ({out.stat().st_size // 1024} KB) — {where}.")
     return 0
