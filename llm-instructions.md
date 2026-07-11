@@ -6,9 +6,9 @@ Claude, ChatGPT, or anything else — this repo is designed to not require a spe
 ## What this is
 
 A collection of OEM service manuals, each converted from a scanned PDF into a clean
-markdown wiki (real tables, numbered procedures) plus the **source PDF itself, committed
-alongside it** for diagrams, wiring charts, and exploded views that never made it into
-text.
+markdown wiki (real tables, numbered procedures, a back-of-book index) plus the
+**source PDF itself, committed alongside it** for diagrams, wiring charts, and exploded
+views that never made it into text.
 
 ## Finding a manual
 
@@ -23,6 +23,7 @@ manuals/<slug>/
                               anything about this particular manual (exact filenames,
                               chapter breakdown, known OCR quirks)
     00-index.md               chapter list
+    11*-alphabetical-index.md back-of-book index — usually the fastest way to find a topic
 ```
 
 `ls manuals/` to see what's available. If the user's question names a make/model/engine,
@@ -54,10 +55,19 @@ built every wiki here, so they hold regardless of which manual you're reading:
    cited page rather than trying to describe it from markdown alone.
 5. **Cite the source page number** when you answer from a manual, so the user can verify
    against the PDF themselves.
-6. **For a topic/component/symptom question, `grep` for the term across the manual's
-   chapter files** rather than reading files sequentially — no manual in this repo ships
-   a curated back-of-book index (dropped 2026-07-11: an eval run found direct grep won
-   on 8/9 real questions against a hand-curated ~970-entry index; see the decisions log).
+6. **Grep first, escalate to the alphabetical index only when grep is too noisy to
+   resolve.** For a specific, narrow target — a spec value, a DTC code number, a part
+   number, an exact procedure name — `grep` across chapter files almost always lands you
+   on the right passage in one hop; don't detour through the index for these. But if the
+   term is a common component/system name (e.g. "oil pump," "cylinder head") that turns
+   up in many unrelated contexts (installation steps, removal steps, spec tables, torque
+   callouts, troubleshooting) and you can't quickly tell which hit answers the specific
+   question, that's the signal to switch: the index pre-splits common terms into
+   disambiguated sub-topic entries (e.g. "Oil pump, body clearance" vs. "Oil pump,
+   installation") — search it for the more specific phrase from the question, not just
+   the bare component name. Try the cheap thing first; escalate on ambiguity, not on
+   guesswork about which will be faster. (2026-07-11: an eval run showed grep-first alone
+   made one legitimate index use case ~4x slower — see the decisions log.)
 
 ## Copyright note
 
