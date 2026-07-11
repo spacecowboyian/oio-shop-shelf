@@ -1,10 +1,12 @@
-# Toyota 4A-FE / 4A-GE ENGINE REPAIR MANUAL (Sep. 1989, English).
-# SECOND manual added to the repo — a dogfood of the convert-manual skill. This is a
-# DISTINCT manual from manuals/toyota-4a-fe-4a-ge/ (that one is the "Engine Service &
-# Maintenance Manual", 219 pp); this is the "Engine REPAIR Manual", 228 pp. Both cover
-# 4A-FE and 4A-GE and heavily interleave the two engines within sections; treat this as
-# its own manual for now (future work may cross-check the two to build best-of-breed
-# per-engine manuals — see the repo's issue tracker).
+# Toyota 4A-FE ENGINE REPAIR MANUAL (Sep. 1989, English).
+# SECOND manual added to the repo — a dogfood of the convert-manual skill. Distinct from
+# manuals/toyota-4a-fe-4a-ge/ (that one is the "Engine Service & Maintenance Manual", 219 pp).
+#
+# NAMING: Toyota's cover titles this "4A-FE, 4A-GE Engine Repair Manual," but in practice it
+# is a **4A-FE** manual — the 4A-GE content is incidental (a few troubleshooting/spec/
+# component references) and is NOT sufficient to rebuild or repair a 4A-GE. We therefore
+# name and describe it as a 4A-FE manual; the handful of 4A-GE references are tagged
+# "(4A-GE)" in the index and inline. See README.md.
 #
 # PROVENANCE / DATA-QUALITY FLAGS (read before trusting a value):
 #  - Source file was an AES-encrypted PDF (print/copy/change disabled); decrypted with
@@ -19,8 +21,8 @@
 #    This is a THIRD-PARTY annotation, not Toyota text. Do NOT apply it to values; record
 #    Toyota's printed values verbatim (Rule 0) and surface this caveat prominently.
 
-slug: toyota-4a-fe-4a-ge-repair
-title: "Toyota 4A-FE / 4A-GE Engine Repair Manual (Sep. 1989)"
+slug: toyota-4a-fe-repair
+title: "Toyota 4A-FE Engine Repair Manual (Sep. 1989)"
 
 source:
   type: local

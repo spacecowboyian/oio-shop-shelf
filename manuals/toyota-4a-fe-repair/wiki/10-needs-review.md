@@ -1,4 +1,4 @@
-# Needs Review — Toyota 4A-FE / 4A-GE Engine Repair Manual (repair)
+# Needs Review — Toyota 4A-FE Engine Repair Manual (repair)
 
 Open flags for this manual. Priority items first. This scan is abridged and carries a
 bogus third-party torque sticker — both are documented here so nobody trusts them by
@@ -42,15 +42,12 @@ Starting, Engine Mechanical, EFI System, Service Specifications). Service Specs 
 image-verified cell-by-cell at 200 dpi; where the manual's own imperial conversions look
 off (e.g. a piston-diameter inch value), the printed value was kept verbatim per Rule 0.
 
-The alphabetical index currently covers the first five chapters. **A consolidated per-engine
-index expansion (adding EM/FI/Charging terms) + a density pass will run after Service
-Specifications**, per plan — the EM/FI content is transcribed and ready to index. The FI and Service-Specification sections' running page codes did not OCR in the
-header/footer band, so `check_page_continuity.py` can't gap-check them automatically; check
-them by eye during cleanup.
+The alphabetical index covers all 9 chapters (single 4A-FE index; baked into the PDF). The
+FI and Service-Specification sections' running page codes did not OCR in the header/footer
+band, so `check_page_continuity.py` can't gap-check them automatically; check them by eye.
 
-### Note on 4A-FE vs 4A-GE specificity
-Per [issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9), the alphabetical
-index is split per engine. Many spec/procedure pages in this scan are titled `(4A-FE)`; the
-4A-GE equivalents (ignition IIA, EFI) are largely **not present** in this scan. When a value
-is engine-specific, cite the engine; when the manual leaves it untagged, don't assume it
-applies to both without checking.
+### Note on the 4A-GE
+This is a **4A-FE** manual (Toyota's cover says "4A-FE, 4A-GE," but the 4A-GE content is
+incidental — see `README.md`). The 4A-GE ignition (IIA) and most EFI/spec detail apply to
+the 4A-FE; genuine 4A-GE-specific items are few and tagged `(4A-GE)`. Don't rely on this
+manual for a 4A-GE rebuild.

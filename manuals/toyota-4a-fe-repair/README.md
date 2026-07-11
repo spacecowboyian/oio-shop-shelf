@@ -1,6 +1,12 @@
-# Toyota 4A-FE / 4A-GE Engine Repair Manual — Overview
+# Toyota 4A-FE Engine Repair Manual — Overview
 
 *What this manual is, what it covers, and what it doesn't. Skim this first for bearings.*
+
+> **A note on the name.** Toyota's cover titles this the "4A-FE, **4A-GE** Engine Repair
+> Manual," and the source PDF filename keeps that title. But in practice **this is a 4A-FE
+> manual**: the 4A-GE content is incidental (a few troubleshooting rows, spec references,
+> and one component diagram) and is **not enough to rebuild or repair a 4A-GE**. So we name
+> and describe it as a 4A-FE manual; the handful of 4A-GE references are tagged `(4A-GE)`.
 
 > **Two kinds of information below, kept separate on purpose:**
 > - **From the manual itself** (authoritative) — the title page, section list, and scope.
@@ -9,22 +15,21 @@
 >   from this manual. It's here for orientation and **should be confirmed** before relying
 >   on it. Better to have approximate context than none — but treat it as review-pending.
 
-## The engines (background — review-pending)
+## The engine (background — review-pending)
 
-Both are members of Toyota's **4A** family: 1.6 L (1587 cc), inline-4, **DOHC 16-valve**,
-cast-iron block with an aluminum head.
+The **4A-FE** is a member of Toyota's **4A** family: 1.6 L (1587 cc), inline-4, **DOHC
+16-valve**, cast-iron block with an aluminum head. It's the economy/mainstream EFI version
+(the "E" line) — ~105 hp / ~142 N·m in this era, produced ~1987–2001. This scan's VIN plate
+reads a 4A-FE (EU market, Sep. 1989).
 
-- **4A-FE** — the economy/mainstream EFI version (the "E" line). ~105 hp / ~142 N·m in this
-  era. Produced ~1987–2001. This is the engine this particular scan primarily documents
-  (its VIN plate reads a 4A-FE, EU market, Sep. 1989).
-- **4A-GE** — the performance version (the "G" line; Yamaha-developed head). The 1989-era
-  16-valve made ~112–130 hp / ~149 N·m; later 20-valve versions made more. Higher-revving,
-  wider valve angle than the 4A-FE.
+**Vehicles it powered (era-appropriate, best-effort):** Corolla, Carina, Corona, Celica ST,
+Camry (late '80s–'90s). Confirm exact model/chassis coverage against the vehicle this book
+came with. *(Sources at the bottom.)*
 
-**Vehicles (era-appropriate, best-effort):** 4A-FE — Corolla, Carina, Corona, Celica ST,
-Camry (late '80s–'90s). 4A-GE — Corolla Levin / Sprinter Trueno (incl. AE86, AE92), Corolla
-GT-S, MR2 (AW11). Exact model/chassis coverage for *this* book should be confirmed against
-the vehicle it came with. *(Sources at the bottom.)*
+**About the 4A-GE:** the 4A-GE is the *performance* sibling (the "G" line; Yamaha-developed
+head, higher-revving — used in the Corolla GT-S / Levin / Sprinter Trueno and MR2 AW11).
+This manual references it only incidentally and does **not** document a 4A-GE rebuild — for
+that you need a 4A-GE-specific manual.
 
 ## This specific manual (from the manual)
 

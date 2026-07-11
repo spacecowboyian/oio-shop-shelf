@@ -1,8 +1,13 @@
-# LLM instructions — Toyota 4A-FE / 4A-GE Engine Repair Manual (repair)
+# LLM instructions — Toyota 4A-FE Engine Repair Manual (repair)
 
 Manual-specific guidance. Read this before answering from this manual. Also read the repo
 root `llm-instructions.md` and `glossary.md`, and answer following the **auto-mechanic**
 rules (never invent/adjust a spec value, cite the source page).
+
+**This is a 4A-FE manual.** Toyota's cover titles it "4A-FE, 4A-GE," but the 4A-GE content
+is incidental and insufficient for a 4A-GE repair. Answer 4A-GE questions only from the
+handful of explicitly `(4A-GE)`-tagged items, and say plainly that this manual doesn't
+cover a 4A-GE rebuild — point the user to a 4A-GE-specific manual.
 
 ## Three provenance landmines — do not ignore
 
@@ -20,23 +25,22 @@ rules (never invent/adjust a spec value, cite the source page).
 3. **Encrypted source.** The original PDF was AES-encrypted (copy/print disabled);
    the committed copy was decrypted with `qpdf --decrypt`. No content was altered.
 
-## 4A-FE vs 4A-GE — keep them straight
+## Incidental 4A-GE content
 
-The book covers **both** engines and switches between them within a section, often tagging
-a subsection `(4A-FE)` or `(4A-GE)` (e.g. "Throttle Body (4A-FE)", "Fuel Pressure Control
-System (4A-GE Europe)", "Service Specifications … (4A-FE)"). When you quote a value or
-procedure, **state which engine it applies to.** If the manual doesn't tag it, say the
-tag was absent rather than assuming it applies to both.
+A few items the manual prints for the 4A-GE are tagged `(4A-GE)` in the text and index
+(e.g. a 4A-GE troubleshooting page, the planetary-starter component diagram, a thermostat
+water-inlet fastener note, an ECU-voltage table for the 4A-GE w/o air flow meter). Treat
+these as **incidental reference**, not 4A-GE repair coverage. Everything untagged is 4A-FE.
 
 ## Cross-checking with the other 4A manual
 
 The repo also has [`toyota-4a-fe-4a-ge`](../../toyota-4a-fe-4a-ge/wiki/00-index.md) (the
 Service & Maintenance Manual). For a gap in THIS abridged scan, that manual may have the
 page. When the two disagree on a value, surface both with their sources — do not silently
-pick one. (A future project will formalize the best-of-breed merge.)
+pick one.
 
 ## Lookup
 
-Cleanup is in progress — most chapters are still raw. For a transcribed chapter (see the
-cleanup column in [00-index.md](00-index.md)), grep the `wiki/*.md` files. For a
-not-yet-cleaned chapter, the answer may only exist in the source PDF pages for that range.
+All 9 chapters are transcribed. Grep the `wiki/*.md` files, or use the baked-in alphabetical
+index in the PDF. Cite the source page. This scan is abridged — if a procedure or spec seems
+missing, it probably is; say so rather than guessing.
