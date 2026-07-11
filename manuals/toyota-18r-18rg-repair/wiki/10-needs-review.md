@@ -1,6 +1,6 @@
 # Needs Review
 
-_30 flag(s) across 11 chapter file(s)._
+_34 flag(s) across 13 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -34,3 +34,7 @@ _30 flag(s) across 11 chapter file(s)._
 | [09-starting-system.md](09-starting-system.md) | OCR read "40 mm"; page image clearly shows "10 mm (0.39 in)" — corrected from image |
 | [10-ignition-system.md](10-ignition-system.md) | OCR text read "13-162"; page image clearly shows "1.3 – 1.6 Ω" — corrected from image |
 | [10-ignition-system.md](10-ignition-system.md) | OCR text read "13-152"; page image clearly shows "1.3 – 1.5 Ω" — corrected from image |
+| [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | page image (image-verified) clearly prints "0.004 – 0.168 in" for the 0.1–0.4 mm range, but 0.4 mm = 0.0157 in, so 0.168 is an apparent misprint in the original manual; the same spec on [PDF p.324] (distributor, except South Africa) prints 0.004 – 0.016 in. |
+| [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | on this page image the NGK plug prints as "BPH6EA, BPR6EY" (H is an OCR/scan misread of R). Transcribed as BPR6EA, BPR6EY per the verified note in the task brief and per the clearer printing on [PDF p.333]. |
+| [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | page image (image-verified) prints the imperial value's second figure as "2.2587" — an apparent original misprint; 31.970 mm = 1.2587 in, so the leading digit should read 1, giving 1.2580 – 1.2587 in. |
+| [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | page image prints "4.503 in" for 114.5 mm, but 114.5 mm = 4.508 in (and the 18R table on [PDF p.320] prints 4.508 in for the same 114.5 mm); "4.503" appears to be an original misprint. |

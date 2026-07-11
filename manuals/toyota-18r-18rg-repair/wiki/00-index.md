@@ -15,8 +15,8 @@
 | 8 | Fuel System (Fuel Pump & Carburetor) | [08-fuel-system.md](08-fuel-system.md) | 176-239 | ✅ done |
 | 9 | Starting System | [09-starting-system.md](09-starting-system.md) | 240-257 | ✅ done |
 | 10 | Ignition System | [10-ignition-system.md](10-ignition-system.md) | 258-284 | ✅ done |
-| 11 | Charging System | 11-charging-system.md | 285-312 | ⬜ pending |
-| 12 | SST & Service Specifications | 12-sst-and-service-specifications.md | 313-335 | ⬜ pending |
+| 11 | Charging System | [11-charging-system.md](11-charging-system.md) | 285-312 | ✅ done |
+| 12 | SST & Service Specifications | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | 313-335 | ✅ done |
 
 ## Reference
 
