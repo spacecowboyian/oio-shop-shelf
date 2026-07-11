@@ -1,0 +1,3 @@
+# Python dependencies for the pipeline scripts.
+# System tools required separately (not pip): ocrmypdf, poppler-utils (pdftoppm, pdftotext, pdffonts).
+PyYAML>=6.0

@@ -1,0 +1,103 @@
+# Reference implementation for oio-shop-shelf.
+# Toyota 4A-F / 4A-GE engine service manual — the worked example the pipeline generalizes from.
+# This manual was transcribed by hand (the original 16-subagent cleanup pass); the wiki/
+# files here are that faithful transcription, ported from Brains. Source PDF is NOT committed
+# (see rights + CONTRIBUTING.md); it lives on Google Drive.
+
+slug: toyota-4a-fe-4a-ge
+title: "Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual"
+
+source:
+  type: url
+  location: "https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view"
+  pages: 219
+
+rights: >
+  Original manual © Toyota Motor Corporation. Only a derived markdown transcription is
+  stored in this repo; the source PDF is hosted separately on Google Drive and is not
+  committed. Publishing status of the transcription is an open question — see
+  CONTRIBUTING.md before redistributing.
+
+ocr:
+  language: eng
+  force: false
+
+render:
+  dpi: 200
+
+# 1-based inclusive source-PDF page ranges (from wiki/00-index.md).
+chapters:
+  - file: "01-preparation.md"
+    title: "Preparation (SST & Service Materials)"
+    page_start: 1
+    page_end: 14
+  - file: "02-service-specifications.md"
+    title: "Service Specifications"
+    page_start: 15
+    page_end: 29
+  - file: "03-charging-system.md"
+    title: "Charging System"
+    page_start: 30
+    page_end: 42
+  - file: "04a-engine-mechanical-inspection.md"
+    title: "Engine Mechanical — Inspection"
+    page_start: 43
+    page_end: 51
+  - file: "04b-engine-mechanical-timing-belt.md"
+    title: "Engine Mechanical — Timing Belt"
+    page_start: 52
+    page_end: 60
+  - file: "04c-engine-mechanical-cylinder-head.md"
+    title: "Engine Mechanical — Cylinder Head"
+    page_start: 61
+    page_end: 81
+  - file: "04d-engine-mechanical-cylinder-block.md"
+    title: "Engine Mechanical — Cylinder Block"
+    page_start: 82
+    page_end: 102
+  - file: "05-ignition-system.md"
+    title: "Ignition System"
+    page_start: 103
+    page_end: 113
+  - file: "06-lubrication-system.md"
+    title: "Lubrication System"
+    page_start: 114
+    page_end: 131
+  - file: "07-cooling-system.md"
+    title: "Cooling System"
+    page_start: 132
+    page_end: 144
+  - file: "08a-efi-system-diagnosis.md"
+    title: "EFI — System / Diagnosis Basics"
+    page_start: 145
+    page_end: 153
+  - file: "08b-efi-dtc-tables.md"
+    title: "EFI — DTC Tables"
+    page_start: 154
+    page_end: 158
+  - file: "08c-efi-troubleshooting-1.md"
+    title: "EFI — Troubleshooting 1"
+    page_start: 159
+    page_end: 166
+  - file: "08d-efi-troubleshooting-2.md"
+    title: "EFI — Troubleshooting 2 & Reference Data"
+    page_start: 167
+    page_end: 175
+  - file: "08e-efi-fuel-injector.md"
+    title: "EFI — Fuel Pump / Regulator / Injector"
+    page_start: 176
+    page_end: 189
+  - file: "08f-efi-throttle-body.md"
+    title: "EFI — Throttle Body"
+    page_start: 190
+    page_end: 200
+  - file: "08g-efi-sensors-relays.md"
+    title: "EFI — Sensors / Relays / VSV / Fuel Cut"
+    page_start: 201
+    page_end: 219
+
+# NOTE: this manual ships hand-curated index files (00-index.md, 09-torque-specs.md,
+# 10-needs-review.md, 11a..11d-alphabetical-index.md) rather than the auto-generated
+# scheme from 05_build_indexes.py. They are richer (multi-file alphabetical index,
+# ~970 entries; per-value torque backlinks) than the generator would produce, so they
+# are kept as-is. 05_build_indexes.py targets NEW manuals that lack curated indexes.

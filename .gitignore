@@ -1,0 +1,20 @@
+# Source manuals are never committed — see CONTRIBUTING.md
+*.pdf
+
+# Regenerable OCR intermediates
+**/raw-ocr/
+**/*.rendered/
+manuals/**/pages/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
