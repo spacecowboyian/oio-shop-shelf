@@ -10,8 +10,12 @@ alphabetical topic index is in the `11*-alphabetical-index.md` files.
 
 ## Rules when answering from this wiki
 
-- **Check the alphabetical index first** for any topic/component/symptom question,
-  before grepping or reading a chapter file directly.
+- **Grep first, escalate to the alphabetical index only when grep is too noisy.** For a
+  specific spec value, code, part number, or exact procedure name, `grep` across the
+  chapter files — it almost always lands you on the right passage in one hop. Escalate
+  to `11*-alphabetical-index.md` when the term is a common component/system name that
+  turns up in many unrelated contexts and you can't quickly tell which hit is relevant —
+  the index pre-splits common terms into disambiguated sub-topic entries.
 - **Cite the chapter file and anchor** you drew an answer from.
 - **Never invent or "correct" a numeric spec.** If a value carries a
   `<!-- NEEDS REVIEW: ... -->` comment, surface that uncertainty to the user rather than
