@@ -78,7 +78,7 @@ Disassemble in numerical order (Fig. 6-4):
 5. Oil Pump Drive Rotor & Driven Rotor
 6. Pump Body Spacer
 
-<!-- NEEDS REVIEW: 18R-G component list/order transcribed from OCR (page image not fully verified); the extra "Pump Body Spacer" vs. the 16R/18R pump is consistent across the 18R-G disassembly and assembly pages. -->
+<!-- image-verified from Fig. 6-4 (PDF p.158): order confirmed 1 Gasket, 2 Strainer, 3 Relief Valve, 4 Pump Cover, 5 Drive & Driven Rotor, 6 Pump Body Spacer. -->
 
 ---
 <a id="p159"></a>
@@ -125,7 +125,7 @@ Assemble in numerical order (reverse of disassembly):
 4. Oil Strainer
 5. Oil Pump Gasket
 
-<!-- NEEDS REVIEW: assembly step order transcribed from the OCR draft (badly garbled); figure not image-verified. It mirrors the disassembly component list in reverse. -->
+<!-- image-verified from Fig. 6-9 (PDF p.160): order confirmed 1 Drive & Driven Rotor, 2 Pump Cover, 3 Relief Valve, 4 Strainer, 5 Gasket. -->
 
 ---
 <a id="p161"></a>
@@ -142,7 +142,7 @@ Assemble in numerical order (Fig. 6-10):
 5. Oil Strainer
 6. Oil Pump Gasket
 
-<!-- NEEDS REVIEW: 18R-G assembly order transcribed from OCR draft; figure not image-verified. -->
+<!-- image-verified from Fig. 6-10 (PDF p.161): order confirmed 1 Pump Body Spacer, 2 Drive & Driven Rotor, 3 Pump Cover, 4 Relief Valve, 5 Strainer, 6 Gasket. -->
 
 ---
 <a id="p162"></a>

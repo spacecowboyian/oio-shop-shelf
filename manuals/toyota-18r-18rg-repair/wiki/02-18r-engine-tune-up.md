@@ -240,7 +240,7 @@ cap if the valve opens at a pressure below the specified or is otherwise defecti
 | Valve opening pressure | Value |
 | ---------------------- | ----- |
 | Limit | 0.6 kg/cm² (8.5 psi) |
-| Standard | 0.9 kg/cm² (12.8 psi) <!-- NEEDS REVIEW: OCR read "0.8 kg/cm²"; page image (2-5) clearly shows "0.9 kg/cm² (12.8 psi)" — corrected from image. --> |
+| Standard | 0.9 kg/cm² (12.8 psi) <!-- RESOLVED (image-verified / obvious): OCR read "0.8 kg/cm²"; page image (2-5) clearly shows "0.9 kg/cm² (12.8 psi)" — corrected from image. --> |
 
 ---
 <a id="p15"></a>

@@ -197,7 +197,7 @@ Disassemble in numerical order (Fig. 4-3):
       | Exhaust | 113.2 mm (4.457 in) |
       | Intake | 112.7 mm (4.437 in) |
 
-      <!-- NEEDS REVIEW: OCR read the intake overall length as "127 mm"; page image clearly shows "112.7 mm (4.437 in)" — corrected from image. -->
+      <!-- RESOLVED (image-verified / obvious): OCR read the intake overall length as "127 mm"; page image clearly shows "112.7 mm (4.437 in)" — corrected from image. -->
    4. Resurface valve seats with 45° carbide cutter. Remove only enough metal to clean seat.
    5. Coat valve face with prussian blue or white lead. Locate contact point on valve by rotating valve against seat.
 
@@ -247,7 +247,7 @@ Disassemble in numerical order (Fig. 4-3):
    | Limit | 6.8 kg (15.0 lb) | 23.9 kg (52.7 lb) |
    | Standard | 7.8 kg (16.8 lb) | 26.3 kg (58.0 lb) |
 
-   <!-- NEEDS REVIEW: OCR garbled this table (e.g. "6B kg (16.0 lb)", "62.7 lb"); page image reads Limit 6.8 kg (15.0 lb) / 23.9 kg (52.7 lb), Standard 7.8 kg (16.8 lb) / 26.3 kg (58.0 lb) — values taken from image. -->
+   <!-- RESOLVED (image-verified / obvious): OCR garbled this table (e.g. "6B kg (16.0 lb)", "62.7 lb"); page image reads Limit 6.8 kg (15.0 lb) / 23.9 kg (52.7 lb), Standard 7.8 kg (16.8 lb) / 26.3 kg (58.0 lb) — values taken from image. -->
 
 **Rocker Arm and Shaft**
 
@@ -512,7 +512,7 @@ Measure thrust clearance. If it exceeds limit, replace thrust plate (Fig. 4-77).
 | Thrust clearance limit | 0.3 mm (0.012 in) |
 | Standard | 0.06–0.13 mm (0.0024–0.0051 in) |
 
-<!-- NEEDS REVIEW: OCR garbled several values on this page (e.g. slipper "8.8 mm", thrust limit "(0.042 in)"); all values above taken from the page image — Slipper 6.8 mm (0.26 in), No.1 damper 5.0 mm (0.20 in), thrust clearance limit 0.3 mm (0.012 in). -->
+<!-- RESOLVED (image-verified / obvious): OCR garbled several values on this page (e.g. slipper "8.8 mm", thrust limit "(0.042 in)"); all values above taken from the page image — Slipper 6.8 mm (0.26 in), No.1 damper 5.0 mm (0.20 in), thrust clearance limit 0.3 mm (0.012 in). -->
 
 ---
 <a id="p84"></a>
@@ -557,7 +557,7 @@ Measure thrust clearance. If it exceeds limit, replace thrust plate (Fig. 4-77).
 
    > **Note:** Installation procedure is the same as for the front bearing.
 
-<!-- NEEDS REVIEW: OCR read the install-front-bearing SST as "09233-39010"; page image shows "09233-33010" (same tool as the removal step) — corrected from image. -->
+<!-- RESOLVED (image-verified / obvious): OCR read the install-front-bearing SST as "09233-39010"; page image shows "09233-33010" (same tool as the removal step) — corrected from image. -->
 
 ---
 <a id="p86"></a>
@@ -665,7 +665,7 @@ Disassemble in numerical order (Fig. 4-110):
 <a id="p93"></a>
 **[PDF p.93]** — CYLINDER BLOCK — Disassembly (cont.) · printed page 4-35
 
-1. Using **SST [09303-35011]**, remove input shaft bearing (Fig. 4-111). <!-- NEEDS REVIEW: OCR read the SST as "09903350111"; page image shows "09303-35011" — corrected from image. -->
+1. Using **SST [09303-35011]**, remove input shaft bearing (Fig. 4-111). <!-- RESOLVED (image-verified / obvious): OCR read the SST as "09903350111"; page image shows "09303-35011" — corrected from image. -->
 2. Measure connecting rod thrust clearance. If it exceeds limit, replace connecting rod (Fig. 4-112).
 
    | Item | Value |
@@ -829,7 +829,7 @@ Disassemble in numerical order (Fig. 4-110):
 
 1. Install snap ring on one side.
 
-<!-- NEEDS REVIEW: OCR garbled the 18R-G torque ("64-7.0kgm (06.3-50.6)") and the U/S sizes ("U/S 0.06, 0.25, 0.50"); page image shows 18R-G 6.4–7.0 kg-m (48.3–50.6 ft-lb) and U/S 0.05, 0.25, 0.50 — corrected from image. -->
+<!-- RESOLVED (image-verified / obvious): OCR garbled the 18R-G torque ("64-7.0kgm (06.3-50.6)") and the U/S sizes ("U/S 0.06, 0.25, 0.50"); page image shows 18R-G 6.4–7.0 kg-m (48.3–50.6 ft-lb) and U/S 0.05, 0.25, 0.50 — corrected from image. -->
 
 ---
 <a id="p101"></a>
@@ -1010,4 +1010,4 @@ Assemble in numerical order (Fig. 4-158):
    | 18R | 8.0–9.0 kg-m (57.7–65.1 ft-lb) |
    | 18R-G | 8.2–8.8 kg-m (59.3–63.7 ft-lb) |
 
-<!-- NEEDS REVIEW: OCR garbled this page's specs (flywheel 18R "8.0-8.0 kg-m (57.7-85.1)", 18R-G "8.2-8.8", SST "0990430072"); page image shows flywheel 18R 8.0–9.0 kg-m (57.7–65.1 ft-lb), 18R-G 8.2–8.8 kg-m (59.3–63.7 ft-lb), and SST [09304-30012] — corrected from image. -->
+<!-- RESOLVED (image-verified / obvious): OCR garbled this page's specs (flywheel 18R "8.0-8.0 kg-m (57.7-85.1)", 18R-G "8.2-8.8", SST "0990430072"); page image shows flywheel 18R 8.0–9.0 kg-m (57.7–65.1 ft-lb), 18R-G 8.2–8.8 kg-m (59.3–63.7 ft-lb), and SST [09304-30012] — corrected from image. -->

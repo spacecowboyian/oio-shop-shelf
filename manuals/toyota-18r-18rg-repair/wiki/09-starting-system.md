@@ -205,7 +205,7 @@ Measure the brush length and replace if below the limit. *(Fig. 9-27)*
 
 | Starter | Item | Standard | Limit |
 | --- | --- | --- | --- |
-| 0.8 kW | Brush length | 16 mm (0.63 in) | 10 mm (0.39 in) <!-- NEEDS REVIEW: OCR read "40 mm"; page image clearly shows "10 mm (0.39 in)" — corrected from image --> |
+| 0.8 kW | Brush length | 16 mm (0.63 in) | 10 mm (0.39 in) <!-- RESOLVED (image-verified / obvious): OCR read "40 mm"; page image clearly shows "10 mm (0.39 in)" — corrected from image --> |
 | 1.0 kW | Brush length | 19 mm (0.75 in) | 12 mm (0.47 in) |
 
 ### Brush Replacement

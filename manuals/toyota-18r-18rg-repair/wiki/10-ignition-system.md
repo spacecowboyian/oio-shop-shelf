@@ -427,9 +427,9 @@ Installation (continued):
 
    | Measurement | Value |
    | --- | --- |
-   | Primary coil resistance (reference only) | 1.3–1.6 Ω <!-- NEEDS REVIEW: OCR text read "13-162"; page image clearly shows "1.3 – 1.6 Ω" — corrected from image --> |
+   | Primary coil resistance (reference only) | 1.3–1.6 Ω <!-- RESOLVED (image-verified / obvious): OCR text read "13-162"; page image clearly shows "1.3 – 1.6 Ω" — corrected from image --> |
    | Secondary coil resistance (reference only) | 10.2–13.8 kΩ |
-   | External resistor resistance (reference only) | 1.3–1.5 Ω <!-- NEEDS REVIEW: OCR text read "13-152"; page image clearly shows "1.3 – 1.5 Ω" — corrected from image --> |
+   | External resistor resistance (reference only) | 1.3–1.5 Ω <!-- RESOLVED (image-verified / obvious): OCR text read "13-152"; page image clearly shows "1.3 – 1.5 Ω" — corrected from image --> |
 
 ---
 <a id="p283"></a>

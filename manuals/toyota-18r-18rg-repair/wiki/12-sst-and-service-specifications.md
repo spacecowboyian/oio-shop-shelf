@@ -669,7 +669,7 @@ columns give the acceptable range. All values image-verified.
 | Spark plug heat range — NGK | BPR6EA, BPR6EY | |
 | Spark plug gap | 0.7 – 0.8 mm | 0.028 – 0.031 in |
 
-<!-- NEEDS REVIEW: on this page image the NGK plug prints as "BPH6EA, BPR6EY" (H is an OCR/scan misread of R). Transcribed as BPR6EA, BPR6EY per the verified note in the task brief and per the clearer printing on [PDF p.333]. -->
+<!-- RESOLVED (image-verified / obvious): on this page image the NGK plug prints as "BPH6EA, BPR6EY" (H is an OCR/scan misread of R). Transcribed as BPR6EA, BPR6EY per the verified note in the task brief and per the clearer printing on [PDF p.333]. -->
 
 ---
 <a id="p327"></a>

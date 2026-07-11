@@ -380,7 +380,7 @@ leather (Fig. 8-38).
 
    | Item | Value |
    | ---- | ----- |
-   | Standard clearance | 0.91 mm (0.036 in) <!-- NEEDS REVIEW: OCR read "10.91 mm (0.036 in)"; page image (Fig. 8-42) clearly shows 0.91 mm — corrected from image (0.036 in confirms 0.91). --> |
+   | Standard clearance | 0.91 mm (0.036 in) <!-- RESOLVED (image-verified / obvious): OCR read "10.91 mm (0.036 in)"; page image (Fig. 8-42) clearly shows 0.91 mm — corrected from image (0.036 in confirms 0.91). --> |
 
 ---
 <a id="p194"></a>
