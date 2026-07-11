@@ -37,8 +37,10 @@ Only Starting System is transcribed so far; its flags:
 | 02-engine-mechanical | Missing pages throughout EM | Many EM pages absent (EM-37 missing; EM-11…EM-32 not present in the p33+ range; cylinder-block detail largely absent). |
 | 03-efi-system | FI section-page skips | The abridged FI section skips pages in several places (flagged inline per block). |
 
-**Done: Introduction, Cooling, Lubrication, Ignition, Charging, Starting, Engine Mechanical,
-EFI System.** Only **Service Specifications** remains (deliberately last).
+**All 9 chapters transcribed** (Introduction, Cooling, Lubrication, Ignition, Charging,
+Starting, Engine Mechanical, EFI System, Service Specifications). Service Specs was
+image-verified cell-by-cell at 200 dpi; where the manual's own imperial conversions look
+off (e.g. a piston-diameter inch value), the printed value was kept verbatim per Rule 0.
 
 The alphabetical index currently covers the first five chapters. **A consolidated per-engine
 index expansion (adding EM/FI/Charging terms) + a density pass will run after Service

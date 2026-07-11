@@ -33,7 +33,7 @@ content from the two into per-engine manuals; for now treat this as its own manu
 | IG | Ignition System (**4A-FE** only in this scan) | [06-ignition-system.md](06-ignition-system.md) | 197–207 | ✅ done |
 | ST | Starting System | [07-starting-system.md](07-starting-system.md) | 208–212 | ✅ done |
 | CH | Charging System | [08-charging-system.md](08-charging-system.md) | 213–218 | ✅ done |
-| A/B/C | Service Specs, Bolt Torque, SST & SSM | [09-service-specifications-torque-sst.md](09-service-specifications-torque-sst.md) | 219–228 | ☐ pending |
+| A/B/C | Service Specs, Bolt Torque, SST & SSM | [09-service-specifications-torque-sst.md](09-service-specifications-torque-sst.md) | 219–228 | ✅ done |
 
 **Alphabetical index — split per engine** (shared entries appear in both; grows as chapters
 are cleaned): [4A-FE](11a-alphabetical-index.md) · [4A-GE](11b-alphabetical-index.md). A
