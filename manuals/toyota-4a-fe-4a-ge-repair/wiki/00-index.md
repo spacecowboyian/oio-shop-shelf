@@ -26,7 +26,7 @@ content from the two into per-engine manuals; for now treat this as its own manu
 | Code | Chapter | File | PDF pages | Cleanup |
 |---|---|---|---|---|
 | IN | Introduction | [01-introduction.md](01-introduction.md) | 2–9 | ✅ done |
-| EM | Engine Mechanical (4A-FE / 4A-GE) | [02-engine-mechanical.md](02-engine-mechanical.md) | 10–75 | ☐ pending |
+| EM | Engine Mechanical (4A-FE / 4A-GE) | [02-engine-mechanical.md](02-engine-mechanical.md) | 10–75 | ◑ partial (Description, Troubleshooting, Tune-up done; Timing Belt / Cylinder Head / Block pending) |
 | FI | EFI System (4A-FE / 4A-GE) | [03-efi-system.md](03-efi-system.md) | 76–169 | ☐ pending |
 | CO | Cooling System | [04-cooling-system.md](04-cooling-system.md) | 170–188 | ✅ done |
 | LU | Lubrication System | [05-lubrication-system.md](05-lubrication-system.md) | 189–196 | ✅ done |
