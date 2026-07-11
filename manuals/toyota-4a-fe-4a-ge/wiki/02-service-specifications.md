@@ -236,7 +236,7 @@ Verified against the PDF scan (p.17) — Class column (4T-11T) confirmed correct
 | Crankshaft | Main journal oil clearance | Maximum | 0.08 mm (0.0031 in.) |
 | Crankshaft | Main journal diameter | STD | 47.982–48.010 mm (1.8891–1.8898 in.) |
 | Crankshaft | Main journal diameter | U/S 0.25 | 47.745–47.555 mm (1.8797–1.8801 in.) |
-<!-- NEEDS REVIEW: main journal U/S 0.25 diameter range "47.745 —47.555 mm" is inverted (upper bound smaller than lower bound) — likely an OCR digit swap in one of the two values, left unaltered (PDF p.20, crankshaft table) -->
+<!-- NEEDS REVIEW: main journal U/S 0.25 diameter range "47.745 —47.555 mm" is inverted (upper bound smaller than lower bound) — likely an OCR digit swap in one of the two values, left unaltered (PDF p.20, crankshaft table). CORROBORATING VALUE FOUND 2026-07-11: an independent, unflagged listing of the same spec exists at 04d-engine-mechanical-cylinder-block.md#p95 (PDF p.95, "INSPECT MAIN JOURNALS AND CRANK PINS"), reading "47.745–47.755 mm (1.8797–1.8801 in.)" — internally consistent (ascending range) and matches its own inch conversion exactly. This value was NOT altered here per the never-silently-correct rule, but the p.95 listing is very likely the correct reading; verify against the source PDF before treating either as final. -->
 | Crankshaft | Main bearing center wall thickness (Reference) | STD, Mark 1 | 2.002–2.005 mm (0.0788–0.0789 in.) |
 | Crankshaft | Main bearing center wall thickness (Reference) | STD, Mark 2 | 2.005–2.008 mm (0.0789–0.0791 in.) |
 | Crankshaft | Main bearing center wall thickness (Reference) | STD, Mark 3 | 2.008–2.011 mm (0.0791–0.0792 in.) |
