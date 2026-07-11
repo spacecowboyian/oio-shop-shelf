@@ -33,10 +33,16 @@ Only Starting System is transcribed so far; its flags:
 | 08-charging-system | Missing page CH-3 + alternator R&R (CH-8+) | On-vehicle inspection first steps (CH-3) and the alternator disassembly/inspection/reassembly (CH-8 onward) are absent; this scan ends at CH-7 (components). |
 | 08-charging-system | Charging-circuit fuse/FL ratings | Read from the wiring diagram; verify against the page image. |
 
-Chapters EM, FI, and the spec sections are **not yet cleaned** — their flags will be added
-as they're transcribed. **Done so far: Introduction, Cooling, Lubrication, Ignition,
-Charging, Starting.** The alphabetical index still covers the earlier chapters only; it
-will be expanded per-engine in one consolidated pass after EM/FI are transcribed. The FI and Service-Specification sections' running page codes did not OCR in the
+| 02-engine-mechanical | **Physical pages out of logical order** | The scan's physical page order does not follow the section codes (e.g. physical p23=EM-33, but p28–32=EM-6…10). Content in the EM file is ordered by physical page (so `[PDF p.N]` links are correct); read by the EM-code in each heading, not scroll order. |
+| 02-engine-mechanical | Missing pages throughout EM | Many EM pages absent (EM-37 missing; EM-11…EM-32 not present in the p33+ range; cylinder-block detail largely absent). |
+| 03-efi-system | FI section-page skips | The abridged FI section skips pages in several places (flagged inline per block). |
+
+**Done: Introduction, Cooling, Lubrication, Ignition, Charging, Starting, Engine Mechanical,
+EFI System.** Only **Service Specifications** remains (deliberately last).
+
+The alphabetical index currently covers the first five chapters. **A consolidated per-engine
+index expansion (adding EM/FI/Charging terms) + a density pass will run after Service
+Specifications**, per plan — the EM/FI content is transcribed and ready to index. The FI and Service-Specification sections' running page codes did not OCR in the
 header/footer band, so `check_page_continuity.py` can't gap-check them automatically; check
 them by eye during cleanup.
 
