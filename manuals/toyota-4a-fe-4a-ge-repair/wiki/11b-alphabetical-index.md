@@ -3,7 +3,7 @@
 
 Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to both engines
 (also listed in the [4A-FE index](11a-alphabetical-index.md)) plus 4A-GE-only entries
-(marked `[4A-GE]`). ****Now covers all nine chapters** (4A-GE-specific + shared entries).**
+(marked `[4A-GE]`). ****Now covers all nine chapters** (4A-GE-specific + shared).**
 
 > Note: much of this scan's engine-specific content (e.g. the Integrated Ignition Assembly)
 > is **4A-FE only** and is intentionally **absent** here — a 4A-GE user should not be handed
@@ -14,6 +14,7 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 ## A
 
 - Abbreviations used in this manual — [01-introduction.md#p9](01-introduction.md#p9) ([PDF p.9])
+- Air Valve — installation — [03-efi-system.md#p146](03-efi-system.md#p146) ([PDF p.146])
 - Antifreeze / ethylene-glycol coolant — [04-cooling-system.md#p174](04-cooling-system.md#p174) ([PDF p.174])
 
 ## B
@@ -33,11 +34,13 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 
 ## D
 
-- Diagnostic Codes (4A-GE) — [03-efi-system.md#p100](03-efi-system.md#p100) ([PDF p.100])
+- Diagnosis Circuit — inspection — [03-efi-system.md#p101](03-efi-system.md#p101) ([PDF p.101])
 - Drive belt (alternator), adjust — [04-cooling-system.md#p181](04-cooling-system.md#p181) ([PDF p.181])
+- DTC (diagnostic codes) (4A-GE) — [03-efi-system.md#p100](03-efi-system.md#p100) ([PDF p.100])
 
 ## E
 
+- ECU — inspection — [03-efi-system.md#p161](03-efi-system.md#p161) ([PDF p.161])
 - EFI System Check Procedure — [03-efi-system.md#p105](03-efi-system.md#p105) ([PDF p.105])
 - Engine ECU — [03-efi-system.md#p161](03-efi-system.md#p161) ([PDF p.161])
 - Engine main relay, inspection — [04-cooling-system.md#p187](04-cooling-system.md#p187) ([PDF p.187])
@@ -56,12 +59,6 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 
 - Hold-in test (starter) — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
 - How to use this manual — [01-introduction.md#p3](01-introduction.md#p3) ([PDF p.3])
-
-## I
-
-- Inspection Of Diagnosis Circuit — [03-efi-system.md#p101](03-efi-system.md#p101) ([PDF p.101])
-- Inspection Of ECU — [03-efi-system.md#p161](03-efi-system.md#p161) ([PDF p.161])
-- Installation Of Air Valve — [03-efi-system.md#p146](03-efi-system.md#p146) ([PDF p.146])
 
 ## L
 

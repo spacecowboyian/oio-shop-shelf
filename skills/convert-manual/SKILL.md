@@ -83,11 +83,28 @@ with `<!-- NEEDS REVIEW: ... -->` instead of guessing; those roll up into
 from step 02. The rules are a *living standard* — if this manual surfaces a case
 they don't cover, propose an edit to that file in your PR (see issue #3).
 
+**REQUIRED — use the `auto-mechanic` skill for domain judgment.** Load the
+[`auto-mechanic`](../auto-mechanic/SKILL.md) skill and its `glossary.md` while cleaning up
+**and** while making index decisions. Transcription alone doesn't tell you what a term,
+table, or code *means*. The glossary supplies: canonical component/abbreviation names
+(ECU, TPS, VSV, ISC, DTC, MIL vs SRI…), torque-table + torque-to-yield conventions, and the
+**OCR-misread patterns** (Ω→"2", l→i, h→li, rn→m, unreliable punctuation) you must screen
+for before treating an odd value or term as real. This is not optional polish — it's how a
+faithful transcription becomes a *usable* one.
+
 ## 5. Build the index files
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
 ```
+
+**Curate index terms with the `auto-mechanic` lens.** A mechanic looks things up by
+**component and symptom**, not by procedure verb: write **component-first** entries
+("Water pump — installation", "Injector — resistance inspection", "Auxiliary air valve —
+removal"), not verb-first ("Install Water Pump"). Use the glossary's canonical names and
+surface standard aliases (e.g. also list diagnostic codes under **DTC**). Screen every
+term for OCR artifacts. For multi-model manuals, split the index per model and tag each
+entry (see [issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9)).
 
 Generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
 alphabetical index. (The 4A-GE reference ships hand-curated richer indexes; new
