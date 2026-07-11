@@ -78,7 +78,9 @@ scripts/                    01-06 pipeline + 07 optional Brains mirror (disabled
 llm-instructions.md         entry point for ANY LLM answering questions from a manual here
 glossary.md                  automotive terminology + OEM manual conventions an LLM needs
                               to correctly interpret a manual, not just read it
-.claude/skills/              thin Claude Code Skill wrapper around llm-instructions.md
+.claude/skills/oio-shop-shelf/   thin Claude Code Skill wrapper around llm-instructions.md
+.claude/skills/auto-mechanic/    standalone, installable Skill — general auto-mechanic
+                                  persona + bundled glossary, works even without this repo
 ```
 
 ## Using this repo with an AI assistant
@@ -90,6 +92,22 @@ follows (never alter a spec value, cite source pages, etc.), points at
 an LLM needs to *understand* a manual rather than just read it, then routes to the
 manual-specific `wiki/llm-instructions.md` for the one the user's asking about. Claude
 Code users get this automatically via `.claude/skills/oio-shop-shelf/`.
+
+## `auto-mechanic` — a standalone Claude Code Skill for anyone
+
+[`.claude/skills/auto-mechanic/`](.claude/skills/auto-mechanic/) is a separate, more
+general Skill: an experienced-mechanic persona for diagnosing symptoms, explaining
+procedures, and correctly reading automotive terminology — not limited to manuals in
+this repo. It bundles its own copy of `glossary.md` so it works standalone. To install
+it, copy the folder into your own `~/.claude/skills/`:
+
+```bash
+cp -r .claude/skills/auto-mechanic ~/.claude/skills/
+```
+
+The bundled glossary may lag the canonical copy at the repo root — this Skill is meant
+to be broadly useful on its own, but the fullest, most current reference always lives
+here.
 
 ## Status
 
