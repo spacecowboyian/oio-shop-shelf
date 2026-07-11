@@ -5,7 +5,10 @@ description: Answer questions from the OEM service manuals hosted in this repo (
 
 Read `llm-instructions.md` at the repo root first — it covers how manuals are laid out,
 how to pick the right one, and the rules that apply to every manual in this repo
-(never alter a spec value, check `10-needs-review.md`, cite source pages, etc.).
+(never alter a spec value, check `10-needs-review.md`, cite source pages, etc.). It
+points you at `glossary.md` next — read that too before answering. Having the manual
+text isn't the same as understanding it (SST, DTC vs. MIL/SRI, torque-table
+conventions, OCR misread patterns); the glossary is what closes that gap.
 
 Once you've identified the right manual from its slug, read that manual's
 `wiki/llm-instructions.md` before answering — it has manual-specific details (exact
