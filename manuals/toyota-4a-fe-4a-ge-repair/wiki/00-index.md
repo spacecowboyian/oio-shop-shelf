@@ -35,11 +35,13 @@ content from the two into per-engine manuals; for now treat this as its own manu
 | CH | Charging System | [08-charging-system.md](08-charging-system.md) | 213–218 | ✅ done |
 | A/B/C | Service Specs, Bolt Torque, SST & SSM | [09-service-specifications-torque-sst.md](09-service-specifications-torque-sst.md) | 219–228 | ✅ done |
 
-**Alphabetical index — split per engine** (shared entries appear in both; grows as chapters
-are cleaned): [4A-FE](11a-alphabetical-index.md) · [4A-GE](11b-alphabetical-index.md). A
-4A-GE user won't be handed 4A-FE-only content (e.g. the IIA ignition specs), and vice
-versa. See [issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9) for the
-per-model direction.
+**Alphabetical index — "primary + differences" model:** a
+[**main index (4A-FE & 4A-GE)**](11a-alphabetical-index.md) covering the whole manual (the
+4A-FE is the reference engine; entries apply to the 4A-GE too unless marked `(4A-FE only)`),
+plus a short [**4A-GE differences**](11b-alphabetical-index.md) index listing only where the
+4A-GE genuinely differs. This matches how the manual is written and doesn't mislead a 4A-GE
+reader into thinking most of the manual doesn't apply to them. See
+[issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9).
 
 Pending chapters have a raw draft in `raw-ocr/` (gitignored) ready for the cleanup step
 per [`scripts/04_cleanup_methodology.md`](../../../scripts/04_cleanup_methodology.md).
