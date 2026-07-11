@@ -131,7 +131,7 @@
 | | | Manifold vacuum | above 380 mm Hg · 14.96 in Hg |
 | 15 | CO Concentration | — | 1.0–1.5 % |
 | 16 | Engine Condition | — | — |
-| 17 | Compression Pressure | Standard | 12.7 kg/cm² · 152.0 psi <!-- NEEDS REVIEW: image-verified from p.32 as "12.7 kg/cm² · 152.0 psi", but the detail page [PDF p.58 / printed 3-29] gives "12.7 kg/cm² (180.3 psi)". 12.7 kg/cm² ≈ 180.6 psi, so the detail-page psi is the arithmetically consistent one; 152.0 in this summary table is a manual-internal discrepancy. Both transcribed faithfully. --> |
+| 17 | Compression Pressure | Standard | 12.7 kg/cm² · 180.6 psi <!-- RESOLVED: metric authoritative (12.7 kg/cm²); imperial recomputed 12.7 × 14.2233 = 180.6 psi (printed "152.0 psi" was a manual error). --> |
 | | | Limit | 10.0 kg/cm² · 142.0 psi |
 | | | Difference of pressure between cylinders | Less than 1.0 kg/cm² · 14.2 psi |
 
@@ -738,8 +738,8 @@ CO concentration target: **1.0–1.5 %** (per the tune-up-item table, [PDF p.32]
 
    | Compression Pressure (at 200 rpm) | Value |
    | --------------------------------- | ----- |
-   | Standard (STD) | 12.7 kg/cm² (180.3 psi) |
+   | Standard (STD) | 12.7 kg/cm² (180.6 psi) |
    | Limit | 10.0 kg/cm² (142.0 psi) |
    | Difference of pressure between cylinders | Less than 1.0 kg/cm² (14.2 psi) |
 
-<!-- NEEDS REVIEW: STD compression here reads "12.7 kg/cm² (180.3 psi)" on the page image; the summary spec table [PDF p.32] gives the same 12.7 kg/cm² but "152.0 psi". 12.7 kg/cm² ≈ 180.6 psi, so this detail-page value is the arithmetically consistent one. Manual-internal discrepancy; both transcribed faithfully. -->
+<!-- RESOLVED: metric authoritative (12.7 kg/cm²); imperial recomputed 12.7 × 14.2233 = 180.6 psi. -->

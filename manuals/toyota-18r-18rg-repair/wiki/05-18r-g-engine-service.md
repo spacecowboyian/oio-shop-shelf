@@ -292,7 +292,7 @@ listed under [PDF p.113](#p113).
       | Oil clearance | Value |
       | ------------- | ----- |
       | Limit | 0.1 mm (0.004 in) |
-      | Standard | 0.02 – 0.03 mm (0.008 – 0.0012 in) <!-- NEEDS REVIEW: imperial "0.008" appears to be an original manual misprint — 0.02–0.03 mm ≈ 0.0008–0.0012 in. Transcribed exactly as printed on the page image (5-15). --> |
+      | Standard | 0.02 – 0.03 mm (0.0008 – 0.0012 in) <!-- RESOLVED: metric authoritative (0.02–0.03 mm); imperial recomputed 0.02 mm = 0.0008 in, 0.03 mm = 0.0012 in (printed "0.008" was a manual typo). --> |
 
 2. Valve lifter selective fits.
 
