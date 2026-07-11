@@ -4,18 +4,20 @@
 slug: example-make-model            # (required) folder-safe id, matches the folder name
 title: "Example Make/Model Service Manual"   # (required) human title for the index
 
-# (required) Pointer to the SOURCE PDF. This is NEVER committed to the repo.
-# Use a URL or a path on your own machine/drive. See CONTRIBUTING.md on copyright.
+# (required) Pointer to the SOURCE PDF. Default posture: commit it into this folder
+# (type: local, a filename relative to this manifest) so an AI assistant reading the
+# wiki can open it for diagrams/wiring charts. See CONTRIBUTING.md on copyright risk.
 source:
-  type: url                         # url | local
-  location: "https://drive.example.com/your-source.pdf"
+  type: local                       # local | url
+  location: "your-source.pdf"
   pages: 219                        # total page count of the source PDF
 
 # (required) Rights / license note for THIS manual's content (not the tooling).
-# Be honest about provenance. If unsure you may publish a transcription, do not open a PR.
+# Be honest about provenance — name the copyright holder and note that no license was
+# sought, if that's the case.
 rights: >
-  Copyright of the original manual belongs to its publisher. Only a derived
-  transcription is stored here; the source PDF is hosted separately and not committed.
+  Copyright of the original manual belongs to its publisher. No license was sought;
+  committing it here is a considered risk, taken deliberately. See CONTRIBUTING.md.
 
 # OCR settings for 01_prepare_pdf.py
 ocr:

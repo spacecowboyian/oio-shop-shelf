@@ -1,6 +1,3 @@
-# Source manuals are never committed — see CONTRIBUTING.md
-*.pdf
-
 # Regenerable OCR intermediates
 **/raw-ocr/
 **/*.rendered/

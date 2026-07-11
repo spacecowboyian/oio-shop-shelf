@@ -1,22 +1,22 @@
 # Reference implementation for oio-shop-shelf.
 # Toyota 4A-F / 4A-GE engine service manual — the worked example the pipeline generalizes from.
 # This manual was transcribed by hand (the original 16-subagent cleanup pass); the wiki/
-# files here are that faithful transcription, ported from Brains. Source PDF is NOT committed
-# (see rights + CONTRIBUTING.md); it lives on Google Drive.
+# files here are that faithful transcription, ported from Brains. Source PDF is committed
+# alongside this manifest (see rights + CONTRIBUTING.md) so an AI assistant reading the
+# wiki can open it directly for diagrams/wiring charts.
 
 slug: toyota-4a-fe-4a-ge
 title: "Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual"
 
 source:
-  type: url
-  location: "https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view"
+  type: local
+  location: "Toyota-4A-F-4A-GE-engine-manual-OCR.pdf"
   pages: 219
 
 rights: >
-  Original manual © Toyota Motor Corporation. Only a derived markdown transcription is
-  stored in this repo; the source PDF is hosted separately on Google Drive and is not
-  committed. Publishing status of the transcription is an open question — see
-  CONTRIBUTING.md before redistributing.
+  Original manual © Toyota Motor Corporation. Both the derived markdown transcription
+  and the source PDF are committed to this repo without a license from Toyota — a
+  considered risk, not an oversight. See CONTRIBUTING.md.
 
 ocr:
   language: eng

@@ -62,6 +62,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full end-to-end workflow.
 manuals/
   <manual-slug>/            e.g. toyota-4a-fe-4a-ge/
     manifest.yml            title, source pointer, license note, chapter page-ranges → filenames
+    <manual>.pdf             source PDF, committed alongside the wiki — see Licensing below
     wiki/                   generated output — THE SOURCE OF TRUTH
       00-index.md
       01-....md, 02-....md  one file per chapter (split further if huge)
@@ -89,11 +90,13 @@ Pre-release (**v0.1**, scaffolding). See the milestones below.
 
 The **tooling** in this repo is released under [MIT](LICENSE) *(placeholder — may change to Apache-2.0)*.
 
-**Source manuals are a separate matter.** OEM service manuals are typically copyrighted.
-This repo does **not** commit source PDFs — `manifest.yml` points to wherever the
-contributor hosts the source. Whether a derived-transcription markdown file is itself
-safe to publish under a given manual's copyright is an **open legal question**; see the
-prominent note in [CONTRIBUTING.md](CONTRIBUTING.md) and do not assume it is settled.
+**Source manuals are a separate matter.** OEM service manuals are typically copyrighted
+by the manufacturer/publisher, and this repo commits the source PDF alongside each
+manual's wiki anyway — deliberately, so both the markdown and an AI assistant reading it
+can cross-check diagrams, wiring charts, and exploded views that never made it into text.
+This is a considered risk, not an oversight: no license/permission has been sought from
+any manufacturer, and a takedown request could land at any time. See
+[CONTRIBUTING.md](CONTRIBUTING.md) before adding a new manual.
 
 ---
 
