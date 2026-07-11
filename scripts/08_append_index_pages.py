@@ -11,10 +11,14 @@ Because the index pages are appended after the manual, source PDF page N is the
 same as combined-PDF page N; an entry citing "[PDF p.N]" links straight to page N.
 
 Usage:
-    python scripts/08_append_index_pages.py <manuals/slug/> [--output PATH]
+    python scripts/08_append_index_pages.py <manuals/slug/> [--in-place | --output PATH]
 
-The source PDF (manifest source.location) is never modified in place; output is
-written to a new file (default: <source-stem>-indexed.pdf next to the source).
+By default the source PDF (manifest source.location) is left untouched and the
+result is written to <source-stem>-indexed.pdf. Pass --in-place to bake the index
+into the shipped PDF itself (so downloading it from the repo gives the indexed
+manual). --in-place is idempotent: a stamped page-count marker lets a re-run find
+and replace the previously appended index instead of duplicating it, and the
+pristine (pre-index) manual is always recoverable from that marker.
 
 Depends on PyMuPDF (see scripts/requirements.txt).
 """
@@ -245,11 +249,31 @@ def build(doc: fitz.Document, chapters, alpha, title: str) -> list[tuple[int, st
     return toc
 
 
+MARKER_RE = re.compile(r"oio-index-base:(\d+)")
+
+
+def strip_prior_index(doc: fitz.Document) -> None:
+    """If this PDF already has appended index pages (from a previous run), remove
+    them so the operation is idempotent — re-running never double-appends."""
+    kw = (doc.metadata or {}).get("keywords") or ""
+    m = MARKER_RE.search(kw)
+    if not m:
+        return
+    base = int(m.group(1))
+    if 0 < base < doc.page_count:
+        doc.delete_pages(from_page=base, to_page=doc.page_count - 1)
+    # drop outline entries that pointed into the removed pages
+    doc.set_toc([t for t in doc.get_toc() if t[2] <= base])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("manual_dir")
     ap.add_argument("--output", help="output PDF path (default: <src-stem>-indexed.pdf)")
+    ap.add_argument("--in-place", action="store_true",
+                    help="write the index back into the source PDF (idempotent: "
+                         "existing index pages are replaced, not duplicated)")
     ap.add_argument("--force", action="store_true",
                     help="allow overwriting the source PDF in place")
     args = ap.parse_args()
@@ -272,12 +296,17 @@ def main() -> int:
     if not chapters and not alpha:
         sys.exit("No index entries parsed — check 00-index.md / 11*-alphabetical-index.md.")
 
-    out = Path(args.output).resolve() if args.output \
-        else src.with_name(src.stem + "-indexed.pdf")
-    if out == src.resolve() and not args.force:
-        sys.exit(f"Refusing to overwrite source {src}. Use --output or --force.")
+    if args.in_place:
+        out = src.resolve()
+    else:
+        out = Path(args.output).resolve() if args.output \
+            else src.with_name(src.stem + "-indexed.pdf")
+    in_place = out == src.resolve()
+    if in_place and not (args.in_place or args.force):
+        sys.exit(f"Refusing to overwrite source {src}. Use --in-place, --output, or --force.")
 
     doc = fitz.open(src)
+    strip_prior_index(doc)                     # idempotent: clear any prior appended index
     n_source = doc.page_count
     bad = [p for _, _, p in alpha if p < 1 or p > n_source] + \
           [p for _, p in chapters if p < 1 or p > n_source]
@@ -287,15 +316,31 @@ def main() -> int:
     toc = build(doc, chapters, alpha, manifest["title"])
     doc.set_toc(doc.get_toc() + toc)
 
-    out.parent.mkdir(parents=True, exist_ok=True)
-    doc.save(str(out), deflate=True, garbage=3)
-    doc.close()
+    # stamp the true (pre-index) page count so a future run can find & replace our pages
+    md = doc.metadata or {}
+    kw = MARKER_RE.sub("", md.get("keywords") or "").strip()
+    md["keywords"] = f"{kw} oio-index-base:{n_source}".strip()
+    doc.set_metadata(md)
 
-    added = fitz.open(str(out)).page_count - n_source
+    out.parent.mkdir(parents=True, exist_ok=True)
+    # saving in place requires incremental=False + a temp; PyMuPDF disallows plain
+    # same-file save, so write to a sibling temp and replace.
+    if in_place:
+        tmp = out.with_name(out.name + ".tmp")
+        doc.save(str(tmp), deflate=True, garbage=3)
+        doc.close()
+        tmp.replace(out)
+    else:
+        doc.save(str(out), deflate=True, garbage=3)
+        doc.close()
+
+    final = fitz.open(str(out))
+    added = final.page_count - n_source
+    final.close()
     print(f"Appended {added} index page(s): "
           f"{len(chapters)} chapters + {len(alpha)} alphabetical entries.")
-    print(f"Wrote {out} ({out.stat().st_size // 1024} KB). Source PDF untouched.")
-    print("Upload this file to Drive to replace the linked PDF, if desired.")
+    where = "into the source PDF (in place)" if in_place else "to a new file; source untouched"
+    print(f"Wrote {out} ({out.stat().st_size // 1024} KB) — {where}.")
     return 0
 
 

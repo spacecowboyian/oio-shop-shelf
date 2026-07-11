@@ -53,9 +53,9 @@ PDF ──01_prepare──▶ OCR'd PDF ──02_render──▶ page PNGs ┐
                                      │
                               06_check_links (also runs in CI)
                                      │
-                              08_append_index_pages ─▶ *-indexed.pdf
+                              08_append_index_pages --in-place
                               (chapter + alphabetical index baked into
-                               the PDF as clickable, searchable pages)
+                               the shipped PDF as clickable, searchable pages)
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full end-to-end workflow. The
