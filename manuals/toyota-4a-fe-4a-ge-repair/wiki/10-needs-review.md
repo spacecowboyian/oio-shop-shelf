@@ -21,7 +21,12 @@ Only Starting System is transcribed so far; its flags:
 | 07-starting-system | Pinion clearance "1 – 5 mm (0.04 – 0.20 in.)" | Verified against page image and internally consistent, but unusually large; confirm against a complete copy. |
 | 07-starting-system | Fusible-link ratings in circuit diagram | OCR'd from a wiring diagram (e.g. "80A"/"BOA", "AT180"/"AT1 BO" ambiguous); verify against the page image before quoting. |
 
-Chapters IN, EM, FI, CO, LU, IG, CH, and the spec sections are **not yet cleaned** — their
-flags will be added as they're transcribed. The FI, CO, and Service-Specification sections'
-running page codes did not OCR in the header/footer band, so `check_page_continuity.py`
-can't gap-check them automatically; check them by eye during cleanup.
+| 04-cooling-system | Missing pages CO-16…CO-20 | Radiator components/disassembly/assembly absent from this scan (jumps CO-15 → CO-21). |
+| 04-cooling-system | Thermostat valve lift "at 95°C" | OCR read 96°C; page image (CO-13) and the °F value (203°F = 95°C) confirm **95°C** — corrected from image. |
+| 04-cooling-system | Cooling-fan circuit fuse/FL ratings | Read from a wiring diagram (e.g. "80A (AT171)" OCR'd "SOA"); verify against the page image before quoting. |
+
+Chapters EM, FI, LU, IG, CH, and the spec sections are **not yet cleaned** — their flags
+will be added as they're transcribed. Done so far: Introduction, Cooling System, Starting
+System. The FI and Service-Specification sections' running page codes did not OCR in the
+header/footer band, so `check_page_continuity.py` can't gap-check them automatically; check
+them by eye during cleanup.

@@ -25,18 +25,22 @@ content from the two into per-engine manuals; for now treat this as its own manu
 
 | Code | Chapter | File | PDF pages | Cleanup |
 |---|---|---|---|---|
-| IN | Introduction | [01-introduction.md](01-introduction.md) | 2–9 | ☐ pending |
+| IN | Introduction | [01-introduction.md](01-introduction.md) | 2–9 | ✅ done |
 | EM | Engine Mechanical (4A-FE / 4A-GE) | [02-engine-mechanical.md](02-engine-mechanical.md) | 10–75 | ☐ pending |
 | FI | EFI System (4A-FE / 4A-GE) | [03-efi-system.md](03-efi-system.md) | 76–169 | ☐ pending |
-| CO | Cooling System | [04-cooling-system.md](04-cooling-system.md) | 170–188 | ☐ pending |
+| CO | Cooling System | [04-cooling-system.md](04-cooling-system.md) | 170–188 | ✅ done |
 | LU | Lubrication System | [05-lubrication-system.md](05-lubrication-system.md) | 189–196 | ☐ pending |
 | IG | Ignition System (4A-FE / 4A-GE) | [06-ignition-system.md](06-ignition-system.md) | 197–207 | ☐ pending |
 | ST | Starting System | [07-starting-system.md](07-starting-system.md) | 208–212 | ✅ done |
 | CH | Charging System | [08-charging-system.md](08-charging-system.md) | 213–218 | ☐ pending |
 | A/B/C | Service Specs, Bolt Torque, SST & SSM | [09-service-specifications-torque-sst.md](09-service-specifications-torque-sst.md) | 219–228 | ☐ pending |
 
+**Alphabetical index (grows as chapters are cleaned):** [11a-alphabetical-index.md](11a-alphabetical-index.md)
+
 Pending chapters have a raw draft in `raw-ocr/` (gitignored) ready for the cleanup step
 per [`scripts/04_cleanup_methodology.md`](../../../scripts/04_cleanup_methodology.md).
+The alphabetical index (markdown + the copy baked into the PDF) is rebuilt with
+`python scripts/08_append_index_pages.py manuals/toyota-4a-fe-4a-ge-repair/ --in-place`.
 
 ## Known scan gaps
 

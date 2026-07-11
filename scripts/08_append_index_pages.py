@@ -47,24 +47,42 @@ LETTER_RE = re.compile(r"^##\s+(?P<letter>.+?)\s*$")
 PAGE_ANCHOR_RE = re.compile(r"#page=(\d+)")
 
 
+RANGE_RE = re.compile(r"\[?(\d{1,4})\s*[-–—]\s*\d")  # "2-9", "170–188", "[1](...)-[14]"
+BARE_PAGE_RE = re.compile(r"^\s*\[?(\d{1,4})\]?\s*$")  # a lone page number in a cell
+
+
 def parse_chapters(index_md: Path) -> list[tuple[str, int]]:
-    """(chapter title, start page) rows from the 00-index.md chapter table."""
+    """(chapter title, start page) rows from the 00-index.md chapter table.
+
+    Tolerant of format: finds the start page from a `#page=N` link, a `[PDF p.N]`
+    marker, or a plain "N-M" / "N" page cell — so it works whether the table uses
+    Drive links (manual 1) or plain page ranges (later manuals), and regardless of
+    how many columns the table has."""
     rows: list[tuple[str, int]] = []
     for line in index_md.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if len(cells) < 4:
+        if len(cells) < 3:
             continue
-        title, pages_cell = cells[1], cells[-1]
-        if title in ("Chapter", "---", "") or set(title) <= {"-"}:
+        title = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", cells[1]).strip("* ")
+        if title in ("Chapter", "File", "Title", "---", "") or set(title) <= {"-"}:
             continue
-        m = PAGE_ANCHOR_RE.search(pages_cell)
-        if not m:  # reference rows (index/torque) have "—" and no page anchor
+        # start page: prefer explicit anchors anywhere in the row, else a range/bare
+        # number in a cell after the title (skip the title/file cells' own digits)
+        start = None
+        m = PAGE_ANCHOR_RE.search(line) or re.search(r"\[PDF p\.(\d+)\]", line)
+        if m:
+            start = int(m.group(1))
+        else:
+            for c in cells[2:]:
+                rm = RANGE_RE.match(c) or BARE_PAGE_RE.match(c)
+                if rm:
+                    start = int(rm.group(1))
+                    break
+        if start is None:  # reference rows (index/torque) with "—" and no page
             continue
-        # strip markdown emphasis / links from the title cell
-        clean = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", title).strip("* ")
-        rows.append((clean, int(m.group(1))))
+        rows.append((title, start))
     return rows
 
 
