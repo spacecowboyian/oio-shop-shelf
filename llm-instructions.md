@@ -55,19 +55,9 @@ built every wiki here, so they hold regardless of which manual you're reading:
    cited page rather than trying to describe it from markdown alone.
 5. **Cite the source page number** when you answer from a manual, so the user can verify
    against the PDF themselves.
-6. **Grep first, escalate to the alphabetical index only when grep is too noisy to
-   resolve.** For a specific, narrow target — a spec value, a DTC code number, a part
-   number, an exact procedure name — `grep` across chapter files almost always lands you
-   on the right passage in one hop; don't detour through the index for these. But if the
-   term is a common component/system name (e.g. "oil pump," "cylinder head") that turns
-   up in many unrelated contexts (installation steps, removal steps, spec tables, torque
-   callouts, troubleshooting) and you can't quickly tell which hit answers the specific
-   question, that's the signal to switch: the index pre-splits common terms into
-   disambiguated sub-topic entries (e.g. "Oil pump, body clearance" vs. "Oil pump,
-   installation") — search it for the more specific phrase from the question, not just
-   the bare component name. Try the cheap thing first; escalate on ambiguity, not on
-   guesswork about which will be faster. (2026-07-11: an eval run showed grep-first alone
-   made one legitimate index use case ~4x slower — see the decisions log.)
+6. **Always check the alphabetical index first for any topic/component/symptom
+   question** — before grepping or reading a chapter file directly. Do this even when
+   you think you already know which chapter has the answer.
 
 ## Copyright note
 

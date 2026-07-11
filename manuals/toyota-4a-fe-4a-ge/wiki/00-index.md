@@ -10,7 +10,7 @@ Source: `Toyota-4A-F-4A-GE-engine-service-and-maintenance-manual.pdf` (219 pages
 
 Every page of text carries an anchor (`#pN`) and a `[PDF p.N]` marker — N is the literal page number in the source PDF, and every such marker is a clickable link straight to that page on Drive (`...view#page=N`). Diagrams/exploded views/wiring charts are images, not reproduced as text — follow the page link to see them.
 
-**Looking for a specific topic, component, or symptom?** `grep` for the specific term/value/code first — it resolves most questions in one hop. If the term is a common component name that returns too many unrelated hits to tell which one answers your question, fall back to the alphabetical index — a real back-of-manual index, ~970 entries (components, procedures, DTC codes, spec categories), pre-split by exact sub-topic (e.g. "Oil pump, body clearance" vs. "Oil pump, installation"), each linking straight to its chapter anchor and citing the source PDF page. Split into 4 parts by letter range: [#-D](11a-alphabetical-index.md) · [E-O](11b-alphabetical-index.md) · [P-T](11c-alphabetical-index.md) · [U-W](11d-alphabetical-index.md).
+**Looking for a specific topic, component, or symptom?** Start at the alphabetical index — a real back-of-manual index, ~970 entries (components, procedures, DTC codes, spec categories), each linking straight to its chapter anchor and citing the source PDF page. Split into 4 parts by letter range: [#-D](11a-alphabetical-index.md) · [E-O](11b-alphabetical-index.md) · [P-T](11c-alphabetical-index.md) · [U-W](11d-alphabetical-index.md).
 
 ## Chapters
 
