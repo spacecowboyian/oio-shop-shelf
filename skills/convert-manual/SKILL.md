@@ -42,17 +42,25 @@ Accept either a local path or a link (Drive/URL). If it's a link, download it
 first to a local working file. Confirm the manual's make/engine/system so you can
 pick a `slug` (e.g. `toyota-4a-fe-4a-ge`) and title.
 
-## 2. OCR (first real step)
+## 2. Decrypt + OCR (first real step)
 
-If the PDF has no text layer, produce an OCR'd copy — do this before anything else:
+Produce a clean, text-searchable working PDF before anything else:
 
 ```
 python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 ```
 
-Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt`. If the PDF
-already has a good text layer, `01` detects it and skips re-OCR. The OCR'd PDF is
-the artifact everything else (including the final indexed PDF) is built on.
+`01` handles two things automatically:
+- **Encryption** — scanned OEM PDFs are often owner-password/permission-encrypted
+  (copy/print disabled), which breaks OCR and text extraction. `01` detects this and
+  decrypts with `qpdf --decrypt`. (A PDF that needs a password just to *open* can't be
+  decrypted without it — `01` says so; decrypt it yourself with
+  `qpdf --decrypt --password=… in.pdf out.pdf` and point `01` at the result.)
+- **OCR** — if there's no text layer it runs ocrmypdf; if a good text layer already
+  exists it skips re-OCR.
+
+Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
+Requires `qpdf` on PATH for encrypted input.
 
 ## 3. Author the manifest, render, and split
 
@@ -104,9 +112,14 @@ for where this is headed in the pipeline.
 ```
 python scripts/06_check_links.py manuals/<slug>/
 python scripts/validate_manifests.py
+python scripts/check_page_continuity.py manuals/<slug>/   # abridged-scan / missing-page detector
 ```
 
-Fix broken links and manifest errors before opening the PR.
+Fix broken links and manifest errors before opening the PR. `check_page_continuity.py`
+warns (never fails) when a section's page numbers skip — a sign the scan is missing
+pages. Record genuine gaps in `wiki/10-needs-review.md`; they're a property of the
+source, not something to "fix." Add a `section_code:` (e.g. `EM`) to each manifest
+chapter so the check keys off the real code instead of guessing.
 
 ## 8. Open the pull request
 

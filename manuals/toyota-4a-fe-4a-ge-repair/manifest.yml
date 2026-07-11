@@ -1,0 +1,94 @@
+# Toyota 4A-FE / 4A-GE ENGINE REPAIR MANUAL (Sep. 1989, English).
+# SECOND manual added to the repo — a dogfood of the convert-manual skill. This is a
+# DISTINCT manual from manuals/toyota-4a-fe-4a-ge/ (that one is the "Engine Service &
+# Maintenance Manual", 219 pp); this is the "Engine REPAIR Manual", 228 pp. Both cover
+# 4A-FE and 4A-GE and heavily interleave the two engines within sections; treat this as
+# its own manual for now (future work may cross-check the two to build best-of-breed
+# per-engine manuals — see the repo's issue tracker).
+#
+# PROVENANCE / DATA-QUALITY FLAGS (read before trusting a value):
+#  - Source file was an AES-encrypted PDF (print/copy/change disabled); decrypted with
+#    `qpdf --decrypt` before committing. The pipeline's 01_prepare_pdf.py does NOT yet
+#    handle encrypted input — decrypt is a manual pre-step here (dogfood finding).
+#  - This is an "Auto College Aalborg — Special Edition" training scan. Section-relative
+#    page numbers on the pages (e.g. FI-158, A-16) run well past the physical pages that
+#    exist, so this scan appears ABRIDGED / pages are missing. Do not assume a section is
+#    complete. Flag gaps in 10-needs-review.md during cleanup.
+#  - The cover carries a Danish sticker: "Alle mom[ent]er opgivet i den håndbog skal
+#    reduceres med 40%" ("all torque values given in this manual must be reduced by 40%").
+#    This is a THIRD-PARTY annotation, not Toyota text. Do NOT apply it to values; record
+#    Toyota's printed values verbatim (Rule 0) and surface this caveat prominently.
+
+slug: toyota-4a-fe-4a-ge-repair
+title: "Toyota 4A-FE / 4A-GE Engine Repair Manual (Sep. 1989)"
+
+source:
+  type: local
+  location: "Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf"
+  pages: 228
+
+rights: >
+  Original manual © 1989 Toyota Motor Corporation ("may not be reproduced or copied, in
+  whole or in part, without written permission of Toyota Motor Corporation"). Both the
+  derived markdown transcription and the source PDF are committed without a license from
+  Toyota — a considered risk, not an oversight, consistent with this repo's posture. This
+  particular scan is a third-party "Auto College Aalborg Special Edition" copy. See
+  CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: false        # PDF already carries an Adobe Paper Capture text layer
+
+render:
+  dpi: 200
+
+# 1-based inclusive SOURCE-PDF page ranges, verified against each section's own TOC page
+# (IN-1 p2, EM start p10, FI-1 p76, CO-1 p170, LU-1 p189, IG-1 p197, ST-1 p208, CH-1 p213,
+#  A-1 Service Specifications p219). EM and FI are large and interleave 4A-FE/4A-GE heavily
+# — expect to split them into sub-files (02a/02b…, 03a/03b…) during cleanup.
+chapters:
+  - file: "01-introduction.md"
+    section_code: "IN"
+    title: "Introduction"
+    page_start: 2
+    page_end: 9
+  - file: "02-engine-mechanical.md"
+    section_code: "EM"
+    title: "Engine Mechanical (4A-FE / 4A-GE)"
+    page_start: 10
+    page_end: 75
+  - file: "03-efi-system.md"
+    section_code: "FI"
+    title: "EFI System (4A-FE / 4A-GE)"
+    page_start: 76
+    page_end: 169
+  - file: "04-cooling-system.md"
+    section_code: "CO"
+    title: "Cooling System"
+    page_start: 170
+    page_end: 188
+  - file: "05-lubrication-system.md"
+    section_code: "LU"
+    title: "Lubrication System"
+    page_start: 189
+    page_end: 196
+  - file: "06-ignition-system.md"
+    section_code: "IG"
+    title: "Ignition System (4A-FE / 4A-GE)"
+    page_start: 197
+    page_end: 207
+  - file: "07-starting-system.md"
+    section_code: "ST"
+    title: "Starting System"
+    page_start: 208
+    page_end: 212
+  - file: "08-charging-system.md"
+    section_code: "CH"
+    title: "Charging System"
+    page_start: 213
+    page_end: 218
+  - file: "09-service-specifications-torque-sst.md"
+    section_code: "SS"
+    title: "Service Specifications, Standard Bolt Torque, SST & SSM"
+    page_start: 219
+    page_end: 228

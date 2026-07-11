@@ -2,6 +2,7 @@
 **/raw-ocr/
 **/*.rendered/
 manuals/**/pages/
+manuals/**/prepared.pdf
 
 # Python
 __pycache__/
