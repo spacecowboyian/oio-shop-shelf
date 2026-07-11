@@ -27,12 +27,34 @@ manuals/<slug>/
 ```
 
 `ls manuals/` to see what's available. If the user's question names a make/model/engine,
-match it to a slug (check each `manifest.yml`'s `title:` if the slug isn't obvious), then
-read that manual's `wiki/llm-instructions.md` before answering.
+match it to a slug (check each `manifest.yml`'s `title:` if the slug isn't obvious).
 
-## Read the glossary before answering
+## Fast path: looking up a specific value (do this FIRST)
 
-**Read [`glossary.md`](glossary.md) too, not just the manual-specific file.** Having
+For the most common question — a single specific value: a **spec, torque, clearance,
+resistance, voltage, capacity, DTC code, or part number** — you do NOT need to read the
+manual's `wiki/llm-instructions.md`, the glossary, or any chapter file first. If the manual
+has **`manuals/<slug>/data/manual-index.jsonl`** (an experimental single flat file with one
+JSON row per retrievable fact across the whole manual), just:
+
+1. `grep` that file for the term (the code number, the component + property, e.g.
+   `grep -i "body clearance" .../manual-index.jsonl` or `grep '"code-no": "25"' ...`).
+2. Read the matching row(s). Each row carries its own value fields plus `_page` (source PDF
+   page — cite it), `_file` + `_section` (where it came from), and `_flags`.
+3. **If `_flags` is non-empty, that row's value is OCR-uncertain — surface the flag to the
+   user, don't state the value as settled fact.** If `_flags` is empty, the value is a clean
+   transcription; answer directly and cite `_page`. Never alter a numeric value.
+
+That's the whole path for a value lookup: entry file → grep index → answer. Don't open
+chapter files or the glossary for these. Fall through to the steps below only when the
+index doesn't have it, or the question isn't a simple value lookup (a procedure, a diagram,
+symptom diagnosis, "how do I…"). Not every manual has an index yet — if the file is absent,
+use the normal path below.
+
+## Normal path / deeper questions: read the manual-specific file + glossary
+
+For anything past a single value lookup, read that manual's
+`wiki/llm-instructions.md` first, and **read [`glossary.md`](glossary.md) too**. Having
 access to a manual isn't the same as understanding it — abbreviations (SST, DTC, MIL vs.
 SRI), unit/torque-table conventions, and known OCR misread patterns are exactly the kind
 of context that's easy to get wrong even when the raw text is right there. The glossary

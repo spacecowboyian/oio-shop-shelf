@@ -2,6 +2,9 @@
 
 You have access to a Toyota 4A-F / 4A-GE engine service manual: OCR'd markdown for search, plus the original scanned PDF for diagrams. Read this file first, before answering anything from these documents.
 
+## Fast path for a specific value — `../data/manual-index.jsonl`
+**Experimental.** For any single-value lookup (a spec, torque, clearance, resistance, voltage, capacity, DTC code, or part number), `grep ../data/manual-index.jsonl` for the term and stop — one flat file holds one JSON row per retrievable fact across the *whole* manual, so this resolves in one hop with no chapter-file read. Each row has the value fields plus `_page` (cite it), `_file`, `_section`, and `_flags`. **If `_flags` is non-empty, surface that OCR-uncertainty rather than stating the value as fact; if it's empty, the value is a clean transcription — answer directly.** Never alter a numeric value. Only fall through to the chapter files / index below when the value isn't in `manual-index.jsonl` or the question is a procedure/diagram/diagnosis rather than a value lookup.
+
 ## What's in this bundle
 - `00-index.md` — chapter list and how the linking works
 - `01` through `08` — the manual's 8 chapters (Preparation, Service Specifications, Charging, Engine Mechanical, Ignition, Lubrication, Cooling, EFI). Each opens with an "In this chapter" mini-index, then page-by-page OCR text with a `#pN` anchor per page.
