@@ -76,6 +76,8 @@ manuals/
 scripts/                    01-06 pipeline + 07 optional Brains mirror (disabled)
 .github/workflows/          CI: link check + manifest schema validation
 llm-instructions.md         entry point for ANY LLM answering questions from a manual here
+glossary.md                  automotive terminology + OEM manual conventions an LLM needs
+                              to correctly interpret a manual, not just read it
 .claude/skills/              thin Claude Code Skill wrapper around llm-instructions.md
 ```
 
@@ -83,7 +85,9 @@ llm-instructions.md         entry point for ANY LLM answering questions from a m
 
 Point it at [`llm-instructions.md`](llm-instructions.md) — works with any LLM, not just
 Claude Code. It explains how manuals are laid out and the rules every manual's wiki
-follows (never alter a spec value, cite source pages, etc.), then routes to the
+follows (never alter a spec value, cite source pages, etc.), points at
+[`glossary.md`](glossary.md) for the automotive terminology and OEM manual conventions
+an LLM needs to *understand* a manual rather than just read it, then routes to the
 manual-specific `wiki/llm-instructions.md` for the one the user's asking about. Claude
 Code users get this automatically via `.claude/skills/oio-shop-shelf/`.
 

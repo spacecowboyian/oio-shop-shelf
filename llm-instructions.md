@@ -30,6 +30,14 @@ manuals/<slug>/
 match it to a slug (check each `manifest.yml`'s `title:` if the slug isn't obvious), then
 read that manual's `wiki/llm-instructions.md` before answering.
 
+## Read the glossary before answering
+
+**Read [`glossary.md`](glossary.md) too, not just the manual-specific file.** Having
+access to a manual isn't the same as understanding it — abbreviations (SST, DTC, MIL vs.
+SRI), unit/torque-table conventions, and known OCR misread patterns are exactly the kind
+of context that's easy to get wrong even when the raw text is right there. The glossary
+covers this once, for every manual in the repo.
+
 ## Rules that apply to every manual in this repo
 
 These are enforced by the cleanup process (`scripts/04_cleanup_methodology.md`) that
