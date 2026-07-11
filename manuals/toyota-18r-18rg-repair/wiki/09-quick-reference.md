@@ -29,8 +29,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 127.8 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 15 Compression pressure Limit 9.0 kg/cm² (127.8 psi) |
 | 14.2 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 15 Compression pressure Difference of pressure between cylinders Less than 1.0 kg/cm² (14. |
 | 8.5 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Limit 0.6 kg/cm² (8.5 psi) |
-| 12.8 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Standard 0.9 kg/cm² (12.8 psi) &lt;!-- NEEDS REVIEW: OCR read "0.8 kg/cm²"; page image (2- |
-| 12.8 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Standard 0.9 kg/cm² (12.8 psi) &lt;!-- NEEDS REVIEW: OCR read "0.8 kg/cm²"; page image (2- |
+| 12.8 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Standard 0.9 kg/cm² (12.8 psi) &lt;!-- RESOLVED (image-verified / obvious): OCR read "0.8  |
+| 12.8 | psi | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Standard 0.9 kg/cm² (12.8 psi) &lt;!-- RESOLVED (image-verified / obvious): OCR read "0.8  |
 | 5 – 6 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | A: New 5 – 6 mm (0.20 – 0.24 in) |
 | 7 – 8 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | A: Used 7 – 8 mm (0.28 – 0.31 in) |
 | 15 – 18 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | B 15 – 18 mm (0.59 – 0.71 in) |
@@ -177,8 +177,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.5 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | 3. If the valve stem end is worn, resurface with a valve grinder, but do not grind off mor |
 | 113.2 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Exhaust 113.2 mm (4.457 in) |
 | 112.7 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Intake 112.7 mm (4.437 in) |
-| 127 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR read the intake overall length as "127 mm"; page image clearly s |
-| 112.7 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR read the intake overall length as "127 mm"; page image clearly s |
+| 127 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR read the intake overall length as "127 mm |
+| 112.7 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR read the intake overall length as "127 mm |
 | 1.2–1.6 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | > Intake 1.2–1.6 mm (0.047–0.063 in) |
 | 1.2–1.6 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | > Exhaust 1.2–1.6 mm (0.047–0.063 in) |
 | 1.6 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Inner 1.6 mm (0.063 in) |
@@ -217,10 +217,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 11.5 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | D: No. 1 tensioner 11.5 mm (0.45 in) |
 | 0.3 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Thrust clearance limit 0.3 mm (0.012 in) |
 | 0.06–0.13 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.06–0.13 mm (0.0024–0.0051 in) |
-| 8.8 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled several values on this page (e.g. slipper "8.8 mm", thru |
-| 6.8 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled several values on this page (e.g. slipper "8.8 mm", thru |
-| 5.0 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled several values on this page (e.g. slipper "8.8 mm", thru |
-| 0.3 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled several values on this page (e.g. slipper "8.8 mm", thru |
+| 8.8 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled several values on this page (e.g. |
+| 6.8 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled several values on this page (e.g. |
+| 5.0 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled several values on this page (e.g. |
+| 0.3 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled several values on this page (e.g. |
 | 45.951–45.975 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Front 45.951–45.975 mm (1.8091–1.8100 in) |
 | 40.959–40.975 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Rear 40.959–40.975 mm (1.6126–1.6132 in) |
 | 0.08 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Limit 0.08 mm (0.0032 in) |
@@ -257,7 +257,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 48.3–50.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 6.4–7.0 kg-m (48.3–50.6 ft-lb) |
 | 0.08 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Clearance limit 0.08 mm (0.0032 in) |
 | 0.24–0.48 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.24–0.48 mm (0.0094–0.0189 in) |
-| 48.3–50.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled the 18R-G torque ("64-7.0kgm (06.3-50.6)") and the U/S s |
+| 48.3–50.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled the 18R-G torque ("64-7.0kgm (06. |
 | 212 | °F | [04-18r-engine-service.md](04-18r-engine-service.md) | 2. Heat piston to about 100° (212°F) (Fig. 4-142). |
 | 68.7–83.2 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 16R, 18R 9.5–11.5 kg-m (68.7–83.2 ft-lb) |
 | 72.3–79.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 10.0–11.0 kg-m (72.3–79.6 ft-lb) |
@@ -284,8 +284,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.16–0.26 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.16–0.26 mm (0.0063–0.0102 in) |
 | 57.7–65.1 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R 8.0–9.0 kg-m (57.7–65.1 ft-lb) |
 | 59.3–63.7 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 8.2–8.8 kg-m (59.3–63.7 ft-lb) |
-| 57.7–65.1 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled this page's specs (flywheel 18R "8.0-8.0 kg-m (57.7-85.1 |
-| 59.3–63.7 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: OCR garbled this page's specs (flywheel 18R "8.0-8.0 kg-m (57.7-85.1 |
+| 57.7–65.1 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled this page's specs (flywheel 18R " |
+| 59.3–63.7 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED (image-verified / obvious): OCR garbled this page's specs (flywheel 18R " |
 | 0.6 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | > from the images and noted inline: exhaust valve-head margin **0.6 mm** (not 0.8), head-b |
 | 52.1–63.7 | ft·lb | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | > torque **52.1–63.7 ft·lb** (not 62.1), exhaust valve clearance **0.29–0.39 mm** (not |
 | 0.29–0.39 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | > torque **52.1–63.7 ft·lb** (not 62.1), exhaust valve clearance **0.29–0.39 mm** (not |
@@ -386,7 +386,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 212 | °F | [07-cooling-system.md](07-cooling-system.md) | **Fig. 7-9** — Heat the cover to about **100°C (212°F)**. |
 | 30 | mm | [07-cooling-system.md](07-cooling-system.md) | **Fig. 7-15** — Install the fluid coupling as shown. Set the installed height to **30 mm** |
 | 25 | cc | [07-cooling-system.md](07-cooling-system.md) | Capacity 25 cc |
-| 25 | cc | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: fluid grades "6,000 cst" / "3,000 cst" (silicone-oil viscosity) veri |
+| 25 | cc | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- RESOLVED (image-verified / obvious): fluid grades "6,000 cst" / "3,000 cst" (silic |
 | 100 | °C | [07-cooling-system.md](07-cooling-system.md) | **Fig. 7-21** — Heat the water pump cover to about **100°C (212°F)**, and using SST |
 | 212 | °F | [07-cooling-system.md](07-cooling-system.md) | **Fig. 7-21** — Heat the water pump cover to about **100°C (212°F)**, and using SST |
 | 100 | °C | [07-cooling-system.md](07-cooling-system.md) | **Fig. 7-25** — Heat the pump cover to about **100°C (212°F)** and force in the bearing wi |
@@ -411,9 +411,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 3.5 | mm | [08-fuel-system.md](08-fuel-system.md) | Float level clearance (float tip ↔ air horn) 3.5 mm (0.14 in) |
 | 1.0 | mm | [08-fuel-system.md](08-fuel-system.md) | Lowered position clearance (needle valve plunger ↔ float lip) 1.0 mm (0.04 in) |
 | 0.2 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.2 mm (0.0079 in) |
-| 0.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- NEEDS REVIEW: OCR read "10.91 mm (0.036 in)" |
-| 10.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- NEEDS REVIEW: OCR read "10.91 mm (0.036 in)" |
-| 0.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- NEEDS REVIEW: OCR read "10.91 mm (0.036 in)" |
+| 0.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- RESOLVED (image-verified / obvious): OCR rea |
+| 10.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- RESOLVED (image-verified / obvious): OCR rea |
+| 0.91 | mm | [08-fuel-system.md](08-fuel-system.md) | Standard clearance 0.91 mm (0.036 in) &lt;!-- RESOLVED (image-verified / obvious): OCR rea |
 | 25 | °C | [08-fuel-system.md](08-fuel-system.md) | > **25 °C (77 °F)**. |
 | 77 | °F | [08-fuel-system.md](08-fuel-system.md) | > **25 °C (77 °F)**. |
 | 5 | °C | [08-fuel-system.md](08-fuel-system.md) | > **NOTE:** One graduation of the thermostat case scale equals **5 °C (9 °F)** change. |
@@ -440,10 +440,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.5–0.8 | mm | [09-starting-system.md](09-starting-system.md) | Depth of segment mica (undercut) 0.5–0.8 mm (0.020–0.031 in) 0.2 mm (0.008 in) |
 | 0.2 | mm | [09-starting-system.md](09-starting-system.md) | Depth of segment mica (undercut) 0.5–0.8 mm (0.020–0.031 in) 0.2 mm (0.008 in) |
 | 0.2 | mm | [09-starting-system.md](09-starting-system.md) | Clearance limit 0.2 mm (0.008 in) |
-| 16 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- NEEDS REVIEW: OCR read "40 mm" |
-| 10 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- NEEDS REVIEW: OCR read "40 mm" |
-| 40 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- NEEDS REVIEW: OCR read "40 mm" |
-| 10 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- NEEDS REVIEW: OCR read "40 mm" |
+| 16 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- RESOLVED (image-verified / obv |
+| 10 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- RESOLVED (image-verified / obv |
+| 40 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- RESOLVED (image-verified / obv |
+| 10 | mm | [09-starting-system.md](09-starting-system.md) | 0.8 kW Brush length 16 mm (0.63 in) 10 mm (0.39 in) &lt;!-- RESOLVED (image-verified / obv |
 | 19 | mm | [09-starting-system.md](09-starting-system.md) | 1.0 kW Brush length 19 mm (0.75 in) 12 mm (0.47 in) |
 | 12 | mm | [09-starting-system.md](09-starting-system.md) | 1.0 kW Brush length 19 mm (0.75 in) 12 mm (0.47 in) |
 | 34 | mm | [09-starting-system.md](09-starting-system.md) | Mounting-surface-to-stud-end distance approx. 34 mm (1.34 in) |
@@ -457,11 +457,11 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.15–0.5 | mm | [10-ignition-system.md](10-ignition-system.md) | Thrust clearance 0.15–0.5 mm (0.006–0.020 in) |
 | 0.45 | mm | [10-ignition-system.md](10-ignition-system.md) | Point gap 0.45 mm (0.018 in) |
 | 60 | °C | [10-ignition-system.md](10-ignition-system.md) | At coolant below 60°C 20° BTDC |
-| 1.3–1.6 | Ω | [10-ignition-system.md](10-ignition-system.md) | Primary coil resistance (reference only) 1.3–1.6 Ω &lt;!-- NEEDS REVIEW: OCR text read "13 |
-| 1.3 – 1.6 | Ω | [10-ignition-system.md](10-ignition-system.md) | Primary coil resistance (reference only) 1.3–1.6 Ω &lt;!-- NEEDS REVIEW: OCR text read "13 |
+| 1.3–1.6 | Ω | [10-ignition-system.md](10-ignition-system.md) | Primary coil resistance (reference only) 1.3–1.6 Ω &lt;!-- RESOLVED (image-verified / obvi |
+| 1.3 – 1.6 | Ω | [10-ignition-system.md](10-ignition-system.md) | Primary coil resistance (reference only) 1.3–1.6 Ω &lt;!-- RESOLVED (image-verified / obvi |
 | 10.2–13.8 | kΩ | [10-ignition-system.md](10-ignition-system.md) | Secondary coil resistance (reference only) 10.2–13.8 kΩ |
-| 1.3–1.5 | Ω | [10-ignition-system.md](10-ignition-system.md) | External resistor resistance (reference only) 1.3–1.5 Ω &lt;!-- NEEDS REVIEW: OCR text rea |
-| 1.3 – 1.5 | Ω | [10-ignition-system.md](10-ignition-system.md) | External resistor resistance (reference only) 1.3–1.5 Ω &lt;!-- NEEDS REVIEW: OCR text rea |
+| 1.3–1.5 | Ω | [10-ignition-system.md](10-ignition-system.md) | External resistor resistance (reference only) 1.3–1.5 Ω &lt;!-- RESOLVED (image-verified / |
+| 1.3 – 1.5 | Ω | [10-ignition-system.md](10-ignition-system.md) | External resistor resistance (reference only) 1.3–1.5 Ω &lt;!-- RESOLVED (image-verified / |
 | 500 | V | [10-ignition-system.md](10-ignition-system.md) | - Insulation resistance (Fig. 10-65): **Over 10 MΩ at 500 V** |
 | 10–50 | kΩ | [10-ignition-system.md](10-ignition-system.md) | Resistance 10–50 kΩ/meter |
 | 0.7–0.8 | mm | [10-ignition-system.md](10-ignition-system.md) | Spark plug gap 0.7–0.8 mm (0.028–0.031 in) |

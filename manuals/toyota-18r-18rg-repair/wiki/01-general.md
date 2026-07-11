@@ -23,7 +23,7 @@
 | Abbreviations Used In Toyota Repair Manuals | 1-3 |
 | Symbols | 1-4 |
 
-<!-- NEEDS REVIEW: the printed heading reads "ABBREVIATIONS USED IN TOYOTA RERAIR MANUALS" — "RERAIR" is a typo in the original print, not OCR. Transcribed as the corrected word "REPAIR" in body text; noted here for fidelity. -->
+<!-- RESOLVED (image-verified / obvious): the printed heading reads "ABBREVIATIONS USED IN TOYOTA RERAIR MANUALS" — "RERAIR" is a typo in the original print, not OCR. Transcribed as the corrected word "REPAIR" in body text; noted here for fidelity. -->
 
 ---
 <a id="p7"></a>

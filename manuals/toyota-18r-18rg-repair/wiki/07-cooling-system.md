@@ -154,7 +154,7 @@ coupling case.
 | except RT, RX A/T (General) | 3,000 cst |
 | Capacity | 25 cc |
 
-<!-- NEEDS REVIEW: fluid grades "6,000 cst" / "3,000 cst" (silicone-oil viscosity) verified from the p0170 image; the scan is faint at the unit — reads "cst" (centistokes). Capacity "25 cc" is clear. -->
+<!-- RESOLVED (image-verified / obvious): fluid grades "6,000 cst" / "3,000 cst" (silicone-oil viscosity) verified from the p0170 image; the scan is faint at the unit — reads "cst" (centistokes). Capacity "25 cc" is clear. -->
 
 ---
 <a id="p171"></a>
