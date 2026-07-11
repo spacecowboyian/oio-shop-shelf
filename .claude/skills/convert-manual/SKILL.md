@@ -37,17 +37,45 @@ Accept either a local path or a link (Drive/URL). If it's a link, download it
 first to a local working file. Confirm the manual's make/engine/system so you can
 pick a `slug` (e.g. `toyota-4a-fe-4a-ge`) and title.
 
-## 2 — OCR (first real step)
+## 1b — Manual overview & scope — build it FIRST, confirm with the user
 
-If the PDF has no text layer, produce an OCR'd copy — do this before anything else:
+Before converting anything, write **`manuals/<slug>/README.md`** — a short overview of
+what the manual is, what it covers, and what it doesn't. This gives the whole conversion
+its bearings (and tells a future reader whether this manual even applies to their vehicle).
+
+Draw on the manual's own title/contents pages (authoritative) **plus** general context from
+the `auto-mechanic` skill + glossary and a quick web lookup (engine family, specs, which
+vehicles it was used in, era). **Keep the two sources clearly separated** — mark the
+engine/vehicle background as best-effort / review-pending; it is NOT from the manual.
+
+Cover: the engine(s)/vehicle(s) (what it is, rough specs, which cars, years); **what the
+manual covers** (its section list) and **what it does NOT** (an *engine* manual won't have
+transmission/brakes/body; note if the scan is abridged); and **provenance caveats**
+(encryption, abridged scan, bogus stickers/annotations).
+
+**Then STOP and have the user review/correct the overview before continuing** — the web/
+background won't be perfect, and a quick confirm prevents a wrong assumption from coloring
+the whole conversion. See `manuals/toyota-4a-fe-4a-ge-repair/README.md` for a worked example.
+
+## 2 — Decrypt + OCR (first real step)
+
+Produce a clean, text-searchable working PDF before anything else:
 
 ```
 python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 ```
 
-Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt`. If the PDF
-already has a good text layer, `01` detects it and skips re-OCR. The OCR'd PDF is
-the artifact everything else (including the final indexed PDF) is built on.
+`01` handles two things automatically:
+- **Encryption** — scanned OEM PDFs are often owner-password/permission-encrypted
+  (copy/print disabled), which breaks OCR and text extraction. `01` detects this and
+  decrypts with `qpdf --decrypt`. (A PDF that needs a password just to *open* can't be
+  decrypted without it — `01` says so; decrypt it yourself with
+  `qpdf --decrypt --password=… in.pdf out.pdf` and point `01` at the result.)
+- **OCR** — if there's no text layer it runs ocrmypdf; if a good text layer already
+  exists it skips re-OCR.
+
+Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
+Requires `qpdf` on PATH for encrypted input.
 
 ## 3 — Author the manifest, render & split
 
@@ -70,7 +98,22 @@ with `<!-- NEEDS REVIEW: ... -->` instead of guessing; those roll up into
 from step 02. The rules are a *living standard* — if this manual surfaces a case
 they don't cover, propose an edit to that file in your PR (see issue #3).
 
+**REQUIRED — use the `auto-mechanic` skill for domain judgment.** Load the
+[`auto-mechanic`](../auto-mechanic/SKILL.md) skill and its `glossary.md` while cleaning up
+**and** while making index decisions. Transcription alone doesn't tell you what a term,
+table, or code *means*. The glossary supplies: canonical component/abbreviation names
+(ECU, TPS, VSV, ISC, DTC, MIL vs SRI…), torque-table + torque-to-yield conventions, and the
+**OCR-misread patterns** (Ω→"2", l→i, h→li, rn→m, unreliable punctuation) you must screen
+for before treating an odd value or term as real. This is not optional polish — it's how a
+faithful transcription becomes a *usable* one.
+
 ## 5 — Build the index files
+
+Also **curate index terms with the `auto-mechanic` lens**: write **component-first** entries
+("Water pump — installation", "Injector — resistance inspection"), not verb-first; use the
+glossary's canonical names, surface standard aliases (e.g. diagnostic codes also under
+**DTC**), and screen every term for OCR artifacts. For multi-model manuals, split the index
+per model and tag each entry (issue #9).
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
@@ -99,9 +142,14 @@ for where this is headed in the pipeline.
 ```
 python scripts/06_check_links.py manuals/<slug>/
 python scripts/validate_manifests.py
+python scripts/check_page_continuity.py manuals/<slug>/   # abridged-scan / missing-page detector
 ```
 
-Fix broken links and manifest errors before opening the PR.
+Fix broken links and manifest errors before opening the PR. `check_page_continuity.py`
+warns (never fails) when a section's page numbers skip — a sign the scan is missing
+pages. Record genuine gaps in `wiki/10-needs-review.md`; they're a property of the
+source, not something to "fix." Add a `section_code:` (e.g. `EM`) to each manifest
+chapter so the check keys off the real code instead of guessing.
 
 ## 8 — Open the pull request
 

@@ -1,4 +1,6 @@
 # Python dependencies for the pipeline scripts.
-# System tools required separately (not pip): ocrmypdf, poppler-utils (pdftoppm, pdftotext, pdffonts).
+# System tools required separately (not pip): ocrmypdf, poppler-utils (pdftoppm,
+# pdftotext, pdffonts, pdfinfo), and qpdf (used by 01_prepare_pdf.py to decrypt
+# encrypted source PDFs before OCR/extraction).
 PyYAML>=6.0
 PyMuPDF>=1.24  # 08_append_index_pages.py — render/append clickable index pages
