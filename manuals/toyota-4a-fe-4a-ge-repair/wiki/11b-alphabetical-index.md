@@ -3,7 +3,7 @@
 
 Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to both engines
 (also listed in the [4A-FE index](11a-alphabetical-index.md)) plus 4A-GE-only entries
-(marked `[4A-GE]`). **Covers only the transcribed chapters so far.**
+(marked `[4A-GE]`). ****Now covers all nine chapters** (4A-GE-specific + shared entries).**
 
 > Note: much of this scan's engine-specific content (e.g. the Integrated Ignition Assembly)
 > is **4A-FE only** and is intentionally **absent** here — a 4A-GE user should not be handed
@@ -23,19 +23,23 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 ## C
 
 - Catalytic converter, precautions — [01-introduction.md#p8](01-introduction.md#p8) ([PDF p.8])
+- Charging Circuit — [08-charging-system.md#p214](08-charging-system.md#p214) ([PDF p.214])
 - Clutch pinion gear clearance (starter) — [07-starting-system.md#p212](07-starting-system.md#p212) ([PDF p.212])
 - Coolant, check and replacement — [04-cooling-system.md#p174](04-cooling-system.md#p174) ([PDF p.174])
-- Cooling fan, electric — inspection — [04-cooling-system.md#p186](04-cooling-system.md#p186) ([PDF p.186])
 - Cooling fan relay, inspection — [04-cooling-system.md#p188](04-cooling-system.md#p188) ([PDF p.188])
+- Cooling fan, electric — inspection — [04-cooling-system.md#p186](04-cooling-system.md#p186) ([PDF p.186])
 - Cooling system, description — [04-cooling-system.md#p171](04-cooling-system.md#p171) ([PDF p.171])
 - Cooling system, troubleshooting — [04-cooling-system.md#p173](04-cooling-system.md#p173) ([PDF p.173])
 
 ## D
 
+- Diagnostic Codes (4A-GE) — [03-efi-system.md#p100](03-efi-system.md#p100) ([PDF p.100])
 - Drive belt (alternator), adjust — [04-cooling-system.md#p181](04-cooling-system.md#p181) ([PDF p.181])
 
 ## E
 
+- EFI System Check Procedure — [03-efi-system.md#p105](03-efi-system.md#p105) ([PDF p.105])
+- Engine ECU — [03-efi-system.md#p161](03-efi-system.md#p161) ([PDF p.161])
 - Engine main relay, inspection — [04-cooling-system.md#p187](04-cooling-system.md#p187) ([PDF p.187])
 - Engine serial number location — [01-introduction.md#p5](01-introduction.md#p5) ([PDF p.5])
 
@@ -52,6 +56,20 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 
 - Hold-in test (starter) — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
 - How to use this manual — [01-introduction.md#p3](01-introduction.md#p3) ([PDF p.3])
+
+## I
+
+- Inspection Of Diagnosis Circuit — [03-efi-system.md#p101](03-efi-system.md#p101) ([PDF p.101])
+- Inspection Of ECU — [03-efi-system.md#p161](03-efi-system.md#p161) ([PDF p.161])
+- Installation Of Air Valve — [03-efi-system.md#p146](03-efi-system.md#p146) ([PDF p.146])
+
+## L
+
+- Location Of Fuses And Fusible Links — [03-efi-system.md#p103](03-efi-system.md#p103) ([PDF p.103])
+
+## M
+
+- Maintenance Precautions — [03-efi-system.md#p80](03-efi-system.md#p80) ([PDF p.80])
 
 ## N
 
@@ -70,6 +88,7 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 - Pinion gear clearance, starter (1–5 mm) — [07-starting-system.md#p212](07-starting-system.md#p212) ([PDF p.212])
 - Planetary type starter, components [4A-GE] — [07-starting-system.md#p210](07-starting-system.md#p210) ([PDF p.210])
 - Planetary type starter, performance test — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
+- Precautions — [08-charging-system.md#p214](08-charging-system.md#p214) ([PDF p.214])
 - Precautions, ignition system — [06-ignition-system.md#p198](06-ignition-system.md#p198) ([PDF p.198])
 - Precoated parts, recoating — [01-introduction.md#p6](01-introduction.md#p6) ([PDF p.6])
 - Pull-in test (starter) — [07-starting-system.md#p211](07-starting-system.md#p211) ([PDF p.211])
@@ -85,6 +104,10 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 - Seal packing (water pump), Part No. 08826-00100 — [04-cooling-system.md#p178](04-cooling-system.md#p178) ([PDF p.178])
 - Starting system, circuit — [07-starting-system.md#p209](07-starting-system.md#p209) ([PDF p.209])
 - Starting system, troubleshooting — [07-starting-system.md#p209](07-starting-system.md#p209) ([PDF p.209])
+- Symptom — Engine Hesitates And/Or Poor Acceleration — [03-efi-system.md#p94](03-efi-system.md#p94) ([PDF p.94])
+- Symptom — Engine Often Stalls — [03-efi-system.md#p88](03-efi-system.md#p88) ([PDF p.88])
+- Symptom — Engine Sometimes Stalls — [03-efi-system.md#p89](03-efi-system.md#p89) ([PDF p.89])
+- Symptom — High Engine Idle Speed (No Drop) — [03-efi-system.md#p91](03-efi-system.md#p91) ([PDF p.91])
 
 ## T
 
@@ -93,11 +116,15 @@ Back-of-manual index **for the 4A-GE engine**. Includes entries that apply to bo
 - Thermostat, valve opening temperature (80–84°C) — [04-cooling-system.md#p182](04-cooling-system.md#p182) ([PDF p.182])
 - Thermostat, water inlet fasteners [4A-GE] (two bolts) — [04-cooling-system.md#p182](04-cooling-system.md#p182) ([PDF p.182])
 
+## V
+
+- Voltage at ECU Wiring Connectors (4A-GE w/o Air Flow Meter) — [03-efi-system.md#p163](03-efi-system.md#p163) ([PDF p.163])
+
 ## W
 
+- Water pump suction cover, torque (92.5 kg-cm) — [04-cooling-system.md#p179](04-cooling-system.md#p179) ([PDF p.179])
 - Water pump, assembly — [04-cooling-system.md#p178](04-cooling-system.md#p178) ([PDF p.178])
 - Water pump, disassembly — [04-cooling-system.md#p177](04-cooling-system.md#p177) ([PDF p.177])
 - Water pump, installation (torque 150 kg-cm) — [04-cooling-system.md#p180](04-cooling-system.md#p180) ([PDF p.180])
 - Water pump, removal — [04-cooling-system.md#p175](04-cooling-system.md#p175) ([PDF p.175])
-- Water pump suction cover, torque (92.5 kg-cm) — [04-cooling-system.md#p179](04-cooling-system.md#p179) ([PDF p.179])
 - Water temperature switch, inspection — [04-cooling-system.md#p187](04-cooling-system.md#p187) ([PDF p.187])
