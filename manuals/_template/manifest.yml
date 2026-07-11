@@ -32,12 +32,17 @@ render:
 # page_start/page_end are 1-based, inclusive, in SOURCE-PDF page numbers.
 # Split a large chapter into multiple entries (e.g. 04a, 04b) — the index builder
 # groups them by leading number.
+# Optional per-chapter `section_code` (e.g. "EM", "FI") — the manual's own section code.
+# If set, scripts/check_page_continuity.py keys its missing-page detection off it instead
+# of guessing; also handy documentation.
 chapters:
   - file: "01-general-information.md"
+    section_code: "IN"
     title: "General Information"
     page_start: 1
     page_end: 12
   - file: "02-maintenance.md"
+    section_code: "MA"
     title: "Maintenance"
     page_start: 13
     page_end: 30

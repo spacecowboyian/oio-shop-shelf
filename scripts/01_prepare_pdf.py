@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""01 — Prepare a source PDF: detect a missing text layer and OCR it if needed.
+"""01 — Prepare a source PDF: decrypt it if needed, then OCR if it has no text layer.
 
 Usage:
     python scripts/01_prepare_pdf.py <source.pdf> <manuals/slug/>
@@ -8,7 +8,14 @@ Produces <manuals/slug/>/prepared.pdf (text-layer PDF) and
 <manuals/slug/>/raw-ocr/full-text.txt (extracted text). Source PDFs are never
 committed (see .gitignore); this script reads from wherever you point it.
 
-Requires: ocrmypdf, pdffonts, pdftotext (poppler-utils) on PATH.
+Encrypted PDFs (common for scanned OEM manuals — often owner-password/permission
+encryption that blocks copy/print) are detected and decrypted with `qpdf --decrypt`
+before anything else, since ocrmypdf and text extraction fail on encrypted input.
+A PDF locked with a real *user* password (needed just to open it) can't be decrypted
+without that password and is reported as such.
+
+Requires: pdffonts, pdftotext, pdfinfo (poppler-utils) on PATH; qpdf if the source
+is encrypted; ocrmypdf if it has no text layer.
 """
 from __future__ import annotations
 
@@ -37,6 +44,35 @@ def require_tools(*tools: str) -> None:
         sys.exit(f"Missing required tool(s) on PATH: {', '.join(missing)}")
 
 
+def is_encrypted(pdf: Path) -> bool:
+    """True if pdfinfo reports any encryption (owner- or user-password)."""
+    out = subprocess.run(
+        ["pdfinfo", str(pdf)], capture_output=True, text=True
+    ).stdout
+    for line in out.splitlines():
+        if line.startswith("Encrypted:"):
+            return not line.split(":", 1)[1].strip().lower().startswith("no")
+    return False
+
+
+def decrypt_pdf(src: Path, dest: Path) -> Path:
+    """Strip encryption with qpdf. Works for owner-password/permission encryption
+    and for an empty user password; a real user password makes this fail loudly."""
+    require_tools("qpdf")
+    proc = subprocess.run(
+        ["qpdf", "--decrypt", str(src), str(dest)], capture_output=True, text=True
+    )
+    # qpdf exit codes: 0 = ok, 3 = warnings but file written; both usable.
+    if proc.returncode not in (0, 3) or not dest.is_file():
+        sys.exit(
+            "Could not decrypt the PDF with qpdf. If it needs a password to open, "
+            "decrypt it yourself first:\n"
+            f"    qpdf --decrypt --password=YOURPASS '{src}' '{dest}'\n"
+            f"qpdf said:\n{proc.stderr.strip()}"
+        )
+    return dest
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("source_pdf", type=Path)
@@ -44,7 +80,7 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="OCR even if a text layer exists")
     args = ap.parse_args()
 
-    require_tools("pdffonts", "pdftotext")
+    require_tools("pdffonts", "pdftotext", "pdfinfo")
     mdir = manual_dir(args.manual_dir)
     manifest = load_manifest(mdir)
     if not args.source_pdf.is_file():
@@ -58,9 +94,15 @@ def main() -> int:
     raw_dir = mdir / "raw-ocr"
     raw_dir.mkdir(exist_ok=True)
 
-    if has_text_layer(args.source_pdf) and not force:
+    # 0) Decrypt first — ocrmypdf and pdftotext both fail on encrypted input.
+    source = args.source_pdf
+    if is_encrypted(source):
+        print("Encrypted PDF detected — decrypting with qpdf...")
+        source = decrypt_pdf(source, raw_dir / "decrypted.pdf")
+
+    if has_text_layer(source) and not force:
         print("Text layer detected — copying source to prepared.pdf (no OCR).")
-        shutil.copyfile(args.source_pdf, prepared)
+        shutil.copyfile(source, prepared)
     else:
         require_tools("ocrmypdf")
         reason = "forced" if force else "no text layer detected"
@@ -68,7 +110,7 @@ def main() -> int:
         subprocess.run(
             ["ocrmypdf", "--rotate-pages", "--deskew", "--language", lang,
              ("--force-ocr" if force else "--skip-text"),
-             str(args.source_pdf), str(prepared)],
+             str(source), str(prepared)],
             check=True,
         )
 
