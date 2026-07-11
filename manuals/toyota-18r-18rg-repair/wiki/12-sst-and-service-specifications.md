@@ -220,7 +220,7 @@ columns give the acceptable range. All values image-verified.
 | Spark plug gap | 0.8 mm | 0.03 in |
 | Distributor — Dwell angle | 50 – 54° | |
 | Distributor — Heel gap | 0.4 – 0.5 mm | 0.016 – 0.020 in |
-| Distributor — Damping spring gap | 0.1 – 0.4 mm | 0.004 – 0.168 in <!-- NEEDS REVIEW: page image (image-verified) clearly prints "0.004 – 0.168 in" for the 0.1–0.4 mm range, but 0.4 mm = 0.0157 in, so 0.168 is an apparent misprint in the original manual; the same spec on [PDF p.324] (distributor, except South Africa) prints 0.004 – 0.016 in. --> |
+| Distributor — Damping spring gap | 0.1 – 0.4 mm | 0.004 – 0.016 in <!-- RESOLVED: metric authoritative (0.1–0.4 mm); imperial recomputed 0.4 mm = 0.0157 in ≈ 0.016 (printed "0.168" was a manual typo). --> |
 | Ignition timing | 7° BTDC / 650 rpm | |
 | Firing order | 1 – 3 – 4 – 2 | |
 | Valve clearance (Hot) — Intake | 0.20 mm | 0.0079 in |
@@ -768,7 +768,7 @@ columns give the acceptable range. All values image-verified.
 | Thrust clearance | Limit | 0.4 mm | 0.0158 in |
 | Journal oil clearance | STD | 0.03 – 0.07 mm | 0.0012 – 0.0028 in |
 | Journal oil clearance | Limit | 0.15 mm | 0.0059 in |
-| Journal diameter | STD | 31.954 – 31.970 mm | 1.2580 – 2.2587 in <!-- NEEDS REVIEW: page image (image-verified) prints the imperial value's second figure as "2.2587" — an apparent original misprint; 31.970 mm = 1.2587 in, so the leading digit should read 1, giving 1.2580 – 1.2587 in. --> |
+| Journal diameter | STD | 31.954 – 31.970 mm | 1.2580 – 1.2587 in <!-- RESOLVED: metric authoritative (31.954–31.970 mm); imperial recomputed 31.970 mm = 1.2587 in (printed "2.2587" was a manual typo). --> |
 | Cam height (both intake and exhaust) | STD | 45.37 – 45.47 mm | 1.786 – 1.790 in |
 | Cam height (both intake and exhaust) | Limit | 45.0 mm | 1.77 in |
 
@@ -790,7 +790,7 @@ columns give the acceptable range. All values image-verified.
 | Wear limit | Value | (in) |
 | ---------- | ----- | ---- |
 | Crankshaft gear | 60.0 mm | 2.362 in |
-| Pump drive shaft gear | 114.5 mm | 4.503 in <!-- NEEDS REVIEW: page image prints "4.503 in" for 114.5 mm, but 114.5 mm = 4.508 in (and the 18R table on [PDF p.320] prints 4.508 in for the same 114.5 mm); "4.503" appears to be an original misprint. --> |
+| Pump drive shaft gear | 114.5 mm | 4.508 in <!-- RESOLVED: metric authoritative (114.5 mm); imperial recomputed 114.5 mm = 4.508 in (printed "4.503" was a manual typo). --> |
 | Camshaft drive gear | 78.2 mm | 3.079 in |
 | Camshaft timing gear | 78.2 mm | 3.079 in |
 

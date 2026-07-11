@@ -147,7 +147,7 @@ Coolant capacity (w/ heater):
 | ---- | ------- |
 | Distributor cap | |
 | Heel gap | 0.45 mm |
-| Damping spring gap | 0.1 – 0.4 mm (0.004 – 0.168 in) <!-- NEEDS REVIEW: the summary table (printed p.2-2) prints the inch value as "0.004 – 0.168 in", but 0.4 mm = 0.016 in, and the detailed Distributor page (2-9, PDF p.18) prints "0.004 – 0.016 in". The metric value 0.1 – 0.4 mm is consistent on both pages; the "0.168" appears to be a manual/print error for "0.016". --> |
+| Damping spring gap | 0.1 – 0.4 mm (0.004 – 0.016 in) <!-- RESOLVED: metric authoritative (0.1–0.4 mm); imperial recomputed 0.4 mm = 0.0157 in ≈ 0.016 (printed "0.168" was a manual typo). --> |
 | Dwell angle | 50 – 54° |
 | Dwell angle variation | within 3° |
 | Ignition timing | 7° BTDC / 750 ± 50 rpm |
@@ -165,7 +165,7 @@ Coolant capacity (w/ heater):
 | # | Item | Detail | Remarks |
 | - | ---- | ------ | ------- |
 | 9 | Valve clearance (hot) | Intake | 0.20 mm (0.008 in) |
-| 9 | Valve clearance (hot) | Exhaust | 0.36 mm (0.014 in) <!-- NEEDS REVIEW: summary table (printed p.2-3) gives exhaust as 0.36 mm / 0.014 in; the detailed Valve Clearance page (2-11, PDF p.20) prints 0.36 mm (0.012 in). The metric value 0.36 mm agrees on both pages (0.36 mm = 0.014 in), so the "0.012 in" on the detail page appears to be a print error. --> |
+| 9 | Valve clearance (hot) | Exhaust | 0.36 mm (0.014 in) <!-- RESOLVED: metric authoritative (0.36 mm); imperial 0.36 mm = 0.0142 in ≈ 0.014 (detail page "0.012 in" corrected to match). --> |
 | 10 | Carburetor | Automatic check | |
 | 10 | Carburetor | Check throttle valve full open | |
 | 10 | Carburetor | Check the accelerating pump | |
@@ -437,7 +437,7 @@ opening and closing of the throttle valve.
    | Valve | Clearance |
    | ----- | --------- |
    | Intake | 0.2 mm (0.008 in) |
-   | Exhaust | 0.36 mm (0.012 in) <!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 mm (0.012 in); the summary table (2-3, PDF p.12) prints 0.36 mm / 0.014 in. The metric value 0.36 mm agrees on both pages (0.36 mm = 0.014 in), so the "0.012 in" here appears to be a print error. --> |
+   | Exhaust | 0.36 mm (0.014 in) <!-- RESOLVED: metric authoritative (0.36 mm); imperial recomputed 0.36 mm = 0.0142 in ≈ 0.014 (printed "0.012 in" was a manual typo). --> |
 
 6. Rotate the crankshaft 360°.
 7. Adjust the remaining valves indicated by arrows.

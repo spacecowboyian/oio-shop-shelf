@@ -12,16 +12,14 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.8 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Plug gap 0.8 mm (0.03 in) |
 | 25 | kΩ | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Resistance Less than 25 kΩ per cord |
 | 0.45 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Heel gap 0.45 mm |
-| 0.1 – 0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.168 in) &lt;!-- NEEDS REVIEW: the summary table |
-| 0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.168 in) &lt;!-- NEEDS REVIEW: the summary table |
-| 0.1 – 0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.168 in) &lt;!-- NEEDS REVIEW: the summary table |
+| 0.1 – 0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.016 in) &lt;!-- RESOLVED: metric authoritative  |
+| 0.1–0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.016 in) &lt;!-- RESOLVED: metric authoritative  |
+| 0.4 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Damping spring gap 0.1 – 0.4 mm (0.004 – 0.016 in) &lt;!-- RESOLVED: metric authoritative  |
 | 50 | rpm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Ignition timing 7° BTDC / 750 ± 50 rpm |
 | 0.20 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Intake 0.20 mm (0.008 in) |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- NEEDS REVIEW: summary table (pr |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- NEEDS REVIEW: summary table (pr |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- NEEDS REVIEW: summary table (pr |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- NEEDS REVIEW: summary table (pr |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- NEEDS REVIEW: summary table (pr |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative  |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative  |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 9 Valve clearance (hot) Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative  |
 | 50 | rpm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 11 Initial idle speed Idle speed 750 ± 50 rpm |
 | 420 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 11 Initial idle speed Manifold vacuum 420 mm Hg (16.5 in Hg) |
 | 200 | rpm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | 14 Fast idle 2600 ± 200 rpm |
@@ -45,11 +43,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 50 | rpm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Ignition timing: **7° BTDC / 750 ± 50 rpm** (Red mark) |
 | 12.3 – 16.8 | ft-lb | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Torque: **1.7 – 2.3 kg-m (12.3 – 16.8 ft-lb)** |
 | 0.2 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Intake 0.2 mm (0.008 in) |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.012 in) &lt;!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.012 in) &lt;!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.012 in) &lt;!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.012 in) &lt;!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 |
-| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.012 in) &lt;!-- NEEDS REVIEW: detail page (2-11) prints exhaust as 0.36 |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative (0.36 mm); imperial reco |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative (0.36 mm); imperial reco |
+| 0.36 | mm | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | Exhaust 0.36 mm (0.014 in) &lt;!-- RESOLVED: metric authoritative (0.36 mm); imperial reco |
 | 25 | °C | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | **25°C (77°F)**. If it doesn't, loosen the three screws and adjust by turning the coil hou |
 | 77 | °F | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | **25°C (77°F)**. If it doesn't, loosen the three screws and adjust by turning the coil hou |
 | 60 | °C | [02-18r-engine-tune-up.md](02-18r-engine-tune-up.md) | With engine idling (below 60°C, 140°F), disconnect the hose from the AAP diaphragm. The en |
@@ -90,10 +86,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 10 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Vacuum difference below 10 mm Hg · 0.39 in Hg |
 | 50 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Best idle speed 1000 ± 50 rpm |
 | 380 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Manifold vacuum above 380 mm Hg · 14.96 in Hg |
-| 152.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 152.0 psi &lt;!-- NEEDS REVIEW: image-verif |
-| 152.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 152.0 psi &lt;!-- NEEDS REVIEW: image-verif |
-| 180.3 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 152.0 psi &lt;!-- NEEDS REVIEW: image-verif |
-| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 152.0 psi &lt;!-- NEEDS REVIEW: image-verif |
+| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 180.6 psi &lt;!-- RESOLVED: metric authorit |
+| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 180.6 psi &lt;!-- RESOLVED: metric authorit |
+| 152.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 17 Compression Pressure Standard 12.7 kg/cm² · 180.6 psi &lt;!-- RESOLVED: metric authorit |
 | 142.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Limit 10.0 kg/cm² · 142.0 psi |
 | 14.2 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Difference of pressure between cylinders Less than 1.0 kg/cm² · 14.2 psi |
 | 8.5 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Limit 0.6 kg/cm² (8.5 psi) |
@@ -157,12 +152,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 2,000 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 1. Before measuring, race the engine to about **2,000 rpm** for **30–60 seconds**. |
 | 70–90 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Decrease in rpm approx. **70–90 rpm**. All four cylinders should show the same decrease. |
 | 200 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Compression Pressure (at 200 rpm) Value |
-| 180.3 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Standard (STD) 12.7 kg/cm² (180.3 psi) |
+| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Standard (STD) 12.7 kg/cm² (180.6 psi) |
 | 142.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Limit 10.0 kg/cm² (142.0 psi) |
 | 14.2 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Difference of pressure between cylinders Less than 1.0 kg/cm² (14.2 psi) |
-| 180.3 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | &lt;!-- NEEDS REVIEW: STD compression here reads "12.7 kg/cm² (180.3 psi)" on the page ima |
-| 152.0 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | &lt;!-- NEEDS REVIEW: STD compression here reads "12.7 kg/cm² (180.3 psi)" on the page ima |
-| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | &lt;!-- NEEDS REVIEW: STD compression here reads "12.7 kg/cm² (180.3 psi)" on the page ima |
+| 180.6 | psi | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | &lt;!-- RESOLVED: metric authoritative (12.7 kg/cm²); imperial recomputed 12.7 × 14.2233 = |
 | 0.25 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Thrust clearance limit 0.25 mm (0.0098 in) |
 | 0.05 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Head surface warpage limit 0.05 mm (0.0019 in) |
 | 0.2 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Maximum reface limit 0.2 mm (0.0079 in) |
@@ -263,8 +256,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 72.3–79.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 10.0–11.0 kg-m (72.3–79.6 ft-lb) |
 | 0.08 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Clearance limit 0.08 mm (0.0032 in) |
 | 0.16–0.040 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.16–0.040 mm (0.0063–0.0016 in) |
-| 0.16 – 0.040 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: the main-bearing oil-clearance Standard prints as "0.16 – 0.040 mm ( |
-| 0.016–0.040 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: the main-bearing oil-clearance Standard prints as "0.16 – 0.040 mm ( |
+| 0.16 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED: metric authoritative — inch column is consistent (0.16 mm = 0.0063 in, 0 |
+| 0.040 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED: metric authoritative — inch column is consistent (0.16 mm = 0.0063 in, 0 |
+| 0.16 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED: metric authoritative — inch column is consistent (0.16 mm = 0.0063 in, 0 |
 | 52.976–53.000 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | STD 52.976–53.000 mm (2.0857–2.0867 in) |
 | 52.70–52.71 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | U/S 0.25 52.70–52.71 mm (2.0748–2.0752 in) |
 | 59.976–60.000 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | STD 59.976–60.000 mm (2.3613–2.3622 in) |
@@ -274,10 +268,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 68.7–83.2 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 16R, 18R 9.5–11.5 kg-m (68.7–83.2 ft-lb) |
 | 72.3–79.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 10.0–11.0 kg-m (72.3–79.6 ft-lb) |
 | 0.3 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Limit 0.3 mm (0.0118 in) |
-| 0.002–0.22 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.002–0.22 mm (0.0008–0.0087 in) |
-| 0.002–0.22 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: the crankshaft thrust Standard prints as "0.002–0.22 mm (0.0008–0.00 |
-| 0.02 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: the crankshaft thrust Standard prints as "0.002–0.22 mm (0.0008–0.00 |
-| 0.02–0.22 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- NEEDS REVIEW: the crankshaft thrust Standard prints as "0.002–0.22 mm (0.0008–0.00 |
+| 0.02–0.22 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Standard 0.02–0.22 mm (0.0008–0.0087 in) |
+| 0.02–0.22 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED: metric authoritative — the same spec on printed 4-36 (0.02–0.22 mm) and  |
+| 0.02 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | &lt;!-- RESOLVED: metric authoritative — the same spec on printed 4-36 (0.02–0.22 mm) and  |
 | 39.1–47.7 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R 5.4–6.6 kg-m (39.1–47.7 ft-lb) |
 | 46.3–50.6 | ft-lb | [04-18r-engine-service.md](04-18r-engine-service.md) | 18R-G 6.4–7.0 kg-m (46.3–50.6 ft-lb) |
 | 0.3 | mm | [04-18r-engine-service.md](04-18r-engine-service.md) | Thrust clearance limit 0.3 mm (0.012 in) |
@@ -312,8 +305,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 36.5 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Inner 36.5 mm (1.347 in) |
 | 39.0 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Outer 39.0 mm (1.535 in) |
 | 0.1 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Limit 0.1 mm (0.004 in) |
-| 0.02 – 0.03 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.008 – 0.0012 in) &lt;!-- NEEDS REVIEW: imperial "0.008" appears |
-| 0.02–0.03 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.008 – 0.0012 in) &lt;!-- NEEDS REVIEW: imperial "0.008" appears |
+| 0.02 – 0.03 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.0008 – 0.0012 in) &lt;!-- RESOLVED: metric authoritative (0.02– |
+| 0.02–0.03 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.0008 – 0.0012 in) &lt;!-- RESOLVED: metric authoritative (0.02– |
+| 0.02 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.0008 – 0.0012 in) &lt;!-- RESOLVED: metric authoritative (0.02– |
+| 0.03 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Standard 0.02 – 0.03 mm (0.0008 – 0.0012 in) &lt;!-- RESOLVED: metric authoritative (0.02– |
 | 37.951 – 37.957 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Black 37.951 – 37.957 mm (1.4941 – 1.4944 in) 37.925 – 37.931 mm (1.4931 – 1.4933 in) |
 | 37.925 – 37.931 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Black 37.951 – 37.957 mm (1.4941 – 1.4944 in) 37.925 – 37.931 mm (1.4931 – 1.4933 in) |
 | 37.957 – 37.963 | mm | [05-18r-g-engine-service.md](05-18r-g-engine-service.md) | Blue 37.957 – 37.963 mm (1.4944 – 1.4946 in) 37.931 – 37.937 mm (1.4933 – 1.4936 in) |
@@ -394,16 +389,14 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 90 | mm | [07-cooling-system.md](07-cooling-system.md) | > the pulley seat end surface is **90 mm (3.54 in)** as shown. |
 | 8.5 | psi | [07-cooling-system.md](07-cooling-system.md) | Limit 0.6 kg/cm² (8.5 psi) |
 | 12.8 | psi | [07-cooling-system.md](07-cooling-system.md) | Standard 0.9 kg/cm² (12.8 psi) |
-| 88 | °C | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
-| 190 | °C | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
-| 8 | mm | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
-| 100 | °C | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
-| 212 | °F | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
-| 88 | °C | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190 |
-| 190 | °C | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190 |
-| 88 | °C | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190 |
-| 190 | °F | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190 |
-| 190 | °F | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190 |
+| 88 | °C | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
+| 190 | °F | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
+| 8 | mm | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
+| 100 | °C | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
+| 212 | °F | [07-cooling-system.md](07-cooling-system.md) | **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace i |
+| 88 | °C | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- RESOLVED: metric authoritative (88°C); imperial recomputed 88 × 9/5 + 32 = 190.4 ° |
+| 190.4 | °F | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- RESOLVED: metric authoritative (88°C); imperial recomputed 88 × 9/5 + 32 = 190.4 ° |
+| 190 | °F | [07-cooling-system.md](07-cooling-system.md) | &lt;!-- RESOLVED: metric authoritative (88°C); imperial recomputed 88 × 9/5 + 32 = 190.4 ° |
 | 10.91 | mm | [08-fuel-system.md](08-fuel-system.md) | > from the page image (18R-SA fast-idle clearance — OCR read "10.91 mm"; the image shows |
 | 0.91 | mm | [08-fuel-system.md](08-fuel-system.md) | > **0.91 mm**). Carburetor servicing uses **SST 09860-11011** throughout; float/adjustment |
 | 25 | °C | [08-fuel-system.md](08-fuel-system.md) | (atmospheric temperature below **25 °C** or **77 °F**) (Fig. 8-28). |
@@ -513,9 +506,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 70 | °F | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | **Battery specific gravity at 20°C (70°F):** 1.25 – 1.27 |
 | 0.8 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Spark plug gap 0.8 mm 0.03 in |
 | 0.4 – 0.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Heel gap 0.4 – 0.5 mm 0.016 – 0.020 in |
-| 0.1 – 0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.168 in &lt;!-- NEEDS REVIEW: page  |
-| 0.1–0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.168 in &lt;!-- NEEDS REVIEW: page  |
-| 0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.168 in &lt;!-- NEEDS REVIEW: page  |
+| 0.1 – 0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.016 in &lt;!-- RESOLVED: metric au |
+| 0.1–0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.016 in &lt;!-- RESOLVED: metric au |
+| 0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Distributor — Damping spring gap 0.1 – 0.4 mm 0.004 – 0.016 in &lt;!-- RESOLVED: metric au |
 | 650 | rpm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Ignition timing 7° BTDC / 650 rpm |
 | 0.20 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Valve clearance (Hot) — Intake 0.20 mm 0.0079 in |
 | 0.36 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Valve clearance (Hot) — Exhaust 0.36 mm 0.0141 in |
@@ -738,18 +731,18 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Thrust clearance Limit 0.4 mm 0.0158 in |
 | 0.03 – 0.07 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal oil clearance STD 0.03 – 0.07 mm 0.0012 – 0.0028 in |
 | 0.15 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal oil clearance Limit 0.15 mm 0.0059 in |
-| 31.954 – 31.970 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal diameter STD 31.954 – 31.970 mm 1.2580 – 2.2587 in &lt;!-- NEEDS REVIEW: page imag |
-| 31.970 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal diameter STD 31.954 – 31.970 mm 1.2580 – 2.2587 in &lt;!-- NEEDS REVIEW: page imag |
+| 31.954 – 31.970 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal diameter STD 31.954 – 31.970 mm 1.2580 – 1.2587 in &lt;!-- RESOLVED: metric author |
+| 31.954–31.970 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal diameter STD 31.954 – 31.970 mm 1.2580 – 1.2587 in &lt;!-- RESOLVED: metric author |
+| 31.970 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Journal diameter STD 31.954 – 31.970 mm 1.2580 – 1.2587 in &lt;!-- RESOLVED: metric author |
 | 45.37 – 45.47 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Cam height (both intake and exhaust) STD 45.37 – 45.47 mm 1.786 – 1.790 in |
 | 45.0 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Cam height (both intake and exhaust) Limit 45.0 mm 1.77 in |
 | 0.1 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Manifold surface warpage limit (both intake and exhaust) 0.1 mm 0.0039 in |
 | 291.4 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Elongation limit — No.1 (at 5 kg) 291.4 mm 11.47 in |
 | 147.0 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Elongation limit — No.2 (17 Links) 147.0 mm 5.79 in |
 | 60.0 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Crankshaft gear 60.0 mm 2.362 in |
-| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.503 in &lt;!-- NEEDS REVIEW: page image prints "4.503 in" |
-| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.503 in &lt;!-- NEEDS REVIEW: page image prints "4.503 in" |
-| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.503 in &lt;!-- NEEDS REVIEW: page image prints "4.503 in" |
-| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.503 in &lt;!-- NEEDS REVIEW: page image prints "4.503 in" |
+| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.508 in &lt;!-- RESOLVED: metric authoritative (114.5 mm); |
+| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.508 in &lt;!-- RESOLVED: metric authoritative (114.5 mm); |
+| 114.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Pump drive shaft gear 114.5 mm 4.508 in &lt;!-- RESOLVED: metric authoritative (114.5 mm); |
 | 78.2 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Camshaft drive gear 78.2 mm 3.079 in |
 | 78.2 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | Camshaft timing gear 78.2 mm 3.079 in |
 | 11.5 | mm | [12-sst-and-service-specifications.md](12-sst-and-service-specifications.md) | No.1 tensioner 11.5 mm 0.453 in |

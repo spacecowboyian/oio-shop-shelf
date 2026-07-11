@@ -261,7 +261,7 @@ SST **09236-00100** and a press.
    when fully closed.
 2. **Fig. 7-33** — Immerse the thermostat in water, and check the valve opening temperatures
    by heating the water gradually. The valve is satisfactory if it starts to open at
-   **88°C (190°C)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace if
+   **88°C (190°F)** and opens to more than **8 mm (0.32 in)** at **100°C (212°F)**. Replace if
    necessary.
 
-<!-- NEEDS REVIEW: the printed page (p0175) shows the opening temperature as "88°C (190°C)". 88°C ≈ 190°F, so the parenthetical is almost certainly a factory misprint for "(190°F)". Transcribed exactly as printed per Rule 0; flagged rather than silently corrected. -->
+<!-- RESOLVED: metric authoritative (88°C); imperial recomputed 88 × 9/5 + 32 = 190.4 °F ≈ 190°F (printed unit "°C" corrected to "°F"). -->

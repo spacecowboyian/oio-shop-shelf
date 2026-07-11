@@ -878,7 +878,7 @@ Disassemble in numerical order (Fig. 4-110):
 
       U/S bearing sizes: U/S 0.05, 0.25, 0.50
 
-      <!-- NEEDS REVIEW: the main-bearing oil-clearance Standard prints as "0.16 – 0.040 mm (0.0063 – 0.0016 in)" on the page image — a descending/inverted range that appears to be an original-manual typo (likely intended 0.016–0.040 mm; note the inch column also runs high-to-low). Transcribed exactly as printed per Rule 0; not silently corrected. -->
+      <!-- RESOLVED: metric authoritative — inch column is consistent (0.16 mm = 0.0063 in, 0.040 mm = 0.0016 in); values kept exactly as printed. NB: printed range runs high→low and 0.16 mm is large for a main-bearing clearance — left as the manual prints it. -->
 
 2. Measure crankpin journal. If wear is excessive, crankshaft must be reground or replaced.
 
@@ -968,9 +968,9 @@ Assemble in numerical order (Fig. 4-158):
    | Thrust clearance | Value |
    | --- | --- |
    | Limit | 0.3 mm (0.0118 in) |
-   | Standard | 0.002–0.22 mm (0.0008–0.0087 in) |
+   | Standard | 0.02–0.22 mm (0.0008–0.0087 in) |
 
-   <!-- NEEDS REVIEW: the crankshaft thrust Standard prints as "0.002–0.22 mm (0.0008–0.0087 in)" on the page image. The low mm value "0.002" is inconsistent with its own inch value (0.0008 in = 0.02 mm) and with the identical spec on printed page 4-36 (0.02–0.22 mm) — appears to be an original-manual typo for "0.02". Transcribed exactly as printed per Rule 0; not silently corrected. -->
+   <!-- RESOLVED: metric authoritative — the same spec on printed 4-36 (0.02–0.22 mm) and this row's inch column (0.0008 in = 0.02 mm) both confirm; "0.002" was a single-digit manual typo, reconciled to 0.02. -->
 
 2. Cover rod bolts with a hose to protect crankpin from damage (Fig. 4-164).
 3. Position ring gap in direction as shown (Fig. 4-165: Side Rail / Expander / Side Rail = Oil Ring; No. 1, No. 2, Thrust Surface, Front markings).
