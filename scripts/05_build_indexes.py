@@ -8,23 +8,23 @@ Generates, in <manuals/slug/>/wiki/:
     00-index.md               chapter table of contents (from manifest + headings)
     09-quick-reference.md     harvested specs (number+unit), linked to source anchors
     10-needs-review.md        rollup of every <!-- NEEDS REVIEW: ... --> comment
-    11a-alphabetical-index.md alphabetical topic index built from H2/H3 headings
 
-Never edits chapter content — only (re)writes the generated index files above.
+No back-of-book alphabetical index is generated (dropped 2026-07-11 — an eval run found
+a direct grep across chapter files beat a curated ~970-entry index on 8/9 real
+questions; see the oio-shop-shelf decisions log). Never edits chapter content — only
+(re)writes the generated index files above.
 """
 from __future__ import annotations
 
 import argparse
 import re
 import sys
-from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _common import load_manifest, manual_dir, wiki_dir  # noqa: E402
 
 GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md"}
-GENERATED_PREFIXES = ("11",)  # alphabetical index files
 HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
@@ -35,16 +35,8 @@ SPEC_RE = re.compile(
 )
 
 
-def slugify_anchor(heading: str) -> str:
-    """GitHub-style anchor from a heading."""
-    s = heading.strip().lower()
-    s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"\s+", "-", s)
-    return s
-
-
 def is_generated(name: str) -> bool:
-    return name in GENERATED or name.startswith(GENERATED_PREFIXES) or name == "llm-instructions.md"
+    return name in GENERATED or name == "llm-instructions.md"
 
 
 def chapter_files(wdir: Path) -> list[Path]:
@@ -63,7 +55,7 @@ def main() -> int:
     if not files:
         sys.exit("No chapter .md files in wiki/ yet — run the AI cleanup step first.")
 
-    toc_rows, specs, reviews, alpha = [], [], [], defaultdict(list)
+    toc_rows, specs, reviews = [], [], []
 
     for f in files:
         lines = f.read_text(encoding="utf-8").splitlines()
@@ -75,9 +67,6 @@ def main() -> int:
                 if level == 1 and h1 is None:
                     h1 = text
                     toc_rows.append((f.name, text))
-                elif level in (2, 3):
-                    anchor = slugify_anchor(text)
-                    alpha[text[0].upper() if text else "#"].append((text, f.name, anchor))
             for sm in SPEC_RE.finditer(line):
                 # nearest preceding heading anchor for context
                 specs.append((f.name, sm.group("val"), sm.group("unit"), line.strip()))
@@ -90,8 +79,7 @@ def main() -> int:
         idx.append(f"- [{title}]({name})")
     idx += ["", "## Reference", "",
             "- [Quick Reference (specs)](09-quick-reference.md)",
-            "- [Needs Review](10-needs-review.md)",
-            "- [Alphabetical Index](11a-alphabetical-index.md)", ""]
+            "- [Needs Review](10-needs-review.md)", ""]
     (wdir / "00-index.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
 
     # 09-quick-reference.md
@@ -116,15 +104,6 @@ def main() -> int:
     else:
         nr.append("No open review flags. 🎉")
     (wdir / "10-needs-review.md").write_text("\n".join(nr) + "\n", encoding="utf-8")
-
-    # 11a-alphabetical-index.md
-    ai = ["# Alphabetical Index", ""]
-    for letter in sorted(alpha):
-        ai.append(f"### {letter}")
-        for text, name, anchor in sorted(set(alpha[letter])):
-            ai.append(f"- [{text}]({name}#{anchor})")
-        ai.append("")
-    (wdir / "11a-alphabetical-index.md").write_text("\n".join(ai) + "\n", encoding="utf-8")
 
     print(f"Generated indexes: {len(toc_rows)} chapters, {len(specs)} specs, "
           f"{len(reviews)} review flags.")

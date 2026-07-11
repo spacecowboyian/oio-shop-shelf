@@ -78,7 +78,7 @@ condition → check → result → next action:
 - One `#` H1 per file: the chapter title.
 - Use `##`/`###` for sections and sub-sections so `05_build_indexes.py` can build the TOC.
 - Section headings generate GitHub anchors automatically; keep them stable and descriptive
-  because the quick-reference and alphabetical indexes link to them.
+  because the quick-reference index links to them.
 
 ## Rule 5 — Cross-references are links, not duplication
 

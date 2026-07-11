@@ -97,7 +97,10 @@ chapters:
     page_end: 219
 
 # NOTE: this manual ships hand-curated index files (00-index.md, 09-torque-specs.md,
-# 10-needs-review.md, 11a..11d-alphabetical-index.md) rather than the auto-generated
-# scheme from 05_build_indexes.py. They are richer (multi-file alphabetical index,
-# ~970 entries; per-value torque backlinks) than the generator would produce, so they
-# are kept as-is. 05_build_indexes.py targets NEW manuals that lack curated indexes.
+# 10-needs-review.md) rather than the auto-generated scheme from 05_build_indexes.py.
+# They are richer (per-value torque backlinks) than the generator would produce, so
+# they are kept as-is. 05_build_indexes.py targets NEW manuals that lack curated
+# indexes. The hand-curated back-of-book alphabetical index (11a-11d) that used to
+# ship here was removed 2026-07-11 — see the repo decisions log / oio-shop-shelf
+# Brains decisions page: an eval run found direct grep across chapter files beat it
+# on 8/9 real questions, and no generated manual ever had one to begin with.
