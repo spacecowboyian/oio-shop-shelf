@@ -83,13 +83,16 @@ manuals start from the generated ones.)
 ## 6 — Bake the index into the PDF
 
 ```
-python scripts/08_append_index_pages.py manuals/<slug>/
+python scripts/08_append_index_pages.py manuals/<slug>/ --in-place
 ```
 
 Appends the chapter table + alphabetical index as searchable, clickable pages to
-the end of the OCR'd PDF (`<src-stem>-indexed.pdf`). Every entry jumps to the
-source page where the info lives, so a standalone PDF download still has a working
-index. See issue #2 for where this is headed in the pipeline.
+the end of the OCR'd PDF. Every entry jumps to the source page where the info
+lives, so a standalone PDF download still has a working index. `--in-place` bakes
+the index into the shipped PDF (idempotent — re-runs replace the index, never
+duplicate it; the pristine manual stays recoverable via a stamped marker). Drop
+`--in-place` to write a separate `<src-stem>-indexed.pdf` instead. See issue #2
+for where this is headed in the pipeline.
 
 ## 7 — Verify
 
