@@ -11,13 +11,9 @@ You have access to a Toyota 4A-F / 4A-GE engine service manual: OCR'd markdown f
 - `Toyota-4A-F-4A-GE-engine-manual-OCR.pdf` — the source PDF. Diagrams, exploded views, and wiring charts exist ONLY here, never as text in the markdown.
 
 ## Where the PDF lives
-These markdown files may be hosted two ways:
-- **As a local folder/zip** — the PDF above sits right next to these `.md` files.
-- **As wiki pages (e.g. Brains)** — the wiki stores markdown only, no binary files, so the PDF is NOT a sibling page. It lives on Google Drive instead:
-  - PDF direct link: https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view
-  - Full source folder (all files, for reference): https://drive.google.com/drive/u/0/folders/1bs-cEDegeIJHi_ez9-p82By3WKE8AaLX
+The PDF is committed at `manuals/toyota-4a-fe-4a-ge/Toyota-4A-F-4A-GE-engine-manual-OCR.pdf`, a sibling of this `wiki/` folder — open it directly rather than following an external link. (If you're instead reading this via a wiki tool that stores markdown only, e.g. Brains, the PDF may not be a sibling page there; fall back to the source pointer in `manifest.yml`.)
 
-Either way, don't guess — every page citation in this bundle (`[PDF p.N]`, `(PDF p.N)`, mini-index page ranges, torque-spec source links) is already a clickable link straight to that exact page, using the Drive `#page=N` deep-link format. Follow the link rather than constructing one yourself.
+Don't guess page numbers — every page citation in this bundle (`[PDF p.N]`, `(PDF p.N)`, mini-index page ranges, torque-spec source links) already tells you the exact source page to open.
 
 ## Rules
 1. For any topic/component/symptom question, check `11-alphabetical-index.md` first, not a raw text search of one chapter.

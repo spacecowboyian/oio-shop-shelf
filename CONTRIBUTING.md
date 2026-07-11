@@ -5,16 +5,17 @@ Thanks for helping turn unreadable scanned manuals into clean, structured wikis.
 ## ⚠️ Read this first: source-manual copyright
 
 OEM service manuals are almost always copyrighted by the manufacturer or publisher.
+This repo commits the source PDF alongside each manual's wiki anyway — deliberately, so
+an AI assistant (or a human) reading the markdown can open the PDF for diagrams, wiring
+charts, and exploded views that never made it into text.
 
-- **Do NOT commit source PDFs into this repo.** `.gitignore` blocks `*.pdf` by default.
-- Your `manifest.yml` should point (`source:`) to wherever *you* host the source — your
-  own Google Drive, a private URL, etc. The repo only ships the derived transcription.
-- **Whether the derived markdown transcription itself may be published** under a given
-  manual's copyright is an unresolved question and varies by manual and jurisdiction. If
-  you are not sure you have the right to publish a transcription of a particular manual,
-  **do not open a PR adding it.** When in doubt, ask in an issue first.
-
-This posture is deliberately conservative and will be revisited before any public launch.
+- **This is a considered risk, taken without seeking permission from any manufacturer.**
+  No license has been sought. A DMCA takedown or repo action is a real possibility at
+  any time, for any manual added here.
+- **PDFs are committed, not gitignored.** Put `<slug>.pdf` (or similarly named) right in
+  `manuals/<slug>/` alongside `manifest.yml`.
+- If you are not comfortable taking on that risk for a manual you want to add, don't open
+  the PR — this posture is a per-repo-owner call, not something to assume for others.
 
 ## The pipeline, end to end
 
