@@ -3,6 +3,9 @@
 Source: `Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf` (228 pages, committed in this
 folder; text layer via Adobe Paper Capture, decrypted with qpdf).
 
+**New here? Read [`../README.md`](../README.md) first** — a plain-language overview of what
+these engines are, which vehicles used them, and what this manual does and doesn't cover.
+
 **Status: IN PROGRESS (scaffold).** This manual was added by dogfooding the
 [`convert-manual`](../../../skills/convert-manual/SKILL.md) skill. The mechanical
 pipeline (decrypt → prepare → split → manifest) is done and verified; the per-chapter

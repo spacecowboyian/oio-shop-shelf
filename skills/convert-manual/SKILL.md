@@ -42,6 +42,28 @@ Accept either a local path or a link (Drive/URL). If it's a link, download it
 first to a local working file. Confirm the manual's make/engine/system so you can
 pick a `slug` (e.g. `toyota-4a-fe-4a-ge`) and title.
 
+## 1b. Manual overview & scope — build it FIRST, confirm with the user
+
+Before converting anything, write **`manuals/<slug>/README.md`** — a short overview of
+what the manual is, what it covers, and what it doesn't. This gives the whole conversion
+its bearings (and tells a future reader whether this manual even applies to their vehicle).
+
+Draw on the manual's own title/contents pages (authoritative) **plus** general context from
+the `auto-mechanic` skill + glossary and a quick web lookup (engine family, specs, which
+vehicles it was used in, era). **Keep the two sources clearly separated** — mark the
+engine/vehicle background as best-effort / review-pending; it is NOT from the manual.
+
+Cover:
+- **The engine(s)/vehicle(s):** what it is, rough specs, which cars it went in, years.
+- **What the manual covers** (its section list) and **what it does NOT** (e.g. an *engine*
+  manual won't have transmission/brakes/body; note if the scan is abridged/missing pages).
+- **Provenance caveats** (encryption, abridged scan, any bogus stickers/annotations).
+
+**Then STOP and have the user review/correct the overview before continuing.** The web/
+background details won't be perfect; a quick confirm here prevents a wrong assumption from
+coloring the whole conversion. Only proceed once the overview is right. See
+`manuals/toyota-4a-fe-4a-ge-repair/README.md` for a worked example.
+
 ## 2. Decrypt + OCR (first real step)
 
 Produce a clean, text-searchable working PDF before anything else:
