@@ -5,8 +5,8 @@
 `oio-shop-shelf` is an open-source, extensible toolkit that converts scanned/OCR'd
 service-manual PDFs into a well-structured markdown wiki: real tables (not ASCII-art
 dumps of image-based charts), numbered procedures as lists, diagnostic flowcharts as
-step-tables, a chapter index, a quick-reference spec index, and a consolidated "needs
-review" log.
+step-tables, a chapter index, an alphabetical back-of-book index, a quick-reference
+spec index, and a consolidated "needs review" log.
 
 The output is **plain markdown, browsable on GitHub as-is** — no hosted product, no
 database, no lock-in to any particular tool.
@@ -68,6 +68,7 @@ manuals/
       01-....md, 02-....md  one file per chapter (split further if huge)
       09-quick-reference.md torque/voltage/resistance/clearance specs, linked to source anchors
       10-needs-review.md    consolidated flag list
+      11a..-alphabetical-index.md
       llm-instructions.md   per-manual guidance for AI assistants consuming the wiki
     raw-ocr/                gitignored intermediate OCR text (regenerable, not committed)
   _template/                skeleton for a new manual
