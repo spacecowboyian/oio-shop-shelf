@@ -52,9 +52,15 @@ PDF ──01_prepare──▶ OCR'd PDF ──02_render──▶ page PNGs ┐
                               05_build_indexes ◀──────────────────────┘
                                      │
                               06_check_links (also runs in CI)
+                                     │
+                              08_append_index_pages ─▶ *-indexed.pdf
+                              (chapter + alphabetical index baked into
+                               the PDF as clickable, searchable pages)
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full end-to-end workflow.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full end-to-end workflow. The
+[`convert-manual`](skills/convert-manual/SKILL.md) skill drives this whole
+pipeline for a contributor bringing their own PDF, and walks them through the PR.
 
 ## Repo layout
 
@@ -76,11 +82,13 @@ manuals/
 scripts/                    01-06 pipeline + 07 optional Brains mirror (disabled)
 .github/workflows/          CI: link check + manifest schema validation
 llm-instructions.md         entry point for ANY LLM answering questions from a manual here
-glossary.md                  automotive terminology + OEM manual conventions an LLM needs
+glossary.md                 automotive terminology + OEM manual conventions an LLM needs
                               to correctly interpret a manual, not just read it
-.claude/skills/oio-shop-shelf/   thin Claude Code Skill wrapper around llm-instructions.md
-.claude/skills/auto-mechanic/    standalone, installable Skill — general auto-mechanic
-                                  persona + bundled glossary, works even without this repo
+skills/                   portable ChatGPT/Codex/Claude skill packages
+  oio-shop-shelf/         thin wrapper around llm-instructions.md
+  auto-mechanic/          standalone mechanic persona + bundled glossary
+  convert-manual/         contributor workflow for adding a manual
+.claude/skills/           Claude-compatible copies for Claude Code auto-discovery
 ```
 
 ## Using this repo with an AI assistant
@@ -90,24 +98,33 @@ Claude Code. It explains how manuals are laid out and the rules every manual's w
 follows (never alter a spec value, cite source pages, etc.), points at
 [`glossary.md`](glossary.md) for the automotive terminology and OEM manual conventions
 an LLM needs to *understand* a manual rather than just read it, then routes to the
-manual-specific `wiki/llm-instructions.md` for the one the user's asking about. Claude
-Code users get this automatically via `.claude/skills/oio-shop-shelf/`.
+manual-specific `wiki/llm-instructions.md` for the one the user's asking about.
+ChatGPT/Codex-style skill consumers can use the portable packages under `skills/`.
+Claude Code users can use the `.claude/skills/` copies for auto-discovery.
 
-## `auto-mechanic` — a standalone Claude Code Skill for anyone
+## Portable Skills
 
-[`.claude/skills/auto-mechanic/`](.claude/skills/auto-mechanic/) is a separate, more
-general Skill: an experienced-mechanic persona for diagnosing symptoms, explaining
-procedures, and correctly reading automotive terminology — not limited to manuals in
-this repo. It bundles its own copy of `glossary.md` so it works standalone. To install
-it, copy the folder into your own `~/.claude/skills/`:
+[`skills/`](skills/) contains model-neutral skill packages suitable for ChatGPT/Codex,
+Claude, or another assistant that understands `SKILL.md`-style instructions. Each skill
+has a portable `SKILL.md`; ChatGPT/Codex consumers also get `agents/openai.yaml`
+metadata.
+
+- [`skills/oio-shop-shelf/`](skills/oio-shop-shelf/) answers from manuals in this repo.
+- [`skills/convert-manual/`](skills/convert-manual/) walks a contributor through the
+  PDF-to-wiki pipeline and PR flow.
+- [`skills/auto-mechanic/`](skills/auto-mechanic/) is a standalone mechanic persona for
+  diagnosis, procedures, and automotive terminology. It bundles its own copy of
+  `glossary.md` so it works even without this repo.
+
+To install the standalone mechanic skill in Claude Code, copy the Claude-compatible
+folder into your own `~/.claude/skills/`:
 
 ```bash
 cp -r .claude/skills/auto-mechanic ~/.claude/skills/
 ```
 
-The bundled glossary may lag the canonical copy at the repo root — this Skill is meant
-to be broadly useful on its own, but the fullest, most current reference always lives
-here.
+The bundled glossary may lag the canonical copy at the repo root. The skill is meant to
+be broadly useful on its own, but the fullest, most current reference always lives here.
 
 ## Status
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Convert Manual"
+  short_description: "Convert service-manual PDFs into repo-ready packages"
+  default_prompt: "Use $convert-manual to turn this service-manual PDF into an oio-shop-shelf package."
