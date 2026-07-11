@@ -51,6 +51,14 @@ index doesn't have it, or the question isn't a simple value lookup (a procedure,
 symptom diagnosis, "how do I…"). Not every manual has an index yet — if the file is absent,
 use the normal path below.
 
+**Why this path exists (the cost floor).** Whatever agent/tool is answering already paid a
+fixed startup cost the moment it fired up — its system prompt + all its tool schemas + the
+task — and that cost is *retained* in context for the whole session. It's the same no matter
+how the manual is stored, and no index or file format can shrink it. So the only thing worth
+optimizing is how many tokens you add *on top* of that floor: the fast path above adds about
+one grep and one line, which is as close to the floor as a lookup can get. Read a whole
+chapter instead and you pay that floor plus thousands of tokens you didn't need.
+
 ## Normal path / deeper questions: read the manual-specific file + glossary
 
 For anything past a single value lookup, read that manual's
