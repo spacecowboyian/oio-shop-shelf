@@ -1,0 +1,4 @@
+interface:
+  display_name: "OIO Shop Shelf"
+  short_description: "Answer from oio-shop-shelf service manuals"
+  default_prompt: "Use $oio-shop-shelf to look up this service-manual question and cite the source page."
