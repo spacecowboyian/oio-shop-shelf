@@ -8,6 +8,15 @@ the same page range.
 
 Treat everything below as hard rules, not suggestions.
 
+> **Living standard.** These rules evolve as we convert more manuals. **Rule 0
+> (never silently change a number) is inviolable; everything else is amendable.**
+> If a manual surfaces a case the rules don't cover, or a rule turns out wrong,
+> propose an edit to *this file* in your PR with the case that motivated it, and add
+> a line to the changelog at the bottom. The reference 4A-GE manual is **not perfect
+> yet** — its open items live in `manuals/toyota-4a-fe-4a-ge/wiki/10-needs-review.md`,
+> the canonical example of "flag, don't guess." Tracked in
+> [issue #3](https://github.com/spacecowboyian/oio-shop-shelf/issues/3).
+
 ---
 
 ## Your job
@@ -108,3 +117,11 @@ number+unit patterns.
 - [ ] Exactly one H1; sensible `##`/`###` structure.
 - [ ] Cross-references are relative links; nothing duplicated from other chapters.
 - [ ] No page headers/footers or scan speckle left in the body.
+
+## Changelog
+
+Record rule changes here so contributors can see how the standard evolved. One line
+per change: date · what changed · why (link the PR/issue).
+
+- 2026-07-11 · Marked this doc a living standard; added changelog + link to
+  `10-needs-review.md` as the canonical "flag, don't guess" example (#3).

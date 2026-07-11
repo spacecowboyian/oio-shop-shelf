@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Mechanic"
+  short_description: "Safety-conscious vehicle diagnosis and repair guidance"
+  default_prompt: "Use $auto-mechanic to diagnose this vehicle symptom and explain the safest next checks."
