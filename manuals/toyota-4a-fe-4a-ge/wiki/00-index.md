@@ -10,7 +10,7 @@ Source: `Toyota-4A-F-4A-GE-engine-service-and-maintenance-manual.pdf` (219 pages
 
 Every page of text carries an anchor (`#pN`) and a `[PDF p.N]` marker — N is the literal page number in the source PDF, and every such marker is a clickable link straight to that page on Drive (`...view#page=N`). Diagrams/exploded views/wiring charts are images, not reproduced as text — follow the page link to see them.
 
-**Looking for a specific topic, component, or symptom?** Start at the alphabetical index — a real back-of-manual index, ~970 entries (components, procedures, DTC codes, spec categories), each linking straight to its chapter anchor and citing the source PDF page. Split into 4 parts by letter range: [#-D](11a-alphabetical-index.md) · [E-O](11b-alphabetical-index.md) · [P-T](11c-alphabetical-index.md) · [U-W](11d-alphabetical-index.md).
+**Looking for a specific topic, component, or symptom?** `grep` for the term across `wiki/*.md` — faster in practice than any curated index (an eval run comparing the two found direct grep won on 8/9 real questions; see the oio-shop-shelf decisions log).
 
 ## Chapters
 
@@ -34,10 +34,6 @@ Every page of text carries an anchor (`#pN`) and a `[PDF p.N]` marker — N is t
 | FI | EFI — Throttle Body | [08f-efi-throttle-body.md](08f-efi-throttle-body.md) | [190](https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view#page=190)-[200](https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view#page=200) |
 | FI | EFI — Sensors/Relays/VSV/Fuel Cut | [08g-efi-sensors-relays.md](08g-efi-sensors-relays.md) | [201](https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view#page=201)-[219](https://drive.google.com/file/d/1NuA7cEAkJwiVP4l5weaB9gh5vXHIxbOh/view#page=219) |
 
-| — | **Alphabetical Index A-D (~250 terms)** | [11a-alphabetical-index.md](11a-alphabetical-index.md) | — |
-| — | **Alphabetical Index E-O (~250 terms)** | [11b-alphabetical-index.md](11b-alphabetical-index.md) | — |
-| — | **Alphabetical Index P-T (~250 terms)** | [11c-alphabetical-index.md](11c-alphabetical-index.md) | — |
-| — | **Alphabetical Index U-W (~220 terms)** | [11d-alphabetical-index.md](11d-alphabetical-index.md) | — |
 | — | **Torque Specifications (all chapters)** | [09-torque-specs.md](09-torque-specs.md) | — |
 | — | **Needs Your Attention (review list)** | [10-needs-review.md](10-needs-review.md) | — |
 

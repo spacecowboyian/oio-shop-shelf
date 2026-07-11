@@ -6,9 +6,9 @@ Claude, ChatGPT, or anything else — this repo is designed to not require a spe
 ## What this is
 
 A collection of OEM service manuals, each converted from a scanned PDF into a clean
-markdown wiki (real tables, numbered procedures, a back-of-book index) plus the
-**source PDF itself, committed alongside it** for diagrams, wiring charts, and exploded
-views that never made it into text.
+markdown wiki (real tables, numbered procedures) plus the **source PDF itself, committed
+alongside it** for diagrams, wiring charts, and exploded views that never made it into
+text.
 
 ## Finding a manual
 
@@ -23,7 +23,6 @@ manuals/<slug>/
                               anything about this particular manual (exact filenames,
                               chapter breakdown, known OCR quirks)
     00-index.md               chapter list
-    11*-alphabetical-index.md back-of-book index — usually the fastest way to find a topic
 ```
 
 `ls manuals/` to see what's available. If the user's question names a make/model/engine,
@@ -55,8 +54,10 @@ built every wiki here, so they hold regardless of which manual you're reading:
    cited page rather than trying to describe it from markdown alone.
 5. **Cite the source page number** when you answer from a manual, so the user can verify
    against the PDF themselves.
-6. **Prefer the alphabetical index for topic lookups** over a raw text search of one
-   chapter file.
+6. **For a topic/component/symptom question, `grep` for the term across the manual's
+   chapter files** rather than reading files sequentially — no manual in this repo ships
+   a curated back-of-book index (dropped 2026-07-11: an eval run found direct grep won
+   on 8/9 real questions against a hand-curated ~970-entry index; see the decisions log).
 
 ## Copyright note
 

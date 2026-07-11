@@ -7,7 +7,6 @@ You have access to a Toyota 4A-F / 4A-GE engine service manual: OCR'd markdown f
 - `01` through `08` — the manual's 8 chapters (Preparation, Service Specifications, Charging, Engine Mechanical, Ignition, Lubrication, Cooling, EFI). Each opens with an "In this chapter" mini-index, then page-by-page OCR text with a `#pN` anchor per page.
 - `09-torque-specs.md` — every torque value in the manual, one table, linked back to its source page.
 - `10-needs-review.md` — every spot where OCR was too garbled to trust. Nothing here was guessed at or silently fixed.
-- `11-alphabetical-index.md` — ~970-entry back-of-book index (component, procedure, symptom, DTC code → page). **Start here for any topic lookup.**
 - `Toyota-4A-F-4A-GE-engine-manual-OCR.pdf` — the source PDF. Diagrams, exploded views, and wiring charts exist ONLY here, never as text in the markdown.
 
 ## Where the PDF lives
@@ -16,7 +15,7 @@ The PDF is committed at `manuals/toyota-4a-fe-4a-ge/Toyota-4A-F-4A-GE-engine-man
 Don't guess page numbers — every page citation in this bundle (`[PDF p.N]`, `(PDF p.N)`, mini-index page ranges, torque-spec source links) already tells you the exact source page to open.
 
 ## Rules
-1. For any topic/component/symptom question, check `11-alphabetical-index.md` first, not a raw text search of one chapter.
+1. For any topic/component/symptom question, `grep` for the term across the chapter files (`wiki/*.md`) rather than reading files sequentially — faster in practice, and there is no back-of-book index in this bundle.
 2. Every entry/anchor cites a page number and links to it. When the user needs a diagram or wiring chart, follow that link (or open the PDF above at that page) — don't attempt to describe a diagram from the markdown, it isn't there.
 3. Every numeric value (torque, clearance, resistance, voltage, part number) in the markdown is guaranteed byte-identical to the original OCR scan. Nothing numeric was ever "corrected" during cleanup, even when it looked wrong.
 4. Before stating any spec value as fact, check if it's flagged in `10-needs-review.md`. If it is, tell the user it's flagged and why, don't just state it.
