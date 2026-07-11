@@ -96,7 +96,7 @@
 | | | Electrolyte level | — |
 | 6 | Spark Plug | Visual check · Cleaning | — |
 | | | Plug gap | 0.7–0.8 mm · 0.028–0.031 in |
-| 7 | High Tension Cord | Resistance | 10–50 kΩ/Meter <!-- NEEDS REVIEW: image-verified from p.31 as "10–50 kΩ/Meter", but the detail page [PDF p.37 / printed 3-8] states "Less than 25 kΩ/Meter". Both transcribed faithfully; this is a manual-internal discrepancy, not an OCR error. --> |
+| 7 | High Tension Cord | Resistance | 10–50 kΩ/Meter <!-- NEEDS REVIEW: image-verified from p.31 as "10–50 kΩ/Meter", but the detail page [PDF p.37 / printed 3-8] states "Less than 25 kΩ/Meter". Both transcribed faithfully; this is a manual-internal discrepancy, not an OCR error. — ANSWER (needs confirm): not truly contradictory — "10–50 kΩ/Meter" is the resistive (TVRS) cord's nominal resistance-per-metre band, while "Less than 25 kΩ/Meter" (detail 3-8) is the in-service inspection limit. Go/no-go: replace any cord reading ≥ 25 kΩ/Meter. --> |
 | 8 | Distributor | Distributor cap | — |
 | | | Point gap | 0.45 mm |
 | | | Dwell angle | 50–54° |
@@ -155,7 +155,7 @@ thinning.
 3. Start the engine and check for oil leakage.
 4. Stop the engine and recheck the oil level.
 
-<!-- NEEDS REVIEW: the oil-filter removal SST here reads "09228-34010" on the page image, while the tune-up-item table [PDF p.31] lists the oil-filter-replacement SST as "09228-44010". Both transcribed as shown; likely a manual-internal typo, not an OCR error. -->
+<!-- NEEDS REVIEW: the oil-filter removal SST here reads "09228-34010" on the page image, while the tune-up-item table [PDF p.31] lists the oil-filter-replacement SST as "09228-44010". Both transcribed as shown; likely a manual-internal typo, not an OCR error. — ANSWER: the ch.12 SST master list ([PDF p.313]) gives the 18R-G Oil Filter Wrench as 09228-34010 (18R: 09228-22020). So 09228-34010 is correct; the tune-up-item table's "09228-44010" is a manual typo. -->
 
 ---
 <a id="p34"></a>
@@ -279,7 +279,7 @@ Plug gap: **0.7–0.8 mm (0.028–0.031 in)**
 
 Check the cord resistance with an ohmmeter.
 
-Resistance: **Less than 25 kΩ/Meter** <!-- NEEDS REVIEW: image-verified from p.37 as "Less than 25 kΩ/Meter"; the summary spec table [PDF p.31] lists "10–50 kΩ/Meter" for the same item. Manual-internal discrepancy, both transcribed faithfully. -->
+Resistance: **Less than 25 kΩ/Meter** <!-- NEEDS REVIEW: image-verified from p.37 as "Less than 25 kΩ/Meter"; the summary spec table [PDF p.31] lists "10–50 kΩ/Meter" for the same item. Manual-internal discrepancy, both transcribed faithfully. — ANSWER (needs confirm): the two describe different things — 10–50 kΩ/Meter is the cord's nominal resistance band; this "< 25 kΩ/Meter" is the service limit. Use < 25 kΩ/Meter as the replace-threshold. -->
 
 ---
 <a id="p38"></a>
