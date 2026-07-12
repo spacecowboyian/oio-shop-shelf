@@ -1,0 +1,37 @@
+name: no-pdf-guard
+
+# Hard guard: no PDF may ever land in git history. Source PDFs live on GitHub Releases
+# (see MAINTAINERS.md), never committed to a branch that merges into main.
+#
+# - On a manual PR, the contributor's committed PDF makes this check RED — that is
+#   EXPECTED. It clears when a maintainer runs `scripts/publish-release.sh <manual-dir>`
+#   (which moves the PDF to a Release and removes it from the tree) before squash-merging.
+# - On push to main, this is a backstop that should always be green.
+#
+# For pull_request events, actions/checkout checks out the merge result, so this reflects
+# exactly what main would become.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  no-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if any PDF is tracked
+        run: |
+          pdfs="$(git ls-files '*.pdf' || true)"
+          if [ -n "$pdfs" ]; then
+            echo "::error::Source PDF(s) are committed to git. PDFs must live on GitHub Releases, not in history."
+            echo "Tracked PDF(s):"
+            echo "$pdfs" | sed 's/^/  - /'
+            echo ""
+            echo "Before merging, a maintainer must, for each manual dir:"
+            echo "  scripts/publish-release.sh <manual-dir>   # e.g. manuals/toyota/vehicle/mr2-aw11"
+            echo "then commit and SQUASH-merge (never rebase / merge-commit). See MAINTAINERS.md."
+            exit 1
+          fi
+          echo "OK — no tracked PDFs."
