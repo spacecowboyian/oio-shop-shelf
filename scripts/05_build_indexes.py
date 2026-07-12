@@ -23,8 +23,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from _common import load_manifest, manual_dir, wiki_dir  # noqa: E402
 
-GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md"}
-GENERATED_PREFIXES = ("11",)  # alphabetical index files
+GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md",
+             "11a-alphabetical-index.md", "11b-alphabetical-index.md",
+             "11c-alphabetical-index.md", "11d-alphabetical-index.md"}
+# NOTE: reserve only the specific alphabetical-index filenames, NOT the bare "11"
+# prefix — a chapter numbered 11 (e.g. 11a-manual-transmission) must not be excluded.
 HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
@@ -44,7 +47,7 @@ def slugify_anchor(heading: str) -> str:
 
 
 def is_generated(name: str) -> bool:
-    return name in GENERATED or name.startswith(GENERATED_PREFIXES) or name == "llm-instructions.md"
+    return name in GENERATED or name == "llm-instructions.md"
 
 
 def chapter_files(wdir: Path) -> list[Path]:
