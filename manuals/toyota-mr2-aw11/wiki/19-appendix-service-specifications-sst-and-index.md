@@ -19,8 +19,10 @@ Notes on conventions used below:
 
 ---
 
+<a id="p982"></a>
 ## Service Specifications
 
+<a id="p982"></a>
 ### Maintenance
 
 #### Engine
@@ -88,6 +90,7 @@ Nippondenso BTG-20 (95506-00020):
 | Front strut bar bracket x Body | 590 | 43 | 58 |
 | Rear suspension arm bracket x Body | 590 | 43 | 58 |
 
+<a id="p983"></a>
 ### Engine Mechanical
 
 #### Specifications
@@ -278,6 +281,7 @@ Nippondenso BTG-20 (95506-00020):
 | Flywheel x Crankshaft | | 750 | 54 | 74 |
 | Drive plate x Crankshaft | | 850 | 61 | 83 |
 
+<a id="p986"></a>
 ### Supercharger System
 
 #### Specifications
@@ -308,6 +312,7 @@ Nippondenso BTG-20 (95506-00020):
 | Air inlet duct stay (Duct side) | 220 | 16 | 22 |
 | Air inlet duct stay (Block side) | 400 | 29 | 39 |
 
+<a id="p987"></a>
 ### EFI System (4A-GE)
 
 #### Specifications
@@ -445,6 +450,7 @@ Nippondenso BTG-20 (95506-00020):
 | Fuel pump x Fuel tank | 35 | 30 in.-lb | 3.4 |
 | Fuel sender gauge x Fuel tank | 15 | 13 in.-lb | 1.5 |
 
+<a id="p989"></a>
 ### EFI System (4A-GZE)
 
 #### Specifications
@@ -593,6 +599,7 @@ Nippondenso BTG-20 (95506-00020):
 | Fuel pump x Fuel tank | 35 | 30 in.-lb | 3.4 |
 | Fuel sender gauge x Fuel tank | 15 | 13 in.-lb | 1.5 |
 
+<a id="p992"></a>
 ### Cooling System
 
 | Component | Item | | Value |
@@ -604,6 +611,7 @@ Nippondenso BTG-20 (95506-00020):
 | Thermostat | Valve opening temperature — Fully opens at | | 95°C (203°F) |
 | Thermostat | Valve opening travel | | 8 mm (0.31 in.) or more |
 
+<a id="p992"></a>
 ### Lubrication System
 
 #### Specification
@@ -638,6 +646,7 @@ Nippondenso BTG-20 (95506-00020):
 | Oil cooler pipe x No. 1 oil filter bracket | 300 | 22 | 29 |
 | Oil cooler union x Oil pan | 250 | 18 | 25 |
 
+<a id="p993"></a>
 ### Ignition System
 
 | Component | Item | | Value |
@@ -662,6 +671,7 @@ Nippondenso BTG-20 (95506-00020):
 | 4A-GZE | G2⊕ – G2⊖ | 140 – 180 Ω |
 | 4A-GZE | Ne⊕ – Ne⊖ | 140 – 180 Ω |
 
+<a id="p993"></a>
 ### Starting System
 
 | Component | Item | | Value (mm) | Value (in.) |
@@ -678,6 +688,7 @@ Nippondenso BTG-20 (95506-00020):
 | Starter | Commutator — Circle runout | Limit | 0.05 | 0.0020 |
 | Starter | Spring installed load | STD | 1,785 – 2,415 g (3.9 – 5.3 lb, 18 – 24 N) | |
 
+<a id="p993"></a>
 ### Charging System
 
 | Component | Item | | Value (mm) | Value (in.) |
@@ -699,6 +710,7 @@ Nippondenso BTG-20 (95506-00020):
 | 4A-GZE | at 25°C (77°F) | 13.7 – 14.8 V |
 | 4A-GZE | at 115°C (239°F) | 13.2 – 14.0 V |
 
+<a id="p994"></a>
 ### Clutch
 
 #### Specifications
@@ -727,6 +739,7 @@ Nippondenso BTG-20 (95506-00020):
 | Release fork bolt | 4A-GZE | 480 | 35 | 47 |
 | Clutch tube union | | 200 | 14 | 20 |
 
+<a id="p995"></a>
 ### Manual Transaxle
 
 #### C52 transmission — Specifications
@@ -1074,6 +1087,7 @@ Nippondenso BTG-20 (95506-00020):
 | Differential case No. 1 x No. 2 | | 640 | 46 | 63 |
 | Intercooler x Body bracket | | 175 | 13 | 17 |
 
+<a id="p1002"></a>
 ### Automatic Transaxle
 
 Bracketed shift-point columns `[ ]` are throttle-valve-**fully-closed** shift points;
@@ -1350,6 +1364,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | Ring gear x Differential case | 985 | 71 | 97 |
 | Transaxle housing x Transmission case | 300 | 22 | 29 |
 
+<a id="p1007"></a>
 ### Front Axle and Suspension
 
 #### Specifications
@@ -1398,6 +1413,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | Strut bar x Body | 1,150 | 83 | 113 |
 | Stabilizer bar bracket x Body | 195 | 14 | 19 |
 
+<a id="p1008"></a>
 ### Rear Axle and Suspension
 
 #### Specifications
@@ -1465,6 +1481,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | Side gear shaft x Drive shaft | 4A-GE | 370 | 27 | 36 |
 | Side gear shaft x Drive shaft | 4A-GZE | 660 | 48 | 65 |
 
+<a id="p1009"></a>
 ### Brake System
 
 #### Specifications
@@ -1506,6 +1523,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | Rear disc brake cylinder installation bolt | 200 | 14 | 20 |
 | Rear disc brake torque plate x Rear axle carrier | 600 | 43 | 59 |
 
+<a id="p1010"></a>
 ### Steering
 
 #### Specifications
@@ -1544,6 +1562,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | Tie rod x Knuckle arm | 500 | 36 | 49 |
 | Tie rod end lock nut | 480 | 35 | 47 |
 
+<a id="p1011"></a>
 ### Body
 
 #### Torque Specifications
@@ -1563,6 +1582,7 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 | ELR set bolt | Lower side | 440 | 32 | 43 |
 | ELR set bolt | Upper side | 80 | 69 in.-lb | 7.8 |
 
+<a id="p1012"></a>
 ### Lubricant
 
 | Item | Capacity (Liters) | US qts | Imp. qts | Classification |
@@ -1584,8 +1604,10 @@ unbracketed columns are throttle-valve-**fully-open** shift points. Values are k
 
 ---
 
+<a id="p1013"></a>
 ## Standard Bolt Torque Specifications
 
+<a id="p1014"></a>
 ### How to Determine Bolt Strength
 
 Bolt strength class is identified by the mark on the bolt head (or the type of stud/bolt):
@@ -1605,6 +1627,7 @@ Bolt strength class is identified by the mark on the bolt head (or the type of s
 | Stud bolt | Grooved | 6T |
 | Welded bolt | (welded) | 4T |
 
+<a id="p1015"></a>
 ### Specified Torque for Standard Bolts
 
 | Class | Diameter (mm) | Pitch (mm) | Hex head kg-cm | Hex head ft-lb | Hex head N·m | Hex flange kg-cm | Hex flange ft-lb | Hex flange N·m |
@@ -1635,8 +1658,10 @@ Bolt strength class is identified by the mark on the bolt head (or the type of s
 
 ---
 
+<a id="p1016"></a>
 ## SST and SSM
 
+<a id="p1017"></a>
 ### SST (Special Service Tools)
 
 Classification key:
@@ -1798,6 +1823,7 @@ of the set listed above them.
 | 09992-00094 | Oil Pressure Gauge Set | A | AT | |
 | 09992-00241 | Turbocharger Pressure Gauge | C | SC | Supercharger pressure |
 
+<a id="p1029"></a>
 ### SSM (Special Service Materials)
 
 | Part Name | Part No. | Sec. | Use etc. |
@@ -1821,6 +1847,7 @@ of the set listed above them.
 
 ---
 
+<a id="p1030"></a>
 ## Automatic Transmission Hydraulic Circuit
 
 The A240E and A241E hydraulic circuits are full-page color diagrams that cannot be
@@ -1845,8 +1872,10 @@ Refer to the page images for each circuit:
 
 ---
 
+<a id="p1040"></a>
 ## Electrical Wiring Diagrams
 
+<a id="p1040"></a>
 ### How to Read This Section
 
 **Pin number.** Connector pins are numbered in order from upper left to lower right, or
@@ -1887,6 +1916,7 @@ Example: **R-G** indicates a Red wire with a Green stripe.
 | J/B | Junction Block | w/ | With |
 | LH | Left-hand | w/o | Without |
 
+<a id="p1041"></a>
 ### Wiring System Index
 
 MR2, 1988 Model. Locations are given as page-column codes (e.g. `1-3`) within the wiring

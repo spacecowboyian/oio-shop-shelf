@@ -4,6 +4,7 @@
 
 This is the introductory section of the **Toyota MR2 (AW11) 1988 Repair Manual**. Applicable model: **AW11 series**. Covers the 4A-GE and 4A-GZE engines. For USA & Canada.
 
+<a id="p2"></a>
 ## In this chapter
 
 - [Foreword](#foreword)
@@ -18,6 +19,7 @@ This is the introductory section of the **Toyota MR2 (AW11) 1988 Repair Manual**
 
 ---
 
+<a id="p2"></a>
 ## Foreword
 
 This manual contains maintenance and repair procedures for the 1988 MR2.
@@ -40,6 +42,7 @@ All information in this manual is based on the latest product information at the
 
 — TOYOTA MOTOR CORPORATION
 
+<a id="p3"></a>
 ## Manual structure — sections and appendixes
 
 The manual's front thumb-index lists 21 sections and 5 appendixes, each with a two-letter section code used in the running headers throughout the book:
@@ -76,6 +79,7 @@ The manual's front thumb-index lists 21 sections and 5 appendixes, each with a t
 | D | Automatic Transmission Hydraulic Circuit | D |
 | E | Electrical Wiring Diagrams | E |
 
+<a id="p5"></a>
 ## How to use this manual
 
 *(Manual page IN-2)*
@@ -86,6 +90,7 @@ To assist you in finding your way through the manual, the section title and majo
 - At the beginning of each section, **PRECAUTIONS** are given that pertain to all repair operations contained in that section. Read these precautions before starting any repair task.
 - **TROUBLESHOOTING** tables are included for each system to help you diagnose the system problem and find the cause. The repair for each possible cause is referenced in the remedy column to quickly lead you to the solution.
 
+<a id="p5"></a>
 ### Repair procedures
 
 Most repair operations begin with an overview illustration. It identifies the components and shows how the parts fit together.
@@ -105,6 +110,7 @@ Most repair operations begin with an overview illustration. It identifies the co
 
 *(Figure: front suspension / shock absorber assembly overview with torque callouts — see page image p.5, figure FA1563.)*
 
+<a id="p6"></a>
 ## Reading a repair procedure
 
 *(Manual page IN-3)*
@@ -125,14 +131,17 @@ The procedures are presented in a step-by-step format:
 
 This format provides the experienced technician with a *fast track* to the information needed. The upper-case task heading can be read at a glance and, only when necessary, the text below it provides detailed information. Important specifications and warnings always stand out in bold type.
 
+<a id="p6"></a>
 ### References
 
 References have been kept to a minimum. However, when they are required you are given the page to go to.
 
+<a id="p6"></a>
 ### Specifications
 
 Specifications are presented in bold type throughout the text in the applicable step. You never have to leave the procedure to look up your specs. All specifications are also found in Appendix A, Specifications, for quick reference.
 
+<a id="p6"></a>
 ### Warnings, cautions, notes
 
 > **WARNINGS** are presented in bold type, and indicate there is a possibility of injury to you or other people.
@@ -141,20 +150,24 @@ Specifications are presented in bold type throughout the text in the applicable 
 
 > **NOTES** are separated from the text but do not appear in bold. They provide additional information to help you efficiently perform the repair.
 
+<a id="p7"></a>
 ## Identification information
 
 *(Manual page IN-4)*
 
+<a id="p7"></a>
 ### Vehicle identification number
 
 The vehicle identification number is stamped on the front luggage end panel of the front luggage compartment. This number is also stamped on top of the instrument panel and the driver's door.
 
+<a id="p7"></a>
 ### Engine serial number (4A-GE & 4A-GZE)
 
 The engine serial number is stamped on the cylinder block, as shown.
 
 *(Figure: VIN and engine serial number locations — see page images p.7.)*
 
+<a id="p7"></a>
 ## General repair instructions
 
 *(Manual pages IN-4 to IN-6)*
@@ -201,6 +214,7 @@ The engine serial number is stamped on the cylinder block, as shown.
 
 *(Figures: WRONG/CORRECT illustrations for disconnecting vacuum hoses and electrical connectors, and a hose-tagging example — see page images p.8–9.)*
 
+<a id="p9"></a>
 ## Precautions for vehicles equipped with a catalytic converter
 
 *(Manual page IN-6)*
@@ -217,6 +231,7 @@ The engine serial number is stamped on the cylinder block, as shown.
 6. Avoid coasting with the ignition turned off and prolonged braking.
 7. Do not dispose of a used catalyst along with parts contaminated with gasoline or oil.
 
+<a id="p10"></a>
 ## Vehicle lift and support locations
 
 *(Manual page IN-7)*
@@ -232,6 +247,7 @@ The engine serial number is stamped on the cylinder block, as shown.
 
 *(Figure: underbody jack, pantograph-jack and safety-stand positions — see page image p.10, figures IN0047 / IN0034.)*
 
+<a id="p11"></a>
 ## Abbreviations used in this manual
 
 *(Manual page IN-8)*

@@ -29,6 +29,7 @@ GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md",
 # NOTE: reserve only the specific alphabetical-index filenames, NOT the bare "11"
 # prefix — a chapter numbered 11 (e.g. 11a-manual-transmission) must not be excluded.
 HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
+PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p(\d+)"')  # per-page source anchor
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
 SPEC_RE = re.compile(
@@ -67,11 +68,17 @@ def main() -> int:
         sys.exit("No chapter .md files in wiki/ yet — run the AI cleanup step first.")
 
     toc_rows, specs, reviews, alpha = [], [], [], defaultdict(list)
+    chap_meta = {c.get("file"): c for c in manifest.get("chapters", [])}
 
     for f in files:
         lines = f.read_text(encoding="utf-8").splitlines()
         h1 = None
+        # cur_page = nearest preceding <a id="pN"> source page; seeds from manifest start
+        cur_page = chap_meta.get(f.name, {}).get("page_start")
         for ln, line in enumerate(lines, 1):
+            pa = PAGE_ANCHOR_RE.search(line)
+            if pa:
+                cur_page = int(pa.group(1))
             m = HEADING_RE.match(line)
             if m:
                 level, text = len(m.group(1)), m.group(2).strip()
@@ -79,8 +86,7 @@ def main() -> int:
                     h1 = text
                     toc_rows.append((f.name, text))
                 elif level in (2, 3):
-                    anchor = slugify_anchor(text)
-                    alpha[text[0].upper() if text else "#"].append((text, f.name, anchor))
+                    alpha[text[0].upper() if text else "#"].append((text, f.name, cur_page))
             for sm in SPEC_RE.finditer(line):
                 # nearest preceding heading anchor for context
                 specs.append((f.name, sm.group("val"), sm.group("unit"), line.strip()))
@@ -90,7 +96,6 @@ def main() -> int:
     # 00-index.md — chapter TABLE with source page ranges (from the manifest).
     # The table form is both human-readable AND parseable by 08_append_index_pages.py,
     # which reads the chapter title + start page to build the baked-in clickable index.
-    chap_meta = {c.get("file"): c for c in manifest.get("chapters", [])}
     idx = ["# Index — " + manifest["title"], "", "## Chapters", "",
            "| Section | Chapter | Source pages |",
            "| ------- | ------- | ------------ |"]
@@ -130,11 +135,23 @@ def main() -> int:
     (wdir / "10-needs-review.md").write_text("\n".join(nr) + "\n", encoding="utf-8")
 
     # 11a-alphabetical-index.md
+    # Entry format is 08_append_index_pages.py's ENTRY_RE:  "- <term> — [link](link) ([PDF p.N])"
+    # so each entry both browses on GitHub (the #pN link) and bakes into the PDF (the [PDF p.N]).
+    # term must not contain " — " (the ENTRY_RE separator), so component-first headings written
+    # "Water pump — installation" are normalised to "Water pump, installation".
     ai = ["# Alphabetical Index", ""]
     for letter in sorted(alpha):
         ai.append(f"### {letter}")
-        for text, name, anchor in sorted(set(alpha[letter])):
-            ai.append(f"- [{text}]({name}#{anchor})")
+        rows = set()
+        for text, name, page in alpha[letter]:
+            term = text.replace(" — ", ", ").replace(" — ", ", ").replace("—", "-").strip()
+            page = page or chap_meta.get(name, {}).get("page_start")
+            rows.add((term, name, page))
+        for term, name, page in sorted(rows):
+            if page:
+                ai.append(f"- {term} — [{name}#p{page}]({name}#p{page}) ([PDF p.{page}])")
+            else:
+                ai.append(f"- {term} — [{name}]({name})")
         ai.append("")
     (wdir / "11a-alphabetical-index.md").write_text("\n".join(ai) + "\n", encoding="utf-8")
 

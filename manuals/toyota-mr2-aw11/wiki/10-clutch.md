@@ -4,6 +4,7 @@ Covers the hydraulic clutch system for the Toyota MR2 (AW11): clutch pedal check
 
 > Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)**, e.g. `250 (18, 25)`.
 
+<a id="p404"></a>
 ## Troubleshooting
 
 Page references point to the relevant section: `CL-3`–`CL-15` are sections within this chapter.
@@ -32,6 +33,7 @@ Page references point to the relevant section: `CL-3`–`CL-15` are sections wit
 | | Release bearing worn or dirty | Replace release bearing | CL-12 |
 | | Release fork or linkage sticks | Repair as necessary | |
 
+<a id="p405"></a>
 ## Check and Adjustment of Clutch Pedal
 
 1. **Check that pedal height is correct.**
@@ -50,6 +52,7 @@ Page references point to the relevant section: `CL-3`–`CL-15` are sections wit
    - (c) After adjusting the pedal freeplay, check the pedal height.
    - (d) Install the air duct and instrument lower finish panel.
 
+<a id="p405"></a>
 ## Bleeding of Clutch System
 
 > **NOTE:** If any work is done on the clutch system or if air is suspected in the clutch lines, bleed the system of air.
@@ -63,13 +66,16 @@ Page references point to the relevant section: `CL-3`–`CL-15` are sections wit
    - (b) While depressing the pedal, loosen the bleeder plug until the fluid starts to run out. Then close the bleeder plug.
    - (c) Repeat this procedure until there are no more air bubbles in the fluid.
 
+<a id="p406"></a>
 ## Inspection of Clutch Start System
 
+<a id="p406"></a>
 ### Check Clutch Pedal
 
 1. **Check that pedal height is correct.** (See [Check and Adjustment of Clutch Pedal](#check-and-adjustment-of-clutch-pedal))
 2. **Check that pedal freeplay and push rod play are correct.** (See [Check and Adjustment of Clutch Pedal](#check-and-adjustment-of-clutch-pedal))
 
+<a id="p406"></a>
 ### Check Clutch Start System
 
 - (a) Check that the engine does not start when the clutch pedal is released.
@@ -78,6 +84,7 @@ Page references point to the relevant section: `CL-3`–`CL-15` are sections wit
 
 If necessary, adjust or replace the clutch start switch.
 
+<a id="p406"></a>
 ### Inspection and Adjustment of Clutch Start Switch
 
 1. **Inspect continuity of clutch start switch.**
@@ -94,8 +101,10 @@ If necessary, adjust or replace the clutch start switch.
 
 *(Figure: Pedal stroke vs. clearance "A" adjustment chart — vertical axis pedal stroke 125.0 mm (4.921 in.) to 155.0 mm (6.102 in.), horizontal axis clearance "A" 2.0 mm (0.079 in.) to 8.0 mm (0.315 in.) — see page image p.406.)*
 
+<a id="p407"></a>
 ## Clutch Master Cylinder
 
+<a id="p407"></a>
 ### Components
 
 The washer (under the reservoir union) and the gasket (at the union) are **non-reusable parts**. Specified torques:
@@ -109,6 +118,7 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
 
 *(Figure: master cylinder exploded view — cap, float, reservoir, master cylinder, piston, snap ring, boot, stopper plate, push rod, clevis — see page image p.407.)*
 
+<a id="p407"></a>
 ### Removal of Master Cylinder
 
 1. **(4A-GZE) Remove spare wheel guard.**
@@ -118,6 +128,7 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
 5. **Remove clevis pin and clip.** Remove the clip and clevis pin.
 6. **Remove master cylinder.** Remove the mounting nuts and remove the master cylinder.
 
+<a id="p408"></a>
 ### Disassembly of Master Cylinder
 
 1. **Remove reservoir tank.**
@@ -126,6 +137,7 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
    - (b) Pull out the push rod assembly.
 3. **Remove piston.** Using compressed air, remove the piston from the cylinder.
 
+<a id="p409"></a>
 ### Inspection of Master Cylinder
 
 > **NOTE:** Clean the disassembled parts with compressed air.
@@ -134,6 +146,7 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
 2. **Inspect piston and cups for wear, scoring, cracks or swelling.** If either one requires replacement, use the parts from the cylinder kit.
 3. **Inspect push rod for wear or damage.** If necessary, replace the push rod.
 
+<a id="p409"></a>
 ### Assembly of Master Cylinder
 
 1. **Coat piston with lithium soap base glycol grease, as shown.**
@@ -143,6 +156,7 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
 
    Torque: 250 kg-cm (18 ft-lb, 25 N·m)
 
+<a id="p410"></a>
 ### Installation of Master Cylinder
 
 1. **Install master cylinder.** Install the master cylinder with two nuts. Tighten the nuts.
@@ -158,8 +172,10 @@ The washer (under the reservoir union) and the gasket (at the union) are **non-r
 7. **(4A-GZE) Install spare wheel guard.**
 8. **Check and adjust clutch pedal.** (See [Check and Adjustment of Clutch Pedal](#check-and-adjustment-of-clutch-pedal))
 
+<a id="p411"></a>
 ## Clutch Release Cylinder
 
+<a id="p411"></a>
 ### Components
 
 Specified torques:
@@ -174,6 +190,7 @@ Specified torques:
 
 *(Figure: release cylinder exploded view — bleeder tube, clutch line tube, cylinder, spring, piston, push rod, boot, bleeder plug, clip — see page image p.411.)*
 
+<a id="p411"></a>
 ### Removal of Release Cylinder
 
 1. **Disconnect clutch line and bleeder tubes.** Using SST, disconnect the tubes. Use a container to catch the brake fluid.
@@ -182,12 +199,14 @@ Specified torques:
 2. **Remove bleeder tube with bleeder plug.** Remove the clip and bleeder tube with the bleeder plug.
 3. **Remove two bolts and pull out release cylinder.**
 
+<a id="p412"></a>
 ### Disassembly of Release Cylinder
 
 1. **Pull out push rod.**
 2. **Remove boot.**
 3. **Remove piston.** Using compressed air, remove the piston and spring from the cylinder.
 
+<a id="p412"></a>
 ### Inspection of Release Cylinder
 
 > **NOTE:** Clean the disassembled parts with compressed air.
@@ -196,12 +215,14 @@ Specified torques:
 2. **Inspect piston and cups for wear, scoring, cracks or swelling.** If either one requires replacement, use the parts from the cylinder kit.
 3. **Inspect push rod for wear or damage.** If necessary, replace the push rod.
 
+<a id="p413"></a>
 ### Assembly of Release Cylinder
 
 1. **Coat piston with lithium soap base glycol grease, as shown.**
 2. **Insert spring and piston into cylinder.**
 3. **Install boot and insert push rod.**
 
+<a id="p413"></a>
 ### Installation of Release Cylinder
 
 1. **Install release cylinder and two bolts.**
@@ -213,8 +234,10 @@ Specified torques:
 4. **Fill clutch reservoir with brake fluid and bleed clutch system.** (See [Bleeding of Clutch System](#bleeding-of-clutch-system))
 5. **Check for leaks.**
 
+<a id="p414"></a>
 ## Clutch Unit
 
+<a id="p414"></a>
 ### Components
 
 The release fork pivot (fulcrum) bolt on the **4A-GZE** is a **precoated part**. Specified torques:
@@ -226,6 +249,7 @@ The release fork pivot (fulcrum) bolt on the **4A-GZE** is a **precoated part**.
 
 *(Figure: clutch unit exploded views for 4A-GE and 4A-GZE — flywheel, clutch disc, clutch cover, release bearing and hub, release fork, boot — see page image p.414.)*
 
+<a id="p414"></a>
 ### Removal of Clutch Unit
 
 1. **Remove transaxle from engine.** (See Manual Transaxle, page MT-3)
@@ -237,6 +261,7 @@ The release fork pivot (fulcrum) bolt on the **4A-GZE** is a **precoated part**.
    - (a) Remove the bearing assembly together with the fork, and then separate them.
    - (b) Remove the boot.
 
+<a id="p415"></a>
 ### Inspection and Repair of Clutch Parts
 
 1. **Inspect clutch disc for wear or damage.** Using calipers, measure the rivet head depth.
@@ -264,6 +289,7 @@ The release fork pivot (fulcrum) bolt on the **4A-GZE** is a **precoated part**.
 
    > **NOTE:** The bearing is permanently lubricated and requires no cleaning or lubrication.
 
+<a id="p416"></a>
 ### Installation of Clutch Unit
 
 1. **Install clutch disc and cover on flywheel.**

@@ -17,8 +17,10 @@ control, power window, door lock control, remote control mirror, and radio.
 
 ---
 
+<a id="p798"></a>
 ## General Information
 
+<a id="p798"></a>
 ### Wiring color code
 
 Wire colors are indicated by an alphabetical code. The first letter indicates the
@@ -31,6 +33,7 @@ basic wire color and the second letter indicates the color of the stripe.
 | G    | Green       | O    | Orange      | W    | White   |
 | GR   | Gray        | P    | Pink        | Y    | Yellow  |
 
+<a id="p798"></a>
 ### Connectors
 
 1. **Pin number of female connector** — numbered in order from upper left to lower right.
@@ -40,6 +43,7 @@ basic wire color and the second letter indicates the color of the stripe.
    - (a) All connectors are shown from the open end, with the lock on top.
    - (b) To pull connectors apart, pull on the connector itself, not the wires.
 
+<a id="p798"></a>
 ### Replacement of combination switch
 
 **Remove terminals from connector**
@@ -54,6 +58,7 @@ basic wire color and the second letter indicates the color of the stripe.
 - (a) Push in the terminal until it is securely locked in the connector lug.
 - (b) Pull on the wire to confirm that it is securely locked.
 
+<a id="p799"></a>
 ### Reset circuit breaker
 
 1. **Remove circuit breaker**
@@ -70,6 +75,7 @@ basic wire color and the second letter indicates the color of the stripe.
    > **NOTE:** If a circuit breaker continues to cut out, a short circuit is
    > indicated. Have the system checked by a qualified technician.
 
+<a id="p800"></a>
 ### Replacement of fuses
 
 Install new fuses with correct amperage ratings.
@@ -84,6 +90,7 @@ Install new fuses with correct amperage ratings.
 If a fuse continues to blow, the circuit is probably shorted. Have the system
 checked by a qualified technician.
 
+<a id="p800"></a>
 ### Take care when inspecting headlight circuit
 
 > **WARNING:** Before inspecting or adjusting the retractable headlight circuit,
@@ -96,6 +103,7 @@ checked by a qualified technician.
 - (c) Pull out the fusible link cassette from below.
 - (d) Remove the bolt, and remove the fusible link.
 
+<a id="p800"></a>
 ### Voltage check
 
 - (a) Establish conditions in which voltage is present at the check point.
@@ -103,6 +111,7 @@ checked by a qualified technician.
   negative battery terminal and the positive lead to the connector or component
   terminal. This check can be done with a test light instead of a voltmeter.
 
+<a id="p801"></a>
 ### Continuity and resistance check
 
 - (a) Disconnect the battery terminal or wire so there is no voltage between the
@@ -117,6 +126,7 @@ should be no continuity.
 - (c) Use a volt/ohmmeter with high impedance (10 kΩ/V minimum) for troubleshooting
   of the electrical circuit.
 
+<a id="p801"></a>
 ### Finding a short circuit
 
 - (a) Remove the blown fuse and disconnect all loads of the fuse.
@@ -130,6 +140,7 @@ should be no continuity.
 
 ---
 
+<a id="p802"></a>
 ## Location of Switches and Relays
 
 *(Figure: Engine compartment switches and relays — Water Temperature Sender Gauge;
@@ -150,8 +161,10 @@ Gauge — see page image p.805)*
 
 ---
 
+<a id="p806"></a>
 ## Ignition Switch
 
+<a id="p806"></a>
 ### Inspection of ignition switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals.
@@ -169,8 +182,10 @@ If continuity is not as specified, replace the switch.
 
 ---
 
+<a id="p807"></a>
 ## Lighting
 
+<a id="p807"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -210,6 +225,7 @@ If continuity is not as specified, replace the switch.
 | | Turn signal/hazard switch faulty | Check switch | BE-17 |
 | | Wiring or ground faulty | Repair as necessary | |
 
+<a id="p808"></a>
 ### Light Control Switch and Rheostat
 
 **1. Inspect light control switch continuity** — inspect the switch continuity
@@ -236,6 +252,7 @@ If operation is not as specified, replace the switch.
 **3. Check that idle increases** — start the engine. When the light control switch is
 set to TAIL, engine revolution should increase.
 
+<a id="p809"></a>
 ### Headlight Dimmer Switch
 
 **Inspect continuity of headlight dimmer switch** — inspect the switch continuity
@@ -262,6 +279,7 @@ If continuity is not as specified, replace the switch.
 - (i) Ensure that the switch operates smoothly.
 - (j) Install the terminals to the connector.
 
+<a id="p810"></a>
 ### Headlight Control Relay
 
 **1. Inspect relay continuity**
@@ -280,6 +298,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as described, replace the relay.
 
+<a id="p810"></a>
 ### Taillight Control Relay
 
 **1. Inspect relay continuity**
@@ -298,6 +317,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as described, replace the relay.
 
+<a id="p811"></a>
 ### Headlight Retainer Relay
 
 **1. Inspect headlight circuit operation** — connect the positive (+) leads from the
@@ -322,6 +342,7 @@ battery to terminals 4 and 7. Connect the negative (−) lead to terminal 3. Con
 
 If operation is not as specified, replace the relay.
 
+<a id="p812"></a>
 ### Light Retractor Control Relay
 
 **1. Inspect relay continuity** — inspect the relay continuity between terminals.
@@ -346,6 +367,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p813"></a>
 ### Light Retractor Motor
 
 **1. Inspect motor operation** — connect the positive (+) lead from the battery to
@@ -363,6 +385,7 @@ If there is no motor operation, replace the motor.
 
 If continuity is not as specified, replace the motor.
 
+<a id="p813"></a>
 ### Turn Signal and Hazard Warning Switch
 
 **Inspect turn signal and hazard warning switch** — inspect switch continuity between
@@ -385,6 +408,7 @@ If continuity is not as specified, replace the switch.
 - (c) Install the turn signal and hazard switch.
 - (d) Install the terminals to the connector.
 
+<a id="p814"></a>
 ### Turn Signal Flasher
 
 **Inspect relay operation**
@@ -402,8 +426,10 @@ If operation is not as specified, replace the flasher.
 
 ---
 
+<a id="p815"></a>
 ## Wiper and Washer
 
+<a id="p815"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -419,6 +445,7 @@ If operation is not as specified, replace the flasher.
 | | Wiper control switch faulty | Check switch | BE-19 |
 | | Wiring faulty | Repair as necessary | |
 
+<a id="p815"></a>
 ### Wiper and Washer Switch
 
 **1. Inspect wiper and washer switch continuity** — inspect the switch continuity
@@ -459,6 +486,7 @@ If operation is not as specified, replace the switch.
 
 If operation is not as specified, replace the wiper and washer switch.
 
+<a id="p816"></a>
 ### Wiper Motor
 
 **1. Inspect that motor operates at low speed**
@@ -519,8 +547,10 @@ If operation is not as specified, replace the motor.
 
 ---
 
+<a id="p819"></a>
 ## Instruments, Gauges and Warning Lights
 
+<a id="p819"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -556,6 +586,7 @@ If operation is not as specified, replace the motor.
 | | Bulb burned out | Replace bulb | |
 | | Wiring faulty | Repair as necessary | |
 
+<a id="p820"></a>
 ### Combination Meter and Gauge
 
 *(Figure: Combination meter connectors "A", "B", "C" pin layout — see page image p.820)*
@@ -592,6 +623,7 @@ If operation is not as specified, replace the motor.
 
 *(Figure: Combination meter circuit schematic — see page image p.820)*
 
+<a id="p821"></a>
 ### Speedometer
 
 **On-vehicle inspection of speedometer**
@@ -629,6 +661,7 @@ If operation is not as specified, replace the motor.
 | 100 | 100 – 105 |
 | 120 | 120 – 125.5 |
 
+<a id="p821"></a>
 ### Tachometer
 
 **On-vehicle inspection of tachometer** (DC 13.5 V, 25°C (77°F))
@@ -657,11 +690,13 @@ If error is excessive, replace the tachometer.
 | 7,000 | 6,990 – 7,590 |
 | 8,000 | 8,030 – 8,630 |
 
+<a id="p821"></a>
 ### Voltmeter
 
 **Inspection of voltmeter** — compare the tester and voltmeter indications. If error
 is excessive, replace the voltmeter.
 
+<a id="p822"></a>
 ### Fuel Gauge
 
 **1. Inspect receiver gauge operation**
@@ -702,6 +737,7 @@ If each resistance value is not as shown above, replace the receiver gauge.
 
 If each resistance value is not as shown above, replace the receiver gauge.
 
+<a id="p823"></a>
 ### Fuel Level Warning
 
 **1. Inspect warning light operation**
@@ -722,6 +758,7 @@ If operation is not correct, remove and test the bulb.
 
 If operation is not correct, replace the sender gauge.
 
+<a id="p823"></a>
 ### Water Temperature Gauge
 
 **1. Inspect receiver gauge operation**
@@ -753,6 +790,7 @@ and ground.
 
 If each resistance value is not as shown above, replace the sender gauge.
 
+<a id="p824"></a>
 ### Oil Pressure Gauge
 
 **1. Inspect receiver gauge operation**
@@ -781,6 +819,7 @@ If resistance value is not correct, replace the receiver gauge.
 
 If operation is not correct, replace the sender gauge.
 
+<a id="p825"></a>
 ### Brake Warning
 
 **1. Inspect warning light operation**
@@ -812,6 +851,7 @@ If operation is not as specified, replace the switch.
 
 If the operation is not as specified, replace the switch.
 
+<a id="p825"></a>
 ### Supercharger Indicator Circuit
 
 **Inspect indicator light operation**
@@ -825,6 +865,7 @@ If the operation is not as specified, replace the switch.
   (−) leads to terminals B6 and C7 on the meter side. Check that the indicator light
   lights up.
 
+<a id="p826"></a>
 ### Seat Belt Warning
 
 **1. Inspect warning light operation**
@@ -869,8 +910,10 @@ If circuit is as specified, replace the relay.
 
 ---
 
+<a id="p827"></a>
 ## Rear Window Defogger
 
+<a id="p827"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -880,6 +923,7 @@ If circuit is as specified, replace the relay.
 | | Defogger wire broken | Check wires | BE-31 |
 | | Wiring and ground faulty | Repair as necessary | |
 
+<a id="p827"></a>
 ### Rear Window Defogger Switch
 
 **1. Inspect switch continuity** — inspect continuity between the terminals
@@ -895,6 +939,7 @@ If continuity is not as specified, replace the switch or bulb.
 **2. Check that idle increases** — when the defogger switch is set to ON, engine
 revolution should increase.
 
+<a id="p827"></a>
 ### Rear Window Defogger Wires
 
 > **CAUTION:**
@@ -944,8 +989,10 @@ revolution should increase.
 
 ---
 
+<a id="p829"></a>
 ## Heater
 
+<a id="p829"></a>
 ### Wiring Diagram
 
 *(Figure: Heater wiring diagram — heater control assembly, blower motor, blower
@@ -955,6 +1002,7 @@ switch, resistor, servo motors, relay — see page image p.829)*
 Vent Mode Control Servo Motor, RECIRC/FRESH Control Servo Motor, Blower Motor, Blower
 Resistor, Heater Relay pin layouts — see page image p.830)*
 
+<a id="p831"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -974,6 +1022,7 @@ Resistor, Heater Relay pin layouts — see page image p.830)*
 | | Heater radiator leaking or clogged | Replace radiator | |
 | | Heater control unit faulty | Repair control unit | |
 
+<a id="p831"></a>
 ### Heater Blower Switch
 
 **Inspect switch continuity**
@@ -988,6 +1037,7 @@ Resistor, Heater Relay pin layouts — see page image p.830)*
 
 If continuity is not as specified, replace the switch.
 
+<a id="p831"></a>
 ### Heater Relay
 
 **1. Inspect relay continuity**
@@ -1006,11 +1056,13 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p832"></a>
 ### Heater Blower Resistor
 
 **Inspect resistor continuity** — check that there is continuity between terminals 2
 and 3. If continuity is not as specified, replace the resistor.
 
+<a id="p832"></a>
 ### Heater Control Assembly
 
 **1. Inspect indicator light operation**
@@ -1045,6 +1097,7 @@ between terminals (columns 7, 6, 11, 17, 16, 5, 3).
 
 If continuity is not as specified, replace the switch.
 
+<a id="p833"></a>
 ### RECIRC/FRESH Control Servo Motor
 
 **Inspect servo motor operation**
@@ -1056,6 +1109,7 @@ If continuity is not as specified, replace the switch.
 
 If operation is not as specified, replace the motor.
 
+<a id="p833"></a>
 ### Air Vent Mode Control Servo Motor
 
 **Inspect servo motor operation**
@@ -1079,6 +1133,7 @@ page image p.834)*
 
 If operation is not as specified, replace the servo motor.
 
+<a id="p834"></a>
 ### Heater Control — Adjustment
 
 1. **Adjust air mix damper** — set the air mix damper and control lever to "COOL."
@@ -1089,8 +1144,10 @@ If operation is not as specified, replace the servo motor.
 
 ---
 
+<a id="p835"></a>
 ## Cruise Control System
 
+<a id="p835"></a>
 ### Wiring Diagram
 
 *(Figure: Cruise control system wiring diagram — actuator, cruise control computer,
@@ -1102,6 +1159,7 @@ Control S/W, Parking Brake S/W, Clutch S/W, Stop Light S/W, Vacuum S/W, Vacuum P
 Actuator, Speed Sensor, ECT Computer, Alternator, Brake Fluid Level Warning Switch
 pin layouts — see page image p.836)*
 
+<a id="p837"></a>
 ### Diagnosis System — Output of Diagnostic Codes
 
 **1. Read Type A code**
@@ -1156,6 +1214,7 @@ pin layouts — see page image p.836)*
 > - If there is no indication code, perform diagnosis and inspection. (See
 >   Cruise Control Troubleshooting, BE-44)
 
+<a id="p839"></a>
 ### Troubleshooting
 
 | Problem | Inspection item | Result | Go to (chart) |
@@ -1191,6 +1250,7 @@ pin layouts — see page image p.836)*
 | | | NO | E |
 | A short period after the O/D cut (approx. within 14 seconds) the O/D will resume. | — | — | K |
 
+<a id="p840"></a>
 ### Chart A — Inspection of power source circuit
 
 Turn ignition switch on.
@@ -1220,6 +1280,7 @@ Turn ignition switch on.
 | Disconnect connector from control switch. Is there continuity between terminal 3 and body ground? | Yes | Short circuit in wire harness between terminal 3 of computer and terminal 18 of control switch. |
 | | No | Replace computer. |
 
+<a id="p842"></a>
 ### Chart B — Inspection of set/coast switch circuit
 
 Turn ignition switch off.
@@ -1233,6 +1294,7 @@ Turn ignition switch off.
 | **Computer:** Disconnect connector; inspect wire harness side. Is there continuity between terminal 5 and body ground with set/coast switch turned on? | No | Open or short circuit in wire harness between terminal 5 of computer and terminal 14 of control switch. |
 | | Yes | Replace computer. |
 
+<a id="p843"></a>
 ### Chart C — Inspection of resume/accel switch circuit
 
 Turn ignition switch off.
@@ -1246,6 +1308,7 @@ Turn ignition switch off.
 | **Computer:** Disconnect connector; inspect wire harness side. Is there continuity between terminal 17 and body ground with resume/accel switch turned on? | No | Open or short circuit in wire harness between terminal 17 of computer and terminal 15 of control switch. |
 | | Yes | Replace computer. |
 
+<a id="p844"></a>
 ### Chart D — Inspection of actuator circuit
 
 Turn ignition switch off.
@@ -1269,6 +1332,7 @@ Turn ignition switch off.
 | Is there continuity between terminals 4 and 14? | No | Open circuit in wire harness between terminals 4 and 14 of computer. |
 | | Yes | Replace computer. |
 
+<a id="p846"></a>
 ### Chart E — Inspection of speed sensor circuit
 
 | Check | Result | Action / Next |
@@ -1282,6 +1346,7 @@ Turn ignition switch off.
 | **Computer:** Disconnect connector from computer. Is there continuity between terminal B4 of wire harness side connector and terminal 7 of computer? | No | Open circuit in wire harness between terminal B4 of speed sensor and terminal 7 of computer. |
 | | Yes | Replace computer. |
 
+<a id="p847"></a>
 ### Chart F — Inspection of stop light switch circuit
 
 Turn ignition switch off.
@@ -1299,6 +1364,7 @@ Turn ignition switch off.
 | Is there battery voltage between terminal 15 and body ground with brake pedal depressed? | No | Open circuit in wire harness between terminal 15 of computer and terminal 2 of stop light switch. |
 | | Yes | Replace computer. |
 
+<a id="p848"></a>
 ### Chart G — Inspection of parking brake switch circuit
 
 Turn ignition switch off.
@@ -1320,6 +1386,7 @@ Turn ignition switch off.
 | Is there battery voltage between terminal 12 and body ground with parking brake released? | No | Short circuit in wire harness between terminal 12 of computer and terminal 1 of parking brake switch, terminal 1 of brake fluid level warning switch, or terminal 2 of alternator. |
 | | Yes | Replace computer. |
 
+<a id="p849"></a>
 ### Chart H — Inspection of clutch switch circuit
 
 Turn ignition switch off.
@@ -1335,6 +1402,7 @@ Turn ignition switch off.
 | Is there continuity between terminal 11 and body ground with clutch pedal released? | Yes | Short circuit in wire harness between terminal 11 of computer and terminal 3 of clutch switch. |
 | | No | Replace computer. |
 
+<a id="p850"></a>
 ### Chart I — Inspection of neutral start switch circuit
 
 Turn ignition switch off.
@@ -1348,6 +1416,7 @@ Turn ignition switch off.
 | **Computer:** Disconnect connector; inspect wire harness side. Is there continuity between terminal 11 and body ground when shifted to "N" and "P" range? | No | Open circuit in wire harness between terminal 11 of computer and terminal 3 of neutral start switch. |
 | | Yes | Replace computer. |
 
+<a id="p851"></a>
 ### Chart J — Inspection of vacuum circuit
 
 Turn ignition switch off.
@@ -1373,6 +1442,7 @@ Turn ignition switch off.
 | Is there continuity between terminal 1 and body ground with connector disconnected from vacuum pump? | Yes | Short circuit in wire harness between terminal 1 of computer and terminal 1 of vacuum pump. |
 | | No | Replace computer. |
 
+<a id="p853"></a>
 ### Chart K — Inspection of ECT solenoid circuit
 
 | Check | Result | Action / Next |
@@ -1384,6 +1454,7 @@ Turn ignition switch off.
 | Is there continuity between terminal 6 of wire harness side connector and terminal 17 of ECT computer? | No | Open circuit in wire harness between terminal 6 of computer and terminal 17 of ECT computer. |
 | | Yes | Replace computer. |
 
+<a id="p854"></a>
 ### Cruise Control Computer Circuit
 
 **Inspection of computer circuit** — disconnect the computer connector and inspect the
@@ -1414,6 +1485,7 @@ connector on the wire harness side as shown.
 | Vacuum Pump | Continuity | 1 – Body ground | — | Continuity |
 | Body Ground | Continuity | 13 – Body ground | — | Continuity |
 
+<a id="p855"></a>
 ### Control Switch
 
 **1. Inspect switch continuity**
@@ -1437,6 +1509,7 @@ If continuity is not as specified, replace the switch.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p855"></a>
 ### Stop Light Switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals.
@@ -1448,6 +1521,7 @@ If continuity is not as specified, replace the switch.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p856"></a>
 ### Clutch Switch
 
 **Inspect switch continuity**
@@ -1459,6 +1533,7 @@ If continuity is not as specified, replace the switch.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p856"></a>
 ### Parking Brake Switch
 
 **Inspect switch continuity**
@@ -1470,18 +1545,21 @@ If continuity is not as specified, replace the switch.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p856"></a>
 ### Neutral Start Switch
 
 **Inspect switch continuity** — check that there is continuity between terminals 2 and
 3 with switch position in "P" and "N" ranges. If continuity is not as specified,
 replace the switch.
 
+<a id="p856"></a>
 ### Speed Sensor
 
 **Inspect sensor continuity** — check that there is continuity between terminals B4
 and B5 four times per each revolution of the shaft. If continuity is not as specified,
 replace the sensor.
 
+<a id="p857"></a>
 ### Actuator
 
 **1. Inspect actuator resistance** — measure the resistance value between terminals as
@@ -1512,6 +1590,7 @@ If operation is not as specified, replace the actuator.
 
 If freeplay is not as specified, adjust the control cable freeplay.
 
+<a id="p858"></a>
 ### Vacuum Switch
 
 **Inspect switch operation**
@@ -1522,6 +1601,7 @@ If freeplay is not as specified, adjust the control cable freeplay.
 
 If operation is not as specified, replace the switch.
 
+<a id="p858"></a>
 ### Vacuum Pump
 
 **Inspect vacuum pump operation**
@@ -1535,8 +1615,10 @@ If operation is not as specified, replace the pump.
 
 ---
 
+<a id="p859"></a>
 ## Power Window
 
+<a id="p859"></a>
 ### Power Window Master Switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals.
@@ -1556,6 +1638,7 @@ Driver's side terminals: 2, 8, 9; passenger's side terminals: 3, 6, 1, 4.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p859"></a>
 ### Power Window Door Switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals
@@ -1571,6 +1654,7 @@ If continuity is not as specified, replace the switch.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p860"></a>
 ### Power Window Relay
 
 **On-vehicle inspection of power window relay**
@@ -1597,6 +1681,7 @@ If continuity is not as specified, replace the switch.
 
 If circuit operation is correct, replace the motor.
 
+<a id="p861"></a>
 ### Power Window Motor
 
 **1. Inspect motor operation**
@@ -1619,8 +1704,10 @@ If operation is not as specified, replace the motor.
 
 ---
 
+<a id="p862"></a>
 ## Door Lock Control System
 
+<a id="p862"></a>
 ### Door Lock Switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals.
@@ -1643,10 +1730,12 @@ If operation is not as specified, replace the motor.
 
 If continuity is not as specified, replace the switch.
 
+<a id="p862"></a>
 ### Unlock Warning Switch
 
 See [Ignition Switch](#ignition-switch) (BE-11).
 
+<a id="p862"></a>
 ### Door Lock Key Switch
 
 **Inspect switch continuity**
@@ -1658,6 +1747,7 @@ See [Ignition Switch](#ignition-switch) (BE-11).
 
 If continuity is not as specified, replace the switch.
 
+<a id="p862"></a>
 ### Door Lock Control Relay
 
 **Inspect relay operation**
@@ -1691,6 +1781,7 @@ If continuity is not as specified, replace the switch.
 
 If circuit operation is correct, replace the relay.
 
+<a id="p863"></a>
 ### Door Lock Solenoid
 
 **Inspect solenoid operation**
@@ -1708,8 +1799,10 @@ If operation is not as specified, replace the solenoid.
 
 ---
 
+<a id="p864"></a>
 ## Remote Control Mirror
 
+<a id="p864"></a>
 ### Mirror Switch
 
 **Inspect switch continuity** — inspect the switch continuity between terminals. Left
@@ -1727,6 +1820,7 @@ mirror terminals: 7, 6, 1, 2, 3; right mirror terminals: 2, 1, 5, 4. (Terminals 
 
 If continuity is not as specified, replace the switch.
 
+<a id="p864"></a>
 ### Remote Control Mirror
 
 **On-vehicle inspection of mirror**
@@ -1742,8 +1836,10 @@ If operation is not as specified, replace the mirror.
 
 ---
 
+<a id="p865"></a>
 ## Radio, Stereo Tape Player and Antenna
 
+<a id="p865"></a>
 ### Troubleshooting
 
 **Description of symbols**

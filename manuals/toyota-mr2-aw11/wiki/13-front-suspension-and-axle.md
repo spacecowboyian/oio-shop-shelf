@@ -4,6 +4,7 @@
 
 Torque is printed in this manual as **kg-cm (ft-lb, N·m)** — e.g. `650 kg-cm (47 ft-lb, 64 N·m)`. All three values are transcribed verbatim; none are converted.
 
+<a id="p666"></a>
 ## In this chapter
 
 - [Troubleshooting](#troubleshooting)
@@ -14,6 +15,7 @@ Torque is printed in this manual as **kg-cm (ft-lb, N·m)** — e.g. `650 kg-cm 
 
 ---
 
+<a id="p667"></a>
 ## Troubleshooting
 
 The **Page** column lists the manual's own page codes for the referenced procedure (`FA-…` = this chapter; `SR-…` = [Steering](16-steering.md)).
@@ -47,8 +49,10 @@ The **Page** column lists the manual's own page codes for the referenced procedu
 
 ---
 
+<a id="p668"></a>
 ## Front Wheel Alignment
 
+<a id="p668"></a>
 ### 1. Make following checks and correct any problems
 
 - (a) Check the tires for wear and proper inflation.
@@ -61,6 +65,7 @@ The **Page** column lists the manual's own page codes for the referenced procedu
 - (e) Check the steering linkage for looseness.
 - (f) Check that the front absorbers work properly by using the standard bounce test.
 
+<a id="p668"></a>
 ### 2. Measure chassis ground clearance
 
 Chassis ground clearance:
@@ -74,10 +79,12 @@ If the clearance of the vehicle is not as specified, try to level the vehicle by
 
 > **NOTE:** When measuring the chassis ground clearance, measure from the ground to the center of the bolt.
 
+<a id="p668"></a>
 ### 3. Install wheel alignment equipment
 
 Follow the specific instructions of the equipment manufacturer.
 
+<a id="p669"></a>
 ### 4. Adjust wheel angle
 
 Wheel angle:
@@ -90,6 +97,7 @@ If wheel angles differ from the standard specifications, check to see if the len
 
 > **NOTE:** If the tie rod lengths are not equal, the wheel angle cannot be adjusted properly. Reinspect the toe-in after adjusting the tie rod lengths.
 
+<a id="p669"></a>
 ### 5. Adjust camber
 
 Camber:
@@ -109,6 +117,7 @@ If camber is not within specification, adjust by turning the camber adjusting ca
    - **Torque:** 1,450 kg-cm (105 ft-lb, 142 N·m)
 4. (d) After installing the wheel, rock the vehicle up and down and recheck the angle.
 
+<a id="p669"></a>
 ### 6. Inspect steering axis inclination
 
 Steering axis inclination:
@@ -120,6 +129,7 @@ Steering axis inclination:
 
 Steering axis inclination is not adjustable. If measurement is not within specification, inspect and replace the suspension parts as necessary.
 
+<a id="p670"></a>
 ### 7. Adjust caster
 
 Caster:
@@ -138,6 +148,7 @@ If caster is not within specification, adjust by turning the nut.
 3. (c) Tighten the strut bar front nut.
    - **Torque:** 1,150 kg-cm (83 ft-lb, 113 N·m)
 
+<a id="p670"></a>
 ### 8. Adjust toe-in
 
 Adjust toe-in with a toe-in gauge in the following procedure.
@@ -160,6 +171,7 @@ Adjust toe-in with a toe-in gauge in the following procedure.
 11. (k) Install the boot clips.
     > **NOTE:** Check that the boots are not twisted.
 
+<a id="p671"></a>
 ### 9. Inspect side slip with side slip tester
 
 - Side slip: 3.0 mm/m (0.118 in./3.3 ft) or less
@@ -168,8 +180,10 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 
 ---
 
+<a id="p672"></a>
 ## Front Axle Hub
 
+<a id="p672"></a>
 ### Components
 
 *(Figure: Front Axle Hub exploded view, with specified-torque callouts — see page image p.672 / manual FA-7.)*
@@ -187,6 +201,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 
 ◆ = non-reusable part. Non-reusable parts in this assembly: hub grease cap O-ring, outer oil seal, cotter pin, axle hub lock nut.
 
+<a id="p673"></a>
 ### Removal of Front Axle Hub
 
 1. **Remove disc brake caliper.** Remove the brake caliper from the steering knuckle and suspend it with wire.
@@ -207,6 +222,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
    - (b) Remove the bolts and nuts, and disconnect the steering knuckle and shock absorber.
    - (c) Remove the steering knuckle spacer.
 
+<a id="p674"></a>
 ### Disassembly of Front Axle Hub
 
 1. **Remove hub grease cap.**
@@ -234,6 +250,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 
 <!-- NEEDS REVIEW: source (FA-10) numbers the last two disassembly steps "5. REMOVE OUTER OIL SEAL" and "6. REMOVE BEARING INNER RACE (OUTSIDE)" — a duplicate "5/6" numbering. Renumbered here 4–8 to give the "Remove bearing inner race (inside)" step (step 4, listed with no detail in the source) and the outer-oil-seal/outer-race steps distinct numbers; no procedure text or value was changed. -->
 
+<a id="p676"></a>
 ### Assembly of Front Axle Hub
 
 1. **Install hub bearing.** Using SST and a press, press in a new hub bearing.
@@ -259,6 +276,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
    - (b) Using SST and a hammer, tap in the hub grease cap.
      - SST 09608-30012 (90608-04020) and 09649-17010 <!-- NEEDS REVIEW: sub-tool part number printed as "90608-04020" in the source (FA-12); the equivalent tip tool is printed "09608-04020" in the Assembly step 3(c) above (FA-11). Likely a manual typo (0↔9 transposed), but transcribed exactly as printed on each page rather than normalized. -->
 
+<a id="p677"></a>
 ### Installation of Front Axle Hub
 
 1. **Install steering knuckle with axle hub to lower arm.**
@@ -282,6 +300,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 7. **Install disc brake caliper to steering knuckle.** Torque the two bolts.
    - **Torque:** 900 kg-cm (65 ft-lb, 88 N·m)
 
+<a id="p679"></a>
 ### Replacement of Front Axle Hub Bolt
 
 1. **Remove brake caliper.** Remove the brake caliper from the steering knuckle and suspend it with a wire.
@@ -298,8 +317,10 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 
 ---
 
+<a id="p680"></a>
 ## Front Shock Absorber
 
+<a id="p680"></a>
 ### Components
 
 *(Figure: Front Shock Absorber exploded view, with specified-torque callouts — see page image p.680 / manual FA-15.)*
@@ -315,6 +336,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
 
 ◆ = non-reusable part. Non-reusable parts in this assembly: suspension support nut, gasket.
 
+<a id="p680"></a>
 ### Removal of Front Shock Absorber Assembly
 
 1. **Disconnect brake hose.**
@@ -338,6 +360,7 @@ If the side slip exceeds the limit, the toe-in or other front wheel alignment ma
      - SST 09729-22031
    - (c) Remove the suspension support, spring seat, spring, insulator and bumper.
 
+<a id="p682"></a>
 ### Inspection of Front Shock Absorber Assembly
 
 **Inspect operation of shock absorber**
@@ -350,6 +373,7 @@ If the absorber operation is not as specified, replace the absorber, as an assem
 > **CAUTION:** Before discarding the shock absorber, first loosen the ring nut 2 or 3 turns with SST completely to release the gas.
 > - SST 09720-00011 (09721-00071)
 
+<a id="p683"></a>
 ### Installation of Front Shock Absorber Assembly
 
 1. **Install bumper, coil spring, insulator, spring seat and dust seal.**
@@ -386,8 +410,10 @@ If the absorber operation is not as specified, replace the absorber, as an assem
 
 ---
 
+<a id="p685"></a>
 ## Front Suspension
 
+<a id="p685"></a>
 ### Components
 
 *(Figure: Front Suspension exploded view, with specified-torque callouts — see page image p.685 / manual FA-20.)*
@@ -403,6 +429,7 @@ If the absorber operation is not as specified, replace the absorber, as an assem
 
 ◆ = non-reusable part (lower arm cotter pin).
 
+<a id="p685"></a>
 ### Ball Joint
 
 #### Inspection of Ball Joint
@@ -421,6 +448,7 @@ If the absorber operation is not as specified, replace the absorber, as an assem
      - If not within specification, replace the ball joint.
    - (d) Install the ball joint.
 
+<a id="p686"></a>
 ### Lower Arm
 
 #### Removal of Lower Arm
@@ -452,6 +480,7 @@ If the absorber operation is not as specified, replace the absorber, as an assem
 
 <!-- NEEDS REVIEW: source (FA-23) numbers the last two installation steps "6. INSPECT FRONT WHEEL ALIGNMENT" following a step 4, skipping 5. Renumbered here 1–5 (step 4 torque-bolt sub-step (b) and the alignment inspection as step 5) to close the gap; no text or value changed. -->
 
+<a id="p688"></a>
 ### Stabilizer Bar and Link
 
 #### Removal of Stabilizer Bar and Link
@@ -479,6 +508,7 @@ If the absorber operation is not as specified, replace the absorber, as an assem
    - **Torque:** 650 kg-cm (47 ft-lb, 64 N·m)
    > **NOTE:** If the ball joint stud turns together with the nut, use a hexagon wrench to hold the stud.
 
+<a id="p690"></a>
 ### Strut Bar
 
 #### Removal of Strut Bar

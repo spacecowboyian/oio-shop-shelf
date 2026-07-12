@@ -12,10 +12,12 @@ See also: figures referenced below can be checked against the source page images
 
 ---
 
+<a id="p469"></a>
 ## Transaxle Case — Oil Seal & Reverse Restrict Pin (continued)
 
 *Continuation of the transaxle case disassembly begun in Part 1 (MT-52).*
 
+<a id="p469"></a>
 ### 8. Replace Oil Seal (continued)
 
 - (b) Using SST, drive in a new oil seal.
@@ -23,6 +25,7 @@ See also: figures referenced below can be checked against the source page images
   - **Drive-in depth:** 33 mm (1.30 in.)
 - (c) Coat the lip of the oil seal with MP grease.
 
+<a id="p469"></a>
 ### 9. If Necessary, Replace Reverse Restrict Pin
 
 1. Using SST, remove the screw plug.
@@ -37,10 +40,12 @@ See also: figures referenced below can be checked against the source page images
 
 ---
 
+<a id="p470"></a>
 ## Input Shaft Assembly
 
 *(Figure: exploded view of the input shaft assembly — see page image p.470 [MT-53]. `+` = non-reusable part.)*
 
+<a id="p470"></a>
 ### Disassembly of Input Shaft Assembly
 
 **1. Measure Third and Fourth Gear Thrust Clearance**
@@ -89,6 +94,7 @@ Using a press, remove the No. 2 hub sleeve, 3rd gear, synchronizer ring and need
 Using SST and a press, remove the inner race.
 - SST 09950-00020
 
+<a id="p473"></a>
 ### Inspection of Input Shaft Component Parts
 
 **1. Inspect Synchronizer Rings**
@@ -118,6 +124,7 @@ Using a feeler gauge, measure the clearance between the hub sleeve and shift for
 3. Using a dial indicator, check the shaft runout.
    - **Maximum runout:** 0.05 mm (0.0020 in.)
 
+<a id="p474"></a>
 ### Assembly of Input Shaft Assembly
 
 > **NOTE:** Coat all of the sliding and rotating surfaces with gear oil before assembly.
@@ -184,10 +191,12 @@ Using SST and a press, install the input shaft front bearing inner race.
 
 ---
 
+<a id="p476"></a>
 ## Output Shaft Assembly
 
 *(Figure: exploded view of the output shaft assembly — see page image p.478 [MT-59]. `+` = non-reusable part.)*
 
+<a id="p476"></a>
 ### Disassembly of Output Shaft Assembly
 
 **1. Measure First and Second Gear Thrust Clearance**
@@ -231,6 +240,7 @@ Using a press, remove the No. 1 hub sleeve and 1st gear.
 
 **8. Remove Synchronizer Ring and Needle Roller Bearing**
 
+<a id="p478"></a>
 ### Inspection of Output Shaft Component Parts
 
 **1. Inspect Synchronizer Rings**
@@ -262,6 +272,7 @@ Using a feeler gauge, measure the clearance between the hub sleeve and shift for
 2. Using SST and a press, install the new bearing.
    - SST 09316-60010 (09316-00070)
 
+<a id="p480"></a>
 ### Assembly of Output Shaft Assembly
 
 > **NOTE:** Coat all of the sliding and rotating surfaces with gear oil before assembly.
@@ -323,12 +334,14 @@ Using SST and a press, install the bearing.
 
 ---
 
+<a id="p482"></a>
 ## Oil Pump Assembly
 
 *(Figure: exploded view of the oil pump assembly — see page image p.482 [MT-65]. `+` = non-reusable part.)*
 
 **Oil pump cover bolt torque (from exploded view):** 105 kg-cm (8 ft-lb, 10 N·m)
 
+<a id="p482"></a>
 ### Disassembly of Oil Pump
 
 **1. Check Operation of Oil Pump**
@@ -372,6 +385,7 @@ Using a precision straight edge and feeler gauge, measure the side clearance of 
 2. Apply gear oil to the O-ring.
 3. Install the O-ring.
 
+<a id="p485"></a>
 ### Assembly of Oil Pump
 
 **1. (Only when replacing oil pump case) Install Tight Plug**
@@ -406,10 +420,12 @@ Install the new gasket to the oil pump case.
 
 ---
 
+<a id="p487"></a>
 ## Shift and Select Lever Assembly
 
 *(Figure: exploded view of the shift and select lever assembly — see page image p.487 [MT-70].)*
 
+<a id="p487"></a>
 ### Disassembly of Shift and Select Lever Assembly
 
 **1. Remove No. 2 Shift Inner Lever**
@@ -432,6 +448,7 @@ Install the new gasket to the oil pump case.
 
 Using two screwdrivers and a hammer, remove the snap ring.
 
+<a id="p489"></a>
 ### Assembly of Shift and Select Lever Assembly
 
 **1. Coat Shaft with MP Grease, as Shown**
@@ -459,12 +476,14 @@ Using a plastic hammer, install the snap ring.
 
 ---
 
+<a id="p491"></a>
 ## Differential
 
 *(Figure: exploded view of the differential — see page image p.491 [MT-74]. `+` = non-reusable part, `*` = precoated part.)*
 
 **Transaxle case cover bolt/nut torque (from exploded view):** 550 kg-cm (40 ft-lb, 54 N·m)
 
+<a id="p492"></a>
 ### Disassembly of Differential Case
 
 **1. Remove Side Bearing**
@@ -645,6 +664,7 @@ Remove the seventeen bolts and tap off the case with a plastic hammer.
 
 ---
 
+<a id="p501"></a>
 ## Installation of Component Parts
 
 *(See pages MT-7 to MT-9, in [Part 1](11a-manual-transmission-c50-c52-part-1.md).)*
@@ -911,6 +931,7 @@ Apply molybdenum disulphide lithium base grease to the following parts:
 
 ---
 
+<a id="p513"></a>
 ## Installation of Transaxle
 
 **1. Install Side Gear Shaft to Transaxle**
@@ -1030,8 +1051,10 @@ Check for abnormal noise and smooth operation.
 
 ---
 
+<a id="p517"></a>
 ## Shift Lever and Control Cable
 
+<a id="p517"></a>
 ### Components
 
 *(Figure: exploded view of the shift lever and control cable — see page image p.517 [MT-100]. Includes a separate 4A-GZE detail inset.)*
@@ -1044,6 +1067,7 @@ Torque callouts shown on the exploded view (kg-cm (ft-lb, N·m) = specified torq
 | Selecting bellcrank support bolt | 195 kg-cm (14 ft-lb, 19 N·m) |
 | Shift control cable to lever base | 135 kg-cm (10 ft-lb, 13 N·m) |
 
+<a id="p518"></a>
 ### Inspection of Shift Lever
 
 **Inspect Shift Lever Play**

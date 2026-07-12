@@ -9,6 +9,7 @@ Torque is given as **kg-cm (ft-lb, N·m)**, exactly as printed in the manual.
 
 ---
 
+<a id="p45"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -114,27 +115,34 @@ Torque is given as **kg-cm (ft-lb, N·m)**, exactly as printed in the manual.
 
 ---
 
+<a id="p49"></a>
 ## Engine Tune-Up
 
+<a id="p49"></a>
 ### Inspection of Engine Coolant
 (See steps 1 and 2 on page CO-2.)
 
+<a id="p49"></a>
 ### Inspection of Engine Oil
 (See steps 1 and 2 on page LU-3.)
 
+<a id="p49"></a>
 ### Inspection of Battery
 (See steps 1 and 2 on page CH-3.)
 
 - Standard specific gravity: **1.25 – 1.27** when fully charged at 20°C (68°F)
 
+<a id="p49"></a>
 ### Inspection of Air Filter
 (See step 3 on page MA-5.)
 
+<a id="p49"></a>
 ### Inspection of High-Tension Cords
 (See page IG-5.)
 
 - Maximum resistance: **25 kΩ per cord**
 
+<a id="p49"></a>
 ### Inspection of Spark Plugs
 (See page IG-5.)
 
@@ -146,6 +154,7 @@ Torque is given as **kg-cm (ft-lb, N·m)**, exactly as printed in the manual.
 | 4A-GE | PQ16R | BCPR5EP11 |
 | 4A-GZE | PQ20R | BCPR6EP11 |
 
+<a id="p49"></a>
 ### Inspection of Alternator Drive Belt
 (See step 4 on page CH-4.)
 
@@ -160,6 +169,7 @@ Drive belt tension:
 | 4A-GZE | w/o Air con. | New belt | 175 ± 5 lb |
 | 4A-GZE | w/o Air con. | Used belt | 115 ± 20 lb |
 
+<a id="p50"></a>
 ### Adjustment of Valve Clearance
 
 > **NOTE:** Adjust the valve clearance while the engine is cold.
@@ -211,6 +221,7 @@ Drive belt tension:
    - (g) Recheck the valve clearance.
 4. **REINSTALL CYLINDER HEAD COVERS** (See steps 2 to 5 on pages EM-21, 22.)
 
+<a id="p52"></a>
 ### Adjusting Shim Selection
 
 Toyota provides a large lookup matrix (measured clearance × installed shim thickness → new shim No.) for both intake and exhaust. The full matrices are impractical to reproduce faithfully as text; use the formula above with the shim reference table below, or read the lookup grids directly from the page images.
@@ -237,12 +248,15 @@ Shim thicknesses (identical reference table for both intake and exhaust):
 - **Intake example:** A 2.800 mm shim is installed and the measured clearance is 0.450 mm. Replace the 2.800 mm shim with shim No. 24 (3.050 mm).
 - **Exhaust example:** A 2.800 mm shim is installed and the measured clearance is 0.450 mm. Replace the 2.800 mm shim with shim No. 22 (3.000 mm).
 
+<a id="p54"></a>
 ### Inspection and Adjustment of Ignition Timing
 (See page IG-11.)
 
+<a id="p54"></a>
 ### Inspection and Adjustment of Idle Speed (4A-GE)
 (See page MA-7.)
 
+<a id="p54"></a>
 ### Inspection and Adjustment of Idle Speed (4A-GZE)
 
 1. **INITIAL CONDITIONS**
@@ -272,6 +286,7 @@ Shim thicknesses (identical reference table for both intake and exhaust):
 
    If the idle speed is not within this value, carry out either of the below-listed procedures and then recheck the idle speed. Carry out a driving test, including stop-go several times at a speed above 10 km/h, or start the engine, idle for 30 seconds and then turn the engine off repeatedly. By doing this, idle data will be stored in the ISC and the idle rpm will be at specified value.
 
+<a id="p55"></a>
 ### Idle HC/CO Concentration Check Method
 
 > **NOTE:** This check is used only to determine whether or not the idle HC/CO complies with regulations.
@@ -314,6 +329,7 @@ Troubleshooting:
 
 ---
 
+<a id="p57"></a>
 ## Compression Check
 
 > **NOTE:** If there is lack of power, excessive oil consumption or poor fuel economy after engine tune-up, measure the cylinder compression pressure.
@@ -342,8 +358,10 @@ Troubleshooting:
 
 ---
 
+<a id="p58"></a>
 ## Timing Belt
 
+<a id="p58"></a>
 ### Components
 
 *(Figure: Timing Belt components exploded view — see page image p.58 / manual EM-15.)*
@@ -356,6 +374,7 @@ Specified torque — kg-cm (ft-lb, N·m):
 | Idler pulley bolt | 375 (27, 37) |
 | Crankshaft pulley bolt | 1,400 (101, 137) |
 
+<a id="p58"></a>
 ### Removal of Timing Belt
 
 1. **REMOVE RH WHEEL**
@@ -415,6 +434,7 @@ Specified torque — kg-cm (ft-lb, N·m):
 
     > **CAUTION:** Be careful not to damage the cylinder head with the wrench.
 
+<a id="p62"></a>
 ### Inspection of Timing Belt Components
 
 1. **INSPECT TIMING BELT**
@@ -445,6 +465,7 @@ Specified torque — kg-cm (ft-lb, N·m):
 
      If the free length is not as specified, replace the tension spring.
 
+<a id="p64"></a>
 ### Installation of Timing Belt
 (See page EM-15.)
 
@@ -540,8 +561,10 @@ Specified torque — kg-cm (ft-lb, N·m):
 
 ---
 
+<a id="p69"></a>
 ## Cylinder Head (4A-GE)
 
+<a id="p69"></a>
 ### Components
 
 *(Figure: Cylinder Head (4A-GE) components exploded view — see page image p.69 / manual EM-26.)*
@@ -557,6 +580,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
 | Crankshaft pulley bolt | 1,400 (101, 137) |
 | Cylinder head bolts | 1st: 300 (22, 29) · 2nd: 90° turn · 3rd: 90° turn |
 
+<a id="p70"></a>
 ### Removal of Cylinder Head
 (See page EM-26.)
 
@@ -677,6 +701,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
 
       > **CAUTION:** Be careful not to damage the cylinder head and cylinder block surfaces of the cylinder head gasket side.
 
+<a id="p77"></a>
 ### Disassembly of Cylinder Head
 (See page EM-26.)
 
@@ -694,6 +719,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
      > **NOTE:** Arrange the valves, valve springs, spring seats and spring retainers in correct order.
    - (c) Using needle-nose pliers, remove the oil seal.
 
+<a id="p78"></a>
 ### Inspection, Cleaning and Repair of Cylinder Head Components
 
 1. **CLEAN TOP OF PISTONS AND TOP OF BLOCK**
@@ -889,6 +915,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
 
     If warpage is greater than maximum, replace the manifold or air control valve.
 
+<a id="p87"></a>
 ### Inspection of Toyota Variable Induction System (T-VIS)
 
 1. **INSPECT AIR CONTROL VALVE**
@@ -904,6 +931,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
    - (c) Disconnect the battery.
    - (d) Blow into pipe E and check that air comes out of the air filter. If a problem is found, replace the VSV.
 
+<a id="p88"></a>
 ### Assembly of Cylinder Head
 (See page EM-26.)
 
@@ -933,6 +961,7 @@ Specified torque — kg-cm (ft-lb, N·m). Non-reusable parts (gaskets, oil seals
 
      > **NOTE:** Make sure the valve lifters with their shims are installed in the correct order.
 
+<a id="p89"></a>
 ### Installation of Cylinder Head
 (See page EM-26.)
 

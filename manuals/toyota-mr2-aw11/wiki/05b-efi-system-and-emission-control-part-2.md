@@ -8,8 +8,10 @@
 
 ---
 
+<a id="p261"></a>
 ## Fuel System
 
+<a id="p261"></a>
 ### Fuel Pump and Fuel Pressure — On-Vehicle Inspection (4A-GE)
 
 #### 1. Check fuel pump operation
@@ -66,6 +68,7 @@ If there is no pressure, check the following parts:
 22. Connect the wiring connector to the cold start injector.
 23. Check for fuel leakage.
 
+<a id="p264"></a>
 ### Fuel Pump and Fuel Pressure — On-Vehicle Inspection (4A-GZE)
 
 #### 1. Check fuel pump operation
@@ -122,6 +125,7 @@ If there is no pressure, check the following parts:
 22. Connect the wiring connector to the cold start injector.
 23. Check for fuel leakage.
 
+<a id="p267"></a>
 ### Fuel Pump — Removal
 
 > **WARNING:** Do not smoke or work near an open flame when working on the fuel pump.
@@ -142,6 +146,7 @@ If there is no pressure, check the following parts:
 
 *Components: Fuel Hose, Fuel Pump, Fuel Pump Bracket, Fuel Pump Filter, Clip, Rubber Cushion. (Figure — see page image p.267.)*
 
+<a id="p268"></a>
 ### Fuel Pump — Installation
 
 1. Install fuel pump filter to fuel pump.
@@ -168,6 +173,7 @@ If there is no pressure, check the following parts:
 
 *Pipe/hose clip fit dimensions: pipe-to-clip 2 – 7 mm (0.08 – 0.28 in.); hose end 0 – 3 mm (0 – 0.12 in.). (Figure — see page image p.268.)*
 
+<a id="p269"></a>
 ### Cold Start Injector
 
 *Wiring: solenoid coil fed from ignition switch (AM2 / ST2) through fuse AM2 7.5A, start switch, starter relay, and — for M/T, the clutch switch; for A/T, neutral start switch. (Figure — see page image p.271.)*
@@ -229,6 +235,7 @@ If there is no pressure, check the following parts:
 4. Connect cable to negative terminal of battery.
 5. Check for fuel leakage.
 
+<a id="p274"></a>
 ### Pressure Regulator (4A-GE)
 
 *Ports: FROM DELIVERY PIPE; TO RETURN PIPE. (Figure — see page image p.278.)*
@@ -254,6 +261,7 @@ If there is no pressure, check the following parts:
 3. Connect vacuum sensing hose.
 4. Check for fuel leakage (see manual page Fl-8, in [Part 1](05a-efi-system-and-emission-control-part-1.md)).
 
+<a id="p275"></a>
 ### Pressure Regulator (4A-GZE)
 
 *Ports: FROM DELIVERY PIPE; TO RETURN PIPE. (Figure — see page image p.279.)*
@@ -280,6 +288,7 @@ If there is no pressure, check the following parts:
 3. Connect vacuum sensing hose.
 4. Check for fuel leakage (see manual page Fl-8, in [Part 1](05a-efi-system-and-emission-control-part-1.md)).
 
+<a id="p276"></a>
 ### Injector
 
 #### On-vehicle inspection
@@ -487,6 +496,7 @@ If no sound or an unusual sound is heard, check the wiring connector, injector, 
 12. Install throttle body (see [Throttle Body — Installation (4A-GZE)](#installation-of-throttle-body), manual page Fl-104).
 13. Connect cable to negative terminal of battery.
 
+<a id="p289"></a>
 ### Fuel Tank and Line
 
 #### Components — specified torque
@@ -525,8 +535,10 @@ If a problem is found, repair or replace the parts as necessary.
 
 ---
 
+<a id="p290"></a>
 ## Air Induction System
 
+<a id="p290"></a>
 ### Air Flow Meter
 
 *Internal parts: Potentiometer, Damping Chamber, Compensation Plate, Return Spring, Air Temp. Sensor, Measuring Plate, Air By-pass Passage. (Figure — see page image p.290.)*
@@ -578,6 +590,7 @@ Using an ohmmeter, measure the resistance between each terminal by moving the me
 3. Connect air flow meter connector.
 4. Install resonator (4A-GE) or intercooler (4A-GZE).
 
+<a id="p293"></a>
 ### Throttle Body
 
 *Throttle Position Sensor mounts on the throttle body (both 4A-GE and 4A-GZE). (Figure — see page image p.293.)*
@@ -761,6 +774,7 @@ Using an ohmmeter, measure the resistance between each terminal by moving the me
    2. Throttle position sensor connector
 8. Refill with coolant.
 
+<a id="p302"></a>
 ### Idle Speed Control (ISC) Valve (4A-GZE)
 
 *Internal parts: Coil, Valve Assy, Bimetal, Valve; ports OUT / IN. (Figure — see page image p.302.)*
@@ -794,6 +808,7 @@ Using an ohmmeter, measure the resistance between each terminal by moving the me
 3. Connect ISC valve connector.
 4. Refill with coolant.
 
+<a id="p304"></a>
 ### Auxiliary Air Valve (4A-GE)
 
 *Auxiliary air valve routes coolant. (Figure — see page image p.304.)*
@@ -817,12 +832,15 @@ Check the engine rpm by fully screwing in the idle speed adjusting screw.
 
 ---
 
+<a id="p305"></a>
 ## Electronic Control System
 
+<a id="p305"></a>
 ### Location of Electronic Control Parts
 
 Parts include: EFI Main Relay, Circuit Opening Relay, Solenoid Resistor (4A-GZE). *(Figure — see page image p.305.)*
 
+<a id="p306"></a>
 ### EFI Main Relay
 
 *Circuit: battery → fusible link (1.25B) → ignition switch and fuse AM2 7.5A → main relay → ECU. (Figure — see page image p.306.)*
@@ -846,6 +864,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p307"></a>
 ### Circuit Opening Relay
 
 *Circuit connects: Starter Relay, ECU (STA, +B), EFI Main Relay (B), Check Connector, Fuel Pump Switch, Fuel Pump (Fp, Fc terminals). (Figure — see page image p.307.)*
@@ -875,6 +894,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p309"></a>
 ### Solenoid Resistor (4A-GZE) and Injector Relay
 
 *Circuit (4A-GE and 4A-GZE): battery → fusible link (1.25B) → ignition switch / fuse AM2 7.5A → (4A-GZE) solenoid resistor → injectors (No. 10, No. 20) → ECU (E01, E02). (Figure — see page image p.309.)*
@@ -904,6 +924,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p311"></a>
 ### Start Injector Time Switch
 
 *Circuit: Starter Relay — ECU (STA); switch has STA and STJ terminals with internal coils and a bimetal contact. (Figure — see page image p.311.)*
@@ -919,6 +940,7 @@ If operation is not as specified, replace the relay.
 | STA – STJ         | 40 – 60        | Above 40°C (95°F) | <!-- NEEDS REVIEW: 40°C = 104°F, not 95°F; see note above — page image confirms the manual prints 95°F. -->
 | STA – Ground      | 20 – 80        | — |
 
+<a id="p312"></a>
 ### Water Temperature Sensor
 
 The sensor is a thermistor; resistance decreases as temperature rises.
@@ -932,6 +954,7 @@ The sensor is a thermistor; resistance decreases as temperature rises.
 
 *Resistance-vs-temperature curve spans approx. 20 kΩ at −20°C (−4°F) down to below 0.2 kΩ at 120°C (248°F). (Graph — see page image p.312.)*
 
+<a id="p313"></a>
 ### EGR Gas Temperature Sensor (For California)
 
 *Thermistor sensor mounted on the EGR valve; wired to ECU terminals +B, THG, E2, E1. (Figure — see page image p.313.)*
@@ -948,6 +971,7 @@ Using an ohmmeter, measure the resistance between the terminals.
 
 If the resistance is not as specified, replace the sensor.
 
+<a id="p314"></a>
 ### High Temperature Line Pressure Up System
 
 *Uses the Air Temp. Sensor (in air flow meter), Water Temp. Sensor, a fuel pressure VSV, and the circuit opening relay (STA). (Figure — see page image p.314.)*
@@ -962,6 +986,7 @@ If the resistance is not as specified, replace the sensor.
    3. Check that air flows from pipe E to pipe F.
    - If operation is not as specified, replace the VSV.
 
+<a id="p315"></a>
 ### Idle-up System
 
 *Circuit: battery → fusible link → VSV (idle-up) → ECU (V-ISC). (Figure — see page image p.315.)*
@@ -983,6 +1008,7 @@ If the resistance is not as specified, replace the sensor.
 
 If a problem is found, replace the VSV.
 
+<a id="p316"></a>
 ### Oxygen Sensor
 
 #### Inspection of feedback voltage (VF)
@@ -1020,6 +1046,7 @@ Using an ohmmeter, measure the resistance between the terminals **+B** and **HT*
 
 If the resistance is not as specified, replace the sensor.
 
+<a id="p319"></a>
 ### Electronic Controlled Unit (ECU)
 
 #### Inspection of ECU
@@ -1250,6 +1277,7 @@ Check the resistance between each terminal of the wiring connector:
 | THW – E2  | Coolant temperature 80°C (176°F) | 0.2 – 0.4 kΩ |
 | G1 – G⊖, G2 – G⊖, NE – G⊖ | — | 140 – 180 Ω |
 
+<a id="p324"></a>
 ### Fuel Cut RPM
 
 #### Inspection of fuel cut RPM
@@ -1265,10 +1293,12 @@ Check the resistance between each terminal of the wiring connector:
 
 ---
 
+<a id="p325"></a>
 ## Cooling System
 
 *Section code `CO`, source PDF pages 324–345.*
 
+<a id="p325"></a>
 ### In this section
 
 - [Troubleshooting](#troubleshooting) — CO-2
@@ -1280,6 +1310,7 @@ Check the resistance between each terminal of the wiring connector:
 - [Electric Cooling Fan (Radiator)](#electric-cooling-fan-radiator) — CO-13
 - [Electric Cooling Fan (Engine Compartment)](#electric-cooling-fan-engine-compartment) — CO-17
 
+<a id="p326"></a>
 ### Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -1298,12 +1329,14 @@ Check the resistance between each terminal of the wiring connector:
 
 > **NOTE:** The thermostat on the A series engine is equipped with a by-pass valve. Therefore, if the engine tends to overheat, removal of the thermostat will an adversely effect, cooling efficiency. *(Transcribed as printed; the sentence is grammatically garbled in the source.)*
 
+<a id="p326"></a>
 ### Check of Engine Coolant
 
 **1. Check coolant level** — the coolant level should be between the LOW and FULL lines. If low, check for leakage and add coolant up to the FULL line.
 
 **2. Check coolant quality** — there should not be any excessive deposits of rust or scales around the radiator cap (water filler cap) or radiator filler hole, and the coolant should also be free from oil. Replace the coolant if excessively dirty.
 
+<a id="p327"></a>
 ### Replacement of Engine Coolant
 
 *Cooling circuit parts: Radiator Cap (water filler cap), Water Inlet Air Bleeder Valve, Heater Air Bleeder, Radiator Drain Cock, Radiator Pipe Drain Cock. (Figure — see page image p.327.)*
@@ -1358,6 +1391,7 @@ Check the resistance between each terminal of the wiring connector:
 6. Start engine and check for leaks.
 7. Install front luggage compartment trim and spare tire.
 
+<a id="p330"></a>
 ### Water Pump
 
 *Components: Water Pump Assembly, O-ring (non-reusable), Water Pump Pulley. (Figure — see page image p.331.)*
@@ -1420,6 +1454,7 @@ Check the resistance between each terminal of the wiring connector:
 7. Refill with coolant (see [Replacement of Engine Coolant](#replacement-of-engine-coolant), manual page CO-4).
 8. Start engine and check for leaks.
 
+<a id="p334"></a>
 ### Thermostat
 
 #### Removal of thermostat
@@ -1446,6 +1481,7 @@ Check the resistance between each terminal of the wiring connector:
 2. Refill radiator with coolant (see [Replacement of Engine Coolant](#replacement-of-engine-coolant), manual page CO-4).
 3. Start engine and check for leaks.
 
+<a id="p335"></a>
 ### Radiator
 
 #### Cleaning of radiator
@@ -1488,6 +1524,7 @@ If the pressure drops, check for leaks from the hoses, pipes, radiator or water 
 5. Refill with coolant (see [Replacement of Engine Coolant](#replacement-of-engine-coolant), manual page CO-4).
 6. Start engine and check for leaks.
 
+<a id="p337"></a>
 ### Electric Cooling Fan (Radiator)
 
 *Components: Fan, Fan Motor, Fan Shroud, Temperature Switch. (Figure — see page image p.337.)*
@@ -1590,6 +1627,7 @@ If operation is not as described, replace the relay.
 1. Install electric cooling fan(s).
 2. Connect connector of fan motor.
 
+<a id="p341"></a>
 ### Electric Cooling Fan (Engine Compartment)
 
 *Components: Fan, Fan Shroud. (Figure — see page image p.341.)*

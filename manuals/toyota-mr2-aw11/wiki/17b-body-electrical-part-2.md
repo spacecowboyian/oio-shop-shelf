@@ -12,8 +12,10 @@ glass, roofs, instrument panel, seats, seat belts, and body dimensions.*
 
 ---
 
+<a id="p868"></a>
 ## Radio, Stereo Tape Player and Antenna — Troubleshooting
 
+<a id="p868"></a>
 ### No sound from one speaker
 
 Possible causes:
@@ -40,6 +42,7 @@ Possible causes:
 | 2 | Is there continuity in the speaker wire harness? | OK | Replace radio and tape player |
 | 2 | Is there continuity in the speaker wire harness? | No | Inspect and repair the speaker wire harness |
 
+<a id="p869"></a>
 ### Faint reception
 
 Possible causes:
@@ -58,6 +61,7 @@ Possible causes:
 | 3 | Temporarily install another antenna. Okay? | OK | Inspect antenna and cable and repair as necessary |
 | 3 | Temporarily install another antenna. Okay? | No | Replace radio |
 
+<a id="p869"></a>
 ### Bad sound quality
 
 #### (a) Sound quality bad when radio played
@@ -133,6 +137,7 @@ Possible causes:
 
 *(Figure: cassette mechanism — capstan, pinch roller, head — see page image p.871)*
 
+<a id="p871"></a>
 ### Defective auto-search mechanism
 
 Manual search possible, but the automatic search mechanism does not function or does not stop at all receivable stations.
@@ -152,8 +157,10 @@ Possible causes:
 
 ---
 
+<a id="p872"></a>
 ## Clock
 
+<a id="p872"></a>
 ### Troubleshooting
 
 #### Clock will not operate
@@ -181,6 +188,7 @@ Possible causes:
 | 2 | Check to see if there is 11 V–15 V on terminal B of the connector on the clock side. | Below 11 V | Locate cause and repair, or recharge battery |
 | 2 | Check to see if there is 11 V–15 V on terminal B of the connector on the clock side. | OK | Adjust or replace clock |
 
+<a id="p873"></a>
 ### Inspection and setting
 
 1. **Inspect allowable error of clock** — check the allowable error of the clock.
@@ -194,6 +202,7 @@ Possible causes:
 
 ---
 
+<a id="p875"></a>
 ## Body — General Information
 
 If there is a possibility that the body and/or a part may be damaged, first remove the danger before performing repair operations.
@@ -210,8 +219,10 @@ Examples:
 
 ---
 
+<a id="p876"></a>
 ## Front Hood
 
+<a id="p876"></a>
 ### Adjustment of front hood
 
 > **NOTE:** Since the centering bolt is used as the hood hinge set bolt, the hood cannot be adjusted with it on. Substitute the bolt with washer for the centering bolt.
@@ -221,8 +232,10 @@ Examples:
 3. **Adjust rear edge of hood in vertical direction** — adjust the hood by increasing or decreasing the number of shims.
 4. **Adjust hood lock** — adjust the hood lock by loosening the mounting bolts.
 
+<a id="p876"></a>
 ## Engine Hood
 
+<a id="p876"></a>
 ### Adjustment of engine hood
 
 1. **Adjust engine hood in forward/rearward and left/right directions** — adjust the hood by loosening the body side hinge bolts.
@@ -232,10 +245,12 @@ Examples:
 
 ---
 
+<a id="p877"></a>
 ## Headlight
 
 > **WARNING:** When adjusting each section, raise or lower the headlight with the light control switch. But when adjusting each section, be sure to remove the RTR MTR fuse (30 A) before adjusting.
 
+<a id="p877"></a>
 ### Adjustment of headlight
 
 1. **Adjust headlight cover forward/rearward and left/right direction**
@@ -256,12 +271,15 @@ Examples:
 
 ---
 
+<a id="p878"></a>
 ## Front Door
 
+<a id="p878"></a>
 ### Components
 
 *(Figure: front door exploded view — door glass, door lock with solenoid, power window regulator, power window relay/switch, door trim, belt moulding, inside handle bezel, regulator handle, etc. — see page image p.874)*
 
+<a id="p879"></a>
 ### Disassembly of front door
 
 1. **Remove window regulator handle** — pull off the snap ring with a cloth and remove the regulator handle and plate.
@@ -310,6 +328,7 @@ Examples:
     - (d) Pull out the door lock with door lock solenoid. (w/ Power door lock)
     - (e) Pull out the door lock. (w/o Power door lock)
 
+<a id="p882"></a>
 ### Inspection of window regulator
 
 - (a) Check the regulator wire for wear or damage.
@@ -318,6 +337,7 @@ Examples:
 - (d) Check the bracket hook for wear or damage.
 - (e) Check that the wire is in the correct position as in the illustration.
 
+<a id="p883"></a>
 ### Assembly of front door
 
 1. **Before installing parts, apply MP grease to them**
@@ -403,6 +423,7 @@ Examples:
 24. **Install inside handle bezel.**
 25. **Install window regulator handle** — with door glass fully closed, install the plate and window regulator handle with a snap ring as shown.
 
+<a id="p887"></a>
 ### Adjustment of front door
 
 > **NOTE:** Since the centering bolt is used as the door hinge set bolt, the door cannot be adjusted with it on. Substitute the bolt with washer for the centering bolt.
@@ -416,8 +437,10 @@ Examples:
 
 ---
 
+<a id="p888"></a>
 ## Luggage Compartment Lid
 
+<a id="p888"></a>
 ### Adjustment of luggage compartment lid
 
 1. **Adjust luggage compartment lid in forward/rearward and left/right directions** — adjust the lid by loosening the hinge bolts and nut.
@@ -426,8 +449,10 @@ Examples:
 
 ---
 
+<a id="p889"></a>
 ## Moulding
 
+<a id="p889"></a>
 ### Windshield outside moulding
 
 *(Figure: windshield moulding components — roof top moulding (w/ T-bar roof), weatherstrip front pillar retainer, front roof bracket cover, weatherstrips — see page image p.888)*
@@ -481,6 +506,7 @@ Examples:
    - (b) Connect the weatherstrip to the front weatherstrip retainer.
 7. **Install front roof bracket cover (w/ T-bar roof).**
 
+<a id="p893"></a>
 ### Side moulding
 
 *(Figure: side moulding components — quarter window moulding (w/ and w/o T-bar roof), rear roof bracket cover, quarter ventilation louver, quarter belt moulding — see page image p.892)*
@@ -570,6 +596,7 @@ Examples:
    - (b) Install the clip to the moulding.
 2. **Install front moulding** — install the moulding with the ten screws.
 
+<a id="p899"></a>
 ### Side body moulding
 
 #### Tools and supplies
@@ -617,6 +644,7 @@ Examples:
 
 *(Figure: side body moulding positioning diagram with A and B spacing details — see page image p.901)*
 
+<a id="p902"></a>
 ### Rear moulding
 
 *(Figure: rear moulding components — upper moulding, sun visor — see page image p.902)*
@@ -644,8 +672,10 @@ Examples:
 
 ---
 
+<a id="p904"></a>
 ## Windshield
 
+<a id="p904"></a>
 ### Tools and supplies
 
 | Part name and part No. | Contents of set | Quantity |
@@ -681,10 +711,12 @@ Examples:
 
 *(Figures: usable-time and hardening-time vs. ambient-temperature graphs for adhesive sets No. 15 / No. 35 / No. 45 — see page image p.904)*
 
+<a id="p905"></a>
 ### Components
 
 *(Figure: windshield components — windshield side moulding, windshield upper moulding, sun visor and holder, retainer (non-reusable) — see page image p.905. Legend: `kg-cm (ft-lb, N·m)` = specified torque; `+` = non-reusable part.)*
 
+<a id="p905"></a>
 ### Removal of windshield
 
 1. **Remove front pillar garnish**
@@ -710,6 +742,7 @@ Examples:
    - (d) Remove the glass.
      > **CAUTION:** Cut off the glass, leaving as much of the urethane layer on the body as possible.
 
+<a id="p906"></a>
 ### Inspection and cleaning
 
 1. **Clean and shape contact surface of body**
@@ -731,6 +764,7 @@ Examples:
    - (d) Remove the glass.
 5. **Clean contact surface of glass** — using cleaner, clean the contact surface 20 – 30 mm (0.79 – 1.18 in.) wide around the entire glass rim.
 
+<a id="p908"></a>
 ### Installation of windshield
 
 1. **Install dam**
@@ -791,8 +825,10 @@ Examples:
 
 ---
 
+<a id="p910"></a>
 ## Quarter Window Glass
 
+<a id="p910"></a>
 ### Prepare items listed
 
 | Part name and part No. | Contents of set |
@@ -805,6 +841,7 @@ Examples:
 
 *(Figure: quarter window glass components — spacer (w/o T-bar roof), butyl tape, retainer — see page image p.909)*
 
+<a id="p910"></a>
 ### Removal of quarter window glass
 
 1. **Remove quarter window moulding** (see [Removal of quarter window moulding](#removal-of-quarter-window-moulding)).
@@ -813,6 +850,7 @@ Examples:
    - (b) Remove the glass.
 3. **Remove belt moulding retainers and spacer.**
 
+<a id="p911"></a>
 ### Installation of quarter window glass
 
 1. **Clean body or glass** — wipe off any adhesive left on the body or glass with cleaner.
@@ -829,10 +867,12 @@ Examples:
 
 ---
 
+<a id="p912"></a>
 ## Rear Window Glass
 
 *(Figure: rear window glass components — rear window glass, roof headlining rear trim, weatherstrip, roof side inner garnish, high-mount stop light connector — see page image p.911)*
 
+<a id="p912"></a>
 ### Removal of rear window glass
 
 1. **Remove high mount stop light with bracket**
@@ -856,6 +896,7 @@ Examples:
      - (b) From the vehicle interior, push on the glass with an even force.
      - (c) Pull off the weatherstrip from the body.
 
+<a id="p914"></a>
 ### Installation of rear window glass
 
 1. **Clean body and glass** — wipe off any adhesive left on the body or glass with cleaner.
@@ -883,10 +924,12 @@ Examples:
 
 ---
 
+<a id="p916"></a>
 ## T-Bar Roof
 
 *(Figure: T-bar roof components — roof top moulding, weatherstrip rear roof retainer, roof headlining, front/rear roof bracket covers, removable roof glass with bracket — see page image p.916)*
 
+<a id="p917"></a>
 ### On-vehicle inspection
 
 - (a) With the removable roof installed, check for water leakage.
@@ -900,6 +943,7 @@ Level:
 | Rear side | 1.7 +2.0/−1.0 mm (0.067 +0.079/−0.039 in.) |
 | Side direction | 8.7 ± 1.5 mm (0.343 ± 0.059 in.) |
 
+<a id="p917"></a>
 ### Adjustment of removable roof
 
 1. **Remove removable roof guide** (see [Removal of T-bar roof bracket](#removal-of-t-bar-roof-bracket)).
@@ -908,6 +952,7 @@ Level:
    - Set the roof guide installation position so that the level difference between the roof panel and removable roof is within specifications.
 3. **Install removable roof guide** (see [Installation of T-bar roof bracket](#installation-of-t-bar-roof-bracket)).
 
+<a id="p918"></a>
 ### T-bar roof bracket
 
 #### Removal of T-bar roof bracket
@@ -934,6 +979,7 @@ Level:
    - Torque: 440 kg-cm (32 ft-lb, 43 N·m)
 2. **Adjust removable roof.**
 
+<a id="p919"></a>
 ### Removable roof
 
 #### Disassembly of removable roof
@@ -959,6 +1005,7 @@ Level:
    > **NOTE:** If you replace the removable roof glass with bracket, refer to replacement of removable roof or removable roof glass with bracket (see [On-vehicle inspection](#on-vehicle-inspection)). When reinstalling the roof lock lever and snap ring, install the snap ring to the roof lock lever. Then install those parts to the shaft.
 2. **Adjust removable roof** (see [Adjustment of removable roof](#adjustment-of-removable-roof)).
 
+<a id="p921"></a>
 ### Roof top moulding
 
 #### Removal of roof top moulding
@@ -1005,10 +1052,12 @@ Level:
 
 ---
 
+<a id="p923"></a>
 ## Sun Roof
 
 *(Figure: sun roof components — sun shade trim and locks, removable roof glass inner rear holder, removable roof lock handle/base/garnish, removable roof inner weatherstrip, removable roof auxiliary catch, roof headlining — see page image p.923. Legend: `kg-cm (ft-lb, N·m)` = specified torque.)*
 
+<a id="p924"></a>
 ### Disassembly of sun roof
 
 1. **Remove removable roof with sun shade.**
@@ -1031,6 +1080,7 @@ Level:
    - (d) Drop the front end of the headlining.
    - (e) Remove the two bolts and the hinge case.
 
+<a id="p925"></a>
 ### Assembly of sun roof
 
 1. **Install removable roof hinge case**
@@ -1056,6 +1106,7 @@ Level:
 
 ---
 
+<a id="p927"></a>
 ## Instrument Panel
 
 *(Figure: instrument panel components — clock, instrument cluster finish center panel, instrument panel under cover, instrument panel finish lower panel, console rear cover — see page image p.927)*
@@ -1072,6 +1123,7 @@ Level:
 | D | φ5.22, L=14 | I | φ5.22, L=14 | N | φ5.22, L=16 |
 | E | φ5.22, L=12 | J | φ5.22, L=16 | P | φ6, L=14 |
 
+<a id="p928"></a>
 ### Removal of instrument panel
 
 1. **Disconnect battery cable from negative terminal.**
@@ -1131,6 +1183,7 @@ Level:
     - (d) Remove the six bolts and the four screws.
     - (e) Pull the safety pad in front of you, disconnect the clock connector and remove the safety pad.
 
+<a id="p932"></a>
 ### Installation of instrument panel
 
 Install the parts of the instrument panel in the reverse sequence of removal.
@@ -1142,6 +1195,7 @@ Install the parts of the instrument panel in the reverse sequence of removal.
 
 ---
 
+<a id="p933"></a>
 ## Seat
 
 *(Figure: seat components — headrest and support/base, headrest boot clamp, seat back cover/pad, seat cushion cover/pad/spring, side support knob, lumbar support lever/adjuster, seat adjuster, seat track, reclining adjuster release handle, seat adjuster knob — see page image p.933. Legend: `kg-cm (ft-lb, N·m)` = specified torque.)*
@@ -1156,6 +1210,7 @@ Torque values (from the components figure):
 
 ---
 
+<a id="p934"></a>
 ## Seat Belt
 
 *(Figure: seat belt components — seat belt outer and inner — see page image p.934. Legend: `kg-cm (ft-lb, N·m)` = specified torque.)*
@@ -1168,6 +1223,7 @@ Torque values (from the components figure):
 | Lower anchor | 400 kg-cm (32 ft-lb, 43 N·m) <!-- NEEDS REVIEW: image reads "400 (32, 43)"; 400 kg-cm ≈ 39 N·m / 29 ft-lb, so the (32, 43) conversion matches 440, not 400 — likely a misread/misprint of 440. Verify on p.934. --> |
 | Retractor mount | 80 kg-cm (69 in.-lb, 7.8 N·m) |
 
+<a id="p934"></a>
 ### Seat belt — Emergency Locking Retractor (ELR) Type
 
 1. **Running test (in safe area)**
@@ -1183,6 +1239,7 @@ Torque values (from the components figure):
 
 ---
 
+<a id="p935"></a>
 ## Body Dimensions
 
 **Reference-point hole diameters** (φ = diameter):

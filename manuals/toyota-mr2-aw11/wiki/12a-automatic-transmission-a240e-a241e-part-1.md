@@ -4,6 +4,7 @@
 
 This is Part 1 of the Automatic Transaxle chapter. It covers system description, troubleshooting, the operating mechanism, the automatic shift diagrams, on-vehicle repair, transaxle removal, torque converter, oil pump, transmission disassembly, and the start of component-group work (oil pump and direct clutch). Component-group inspection/assembly and transmission reassembly continue in [Part 2](12b-automatic-transmission-a240e-a241e-part-2.md).
 
+<a id="p519"></a>
 ## Chapter contents (manual page codes)
 
 | Section | Manual page |
@@ -41,14 +42,17 @@ This is Part 1 of the Automatic Transaxle chapter. It covers system description,
 | Differential | AT-134 |
 | Installation of Transaxle | AT-144 |
 
+<a id="p520"></a>
 ## System Description
 
 The transaxle for A240E and A241E, also called Electronic Controlled Transaxle (ECT), differs from the oil-pressure-control-type transaxle in that it is controlled by a microcomputer. Accordingly, troubleshooting procedures differ also.
 
 Trouble occurring in the ECT can stem from one of three sources: the engine, the ECT electronic control unit, or the transaxle itself. Before troubleshooting, determine in which of these three sources the problem lies, and begin troubleshooting with the simplest operation, gradually working up in order of difficulty.
 
+<a id="p520"></a>
 ## Troubleshooting
 
+<a id="p520"></a>
 ### Basic Troubleshooting
 
 Before troubleshooting an ECT, first determine whether the problem is electrical or mechanical. Use the basic troubleshooting flow below. If the cause is already known, using this basic chart together with the [General Troubleshooting](#general-troubleshooting) chart should speed the procedure.
@@ -62,6 +66,7 @@ Before troubleshooting an ECT, first determine whether the problem is electrical
 | 3 | Manual Shifting Test (see AT-7) | OK | Electrical Control System Check → repair or replace |
 | 3 | Manual Shifting Test (see AT-7) | Bad | Stall Test, Time Lag Test and Hydraulic Test → repair transmission |
 
+<a id="p521"></a>
 ### General Troubleshooting
 
 Page references in the last column are the manual's own `AT-` page codes.
@@ -120,6 +125,7 @@ Page references in the last column are the manual's own `AT-` page codes.
 | | Valve body faulty | Inspect valve body | AT-96 |
 | | Transmission faulty | Disassemble and inspect transmission | AT-50 |
 
+<a id="p523"></a>
 ### Preliminary Check
 
 1. **CHECK FLUID LEVEL**
@@ -175,6 +181,7 @@ Page references in the last column are the manual's own `AT-` page codes.
 7. **INSPECT IDLE SPEED (N RANGE)**
    - Idle speed: **800 rpm**
 
+<a id="p525"></a>
 ### Manual Shifting Test
 
 > **NOTE:** With this test, it can be determined whether the trouble lies within the electrical circuit or is a mechanical problem in the transmission.
@@ -197,6 +204,7 @@ Page references in the last column are the manual's own `AT-` page codes.
    1. Connect the ECT computer connector.
    2. Install the center cluster.
 
+<a id="p526"></a>
 ### Stall Test
 
 The object of this test is to check the overall performance of the transmission and engine by measuring the maximum engine speeds in D and R ranges.
@@ -242,6 +250,7 @@ The object of this test is to check the overall performance of the transmission 
   - Improper fluid level
   - UD brake slipping
 
+<a id="p527"></a>
 ### Time Lag Test
 
 If the shift lever is shifted while the engine is idling, there will be a certain time elapse or lag before the shock can be felt. This is used for checking the condition of the OD clutch, forward clutch, direct clutch and first and reverse brake.
@@ -273,6 +282,7 @@ If the shift lever is shifted while the engine is idling, there will be a certai
   - First and reverse brake worn
   - UD brake worn
 
+<a id="p528"></a>
 ### Hydraulic Test
 
 1. **PREPARATION**
@@ -316,6 +326,7 @@ If the shift lever is shifted while the engine is idling, there will be a certai
   - First and reverse brake defective
   - UD one-way clutch not operating properly
 
+<a id="p529"></a>
 ### Road Test
 
 > **CAUTION:** Perform the test at normal operating fluid temperature (50 – 80°C or 122 – 176°F).
@@ -370,6 +381,7 @@ If the shift lever is shifted while the engine is idling, there will be a certai
 
 *(Figure: ECT electronic control system wiring diagram — see page image p.534, source page AT-15/AT-16.)*
 
+<a id="p535"></a>
 ### Troubleshooting of Electronic Control System
 
 > **NOTE:**
@@ -458,6 +470,7 @@ Warm up engine — Coolant temp.: 80°C (176°F); ATF temp.: 50 – 80°C (122 �
 | 3 | Is voltage between ECT computer BK and GND terminals as follows? (Brake pedal depressed: 12V; brake pedal released: 0V) | No | Faulty brake signal |
 | 3 | (as above) | Yes | Faulty computer power source and ground; faulty throttle position signal |
 
+<a id="p541"></a>
 ### Read of Diagnostic Code
 
 1. **TURN IGNITION SWITCH AND OD SWITCH TO ON**
@@ -485,6 +498,7 @@ Warm up engine — Coolant temp.: 80°C (176°F); ATF temp.: 50 – 80°C (122 �
 
 > **NOTE:** If codes 62, 63 and 64 appear, there is an electrical malfunction in the solenoid. Causes due to mechanical failure, such as a stuck switch, will not appear.
 
+<a id="p542"></a>
 ### Cancel Out Diagnostic Code
 
 1. After repair of the trouble area, the diagnostic code retained in memory by the ECT computer must be canceled by removing the fuse AM2 (7.5A) for 10 seconds or more, depending on ambient temperature (the lower the temperature, the longer the fuse must be left out) with the ignition switch off.
@@ -494,6 +508,7 @@ Warm up engine — Coolant temp.: 80°C (176°F); ATF temp.: 50 – 80°C (122 �
    > - If the diagnostic code is not cancelled out, it will be retained by the ECT computer and appear along with a new code in event of future trouble.
 2. After cancellation, perform a road test to confirm that a "normal code" is now read on the OD "OFF" light.
 
+<a id="p543"></a>
 ### Inspect Terminal ECT Voltage
 
 1. **INSPECT THROTTLE POSITION SENSOR SIGNAL**
@@ -526,6 +541,7 @@ Warm up engine — Coolant temp.: 80°C (176°F); ATF temp.: 50 – 80°C (122 �
    | 6 | OD |
    | 7 | OD Lock-up |
 
+<a id="p544"></a>
 ### Inspection of Electronic Control Components
 
 1. **INSPECT VOLTAGE OF ECT COMPUTER CONNECTOR**
@@ -632,8 +648,10 @@ In the tables below, "←" means the AISIN-type value is the same as the DENSO-t
 10. **INSPECT BRAKE SIGNAL**
     - Check that the brake light comes on when the brake pedal is depressed.
 
+<a id="p548"></a>
 ## Operating Mechanism for Each Gear
 
+<a id="p548"></a>
 ### 1. Transmission System
 
 Clutch/brake application per gear (○ = operating). Columns C1–C3 are clutches; B1–B4 are brakes; F1–F3 are one-way clutches.
@@ -653,6 +671,7 @@ Clutch/brake application per gear (○ = operating). Columns C1–C3 are clutche
 | L | 1st | ○ | | | | | ○ | ○ | | ○ | ○ |
 | L | 2nd | ○ | | | ○ | ○ | | ○ | ○ | | ○ |
 
+<a id="p548"></a>
 ### 2. Solenoid System
 
 Possible gear positions in accordance with solenoid operating conditions. Legend: `( )` = no fail-safe function; `x` = malfunctions.
@@ -669,6 +688,7 @@ Possible gear positions in accordance with solenoid operating conditions. Legend
 | L range | ON | OFF | 1st | x | OFF | 1st | ON | x | 1st | x | x | 1st |
 | L range | ON | ON | 2nd | x | ON | 2nd | ON | x | 1st | x | x | 1st |
 
+<a id="p549"></a>
 ## Automatic Shift Diagram (A240E/4A-GE)
 
 Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` are for the **fully closed** throttle condition; all other columns are for **fully open** throttle.
@@ -695,6 +715,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 
 *(Figures: D range NORM/PWR, 2 range NORM/PWR and L range NORM/PWR shift-point graphs — see page images p.550–551, source pages AT-32/AT-33.)*
 
+<a id="p552"></a>
 ## Automatic Shift Diagram (A241E/4A-GZE)
 
 Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` are for the **fully closed** throttle condition; all other columns are for **fully open** throttle.
@@ -721,8 +742,10 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 
 *(Figures: D range NORM/PWR, 2 range NORM/PWR and L range NORM/PWR shift-point graphs — see page images p.554–556, source pages AT-35/AT-36.)*
 
+<a id="p555"></a>
 ## On-Vehicle Repair
 
+<a id="p555"></a>
 ### Removal of Speed Sensor
 
 1. **(A241E/4A-GZE) REMOVE INTERCOOLER** — Disconnect the two hose clamps, and remove the four bolts and intercooler.
@@ -731,6 +754,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 4. **REMOVE RETAINING PLATE**
 5. **REMOVE SPEED SENSOR AND O-RING**
 
+<a id="p555"></a>
 ### Inspection of Speed Sensor
 
 **INSPECT SPEED SENSOR**
@@ -738,6 +762,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 1. Connect an ohmmeter between the terminals.
 2. Bring a magnet close to then away from the sensor tip and check that the meter needle deflects from 0 to ∞ Ω.
 
+<a id="p555"></a>
 ### Installation of Speed Sensor
 
 1. **INSTALL AND COAT NEW O-RING WITH ATF**
@@ -747,6 +772,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 5. **INSTALL AIR FLOW METER AND AIR CLEANER HOSE**
 6. **(A241E/4A-GZE) INSTALL INTERCOOLER** — Connect the two hose clamps, and install the four bolts and intercooler.
 
+<a id="p556"></a>
 ### Removal of Throttle Cable
 
 1. **DISCONNECT THROTTLE CABLE**
@@ -762,6 +788,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
    1. Remove the bolt and retaining plate.
    2. Pull the cable out of the transmission case.
 
+<a id="p557"></a>
 ### Installation of Throttle Cable
 
 1. **INSTALL CABLE IN TRANSMISSION CASE**
@@ -784,6 +811,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
    4. Connect the transmission control cable.
 7. **TEST DRIVE VEHICLE**
 
+<a id="p558"></a>
 ### Removal of Valve Body
 
 1. **CLEAN TRANSMISSION EXTERIOR** — To help prevent contamination, clean the exterior of the transmission.
@@ -806,6 +834,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 
 **DISASSEMBLY OF VALVE BODY** — see [Valve Body](12b-automatic-transmission-a240e-a241e-part-2.md) (AT-96, Part 2).
 
+<a id="p559"></a>
 ### Installation of Valve Body
 
 1. **INSTALL SECOND BRAKE APPLY GASKET**
@@ -838,6 +867,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
     - Fluid type: **ATF DEXRON® II**
 13. **CHECK FLUID LEVEL** (see [Preliminary Check](#preliminary-check))
 
+<a id="p562"></a>
 ## Removal of Transaxle
 
 1. **(A241E/4A-GZE) REMOVE INTERCOOLER** — Disconnect the two hose clamps, and remove the four bolts and intercooler.
@@ -873,6 +903,7 @@ Shift-point speeds in km/h (mph). Bracketed columns `[3→OD]` and `[OD→3]` ar
 26. **REMOVE TRANSAXLE ASSEMBLY FROM ENGINE** — Making sure that neither the throttle cable nor wire harnesses snag inside the engine compartment, moving the transaxle back and forth, left and right, remove the transaxle from the engine.
 27. **REMOVE TORQUE CONVERTER FROM TRANSAXLE**
 
+<a id="p566"></a>
 ## Torque Converter
 
 **CLEAN TORQUE CONVERTER**
@@ -897,8 +928,10 @@ If the transmission is contaminated, the torque converter and transmission coole
    - Torque: **650 kg-cm (47 ft-lb, 64 N·m)**
    - Runout: **0.20 mm (0.0079 in.) or less**
 
+<a id="p566"></a>
 ## Oil Pump
 
+<a id="p567"></a>
 ### Replacement of Oil Seal
 
 1. **REMOVE OIL SEAL WITH SST** — **SST 09350-32013 (09308-10010)**
@@ -906,6 +939,7 @@ If the transmission is contaminated, the torque converter and transmission coole
    1. Apply MP grease to the oil seal lip.
    2. Drive in the oil seal with SST. — **SST 09350-32013 (09351-32140)**
 
+<a id="p567"></a>
 ### Replacement of O-Ring
 
 1. **REMOVE OIL PUMP**
@@ -918,8 +952,10 @@ If the transmission is contaminated, the torque converter and transmission coole
 4. **INSTALL OIL PUMP MOUNTING BOLT** — Tighten the seven bolts uniformly and a little at a time.
    - Torque: **250 kg-cm (18 ft-lb, 25 N·m)**
 
+<a id="p568"></a>
 ## Disassembly of Transmission
 
+<a id="p568"></a>
 ### Components
 
 *(Figure: Transmission exploded view — sensor rotor/adaptor, speed sensor, sensor cover, transmission housing, governor driven gear, thrust washer, transaxle case, throttle cable, transmission dipstick, oil filler tube, solenoid wire, manual shift lever, neutral start switch, valve body, spring plate, manual valve, detent spring, oil pan/gasket, magnet, oil tube/bracket, brake apply rod, oil seal ring, accumulator pistons/O-rings/covers, B4 accumulator piston, oil gallery cover/gasket/screw/bolt, plate — see page image p.568, source page AT-50.)*
@@ -935,6 +971,7 @@ Diagram legend: `kg-cm (ft-lb, N·m)` = specified torque; `+` = non-reusable par
 
 *(Figures: Components (Cont'd) — forward clutch, direct clutch, oil pump thrust washer, bearings, thrust washers, snap rings, 2nd brake drum/gasket, rear planetary ring gear, piston return spring, flange, plate/disc (A241E), parking lock pawl, lock pawl shaft, manual valve shaft/oil seal, manual valve lever, retaining spring, differential drive pinion and output flange, outer races, UD one-way clutch, needle bearing, return spring, O-ring — see page images p.569–570, source pages AT-51/AT-52.)*
 
+<a id="p571"></a>
 ### Separate Basic Subassembly
 
 1. **REMOVE THE TWO OIL COOLER PIPES**
@@ -1071,6 +1108,7 @@ Diagram legend: `kg-cm (ft-lb, N·m)` = specified torque; `+` = non-reusable par
     1. Remove the bearing stopper.
     2. Using SST, remove the bearing. — **SST 09308-00010**
 
+<a id="p588"></a>
 ## Component Group Disassembly, Inspection and Assembly
 
 The instructions here are organized so that you work on only one component group at a time. This will help avoid confusion of similar-looking parts from different subassemblies being on your workbench at the same time. As much as possible, complete the inspection, repair and assembly before proceeding to the next component group. If a component group cannot be assembled because parts are being ordered, be sure to keep all parts of that group in a separate container while proceeding with disassembly, inspection, repair and assembly of other component groups. The component groups are inspected and repaired from the converter housing side.
@@ -1095,6 +1133,7 @@ The instructions here are organized so that you work on only one component group
 > 5. Check thrust bearings and races for wear or damage. Replace if necessary.
 > 6. Use petroleum jelly to keep parts in place.
 
+<a id="p589"></a>
 ### Oil Pump
 
 *(Figure: Oil pump exploded view — pump body, driven gear, drive gear, O-ring, oil seal ring — see page image p.585, source page AT-71. Legend: `+` = non-reusable part.)*
@@ -1142,6 +1181,7 @@ The instructions here are organized so that you work on only one component group
 7. **INSTALL NEW O-RING**
 8. **INSTALL RACE ONTO STATOR SHAFT**
 
+<a id="p592"></a>
 ### Direct Clutch
 
 *(Figure: Direct clutch exploded view — direct clutch drum, O-ring, piston, piston return spring, snap ring, flange, disc, snap ring — see page image p.592, source page AT-74. Legend: `+` = non-reusable part.)*

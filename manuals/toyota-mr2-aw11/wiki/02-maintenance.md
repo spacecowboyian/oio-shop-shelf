@@ -15,6 +15,7 @@ Contents:
 
 ---
 
+<a id="p13"></a>
 ## Maintenance Schedule
 
 **Maintenance operations legend:**
@@ -30,6 +31,7 @@ In the schedules below, the interval column headers give **miles × 1,000 / km �
 (service is due at whichever comes first). The final column gives the operation item number,
 which corresponds to the numbered procedures in [Maintenance Operations](#maintenance-operations).
 
+<a id="p13"></a>
 ### Normal Condition Schedule
 
 | System | Maintenance item | 10 / 16 / 12 | 20 / 32 / 24 | 30 / 48 / 36 | 40 / 64 / 48 | 50 / 80 / 60 | 60 / 96 / 72 | Item |
@@ -63,6 +65,7 @@ which corresponds to the numbered procedures in [Maintenance Operations](#mainte
 3. After 60,000 miles (96,000 km) or 72 months, adjust every 30,000 miles (48,000 km) or 36 months.
 4. Inspect the steering gear housing for oil leakage only.
 
+<a id="p14"></a>
 ### Severe Condition Schedule
 
 Follow the severe condition schedule if the vehicle is operated mainly under one or more of
@@ -112,8 +115,10 @@ the following severe conditions:
 
 ---
 
+<a id="p15"></a>
 ## Maintenance Operations
 
+<a id="p15"></a>
 ### Engine — Cold Engine Operations
 
 #### 1. Replace timing belt
@@ -257,6 +262,7 @@ Visually inspect the pipes, hangers and connections for severe corrosion, leaks 
    | Exhaust | 0.20 – 0.30 mm (0.008 – 0.012 in.) |
 3. Reinstall the valve covers.
 
+<a id="p18"></a>
 ### Engine — Hot Engine Operations
 
 #### 14. Adjust idle speed (4A-GE engine only)
@@ -281,6 +287,7 @@ Visually inspect the pipes, hangers and connections for severe corrosion, leaks 
 
 > **NOTE:** Make adjustments with the engine cooling fan off.
 
+<a id="p19"></a>
 ### Brakes
 
 #### 15. Inspect brake line pipes and hoses
@@ -334,6 +341,7 @@ Visually inspect the pipes, hangers and connections for severe corrosion, leaks 
    | Front | 0.13 mm (0.0051 in.) |
    | Rear | 0.15 mm (0.0059 in.) |
 
+<a id="p19"></a>
 ### Chassis
 
 #### 17. Inspect steering linkage
@@ -427,6 +435,7 @@ Tighten the following parts:
 
 ---
 
+<a id="p23"></a>
 ## General Maintenance
 
 These are the maintenance and inspection items which are considered to be the owner's
@@ -435,6 +444,7 @@ These items include those which should be checked on a daily basis, those which,
 do not require (special) tools, and those which are considered to be reasonable for the owner
 to perform. Items and procedures for general maintenance are as follows.
 
+<a id="p23"></a>
 ### Outside Vehicle
 
 1. **Tires**
@@ -450,6 +460,7 @@ to perform. Items and procedures for general maintenance are as follows.
    - Check that all doors and hoods including the trunk lid operate smoothly, and that all latches lock securely.
    - Check that the front hood secondary latch secures the hood from opening when the primary latch is released.
 
+<a id="p23"></a>
 ### Inside Vehicle
 
 7. **Lights** — Check that the headlights, stop lights, taillights, turn signal lights, and other lights are all working.
@@ -482,6 +493,7 @@ to perform. Items and procedures for general maintenance are as follows.
     - Check that the lever has the proper travel.
     - On a safe incline, check that vehicle is held securely with only the parking brake applied.
 
+<a id="p24"></a>
 ### Under Hood (Front)
 
 23. **Windshield washer fluid** — Check that there is sufficient fluid in the tank.
@@ -492,6 +504,7 @@ to perform. Items and procedures for general maintenance are as follows.
     - Check that the brake fluid level is near the upper level line on the see-through reservoir.
     - Check that the clutch fluid level is within ± 5 mm (0.20 in.) of the reservoir hem.
 
+<a id="p24"></a>
 ### Under Hood (Rear)
 
 26. **Engine coolant level** — Check that the coolant level is between the "FULL" and "LOW" lines on the see-through reservoir.

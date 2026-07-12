@@ -11,6 +11,7 @@ engine.
 > Torque is printed as **kg-cm (ft-lb, N·m)**. All three figures are transcribed exactly
 > as printed; they are not converted or recomputed.
 
+<a id="p732"></a>
 ## In this chapter
 
 - [Precautions](#precautions)
@@ -24,6 +25,7 @@ engine.
 
 ---
 
+<a id="p733"></a>
 ## Precautions
 
 1. Care must be taken to replace each part properly as it could affect the performance of
@@ -33,6 +35,7 @@ engine.
 
 ---
 
+<a id="p733"></a>
 ## Troubleshooting
 
 The "Page" column gives the manual's own cross-reference to the relevant procedure (front
@@ -106,8 +109,10 @@ brake procedures are at BR-18, rear at BR-26, etc.).
 
 ---
 
+<a id="p736"></a>
 ## Checks and Adjustments
 
+<a id="p736"></a>
 ### Check and Adjustment of Brake Pedal
 
 1. **Check that pedal height is correct, as shown.**
@@ -160,6 +165,7 @@ brake procedures are at BR-18, rear at BR-26, etc.).
 
    If incorrect, troubleshoot the brake system.
 
+<a id="p737"></a>
 ### Operational Test of Brake Booster
 
 > **NOTE:** If available, use a brake booster tester to check the booster operating
@@ -178,6 +184,7 @@ brake procedures are at BR-18, rear at BR-26, etc.).
       depressed. If there is no change in pedal reserve travel after holding the pedal for
       thirty seconds, the booster is air tight.
 
+<a id="p737"></a>
 ### Bleeding of Brake System
 
 > **NOTE:** If any work is done on the brake system or if air is suspected in the brake
@@ -207,6 +214,7 @@ brake procedures are at BR-18, rear at BR-26, etc.).
    Bleeder plug tightening torque: **85 kg-cm (74 in.-lb, 8.3 N·m)**
 4. **Repeat procedure for each wheel.**
 
+<a id="p738"></a>
 ### Check and Adjustment of Parking Brake
 
 1. **Check that parking brake lever travel is correct.**
@@ -235,8 +243,10 @@ brake procedures are at BR-18, rear at BR-26, etc.).
 
 ---
 
+<a id="p739"></a>
 ## Master Cylinder
 
+<a id="p739"></a>
 ### Component torques
 
 Specified torques called out on the master cylinder component diagrams (BR-8 removal,
@@ -254,6 +264,7 @@ BR-10 disassembly):
 Non-reusable parts: reservoir union gaskets, reservoir set-bolt gasket, stopper-bolt
 gasket, reservoir gasket.)*
 
+<a id="p739"></a>
 ### Removal of Master Cylinder
 
 1. **Remove luggage compartment trim cover.**
@@ -269,6 +280,7 @@ gasket, reservoir gasket.)*
    1. Remove the four nuts and check valve bracket.
    2. Remove the master cylinder from the brake booster.
 
+<a id="p741"></a>
 ### Disassembly of Master Cylinder
 
 1. **Place cylinder in vise.**
@@ -286,6 +298,7 @@ gasket, reservoir gasket.)*
    2. Remove the two pistons and springs from the master cylinder. If necessary, inject
       compressed air into the outlet hole to force out the piston.
 
+<a id="p742"></a>
 ### Inspection of Master Cylinder
 
 > **NOTE:** Clean the disassembled parts with compressed air.
@@ -294,6 +307,7 @@ gasket, reservoir gasket.)*
 2. **Inspect cylinder for wear or damage.**
    If necessary, clean or replace the cylinder.
 
+<a id="p743"></a>
 ### Assembly of Master Cylinder
 
 1. **Apply lithium soap base glycol grease to rubber parts of piston.**
@@ -316,6 +330,7 @@ gasket, reservoir gasket.)*
    3. Install the bolt through the new washer and torque it.
    Torque: **250 kg-cm (18 ft-lb, 25 N·m)**
 
+<a id="p745"></a>
 ### Installation of Master Cylinder
 
 1. **Clean out groove on lower installation surface of master cylinder.**
@@ -339,10 +354,12 @@ gasket, reservoir gasket.)*
 
 ---
 
+<a id="p746"></a>
 ## Brake Booster
 
 *(Figure: brake booster component diagram — see page image p.745 (BR-16).)*
 
+<a id="p746"></a>
 ### Removal of Brake Booster
 
 1. **Remove master cylinder.** (See [Master Cylinder](#removal-of-master-cylinder).)
@@ -354,6 +371,7 @@ gasket, reservoir gasket.)*
 7. **Remove brake booster.**
    Remove the four nuts, and pull out the brake booster.
 
+<a id="p747"></a>
 ### Installation of Brake Booster
 
 1. **Adjust length of booster push rod.**
@@ -387,8 +405,10 @@ gasket, reservoir gasket.)*
 
 ---
 
+<a id="p749"></a>
 ## Front Brake
 
+<a id="p749"></a>
 ### Component torques
 
 Specified torques called out on the front brake component diagram (BR-18):
@@ -405,6 +425,7 @@ Specified torques called out on the front brake component diagram (BR-18):
 gasket. Includes anti-squeal shims No. 2 and No. 3, anti-squeal springs, pad support
 plates, pad wear indicators, sliding bushings, collars, dust boots.)*
 
+<a id="p749"></a>
 ### Replacement of Brake Pads
 
 > **NOTE:** If a squealing noise occurs from the front brakes while driving, check the pad
@@ -450,6 +471,7 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
 10. **Install front wheel.**
 11. **Check that fluid level is at MAX line.**
 
+<a id="p752"></a>
 ### Removal of Cylinder
 
 1. **Disconnect brake line.**
@@ -459,6 +481,7 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
    Remove the two installation bolts and cylinder.
 3. **Remove pads.** (See step 4 under [Replacement of Brake Pads](#replacement-of-brake-pads).)
 
+<a id="p753"></a>
 ### Disassembly of Cylinder
 
 1. **Remove following parts.**
@@ -475,6 +498,7 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
 4. **Remove piston seal from brake cylinder.**
    Using a screwdriver, remove the piston seal.
 
+<a id="p754"></a>
 ### Inspection and Repair of Front Brake Components
 
 1. **Measure pad lining thickness.**
@@ -511,6 +535,7 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
       Torque: **900 kg-cm (65 ft-lb, 88 N·m)**
    6. If not within specification, replace the rotor disc, and repeat steps 4 and 5.
 
+<a id="p755"></a>
 ### Assembly of Cylinder
 
 1. **Apply lithium soap base glycol grease to parts indicated with arrows.**
@@ -522,6 +547,7 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
    3. Install the bushing into the boot.
    4. Ensure that the boot is secured firmly to the bushing groove.
 
+<a id="p756"></a>
 ### Installation of Cylinder
 
 1. **Install pads.** (See steps 7 and 8 under [Replacement of Brake Pads](#replacement-of-brake-pads).)
@@ -535,11 +561,13 @@ plates, pad wear indicators, sliding bushings, collars, dust boots.)*
 
 ---
 
+<a id="p757"></a>
 ## Rear Brake
 
 The rear caliper integrates the parking brake mechanism (crank, strut, and self-adjusting
 adjusting bolt).
 
+<a id="p757"></a>
 ### Component torques
 
 Specified torques called out on the rear brake component diagram (BR-26):
@@ -557,6 +585,7 @@ gasket, O-ring. Includes main pin boot, parking brake crank/boot, torsion spring
 pin, adjusting bolt with spring plate and spring retainer, pad guide plates, anti-rattle
 springs, anti-squeal shim, pad support plate.)*
 
+<a id="p757"></a>
 ### Replacement of Brake Pads
 
 > **NOTE:** If a squealing noise occurs from the rear brakes while driving, check the pad
@@ -600,6 +629,7 @@ springs, anti-squeal shim, pad support plate.)*
 13. **Check that fluid level is at "MAX" line.**
 14. **Adjust parking brake automatic adjuster by depressing brake pedal several times.**
 
+<a id="p760"></a>
 ### Removal of Cylinder
 
 1. **Disconnect brake hose from cylinder.**
@@ -614,6 +644,7 @@ springs, anti-squeal shim, pad support plate.)*
    Remove the installation bolt, and remove the brake cylinder.
 4. **Remove pads.** (See step 5 under [Replacement of Brake Pads](#replacement-of-brake-pads).)
 
+<a id="p761"></a>
 ### Disassembly of Cylinder
 
 1. **Remove sliding bushing and boot.**
@@ -655,6 +686,7 @@ springs, anti-squeal shim, pad support plate.)*
 14. **Remove stopper pin.**
     Using a pin punch, tap out the pin.
 
+<a id="p764"></a>
 ### Inspection of Rear Brake Components
 
 1. **Measure pad lining thickness.**
@@ -682,6 +714,7 @@ springs, anti-squeal shim, pad support plate.)*
    4. Install the torque plate to the rear axle carrier.
       Torque: **600 kg-cm (43 ft-lb, 59 N·m)**
 
+<a id="p765"></a>
 ### Assembly of Cylinder
 
 1. **Apply lithium soap base glycol grease to parts indicated by arrows.**
@@ -735,6 +768,7 @@ springs, anti-squeal shim, pad support plate.)*
        > **NOTE:** Be careful that the seal does not fold under.
     2. Install the bushing into the boot, with the flange facing inside.
 
+<a id="p769"></a>
 ### Installation of Cylinder
 
 1. **Install pad support plate, anti-rattle springs and pad guide plates.**
@@ -765,8 +799,10 @@ springs, anti-squeal shim, pad support plate.)*
 
 ---
 
+<a id="p771"></a>
 ## Brake Hoses and Tubes
 
+<a id="p771"></a>
 ### Disconnect and Connect Hose and Tube
 
 1. **Disconnect hose and tube.**
@@ -781,6 +817,7 @@ springs, anti-squeal shim, pad support plate.)*
       Torque: **155 kg-cm (11 ft-lb, 15 N·m)**
    3. Install a hose clip.
 
+<a id="p771"></a>
 ### Inspection of Brake Hoses and Tubes
 
 1. **Inspect brake hoses.**

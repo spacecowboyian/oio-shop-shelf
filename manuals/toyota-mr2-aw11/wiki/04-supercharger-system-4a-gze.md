@@ -4,6 +4,7 @@
 
 Torque is given as **kg-cm (ft-lb or in.-lb, N·m)**, exactly as printed in the manual. Cross-references such as `MA-4`, `AT-8`, `SC-9` are the manual's own page codes; where they point at other chapters they are linked, otherwise they refer to a section within this chapter.
 
+<a id="p156"></a>
 ## In this chapter
 
 - [Troubleshooting](#troubleshooting)
@@ -12,6 +13,7 @@ Torque is given as **kg-cm (ft-lb or in.-lb, N·m)**, exactly as printed in the 
 
 ---
 
+<a id="p157"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -35,8 +37,10 @@ Torque is given as **kg-cm (ft-lb or in.-lb, N·m)**, exactly as printed in the 
 
 ---
 
+<a id="p158"></a>
 ## Supercharger
 
+<a id="p158"></a>
 ### On-Vehicle Inspection of Supercharger
 
 #### 1. Check supercharger oil level
@@ -94,6 +98,7 @@ See page AT-8 (Automatic Transmission chapter).
 
 If the pressure is less than that specified, inspect the supercharger assembly. If the pressure is above specification, inspect the ABV system.
 
+<a id="p160"></a>
 ### Removal of Supercharger
 
 *(Figure: exploded component layout — reservoir tank, throttle body with air intake connector / No. 1 air inlet duct / No. 1 air outlet duct, VSV, vacuum hose (for booster), intercooler, air control valve, +gasket, supercharger, drive belt. "+" marks non-reusable parts — see page image p.160 / SC-5.)*
@@ -132,6 +137,7 @@ If the pressure is less than that specified, inspect the supercharger assembly. 
     6. As shown in the illustration, rotate the supercharger assembly so that the clutch hub is uppermost, then lift it upwards.
        > **CAUTION:** The vehicle body is easily scratched, so use a cloth or rag to protect it.
 
+<a id="p164"></a>
 ### Disassembly of Supercharger
 
 *(Figure: exploded component layout — housing, dipstick, rear cover, rear plate (+gasket), magnet plug, front cover (+gasket), No. 2 air inlet duct, clutch hub, ring nut, clutch pulley, snap ring, clutch stator, clutch flange. "+" marks non-reusable parts — see page image p.164 / SC-9.)*
@@ -161,6 +167,7 @@ If the pressure is less than that specified, inspect the supercharger assembly. 
 10. If necessary, remove elbows.
 11. If necessary, remove union.
 
+<a id="p167"></a>
 ### Inspection of Supercharger Components
 
 1. **Inspect housing.** Check that there is no damage on the inside surface of the housing.
@@ -169,6 +176,7 @@ If the pressure is less than that specified, inspect the supercharger assembly. 
    2. Check that there is no looseness in the rotor and shaft and that the rotor rotate smoothly.
 3. **Inspect bearings.** Check that the bearing is not rough or worn.
 
+<a id="p167"></a>
 ### Inspection of Air By-Pass Valve (ABV) and Air Control Valve (ACV) System
 
 #### 1. Inspect air by-pass valve (ABV)
@@ -199,6 +207,7 @@ If a problem is found, replace the VSV.
 
 If a problem is found, replace the ACV.
 
+<a id="p168"></a>
 ### Installation of Supercharger (bench reassembly)
 
 *Reassembly of the supercharger unit itself. See [Disassembly of Supercharger](#disassembly-of-supercharger) (SC-9) for the component layout.*
@@ -323,6 +332,7 @@ Install a new gasket and No. 2 air inlet duct with the three bolts and two nuts.
 
    **Oil capacity:** 130 cc (7.9 cu in.)
 
+<a id="p172"></a>
 ### Installation of Supercharger (on vehicle)
 
 *Installing the reassembled supercharger unit back on the vehicle. See [Removal of Supercharger](#removal-of-supercharger) (SC-5) for the component layout.*
@@ -400,8 +410,10 @@ Install the intercooler with four bolts and two clamps.
 
 ---
 
+<a id="p174"></a>
 ## Supercharger Relay
 
+<a id="p174"></a>
 ### Inspection of Supercharger Relay
 
 **Location:** Inside of the luggage compartment trim.

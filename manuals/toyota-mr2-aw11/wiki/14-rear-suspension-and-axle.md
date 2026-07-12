@@ -4,6 +4,7 @@
 
 Torque is printed in this manual as **kg-cm (ft-lb, N·m)**. In exploded-view diagrams the boxed value `kg-cm (ft-lb, N·m)` marks a specified torque, and `+` marks a non-reusable part.
 
+<a id="p692"></a>
 ## In this chapter
 
 - [Troubleshooting](#troubleshooting)
@@ -19,6 +20,7 @@ Torque is printed in this manual as **kg-cm (ft-lb, N·m)**. In exploded-view di
 
 ---
 
+<a id="p693"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | See |
@@ -45,8 +47,10 @@ Torque is printed in this manual as **kg-cm (ft-lb, N·m)**. In exploded-view di
 
 ---
 
+<a id="p694"></a>
 ## Rear Wheel Alignment
 
+<a id="p694"></a>
 ### 1. Make Following Checks and Correct Any Problems
 
 - (a) Check the tires for wear, size and proper inflation. (See [Front Suspension and Axle](13-front-suspension-and-axle.md), page FA-3)
@@ -56,6 +60,7 @@ Torque is printed in this manual as **kg-cm (ft-lb, N·m)**. In exploded-view di
 - (d) Check the rear suspension for looseness.
 - (e) Check that the rear absorbers work properly by using the standard bounce test.
 
+<a id="p694"></a>
 ### 2. Measure Chassis Ground Clearance
 
 See [Front Suspension and Axle](13-front-suspension-and-axle.md), page FA-3.
@@ -64,6 +69,7 @@ If the clearance of the vehicle is not as specified, try to level the vehicle by
 
 > **NOTE:** Before inspecting wheel alignment, adjust chassis ground clearance to spec.
 
+<a id="p694"></a>
 ### 3. Inspect Camber
 
 - (a) Rock the vehicle up and down to stabilize the suspension.
@@ -82,6 +88,7 @@ If not within specification, inspect and replace any damaged or worn rear suspen
 
 > **NOTE:** After replacing damaged or worn suspension parts, inspect the camber. If camber is still not within standard, adjust the camber.
 
+<a id="p695"></a>
 ### 4. Adjust Camber
 
 - (a) Loosen the shock absorber set nut.
@@ -99,6 +106,7 @@ Camber:
 - (c) Torque the shock absorber set nut.
   - Torque: **2,300 kg-cm (166 ft-lb, 226 N·m)**
 
+<a id="p695"></a>
 ### 5. Inspect Toe-in
 
 Adjust toe-in with a toe-in gauge in the following procedure.
@@ -117,6 +125,7 @@ If not within specification, inspect and replace any damaged or worn rear suspen
 
 > **NOTE:** After replacing damaged or worn suspension parts, measure the toe-in following (b), (c), (d) and (e) above. If toe-in is still not within standard, adjust the toe-in.
 
+<a id="p696"></a>
 ### 6. Adjust Toe-in
 
 - (a) Measure the lengths of the left and right suspension arms to see if the lengths are equal. If not equal, adjust following the procedures below.
@@ -132,8 +141,10 @@ If not within specification, inspect and replace any damaged or worn rear suspen
 
 ---
 
+<a id="p697"></a>
 ## Rear Axle Hub and Carrier
 
+<a id="p697"></a>
 ### Components
 
 *(Figure: Rear axle hub and carrier exploded view — see page image RA-6. Components: camber adjusting cam, rear axle carrier, disc brake dust cover, dust deflector, +oil seal (inner & outer), bearing, bearing inner race, snap ring, axle hub, hub bolt, rotor disc.)*
@@ -153,6 +164,7 @@ Specified torques from the components diagram:
 <!-- NEEDS REVIEW: OCR read the dust-cover-bolt torque as "ss 174 in.-lb. 8.31"; page image (RA-6) clearly shows "85 (74 in.-lb, 8.3)" — corrected from image. -->
 <!-- NEEDS REVIEW: the "1,050 kg-cm (76 ft-lb, 103 N·m)" callout value is legible on the RA-6 diagram, but its leader line points to a fastener near the rotor disc/axle hub that is not tied to a named step in the procedure text; exact fastener identity uncertain. -->
 
+<a id="p698"></a>
 ### Removal of Rear Axle Hub and Carrier
 
 1. **Remove cotter pin, bearing lock nut cap and bearing lock nut**
@@ -174,6 +186,7 @@ Specified torques from the components diagram:
    - (c) Remove the rear axle carrier and axle hub.
    - > **CAUTION:** Cover the drive shaft boot with cloth to protect it from damage.
 
+<a id="p699"></a>
 ### Disassembly of Rear Axle Hub and Carrier
 
 1. **Remove dust deflector**
@@ -197,6 +210,7 @@ Specified torques from the components diagram:
    - (b) Using a press, press out the bearing.
    - > **CAUTION:** Always replace the bearing as an assembly.
 
+<a id="p701"></a>
 ### Assembly of Rear Axle Hub and Carrier
 
 1. **Install hub bearing** — Using SST and a press, press a new bearing into the rear axle carrier.
@@ -223,6 +237,7 @@ Specified torques from the components diagram:
 7. **Install dust deflector** — Using SST, drive the dust deflector to the rear axle carrier.
    - SST 09608-35014 (09608-06020, 09608-06180)
 
+<a id="p702"></a>
 ### Installation of Rear Axle Hub and Carrier
 
 1. **Install rear axle carrier with axle hub**
@@ -249,6 +264,7 @@ Specified torques from the components diagram:
    - (c) Install the lock nut cap and a new cotter pin.
 8. **Inspect rear wheel alignment** — See [Rear Wheel Alignment](#rear-wheel-alignment).
 
+<a id="p704"></a>
 ### Replacement of Rear Axle Hub Bolt
 
 1. **Disconnect parking brake cable**
@@ -266,8 +282,10 @@ Specified torques from the components diagram:
 
 ---
 
+<a id="p705"></a>
 ## Rear Drive Shaft
 
+<a id="p705"></a>
 ### Components
 
 *(Figure: Rear drive shaft exploded views for 4A-GE and 4A-GZE — see page image RA-14. Components include drive shaft, side gear shaft, +boot clamp, boot, drive shaft damper, +oil seals, +snap rings, tripod joint / inboard joint tulip (4A-GE), and inboard joint with outer race/cage/inner race/ball plus +inboard joint cover and +joint end cover gasket (4A-GZE).)*
@@ -284,6 +302,7 @@ Specified torques from the components diagram:
 > **CAUTION:** The hub bearing could be damaged if it is subjected to the vehicle weight, such as when moving the vehicle with the drive shaft removed. Therefore, if it is absolutely necessary to place the vehicle weight on the hub bearing, first support it with SST.
 > SST 09608-16041 (09608-02020, 09608-02040)
 
+<a id="p706"></a>
 ### Removal of Rear Drive Shaft
 
 1. **Remove cotter pin, bearing lock nut cap and bearing lock nut**
@@ -334,8 +353,10 @@ Side gear shaft oil seal installation SST, by driveline:
 
 <!-- NEEDS REVIEW: OCR rendered several of these SST numbers with spurious spaces (e.g. "0931 6-6001 0", "09350-32013"); the digit strings above match the OCR with the spaces removed, but the small-print SST part numbers on RA-17/RA-18 were not individually re-read against the page images — verify against RA-17/RA-18 if exact SST numbers are critical. -->
 
+<a id="p710"></a>
 ### Disassembly of Rear Drive Shaft
 
+<a id="p710"></a>
 #### 4A-GE
 
 1. **Check drive shaft**
@@ -358,6 +379,7 @@ Side gear shaft oil seal installation SST, by driveline:
    - (c) Remove the boot of the outboard joint.
    - (d) Check the inside and outside of the boots for damage.
 
+<a id="p711"></a>
 #### 4A-GZE
 
 1. **Check drive shaft**
@@ -389,8 +411,10 @@ Side gear shaft oil seal installation SST, by driveline:
    - (c) Remove the boot of the outboard joint.
    - (d) Check the inside and outside of the boots for damage.
 
+<a id="p713"></a>
 ### Assembly of Rear Drive Shaft
 
+<a id="p713"></a>
 #### 4A-GE
 
 1. **Temporarily install boots and new boot clamps**
@@ -428,6 +452,7 @@ Side gear shaft oil seal installation SST, by driveline:
    | RH | M/T | 679.9 – 689.9 mm (26.77 – 27.16 in.) |
    | RH | A/T | 681.8 – 691.8 mm (26.84 – 27.24 in.) |
 
+<a id="p715"></a>
 #### 4A-GZE
 
 1. **Temporarily install boots and new boot clamps**
@@ -475,6 +500,7 @@ Side gear shaft oil seal installation SST, by driveline:
    - (b) Check to see that the inboard joint slides smoothly in the thrust direction.
    - (c) Check to see that there is no play in the radial direction of the inboard joint.
 
+<a id="p718"></a>
 ### Installation of Rear Drive Shaft
 
 1. **Install side gear shaft**
@@ -527,8 +553,10 @@ Side gear shaft oil seal installation SST, by driveline:
 
 ---
 
+<a id="p721"></a>
 ## Rear Suspension
 
+<a id="p721"></a>
 ### Components
 
 *(Figure: Rear suspension exploded view — see page image RA-30. Components: shock absorber with coil spring, +suspension support (support cover, collar, bumper, insulator), suspension arm, tie rod tube, tie rod end, lower arm, ball joint (retainer, cushion, collar), strut rod.)*
@@ -551,8 +579,10 @@ Specified torques from the components diagram:
 
 <!-- NEEDS REVIEW: the "195 kg-cm (14 ft-lb, 19 N·m)" tie-rod-tube-clamp torque appears only in the RA-30 components diagram (value legible) and is not restated in any procedure step; leader points to the tie rod tube clamp. -->
 
+<a id="p722"></a>
 ### Rear Shock Absorber
 
+<a id="p722"></a>
 #### Removal of Rear Shock Absorber
 
 1. **Disconnect brake hose**
@@ -568,6 +598,7 @@ Specified torques from the components diagram:
    - (b) Remove the shock absorber.
    - > **CAUTION:** Cover the drive shaft boot with cloth to avoid damaging it.
 
+<a id="p722"></a>
 #### Disassembly of Rear Shock Absorber
 
 1. **Clamp shock absorber in vise** — Install a bolt and two nuts to the bracket at the lower portion of the shock absorber shell and secure it in a vise.
@@ -585,6 +616,7 @@ Specified torques from the components diagram:
    - > **CAUTION:** Before discarding the shock absorber, first loosen the ring nut 2 or 3 turns with SST to completely release the gas.
    - SST 09720-00011 (09721-00071)
 
+<a id="p723"></a>
 #### Assembly of Rear Shock Absorber
 
 1. **Install coil spring**
@@ -602,6 +634,7 @@ Specified torques from the components diagram:
      - Torque: **740 kg-cm (54 ft-lb, 73 N·m)**
    - (j) Install the suspension support cover.
 
+<a id="p724"></a>
 #### Installation of Rear Shock Absorber
 
 1. **Install shock absorber** — Install the three nuts holding the shock absorber to the body. Torque the nuts.
@@ -621,8 +654,10 @@ Specified torques from the components diagram:
 5. **Bleed brake line** — See [Brake System](15-brake-system.md), page BR-6.
 6. **Inspect rear wheel alignment** — See [Rear Wheel Alignment](#rear-wheel-alignment).
 
+<a id="p726"></a>
 ### Ball Joint
 
+<a id="p726"></a>
 #### Inspection and Removal of Ball Joint
 
 1. **Inspect ball joint for excessive looseness**
@@ -642,6 +677,7 @@ Specified torques from the components diagram:
    - Torque (turning): **10 – 30 kg-cm (9 – 26 in.-lb, 1.0 – 2.9 N·m)**
    - If not within specification, replace the ball joint.
 
+<a id="p727"></a>
 #### Installation of Ball Joint
 
 1. **Install ball joint to rear axle carrier**
@@ -653,8 +689,10 @@ Specified torques from the components diagram:
    - (c) Install a new cotter pin.
    - > **NOTE:** If the cotter pin hole does not line up, correct by tightening the nut by the smallest amount possible.
 
+<a id="p727"></a>
 ### Lower Arm
 
+<a id="p727"></a>
 #### Removal of Lower Arm
 
 1. **Disconnect lower arm from ball joint**
@@ -666,6 +704,7 @@ Specified torques from the components diagram:
    - (a) Remove the bolt holding the lower arm to the body, and remove the cushion and lower arm from the strut rod.
    - (b) Remove the cushion, collar and retainer from the strut rod.
 
+<a id="p728"></a>
 #### Installation of Lower Arm
 
 1. **Install lower arm**
@@ -687,8 +726,10 @@ Specified torques from the components diagram:
    - Torque: **1,300 kg-cm (94 ft-lb, 127 N·m)**
 5. **Inspect rear wheel alignment** — See [Rear Wheel Alignment](#rear-wheel-alignment).
 
+<a id="p729"></a>
 ### Strut Rod
 
+<a id="p729"></a>
 #### Removal of Strut Rod
 
 1. **Remove strut rod nut and retainer**
@@ -696,6 +737,7 @@ Specified torques from the components diagram:
    - (a) Remove the bolt and nut holding the strut rod with the body, and remove the cushion and strut rod from the lower arm.
    - (b) Remove the cushion, collar and retainer from the strut rod.
 
+<a id="p729"></a>
 #### Installation of Strut Rod
 
 1. **Install strut rod**
@@ -710,8 +752,10 @@ Specified torques from the components diagram:
    | Lower arm side | 1,190 kg-cm (86 ft-lb, 117 N·m) |
    | Body side | 1,150 kg-cm (83 ft-lb, 113 N·m) |
 
+<a id="p730"></a>
 ### Suspension Arm
 
+<a id="p730"></a>
 #### Removal of Suspension Arm
 
 1. **Disconnect suspension arm**
@@ -720,6 +764,7 @@ Specified torques from the components diagram:
      - SST 09610-20012
 2. **Remove suspension arm from body** — Remove the suspension arm holding nut from the body.
 
+<a id="p730"></a>
 #### Disassembly of Suspension Arm
 
 1. **Remove tie rod end and suspension arm from tie rod tube**
@@ -729,6 +774,7 @@ Specified torques from the components diagram:
    - Torque (turning): **8.5 – 35 kg-cm (7.4 – 30 in.-lb, 0.8 – 3.4 N·m)**
    - If not within specification, replace the ball joint.
 
+<a id="p731"></a>
 #### Assembly of Suspension Arm
 
 **Install tie rod end and suspension arm to tie rod tube**
@@ -738,6 +784,7 @@ Specified torques from the components diagram:
   - Length: **336 mm (13.23 in.)**
   - > **NOTE:** Fully tighten after rear wheel alignment.
 
+<a id="p731"></a>
 #### Installation of Suspension Arm
 
 1. **Install suspension arm to body** — Temporarily connect the suspension arm to the body with the bolt.
