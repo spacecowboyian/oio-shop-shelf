@@ -8,6 +8,15 @@
 slug: toyota-4a-fe-4a-ge
 title: "Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual"
 
+# Placement in the automotive taxonomy (manuals/taxonomy.yml). Keys must resolve there;
+# CI blocks unknown ones. Drives the folder home + the generated README front matter.
+taxonomy:
+  make: toyota          # -> makes.toyota
+  category: engine      # engine | vehicle ; this manual lives under manuals/toyota/engine/
+  engines:              # engine families this manual covers (keys under makes.toyota.engines)
+    - 4a-f
+    - 4a-ge
+
 source:
   type: local
   location: "Toyota-4A-F-4A-GE-engine-manual-OCR.pdf"

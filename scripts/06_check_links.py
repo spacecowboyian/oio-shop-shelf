@@ -92,8 +92,11 @@ def main() -> int:
 
     if args.all:
         root = Path(__file__).resolve().parent.parent / "manuals"
-        dirs = [d for d in sorted(root.iterdir())
-                if d.is_dir() and d.name != "_template" and (d / "wiki").is_dir()]
+        # Manuals nest as manuals/<make>/<vehicle|engine>/<unit>/ — find them by manifest.
+        dirs = sorted({
+            p.parent for p in root.glob("**/manifest.yml")
+            if "_template" not in p.relative_to(root).parts and (p.parent / "wiki").is_dir()
+        })
     else:
         dirs = [Path(d).resolve() for d in args.manual_dirs]
     if not dirs:
