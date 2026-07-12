@@ -61,7 +61,7 @@ Consequences to reconcile before committing D:
 - [x] L suspension-shock-absorbers (p333–353) — DONE. 11 diagrams, ~19 images, 3 flags.
 - [x] M bodywork (p354–436) — DONE. 13 diagrams, ~27 images, 8 flags.
 - [x] N heater (p437–449) — DONE. 10 diagrams, 13 images, 1 flag.
-- [~] P special tools (p450–479) — NEXT (catalogue → table)
+- [x] P special tools (p450–479) — DONE. ~93 tool entries as tables, ~10 images, 3 flags, 0 diagrams. ALL 14 CHAPTERS COMPLETE.
 
 ## Per-chapter cleanup subagent prompt (template)
 Spawn a `general-purpose` subagent PER chapter (serial). Prompt skeleton (fill <LETTER>/<title>/
