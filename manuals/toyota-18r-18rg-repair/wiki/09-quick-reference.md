@@ -73,12 +73,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 20 | °C | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 5 Battery Specific gravity 1.25–1.27 at 20 °C (68 °F) |
 | 68 | °F | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 5 Battery Specific gravity 1.25–1.27 at 20 °C (68 °F) |
 | 0.7–0.8 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Plug gap 0.7–0.8 mm · 0.028–0.031 in |
-| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
-| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
-| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- RESOLVED: image-verified from p.31 a |
+| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- NEEDS REVIEW: genuine manual-interna |
+| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- NEEDS REVIEW: genuine manual-interna |
+| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- NEEDS REVIEW: genuine manual-interna |
+| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 7 High Tension Cord Resistance 10–50 kΩ/Meter &lt;!-- NEEDS REVIEW: genuine manual-interna |
 | 0.45 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Point gap 0.45 mm |
 | 0.5–1.0 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 9 No.2 Chain Tensioner Back stroke 0.5–1.0 mm at 3–5 kg |
 | 0.24–0.34 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | 11 Valve Clearance (COLD) Intake 0.24–0.34 mm · 0.009–0.013 in |
@@ -102,12 +100,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 20 | °C | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Specific gravity: **1.25–1.27** at 20 °C (68 °F) |
 | 68 | °F | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Specific gravity: **1.25–1.27** at 20 °C (68 °F) |
 | 0.7–0.8 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Plug gap: **0.7–0.8 mm (0.028–0.031 in)** |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
-| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
-| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
-| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- RESOLVED: image-verified from p.37 as "Less  |
+| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- NEEDS REVIEW: genuine manual-internal contra |
+| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- NEEDS REVIEW: genuine manual-internal contra |
+| 10–50 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- NEEDS REVIEW: genuine manual-internal contra |
+| 25 | kΩ | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Resistance: **Less than 25 kΩ/Meter** &lt;!-- NEEDS REVIEW: genuine manual-internal contra |
 | 0.45 | mm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Point gap: **0.45 mm (0.018 in)** |
 | 2000 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Variation within 3° (at idling to 2000 rpm) |
 | 1000 | rpm | [03-18r-g-engine-tune-up.md](03-18r-g-engine-tune-up.md) | Ignition timing: **12° BTDC / 1000 rpm** |

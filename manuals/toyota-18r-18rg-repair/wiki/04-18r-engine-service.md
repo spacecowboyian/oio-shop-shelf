@@ -108,7 +108,7 @@ Disassemble in numerical order (Fig. 4-3):
 <a id="p65"></a>
 **[PDF p.65]** — CYLINDER HEAD — Disassembly (cont.) · printed page 4-7
 
-1. Compress the valve spring with **SST [09202-43013]** (Fig. 4-12). <!-- RESOLVED: OCR read "09202-43012"; page image shows "09202-43013" — corrected from image. Note the assembly page 4-18 (Fig. 4-53) calls the same operation "SST [09202-43012]"; both preserved as each page prints them. — ANSWER: the ch.12 SST master list ([PDF p.313], item 3) gives the Valve Spring Compressor as 09202-43013. So 09202-43013 is correct; the assembly page 4-18's "09202-43012" is a manual typo. -->
+1. Compress the valve spring with **SST [09202-43013]** (Fig. 4-12). <!-- RESOLVED: OCR read "09202-43012"; page image shows "09202-43013" — corrected from image. Note the assembly page 4-18 (Fig. 4-53) calls the same operation "SST [09202-43012]"; both preserved as each page prints them. — ANSWER: the ch.12 SST master-list image (12-2, PDF p.314, item 3) prints the Valve Spring Compressor as 09202-43013. So 09202-43013 is correct; the assembly page 4-18's "09202-43012" is a manual typo. -->
 2. Arrange the disassembled parts in order (Fig. 4-13).
 
 ---

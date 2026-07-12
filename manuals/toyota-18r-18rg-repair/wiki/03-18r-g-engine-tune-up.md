@@ -96,7 +96,7 @@
 | | | Electrolyte level | — |
 | 6 | Spark Plug | Visual check · Cleaning | — |
 | | | Plug gap | 0.7–0.8 mm · 0.028–0.031 in |
-| 7 | High Tension Cord | Resistance | 10–50 kΩ/Meter <!-- RESOLVED: image-verified from p.31 as "10–50 kΩ/Meter", but the detail page [PDF p.37 / printed 3-8] states "Less than 25 kΩ/Meter". Both transcribed faithfully; this is a manual-internal discrepancy, not an OCR error. — ANSWER (needs confirm): not truly contradictory — "10–50 kΩ/Meter" is the resistive (TVRS) cord's nominal resistance-per-metre band, while "Less than 25 kΩ/Meter" (detail 3-8) is the in-service inspection limit. Go/no-go: replace any cord reading ≥ 25 kΩ/Meter. --> |
+| 7 | High Tension Cord | Resistance | 10–50 kΩ/Meter <!-- NEEDS REVIEW: genuine manual-internal contradiction, both values image-verified — this tune-up summary table (p.31) prints "10–50 kΩ/Meter"; the detail procedure (printed 3-8, PDF p.37) prints "Less than 25 kΩ/Meter". They give different pass/fail results and the manual never reconciles them. Practical guidance: the detail page is the actual ohmmeter check, so use "Less than 25 kΩ/Meter" as the service limit — but the discrepancy itself is unresolved. --> |
 | 8 | Distributor | Distributor cap | — |
 | | | Point gap | 0.45 mm |
 | | | Dwell angle | 50–54° |
@@ -155,7 +155,7 @@ thinning.
 3. Start the engine and check for oil leakage.
 4. Stop the engine and recheck the oil level.
 
-<!-- RESOLVED: the oil-filter removal SST here reads "09228-34010" on the page image, while the tune-up-item table [PDF p.31] lists the oil-filter-replacement SST as "09228-44010". Both transcribed as shown; likely a manual-internal typo, not an OCR error. — ANSWER: the ch.12 SST master list ([PDF p.313]) gives the 18R-G Oil Filter Wrench as 09228-34010 (18R: 09228-22020). So 09228-34010 is correct; the tune-up-item table's "09228-44010" is a manual typo. -->
+<!-- RESOLVED: the oil-filter removal SST here reads "09228-34010" on the page image, while the tune-up-item table [PDF p.31] lists the oil-filter-replacement SST as "09228-44010". Both transcribed as shown; likely a manual-internal typo, not an OCR error. — ANSWER: the ch.12 SST master-list image (12-2, PDF p.314, items 10–11) prints the 18R-G Oil Filter Wrench as 09228-34010 (18R: 09228-22020); "09228-44010" does not appear in the list. So 09228-34010 is correct and the tune-up-item table's "09228-44010" is a manual typo. -->
 
 ---
 <a id="p34"></a>
@@ -279,7 +279,7 @@ Plug gap: **0.7–0.8 mm (0.028–0.031 in)**
 
 Check the cord resistance with an ohmmeter.
 
-Resistance: **Less than 25 kΩ/Meter** <!-- RESOLVED: image-verified from p.37 as "Less than 25 kΩ/Meter"; the summary spec table [PDF p.31] lists "10–50 kΩ/Meter" for the same item. Manual-internal discrepancy, both transcribed faithfully. — ANSWER (needs confirm): the two describe different things — 10–50 kΩ/Meter is the cord's nominal resistance band; this "< 25 kΩ/Meter" is the service limit. Use < 25 kΩ/Meter as the replace-threshold. -->
+Resistance: **Less than 25 kΩ/Meter** <!-- NEEDS REVIEW: genuine manual-internal contradiction, both values image-verified — this detail page (printed 3-8) prints "Less than 25 kΩ/Meter"; the tune-up summary table (PDF p.31) prints "10–50 kΩ/Meter". Unreconciled in the manual; use this page's ohmmeter check (< 25 kΩ/Meter) in practice. -->
 
 ---
 <a id="p38"></a>
