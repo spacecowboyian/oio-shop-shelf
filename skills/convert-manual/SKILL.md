@@ -152,7 +152,7 @@ manuals start from the generated ones.)
 ## 5b. Generate the README front matter
 
 ```
-python scripts/09_write_frontmatter.py manuals/<slug>/
+python scripts/10_write_frontmatter.py manuals/<slug>/
 ```
 
 Writes the taxonomy front matter (make/models/chassis/engines/years) to the top of the

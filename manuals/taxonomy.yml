@@ -7,7 +7,7 @@
 #   drift apart across contributions. Each manifest.yml declares a `taxonomy:` block whose
 #   make / models / chassis / engines MUST resolve to keys defined here — CI enforces it
 #   (scripts/validate_manifests.py). The per-manual README front matter is generated from the
-#   resolved names (scripts/09_write_frontmatter.py) so an agent can grep one manual straight
+#   resolved names (scripts/10_write_frontmatter.py) so an agent can grep one manual straight
 #   to the right car.
 #
 # SOURCE / PROVENANCE
@@ -40,9 +40,10 @@ makes:
   toyota:
     name: Toyota
     vpic_make_id: 448
-    # models: none yet on main. A vehicle (whole-chassis) manual adds its model here —
-    # see the MR2 (AW11) example in taxonomy.md and manuals/_template/manifest.yml.
-    models: {}
+    models:
+      mr2:
+        name: MR2
+        chassis: [AW11]        # 1st-gen (1984-1989); 4A-GE / supercharged 4A-GZE
     engines:
       4a-f:
         name: 4A-F
@@ -53,3 +54,15 @@ makes:
       4a-ge:
         name: 4A-GE
         family: A
+      4a-gze:
+        name: 4A-GZE          # supercharged 4A (AW11 SC)
+        family: A
+      18r:
+        name: 18R
+        family: R
+      18r-c:
+        name: 18R-C
+        family: R
+      18r-g:
+        name: 18R-G
+        family: R

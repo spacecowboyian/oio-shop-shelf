@@ -1,5 +1,5 @@
 ---
-# AUTO-GENERATED — taxonomy front matter (scripts/09_write_frontmatter.py); do not edit
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
 slug: "toyota-4a-fe-repair"
 title: "Toyota 4A-FE Engine Repair Manual (Sep. 1989)"
 make: "Toyota"

@@ -46,12 +46,12 @@ the folder name.
 ## 2. Front-matter tags — many keys per manual
 
 Each manual's `README.md` opens with a YAML front-matter block. **It is generated — never
-hand-edit it.** `scripts/09_write_frontmatter.py` builds it from the manifest's `taxonomy:`
+hand-edit it.** `scripts/10_write_frontmatter.py` builds it from the manifest's `taxonomy:`
 block, resolving keys to their canonical names in `taxonomy.yml`:
 
 ```yaml
 ---
-# AUTO-GENERATED — taxonomy front matter (scripts/09_write_frontmatter.py); do not edit
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
 slug: "toyota-mr2-aw11"
 title: "Toyota MR2 (AW11) 1988 Service Manual"
 make: "Toyota"
@@ -139,7 +139,7 @@ Copy `_template/` to `manuals/<make>/<category>/<unit>/`, then:
 
 ```
 python scripts/validate_manifests.py                       # registry must resolve (CI gate)
-python scripts/09_write_frontmatter.py manuals/<make>/<category>/<unit>/
+python scripts/10_write_frontmatter.py manuals/<make>/<category>/<unit>/
 ```
 
 The generator writes the README front matter. Never edit that block by hand — change the

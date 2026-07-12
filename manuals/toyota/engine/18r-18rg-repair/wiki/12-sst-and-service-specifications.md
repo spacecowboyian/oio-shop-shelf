@@ -9,7 +9,7 @@
 > tables, and both engine service-specification tables are **image-verified**. A handful
 > of cells contain apparent **misprints in the original manual** (e.g. an impossible
 > unit conversion) — these are kept as printed per Rule 0 and flagged inline with
-> `NEEDS REVIEW`. See [scripts/04_cleanup_methodology.md](../../../scripts/04_cleanup_methodology.md).
+> `NEEDS REVIEW`. See [scripts/04_cleanup_methodology.md](../../../../../scripts/04_cleanup_methodology.md).
 
 ## In this chapter
 

@@ -6,7 +6,7 @@ rules (never invent/adjust a spec value, cite the source page).
 
 > **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
 > this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the
-> repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing
+> repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/` browsing
 > fails and how to navigate by raw URL.
 
 **This is a 4A-FE manual.** Toyota's cover titles it "4A-FE, 4A-GE," but the 4A-GE content

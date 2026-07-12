@@ -1,3 +1,12 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
+slug: "toyota-18r-18rg-repair"
+title: "Toyota 18R / 18R-C / 18R-G Engine Repair Manual"
+make: "Toyota"
+category: "engine"
+engines: ["18R", "18R-C", "18R-G"]
+---
+
 # Toyota 18R / 18R-C / 18R-G Engine Repair Manual — Overview
 
 *What this manual is, what it covers, and what it doesn't. Skim this first for bearings.*
