@@ -46,23 +46,27 @@ jobs:
       - name: Install Python deps (for the README front-matter refresh)
         run: pip install -r scripts/requirements.txt
 
-      - name: Move PDFs to releases, strip from tree, push
+      - name: Move PDFs + diagram images to releases, strip from tree, push
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # A manual dir needs publishing if it has a committed PDF and/or diagram images.
+          pdf_dirs="$(git ls-files '*.pdf' | xargs -r -n1 dirname)"
+          img_dirs="$(git ls-files 'manuals/**/diagrams/*' | xargs -r -n1 dirname | sed 's:/diagrams$::')"
+          dirs="$(printf '%s\n%s\n' "$pdf_dirs" "$img_dirs" | grep . | sort -u || true)"
           changed=0
-          for d in $(git ls-files '*.pdf' | xargs -r -n1 dirname | sort -u); do
+          for d in $dirs; do
             echo "::group::publish $d"
             scripts/publish-release.sh "$d"
             echo "::endgroup::"
             changed=1
           done
           if [ "$changed" = "1" ]; then
-            git commit -m "chore: move source PDF(s) to release assets"
+            git commit -m "chore: move source PDF(s) + diagram image(s) to release assets"
             git push
             echo "Pushed. Confirm no-pdf-guard is green, then squash-merge."
           else
-            echo "No tracked PDFs on this branch — nothing to do."
+            echo "No tracked PDFs or diagram images on this branch — nothing to do."
           fi
