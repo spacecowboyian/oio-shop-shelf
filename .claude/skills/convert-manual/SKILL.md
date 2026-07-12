@@ -62,8 +62,15 @@ the whole conversion. See `manuals/toyota-4a-fe-4a-ge-repair/README.md` for a wo
 Produce a clean, text-searchable working PDF before anything else:
 
 ```
+mkdir -p manuals/<slug>/                               # the dir just needs to exist
 python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 ```
+
+`01` runs **before the manifest exists on purpose** — it only needs the source PDF and
+the `manuals/<slug>/` directory. That's the right order: OCR first, then read the manual's
+own table of contents *out of* `raw-ocr/full-text.txt` when you write the chapter page
+ranges in step 3. For a non-English manual, pass `--language` (e.g. `--language eng+deu`)
+since there's no manifest yet to read it from.
 
 `01` handles two things automatically:
 - **Encryption** — scanned OEM PDFs are often owner-password/permission-encrypted
