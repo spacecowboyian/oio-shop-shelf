@@ -65,8 +65,7 @@ Full navigable contents + the per-model alphabetical index are in
 - **Not encrypted** — decrypt step was a no-op.
 - **Heavy OCR noise expected.** This is a low-resolution 1983 scan; the raw text layer is
   badly garbled (figure callouts, torque tables, and specs are the worst hit). Cleanup will
-  be substantial and every number must be cross-checked against the rendered page image —
-  see `wiki/10-needs-review.md`.
+  be substantial and every number must be cross-checked against the rendered page image.
 - **Completeness pending** — run `check_page_continuity.py`; record any genuine gaps.
 
 ## For AI assistants

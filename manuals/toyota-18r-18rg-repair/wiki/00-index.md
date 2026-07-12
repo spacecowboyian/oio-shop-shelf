@@ -21,6 +21,5 @@
 ## Reference
 
 - [Quick Reference (specs)](09-quick-reference.md)
-- [Needs Review](10-needs-review.md)
 - [Alphabetical Index](11a-alphabetical-index.md)
 
