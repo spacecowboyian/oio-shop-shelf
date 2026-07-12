@@ -29,8 +29,8 @@ usage limits — parallel fan-out worked but risks token exhaustion.
 ## Chapter status  (source-PDF page ranges from manifest.yml)
 - [x] A general (p1–15) — `wiki/a-general.md` DONE (committed). 2 diagrams registered (p13, p14).
 - [x] B engine (p16–68) — DONE. 7 diagrams (incl p49 head-bolt sequence, safety). ~30 images opened, 1 flag.
-- [~] C clutch (p69–118) — NEXT
-- [ ] D electrical & ignition (p119–185) — has wiring diagrams to deliver
+- [x] C clutch (p69–118) — DONE. 11 diagrams (Ferlec wiring + defect chart). ~40 images, 6 flags.
+- [~] D electrical & ignition (p119–185) — NEXT (wiring diagrams to deliver)
 - [ ] E gearbox (p186–247) — exploded views
 - [ ] F braking (p248–268) — safety-critical specs
 - [ ] G steering (p269–286)

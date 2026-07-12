@@ -166,3 +166,69 @@ diagrams:
     depth: gray
     caption: "SOLEX Type 30 PAIA-3 double-barrel carburettor exploded view"
     safety_relevant: false
+  - page: 72
+    file: "diagrams/p0072-conventional-clutch-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Conventional clutch cross-section showing operation (1 withdrawal fork … 10 flywheel)"
+    safety_relevant: false
+  - page: 73
+    file: "diagrams/p0073-withdrawal-fork-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Clutch withdrawal fork exploded view (1 return spring, 2 rubber washer, 3 spacer, 4 fork, 5 pad carrier)"
+    safety_relevant: false
+  - page: 75
+    file: "diagrams/p0075-ferlec-clutch-components-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Standard Ferlec clutch components exploded view and installation wiring schematic"
+    safety_relevant: false
+  - page: 80
+    file: "diagrams/p0080-ferlec-rheostat-case-schematic.webp"
+    kind: wiring
+    depth: gray
+    caption: "Standard Ferlec rheostat case internal layout and rheostat/resistance schematic (studs A–D, R1–R7)"
+    safety_relevant: false
+  - page: 85
+    file: "diagrams/p0085-ferlec-connection-diagram.webp"
+    kind: wiring
+    depth: mono
+    caption: "Standard Ferlec clutch connection diagram (two-way switch, microswitch, regulator, rheostat case terminals)"
+    safety_relevant: false
+  - page: 88
+    file: "diagrams/p0088-simplified-6v-clutch-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Simplified Ferlec 6-Volt clutch (Type 510-03) exploded view (parts 1-12) and cross-section"
+    safety_relevant: false
+  - page: 89
+    file: "diagrams/p0089-simplified-6v-circuit-schematic.webp"
+    kind: wiring
+    depth: gray
+    caption: "Simplified Ferlec 6-Volt clutch electrical circuit schematic (components 1-11)"
+    safety_relevant: false
+  - page: 104
+    file: "diagrams/p0104-simplified-12v-circuit-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "Simplified Ferlec 12-Volt clutch (Type 510-05) electrical circuit schematic (components 1-17)"
+    safety_relevant: false
+  - page: 105
+    file: "diagrams/p0105-simplified-12v-clutch-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Simplified Ferlec 12-Volt clutch exploded view (parts 1-12)"
+    safety_relevant: false
+  - page: 109
+    file: "diagrams/p0109-systematic-defect-chart-left.webp"
+    kind: chart
+    depth: mono
+    caption: "Systematic defect finding chart (12 V) — left half: symptom rows and first cause columns"
+    safety_relevant: false
+  - page: 110
+    file: "diagrams/p0110-systematic-defect-chart-right.webp"
+    kind: chart
+    depth: mono
+    caption: "Systematic defect finding chart (12 V) — right half: remaining cause columns, reference numbers and remedies"
+    safety_relevant: false
