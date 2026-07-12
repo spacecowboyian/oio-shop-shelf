@@ -1,0 +1,65 @@
+name: publish-pdf-release
+
+# Optional convenience automation for the maintainer merge step (see MAINTAINERS.md).
+# Trigger it from the Actions tab with a PR number: it moves every committed source PDF
+# on that PR's branch to a `manuals-<slug>` Release, repoints the manifests, removes the
+# PDFs, and pushes the result back to the branch — turning the `no-pdf-guard` check green.
+# Then you just squash-merge.
+#
+# LIMITATION: a workflow cannot push to a *fork's* branch, so this only works for
+# same-repo (maintainer-authored) branches. For fork PRs, run scripts/publish-release.sh
+# locally per MAINTAINERS.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "PR number (same-repo branch only)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out the PR branch (reject forks)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(gh pr view ${{ inputs.pr }} --json isCrossRepository -q .isCrossRepository)" = "true" ]; then
+            echo "::error::PR #${{ inputs.pr }} is from a fork — a workflow can't push to a fork branch."
+            echo "Run 'scripts/publish-release.sh <manual-dir>' locally instead (see MAINTAINERS.md)."
+            exit 1
+          fi
+          gh pr checkout ${{ inputs.pr }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Move PDFs to releases, strip from tree, push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          changed=0
+          for d in $(git ls-files '*.pdf' | xargs -r -n1 dirname | sort -u); do
+            echo "::group::publish $d"
+            scripts/publish-release.sh "$d"
+            echo "::endgroup::"
+            changed=1
+          done
+          if [ "$changed" = "1" ]; then
+            git commit -m "chore: move source PDF(s) to release assets"
+            git push
+            echo "Pushed. Confirm no-pdf-guard is green, then squash-merge."
+          else
+            echo "No tracked PDFs on this branch — nothing to do."
+          fi
