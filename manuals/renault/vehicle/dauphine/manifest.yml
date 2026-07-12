@@ -108,3 +108,61 @@ chapters:
     title: "Special Tools"
     page_start: 450
     page_end: 479
+
+# Diagram-only figures delivered per cleanup methodology Rule 12 (rendered to WebP by
+# scripts/02_render_pages.py --diagrams; embedded at the citation point in the chapter md).
+diagrams:
+  - page: 13
+    file: "diagrams/p0013-lifting-points.webp"
+    kind: exploded
+    depth: mono
+    caption: "Dauphine lifting points A–F (side view and underbody views)"
+    safety_relevant: true
+  - page: 14
+    file: "diagrams/p0014-lifting-trolley-jack.webp"
+    kind: exploded
+    depth: gray
+    caption: "Trolley-jack lifting points — front (A, under front cross member) and rear (B, under rear half shaft tubes)"
+    safety_relevant: true
+  - page: 39
+    file: "diagrams/p0039-water-pump-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Water pump exploded view (parts 1-16) — keys the numbered reassembly steps"
+    safety_relevant: false
+  - page: 44
+    file: "diagrams/p0044-timing-gear-backplate-drilling.webp"
+    kind: chart
+    depth: mono
+    caption: "Timing gear back plate — drilling location for oil-jet hole A (dims A, B, C)"
+    safety_relevant: false
+  - page: 49
+    file: "diagrams/p0049-cylinder-head-bolt-tightening-sequence.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cylinder head bolt tightening sequence (bolts 1-12)"
+    safety_relevant: true
+  - page: 56
+    file: "diagrams/p0056-fuel-pump-sev-46a1-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Fuel pump S.E.V. Type 46 A1 exploded view (parts 1-20) — numbered dismantling order"
+    safety_relevant: false
+  - page: 57
+    file: "diagrams/p0057-fuel-pump-ac-yk6060-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Fuel pump AC Type YK 6060 exploded view (parts 1-7) — numbered dismantling order"
+    safety_relevant: false
+  - page: 65
+    file: "diagrams/p0065-carburettor-32-pibt-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOLEX Type 32 PIBT carburettor exploded view"
+    safety_relevant: false
+  - page: 67
+    file: "diagrams/p0067-carburettor-30-paia3-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOLEX Type 30 PAIA-3 double-barrel carburettor exploded view"
+    safety_relevant: false

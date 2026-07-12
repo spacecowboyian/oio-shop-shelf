@@ -28,8 +28,8 @@ usage limits — parallel fan-out worked but risks token exhaustion.
 
 ## Chapter status  (source-PDF page ranges from manifest.yml)
 - [x] A general (p1–15) — `wiki/a-general.md` DONE (committed). 2 diagrams registered (p13, p14).
-- [~] B engine (p16–68) — cleanup agent RUNNING (selective-image approach).
-- [ ] C clutch (p69–118)
+- [x] B engine (p16–68) — DONE. 7 diagrams (incl p49 head-bolt sequence, safety). ~30 images opened, 1 flag.
+- [~] C clutch (p69–118) — NEXT
 - [ ] D electrical & ignition (p119–185) — has wiring diagrams to deliver
 - [ ] E gearbox (p186–247) — exploded views
 - [ ] F braking (p248–268) — safety-critical specs
