@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _common import validate_manifest  # noqa: E402
+from _common import load_taxonomy, validate_against_taxonomy, validate_manifest  # noqa: E402
 
 try:
     import yaml
@@ -22,27 +22,38 @@ except ImportError:
 
 def main() -> int:
     root = Path(__file__).resolve().parent.parent / "manuals"
-    manifests = [p for p in root.glob("*/manifest.yml") if p.parent.name != "_template"]
+    # Manuals now nest as manuals/<make>/<vehicle|engine>/<unit>/manifest.yml — recurse.
+    manifests = [
+        p for p in root.glob("**/manifest.yml")
+        if "_template" not in p.relative_to(root).parts
+    ]
     if not manifests:
         print("No manuals to validate (only _template present). OK.")
         return 0
 
+    taxonomy = load_taxonomy(root)
+
     failed = False
     for mf in sorted(manifests):
+        tag = mf.parent.relative_to(root)
         try:
             data = yaml.safe_load(mf.read_text(encoding="utf-8")) or {}
         except yaml.YAMLError as e:
-            print(f"[{mf.parent.name}] YAML parse error: {e}", file=sys.stderr)
+            print(f"[{tag}] YAML parse error: {e}", file=sys.stderr)
             failed = True
             continue
         errors = validate_manifest(data)
+        # Only cross-reference the registry once the block is shape-valid, so we don't
+        # pile confusing registry errors on top of a malformed taxonomy block.
+        if not errors:
+            errors = validate_against_taxonomy(data, taxonomy)
         if errors:
             failed = True
-            print(f"[{mf.parent.name}] INVALID:", file=sys.stderr)
+            print(f"[{tag}] INVALID:", file=sys.stderr)
             for e in errors:
                 print(f"  - {e}", file=sys.stderr)
         else:
-            print(f"[{mf.parent.name}] manifest OK")
+            print(f"[{tag}] manifest + taxonomy OK")
 
     return 1 if failed else 0
 

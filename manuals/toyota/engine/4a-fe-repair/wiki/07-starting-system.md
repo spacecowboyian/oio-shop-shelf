@@ -6,7 +6,7 @@
 > **ST-3 to ST-15** — pages **ST-4 through ST-14** (starter removal, disassembly,
 > component inspection, reassembly) are **not present in this scan**. See
 > [10-needs-review.md](10-needs-review.md). For those procedures, cross-check the other
-> 4A manual in this repo ([`toyota-4a-fe-4a-ge`](../../toyota-4a-fe-4a-ge/wiki/00-index.md))
+> 4A manual in this repo ([`toyota-4a-fe-4a-ge`](../../4a-fe-4a-ge/wiki/00-index.md))
 > until this scan is completed.
 
 ## In this chapter

@@ -1,3 +1,12 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/09_write_frontmatter.py); do not edit
+slug: "toyota-4a-fe-repair"
+title: "Toyota 4A-FE Engine Repair Manual (Sep. 1989)"
+make: "Toyota"
+category: "engine"
+engines: ["4A-FE"]
+---
+
 # Toyota 4A-FE Engine Repair Manual — Overview
 
 *What this manual is, what it covers, and what it doesn't. Skim this first for bearings.*

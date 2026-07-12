@@ -1,0 +1,55 @@
+# Automotive taxonomy — the controlled vocabulary for every manual in this repo.
+#
+# WHY THIS EXISTS
+#   Folders give each manual ONE human-browsable home (manuals/<make>/<vehicle|engine>/<unit>/).
+#   This file is the canonical name registry behind those folders: it fixes the *spelling* of
+#   every make, model, chassis and engine so "Toyota"/"toyota"/"TOYOTA" and "MR2"/"MR-2" never
+#   drift apart across contributions. Each manifest.yml declares a `taxonomy:` block whose
+#   make / models / chassis / engines MUST resolve to keys defined here — CI enforces it
+#   (scripts/validate_manifests.py). The per-manual README front matter is generated from the
+#   resolved names (scripts/09_write_frontmatter.py) so an agent can grep one manual straight
+#   to the right car.
+#
+# SOURCE / PROVENANCE
+#   Make + model names and IDs are anchored to the NHTSA vPIC catalog — the US DOT's
+#   public-domain Vehicle Product Information Catalog (https://vpic.nhtsa.dot.gov/api/).
+#   `vpic_make_id` is that catalog's stable Make_ID; `name` is its canonical Make_Name /
+#   Model_Name. Engine-family codes (4A-GE, etc.) have no clean open catalog, so those are
+#   OEM designations recorded by hand.
+#
+# HOW TO ADD AN ENTRY
+#   Seed only what a committed manual actually needs — do NOT import all of vPIC. Before
+#   adding a manual for a make/model/engine not listed here, add it here first. Full steps
+#   (including the vPIC lookup) are in taxonomy.md.
+#
+# SHAPE
+#   makes:
+#     <make-key>:                      # lower-kebab; the folder name under manuals/
+#       name: <Canonical vPIC Make_Name>
+#       vpic_make_id: <int>            # vPIC Make_ID (anchor; omit only if not in vPIC)
+#       models:                        # vehicles this make has manuals for (may be empty)
+#         <model-key>:
+#           name: <Canonical Model_Name>
+#           chassis: [<CODE>, ...]     # generation/chassis codes covered
+#       engines:                       # engine families this make has manuals for
+#         <engine-key>:
+#           name: <OEM engine code>
+#           family: <engine-family letter/series, optional>
+
+makes:
+  toyota:
+    name: Toyota
+    vpic_make_id: 448
+    # models: none yet on main. A vehicle (whole-chassis) manual adds its model here —
+    # see the MR2 (AW11) example in taxonomy.md and manuals/_template/manifest.yml.
+    models: {}
+    engines:
+      4a-f:
+        name: 4A-F
+        family: A
+      4a-fe:
+        name: 4A-FE
+        family: A
+      4a-ge:
+        name: 4A-GE
+        family: A

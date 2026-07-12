@@ -39,7 +39,7 @@ these as **incidental reference**, not 4A-GE repair coverage. Everything untagge
 
 ## Cross-checking with the other 4A manual
 
-The repo also has [`toyota-4a-fe-4a-ge`](../../toyota-4a-fe-4a-ge/wiki/00-index.md) (the
+The repo also has [`toyota-4a-fe-4a-ge`](../../4a-fe-4a-ge/wiki/00-index.md) (the
 Service & Maintenance Manual). For a gap in THIS abridged scan, that manual may have the
 page. When the two disagree on a value, surface both with their sources — do not silently
 pick one.
