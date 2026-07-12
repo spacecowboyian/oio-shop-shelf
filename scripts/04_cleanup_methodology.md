@@ -100,7 +100,8 @@ from another chapter.
 Remove OCR artifacts that carry no information: page headers/footers, scan speckle
 rendered as stray characters, running chapter titles repeated on every page. Do **not**
 remove actual content, figure captions, or notes. If a figure is essential and only
-exists as an image, leave a placeholder: `*(Figure 4-3: timing marks — see page image p.58)*`.
+exists as an image, **don't leave a bare "see page image" placeholder — deliver it**
+per Rule 12 (add it to `diagrams:` and embed the rendered image at the citation point).
 
 ## Rule 7 — Spec callouts for the quick-reference index
 
@@ -154,6 +155,41 @@ against the images before recording them.)
 > prefix), so a chapter numbered `11a` is fine — but keep generated names (`00-`, `09-`,
 > `10-`, `11?-alphabetical-index`) clear of chapter files.
 
+## Rule 12 — Diagram delivery: deliver the image, don't just link the page
+
+Diagrams, wiring charts, and exploded views live only in the source PDF — never as
+faithful text. Historically the wiki could only say "open PDF p.N yourself." When a page
+(or a figure on it) is **diagram-only** — a wiring chart, exploded view, torque/loosening
+**sequence** figure, or any essential figure with no faithful text equivalent — register it
+for in-chat delivery instead of only citing the page (see [issue #1](https://github.com/spacecowboyian/oio-shop-shelf/issues/1)):
+
+1. **Add an entry to `manifest.yml` `diagrams:`** (CI validates the shape):
+   ```yaml
+   diagrams:
+     - page: 66
+       file: "diagrams/p0066-headbolt-loosening-sequence.webp"
+       kind: sequence          # sequence | wiring | exploded | chart
+       depth: mono             # mono = pure line art (~30 KB); gray = page has a photo/halftone (~70 KB)
+       caption: "Cylinder head bolt loosening sequence"
+       safety_relevant: true   # set when a wrong reading risks damage/injury (bolt order, torque sequence)
+   ```
+   Name the file `diagrams/p<NNNN>-<short-slug>.webp` (zero-padded source page). Pick
+   `depth: mono` for clean line art; `gray` only if the page carries a photo or halftone
+   shading that a 1-bit threshold would wreck.
+2. **Render it:** `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (renders
+   every `diagrams:` page at its depth to a lossless WebP).
+3. **Embed it at the citation point** with a **relative** path — not a bare page reference:
+   ```markdown
+   ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)
+   ```
+   Keep it relative so it previews inside the PR; `publish-release.sh` rewrites it to the
+   stable Release URL at merge (the image is stripped from git, same as the source PDF).
+
+Still transcribe every value, table, or step you *can* faithfully pull from the figure
+(Rule 10) — the image supplements the text, it does not excuse skipping transcription.
+And reserve delivery for genuinely diagram-only content: don't image-dump a page whose
+substance is already faithfully in the markdown.
+
 ## Output checklist (self-verify before saving)
 
 - [ ] Every number matches the OCR/image; none silently changed.
@@ -162,6 +198,8 @@ against the images before recording them.)
 - [ ] Exactly one H1; sensible `##`/`###` structure.
 - [ ] Cross-references are relative links; nothing duplicated from other chapters.
 - [ ] No page headers/footers or scan speckle left in the body.
+- [ ] Every diagram-only figure the user would need to *see* is delivered per Rule 12
+      (in `diagrams:`, rendered, embedded as a relative image) — not left as a bare page link.
 
 ## Changelog
 
@@ -176,3 +214,6 @@ per change: date · what changed · why (link the PR/issue).
   repo's anchor-slug rules (single-hyphen collapse, no `-N` suffixes). Also fixed
   `05_build_indexes.py` to reserve only the specific `11?-alphabetical-index.md` filenames so a
   chapter numbered `11a` is no longer silently dropped from the indexes.
+- 2026-07-12 · Added Rule 12 (diagram delivery): diagram-only figures are now rendered to a
+  compact WebP and embedded at the citation point (relative link, flipped to the Release URL
+  at merge), instead of a bare "see PDF p.N" placeholder. Updated Rule 6 accordingly (#1).

@@ -131,6 +131,31 @@ table, or code *means*. The glossary supplies: canonical component/abbreviation 
 for before treating an odd value or term as real. This is not optional polish — it's how a
 faithful transcription becomes a *usable* one.
 
+## 4b. Deliver diagram-only pages (render + embed)
+
+Diagrams, wiring charts, and exploded views exist only as images — the markdown can't
+carry them. As you clean up, whenever a page (or figure) is **diagram-only** and the user
+would need to *see* it — a wiring chart, an exploded view, a torque/loosening **sequence**,
+any essential figure with no faithful text equivalent — deliver it instead of leaving a
+bare "see PDF p.N" (full rules: **`04_cleanup_methodology.md` Rule 12**):
+
+1. Add an entry to the manifest **`diagrams:`** block (`page`, `file: diagrams/p<NNNN>-<slug>.webp`,
+   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`). Use `mono` for clean line art
+   (~30 KB), `gray` only when the page has a photo/halftone.
+2. Render them all:
+   ```
+   python scripts/02_render_pages.py manuals/<slug>/ --diagrams
+   ```
+   (Requires `cwebp`; writes lossless WebP to `manuals/<slug>/diagrams/`.)
+3. Embed each at its citation point with a **relative** link so it previews in the PR:
+   `![Head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)`.
+   At merge, `publish-release.sh` moves these images to the manual's Release and flips the
+   links to the Release URL — same light-history treatment as the source PDF, so **commit
+   `diagrams/` in your PR** (unlike `pages/`, which stays gitignored).
+
+This is the whole point of committing the source PDF (see CONTRIBUTING.md) made deliverable:
+the safety-relevant, diagram-only content a reader must be *shown*, not paraphrased.
+
 ## 5. Build the index files
 
 ```
@@ -199,5 +224,12 @@ copy-paste commands and the first-timer path) is in
 
 Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF,
 `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`, `10-needs-review.md`,
-`11a..d-alphabetical-index.md`, and `llm-instructions.md`. Don't commit raw OCR
-intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).
+`11a..d-alphabetical-index.md`, and `llm-instructions.md`, plus `diagrams/*.webp` if the
+manual delivers any (step 4b). Don't commit raw OCR intermediates (`.gitignore` already
+excludes `raw-ocr/`, `pages/`, `prepared.pdf`) — but **do** commit `diagrams/` and the
+source PDF; a maintainer moves both to the Release at merge.
+
+**No GitHub account?** The package is just files. Bundle the manual folder (wiki, manifest,
+`diagrams/`, PDF) into a zip and hand it off per `references/cloud-no-cli.md` (e.g. attach
+it to an issue or share via Drive) — a maintainer opens the PR. The diagram images ride
+along in the bundle exactly like the PDF.
