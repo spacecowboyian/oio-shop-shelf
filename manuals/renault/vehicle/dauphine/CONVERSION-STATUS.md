@@ -60,8 +60,8 @@ Consequences to reconcile before committing D:
 - [x] K wheels-hubs-drums (p311–332) — DONE. 7 diagrams, 22 images, 3 flags (source misprints).
 - [x] L suspension-shock-absorbers (p333–353) — DONE. 11 diagrams, ~19 images, 3 flags.
 - [x] M bodywork (p354–436) — DONE. 13 diagrams, ~27 images, 8 flags.
-- [~] N heater (p437–449) — NEXT
-- [ ] P special tools (p450–479) — catalogue; render as ref#→description TABLE, don't image-dump
+- [x] N heater (p437–449) — DONE. 10 diagrams, 13 images, 1 flag.
+- [~] P special tools (p450–479) — NEXT (catalogue → table)
 
 ## Per-chapter cleanup subagent prompt (template)
 Spawn a `general-purpose` subagent PER chapter (serial). Prompt skeleton (fill <LETTER>/<title>/

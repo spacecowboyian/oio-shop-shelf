@@ -854,3 +854,63 @@ diagrams:
     depth: mono
     caption: "Automatic-transmission underbody — under tray, seat back partition (P–Y) and rear LH wheel arch (AA–AE)"
     safety_relevant: false
+  - page: 438
+    file: "diagrams/p0438-renault-heater-installation.webp"
+    kind: exploded
+    depth: gray
+    caption: "Renault heater — installation in the body (hot air trapped in the radiator casings and ducted to the front nozzles and rear seat base) and the heater/radiator unit"
+    safety_relevant: false
+  - page: 439
+    file: "diagrams/p0439-standard-sofica-installation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Standard SOFICA heater — installation in the body, and heater cutaway showing radiator (R), filter screen (F) and fan (V)"
+    safety_relevant: false
+  - page: 440
+    file: "diagrams/p0440-thermostat-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Cooling-system thermostat — sectioned views closed and open (water-flow arrows) and the engine-compartment installation"
+    safety_relevant: false
+  - page: 441
+    file: "diagrams/p0441-sofica-heater-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Standard SOFICA heater removal — input leads (1), earth/ground lead (2), securing bolt (3), duct (4); and heater-motor exploded view (filter F, fan V, motor M, casing C, radiator R)"
+    safety_relevant: false
+  - page: 442
+    file: "diagrams/p0442-heater-radiator-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Heater-radiator removal — drain plug (5), hoses (6) and (7) and the radiator securing bolts; plus the bleeding and filter-screen maintenance views"
+    safety_relevant: false
+  - page: 444
+    file: "diagrams/p0444-intense-cold-installation.webp"
+    kind: exploded
+    depth: mono
+    caption: "SOFICA 'intense cold' heater — installation in the body and the front air-distribution control detail"
+    safety_relevant: false
+  - page: 445
+    file: "diagrams/p0445-intense-cold-principle.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOFICA 'intense cold' heater — cutaway (nozzle 1, radiator 2, filter screen 3, fan 4, ducts 5) and front air-distribution rods (A) operating flaps (B)"
+    safety_relevant: false
+  - page: 447
+    file: "diagrams/p0447-intense-cold-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOFICA 'intense cold' heater removal, and the motor-fan unit exploded (four securing bolts A, rubber spacers B)"
+    safety_relevant: false
+  - page: 448
+    file: "diagrams/p0448-motor-fan-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Motor-fan unit fully exploded — half casings (C, D), impeller securing nut (E, left-hand thread), impeller (F), snail housing (G), motor retaining nuts (H), motor (J), rubber washers (K), spacers (L)"
+    safety_relevant: true
+  - page: 449
+    file: "diagrams/p0449-electrical-circuit.webp"
+    kind: wiring
+    depth: gray
+    caption: "SOFICA 'intense cold' heater electrical circuit — 3-position switch (A high / B off / C slow), resistance (1), motor (2)"
+    safety_relevant: false
