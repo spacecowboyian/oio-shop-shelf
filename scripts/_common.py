@@ -13,6 +13,12 @@ REQUIRED_MANIFEST_KEYS = ("slug", "title", "source", "rights", "chapters", "taxo
 REQUIRED_CHAPTER_KEYS = ("file", "title", "page_start", "page_end")
 TAXONOMY_CATEGORIES = ("engine", "vehicle")
 
+# Optional `diagrams:` block — one entry per diagram-only source page rendered to an
+# image and delivered to the user in-chat (see issue #1). Absent for most manuals.
+REQUIRED_DIAGRAM_KEYS = ("page", "file", "kind", "depth", "caption")
+DIAGRAM_KINDS = ("sequence", "wiring", "exploded", "chart")
+DIAGRAM_DEPTHS = ("mono", "gray")  # mono = 1-bit line art; gray = has photo/halftone
+
 
 def manual_dir(arg: str, require_manifest: bool = True) -> Path:
     """Resolve and validate a manuals/<slug>/ directory passed on the CLI.
@@ -80,6 +86,57 @@ def validate_manifest(data: dict) -> list[str]:
     elif chapters is not None:
         errors.append("chapters must be a list")
     errors += _taxonomy_shape_errors(data.get("taxonomy"))
+    errors += _diagrams_shape_errors(data)
+    return errors
+
+
+def _diagrams_shape_errors(data: dict) -> list[str]:
+    """Shape-only checks for the optional manifest `diagrams:` block (see issue #1).
+
+    Each entry maps one diagram-only source page to a rendered image delivered in-chat.
+    Import-free (no filesystem) so CI can call validate_manifest standalone; whether the
+    referenced image file actually exists is checked elsewhere (06_check_links).
+    """
+    diagrams = data.get("diagrams")
+    if diagrams is None:
+        return []  # optional block
+    if not isinstance(diagrams, list):
+        return ["diagrams must be a list"]
+
+    errors: list[str] = []
+    total_pages = (data.get("source") or {}).get("pages")
+    seen_files: set[str] = set()
+    for i, d in enumerate(diagrams):
+        if not isinstance(d, dict):
+            errors.append(f"diagrams[{i}] is not a mapping")
+            continue
+        for k in REQUIRED_DIAGRAM_KEYS:
+            if k not in d or d[k] in (None, ""):
+                errors.append(f"diagrams[{i}] missing key: {k}")
+        page = d.get("page")
+        if page is not None:
+            if not isinstance(page, int) or isinstance(page, bool):
+                errors.append(f"diagrams[{i}] page must be an integer")
+            elif page < 1:
+                errors.append(f"diagrams[{i}] page {page} must be >= 1")
+            elif isinstance(total_pages, int) and page > total_pages:
+                errors.append(
+                    f"diagrams[{i}] page {page} exceeds source.pages ({total_pages})"
+                )
+        kind = d.get("kind")
+        if kind is not None and kind not in DIAGRAM_KINDS:
+            errors.append(f"diagrams[{i}] kind '{kind}' must be one of {DIAGRAM_KINDS}")
+        depth = d.get("depth")
+        if depth is not None and depth not in DIAGRAM_DEPTHS:
+            errors.append(f"diagrams[{i}] depth '{depth}' must be one of {DIAGRAM_DEPTHS}")
+        sr = d.get("safety_relevant")
+        if sr is not None and not isinstance(sr, bool):
+            errors.append(f"diagrams[{i}] safety_relevant must be true/false")
+        f = d.get("file")
+        if f:
+            if f in seen_files:
+                errors.append(f"diagrams[{i}] duplicate file: {f}")
+            seen_files.add(f)
     return errors
 
 
