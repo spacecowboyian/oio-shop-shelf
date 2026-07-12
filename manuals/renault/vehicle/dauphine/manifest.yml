@@ -232,3 +232,349 @@ diagrams:
     depth: mono
     caption: "Systematic defect finding chart (12 V) — right half: remaining cause columns, reference numbers and remedies"
     safety_relevant: false
+  # D — electrical & ignition:
+  - page: 121
+    file: "diagrams/p0121-r1090-pre1961-harness-layout.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 (previous to 1961) — harness routing over vehicle, refs A–M"
+    safety_relevant: false
+  - page: 123
+    file: "diagrams/p0123-r1090-pre1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 (previous to 1961) — full wiring schematic"
+    safety_relevant: false
+  - page: 128
+    file: "diagrams/p0128-r1090-1961-harness-layout.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 (1961 models) — harness routing over vehicle"
+    safety_relevant: false
+  - page: 130
+    file: "diagrams/p0130-r1090-1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 (1961 models) — full wiring schematic"
+    safety_relevant: false
+  - page: 137
+    file: "diagrams/p0137-r1090-12volt-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 12-volt system — full wiring schematic"
+    safety_relevant: false
+  - page: 143
+    file: "diagrams/p0143-r1091-gordini-1960-harness-layout.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini 1960 model — harness routing over vehicle"
+    safety_relevant: false
+  - page: 145
+    file: "diagrams/p0145-r1091-gordini-1960-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini 1960 model — full wiring schematic"
+    safety_relevant: false
+  - page: 147
+    file: "diagrams/p0147-r1091-gordini-1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini 1961 model — full wiring schematic"
+    safety_relevant: false
+  - page: 153
+    file: "diagrams/p0153-dynamo-field-connection-types.webp"
+    kind: wiring
+    depth: mono
+    caption: "Dynamo field connection types 1 and 2 (Fld./Dyn./Earth terminals)"
+    safety_relevant: false
+  - page: 154
+    file: "diagrams/p0154-ducellier-starter-view.webp"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier starter (example 6010 D) — external view"
+    safety_relevant: false
+  - page: 157
+    file: "diagrams/p0157-distributors-exploded-sev-rb.webp"
+    kind: exploded
+    depth: mono
+    caption: "Distributors — exploded views, S.E.V. and R.B., reference RK"
+    safety_relevant: false
+  - page: 158
+    file: "diagrams/p0158-ducellier-sev-distributor-sections.webp"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier and SEV distributors — cross-sections, shaft end-play washers (R)"
+    safety_relevant: false
+  - page: 159
+    file: "diagrams/p0159-marelli-distributor-s98a-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Marelli distributor type S 98 A — exploded view"
+    safety_relevant: false
+  - page: 162
+    file: "diagrams/p0162-centrifugal-advance-curves.webp"
+    kind: chart
+    depth: mono
+    caption: "Centrifugal advance curves — RK, WW, XC and Marelli S98A (degrees vs r.p.m.)"
+    safety_relevant: true
+  - page: 163
+    file: "diagrams/p0163-advance-curves-r199-tz-vacuum.webp"
+    kind: chart
+    depth: mono
+    caption: "Advance curves — centrifugal R.199, TZ; vacuum correction RO, AD, JA, Marelli S98A"
+    safety_relevant: true
+  - page: 166
+    file: "diagrams/p0166-ducellier-7181g-dynamo-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier type 7181 G dynamo — exploded view"
+    safety_relevant: false
+  - page: 172
+    file: "diagrams/p0172-starter-cutaway-dimensions.webp"
+    kind: exploded
+    depth: mono
+    caption: "Starter — cutaway with adjusting dimensions F, G, B, A, D, E and shim R"
+    safety_relevant: true
+  - page: 173
+    file: "diagrams/p0173-ducellier-starter-pinion-gauge.webp"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier starter — pinion at-rest gauge position (dimension D)"
+    safety_relevant: false
+  - page: 174
+    file: "diagrams/p0174-paris-rhone-starter-cutaway.webp"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starter — cutaway with dimensions H, B, A and shim R"
+    safety_relevant: true
+  - page: 176
+    file: "diagrams/p0176-paris-rhone-solenoid-fork.webp"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starter — solenoid core / fork connection, clearance G"
+    safety_relevant: false
+  - page: 177
+    file: "diagrams/p0177-marelli-starter-cutaway.webp"
+    kind: exploded
+    depth: mono
+    caption: "Marelli starter type MT 40 C — external view and cutaway, dimensions A–D"
+    safety_relevant: false
+  - page: 178
+    file: "diagrams/p0178-marelli-starter-gauge-dimensions.webp"
+    kind: exploded
+    depth: mono
+    caption: "Marelli starter — pinion at-rest checking gauge, dimensions A–P"
+    safety_relevant: true
+  - page: 183
+    file: "diagrams/p0183-headlight-beam-screens.webp"
+    kind: chart
+    depth: mono
+    caption: "Headlight beam adjustment screens — Cibié and Marchal"
+    safety_relevant: false
+  - page: 185
+    file: "diagrams/p0185-steering-lock.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering lock — cartridge removal and switch replacement/checking (terminals B, D)"
+    safety_relevant: false
+  # E — gearbox (transmission case):
+  - page: 187
+    file: "diagrams/p0187-gearbox-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Location of the gearbox (transmission case) in the vehicle"
+    safety_relevant: false
+  - page: 193
+    file: "diagrams/p0193-operating-diagram-289.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 289 gearbox"
+    safety_relevant: false
+  - page: 194
+    file: "diagrams/p0194-sections-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and cross section through the differential, type 289"
+    safety_relevant: false
+  - page: 199
+    file: "diagrams/p0199-differential-exploded-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Differential exploded view, type 289"
+    safety_relevant: false
+  - page: 200
+    file: "diagrams/p0200-secondary-shaft-exploded-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Secondary shaft exploded view (callouts 5-14), type 289"
+    safety_relevant: true
+  - page: 208
+    file: "diagrams/p0208-operating-diagram-314.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 314 gearbox"
+    safety_relevant: false
+  - page: 209
+    file: "diagrams/p0209-sections-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and section through the differential, type 314"
+    safety_relevant: false
+  - page: 210
+    file: "diagrams/p0210-gear-locking-system-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gear locking system (interlock plunger 1), type 314"
+    safety_relevant: true
+  - page: 224
+    file: "diagrams/p0224-secondary-shaft-exploded-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Secondary shaft exploded view (callouts 12-18), type 314"
+    safety_relevant: true
+  - page: 228
+    file: "diagrams/p0228-operating-diagram-316.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 316 gearbox"
+    safety_relevant: false
+  - page: 229
+    file: "diagrams/p0229-sections-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and section through the differential, type 316"
+    safety_relevant: false
+  - page: 230
+    file: "diagrams/p0230-gear-locking-system-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gear locking system (shift-fork interlock plungers 1, 2, 3, R), type 316"
+    safety_relevant: true
+  - page: 235
+    file: "diagrams/p0235-differential-exploded-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Differential exploded view, type 316"
+    safety_relevant: false
+  # F — braking system:
+  - page: 249
+    file: "diagrams/p0249-brake-system-layout.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake system layout on the vehicle — reservoir, master cylinder, rigid and flexible lines to all four wheels"
+    safety_relevant: true
+  - page: 252
+    file: "diagrams/p0252-fixed-point-shoes.webp"
+    kind: exploded
+    depth: mono
+    caption: "Straight fixed point vs. inclined fixed point front shoes"
+    safety_relevant: false
+  - page: 254
+    file: "diagrams/p0254-master-cylinder-old-operation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (pre-May 1959 type) — sectional operating diagram, positions A/B/C"
+    safety_relevant: true
+  - page: 255
+    file: "diagrams/p0255-master-cylinder-new-operation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (post-May 1959 type) — sectional operating diagram, positions A/B/C"
+    safety_relevant: true
+  - page: 256
+    file: "diagrams/p0256-master-cylinder-old-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (pre-May 1959 type) — exploded view, parts 1–8"
+    safety_relevant: true
+  - page: 257
+    file: "diagrams/p0257-master-cylinder-new-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (post-May 1959 type) — exploded view, parts 1–7, and cast-boss identification"
+    safety_relevant: true
+  - page: 258
+    file: "diagrams/p0258-master-cylinder-clearance.webp"
+    kind: exploded
+    depth: mono
+    caption: "Adjusting the master cylinder clearance — pedal free movement G and clearance K, thrust-rod adjustment"
+    safety_relevant: true
+  - page: 260
+    file: "diagrams/p0260-pedal-assembly-1958.webp"
+    kind: exploded
+    depth: mono
+    caption: "1958-model pedal assembly — exploded view"
+    safety_relevant: false
+  - page: 263
+    file: "diagrams/p0263-brake-shoes.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake shoe assembly on the anchor plate — leading (C) and trailing (T) shoes, return-spring layouts"
+    safety_relevant: true
+  - page: 264
+    file: "diagrams/p0264-brake-shoe-adjustment.webp"
+    kind: exploded
+    depth: mono
+    caption: "Adjusting the brake shoes — leading square (C) and trailing square (T)"
+    safety_relevant: true
+  - page: 265
+    file: "diagrams/p0265-hand-brake-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Hand brake — ratchet, quadrant and lever exploded view"
+    safety_relevant: false
+  - page: 267
+    file: "diagrams/p0267-limiting-valve.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake pressure limiting valve — sectional operation (A normal, B violent) and pressure-gauge checking set-up"
+    safety_relevant: true
+  # G — steering:
+  - page: 270
+    file: "diagrams/p0270-identification.webp"
+    kind: chart
+    depth: gray
+    caption: "Steering location on the vehicle and the DIRECTION Type 59 identification plate on the front cross member"
+    safety_relevant: false
+  - page: 271
+    file: "diagrams/p0271-longitudinal-cross-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering box longitudinal section (upper) and cross-section pinion-bearing arrangements Fig.1 (no nylon cage) / Fig.2 (nylon cage) (lower)"
+    safety_relevant: true
+  - page: 275
+    file: "diagrams/p0275-pinion-flange-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering pinion and drive flange exploded view, parts 9-20 (flange, circlips, washers, seal, grease nipple, bearing, pinion)"
+    safety_relevant: true
+  - page: 278
+    file: "diagrams/p0278-rack-reassembly-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering rack reassembly sectional view: snap rings (21), return spring (24), rubber sleeve (25), cups (22), bearing bushes (26/27), Dir.18C insertion fitting and retaining fork"
+    safety_relevant: true
+  - page: 281
+    file: "diagrams/p0281-pinion-endplay-adjustment.webp"
+    kind: sequence
+    depth: mono
+    caption: "Adjusting the steering pinion end play: plunger assembly (parts 4-7) and the Dir.19 hand-press pre-load setup, screw C / lever arm D / screw head E / flange set bolt B"
+    safety_relevant: true
+  - page: 283
+    file: "diagrams/p0283-steering-links-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering link exploded view: rack end (part A, end fitting 28) and stub axle end (part B, grease nipple 1)"
+    safety_relevant: true
+  - page: 284
+    file: "diagrams/p0284-steering-column-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering column exploded view: flange 9, flexible coupling 2, steering lock 4, column 5, bracket 7, mat/felt/insulator 12-14, sealing bush 15, nut 16, steering wheel 17"
+    safety_relevant: true
+  - page: 286
+    file: "diagrams/p0286-steering-lock.webp"
+    kind: chart
+    depth: gray
+    caption: "Steering lock (anti-theft cartridge) removal: locking tab 1, securing screws 2, bracket 7"
+    safety_relevant: false

@@ -8,6 +8,27 @@ This conversion dogfoods the diagram-delivery feature (issue #1) + the scanned-P
 on the first non-Toyota manual. Being done **one chapter at a time** (serial) to stay within
 usage limits — parallel fan-out worked but risks token exhaustion.
 
+## ⚠️ SESSION NOTE — 2026-07-12 ~19:xx UTC (Cowork dispatch) — READ BEFORE CONTINUING
+A prior session had already cleaned **D, E, F, G** (markdown + manifest diagram blocks + the
+`[x]` lines below), but **none of it is committed** — `git commit` is blocked by a stale
+`.git/.../index.lock` (dated 13:33) that this sandbox mount **cannot delete** ("Operation not
+permitted"; the Cowork delete-permission prompt was declined). So HEAD is still at
+`chapter C cleaned`; D/E/F/G live only in the working tree.
+
+This dispatch (brief said "C done, D next", reflecting the committed state) re-cleaned **D**
+with a fresh image-verified pass and **overwrote the prior uncommitted `d-electrical-and-ignition.md`**.
+Consequences to reconcile before committing D:
+- The new D markdown delivers **14 diagrams / 10 NEEDS-REVIEW flags** (not the 24/15 in the D line
+  below, which describes the prior draft).
+- `manifest.yml`'s D block (pre-staged by the prior session, ~25 entries) uses **different filename
+  slugs** and registers more figures (distributor/dynamo exploded views, etc.) than the new D
+  markdown embeds → **markdown embeds and manifest D entries no longer match 1:1.**
+- CLI action: pick the D version to keep, align the `manifest.yml` D slugs + the D status line to it,
+  then commit D–G with the usual `wip(renault-dauphine): chapter X …` messages. E, F, G markdown were
+  left untouched by this session.
+- Housekeeping: an untracked stray file `.__deltest__` at the worktree root (from this session's
+  delete-capability probe) could not be removed by the sandbox — `rm` it before committing.
+
 ## Environment to rebuild (nothing here is committed except source scripts)
 - **Source PDF**: Google Drive id `1FJnayZ3hCiUMyRHCA_oRFhxmO5K7aHG9` (14 MB, 479 pp).
   Download: `curl -sL "https://drive.google.com/uc?export=download&id=1FJnayZ3hCiUMyRHCA_oRFhxmO5K7aHG9" -o renault.pdf`
@@ -30,11 +51,11 @@ usage limits — parallel fan-out worked but risks token exhaustion.
 - [x] A general (p1–15) — `wiki/a-general.md` DONE (committed). 2 diagrams registered (p13, p14).
 - [x] B engine (p16–68) — DONE. 7 diagrams (incl p49 head-bolt sequence, safety). ~30 images opened, 1 flag.
 - [x] C clutch (p69–118) — DONE. 11 diagrams (Ferlec wiring + defect chart). ~40 images, 6 flags.
-- [~] D electrical & ignition (p119–185) — NEXT (wiring diagrams to deliver)
-- [ ] E gearbox (p186–247) — exploded views
-- [ ] F braking (p248–268) — safety-critical specs
-- [ ] G steering (p269–286)
-- [ ] H front axle (p287–305)
+- [x] D electrical & ignition (p119–185) — DONE. 24 diagrams (5 variant wiring schematics + harness layouts, distributor/dynamo/starter exploded views, advance-curve charts). Every ignition/charging/starting spec table verified against page image; page-map offset drifts +118→+117→+116 (printed D-10 and D-18 absent from scan). 15 flags.
+- [x] E gearbox (p186–247) — DONE. 13 diagrams (operating diagrams, sections, differential + secondary-shaft exploded views, gear-locking systems for types 289/314/316). Page-map offset clean +184. Every ratio/shim/torque/backlash table verified cell-by-cell against images; recovered printed E-47 from p0231 image. 9 flags.
+- [x] F braking (p248–268) — DONE. 12 diagrams (hydraulic layout, master-cylinder operation/exploded views, shoe & adjustment figures, hand brake, pressure-limiting valve). Page-map offset clean +246. Every brake spec/torque/limiter-pressure table verified cell-by-cell against images; limiter setting "50 +0/−8 kg/sqcm" corrected from image. 5 flags (2 safety-critical, resolved from image). SAFETY-CRITICAL chapter — every value cross-checked.
+- [x] G steering (p269–286) — DONE. 8 diagrams (box section, pinion/flange & rack exploded views, pinion end-play adjustment, links, column, steering lock). Page-map offset clean +267. All 18 images opened; every geometry/pre-load/torque verified. 4 flags (1 safety torque corrected from image). 
+- [~] H front axle (p287–305) — NEXT
 - [ ] J rear axle (p306–310) — short
 - [ ] K wheels-hubs-drums (p311–332)
 - [ ] L suspension-shock-absorbers (p333–353)
