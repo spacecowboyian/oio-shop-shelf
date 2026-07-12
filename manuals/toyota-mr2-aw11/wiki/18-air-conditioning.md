@@ -6,8 +6,10 @@ supercharged **4A-GZE** engines. Torque values are given as `kg-cm (ft-lb, N·m)
 > **CAUTION:** The refrigerant in this system is **R-12**. Observe all
 > [Precautions](#precautions) before opening any part of the refrigeration circuit.
 
+<a id="p940"></a>
 ## General Description
 
+<a id="p940"></a>
 ### Refrigeration cycle
 
 1. The compressor discharges high-temperature, high-pressure refrigerant that contains
@@ -28,6 +30,7 @@ supercharged **4A-GZE** engines. Torque values are given as `kg-cm (ft-lb, N·m)
 *(Figure: refrigeration cycle schematic — compressor, condenser, receiver, expansion
 valve, evaporator — see page image p.940.)*
 
+<a id="p941"></a>
 ### Principle of the A/C electrical circuit
 
 The magnetic clutch is fed through the ignition switch, circuit breaker, heater relay,
@@ -37,6 +40,7 @@ detecting sensor (RPM).
 
 *(Figure: A/C electrical circuit block diagram — see page image p.941.)*
 
+<a id="p941"></a>
 ### How the magnetic clutch is energized
 
 The general process by which the magnetic clutch is energized:
@@ -53,6 +57,7 @@ The general process by which the magnetic clutch is energized:
 The revolution detecting sensor supplies the RPM of the compressor to the A/C amplifier.
 If the compressor is not locked, the magnetic clutch is continuously energized.
 
+<a id="p942"></a>
 ## Air Conditioning System Circuit
 
 The wiring differs between engines. Key components on both: air flow control switch, air
@@ -64,12 +69,14 @@ idle-up (for electrical load) and cancellation (M/T only).
 - *(Figure: A/C system circuit — 4A-GZE engine — see page image p.943.)*
 - *(Figure: connector layouts, 4A-GE and 4A-GZE — see page image p.944.)*
 
+<a id="p945"></a>
 ## System Components
 
 *(Figure: system component layout — VSV, receiver, pressure switch, suction hose/tube,
 discharge hose, high- and low-pressure charging valves, liquid tubes, and cooling unit —
 see page image p.945.)*
 
+<a id="p946"></a>
 ## Precautions
 
 1. When handling refrigerant (R-12), observe the following:
@@ -89,6 +96,7 @@ see page image p.945.)*
    - Tighten the nut using two wrenches to avoid twisting the tube.
    - Tighten the O-ring fitting to the specified torque.
 
+<a id="p946"></a>
 ### Torque specification for O-ring fittings and bolted-type fitting
 
 | Fitting size            | Torque                       |
@@ -98,6 +106,7 @@ see page image p.945.)*
 | 0.62 in. tube           | 325 kg-cm (24 ft-lb, 32 N·m) |
 | Bolted type (for compressor) | 250 kg-cm (18 ft-lb, 25 N·m) |
 
+<a id="p946"></a>
 ## Special Tools and Equipment
 
 | Tool                         | SST No.     | Use                                         |
@@ -116,6 +125,7 @@ see page image p.945.)*
 | Shaft plate installing tool  | 07112-25010 | To install shaft plate                      |
 | Key press tool               | 07114-45010 | To install key                              |
 
+<a id="p947"></a>
 ## Troubleshooting
 
 | Problem                              | Possible cause                    | Remedy                          | Page       |
@@ -154,6 +164,7 @@ see page image p.945.)*
 |                                      | Defective A/C amplifier           | Check operation                 | AC-41, 42  |
 |                                      | Defective wiring connection       | Check and repair                | AC-4, 5    |
 
+<a id="p948"></a>
 ### Checking of refrigeration system with manifold gauge
 
 Locate the trouble using a manifold gauge. Read the manifold gauge pressure under the
@@ -207,6 +218,7 @@ p.948.)*
 > **NOTE (at No. 6):** These gauge indications are shown when the refrigeration system has
 > been opened and the refrigerant charged without vacuum purging.
 
+<a id="p951"></a>
 ## On-Vehicle Inspection
 
 1. **Check condenser fins for blockage or damage.** If the fins are clogged, clean them
@@ -235,8 +247,10 @@ p.948.)*
 9. **If no or insufficient cooling, inspect for leakage.** Using a gas leak detector,
    inspect each component of the refrigeration system.
 
+<a id="p952"></a>
 ## Refrigeration System
 
+<a id="p952"></a>
 ### Checking of refrigerant charge
 
 1. **Run engine at approx. 2000 rpm.**
@@ -252,6 +266,7 @@ p.948.)*
 | 5    | Immediately after the air conditioner is turned off, refrigerant in sight glass stays clear | Too much | Discharge the excess refrigerant to specified amount |
 | 6    | When the air conditioner is turned off, refrigerant foams and then stays clear | Proper       | —                                                              |
 
+<a id="p952"></a>
 ### Installation of manifold gauge set
 
 > **NOTE:** Fittings for attaching the manifold gauge set are located on the suction tube
@@ -263,8 +278,10 @@ p.948.)*
    charging valve. Tighten the hose nuts by hand.
    > **NOTE:** Do not apply compressor oil to the seat of the connection.
 
+<a id="p953"></a>
 ## Compressor
 
+<a id="p953"></a>
 ### On-vehicle inspection
 
 1. **Install manifold gauge set.** (See [Installation of manifold gauge set](#installation-of-manifold-gauge-set).)
@@ -304,6 +321,7 @@ p.948.)*
 
 *(Torque triples are `kg-cm (ft-lb, N·m)`. Figures: 4A-GE p.954, 4A-GZE p.954.)*
 
+<a id="p955"></a>
 ### Removal of compressor
 
 1. **Run engine at idle with air conditioning on for 10 minutes.**
@@ -321,6 +339,7 @@ p.948.)*
 *(Figures: magnetic clutch/compressor exploded views, 4A-GE p.955 and 4A-GZE p.956 — show
 pressure plate, rotor, rotor bearing, stator, snap ring, shim, and non-reusable parts.)*
 
+<a id="p956"></a>
 ### Disassembly of magnetic clutch
 
 1. **Remove pressure plate.**
@@ -342,6 +361,7 @@ pressure plate, rotor, rotor bearing, stator, snap ring, shim, and non-reusable 
    - Inspect the pressure plate and rotor surfaces for wear and scoring. Replace if necessary.
    - Check the rotor bearings for wear and leakage of grease. Replace if necessary.
 
+<a id="p958"></a>
 ### Disassembly of compressor
 
 *(Figures: compressor cylinder block / O-ring / revolution detecting sensor, 4A-GE p.957
@@ -373,6 +393,7 @@ and 4A-GZE p.957.)*
     > **CAUTION:** Be careful not to scratch the sealing surface of the rear housing.
 13. **Remove front and rear O-rings from cylinder block.** Discard the O-rings.
 
+<a id="p961"></a>
 ### Assembly of compressor
 
 1. **Install rear valve plate on rear cylinder.**
@@ -418,6 +439,7 @@ and 4A-GZE p.957.)*
 11. **Check shaft starting torque.**
     - Torque: **30 kg-cm (26 in.-lb, 2.9 N·m) or less**
 
+<a id="p964"></a>
 ### Assembly of magnetic clutch
 
 1. **Install two bearings in rotor.**
@@ -447,6 +469,7 @@ and 4A-GZE p.957.)*
    If the clearance is not within standard clearance, adjust using the shims to obtain the
    standard clearance.
 
+<a id="p966"></a>
 ### Performance test of compressor
 
 1. **Perform gas leakage test.**
@@ -463,6 +486,7 @@ and 4A-GZE p.957.)*
    > **NOTE:** When storing a compressor for an extended period, charge the compressor with
    > refrigerant or dry nitrogen gas to prevent corrosion.
 
+<a id="p967"></a>
 ### Installation of compressor
 
 1. **Install compressor with four mounting bolts.**
@@ -491,13 +515,16 @@ and 4A-GZE p.957.)*
 8. **Charge air conditioning system with refrigerant and check for gas leakage.**
    - Specified amount: **600 – 750 g (1.3 – 1.7 lb)**
 
+<a id="p968"></a>
 ## Receiver
 
+<a id="p968"></a>
 ### On-vehicle inspection
 
 **Check sight glass, fusible plug and fitting for leakage.** Use a gas leak detector.
 Repair as necessary.
 
+<a id="p968"></a>
 ### Removal of receiver
 
 1. **Discharge refrigeration system.**
@@ -506,6 +533,7 @@ Repair as necessary.
    > **NOTE:** Cap the open fittings immediately to keep moisture out of the system.
 4. **Remove receiver from receiver holder.**
 
+<a id="p968"></a>
 ### Installation of receiver
 
 1. **Install receiver in receiver holder.**
@@ -518,8 +546,10 @@ Repair as necessary.
 6. **Charge air conditioning system with refrigerant and check for gas leakage.**
    - Specified amount: **600 – 750 g (1.3 – 1.7 lb)**
 
+<a id="p968"></a>
 ## Condenser
 
+<a id="p968"></a>
 ### On-vehicle inspection
 
 1. **Check condenser fins for blockage or damage.** If the fins are clogged, wash them
@@ -529,6 +559,7 @@ Repair as necessary.
    If the fins are bent, straighten them with a screwdriver or pliers.
 2. **Check condenser fittings for leakage.** Repair as necessary.
 
+<a id="p969"></a>
 ### Removal of condenser
 
 1. **Discharge refrigeration system.**
@@ -540,6 +571,7 @@ Repair as necessary.
    > **NOTE:** Cap the open fittings immediately to keep moisture out of the system.
 7. **Remove condenser.** Remove the two lower condenser nuts and condenser.
 
+<a id="p969"></a>
 ### Installation of condenser
 
 1. **Install condenser.** Install the two lower condenser nuts, making sure the rubber
@@ -556,8 +588,10 @@ Repair as necessary.
 8. **Charge air conditioning system with refrigerant and check for gas leakage.**
    - Specified amount: **600 – 750 g (1.3 – 1.7 lb)**
 
+<a id="p970"></a>
 ## Condenser Fan Motor
 
+<a id="p970"></a>
 ### Inspection of fan motors
 
 1. **Inspect fan motors.**
@@ -586,8 +620,10 @@ Repair as necessary.
 fuse 30A, CDS FAN fuse 30A, radiator fan relay, A/C fan relay No. 2 and No. 3, water
 temperature sensor, amplifier, high pressure switch, compressor — see page image p.970.)*
 
+<a id="p971"></a>
 ## A/C Relays
 
+<a id="p971"></a>
 ### Inspection of relays
 
 Inspect relay continuity as follows (○—○ indicates continuity between the two terminals).
@@ -615,10 +651,12 @@ Inspect relay continuity as follows (○—○ indicates continuity between the 
 
 If continuity is not as specified, replace the relay.
 
+<a id="p972"></a>
 ## Pressure Switch
 
 (See [System Components](#system-components).)
 
+<a id="p972"></a>
 ### On-vehicle inspection
 
 1. **Disconnect connector of pressure switch.**
@@ -647,8 +685,10 @@ If defective, replace the pressure switch.
 
 3. **Connect connector of pressure switch.**
 
+<a id="p972"></a>
 ## Water Temperature Sensor
 
+<a id="p972"></a>
 ### Inspection of temperature sensor
 
 Using an ohmmeter, measure the resistance of the water temperature sensor.
@@ -659,10 +699,12 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 | 90°C (194°F)      | approx. 1.19 kΩ |
 | 95°C (203°F)      | approx. 1.05 kΩ |
 
+<a id="p973"></a>
 ## Cooling Unit
 
 (See [System Components](#system-components).)
 
+<a id="p973"></a>
 ### On-vehicle inspection of expansion valve
 
 1. **Check quantity of refrigerant during refrigeration cycle.**
@@ -671,6 +713,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 4. **Check expansion valve.** If the expansion valve is clogged, the low pressure reading
    will drop to **0 kg/cm² (0 psi, 0 kPa)**; otherwise it is OK.
 
+<a id="p973"></a>
 ### Removal of cooling unit
 
 1. **Disconnect negative cable from battery.**
@@ -683,6 +726,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 7. **Disconnect connectors.**
 8. **Remove cooling unit.** Remove two nuts and four screws.
 
+<a id="p974"></a>
 ### Disassembly of cooling unit
 
 1. **Remove lower and upper unit cases.**
@@ -697,6 +741,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
    - Remove the packing and heat sensing tube from the suction tube of the evaporator.
    - Remove the expansion valve.
 
+<a id="p975"></a>
 ### Evaporator — inspection
 
 1. **Check evaporator fins for blockage.** If the fins are clogged, clean them with
@@ -704,6 +749,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
    > **CAUTION:** Never use water to clean the evaporator.
 2. **Check fittings for cracks or scratches.** Repair as necessary.
 
+<a id="p975"></a>
 ### Assembly of cooling unit
 
 **Install components on evaporator:**
@@ -721,6 +767,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 8. Install four clips.
 9. Connect connectors.
 
+<a id="p975"></a>
 ### Installation of cooling unit
 
 1. **Install cooling unit.** Install the cooling unit with two nuts and four screws.
@@ -738,15 +785,18 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 10. **Charge air conditioning system with refrigerant and check for gas leakage.**
     - Specified amount: **600 – 750 g (1.3 – 1.7 lb)**
 
+<a id="p976"></a>
 ## Refrigerant Lines
 
 (See [System Components](#system-components).)
 
+<a id="p976"></a>
 ### On-vehicle inspection
 
 1. **Inspect hoses and tubes for leakage.** Use a gas leak detector. Replace if necessary.
 2. **Check that hose and tube clamps are not loose.** Tighten or replace as necessary.
 
+<a id="p976"></a>
 ### Replacement of refrigerant lines
 
 1. **Discharge refrigeration system.**
@@ -758,8 +808,10 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 5. **Charge air conditioning system with refrigerant and check for gas leakage.**
    - Specified amount: **600 – 750 g (1.3 – 1.7 lb)**
 
+<a id="p977"></a>
 ## Thermistor
 
+<a id="p977"></a>
 ### On-vehicle inspection
 
 1. **Disconnect negative battery cable.**
@@ -769,6 +821,7 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 
    If resistance is not as specified, replace the thermistor.
 
+<a id="p977"></a>
 ### Removal and inspection of thermistor
 
 1. **Remove and disassemble cooling unit.** (See [Disassembly of cooling unit](#disassembly-of-cooling-unit).)
@@ -784,15 +837,18 @@ Using an ohmmeter, measure the resistance of the water temperature sensor.
 *(Figure: thermistor resistance-vs-temperature chart, resistance approx. 3,500 – 5,500 Ω
 over −1 to 5°C (30 to 40°F) — see page image p.977.)*
 
+<a id="p977"></a>
 ### Installation of thermistor
 
 1. **Install thermistor to evaporator.**
 2. **Assemble and install cooling unit.**
 
+<a id="p977"></a>
 ## A/C Switch
 
 (See [System Components](#system-components).)
 
+<a id="p977"></a>
 ### Inspection of switch
 
 **Inspect switch continuity.** Inspect continuity between the terminals (4, 2, 10, 15).
@@ -806,8 +862,10 @@ over −1 to 5°C (30 to 40°F) — see page image p.977.)*
 
 If continuity is not as specified, replace the switch.
 
+<a id="p978"></a>
 ## Air Conditioner Amplifier
 
+<a id="p978"></a>
 ### Inspection of amplifier
 
 **Inspect amplifier circuit.** Disconnect the amplifier and inspect the connector on the
@@ -874,10 +932,12 @@ Test conditions:
 
 If the circuit is correct, replace the amplifier.
 
+<a id="p980"></a>
 ## Vacuum Switching Valve (VSV)
 
 (See [System Components](#system-components).)
 
+<a id="p980"></a>
 ### Inspection of VSV
 
 1. **Remove VSV.**

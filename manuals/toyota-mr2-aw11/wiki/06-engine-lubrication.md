@@ -4,6 +4,7 @@
 
 Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)** — e.g. `250 kg-cm (18 ft-lb, 25 N·m)` — and are transcribed in that exact form.
 
+<a id="p346"></a>
 ## In this chapter
 
 | Section | Manual page |
@@ -16,6 +17,7 @@ Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)** — e.g. `2
 
 ---
 
+<a id="p347"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -34,6 +36,7 @@ Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)** — e.g. `2
 
 ---
 
+<a id="p348"></a>
 ## Oil Pressure Check
 
 1. **CHECK ENGINE OIL QUALITY**
@@ -87,6 +90,7 @@ Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)** — e.g. `2
 
 ---
 
+<a id="p349"></a>
 ## Replacement of Engine Oil and Oil Filter
 
 1. **DRAIN ENGINE OIL**
@@ -128,14 +132,17 @@ Torque values in this chapter are printed as **kg-cm (ft-lb, N·m)** — e.g. `2
 
 ---
 
+<a id="p350"></a>
 ## Oil Pump
 
+<a id="p350"></a>
 ### Components
 
 Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, retainer, snap ring), oil dipstick guide, O-ring, oil seal, oil pan, gasket, and drain plug. O-ring and oil seal are non-reusable parts.
 
 *(Figure: Oil pump exploded/component view, LU-5 — see page image p.350.)*
 
+<a id="p350"></a>
 ### Removal
 
 > **NOTE:** When repairing the oil pump, the oil pan and strainer should be removed and cleaned.
@@ -179,6 +186,7 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
     1. Remove the seven bolts.
     2. Using a plastic-faced hammer, carefully tap off the oil pump.
 
+<a id="p352"></a>
 ### Disassembly
 
 1. **REMOVE DRIVE AND DRIVEN GEARS**
@@ -189,6 +197,7 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
    1. Using snap ring pliers, remove the snap ring.
    2. Remove the retainer, spring and relief valve.
 
+<a id="p353"></a>
 ### Inspection
 
 1. **INSPECT RELIEF VALVE**
@@ -225,6 +234,7 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
 
    If the side clearance is greater than maximum, replace the gears as a set. If necessary, replace the oil pump body.
 
+<a id="p354"></a>
 ### Oil Seal Replacement
 
 1. **REMOVE OIL SEAL**
@@ -236,6 +246,7 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
       > **CAUTION:** Be careful not to install a new oil seal slantwise.
    2. Apply MP grease to the oil seal lip.
 
+<a id="p354"></a>
 ### Assembly
 
 1. **INSTALL RELIEF VALVE**
@@ -248,6 +259,7 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
 
       **Torque:** 105 kg-cm (8 ft-lb, 10 N·m)
 
+<a id="p355"></a>
 ### Installation
 
 1. **INSTALL OIL PUMP**
@@ -341,14 +353,17 @@ Oil pump body, oil pump cover, drive gear, driven gear, relief valve (spring, re
 
 ---
 
+<a id="p358"></a>
 ## Oil Cooler and Pressure Regulator
 
+<a id="p358"></a>
 ### Components
 
 No. 1 oil filter bracket, No. 2 oil filter bracket, oil cooler, oil cooler pipes, oil cooler hoses, oil filter, relief valve (spring, plug), union bolts, O-rings and gaskets. O-rings and gaskets are non-reusable parts.
 
 *(Figure: Oil cooler and pressure regulator exploded/component view, LU-13 — see page image p.358.)*
 
+<a id="p358"></a>
 ### Removal and Disassembly
 
 1. **DRAIN ENGINE OIL** (see page LU-5) <!-- NEEDS REVIEW: original manual prints "(See page LU-5)" (p.358), but the engine-oil drain procedure is on LU-4 (Replacement of Engine Oil and Oil Filter); LU-5 is the Oil Pump components page. Kept as printed — appears to be an error in the original manual, not an OCR misread. -->
@@ -375,6 +390,7 @@ No. 1 oil filter bracket, No. 2 oil filter bracket, oil cooler, oil cooler pipes
    1. Remove the clamps and disconnect the two water hoses and two oil cooler hoses.
    2. Remove the two bolts, insulator and oil cooler.
 
+<a id="p360"></a>
 ### Inspection
 
 1. **INSPECT OIL COOLER**
@@ -384,6 +400,7 @@ No. 1 oil filter bracket, No. 2 oil filter bracket, oil cooler, oil cooler pipes
    - Coat the relief valve with engine oil, and check that it falls smoothly into the valve hole by its own weight.
    - If it is not, replace the relief valve. If necessary, replace the No. 1 oil filter bracket.
 
+<a id="p361"></a>
 ### Assembly and Installation
 
 1. **INSTALL OIL COOLER**

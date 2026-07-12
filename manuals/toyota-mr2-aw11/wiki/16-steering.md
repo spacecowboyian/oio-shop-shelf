@@ -14,6 +14,7 @@ Torque is given as **kg-cm (ft-lb, N·m)**, exactly as printed in the manual.
 
 ---
 
+<a id="p773"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -41,8 +42,10 @@ Torque is given as **kg-cm (ft-lb, N·m)**, exactly as printed in the manual.
 
 ---
 
+<a id="p774"></a>
 ## On-Vehicle Inspection
 
+<a id="p774"></a>
 ### 1. Check that steering wheel freeplay is correct
 
 With the vehicle stopped and pointed straight ahead, rock the steering wheel gently back
@@ -52,6 +55,7 @@ and forth with light finger pressure. Freeplay should not exceed the maximum lim
 
 If excessive, repair.
 
+<a id="p774"></a>
 ### 2. Check steering linkage and gear housing
 
 1. Check the steering linkage for looseness or damage. Also check that:
@@ -62,8 +66,10 @@ If excessive, repair.
 
 ---
 
+<a id="p774"></a>
 ## Steering Column Assembly
 
+<a id="p774"></a>
 ### Components
 
 *(Figure: exploded view of the tilt steering column assembly — see page image p.777, manual page SR-6.)*
@@ -84,6 +90,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
 
 Non-reusable parts (per components diagram): the two O-rings.
 
+<a id="p774"></a>
 ### Removal of steering column assembly
 
 1. Disconnect the negative cable from the battery.
@@ -109,6 +116,7 @@ Non-reusable parts (per components diagram): the two O-rings.
 7. Remove the steering column assembly with column upper cover.
    Remove the six nuts and steering column assembly.
 
+<a id="p778"></a>
 ### Disassembly of steering column assembly
 
 1. Remove the combination switch.
@@ -139,6 +147,7 @@ Non-reusable parts (per components diagram): the two O-rings.
    1. Using snap ring pliers, remove the snap ring.
    2. Remove the thrust stopper assembly.
 
+<a id="p780"></a>
 ### Inspection and repair of steering column assembly
 
 1. Inspect the upper bracket.
@@ -152,6 +161,7 @@ Non-reusable parts (per components diagram): the two O-rings.
    Check the bearing rotation condition and check for abnormal noise. If faulty, replace
    the thrust stopper assembly.
 
+<a id="p781"></a>
 ### Assembly of steering column assembly
 
 *(See Components, manual page SR-6.)*
@@ -198,6 +208,7 @@ Non-reusable parts (per components diagram): the two O-rings.
    2. Install the connector with two screws.
    3. Install the clamp.
 
+<a id="p783"></a>
 ### Installation of steering column assembly
 
 *(See Removal of steering column assembly, manual page SR-3.)*
@@ -229,8 +240,10 @@ Non-reusable parts (per components diagram): the two O-rings.
 
 ---
 
+<a id="p785"></a>
 ## Steering Gear Housing
 
+<a id="p785"></a>
 ### Components
 
 *(Figure: exploded view of the rack-and-pinion steering gear housing — see page image p.787, manual page SR-16.)*
@@ -255,6 +268,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
 - Non-reusable parts (per components diagram): oil seal, claw washer.
 - Precoated parts (per components diagram): adjusting screw lock nut, adjusting screw, cap, cap lock nut.
 
+<a id="p785"></a>
 ### Removal of gear housing
 
 *(Figure: exploded view — see page image p.785, manual page SR-14.)*
@@ -274,6 +288,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
 
 <!-- NEEDS REVIEW: OCR dropped step 5's number and its (a)/(b) label on SR-15 (jumped "4" to "6"); page image p.786 clearly shows "5. REMOVE GEAR HOUSING ASSEMBLY" with sub-steps (a) and (b) — corrected from image. -->
 
+<a id="p787"></a>
 ### Disassembly of gear housing
 
 1. Clamp the gear housing in a vise. Using SST, clamp the gear housing in the vise. **SST 09612-00012**
@@ -303,6 +318,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
 12. Remove the rack. Remove the rack from the pinion side without revolving it.
     > **NOTE:** If the rack is pulled from the tube side, there is a possibility of damaging the bushing with the rack teeth surface.
 
+<a id="p790"></a>
 ### Inspection and repair of gear housing components
 
 1. Inspect the rack.
@@ -330,6 +346,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
    2. Using SST, drive in a new pinion oil seal until it is protruding 0.5 mm (0.020 in.).
       **SST 09620-30010 (09631-00020), 09630-24013 (09620-24020)**
 
+<a id="p792"></a>
 ### Assembly of gear housing
 
 *(See Components, manual page SR-16.)*
@@ -399,6 +416,7 @@ Tightening torques called out on the components and removal diagrams (manual pag
     2. After adjusting toe-in, torque the lock nuts.
        **Torque: 480 kg-cm (35 ft-lb, 47 N·m)**
 
+<a id="p796"></a>
 ### Installation of gear housing
 
 *(See Removal of gear housing, manual page SR-14.)*

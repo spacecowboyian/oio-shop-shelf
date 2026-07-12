@@ -15,6 +15,7 @@ and the 4A-GE cylinder head through the start of its installation.
 
 ---
 
+<a id="p91"></a>
 ## Cylinder Head (4A-GE) — Installation (continued)
 
 *Continues the 4A-GE cylinder head installation begun in Part 1. Steps 1–2 are on the
@@ -238,8 +239,10 @@ previous pages (EM-46 to EM-48).*
 
 ---
 
+<a id="p98"></a>
 ## Cylinder Head (4A-GZE)
 
+<a id="p98"></a>
 ### Components
 
 *Exploded-view components diagram (page EM-55). The text below lists the parts and the
@@ -270,6 +273,7 @@ snap ring) shown marked on the diagram.
 
 <!-- NEEDS REVIEW: the OCR of the EM-55 components diagram (source p.98) was almost entirely garbled; the parts list and the six torque callouts above were reconstructed by reading the rendered page image. Values verified against the image: cylinder head bolts 1st 300 (22, 29) / 2nd 90° / 3rd 90°, crankshaft pulley 1,400 (101, 137), camshaft timing pulley 475 (34, 47), intake manifold 280 (20, 27), exhaust manifold 250 (18, 25), EGR/vacuum-pipe area 130 (9, 13). -->
 
+<a id="p99"></a>
 ### Removal of Cylinder Head
 
 *(See page EM-55 for component locations.)*
@@ -367,12 +371,14 @@ snap ring) shown marked on the diagram.
     - (c) Remove the three bolts, two nuts, exhaust manifold and gasket.
 38. **REMOVE CAMSHAFT AND CYLINDER HEAD** (See steps 29 to 43 on pages EM-30 to 33)
 
+<a id="p104"></a>
 ### Disassembly, Inspection and Assembly of Cylinder Head
 
 - **DISASSEMBLY OF CYLINDER HEAD** — See pages EM-34, 55.
 - **INSPECTION, CLEANING AND REPAIR OF CYLINDER HEAD COMPONENTS** — See page EM-35.
 - **ASSEMBLY OF CYLINDER HEAD** — See pages EM-45, 55.
 
+<a id="p104"></a>
 ### Installation of Cylinder Head
 
 *(See pages EM-45, 55.)*
@@ -490,8 +496,10 @@ snap ring) shown marked on the diagram.
 
 ---
 
+<a id="p109"></a>
 ## Cylinder Block
 
+<a id="p109"></a>
 ### Components
 
 *Exploded-view components diagram (page EM-66). The text below lists the parts and torque
@@ -514,6 +522,7 @@ Torque callouts on the diagram:
 Legend: `kg-cm (ft-lb, N·m)` = specified torque · Rear Oil Seal, Rear Oil Seal Retainer
 gasket = non-reusable parts.
 
+<a id="p110"></a>
 ### Removal of Engine (4A-GE)
 
 1. **DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY**
@@ -615,6 +624,7 @@ gasket = non-reusable parts.
 40. **REMOVE STARTER** (See page ST-3)
 41. **REMOVE TRANSAXLE FROM ENGINE**
 
+<a id="p116"></a>
 ### Removal of Engine (4A-GZE)
 
 1. **DISCONNECT CABLE FROM NEGATIVE TERMINAL OF BATTERY**
@@ -717,6 +727,7 @@ gasket = non-reusable parts.
 34. **REMOVE STARTER** (See page ST-3)
 35. **REMOVE TRANSAXLE FROM ENGINE**
 
+<a id="p122"></a>
 ### Preparation for Disassembly
 
 1. **(M/T) REMOVE CLUTCH COVER AND DISC**
@@ -734,6 +745,7 @@ gasket = non-reusable parts.
 13. **REMOVE OIL FILTER BRACKETS** (See steps 3 to 6 on pages LU-13, 14)
 14. **REMOVE OIL PAN, STRAINER, BAFFLE PLATE AND OIL PUMP** (See steps 7 to 11 on pages LU-6, 7)
 
+<a id="p123"></a>
 ### Disassembly of Cylinder Block
 
 *(See page EM-66.)*
@@ -899,6 +911,7 @@ gasket = non-reusable parts.
      > - The pilot bearing in the crankshaft rear end is permanently lubricated and requires no
      >   cleaning or lubrication.
 
+<a id="p129"></a>
 ### Inspection of Cylinder Block
 
 1. **REMOVE GASKET MATERIAL** — Using a gasket scraper, remove all gasket material from the
@@ -927,6 +940,7 @@ gasket = non-reusable parts.
 6. **REMOVE CYLINDER RIDGE** — If the wear is less than 0.2 mm (0.008 in.), use a ridge reamer
    to machine the top of the cylinder.
 
+<a id="p130"></a>
 ### Disassembly of Piston and Connecting Rod Assemblies
 
 1. **CHECK FIT BETWEEN PISTON AND PIN** — Try to move the piston back and forth on the piston
@@ -946,6 +960,7 @@ gasket = non-reusable parts.
      > - The piston and pin are a matched set.
      > - Arrange the piston, pins, rings, connecting rods and bearing in correct order.
 
+<a id="p131"></a>
 ### Inspection of Piston and Connecting Rod Assemblies
 
 1. **CLEAN PISTON**
@@ -1074,6 +1089,7 @@ gasket = non-reusable parts.
    - (e) Check the piston pin fit at normal room temperature. Coat the piston pin with engine oil
      and push it into the connecting rod with your thumb.
 
+<a id="p135"></a>
 ### Boring of Cylinders
 
 > **NOTE:**
@@ -1104,6 +1120,7 @@ gasket = non-reusable parts.
 
      > **CAUTION:** Excess honing will destroy the finished roundness.
 
+<a id="p136"></a>
 ### Inspection of Crankshaft
 
 1. **MEASURE CRANKSHAFT FOR RUNOUT**
@@ -1137,6 +1154,7 @@ gasket = non-reusable parts.
    | Crank pin finished diameter | 41.745 – 41.755 mm (1.6435 – 1.6439 in.) |
    | Taper and out-of-round limit | 0.02 mm (0.0008 in.) |
 
+<a id="p137"></a>
 ### Replacement of Rear Oil Seal
 
 > **NOTE:** There are two methods to replace the oil seal depending on whether the rear oil seal
@@ -1164,6 +1182,7 @@ gasket = non-reusable parts.
 
      **SST 09223-41020**
 
+<a id="p138"></a>
 ### Assembly of Piston and Connecting Rod
 
 1. **ASSEMBLE PISTON AND CONNECTING ROD**
@@ -1197,6 +1216,7 @@ gasket = non-reusable parts.
      > **CAUTION:** Install the bearing with the oil hole aligned with the oil hole in the
      > connecting rod.
 
+<a id="p140"></a>
 ### Assembly of Cylinder Block
 
 *(See page EM-66.)*
@@ -1282,6 +1302,7 @@ gasket = non-reusable parts.
    the six bolts.
    - **Torque:** 95 kg-cm (82 in.-lb, 9.3 N·m)
 
+<a id="p143"></a>
 ### Post-Assembly
 
 1. **INSTALL OIL PUMP, BAFFLE PLATE, STRAINER AND OIL PUMP** (See steps 1 to 3 on pages LU-10, 11)
@@ -1304,6 +1325,7 @@ gasket = non-reusable parts.
     - **Torque:** 850 kg-cm (61 ft-lb, 83 N·m)
 14. **(M/T) INSTALL CLUTCH DISC AND COVER** (See page CL-14)
 
+<a id="p144"></a>
 ### Installation of Engine (4A-GE)
 
 1. **INSTALL TRANSAXLE TO ENGINE** — (M/T vehicle) See page MT-96; (A/T vehicle) See page AT-144.
@@ -1453,6 +1475,7 @@ gasket = non-reusable parts.
     smooth operation.
 46. **RECHECK ENGINE COOLANT AND ENGINE OIL LEVELS**
 
+<a id="p150"></a>
 ### Installation of Engine (4A-GZE)
 
 1. **INSTALL TRANSAXLE TO ENGINE** — M/T vehicle (See page MT-96); A/T vehicle (See page AT-144).

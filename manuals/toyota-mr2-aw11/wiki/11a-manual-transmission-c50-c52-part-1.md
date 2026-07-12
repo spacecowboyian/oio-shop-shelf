@@ -6,6 +6,7 @@
 
 Torque is printed in this manual as **kg-cm (ft-lb, N·m)** and transcribed faithfully in that form.
 
+<a id="p418"></a>
 ## Chapter Contents
 
 The manual's own contents listing for the whole Manual Transaxle chapter (manual page codes are for reference only; sections beyond MT-51 are in Part 2):
@@ -37,6 +38,7 @@ The manual's own contents listing for the whole Manual Transaxle chapter (manual
 
 ---
 
+<a id="p419"></a>
 ## Precautions
 
 When working with FIPG material, you must observe the following.
@@ -47,6 +49,7 @@ When working with FIPG material, you must observe the following.
 - Apply the seal packing in approx. 1 mm (0.04 in.) bead along the sealing surface.
 - Parts must be assembled within 10 minutes of application. Otherwise, the packing (FIPG) material must be removed and reapplied.
 
+<a id="p419"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -62,6 +65,7 @@ When working with FIPG material, you must observe the following.
 
 ---
 
+<a id="p420"></a>
 ## Removal of Transaxle
 
 1. **Remove negative battery cable.**
@@ -107,8 +111,10 @@ When working with FIPG material, you must observe the following.
 
 ---
 
+<a id="p424"></a>
 ## C52 Transaxle
 
+<a id="p424"></a>
 ### Transmission — Components
 
 *(Figure: C52 transaxle case exploded view — transaxle case, front bearing retainer, oil seals, speedometer driven gear, oil receiver, magnet, differential case, pinion gear/shaft, ring gear, side bearing, speedometer drive gear — see page image p.424.)*
@@ -137,6 +143,7 @@ Specified torques called out on the component diagrams (`kg-cm (ft-lb, N·m)`):
 
 Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
 
+<a id="p427"></a>
 ### Transmission — Disassembly
 
 *(See the Transmission — Components figures above.)*
@@ -225,6 +232,7 @@ Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
     - (c) Remove the No. 1 and No. 2 shift inner levers, shift interlock plate, select inner lever, compression spring and spring seat.
     - (d) Using two screwdrivers and a hammer, tap out the snap ring from the lever shaft.
 
+<a id="p435"></a>
 ### Transmission — Inspection of Components
 
 1. **Inspect input shaft.**
@@ -312,6 +320,7 @@ Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
     - (e) Apply liquid sealer to the plug threads. **Sealant: Part No. 08833-00080, THREE BOND 1344, LOCTITE 242 or equivalent**
     - (f) Using SST, install the screw plug. **SST 09313-30021**
 
+<a id="p441"></a>
 ### Transmission — Assembly
 
 *(See the Transmission — Components figures above.)*
@@ -503,6 +512,7 @@ Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
 47. **Install back-up light switch.** Using SST, install the back-up light switch. **SST 09817-16011** **Torque: 410 kg-cm (30 ft-lb, 40 N·m)**
 48. **Install speedometer driven gear.**
 
+<a id="p454"></a>
 ### Differential
 
 **Removal of Differential**
@@ -521,8 +531,10 @@ Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
 
 ---
 
+<a id="p455"></a>
 ## E51 Transaxle
 
+<a id="p455"></a>
 ### Components
 
 *(Figure: E51 transaxle case exploded view — transaxle case receiver, speedometer adaptor/driven gear, input shaft front bearing, output shaft cover and front bearing outer race, oil cooler tube/elbow, magnet, oil receiver pipe, selecting bellcrank, shift lever, transmission case and cover — see page image p.455.)*
@@ -550,6 +562,7 @@ Specified torques called out on the component diagrams (`kg-cm (ft-lb, N·m)`):
 
 Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
 
+<a id="p458"></a>
 ### Removal of Component Parts
 
 *(See the E51 Components figures above.)*
@@ -630,6 +643,7 @@ Symbols on the diagrams: ♦ = non-reusable part, ★ = precoated part.
     - (a) Remove the two bolts and oil pipe.
     - (b) Remove the two bolts and oil pump.
 
+<a id="p466"></a>
 ### Inspection of Component Parts
 
 1. **Inspect synchronizer ring for fifth gear.**

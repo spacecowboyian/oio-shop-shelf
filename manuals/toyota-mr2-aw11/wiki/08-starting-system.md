@@ -2,6 +2,7 @@
 
 Covers the starter motor (removal, disassembly, inspection, assembly, performance testing, and installation), the clutch starter relay, and the clutch start switch for the Toyota MR2 (AW11).
 
+<a id="p376"></a>
 ## Troubleshooting
 
 Page references point to the relevant chapter/section: `CH` = [Charging System](09-charging-system.md), `CL` = [Clutch](10-clutch.md), `ST-3` = [Starter](#starter) (this chapter).
@@ -24,14 +25,17 @@ Page references point to the relevant chapter/section: `CH` = [Charging System](
 | Starter spins — engine will not crank | Pinion gear teeth broken or faulty starter | Repair starter | ST-3 |
 | | Flywheel teeth broken | Replace flywheel | |
 
+<a id="p377"></a>
 ## Starter
 
+<a id="p377"></a>
 ### Components
 
 The starter is made up of the magnetic switch assembly, field frame, armature, starter housing, and end cover, joined by two through bolts. The O-rings (end cover and starter housing) are non-reusable parts.
 
 *(Figure: starter exploded / components view — see page image p.377.)*
 
+<a id="p377"></a>
 ### Removal of Starter
 
 1. **Disconnect cable from negative terminal of battery.**
@@ -39,6 +43,7 @@ The starter is made up of the magnetic switch assembly, field frame, armature, s
 3. **Remove starter motor.** Remove the two bolts and the starter motor.
 4. **Remove heat insulator.**
 
+<a id="p378"></a>
 ### Disassembly of Starter
 
 1. **Remove field frame with armature from magnetic switch assembly.**
@@ -57,6 +62,7 @@ The starter is made up of the magnetic switch assembly, field frame, armature, s
    - (d) Pull the brush holder off the field frame.
 6. **Remove armature from field frame.**
 
+<a id="p379"></a>
 ### Inspection of Starter
 
 #### Armature Coil
@@ -126,6 +132,7 @@ Spring installed load: 1.785–2.415 kg (3.9–5.3 lb, 18–24 N)
 1. **Perform pull-in coil open circuit test.** Using an ohmmeter, check for continuity between terminal 50 and terminal C. If there is no continuity, replace the magnetic switch.
 2. **Perform hold-in coil open circuit test.** Using an ohmmeter, check for continuity between terminal 50 and the switch body. If there is no continuity, replace the magnetic switch.
 
+<a id="p383"></a>
 ### Assembly of Starter
 
 > **NOTE:** Use high-temperature grease to lubricate the bearings and gears when assembling the starter.
@@ -151,6 +158,7 @@ Spring installed load: 1.785–2.415 kg (3.9–5.3 lb, 18–24 N)
    - (c) Install the two through bolts.
    - (d) Connect the lead wire to the terminal on the magnetic switch assembly with the nut.
 
+<a id="p385"></a>
 ### Performance Test of Starter
 
 > **CAUTION:** These tests must be performed within 3 to 5 seconds to avoid burning out the coil.
@@ -168,6 +176,7 @@ Spring installed load: 1.785–2.415 kg (3.9–5.3 lb, 18–24 N)
 
      Specified current: Less than 90 A at 11.5 V
 
+<a id="p386"></a>
 ### Installation of Starter
 
 1. **Install heat insulator.**
@@ -177,8 +186,10 @@ Spring installed load: 1.785–2.415 kg (3.9–5.3 lb, 18–24 N)
 3. **Connect two wires to starter.** Connect the connector to the terminal on the magnetic switch. Connect the cable from the battery to the terminal on the switch, and install the nut.
 4. **Connect cable to negative terminal of battery.** Check that the engine starts.
 
+<a id="p386"></a>
 ## Clutch Starter Relay
 
+<a id="p386"></a>
 ### Inspection of Clutch Starter Relay
 
 > **NOTE:** The relay is located in the No. 2 junction block of the engine compartment.
@@ -199,6 +210,7 @@ If continuity is not as specified, replace the relay.
 
 If operation is not as specified, replace the relay.
 
+<a id="p386"></a>
 ## Clutch Start Switch (M/T only)
 
 For inspection and adjustment of the clutch start switch, see [Clutch](10-clutch.md) (page CL-4).

@@ -2,6 +2,7 @@
 
 *Toyota MR2 (AW11) 1988 factory service manual — Charging System (section code `CH`, source pages 387–402). Covers the 4A-GE and 4A-GZE (supercharged) alternators and the engine main relay.*
 
+<a id="p387"></a>
 ## In this chapter
 
 - [Precautions](#precautions)
@@ -18,6 +19,7 @@
 
 ---
 
+<a id="p388"></a>
 ## Precautions
 
 1. Check that the battery cables are connected to the correct terminals.
@@ -27,6 +29,7 @@
 
 ---
 
+<a id="p388"></a>
 ## Troubleshooting
 
 | Problem | Possible cause | Remedy | Page |
@@ -45,8 +48,10 @@
 
 ---
 
+<a id="p389"></a>
 ## On-Vehicle Inspection
 
+<a id="p389"></a>
 ### 1. Check battery specific gravity and electrolyte level
 
 1. Check the specific gravity of each cell.
@@ -56,17 +61,20 @@
    If not within specifications, charge the battery.
 2. Check the electrolyte quantity of each cell. If insufficient, refill with distilled (or purified) water.
 
+<a id="p389"></a>
 ### 2. Check battery terminals and fusible link
 
 1. Check that the battery terminals are not loose or corroded.
 2. Check the fusible links for continuity.
 
+<a id="p389"></a>
 ### 3. Check fuses for continuity
 
 - ENGINE fuse (10 A)
 - CHARGE fuse (5 A)
 - AM₂ (7.5 A)
 
+<a id="p389"></a>
 ### 4. Inspect alternator drive belt
 
 1. Visually check the belt for separation of the adhesive rubber above and below the core, core separation from the belt side, severed core, separation of the rib from the adhesive rubber, cracking or separation of the ribs, torn or worn ribs or cracks in the inner ridges of the ribs.
@@ -88,11 +96,13 @@
 > - "Used belt" refers to a belt which has been used on a running engine for 5 minutes or more.
 > - After installing the drive belt, check that it fits properly in the ribbed grooves.
 
+<a id="p390"></a>
 ### 5. Visually check alternator wiring and listen for abnormal noises
 
 1. Check that the wiring is in good condition.
 2. Check that there are no abnormal noises from the alternator while the engine is running.
 
+<a id="p390"></a>
 ### 6. Check discharge warning light circuit
 
 1. Warm up the engine and then turn it off.
@@ -102,6 +112,7 @@
 
 If the light does not come on and go off as specified, troubleshoot the warning light circuit.
 
+<a id="p390"></a>
 ### 7. Check charging circuit without load
 
 > **NOTE:** If a battery/alternator tester is available, connect the tester to the charging circuit as per the manufacturer's instructions.
@@ -129,6 +140,7 @@ If the light does not come on and go off as specified, troubleshoot the warning 
    - If the voltage reading is greater than standard, replace the IC regulator.
    - If the voltage reading is less than standard, check the alternator.
 
+<a id="p391"></a>
 ### 8. Check charging circuit with load
 
 1. With the engine running at 2,000 rpm, turn on the high beam headlights and place the heater fan control switch at "HI."
@@ -142,14 +154,17 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
 
 ---
 
+<a id="p392"></a>
 ## Alternator
 
+<a id="p392"></a>
 ### Components
 
 *(Figure: 4A-GE alternator exploded view — see page image p.392. Labeled parts: Pulley, Drive End Frame, Front Bearing, Bearing Retainer, Rotor, Rear Bearing, Rear Bearing Cover, Rubber Insulator, Terminal Insulator, Brush Holder, Spring, Brush, IC Regulator, Rectifier Holder, Rear End Frame, Rear End Cover.)*
 
 *(Figure: 4A-GZE alternator exploded view — see page image p.392. Labeled parts: Pulley, Drive End Frame, Front Bearing, Retainer, Rotor, Rear Bearing, Rear Cover Plate, Spring, Brush, Brush Holder, Rectifier Holder, Rear End Frame, Rear Wire, Rear End Cover, Rear Cover.)*
 
+<a id="p393"></a>
 ### Removal of Alternator
 
 1. **Disconnect cable from negative terminal of battery.**
@@ -161,6 +176,7 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
    1. Remove the pivot nut, bolt and adjusting lock bolts.
    2. Remove the alternator.
 
+<a id="p393"></a>
 ### Disassembly of Alternator
 
 *(See [Components](#components).)*
@@ -197,6 +213,7 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
       **SST** 09286-46011
 7. **Remove rotor from drive end frame.**
 
+<a id="p395"></a>
 ### Inspection and Repair of Alternator
 
 #### Rotor
@@ -276,6 +293,7 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
 
       **SST** 09285-76010
 
+<a id="p399"></a>
 ### Assembly of Alternator
 
 *(See [Components](#components).)*
@@ -318,6 +336,7 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
    2. Install the terminal insulator with the nut.
 8. **Make sure rotor rotates smoothly.**
 
+<a id="p401"></a>
 ### Installation of Alternator
 
 1. **Install alternator.** Mount the alternator on the engine bracket with the pivot nut, bolt and adjusting lock bolts. Do not tighten the bolts.
@@ -344,8 +363,10 @@ If the ammeter reading is less than 30 A, repair the alternator (see [Alternator
 
 ---
 
+<a id="p402"></a>
 ## Engine Main Relay
 
+<a id="p402"></a>
 ### Inspection of Engine Main Relay
 
 > **NOTE:** The relay is located in the No. 2 junction block of the engine compartment.

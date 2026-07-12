@@ -14,8 +14,10 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p593"></a>
 ## Direct Clutch (continued from Part 1)
 
+<a id="p593"></a>
 ### Disassembly of direct clutch (continued)
 
 5. **Assemble direct clutch on oil pump and blow out piston**
@@ -24,6 +26,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    - (c) Remove the direct clutch from the oil pump.
 6. **Remove clutch piston O-ring**
 
+<a id="p593"></a>
 ### Inspection of direct clutch
 
 1. **Inspect clutch piston**
@@ -35,6 +38,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
    > **NOTE:** Do not allow the discs to dry out. Prepare new discs by soaking them at least two hours in ATF.
 
+<a id="p593"></a>
 ### Assembly of direct clutch
 
 1. **Install clutch piston in direct clutch drum**
@@ -65,10 +69,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p595"></a>
 ## Forward Clutch
 
 *(Figure: Forward clutch exploded view — piston, drum, O-ring, thrust washer, oil seal ring, race, spring retainer — see page image p.595. "+" marks non-reusable parts.)*
 
+<a id="p595"></a>
 ### Disassembly of forward clutch
 
 1. **Remove thrust bearings and races from both sides of clutch**
@@ -83,6 +89,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 6. **Blow out piston**
    - Apply compressed air into the oil passage to remove the piston. If the piston does not come out, use needle-nose pliers to remove it.
 
+<a id="p596"></a>
 ### Inspection of forward clutch
 
 1. **Inspect clutch piston**
@@ -101,6 +108,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    >
    > **NOTE:** After installing the oil seal rings, check that they move smoothly.
 
+<a id="p597"></a>
 ### Assembly of forward clutch
 
 1. **Install new O-rings on piston**
@@ -132,10 +140,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p598"></a>
 ## No. 1 One-Way Clutch and Sun Gear
 
 *(Figure: No. 1 one-way clutch and sun gear exploded view — sun gear input drum, snap ring, shaft snap ring, sun gear, No. 3 planetary carrier thrust washer, one-way clutch and 2nd brake hub — see page image p.598.)*
 
+<a id="p598"></a>
 ### Disassembly of No. 1 one-way clutch and sun gear
 
 1. **Check operation of one-way clutch**
@@ -149,6 +159,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 5. **Remove shaft snap ring**
    - Using snap ring pliers, remove the shaft snap ring from the sun gear.
 
+<a id="p599"></a>
 ### Assembly of No. 1 one-way clutch and sun gear
 
 1. **Install shaft snap ring to sun gear**
@@ -162,10 +173,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p600"></a>
 ## No. 2 One-Way Clutch and Rear Planetary Gear
 
 *(Figure: No. 2 one-way clutch and rear planetary gear exploded view — side retainers, snap rings, thrust washer, rear planetary gear thrust washer — see page image p.600.)*
 
+<a id="p600"></a>
 ### Disassembly of one-way clutch
 
 1. **Check operation of one-way clutch**
@@ -176,6 +189,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 4. **Remove snap ring on both sides and two side retainers**
 5. **Remove one-way clutch from outer race**
 
+<a id="p600"></a>
 ### Assembly of one-way clutch
 
 1. **Install one-way clutch**
@@ -190,10 +204,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p602"></a>
 ## First and Reverse Brake Piston
 
 *(Figure: First and reverse brake piston exploded view — piston, O-ring, piston return spring, snap ring — see page image p.602. "+" marks non-reusable parts.)*
 
+<a id="p602"></a>
 ### Disassembly of first and reverse brake piston
 
 1. **Compress return springs and remove spring retainer snap ring**
@@ -210,6 +226,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    - (b) If the piston does not pop out with compressed air, use needle-nose pliers to remove it.
 4. **Remove O-rings from piston**
 
+<a id="p603"></a>
 ### Assembly of first and reverse brake piston
 
 1. **Install new O-rings on piston**
@@ -232,10 +249,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p604"></a>
 ## Intermediate Shaft
 
 *(Figure: Intermediate shaft exploded view — oil seal ring, front bearing, rear bearing — see page image p.604.)*
 
+<a id="p604"></a>
 ### Replacement of intermediate shaft front bearing
 
 1. **Remove intermediate shaft front bearing**
@@ -245,6 +264,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    - Using SST, press in a new bearing.
      **SST 09350-32013 (09351-32120)**
 
+<a id="p604"></a>
 ### Replacement of intermediate shaft rear bearing
 
 1. **Remove intermediate shaft rear bearing**
@@ -257,10 +277,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p606"></a>
 ## Counter Shaft
 
 *(Figure: Counter shaft exploded view — drive pinion with output flange, counter shaft, snap ring, outer/inner races, bearing, needle bearings, UD brake piston, anti-rattle clip, lock nut — see page image p.606. Lock nut: see [Adjustment of counter shaft preload](#adjustment-of-counter-shaft-preload). "+" marks non-reusable parts.)*
 
+<a id="p606"></a>
 ### Disassembly of counter shaft
 
 1. **Remove bearing**
@@ -291,6 +313,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 18. **Blow out piston**
     - Apply compressed air into the oil passage to remove the piston. If the piston does not come out, use needle-nose pliers to remove it.
 
+<a id="p609"></a>
 ### Inspection of underdrive unit
 
 1. **Inspect underdrive clutch piston**
@@ -300,6 +323,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    - Check that the sliding surface of the disc is not worn or burnt. If the disc is worn or burnt, replace all discs.
    - Then check that the sliding surfaces of the plate and flange are not worn or burnt. If necessary, replace them.
 
+<a id="p610"></a>
 ### Assembly of counter shaft
 
 1. **Install new O-rings on piston**
@@ -360,6 +384,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 22. **Install thrust bearing to counter driven gear**
     - Coat the thrust bearing with petroleum jelly and install it onto the counter driven gear.
 
+<a id="p613"></a>
 ### Adjustment of counter shaft preload
 
 1. **Temporarily install counter driven gear**
@@ -385,10 +410,12 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p614"></a>
 ## Valve Body
 
 *(Figure: Valve body exploded view — upper valve body, gaskets, plates, lower valve body, lower valve body cover — see page image p.614. "+" marks non-reusable parts.)*
 
+<a id="p614"></a>
 ### Disassembly of valve body
 
 1. **Remove solenoid valves**
@@ -403,6 +430,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
    > **NOTE:** Be careful of the strainer, by-pass valve and pressure relief valve.
 5. **Watch for check balls, retainer, keys and pins in valve body**
 
+<a id="p616"></a>
 ### Upper Valve Body
 
 *(Figure: Upper valve body valve/spring layout — throttle modulator valve, throttle valve sleeve, cut-back valve, low-coast modulator valve, release valve, lock-up relay valve sleeve, plunger sleeve, primary regulator valve/plunger/sleeve, manual valve plug, check ball, strainer — see page image p.616.)*
@@ -504,6 +532,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 16. **Install throttle valve retainer, six check balls and two strainers**
     - Coat the throttle valve retainer with petroleum jelly, then install the throttle valve retainer, six check balls and two strainers.
 
+<a id="p624"></a>
 ### Lower Valve Body
 
 *(Figure: Lower valve body valve/spring layout — 2-3 shift valve, 1-2 shift valve, 3-4 shift valve, lock-up signal valve, by-pass valve, pressure relief valve, strainer — see page image p.624.)*
@@ -568,6 +597,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 8. **Install pressure relief valve and spring**
 9. **Install strainer**
 
+<a id="p628"></a>
 ### Assembly of valve body
 
 1. **Position new gaskets and plate on upper valve body**
@@ -600,6 +630,7 @@ Recommended fluid throughout is **ATF DEXRON® II**.
 
 ---
 
+<a id="p630"></a>
 ## Assembly of Transmission
 
 See the tightening/layout figures on manual pages AT-50 to AT-52 (in
@@ -620,6 +651,7 @@ assembly of each component group are covered in the preceding sections.
 7. Dry all parts by blowing with compressed air. Never use shop rags.
 8. Be sure to install the thrust bearings and races in the correct direction and position.
 
+<a id="p631"></a>
 ### Assembly procedure
 
 1. **Install bearing to transaxle housing**
@@ -932,10 +964,12 @@ assembly of each component group are covered in the preceding sections.
 
 ---
 
+<a id="p652"></a>
 ## Differential
 
 *(Figure: Differential components exploded view — shim, outer race, ring gear, transaxle case, differential case, transaxle housing, side gears, pinion gears, pinion shaft, thrust washers — see page image p.652. "kg-cm (ft-lb, N·m)" = specified torque.)*
 
+<a id="p653"></a>
 ### Removal of differential
 
 1. **Remove speedometer driven gear**
@@ -945,6 +979,7 @@ assembly of each component group are covered in the preceding sections.
 4. **Remove transaxle housing** — see manual page AT-63 (Part 1).
 5. **Remove differential**
 
+<a id="p654"></a>
 ### Replacement of differential
 
 1. **Replace side bearing from differential case**
@@ -968,6 +1003,7 @@ assembly of each component group are covered in the preceding sections.
 
      > **NOTE:** Stake one claw flush with the flat surface of the nut. For the claw contacting the protruding portion of the nut, stake only the half on the tightened side.
 
+<a id="p655"></a>
 ### Replacement of oil seal and outer race
 
 1. **Replace LH oil seal**
@@ -999,6 +1035,7 @@ assembly of each component group are covered in the preceding sections.
    - (e) Install a new oil seal.
    - (f) Coat the lip of the oil seal with MP grease.
 
+<a id="p657"></a>
 ### Adjustment of differential case
 
 1. **Check side gear backlash**
@@ -1031,6 +1068,7 @@ assembly of each component group are covered in the preceding sections.
      1. Using a hammer and a punch, drive the lock pin through the case and hole in the pinion shaft.
      2. Stake the differential case.
 
+<a id="p659"></a>
 ### Adjustment of differential side bearing preload
 
 1. **Remove ring gear from differential** — see [Replacement of ring gear](#replacement-of-differential).
@@ -1079,6 +1117,7 @@ assembly of each component group are covered in the preceding sections.
    - (b) Remove the differential from the transaxle case.
 6. **Install ring gear to differential case** — see [Replace ring gear](#replacement-of-differential).
 
+<a id="p661"></a>
 ### Installation of differential
 
 1. **Install differential**
@@ -1096,6 +1135,7 @@ assembly of each component group are covered in the preceding sections.
 
 ---
 
+<a id="p662"></a>
 ## Installation of Transaxle
 
 1. **Install torque converter in transmission**

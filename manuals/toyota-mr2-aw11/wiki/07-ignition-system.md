@@ -4,6 +4,7 @@
 
 Related: 4A-GE engine internals are shared with the repo's [4A-FE / 4A-GE engine manual](../../toyota-4a-fe-4a-ge/wiki/02-service-specifications.md) (see its Ignition — Service Data section) — that manual lists slightly different ignition service-data values for its application; use the AW11 values below for the AW11 chassis.
 
+<a id="p363"></a>
 ## In this chapter
 
 - [Precautions](#precautions) (IG-2)
@@ -23,6 +24,7 @@ Related: 4A-GE engine internals are shared with the repo's [4A-FE / 4A-GE engine
 
 ---
 
+<a id="p364"></a>
 ## Precautions
 
 1. Do not keep the ignition switch on for more than 10 minutes if the engine will not start.
@@ -36,6 +38,7 @@ Related: 4A-GE engine internals are shared with the repo's [4A-FE / 4A-GE engine
 
 ---
 
+<a id="p364"></a>
 ## Troubleshooting
 
 The "Page" column reproduces the manual's own IG-page cross-references to the remedy procedure.
@@ -68,10 +71,12 @@ The "Page" column reproduces the manual's own IG-page cross-references to the re
 
 ---
 
+<a id="p365"></a>
 ## Electronic Spark Advance (ESA)
 
 The ECU is programmed with data for optimum ignition timing under any and all operating conditions. Using data provided by sensors that monitor various engine functions (rpm, intake air volume, engine temperature, etc.), the microcomputer (ECU) triggers the spark at precisely the right instant.
 
+<a id="p365"></a>
 ### ESA system circuit
 
 *(Figure: ESA system circuit — see source page image p.365 / IG-3.)*
@@ -87,8 +92,10 @@ Circuit nodes and labels, transcribed from the diagram:
 
 ---
 
+<a id="p366"></a>
 ## On-Vehicle Inspection
 
+<a id="p366"></a>
 ### Spark test
 
 **Check that spark occurs:**
@@ -112,6 +119,7 @@ If the spark does not occur, perform the following diagnostic sequence. At each 
 | 7 | IG6 signal from ECU <!-- NEEDS REVIEW: printed as "IG6" on IG-4 (source p.366); page image is not clearer than the OCR. Almost certainly the IGT signal — the ECU ignition-trigger output to the igniter, labeled "IGT" in the ESA circuit on IG-3. Kept as printed per Rule 0. --> | Signal present | Check wiring between ECU and distributor; only then try another ECU |
 | 8 | Try another igniter | — | — |
 
+<a id="p367"></a>
 ### High-tension cord — inspection
 
 1. **Carefully remove the high-tension cords by their rubber boots.**
@@ -120,6 +128,7 @@ If the spark does not occur, perform the following diagnostic sequence. At each 
    - Maximum resistance: **25 kΩ per cord**
    - If more than maximum, check the terminals, and replace the high-tension cord and/or distributor cap as required.
 
+<a id="p367"></a>
 ### Spark plug — inspection
 
 **(Platinum-tipped spark plug)**
@@ -157,6 +166,7 @@ If the spark does not occur, perform the following diagnostic sequence. At each 
 6. **Install spark plugs.** Using a plug wrench (16 mm), install and torque the spark plugs.
    - Torque: **180 kg-cm (13 ft-lb, 18 N·m)**
 
+<a id="p369"></a>
 ### Ignition coil — inspection
 
 1. **Disconnect the high-tension cords from the ignition coil.**
@@ -165,6 +175,7 @@ If the spark does not occur, perform the following diagnostic sequence. At each 
 3. **Inspect secondary coil resistance.** Using an ohmmeter, measure the resistance between the positive (+) terminal and the high-tension terminal.
    - Secondary coil resistance (cold): **11–16 kΩ**
 
+<a id="p369"></a>
 ### Distributor — inspection
 
 1. **Inspect air gaps.** Using a feeler gauge, measure the gap between the signal rotor and pickup coil projection.
@@ -189,8 +200,10 @@ If the spark does not occur, perform the following diagnostic sequence. At each 
 
 ---
 
+<a id="p371"></a>
 ## Distributor
 
+<a id="p371"></a>
 ### Components
 
 *(Figure: distributor exploded view — see source page image p.371 / IG-9.)*
@@ -207,6 +220,7 @@ Components, transcribed from the diagram:
 
 > **NOTE:** `+` marks a non-reusable part.
 
+<a id="p371"></a>
 ### Removal of distributor
 
 1. Disconnect the high-tension cords from the cylinder head and ignition coil.
@@ -215,6 +229,7 @@ Components, transcribed from the diagram:
 4. Pull out the distributor from the cylinder head.
 5. Remove the O-ring.
 
+<a id="p372"></a>
 ### Driven gear — replacement
 
 **Replacement of distributor driven gear:**
@@ -232,6 +247,7 @@ Components, transcribed from the diagram:
    - (b) Align the drilled mark on the new driven gear with the cavity of the housing.
    - (c) Using a hammer, install a new pin.
 
+<a id="p372"></a>
 ### Installation and ignition-timing adjustment
 
 1. **Set No. 1 cylinder to TDC/compression.**

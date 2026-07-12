@@ -12,8 +12,10 @@ Part 2.*
 
 ---
 
+<a id="p175"></a>
 ## Emission Control Systems
 
+<a id="p176"></a>
 ### System Purpose
 
 | System | Abbreviation | Purpose |
@@ -28,6 +30,7 @@ Part 2.*
 > \* For inspection and repair of the EFI system, refer to the [EFI System](#efi-system)
 > section.
 
+<a id="p177"></a>
 ### Component Layout and Schematic Drawing
 
 *(Figure: emission-control component layout and vacuum schematic, 4A-GE — EGR vacuum
@@ -39,6 +42,7 @@ sensor, TWC — see page images p.177 (EC-3).)*
 modulator, EGR gas temp. sensor (Calif. only), charcoal canister, EGR valve — see page
 image p.178 (EC-4).)*
 
+<a id="p179"></a>
 ### Positive Crankcase Ventilation (PCV) System
 
 To reduce HC emissions, crankcase blow-by gas (HC) is routed to the intake manifold for
@@ -51,6 +55,7 @@ see page image p.179 (EC-5).)*
 
 1. **Visually inspect hoses, connections and gaskets.** Check for cracks, leaks or damage.
 
+<a id="p180"></a>
 ### Fuel Evaporative Emission Control (EVAP) System
 
 To reduce HC emissions, evaporated fuel from the fuel tank is routed through the charcoal
@@ -109,6 +114,7 @@ check valve in cap, charcoal canister, fuel tank — see page image p.180 (EC-6)
 7. Apply liquid sealer to the threads of the BVSV and reinstall.
 8. Fill the cylinder block with coolant.
 
+<a id="p182"></a>
 ### Dash Pot (DP) System
 
 *(4A-GE only)*
@@ -145,6 +151,7 @@ deceleration — see page image p.182 (EC-8).)*
 6. **Check VTV operation.** Race the engine at **2,500 rpm** for a few seconds, release
    the throttle valve and check that the engine returns to idle in a few seconds.
 
+<a id="p184"></a>
 ### Exhaust Gas Recirculation (EGR) System (4A-GE)
 
 To reduce NOx emissions, part of the exhaust gases are recirculated through the EGR valve
@@ -263,6 +270,7 @@ distributor, pressure chamber from exhaust manifold — see page images p.184–
 
 > If a problem is found, replace the check valve.
 
+<a id="p190"></a>
 ### Exhaust Gas Recirculation (EGR) System (4A-GZE)
 
 To reduce NOx emissions, part of the exhaust gases are recirculated through the EGR valve
@@ -366,6 +374,7 @@ See EFI System — Water Temperature Sensor (manual page FI-116; in Part 2).
 
 See EFI System — Air Flow Meter (manual page FI-94; in Part 2).
 
+<a id="p195"></a>
 ### Three-Way Catalyst (TWC) System
 
 To reduce HC, CO and NOx emissions, they are oxidized, reduced and converted to nitrogen
@@ -413,8 +422,10 @@ that it contacts the catalyst, repair or replace.
 
 ---
 
+<a id="p197"></a>
 ## EFI System
 
+<a id="p198"></a>
 ### Description
 
 The EFI system is composed of 3 basic subsystems: Fuel Induction, Air Induction and
@@ -463,6 +474,7 @@ By the ECU, the TCCS controls the following functions:
    over to provide minimal drivability. Simultaneously the "CHECK ENGINE" warning light is
    activated.
 
+<a id="p201"></a>
 ### Precautions
 
 1. Before working on the fuel system, disconnect the negative terminal from the battery.
@@ -472,6 +484,7 @@ By the ECU, the TCCS controls the following functions:
 2. Do not smoke or work near an open flame when working on the fuel system.
 3. Keep gasoline off rubber or leather parts.
 
+<a id="p201"></a>
 ### Inspection Precautions
 
 #### Maintenance precautions
@@ -584,6 +597,7 @@ feeder are installed nearby. Therefore, observe the following precautions:
 
       > **CAUTION:** Always pinch the hose. Avoid bending as it may cause the hose to crack.
 
+<a id="p205"></a>
 ### Troubleshooting
 
 #### Troubleshooting hints
@@ -737,6 +751,7 @@ areas in the "Inspect if BAD/NO" column.
 | 10 | Check air control valve (4A-GE) — check if air control valve is open with engine running at **4,350 rpm** or above | VSV for air control valve |
 | 11 | Check EFI electronic circuit using volt/ohmmeter (FI-33 or 48) | 1. Wiring connection. 2. Power to computer (ECU) — (1) fusible link, (2) fuses, (3) EFI main relay. 3. Air flow meter. 4. Water temp. sensor. 5. Air temp. sensor (in air flow meter). 6. Throttle position sensor. 7. Injection signal circuit — (1) injector wirings, (2) computer (ECU), (3) resistor (4A-GZE) |
 
+<a id="p217"></a>
 ### Diagnosis System
 
 #### Description
@@ -877,6 +892,7 @@ connector, ECU terminals +B, B1, W, T, E1 — see page image p.219 (FI-28).)*
 | 3 | Does "CHECK ENGINE" warning light go OFF when the engine is started? | YES | System normal — cancel out diagnosis code (if any recorded) |
 | 3 | Does "CHECK ENGINE" warning light go OFF when the engine is started? | NO | A malfunction is present — read and repair the diagnostic code, then cancel it out |
 
+<a id="p225"></a>
 ### Troubleshooting with Volt/Ohmmeter (4A-GE)
 
 #### Preparation of troubleshooting
@@ -948,6 +964,7 @@ terminal of the wiring connector.
 | 10 | IGT – E1 | 0.7 – 1.0 | Idling | FI-44 |
 | 11 | A/C – E1 | 5 – 14 | Air conditioning ON | FI-45 |
 
+<a id="p227"></a>
 ### Troubleshooting with Volt/Ohmmeter (4A-GZE)
 
 #### Preparation of troubleshooting
@@ -1018,6 +1035,7 @@ terminal of the wiring connector.
 | 11 | RSC / RSO – E1 | 9 – 14 | Ignition S/W ON | FI-60 |
 | 12 | A/C – E1 | 5 – 14 | Air conditioning ON | FI-61 |
 
+<a id="p229"></a>
 ### Troubleshooting EFI Electronic Circuit with Volt/Ohmmeter (4A-GE)
 
 > **NOTE:** The following troubleshooting procedures are designed for inspection of each
@@ -1183,6 +1201,7 @@ part of this flow.)
 | 3 | Check wiring between ECU terminal E1 and body ground | Check EGR system | if BAD, repair or replace |
 | 4 | Check EGR gas temp. sensor | Check wiring between ECU and EGR gas temp. sensor; if OK try another ECU, if BAD repair or replace | Replace EGR gas temp. sensor |
 
+<a id="p244"></a>
 ### Troubleshooting EFI Electronic Circuit with Volt/Ohmmeter (4A-GZE)
 
 > **NOTE:** The following troubleshooting procedures are designed for inspection of each
@@ -1358,6 +1377,7 @@ only" note applies to that branch.)
 | 3 | Check wiring between ECU terminal E1 and body ground | Check EGR system | if BAD, repair or replace |
 | 4 | Check EGR gas temp. sensor | Check wiring between ECU and EGR gas temp. sensor; if OK try another ECU, if BAD repair or replace | Replace EGR gas temp. sensor |
 
+<a id="p260"></a>
 ### Fuel System
 
 *This section begins the Fuel System component procedures, which continue in
