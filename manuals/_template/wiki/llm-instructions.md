@@ -2,6 +2,11 @@
 
 Guidance for AI assistants answering questions from this manual wiki.
 
+> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
+> this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md) (generated
+> by `scripts/09_link_index.py`). See the repo-root
+> [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing fails.
+
 ## What this is
 
 A transcription of a scanned OEM service manual into structured markdown. One file per

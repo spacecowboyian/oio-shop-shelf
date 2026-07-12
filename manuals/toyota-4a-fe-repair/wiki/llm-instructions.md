@@ -4,6 +4,11 @@ Manual-specific guidance. Read this before answering from this manual. Also read
 root `llm-instructions.md` and `glossary.md`, and answer following the **auto-mechanic**
 rules (never invent/adjust a spec value, cite the source page).
 
+> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
+> this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the
+> repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing
+> fails and how to navigate by raw URL.
+
 **This is a 4A-FE manual.** Toyota's cover titles it "4A-FE, 4A-GE," but the 4A-GE content
 is incidental and insufficient for a 4A-GE repair. Answer 4A-GE questions only from the
 handful of explicitly `(4A-GE)`-tagged items, and say plainly that this manual doesn't

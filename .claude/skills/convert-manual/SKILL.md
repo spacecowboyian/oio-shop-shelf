@@ -124,11 +124,19 @@ per model and tag each entry (issue #9).
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
+python scripts/09_link_index.py                       # all-files.md + repo-root MANUALS.md
 ```
 
-Generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
+`05` generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
 alphabetical index. (The 4A-GE reference ships hand-curated richer indexes; new
 manuals start from the generated ones.)
+
+`09` generates the **absolute-URL** navigation that web-fetch-only agents need:
+`manuals/<slug>/wiki/all-files.md` (every file as a `raw.githubusercontent.com` link) and
+the repo-root `MANUALS.md`. This is what lets an assistant with no shell and no GitHub MCP
+reach the wiki at all — GitHub blocks automated crawling of `/tree/` folder pages, so
+relative paths and folder browsing dead-end; the raw-URL lists don't. Run it any time files
+are added/renamed (it's idempotent; repo/branch auto-detected from the git remote).
 
 ## 6 — Bake the index into the PDF
 
