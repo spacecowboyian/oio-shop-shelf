@@ -644,3 +644,27 @@ diagrams:
     depth: gray
     caption: "King-pin bush refitting (references B, D; hand extractor E, F, G) and the in-line bush reaming setup"
     safety_relevant: false
+  - page: 307
+    file: "diagrams/p0307-rear-axle-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear axle location on the vehicle — rear swing-axle / half-shaft tubes cut into the body outline (J-3)"
+    safety_relevant: false
+  - page: 308
+    file: "diagrams/p0308-half-shaft-tube-removal-checking.webp"
+    kind: exploded
+    depth: gray
+    caption: "Half shaft tube — removal (strap, shock-absorber points, half-shell nuts) and checking on gauge TAr.56A showing dimension D between each trunnion and the gauge (J-4)"
+    safety_relevant: true
+  - page: 309
+    file: "diagrams/p0309-half-shaft-tube-lh-mounting-pads.webp"
+    kind: exploded
+    depth: gray
+    caption: "Left-hand half shaft tube removal, side mounting pad, and right-hand mounting-pad replacement (J-5)"
+    safety_relevant: false
+  - page: 310
+    file: "diagrams/p0310-mounting-pad-universal-joint.webp"
+    kind: exploded
+    depth: gray
+    caption: "Left-hand mounting pad and the rear-axle universal joint exploded view (closed yoke type) (J-6)"
+    safety_relevant: false
