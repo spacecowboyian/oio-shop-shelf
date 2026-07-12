@@ -78,17 +78,26 @@ def main() -> int:
     ap.add_argument("source_pdf", type=Path)
     ap.add_argument("manual_dir")
     ap.add_argument("--force", action="store_true", help="OCR even if a text layer exists")
+    ap.add_argument("--language", help="tesseract language code(s), e.g. 'eng' or 'eng+deu'. "
+                                       "Overrides the manifest; use it when running before the "
+                                       "manifest exists and the manual isn't English.")
     args = ap.parse_args()
 
     require_tools("pdffonts", "pdftotext", "pdfinfo")
-    mdir = manual_dir(args.manual_dir)
-    manifest = load_manifest(mdir)
+    # 01 can run before the manifest is authored — you often want the OCR'd text
+    # first so you can read the manual's own table of contents while writing the
+    # chapter page ranges. So the manifest is optional here (defaults: eng, no force).
+    mdir = manual_dir(args.manual_dir, require_manifest=False)
+    manifest = load_manifest(mdir, required=False)
+    if not manifest:
+        print("No manifest.yml yet — using defaults (lang=eng, no force). "
+              "Author the manifest next; 01 only needs the source PDF + this directory.")
     if not args.source_pdf.is_file():
         sys.exit(f"Source PDF not found: {args.source_pdf}")
 
     ocr_cfg = manifest.get("ocr", {}) or {}
     force = args.force or bool(ocr_cfg.get("force"))
-    lang = ocr_cfg.get("language", "eng")
+    lang = args.language or ocr_cfg.get("language") or "eng"
 
     prepared = mdir / "prepared.pdf"
     raw_dir = mdir / "raw-ocr"
