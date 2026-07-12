@@ -87,10 +87,19 @@ def main() -> int:
         for rm in REVIEW_RE.finditer("\n".join(lines)):
             reviews.append((f.name, rm.group(1).strip()))
 
-    # 00-index.md
-    idx = ["# Index — " + manifest["title"], "", "## Chapters", ""]
+    # 00-index.md — chapter TABLE with source page ranges (from the manifest).
+    # The table form is both human-readable AND parseable by 08_append_index_pages.py,
+    # which reads the chapter title + start page to build the baked-in clickable index.
+    chap_meta = {c.get("file"): c for c in manifest.get("chapters", [])}
+    idx = ["# Index — " + manifest["title"], "", "## Chapters", "",
+           "| Section | Chapter | Source pages |",
+           "| ------- | ------- | ------------ |"]
     for name, title in toc_rows:
-        idx.append(f"- [{title}]({name})")
+        c = chap_meta.get(name, {})
+        code = c.get("section_code", "") or ""
+        ps, pe = c.get("page_start"), c.get("page_end")
+        pages = f"{ps}–{pe}" if ps and pe else ""
+        idx.append(f"| {code} | [{title}]({name}) | {pages} |")
     idx += ["", "## Reference", "",
             "- [Quick Reference (specs)](09-quick-reference.md)",
             "- [Needs Review](10-needs-review.md)",
