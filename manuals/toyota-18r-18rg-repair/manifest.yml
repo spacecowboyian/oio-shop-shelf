@@ -1,0 +1,92 @@
+# Toyota 18R / 18R-C / 18R-G engine repair manual (© Toyota Motor Corporation, 1983).
+# Source is 13 per-chapter scan PDFs from a public Google Drive folder, merged in
+# section order into a single source.pdf (335 pages). See README.md for provenance.
+
+slug: toyota-18r-18rg-repair
+title: "Toyota 18R / 18R-C / 18R-G Engine Repair Manual"
+
+source:
+  type: local
+  location: "source.pdf"
+  pages: 335
+
+rights: >
+  Original manual © Toyota Motor Corporation (1983). Both the derived markdown and the
+  merged source PDF are committed without a license from Toyota — a considered risk,
+  not an oversight. See CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: false
+
+render:
+  dpi: 200
+
+# 1-based inclusive source-PDF page ranges = cumulative page offsets of the 13 merged
+# chapter scans. The manual's own printed page numbers are per-section (e.g. "5-1").
+chapters:
+  - file: "00-front.md"
+    section_code: "00"
+    title: "Front Matter — Foreword & Section Index"
+    page_start: 1
+    page_end: 5
+  - file: "01-general.md"
+    section_code: "1"
+    title: "General — Repair Instructions, Abbreviations, Symbols"
+    page_start: 6
+    page_end: 9
+  - file: "02-18r-engine-tune-up.md"
+    section_code: "2"
+    title: "18R Engine Tune-Up"
+    page_start: 10
+    page_end: 29
+  - file: "03-18r-g-engine-tune-up.md"
+    section_code: "3"
+    title: "18R-G Engine Tune-Up"
+    page_start: 30
+    page_end: 58
+  - file: "04-18r-engine-service.md"
+    section_code: "4"
+    title: "18R Engine Service"
+    page_start: 59
+    page_end: 109
+  - file: "05-18r-g-engine-service.md"
+    section_code: "5"
+    title: "18R-G Engine Service"
+    page_start: 110
+    page_end: 153
+  - file: "06-lubrication-system.md"
+    section_code: "6"
+    title: "Lubrication System"
+    page_start: 154
+    page_end: 162
+  - file: "07-cooling-system.md"
+    section_code: "7"
+    title: "Cooling System"
+    page_start: 163
+    page_end: 175
+  - file: "08-fuel-system.md"
+    section_code: "8"
+    title: "Fuel System (Fuel Pump & Carburetor)"
+    page_start: 176
+    page_end: 239
+  - file: "09-starting-system.md"
+    section_code: "9"
+    title: "Starting System"
+    page_start: 240
+    page_end: 257
+  - file: "10-ignition-system.md"
+    section_code: "10"
+    title: "Ignition System"
+    page_start: 258
+    page_end: 284
+  - file: "11-charging-system.md"
+    section_code: "11"
+    title: "Charging System"
+    page_start: 285
+    page_end: 312
+  - file: "12-sst-and-service-specifications.md"
+    section_code: "12"
+    title: "SST & Service Specifications"
+    page_start: 313
+    page_end: 335

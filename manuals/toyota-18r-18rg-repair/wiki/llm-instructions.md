@@ -1,0 +1,32 @@
+# LLM instructions — Toyota 18R / 18R-C / 18R-G Engine Repair Manual
+
+Guidance for AI assistants answering questions from this manual wiki.
+
+> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
+> this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the
+> repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing
+> fails and how to navigate by raw URL.
+
+## What this is
+
+A transcription of a scanned OEM service manual into structured markdown. One file per
+chapter (see `00-index.md`). Specs are consolidated in `09-quick-reference.md`; an
+alphabetical topic index is in the `11*-alphabetical-index.md` files.
+
+## Rules when answering from this wiki
+
+- **Grep first, escalate to the alphabetical index only when grep is too noisy.** For a
+  specific spec value, code, part number, or exact procedure name, `grep` across the
+  chapter files — it almost always lands you on the right passage in one hop. Escalate
+  to `11*-alphabetical-index.md` when the term is a common component/system name that
+  turns up in many unrelated contexts and you can't quickly tell which hit is relevant —
+  the index pre-splits common terms into disambiguated sub-topic entries.
+- **Cite the chapter file and anchor** you drew an answer from.
+- **Never invent or "correct" a numeric spec.** If a value carries a
+  `<!-- NEEDS REVIEW: ... -->` comment, surface that uncertainty to the user rather than
+  presenting the number as confirmed. Unresolved flags are marked inline with `<!-- NEEDS REVIEW: ... -->` comments in the chapter.
+- Prefer `09-quick-reference.md` for torque / voltage / resistance / clearance lookups.
+- If the wiki does not contain the answer, say so — do not fall back to general training
+  knowledge for model-specific specs or procedures.
+- Torque, gap, clearance, and capacity values are safety-relevant. Encourage the user to
+  confirm against the original manual before performing work.
