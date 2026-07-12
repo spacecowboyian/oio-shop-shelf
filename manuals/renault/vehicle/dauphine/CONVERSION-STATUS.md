@@ -57,8 +57,8 @@ Consequences to reconcile before committing D:
 - [x] G steering (p269–286) — DONE. 8 diagrams (box section, pinion/flange & rack exploded views, pinion end-play adjustment, links, column, steering lock). Page-map offset clean +267. All 18 images opened; every geometry/pre-load/torque verified. 4 flags (1 safety torque corrected from image). 
 - [x] H front axle (p287–305) — DONE. 11 diagrams, ~15 images, 1 flag (camber/castor label).
 - [x] J rear axle (p306–310) — DONE. 4 diagrams, 5 images, 0 flags.
-- [~] K wheels-hubs-drums (p311–332) — NEXT
-- [ ] L suspension-shock-absorbers (p333–353)
+- [x] K wheels-hubs-drums (p311–332) — DONE. 7 diagrams, 22 images, 3 flags (source misprints).
+- [~] L suspension-shock-absorbers (p333–353) — NEXT
 - [ ] M bodywork (p354–436) — LARGE, figure-heavy
 - [ ] N heater (p437–449)
 - [ ] P special tools (p450–479) — catalogue; render as ref#→description TABLE, don't image-dump

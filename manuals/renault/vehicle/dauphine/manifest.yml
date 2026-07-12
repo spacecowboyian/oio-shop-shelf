@@ -668,3 +668,45 @@ diagrams:
     depth: gray
     caption: "Left-hand mounting pad and the rear-axle universal joint exploded view (closed yoke type) (J-6)"
     safety_relevant: false
+  - page: 313
+    file: "diagrams/p0313-hub-cross-sections.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front (46 248.2) and rear (46 249.2) hub cross-sections — 5-hole star member wheels"
+    safety_relevant: false
+  - page: 315
+    file: "diagrams/p0315-front-hub-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front hub-drum bearing assembly exploded view (bolts, bearing stop, baffle washer, bearings, track rings, hub-drum)"
+    safety_relevant: false
+  - page: 319
+    file: "diagrams/p0319-rear-hub-bearing-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rear hub bearing and seal exploded view (46 262) and bearing-cover cross-section (46 249 A)"
+    safety_relevant: false
+  - page: 321
+    file: "diagrams/p0321-3hole-hub-cross-sections.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front and rear hub cross-sections with taper-washer detail (63147) — 3-hole dished type wheels"
+    safety_relevant: false
+  - page: 325
+    file: "diagrams/p0325-brake-anchor-plate-types.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front brake anchor plate types: straight fixed points D (53246-1) and inclined fixed points F (53245-1)"
+    safety_relevant: true
+  - page: 330
+    file: "diagrams/p0330-rear-hub-bearing-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rear hub bearing and seal cross-section (51928-2) — nuts B, nut C and nylon-cage bearing orientation A"
+    safety_relevant: true
+  - page: 331
+    file: "diagrams/p0331-buckle-eccentricity-gauge.webp"
+    kind: chart
+    depth: mono
+    caption: "Wheel-rim buckle and eccentricity check — dial-indicator points V (buckle) and E/E1 (eccentricity)"
+    safety_relevant: false
