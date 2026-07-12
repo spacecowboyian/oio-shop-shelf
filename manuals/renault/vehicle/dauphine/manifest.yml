@@ -776,3 +776,81 @@ diagrams:
     depth: gray
     caption: "Half shaft movement limiter — installed photo (48429-2) and section (48430-1) with setting dimension A = 161 mm"
     safety_relevant: false
+  - page: 356
+    file: "diagrams/p0356-main-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Main dimensions (unladen) — side, front, plan and rear views with dimensions 1–23"
+    safety_relevant: false
+  - page: 357
+    file: "diagrams/p0357-floor-section-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Floor section — exploded view of side members, cross members and brackets (parts 1–12, stiffeners A)"
+    safety_relevant: false
+  - page: 358
+    file: "diagrams/p0358-floor-section-checking-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Floor section checking dimensions — plan (A–N) and side elevation (O–AB)"
+    safety_relevant: true
+  - page: 360
+    file: "diagrams/p0360-trammel-gauge-check-points.webp"
+    kind: chart
+    depth: mono
+    caption: "Trammel-gauge check points on the whole vehicle (A/A', B/B', C/C', D/D' referenced to pilot holes P.1, P.2, P.3) and centre floor underside"
+    safety_relevant: true
+  - page: 368
+    file: "diagrams/p0368-jig-bench-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Combined checking and repair jig bench — elevation and plan with dimensions A–R"
+    safety_relevant: true
+  - page: 377
+    file: "diagrams/p0377-front-cross-member-identification.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front cross member identification — the two cross-member types and spring-cup features (dimensions A–D)"
+    safety_relevant: false
+  - page: 382
+    file: "diagrams/p0382-side-member-section-brackets.webp"
+    kind: chart
+    depth: mono
+    caption: "Side member section (dimensions A–F) and stiffening-bracket drawings (1) and (2) with dimensions A–J"
+    safety_relevant: false
+  - page: 387
+    file: "diagrams/p0387-body-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Body components — exploded views of the detachable components and the superstructure outer panels"
+    safety_relevant: false
+  - page: 388
+    file: "diagrams/p0388-inner-panels-straightening.webp"
+    kind: exploded
+    depth: mono
+    caption: "Inner bodywork panels — exploded view (parts 1–12) and door-surround straightening dimensions A–L"
+    safety_relevant: false
+  - page: 404
+    file: "diagrams/p0404-door-lid-clearances.webp"
+    kind: chart
+    depth: mono
+    caption: "Door and lid clearance arrangement — side view with section figures 1–12 and clearances A–F"
+    safety_relevant: false
+  - page: 405
+    file: "diagrams/p0405-door-lid-clearance-sections.webp"
+    kind: chart
+    depth: mono
+    caption: "Door and lid clearance section details (fig. 7–13) with clearances G–N"
+    safety_relevant: false
+  - page: 427
+    file: "diagrams/p0427-auto-trans-scuttle-toeboard.webp"
+    kind: chart
+    depth: mono
+    caption: "Automatic-transmission bodywork — scuttle (dimensions A–H) and toe-board (LHD/RHD) modifications"
+    safety_relevant: false
+  - page: 428
+    file: "diagrams/p0428-auto-trans-underbody.webp"
+    kind: chart
+    depth: mono
+    caption: "Automatic-transmission underbody — under tray, seat back partition (P–Y) and rear LH wheel arch (AA–AE)"
+    safety_relevant: false
