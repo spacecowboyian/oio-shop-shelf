@@ -578,3 +578,69 @@ diagrams:
     depth: gray
     caption: "Steering lock (anti-theft cartridge) removal: locking tab 1, securing screws 2, bracket 7"
     safety_relevant: false
+  - page: 288
+    file: "diagrams/p0288-front-axle-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front axle location on the vehicle (front suspension cut into the body outline)"
+    safety_relevant: false
+  - page: 289
+    file: "diagrams/p0289-identification-plate.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front axle assembly and the TRAIN AV Type 67.. identification plate, with underbody view"
+    safety_relevant: false
+  - page: 290
+    file: "diagrams/p0290-castor-camber-geometry.webp"
+    kind: chart
+    depth: mono
+    caption: "Front-axle geometry: front-elevation view (CH) and side view of king-pin inclination (I) and castor (Ca)"
+    safety_relevant: false
+  - page: 292
+    file: "diagrams/p0292-preliminary-check-points.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front-axle preliminary check points 1-13 located on the assembly"
+    safety_relevant: false
+  - page: 299
+    file: "diagrams/p0299-lower-arm-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Lower suspension arm exploded view (hinge pins 8/10/14/16, nuts 13/17, bearings 9, rubber bushes 11)"
+    safety_relevant: false
+  - page: 300
+    file: "diagrams/p0300-kingpin-endplay-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin end-play adjustment: cross-section showing the adjusting-washer location at the lower attachment point"
+    safety_relevant: true
+  - page: 301
+    file: "diagrams/p0301-suspension-arm-gauge.webp"
+    kind: chart
+    depth: gray
+    caption: "Suspension-arm checking gauge T.Av.22: dimensioned front and side views (A-H) and gauge setups"
+    safety_relevant: true
+  - page: 302
+    file: "diagrams/p0302-kingpin-gauge.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin assembly on checking gauge T.Av.20 (thrust washer, key and lower attachment point fitted)"
+    safety_relevant: false
+  - page: 303
+    file: "diagrams/p0303-rubber-bush-press.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rubber bush replacement on the press: suspension-arm and king-pin setups (mandrel references A, B, C, D)"
+    safety_relevant: false
+  - page: 304
+    file: "diagrams/p0304-kingpin-bush.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin bush refitting (references A, D) and extraction by press (C, B) and hand extractor T.Av.71 A (E, G)"
+    safety_relevant: false
+  - page: 305
+    file: "diagrams/p0305-kingpin-bush-refit-ream.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin bush refitting (references B, D; hand extractor E, F, G) and the in-line bush reaming setup"
+    safety_relevant: false

@@ -55,8 +55,8 @@ Consequences to reconcile before committing D:
 - [x] E gearbox (p186–247) — DONE. 13 diagrams (operating diagrams, sections, differential + secondary-shaft exploded views, gear-locking systems for types 289/314/316). Page-map offset clean +184. Every ratio/shim/torque/backlash table verified cell-by-cell against images; recovered printed E-47 from p0231 image. 9 flags.
 - [x] F braking (p248–268) — DONE. 12 diagrams (hydraulic layout, master-cylinder operation/exploded views, shoe & adjustment figures, hand brake, pressure-limiting valve). Page-map offset clean +246. Every brake spec/torque/limiter-pressure table verified cell-by-cell against images; limiter setting "50 +0/−8 kg/sqcm" corrected from image. 5 flags (2 safety-critical, resolved from image). SAFETY-CRITICAL chapter — every value cross-checked.
 - [x] G steering (p269–286) — DONE. 8 diagrams (box section, pinion/flange & rack exploded views, pinion end-play adjustment, links, column, steering lock). Page-map offset clean +267. All 18 images opened; every geometry/pre-load/torque verified. 4 flags (1 safety torque corrected from image). 
-- [~] H front axle (p287–305) — NEXT
-- [ ] J rear axle (p306–310) — short
+- [x] H front axle (p287–305) — DONE. 11 diagrams, ~15 images, 1 flag (camber/castor label).
+- [~] J rear axle (p306–310) — NEXT (short)
 - [ ] K wheels-hubs-drums (p311–332)
 - [ ] L suspension-shock-absorbers (p333–353)
 - [ ] M bodywork (p354–436) — LARGE, figure-heavy
