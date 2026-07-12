@@ -16,8 +16,8 @@ taxonomy:
   years: "1956-1967"
 
 source:
-  type: local             # contributor hand-off; a maintainer moves it to a Release at merge
-  location: "renault-dauphine-mr93.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/dauphine.pdf"
   pages: 479
 
 rights: >

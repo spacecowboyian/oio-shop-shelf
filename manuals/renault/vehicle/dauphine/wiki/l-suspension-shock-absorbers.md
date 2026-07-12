@@ -82,7 +82,7 @@ The shock absorber bodies are painted in the following colours:
 Each shock absorber has white painted references on the body showing the vehicle for which it is
 intended and signs which correspond to the various manufacturing series (see figures).
 
-![Shock absorber identification — Fig.1 (up to July 1956, "AR" rear marking and "A 6" date stamp), Fig.2 (July 1956 to April 1957, ▽ sign) and Fig.3 (from April 1957 onwards, ▽ + dot) — PDF p.335](../diagrams/p0335-shock-absorber-identification.webp)
+![Shock absorber identification — Fig.1 (up to July 1956, "AR" rear marking and "A 6" date stamp), Fig.2 (July 1956 to April 1957, ▽ sign) and Fig.3 (from April 1957 onwards, ▽ + dot) — PDF p.335](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0335-shock-absorber-identification.webp)
 
 | Manufacturing series sign | Period |
 | ------------------------- | ------ |
@@ -102,7 +102,7 @@ the following code:
 
 <!-- PDF p.336 · L-5 -->
 
-![Aerostable suspension cross-sections — front (drawing 59996) and rear (drawing 59997), showing coil spring, telescopic shock absorber on the spring centre line, and the rear air cushion — PDF p.336](../diagrams/p0336-aerostable-suspension-sections.webp)
+![Aerostable suspension cross-sections — front (drawing 59996) and rear (drawing 59997), showing coil spring, telescopic shock absorber on the spring centre line, and the rear air cushion — PDF p.336](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0336-aerostable-suspension-sections.webp)
 
 **Front suspension** — independent on each wheel by means of:
 
@@ -189,7 +189,7 @@ first 400 "Ondine" models, the rear suspension was modified in the following man
 
 The shock absorbers were painted buff with a white band round them.
 
-![Rear suspension cross-section (drawing 54 039.1) showing spacer locations A (thrust pad / box housing), B (side pads / cross member) and C (air cushion base / cross member) — PDF p.338](../diagrams/p0338-rear-suspension-modification-section.webp)
+![Rear suspension cross-section (drawing 54 039.1) showing spacer locations A (thrust pad / box housing), B (side pads / cross member) and C (air cushion base / cross member) — PDF p.338](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0338-rear-suspension-modification-section.webp)
 
 From manufacturing number **26.437** (for the R.1091) and from the **5.10.1960** onwards for the
 R.1090, spacers A, B and C were discontinued and replaced by an alteration in the height:
@@ -270,7 +270,7 @@ At the rear, the wheels also have independent suspension by means of:
 
 <!-- PDF p.340 · L-9 -->
 
-![Front shock absorber removal — cross-section (drawing 59996-1) and underbody photo, showing upper attachment point (1) and lower securing yoke (2) — PDF p.340](../diagrams/p0340-front-shock-absorber-removal.webp)
+![Front shock absorber removal — cross-section (drawing 59996-1) and underbody photo, showing upper attachment point (1) and lower securing yoke (2) — PDF p.340](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0340-front-shock-absorber-removal.webp)
 
 ### Removing (all types)
 
@@ -286,7 +286,7 @@ Rest the front of the vehicle on stands and remove the wheel on the side concern
 
 <!-- PDF p.341 · L-10 -->
 
-![Front shock absorber refitting — exploded view (drawing 45924.2), cross-section (60002), and detail (A) of the upper attachment point on shock absorbers fitted up to April 1957 — PDF p.341](../diagrams/p0341-front-shock-absorber-refitting.webp)
+![Front shock absorber refitting — exploded view (drawing 45924.2), cross-section (60002), and detail (A) of the upper attachment point on shock absorbers fitted up to April 1957 — PDF p.341](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0341-front-shock-absorber-refitting.webp)
 
 1. Connect the shock absorber to its lower yoke by means of its pivot pin (place a new tab washer under the head). Do not tighten the nut.
 2. Pull out the shock absorber to its fullest extent.
@@ -304,7 +304,7 @@ Rest the front of the vehicle on stands and remove the wheel on the side concern
 
 <!-- PDF p.342 · L-11 -->
 
-![Aerostable front shock absorber refitting — exploded view (drawing 58 630-1) showing lower rubber pad (4), upper rubber pad (5), cup washer (6), nut (7) and lock nut (8) — PDF p.342](../diagrams/p0342-aerostable-front-shock-refitting.webp)
+![Aerostable front shock absorber refitting — exploded view (drawing 58 630-1) showing lower rubber pad (4), upper rubber pad (5), cup washer (6), nut (7) and lock nut (8) — PDF p.342](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0342-aerostable-front-shock-refitting.webp)
 
 1. Fit the lower yoke to the shock absorber.
 2. Pull out the shock absorber and fit rubber pad (4) onto the screwed rod.
@@ -373,7 +373,7 @@ Suspension other than the aerostable type.
 
 <!-- PDF p.344 · L-13 -->
 
-![Rear shock absorber refitting — exploded view (drawing 45925-2), cross-section (60003), and detail (A) of the upper securing point on shock absorbers fitted up to April 1957 — PDF p.344](../diagrams/p0344-rear-shock-absorber-refitting.webp)
+![Rear shock absorber refitting — exploded view (drawing 45925-2), cross-section (60003), and detail (A) of the upper securing point on shock absorbers fitted up to April 1957 — PDF p.344](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0344-rear-shock-absorber-refitting.webp)
 
 1. Secure the shock absorber to its mounting lug.
 2. Push it in to its shortest length.
@@ -389,7 +389,7 @@ Suspension other than the aerostable type.
 
 <!-- PDF p.345 · L-14 -->
 
-![Aerostable rear spring/shock removal, no Evidgom pad — photos and cross-section (drawing 59 997-1) showing shock absorber attachment point (1), lower hinge/bell housing (2), strap securing nuts (3) and lower attachment point (4) — PDF p.345](../diagrams/p0345-aerostable-rear-removal-no-evidgom.webp)
+![Aerostable rear spring/shock removal, no Evidgom pad — photos and cross-section (drawing 59 997-1) showing shock absorber attachment point (1), lower hinge/bell housing (2), strap securing nuts (3) and lower attachment point (4) — PDF p.345](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0345-aerostable-rear-removal-no-evidgom.webp)
 
 **Removing:**
 
@@ -411,7 +411,7 @@ operations in reverse.
 
 <!-- PDF p.346 · L-15 -->
 
-![Aerostable rear spring/shock removal, with Evidgom pad — photos and cross-section (drawing 54-59.1) showing shock absorber securing point (1), strap (2), strap securing nuts (3) and lower attachment point (4) — PDF p.346](../diagrams/p0346-aerostable-rear-removal-evidgom.webp)
+![Aerostable rear spring/shock removal, with Evidgom pad — photos and cross-section (drawing 54-59.1) showing shock absorber securing point (1), strap (2), strap securing nuts (3) and lower attachment point (4) — PDF p.346](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0346-aerostable-rear-removal-evidgom.webp)
 
 **Removing:**
 
@@ -494,7 +494,7 @@ If none of these defects are noted, carry out a manual test as follows:
 
 <!-- PDF p.349 · L-18 -->
 
-![Anti-roll bar and its connecting links — left-hand and right-hand link arrangements (the links must be fitted the correct way round) — PDF p.349](../diagrams/p0349-anti-roll-bar-link-arrangement.webp)
+![Anti-roll bar and its connecting links — left-hand and right-hand link arrangements (the links must be fitted the correct way round) — PDF p.349](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0349-anti-roll-bar-link-arrangement.webp)
 
 **Removing:**
 
@@ -557,7 +557,7 @@ hanging free. The curved portion of the rubber air cushion should show no signs 
 
 Suspension other than aerostable type.
 
-![Half shaft movement limiter — installed photo (48429-2) and cross-section (48430-1) showing the shock-absorbing pad and setting dimension A — PDF p.351](../diagrams/p0351-half-shaft-limiter-pad.webp)
+![Half shaft movement limiter — installed photo (48429-2) and cross-section (48430-1) showing the shock-absorbing pad and setting dimension A — PDF p.351](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0351-half-shaft-limiter-pad.webp)
 
 **Removing:**
 

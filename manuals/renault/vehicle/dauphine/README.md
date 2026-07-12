@@ -8,7 +8,10 @@ models: ["Dauphine"]
 chassis: ["R1090", "R1091", "R1093"]
 engines: ["Ventoux (Type 670)"]
 years: "1956-1967"
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/dauphine.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [dauphine.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/dauphine.pdf)
 
 # Renault Dauphine / Ondine / Gordini — Factory Workshop Manual (M.R. 93)
 

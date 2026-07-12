@@ -56,7 +56,7 @@ Page numbers are the printed **H-n** pages.
 
 <!-- PDF p.288 · H-3 -->
 
-![Front axle location on the vehicle (front suspension cut into the body outline) — PDF p.288](../diagrams/p0288-front-axle-location.webp)
+![Front axle location on the vehicle (front suspension cut into the body outline) — PDF p.288](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0288-front-axle-location.webp)
 
 ---
 
@@ -69,7 +69,7 @@ Front axle **type 67-..**
 The front-axle type number is stamped on the "TRAIN AV — Type ○67.." identification plate carried
 on the lower suspension arm / cross-member.
 
-![Front axle assembly with the "TRAIN AV — Type 67.." identification plate, and underbody view of the complete front axle — PDF p.289](../diagrams/p0289-identification-plate.webp)
+![Front axle assembly with the "TRAIN AV — Type 67.." identification plate, and underbody view of the complete front axle — PDF p.289](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0289-identification-plate.webp)
 
 ---
 
@@ -91,7 +91,7 @@ on the lower suspension arm / cross-member.
 | King pins | Mounted on bushes |
 | Suspension arm hinge pins | Mounted on rubber bushes |
 
-![Front-axle geometry: front-elevation view (CH) and side view showing king-pin inclination (I) and castor (Ca) — PDF p.290](../diagrams/p0290-castor-camber-geometry.webp)
+![Front-axle geometry: front-elevation view (CH) and side view showing king-pin inclination (I) and castor (Ca) — PDF p.290](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0290-castor-camber-geometry.webp)
 
 **Rubber bush tightening position**, obtained by fitting a positioning spacer:
 
@@ -188,7 +188,7 @@ Before checking the front axle specifications, first check the various points li
 12. The wheel securing points.
 13. Dynamic and static balancing of the wheels.
 
-![Front-axle check points 1–13 located on the assembly (wheel/tyre, suspension arms, king-pin bushes, ball joints, hub bearings, spring, shock absorber, rubber bushes and securing points) — PDF p.292](../diagrams/p0292-preliminary-check-points.webp)
+![Front-axle check points 1–13 located on the assembly (wheel/tyre, suspension arms, king-pin bushes, ball joints, hub bearings, spring, shock absorber, rubber bushes and securing points) — PDF p.292](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0292-preliminary-check-points.webp)
 
 > If defects are noted during these checks, repair them before undertaking any further work. If,
 > after these checks and corrections, the trouble persists, check the front axle specifications.
@@ -381,7 +381,7 @@ After this follow the same method as is used for refitting a half axle (section 
 
 <!-- PDF p.299 · H-14 -->
 
-![Lower suspension arm — exploded view (upper arm, lower arm, centre hinge pin 14, nuts 13, upper pin 10, lower pin 8, hinge pin 16, nut 17, bearings 9, rubber bushes 11) — PDF p.299](../diagrams/p0299-lower-arm-exploded.webp)
+![Lower suspension arm — exploded view (upper arm, lower arm, centre hinge pin 14, nuts 13, upper pin 10, lower pin 8, hinge pin 16, nut 17, bearings 9, rubber bushes 11) — PDF p.299](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0299-lower-arm-exploded.webp)
 
 ### Lower suspension arm
 
@@ -424,7 +424,7 @@ Carry out all the dismantling operations in reverse.
 
 <!-- PDF p.300 · H-15 -->
 
-![King-pin end-play adjustment — cross-section of the stub axle carrier and king pin showing the adjusting-washer location at the lower attachment point — PDF p.300](../diagrams/p0300-kingpin-endplay-section.webp)
+![King-pin end-play adjustment — cross-section of the stub axle carrier and king pin showing the adjusting-washer location at the lower attachment point — PDF p.300](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0300-kingpin-endplay-section.webp)
 
 The end play is taken up by placing adjusting washers on the king pin between the stub axle carrier
 and the lower attachment point.
@@ -445,7 +445,7 @@ and the lower attachment point.
 
 ### Checking the suspension arms
 
-![Suspension-arm checking gauge T.Av.22 — dimensioned front and side views (dimensions A–H) and the two isometric gauge setups — PDF p.301](../diagrams/p0301-suspension-arm-gauge.webp)
+![Suspension-arm checking gauge T.Av.22 — dimensioned front and side views (dimensions A–H) and the two isometric gauge setups — PDF p.301](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0301-suspension-arm-gauge.webp)
 
 This check can be carried out in one of two conditions:
 
@@ -488,7 +488,7 @@ The permissible non-alignment tolerances on the two bores at the chassis end are
 
 <!-- PDF p.302 · H-17 -->
 
-![King-pin assembly on checking gauge T.Av.20 (thrust washer, key and lower attachment point fitted) — PDF p.302](../diagrams/p0302-kingpin-gauge.webp)
+![King-pin assembly on checking gauge T.Av.20 (thrust washer, key and lower attachment point fitted) — PDF p.302](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0302-kingpin-gauge.webp)
 
 1. Fit the following to the king pin: the thrust washer, the key and the lower attachment point.
 2. Place this assembly on checking gauge **T.Av.20** with the thrust washer well against it.
@@ -503,7 +503,7 @@ The permissible non-alignment tolerances on the two bores at the chassis end are
 
 <!-- PDF p.303 · H-18 -->
 
-![Rubber bush replacement on the press — suspension-arm removing/refitting and king-pin removing setups showing mandrel references A, B, C and D — PDF p.303](../diagrams/p0303-rubber-bush-press.webp)
+![Rubber bush replacement on the press — suspension-arm removing/refitting and king-pin removing setups showing mandrel references A, B, C and D — PDF p.303](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0303-rubber-bush-press.webp)
 
 ### Suspension arms
 
@@ -529,7 +529,7 @@ mandrels T.Av.21 reference (D) and T.Av.71 reference (B).
 
 <!-- PDF p.304 · H-19 -->
 
-![King-pin bush work on the press — rubber-bush refitting to the king pin (mandrel references A and D, upper figures) and, below, king-pin bush extraction by press (references C, B) and by hand extractor T.Av.71 A (references E, G) — PDF p.304](../diagrams/p0304-kingpin-bush.webp)
+![King-pin bush work on the press — rubber-bush refitting to the king pin (mandrel references A and D, upper figures) and, below, king-pin bush extraction by press (references C, B) and by hand extractor T.Av.71 A (references E, G) — PDF p.304](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0304-kingpin-bush.webp)
 
 **Refitting:**
 
@@ -546,7 +546,7 @@ mandrels T.Av.21 reference (D) and T.Av.71 reference (B).
 
 ### Extracting the bushes
 
-(The extraction setups are shown in the lower half of the [PDF p.304 figure](../diagrams/p0304-kingpin-bush.webp) above.)
+(The extraction setups are shown in the lower half of the [PDF p.304 figure](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0304-kingpin-bush.webp) above.)
 
 1. Unscrew the grease nipple.
 2. Extract the bushes on the press, using mandrels T.Av.71 reference (C) and T.Av.71 reference (B),
@@ -556,7 +556,7 @@ mandrels T.Av.21 reference (D) and T.Av.71 reference (B).
 
 <!-- PDF p.305 · H-20 -->
 
-![King-pin bush refitting (mandrel references B and D; hand extractor T.Av.71 A references E, F, G) and the in-line bush reaming setup — PDF p.305](../diagrams/p0305-kingpin-bush-refit-ream.webp)
+![King-pin bush refitting (mandrel references B and D; hand extractor T.Av.71 A references E, F, G) and the in-line bush reaming setup — PDF p.305](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0305-kingpin-bush-refit-ream.webp)
 
 1. Insert the new bushes (they must be positioned so that the grease grooves are on the same side as
    the grease nipple) using mandrels T.Av.71 reference (D) and T.Av.71 reference (B), or using hand

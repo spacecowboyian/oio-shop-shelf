@@ -61,7 +61,7 @@ Standardisation as replacements of the various gearbox types — **E-61** (appli
 
 <!-- PDF p.187 · E-3 · location of the gearbox in the vehicle -->
 
-![Location of the gearbox (transmission case) in the vehicle — PDF p.187](../diagrams/p0187-gearbox-location.webp)
+![Location of the gearbox (transmission case) in the vehicle — PDF p.187](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0187-gearbox-location.webp)
 
 ---
 
@@ -179,13 +179,13 @@ level orifice (4). Allow this oil to run out and then screw in plug (4).
 
 <!-- PDF p.193 · E-9 (diagram-only page; absent from OCR text) -->
 
-![Operating (power-flow) diagram, type 289 gearbox — PDF p.193](../diagrams/p0193-operating-diagram-289.webp)
+![Operating (power-flow) diagram, type 289 gearbox — PDF p.193](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0193-operating-diagram-289.webp)
 
 ### Sectional views — type 289
 
 <!-- PDF p.194 · E-10 -->
 
-![Longitudinal section and cross section through the differential, type 289 — PDF p.194](../diagrams/p0194-sections-289.webp)
+![Longitudinal section and cross section through the differential, type 289 — PDF p.194](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0194-sections-289.webp)
 
 ### Completely overhauling the gearbox — type 289
 
@@ -264,7 +264,7 @@ level orifice (4). Allow this oil to run out and then screw in plug (4).
 
 **Differential:**
 
-![Differential — exploded view, type 289 — PDF p.199](../diagrams/p0199-differential-exploded-289.webp)
+![Differential — exploded view, type 289 — PDF p.199](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0199-differential-exploded-289.webp)
 
 1. Place the sun wheel opposite the crown wheel into the differential housing together with the planet wheels
    and their bearing washers.
@@ -281,7 +281,7 @@ level orifice (4). Allow this oil to run out and then screw in plug (4).
 
 **Secondary shaft — 2nd-3rd synchroniser:**
 
-![Secondary shaft — exploded view (callouts 5–14), type 289 — PDF p.200](../diagrams/p0200-secondary-shaft-exploded-289.webp)
+![Secondary shaft — exploded view (callouts 5–14), type 289 — PDF p.200](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0200-secondary-shaft-exploded-289.webp)
 
 1. Fit the following into sliding sleeve (13):
    - the hub (10);
@@ -479,13 +479,13 @@ lower edge of the orifice.
 
 <!-- PDF p.208 · E-24 -->
 
-![Operating (power-flow) diagram, type 314 gearbox — PDF p.208](../diagrams/p0208-operating-diagram-314.webp)
+![Operating (power-flow) diagram, type 314 gearbox — PDF p.208](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0208-operating-diagram-314.webp)
 
 ### Sectional views — type 314
 
 <!-- PDF p.209 · E-25 -->
 
-![Longitudinal section and section through the differential, type 314 — PDF p.209](../diagrams/p0209-sections-314.webp)
+![Longitudinal section and section through the differential, type 314 — PDF p.209](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0209-sections-314.webp)
 
 ### Gear locking system — type 314
 
@@ -495,7 +495,7 @@ Each shift fork shaft is locked, no matter what its position (whether in neutral
 ball and a spring. Locking plunger (1) locks the 2nd-3rd shaft when 1st (or reverse) is engaged, and the
 contrary.
 
-![Gear locking system (interlock plunger 1), type 314 — PDF p.210](../diagrams/p0210-gear-locking-system-314.webp)
+![Gear locking system (interlock plunger 1), type 314 — PDF p.210](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0210-gear-locking-system-314.webp)
 
 ### Completely overhauling the gearbox — type 314
 
@@ -777,7 +777,7 @@ the other ends on opposite sides of it. Insert the hub into sliding sleeve (9). 
 
 <!-- PDF p.224 · E-40 -->
 
-![Secondary shaft — exploded view (callouts 12–18), type 314 — PDF p.224](../diagrams/p0224-secondary-shaft-exploded-314.webp)
+![Secondary shaft — exploded view (callouts 12–18), type 314 — PDF p.224](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0224-secondary-shaft-exploded-314.webp)
 
 Gradually insert the secondary shaft into the housing whilst fitting the following in the order given below:
 
@@ -877,19 +877,19 @@ from the level orifice (3). Allow the oil to run out and screw in plug (3) again
 
 <!-- PDF p.228 · E-44 -->
 
-![Operating (power-flow) diagram, type 316 gearbox — PDF p.228](../diagrams/p0228-operating-diagram-316.webp)
+![Operating (power-flow) diagram, type 316 gearbox — PDF p.228](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0228-operating-diagram-316.webp)
 
 ### Sectional views — type 316
 
 <!-- PDF p.229 · E-45 -->
 
-![Longitudinal section and section through the differential, type 316 — PDF p.229](../diagrams/p0229-sections-316.webp)
+![Longitudinal section and section through the differential, type 316 — PDF p.229](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0229-sections-316.webp)
 
 ### Gear locking system — type 316
 
 <!-- PDF p.230 · E-46 -->
 
-![Gear locking system (shift-fork interlock plungers 1, 2, 3, R), type 316 — PDF p.230](../diagrams/p0230-gear-locking-system-316.webp)
+![Gear locking system (shift-fork interlock plungers 1, 2, 3, R), type 316 — PDF p.230](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0230-gear-locking-system-316.webp)
 
 Each shift fork shaft is locked, no matter what its position (whether in neutral or with a gear engaged), by a
 ball and a spring. Locking plunger (1) locks the 2nd-3rd shaft when 1st or 2nd speed is engaged, and vice-versa.
@@ -965,7 +965,7 @@ The reverse shaft (R) is locked:
 
 **Differential:**
 
-![Differential — exploded view, type 316 — PDF p.235](../diagrams/p0235-differential-exploded-316.webp)
+![Differential — exploded view, type 316 — PDF p.235](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0235-differential-exploded-316.webp)
 
 1. Fit the sun wheel on the opposite side to the crownwheel into the differential housing together with the
    planet wheels and their bearing washers.

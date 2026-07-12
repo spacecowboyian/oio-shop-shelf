@@ -77,7 +77,7 @@ Page numbers are the printed **K-n** pages.
 
 <!-- PDF p.313 · K-4 -->
 
-![Front (46 248.2) and rear (46 249.2) hub cross-sections — 5-hole star member wheels — PDF p.313](../diagrams/p0313-hub-cross-sections.webp)
+![Front (46 248.2) and rear (46 249.2) hub cross-sections — 5-hole star member wheels — PDF p.313](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0313-hub-cross-sections.webp)
 
 **Front.** The front hub runs on taper roller bearings.
 
@@ -119,7 +119,7 @@ shaft runs on a ball race.
 
 <!-- PDF p.315 · K-6 -->
 
-![Front hub-drum bearing assembly — exploded view (bolts, bearing stop, baffle washer, bearings, track rings, hub-drum) — PDF p.315](../diagrams/p0315-front-hub-exploded.webp)
+![Front hub-drum bearing assembly — exploded view (bolts, bearing stop, baffle washer, bearings, track rings, hub-drum) — PDF p.315](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0315-front-hub-exploded.webp)
 
 **Removing:**
 
@@ -266,7 +266,7 @@ It is therefore essential that the operation should be carried out in the follow
 
 <!-- PDF p.319 · K-10 -->
 
-![Rear hub bearing and seal — exploded view (46 262) and bearing-cover cross-section (46 249 A) — PDF p.319](../diagrams/p0319-rear-hub-bearing-exploded.webp)
+![Rear hub bearing and seal — exploded view (46 262) and bearing-cover cross-section (46 249 A) — PDF p.319](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0319-rear-hub-bearing-exploded.webp)
 
 **Removing:** remove the hub, the half shaft and the bearing cover. Check to ensure that the
 "drum - hub - flange" assembly is central.
@@ -332,7 +332,7 @@ gasket involve removing the studs and their spacers:
 
 <!-- PDF p.321 · K-12 -->
 
-![Front and rear hub cross-sections with taper-washer detail (63147) — 3-hole dished type wheels — PDF p.321](../diagrams/p0321-3hole-hub-cross-sections.webp)
+![Front and rear hub cross-sections with taper-washer detail (63147) — 3-hole dished type wheels — PDF p.321](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0321-3hole-hub-cross-sections.webp)
 
 The front hub runs on taper roller bearings.
 
@@ -419,7 +419,7 @@ repair conditions it is possible to assemble these parts as shown in the drawing
 
 <!-- PDF p.325 · K-16 -->
 
-![Front brake anchor plate types: straight fixed points D (53246-1) and inclined fixed points F (53245-1) — PDF p.325](../diagrams/p0325-brake-anchor-plate-types.webp)
+![Front brake anchor plate types: straight fixed points D (53246-1) and inclined fixed points F (53245-1) — PDF p.325](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0325-brake-anchor-plate-types.webp)
 
 Type R.1091 vehicles have been fitted with three different types of front brake anchor plate since
 their introduction.
@@ -554,7 +554,7 @@ Consequently, it is essential that the operations should be carried out in the f
 
 <!-- PDF p.330 · K-21 -->
 
-![Rear hub bearing and seal cross-section (51928-2) showing nuts B, nut C and nylon-cage bearing orientation A — PDF p.330](../diagrams/p0330-rear-hub-bearing-section.webp)
+![Rear hub bearing and seal cross-section (51928-2) showing nuts B, nut C and nylon-cage bearing orientation A — PDF p.330](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0330-rear-hub-bearing-section.webp)
 
 1. Remove the "hub - drum - half shaft" assembly.
 2. Separate the parts.
@@ -604,7 +604,7 @@ Place the shaft into the hub and fit the split ring. Tighten nut (C) and split-p
 
 <!-- PDF p.331 · K-22 -->
 
-![Wheel-rim buckle and eccentricity check — dial-indicator points V (buckle) and E / E1 (eccentricity) on the rim section — PDF p.331](../diagrams/p0331-buckle-eccentricity-gauge.webp)
+![Wheel-rim buckle and eccentricity check — dial-indicator points V (buckle) and E / E1 (eccentricity) on the rim section — PDF p.331](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0331-buckle-eccentricity-gauge.webp)
 
 > A rim must never be checked for buckle and eccentricity when it is fitted with a tyre and on the
 > vehicle. Place the stripped wheel on the drive plate of a wheel balancer. The measurements are

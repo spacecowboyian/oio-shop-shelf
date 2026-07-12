@@ -514,7 +514,7 @@ kit is supplied by the C.S.S.
 
 <!-- PDF p.39 · B-25 -->
 
-![Water pump exploded view (parts 1–16) — PDF p.39](../diagrams/p0039-water-pump-exploded.webp)
+![Water pump exploded view (parts 1–16) — PDF p.39](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0039-water-pump-exploded.webp)
 
 1. Fit the sealing felt (15) into bush (11).
 2. Fit bearing (10).
@@ -632,7 +632,7 @@ new type. If an old-type cylinder block (No 9.803.094 or 9.803.095) is replaced 
 - B = 10 mm (25/64")
 - A = 69 mm (2 23/32")
 
-![Timing gear back plate — drilling location for hole A (dims A, B, C) — PDF p.44](../diagrams/p0044-timing-gear-backplate-drilling.webp)
+![Timing gear back plate — drilling location for hole A (dims A, B, C) — PDF p.44](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0044-timing-gear-backplate-drilling.webp)
 
 > **NOTE:** As the additional oil jet causes a fall in the oil pressure, oil filters (whether
 > original equipment or accessories) must be fitted with a valve which is set at 1.5 kg/sq.cm
@@ -740,7 +740,7 @@ Tighten the main bearing cap bolts with torque wrench Mot.23. **Tightening torqu
     head together with the push rods. Screw down and tighten the bolts to a torque of **6 m.kg
     (45 lbs.ft)** using torque wrench Mot.23 and in the order shown in the illustration.
 
-![Cylinder head bolt tightening sequence (bolts 1–12) — PDF p.49](../diagrams/p0049-cylinder-head-bolt-tightening-sequence.webp)
+![Cylinder head bolt tightening sequence (bolts 1–12) — PDF p.49](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0049-cylinder-head-bolt-tightening-sequence.webp)
 
 Tighten the twelve cylinder head bolts in numerical order (1 to 12) as shown in the figure.
 
@@ -931,7 +931,7 @@ rubber seal and the cork seal on the centre tie rod.
 
 <!-- PDF p.56 · B-42 -->
 
-![Fuel pump S.E.V. Type 46 A1 — exploded view (parts 1–20) — PDF p.56](../diagrams/p0056-fuel-pump-sev-46a1-exploded.webp)
+![Fuel pump S.E.V. Type 46 A1 — exploded view (parts 1–20) — PDF p.56](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0056-fuel-pump-sev-46a1-exploded.webp)
 
 **Dismantling.** To be carried out in the order shown by the figures. Mark the positions of parts
 (2 and 20) with respect to one another.
@@ -942,7 +942,7 @@ rubber seal and the cork seal on the centre tie rod.
 
 <!-- PDF p.57 · B-43 -->
 
-![Fuel pump AC Type YK 6060 — exploded view (parts 1–7) — PDF p.57](../diagrams/p0057-fuel-pump-ac-yk6060-exploded.webp)
+![Fuel pump AC Type YK 6060 — exploded view (parts 1–7) — PDF p.57](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0057-fuel-pump-ac-yk6060-exploded.webp)
 
 **Dismantling.** This is to be carried out in the order shown by the reference numbers. Mark the
 positions of parts (2) and (7) with respect to one another.
@@ -1114,7 +1114,7 @@ The operating principles of the automatic chokes fitted to carburettor types 28 
 
 Down-draught carburettor with automatic choke operated by a thermostatic spring. Accelerating pump.
 
-![SOLEX Type 32 PIBT carburettor — exploded view — PDF p.65](../diagrams/p0065-carburettor-32-pibt-exploded.webp)
+![SOLEX Type 32 PIBT carburettor — exploded view — PDF p.65](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0065-carburettor-32-pibt-exploded.webp)
 
 **Settings:**
 
@@ -1174,7 +1174,7 @@ casing with that on the carburettor body.
 Double-barrelled carburettor. Vacuum control on the second barrel. The vacuum is taken from between
 the 2 choke tubes.
 
-![SOLEX Type 30 PAIA-3 carburettor — exploded view — PDF p.67](../diagrams/p0067-carburettor-30-paia3-exploded.webp)
+![SOLEX Type 30 PAIA-3 carburettor — exploded view — PDF p.67](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0067-carburettor-30-paia3-exploded.webp)
 
 **Settings.** There are two different settings.
 

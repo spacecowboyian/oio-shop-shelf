@@ -93,7 +93,7 @@ move back and compress the springs (8). At this point the friction disc (9) is n
 the flywheel (10) and the plate (6), and the drive between the engine and gear box (transmission case) is
 thus disconnected.
 
-![Conventional clutch — cross-section showing operation (1 withdrawal fork, 2 shaft, 3 withdrawal pad, 4 ring, 5 toggle levers, 6 pressure plate, 7 bolt, 8 springs, 9 friction disc, 10 flywheel) — PDF p.72](../diagrams/p0072-conventional-clutch-section.webp)
+![Conventional clutch — cross-section showing operation (1 withdrawal fork, 2 shaft, 3 withdrawal pad, 4 ring, 5 toggle levers, 6 pressure plate, 7 bolt, 8 springs, 9 friction disc, 10 flywheel) — PDF p.72](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0072-conventional-clutch-section.webp)
 
 ### Replacing the clutch withdrawal pad
 
@@ -112,7 +112,7 @@ of the pad carrier trunions and their hooked ends in the pad holes).
 3. Secure the fork to the shaft (pinhead uppermost).
 4. Refit the clutch withdrawal pad.
 
-![Clutch withdrawal fork — exploded view (1 return spring, 2 rubber washer, 3 spacer, 4 fork, 5 pad carrier) — PDF p.73](../diagrams/p0073-withdrawal-fork-exploded.webp)
+![Clutch withdrawal fork — exploded view (1 return spring, 2 rubber washer, 3 spacer, 4 fork, 5 pad carrier) — PDF p.73](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0073-withdrawal-fork-exploded.webp)
 
 ### Adjusting the clutch clearance
 
@@ -174,7 +174,7 @@ most common defects.
 | 15  | Friction disc strips                   |
 | 16  | Armature plate return springs          |
 
-![Standard "Ferlec" clutch — components exploded view and installation wiring schematic — PDF p.75](../diagrams/p0075-ferlec-clutch-components-exploded.webp)
+![Standard "Ferlec" clutch — components exploded view and installation wiring schematic — PDF p.75](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0075-ferlec-clutch-components-exploded.webp)
 
 ### Clutch operating principles (standard Ferlec 6 V)
 
@@ -305,7 +305,7 @@ movement of the gear change lever. It cannot be reconditioned.
 | 11  | 2nd-3rd rheostat                                                   |
 | 12  | Resistance for adjusting the clutch to suit the wear on the disc  |
 
-![Standard "Ferlec" rheostat case — internal layout and rheostat/resistance schematic (studs A–D, resistances R1–R7) — PDF p.81](../diagrams/p0080-ferlec-rheostat-case-schematic.webp)
+![Standard "Ferlec" rheostat case — internal layout and rheostat/resistance schematic (studs A–D, resistances R1–R7) — PDF p.81](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0080-ferlec-rheostat-case-schematic.webp)
 
 ### Checking the relay
 
@@ -434,7 +434,7 @@ Terminal connections (numbers 101–107 and B/C are the harness wire references 
 - **"Ferlec" rheostat case (7):** terminal 7 → 102, terminal 6 → 104, terminal 5 → 105, terminal 4 → C,
   terminal 3 → B, terminal 2 → 107, terminal 1 → 103.
 
-![Standard "Ferlec" clutch — connection diagram (two-way switch, microswitch, voltage regulator, rheostat case terminals) — PDF p.86](../diagrams/p0085-ferlec-connection-diagram.webp)
+![Standard "Ferlec" clutch — connection diagram (two-way switch, microswitch, voltage regulator, rheostat case terminals) — PDF p.86](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0085-ferlec-connection-diagram.webp)
 
 ### Causes of most common defects (standard Ferlec 6 V)
 
@@ -502,7 +502,7 @@ secured to the crankshaft.
 
 b) The armature plate (3) which is secured to the pressure plate (6) at three points.
 
-![Simplified "Ferlec" 6-Volt clutch (Type 510-03) — exploded view (parts 1-12) and cross-section — PDF p.88](../diagrams/p0088-simplified-6v-clutch-exploded.webp)
+![Simplified "Ferlec" 6-Volt clutch (Type 510-03) — exploded view (parts 1-12) and cross-section — PDF p.88](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0088-simplified-6v-clutch-exploded.webp)
 
 <!-- PDF p.89 · C-23 -->
 
@@ -540,7 +540,7 @@ The overall principle of this circuit rests on the fact that from the two-way sw
 ("dynamo" from regulator (6) or battery from connection block on instrument panel (8)) are combined and pass
 along the same circuit, rheostat (9), adjusting resistance (10) and relay (11) in case (7) and mechanism (4).
 
-![Simplified "Ferlec" 6-Volt clutch — electrical circuit schematic (components 1-11) — PDF p.89](../diagrams/p0089-simplified-6v-circuit-schematic.webp)
+![Simplified "Ferlec" 6-Volt clutch — electrical circuit schematic (components 1-11) — PDF p.89](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0089-simplified-6v-circuit-schematic.webp)
 
 <!-- PDF p.90 · C-24 -->
 
@@ -954,7 +954,7 @@ The electrical system consists of:
 > **NOTE: Plug identification.** 1. Pink · 2. Black · 3. Red · 4. Green · 5. Yellow · 6. Violet · 7. Green ·
 > 8. Green.
 
-![Simplified "Ferlec" 12-Volt clutch (Type 510-05) — electrical circuit schematic (components 1-17) — PDF p.104](../diagrams/p0104-simplified-12v-circuit-schematic.webp)
+![Simplified "Ferlec" 12-Volt clutch (Type 510-05) — electrical circuit schematic (components 1-17) — PDF p.104](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0104-simplified-12v-circuit-schematic.webp)
 
 ### Rheostat resistances (simplified Ferlec 12 V)
 
@@ -1003,7 +1003,7 @@ the "armature plate – pressure plate" assembly is no longer attracted, and spr
 assembly, thus releasing the friction disc. The drive from the engine is then no longer transmitted to the
 output shaft.
 
-![Simplified "Ferlec" 12-Volt clutch — exploded view (parts 1-12) — PDF p.105](../diagrams/p0105-simplified-12v-clutch-exploded.webp)
+![Simplified "Ferlec" 12-Volt clutch — exploded view (parts 1-12) — PDF p.105](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0105-simplified-12v-clutch-exploded.webp)
 
 **Electrical circuit.** The BOSCH dynamo has a high current output at low speeds. To obtain progressive
 clutch engagement, this output must be limited. A resistance (2) of 3 ohms has therefore been connected in
@@ -1117,9 +1117,9 @@ Probable-cause columns and their component reference numbers (Ref.):
 > Operate the gear change lever. It is correct if one can hear the "click" which proves that the relay is
 > operating.
 
-![Systematic defect finding chart (12 V) — left half: symptom rows and first cause columns — PDF p.109](../diagrams/p0109-systematic-defect-chart-left.webp)
+![Systematic defect finding chart (12 V) — left half: symptom rows and first cause columns — PDF p.109](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0109-systematic-defect-chart-left.webp)
 
-![Systematic defect finding chart (12 V) — right half: remaining cause columns, reference numbers and remedies — PDF p.110](../diagrams/p0110-systematic-defect-chart-right.webp)
+![Systematic defect finding chart (12 V) — right half: remaining cause columns, reference numbers and remedies — PDF p.110](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0110-systematic-defect-chart-right.webp)
 
 ### Refitting the mechanism (simplified Ferlec 12 V)
 

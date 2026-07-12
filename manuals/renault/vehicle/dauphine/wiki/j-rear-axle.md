@@ -35,7 +35,7 @@ Page numbers are the printed **J-n** pages.
 
 <!-- PDF p.307 · J-3 -->
 
-![Rear axle location on the vehicle (rear swing-axle / half-shaft tubes cut into the body outline) — PDF p.307](../diagrams/p0307-rear-axle-location.webp)
+![Rear axle location on the vehicle (rear swing-axle / half-shaft tubes cut into the body outline) — PDF p.307](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0307-rear-axle-location.webp)
 
 ---
 
@@ -45,7 +45,7 @@ Page numbers are the printed **J-n** pages.
 
 <!-- PDF p.308 · J-4 -->
 
-![Half shaft tube — removal (arrows to the strap, shock-absorber points and half-shell nuts) and the checking set-up: the tube on gauge TAr.56A with dimension D between each trunnion and the gauge — PDF p.308](../diagrams/p0308-half-shaft-tube-removal-checking.webp)
+![Half shaft tube — removal (arrows to the strap, shock-absorber points and half-shell nuts) and the checking set-up: the tube on gauge TAr.56A with dimension D between each trunnion and the gauge — PDF p.308](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0308-half-shaft-tube-removal-checking.webp)
 
 **Removing:**
 
@@ -81,7 +81,7 @@ Carry out the removing operations in reverse.
 
 <!-- PDF p.309 · J-5 -->
 
-![Left-hand half shaft tube removal (upper photo), side mounting pad (centre) and right-hand mounting-pad replacement (lower) — PDF p.309](../diagrams/p0309-half-shaft-tube-lh-mounting-pads.webp)
+![Left-hand half shaft tube removal (upper photo), side mounting pad (centre) and right-hand mounting-pad replacement (lower) — PDF p.309](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0309-half-shaft-tube-lh-mounting-pads.webp)
 
 **Removing:**
 
@@ -116,7 +116,7 @@ This is carried out in the same way as for the right hand half shaft tube.
 
 <!-- PDF p.310 · J-6 -->
 
-![Left-hand mounting pad (photo, arrows to the securing points) and the rear-axle universal joint exploded view — closed yoke type — PDF p.310](../diagrams/p0310-mounting-pad-universal-joint.webp)
+![Left-hand mounting pad (photo, arrows to the securing points) and the rear-axle universal joint exploded view — closed yoke type — PDF p.310](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0310-mounting-pad-universal-joint.webp)
 
 ### Left-hand pad
 

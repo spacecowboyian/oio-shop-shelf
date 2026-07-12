@@ -92,7 +92,7 @@ boot (trunk) and engine compartment lids, and the spare wheel compartment door.
 
 <!-- PDF p.356 · M-4 -->
 
-![Main dimensions (unladen) — side, front, plan and rear views with dimensions 1–23 — PDF p.356](../diagrams/p0356-main-dimensions.webp)
+![Main dimensions (unladen) — side, front, plan and rear views with dimensions 1–23 — PDF p.356](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0356-main-dimensions.webp)
 
 | Ref | Dimension | Ref | Dimension |
 | --- | --------- | --- | --------- |
@@ -120,7 +120,7 @@ boot (trunk) and engine compartment lids, and the spare wheel compartment door.
 This section consists of an assembly of side members and cross members to which the floor panelling
 is welded.
 
-![Floor section — exploded view of side members, cross members and brackets (parts 1–12, and stiffeners A for the poor-road version) — PDF p.357](../diagrams/p0357-floor-section-components.webp)
+![Floor section — exploded view of side members, cross members and brackets (parts 1–12, and stiffeners A for the poor-road version) — PDF p.357](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0357-floor-section-components.webp)
 
 1. Left hand pedal assembly bracket.
 2. Right hand pedal assembly bracket.
@@ -155,7 +155,7 @@ liable to affect the points at which the mechanical components are attached to t
 > operations. None of the superstructure components should be replaced until one has ensured that the
 > floor section side and cross members are in their correct positions.
 
-![Floor section checking dimensions — plan (points A–N) and side elevation (points O–AB) — PDF p.358](../diagrams/p0358-floor-section-checking-dimensions.webp)
+![Floor section checking dimensions — plan (points A–N) and side elevation (points O–AB) — PDF p.358](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0358-floor-section-checking-dimensions.webp)
 
 | Ref | Dimension | Ref | Dimension |
 | --- | --------- | --- | --------- |
@@ -217,7 +217,7 @@ operations without removing the mechanical components:
 2. Checking the position of the mechanical components which form the front and rear axles with
    reference to the floor section.
 
-![Trammel-gauge check points on the whole vehicle (F/F', A/A', E/E', B/B', C/C', D/D' referenced to pilot holes P.1, P.2, P.3) and underbody view of the centre floor section — PDF p.360](../diagrams/p0360-trammel-gauge-check-points.webp)
+![Trammel-gauge check points on the whole vehicle (F/F', A/A', E/E', B/B', C/C', D/D' referenced to pilot holes P.1, P.2, P.3) and underbody view of the centre floor section — PDF p.360](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0360-trammel-gauge-check-points.webp)
 
 Each check compares two symmetrical dimensions (one shown in full outline, the other in dotted lines)
 taken from the pilot holes **P.1** and **P.3** on the seat back cross member and **P.2** on the centre
@@ -340,7 +340,7 @@ R 1062, may use extensions No. 12 to obtain a height of 392.5 mm (15 7/16").
    by applying tension or compression from a point inside the bench frame. These loads may be applied
    by ties or a hydraulic jack, but under no circumstances should the load be applied to the supports.
 
-![Combined checking and repair jig bench — elevation and plan with dimensions A–R — PDF p.368](../diagrams/p0368-jig-bench-dimensions.webp)
+![Combined checking and repair jig bench — elevation and plan with dimensions A–R — PDF p.368](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0368-jig-bench-dimensions.webp)
 
 | Ref | Dimension | Ref | Dimension |
 | --- | --------- | --- | --------- |
@@ -520,7 +520,7 @@ is flat, using a straight edge, and that dimensions **X = 26.5 mm (1 1/32")** an
 
 Two types of cross member are supplied as spare parts.
 
-![Front cross member identification — the two cross-member types and spring-cup identification features (dimensions A–D) — PDF p.377](../diagrams/p0377-front-cross-member-identification.webp)
+![Front cross member identification — the two cross-member types and spring-cup identification features (dimensions A–D) — PDF p.377](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0377-front-cross-member-identification.webp)
 
 **1/ Front cross member No 9 929 596** for type R.1090 and R.1091 vehicles previous to the 1959
 models, that is to say with manufacturing numbers previous to 38 9878 for the R.1090 and 734 for the
@@ -675,7 +675,7 @@ web in position, which are to be gas welded to the section.
 
 For R.1090 vehicles up to 427.098 and R.1091 vehicles up to 733.
 
-![Side member section (dimensions A–F for the old and new types) and the two stiffening-bracket drawings (1) and (2) with dimensions A–J — PDF p.382](../diagrams/p0382-side-member-section-brackets.webp)
+![Side member section (dimensions A–F for the old and new types) and the two stiffening-bracket drawings (1) and (2) with dimensions A–J — PDF p.382](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0382-side-member-section-brackets.webp)
 
 **1. Replacing a single front right or left hand side member.**
 
@@ -821,7 +821,7 @@ This operation is to be carried out on a car lift or on trestles.
 
 <!-- PDF p.387 · M-35 -->
 
-![Body components — exploded views of the detachable components and the superstructure outer panels — PDF p.387](../diagrams/p0387-body-components.webp)
+![Body components — exploded views of the detachable components and the superstructure outer panels — PDF p.387](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0387-body-components.webp)
 
 ### Detachable components
 
@@ -851,7 +851,7 @@ This operation is to be carried out on a car lift or on trestles.
 
 <!-- PDF p.388 · M-36 -->
 
-![Inner bodywork panels — exploded view (parts 1–12) and the door-surround straightening dimensions A–L — PDF p.388](../diagrams/p0388-inner-panels-straightening.webp)
+![Inner bodywork panels — exploded view (parts 1–12) and the door-surround straightening dimensions A–L — PDF p.388](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0388-inner-panels-straightening.webp)
 
 1. Cowl side.
 2. Battery compartment.
@@ -1154,7 +1154,7 @@ The following numbered components appear in the cross-section figures:
 
 <!-- PDF p.404 · M-52 -->
 
-![Door and lid clearance arrangement — vehicle side view with section figures 1–12 and clearances A–F — PDF p.404](../diagrams/p0404-door-lid-clearances.webp)
+![Door and lid clearance arrangement — vehicle side view with section figures 1–12 and clearances A–F — PDF p.404](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0404-door-lid-clearances.webp)
 
 | Item | Component | Clearance |
 | ---- | --------- | --------- |
@@ -1170,7 +1170,7 @@ moulding, front door respectively).
 
 <!-- PDF p.405 · M-53 -->
 
-![Door and lid clearance section details (fig. 7–13) with clearances G–N — PDF p.405](../diagrams/p0405-door-lid-clearance-sections.webp)
+![Door and lid clearance section details (fig. 7–13) with clearances G–N — PDF p.405](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0405-door-lid-clearance-sections.webp)
 
 | Item | Component | Clearance |
 | ---- | --------- | --------- |
@@ -1736,7 +1736,7 @@ The lid is adjusted by moving it on the hinge securing bolts.
 Vehicles with automatic transmission have modifications carried out on certain of the bodywork
 components. These new components are available from C.S.S.
 
-![Automatic-transmission bodywork — scuttle (dimensions A–H) and toe-board (LHD/RHD) modifications — PDF p.427](../diagrams/p0427-auto-trans-scuttle-toeboard.webp)
+![Automatic-transmission bodywork — scuttle (dimensions A–H) and toe-board (LHD/RHD) modifications — PDF p.427](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0427-auto-trans-scuttle-toeboard.webp)
 
 ### Scuttle
 
@@ -1777,7 +1777,7 @@ the leads to pass through.
 
 <!-- PDF p.428 · M-76 -->
 
-![Automatic-transmission underbody — under tray, seat back partition (dimensions P–Y) and rear left hand wheel arch (dimensions AA–AE) — PDF p.428](../diagrams/p0428-auto-trans-underbody.webp)
+![Automatic-transmission underbody — under tray, seat back partition (dimensions P–Y) and rear left hand wheel arch (dimensions AA–AE) — PDF p.428](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0428-auto-trans-underbody.webp)
 
 The pedal assembly grease nipple access hole (6) is offset as shown in the sketch, **N = 26 mm (1")**.
 

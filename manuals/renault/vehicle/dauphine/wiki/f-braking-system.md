@@ -60,7 +60,7 @@ Page numbers are the printed **F-n** pages.
 
 <!-- PDF p.249 · F-3 -->
 
-![Brake system layout on the vehicle (reservoir, master cylinder, rigid and flexible lines to all four wheels) — PDF p.249](../diagrams/p0249-brake-system-layout.webp)
+![Brake system layout on the vehicle (reservoir, master cylinder, rigid and flexible lines to all four wheels) — PDF p.249](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0249-brake-system-layout.webp)
 
 - Floating-shoe hydraulically operated brakes.
 - Mechanical hand brake operating on the rear wheels.
@@ -218,7 +218,7 @@ Column headings give the vehicle type and the production period as printed in th
 
 The two front-shoe designs differ in their anchor ("fixed point"):
 
-![Straight fixed point vs. inclined fixed point front shoes — PDF p.252](../diagrams/p0252-fixed-point-shoes.webp)
+![Straight fixed point vs. inclined fixed point front shoes — PDF p.252](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0252-fixed-point-shoes.webp)
 
 ---
 
@@ -245,7 +245,7 @@ The two front-shoe designs differ in their anchor ("fixed point"):
 
 <!-- PDF p.254 · F-8 -->
 
-![Master cylinder (pre-May 1959 type) — sectional operating diagram, positions A/B/C — PDF p.254](../diagrams/p0254-master-cylinder-old-operation.webp)
+![Master cylinder (pre-May 1959 type) — sectional operating diagram, positions A/B/C — PDF p.254](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0254-master-cylinder-old-operation.webp)
 
 - **A — At rest position:** The reservoir connection orifice is uncovered. There is a clearance (K)
   between the piston and the thrust rod. The valve is held closed by spring (6).
@@ -259,7 +259,7 @@ The two front-shoe designs differ in their anchor ("fixed point"):
 
 <!-- PDF p.255 · F-9 -->
 
-![Master cylinder (post-May 1959 type) — sectional operating diagram, positions A/B/C — PDF p.255](../diagrams/p0255-master-cylinder-new-operation.webp)
+![Master cylinder (post-May 1959 type) — sectional operating diagram, positions A/B/C — PDF p.255](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0255-master-cylinder-new-operation.webp)
 
 Since the end of May 1959, R1090 – R1091 vehicles have been equipped in production with a new master
 cylinder identical to that used in the R1093. This differs from the one formerly fitted by:
@@ -295,7 +295,7 @@ The operating principles are identical to those on the master cylinder fitted be
 
 **Master cylinder type fitted before the end of May 1959:**
 
-![Master cylinder (pre-May 1959 type) — exploded view, parts 1–8 — PDF p.256](../diagrams/p0256-master-cylinder-old-exploded.webp)
+![Master cylinder (pre-May 1959 type) — exploded view, parts 1–8 — PDF p.256](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0256-master-cylinder-old-exploded.webp)
 
 Dismantle the master cylinder. Clean the parts in methylated spirits (denatured alcohol). Check them
 and replace all parts that show any signs of wear with new genuine spare parts which are free from
@@ -314,7 +314,7 @@ Hold them all together and fit circlip (8). Ensure that all the parts slide free
 
 **Master cylinder fitted after the end of May 1959:**
 
-![Master cylinder (post-May 1959 type) — exploded view, parts 1–7, and cast-boss identification — PDF p.257](../diagrams/p0257-master-cylinder-new-exploded.webp)
+![Master cylinder (post-May 1959 type) — exploded view, parts 1–7, and cast-boss identification — PDF p.257](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0257-master-cylinder-new-exploded.webp)
 
 Dismantle the master cylinder. Clean all the parts with methylated spirits (denatured alcohol). Check
 them and replace any parts showing signs of wear by new genuine spare parts free of any defect. Soak
@@ -352,7 +352,7 @@ clearance. Check the master cylinder for leaks.
 
 <!-- PDF p.258 · F-12 -->
 
-![Adjusting the master cylinder clearance — pedal free movement G and clearance K, thrust-rod adjustment — PDF p.258](../diagrams/p0258-master-cylinder-clearance.webp)
+![Adjusting the master cylinder clearance — pedal free movement G and clearance K, thrust-rod adjustment — PDF p.258](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0258-master-cylinder-clearance.webp)
 
 This is adjusted by means of the master cylinder thrust rod.
 
@@ -400,7 +400,7 @@ Carry out the removing operations in reverse, then:
 
 <!-- PDF p.260 · F-14 -->
 
-![1958-model pedal assembly — exploded view — PDF p.260](../diagrams/p0260-pedal-assembly-1958.webp)
+![1958-model pedal assembly — exploded view — PDF p.260](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0260-pedal-assembly-1958.webp)
 
 **Removing:** This operation involves removing the pedal assembly.
 
@@ -507,7 +507,7 @@ The forward direction is considered as:
 
 <!-- PDF p.263 · F-17 -->
 
-![Brake shoe assembly on the anchor plate — leading (C) and trailing (T) shoes, return-spring layouts — PDF p.263](../diagrams/p0263-brake-shoes.webp)
+![Brake shoe assembly on the anchor plate — leading (C) and trailing (T) shoes, return-spring layouts — PDF p.263](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0263-brake-shoes.webp)
 
 **Removing:**
 
@@ -537,7 +537,7 @@ produced by "Rector"). After refitting, bleed the braking system.
 
 <!-- PDF p.264 · F-18 -->
 
-![Adjusting the brake shoes — leading square (C) and trailing square (T) on the anchor plate — PDF p.264](../diagrams/p0264-brake-shoe-adjustment.webp)
+![Adjusting the brake shoes — leading square (C) and trailing square (T) on the anchor plate — PDF p.264](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0264-brake-shoe-adjustment.webp)
 
 This consists of bringing each shoe nearer to the drum (therefore two operations per wheel). Pull
 back the shoes from the drum as far as they will go.
@@ -558,7 +558,7 @@ back the shoes from the drum as far as they will go.
 
 <!-- PDF p.265 · F-19 -->
 
-![Hand brake — ratchet, quadrant and lever exploded view — PDF p.265](../diagrams/p0265-hand-brake-exploded.webp)
+![Hand brake — ratchet, quadrant and lever exploded view — PDF p.265](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0265-hand-brake-exploded.webp)
 
 ### Replacing the ratchet and quadrant
 
@@ -618,7 +618,7 @@ the two axles.
 
 <!-- PDF p.267 · F-21 -->
 
-![Brake pressure limiting valve — sectional operation (A: normal braking; B: violent braking) and pressure-gauge checking set-up — PDF p.267](../diagrams/p0267-limiting-valve.webp)
+![Brake pressure limiting valve — sectional operation (A: normal braking; B: violent braking) and pressure-gauge checking set-up — PDF p.267](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0267-limiting-valve.webp)
 
 - **A — Normal braking when slowing down.** Under these circumstances the pressure limiting valve
   does not operate and fluid passes freely to the rear wheels.

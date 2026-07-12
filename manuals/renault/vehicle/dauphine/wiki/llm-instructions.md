@@ -34,7 +34,7 @@ Covers types **R1090 / R1091 / R1093**. Read this file first, before answering f
 **~120 diagram-only figures** (wiring schematics,
 exploded views, torque/loosening sequences, body-jig dimensions, gauge setups) are rendered
 to images and **embedded at their citation point** in the chapter markdown as
-`![caption — PDF p.N](../diagrams/pNNNN-….webp)`, and registered in `manifest.yml`'s
+`![caption — PDF p.N](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/pNNNN-….webp)`, and registered in `manifest.yml`'s
 `diagrams:` block (with `kind`, `depth`, and a `safety_relevant` flag).
 
 When the user needs one of these — e.g. the **cylinder-head bolt tightening sequence**

@@ -232,7 +232,7 @@ The approved lifting/jacking points are identified by the letters A–F on the f
 view and underbody views). Points A and B are for a trolley jack; C for a car lift with hinged
 arms; D for the special lift; E and F for a sling/hoist.
 
-![Dauphine lifting points A–F (side and underbody views) — PDF p.13](../diagrams/p0013-lifting-points.webp)
+![Dauphine lifting points A–F (side and underbody views) — PDF p.13](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0013-lifting-points.webp)
 
 ### I — Lifting by means of a trolley jack
 
@@ -243,7 +243,7 @@ arms; D for the special lift; E and F for a sling/hoist.
 2. **At the rear — Two points B:** Replace the trolley jack head by cradle Ref. Cha.04 and lift by
    taking the load under the rear half shaft tubes.
 
-![Trolley-jack lifting points — front (A, under front cross member) and rear (B, under rear half shaft tubes) — PDF p.14](../diagrams/p0014-lifting-trolley-jack.webp)
+![Trolley-jack lifting points — front (A, under front cross member) and rear (B, under rear half shaft tubes) — PDF p.14](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0014-lifting-trolley-jack.webp)
 
 ### II — Lifting by means of a car lift with hinged arms
 

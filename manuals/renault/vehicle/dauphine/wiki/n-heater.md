@@ -61,7 +61,7 @@ Page numbers are the printed **N-n** pages.
 
 <!-- PDF p.438 · N-3 -->
 
-![Renault heater — installation in the body (hot air trapped in the radiator casings and ducted to the front nozzles and the rear seat base) and the heater/radiator unit — PDF p.438](../diagrams/p0438-renault-heater-installation.webp)
+![Renault heater — installation in the body (hot air trapped in the radiator casings and ducted to the front nozzles and the rear seat base) and the heater/radiator unit — PDF p.438](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0438-renault-heater-installation.webp)
 
 Heating and demisting are achieved by hot air which has passed through the radiator. This
 air is trapped in the casings which cover the radiator and ducted into the car:
@@ -80,7 +80,7 @@ The efficiency of these two devices depends on the temperature of the water in t
 
 <!-- PDF p.439 · N-4 -->
 
-![Standard SOFICA heater — installation in the body, and heater cutaway showing radiator (R), filter screen (F) and fan (V) — PDF p.439](../diagrams/p0439-standard-sofica-installation.webp)
+![Standard SOFICA heater — installation in the body, and heater cutaway showing radiator (R), filter screen (F) and fan (V) — PDF p.439](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0439-standard-sofica-installation.webp)
 
 The functions of heating and demisting are carried out by hot air supplied by the SOFICA
 heater. The installation consists of:
@@ -111,7 +111,7 @@ casing.
 
 **Thermostat: 26 — Reference 794.** <!-- NEEDS REVIEW: the scan's left margin is cropped here; the same thermostat is labelled "CL 26 — Reference 794" on N-11, so a "CL" prefix is likely present but not legible on this page. -->
 
-![Cooling-system thermostat — sectioned views closed and open (water-flow arrows) and the engine-compartment installation — PDF p.440](../diagrams/p0440-thermostat-section.webp)
+![Cooling-system thermostat — sectioned views closed and open (water-flow arrows) and the engine-compartment installation — PDF p.440](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0440-thermostat-section.webp)
 
 So that the heating system comes into operation quickly a thermostat is fitted in the engine
 cooling system between the cylinder head and the engine radiator. The thermostat prevents
@@ -140,7 +140,7 @@ of water in circulation is thus reduced and heats up more rapidly.
 
 <!-- PDF p.441 · N-6 -->
 
-![Standard SOFICA heater removal — input leads (1), earth/ground lead (2), securing bolt (3), duct (4); and the heater-motor exploded view (filter screen F, fan V, motor M, casing C, radiator R) — PDF p.441](../diagrams/p0441-sofica-heater-removal.webp)
+![Standard SOFICA heater removal — input leads (1), earth/ground lead (2), securing bolt (3), duct (4); and the heater-motor exploded view (filter screen F, fan V, motor M, casing C, radiator R) — PDF p.441](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0441-sofica-heater-removal.webp)
 
 **Removing:**
 
@@ -173,7 +173,7 @@ components in their correct positions.
 
 <!-- PDF p.442 · N-7 -->
 
-![Heater-radiator removal — drain plug (5), hoses (6) and (7) and the radiator securing bolts; plus the bleeding and filter-screen maintenance views — PDF p.442](../diagrams/p0442-heater-radiator-removal.webp)
+![Heater-radiator removal — drain plug (5), hoses (6) and (7) and the radiator securing bolts; plus the bleeding and filter-screen maintenance views — PDF p.442](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0442-heater-radiator-removal.webp)
 
 **Removing:**
 
@@ -238,7 +238,7 @@ connected to the radiator hoses. The thermostat was fitted in the upper hose.
 
 <!-- PDF p.444 · N-9 -->
 
-![SOFICA "intense cold" heater — installation in the body and the front air-distribution control detail — PDF p.444](../diagrams/p0444-intense-cold-installation.webp)
+![SOFICA "intense cold" heater — installation in the body and the front air-distribution control detail — PDF p.444](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0444-intense-cold-installation.webp)
 
 The "INTENSE COLD" heating system comprises a two speed large output heater and two flexible
 distribution ducts. Heating and demisting are by means of hot air supplied by the SOFICA
@@ -257,7 +257,7 @@ heater. The installation consists of:
 
 <!-- PDF p.445 · N-10 -->
 
-![SOFICA "intense cold" heater — cutaway (nozzle 1, radiator 2, filter screen 3, fan 4, ducts 5) and the front air-distribution rods (A) operating flaps (B) — PDF p.445](../diagrams/p0445-intense-cold-principle.webp)
+![SOFICA "intense cold" heater — cutaway (nozzle 1, radiator 2, filter screen 3, fan 4, ducts 5) and the front air-distribution rods (A) operating flaps (B) — PDF p.445](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0445-intense-cold-principle.webp)
 
 The SOFICA heater comprises:
 
@@ -312,7 +312,7 @@ quickly and brings the heater into operation sooner.
 
 <!-- PDF p.447 · N-12 -->
 
-![SOFICA "intense cold" heater removal, and the motor-fan unit exploded (four securing bolts A, rubber spacers B) — PDF p.447](../diagrams/p0447-intense-cold-removal.webp)
+![SOFICA "intense cold" heater removal, and the motor-fan unit exploded (four securing bolts A, rubber spacers B) — PDF p.447](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0447-intense-cold-removal.webp)
 
 **Removing:**
 
@@ -346,7 +346,7 @@ quickly and brings the heater into operation sooner.
 
 <!-- PDF p.448 · N-13 -->
 
-![Motor-fan unit fully exploded — half casings (C, D), impeller securing nut (E, left-hand thread), impeller (F), snail housing (G), motor retaining nuts (H), motor (J), rubber washers (K), spacers (L) — PDF p.448](../diagrams/p0448-motor-fan-exploded.webp)
+![Motor-fan unit fully exploded — half casings (C, D), impeller securing nut (E, left-hand thread), impeller (F), snail housing (G), motor retaining nuts (H), motor (J), rubber washers (K), spacers (L) — PDF p.448](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0448-motor-fan-exploded.webp)
 
 3. Disconnect the two half casings (C and D) and separate them.
 4. Unscrew and remove nut (E) which secures impeller (F) to the motor shaft.
@@ -370,7 +370,7 @@ Every **5,000 km (3,000 miles)**, remove the filter screen, clean it with petrol
 
 <!-- PDF p.449 · N-14 -->
 
-![SOFICA "intense cold" heater electrical circuit — 3-position switch (A/B/C), resistance (1) and motor (2) — PDF p.449](../diagrams/p0449-electrical-circuit.webp)
+![SOFICA "intense cold" heater electrical circuit — 3-position switch (A/B/C), resistance (1) and motor (2) — PDF p.449](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0449-electrical-circuit.webp)
 
 **Description.** The electrical system consists of:
 

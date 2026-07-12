@@ -86,7 +86,7 @@ lock.
 
 <!-- PDF p.121 · D-3 -->
 
-![R1090 wiring diagram, models previous to 1961 — harness routing over the vehicle — PDF p.121](../diagrams/p0121-r1090-pre1961-harness-routing.webp)
+![R1090 wiring diagram, models previous to 1961 — harness routing over the vehicle — PDF p.121](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0121-r1090-pre1961-harness-routing.webp)
 
 ### List of wiring harnesses (R1090 pre-1961)
 
@@ -197,7 +197,7 @@ AWG conversion alongside.
 
 <!-- PDF p.123 · D-5 -->
 
-![R1090 wiring diagram, models previous to 1961 — full circuit schematic — PDF p.123](../diagrams/p0123-r1090-pre1961-wiring-schematic.webp)
+![R1090 wiring diagram, models previous to 1961 — full circuit schematic — PDF p.123](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0123-r1090-pre1961-wiring-schematic.webp)
 
 ### Component connections (R1090 pre-1961)
 
@@ -323,7 +323,7 @@ side; K = charging circuit; L = rear right hand; M = rear left hand.
 
 <!-- PDF p.128 · D-11 -->
 
-![R1090 wiring diagram, 1961 models — harness routing over the vehicle — PDF p.128](../diagrams/p0128-r1090-1961-harness-routing.webp)
+![R1090 wiring diagram, 1961 models — harness routing over the vehicle — PDF p.128](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0128-r1090-1961-harness-routing.webp)
 
 ### List of harnesses (R1090 1961)
 
@@ -432,7 +432,7 @@ side; K = charging circuit; L = rear right hand; M = rear left hand.
 
 <!-- PDF p.130 · D-13 -->
 
-![R1090 wiring diagram, 1961 models — full circuit schematic — PDF p.130](../diagrams/p0130-r1090-1961-wiring-schematic.webp)
+![R1090 wiring diagram, 1961 models — full circuit schematic — PDF p.130](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0130-r1090-1961-wiring-schematic.webp)
 
 ### Component connections (R1090 1961)
 
@@ -688,7 +688,7 @@ side; K = charging circuit; L = rear right hand; M = rear left hand.
 
 <!-- PDF p.137 · D-21 -->
 
-![R1090 12-volt wiring diagram — full circuit schematic — PDF p.137](../diagrams/p0137-r1090-12v-wiring-schematic.webp)
+![R1090 12-volt wiring diagram — full circuit schematic — PDF p.137](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0137-r1090-12v-wiring-schematic.webp)
 
 ### Component connections (R1090 12-volt)
 
@@ -861,7 +861,7 @@ Dip switch single wires: 311 black; 319 pink; 320 pink; 364 green.
 
 <!-- PDF p.143 · D-27 -->
 
-![R1091 Gordini harness routing over the vehicle — 1960 and 1961 models — PDF p.143](../diagrams/p0143-r1091-gordini-harness-routing.webp)
+![R1091 Gordini harness routing over the vehicle — 1960 and 1961 models — PDF p.143](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0143-r1091-gordini-harness-routing.webp)
 
 ### List of wires — Gordini 1960 model
 
@@ -936,7 +936,7 @@ Dip switch single wires: 311 black; 319 pink; 320 pink; 364 green.
 
 <!-- PDF p.145 · D-29 -->
 
-![R1091 Gordini 1960 wiring diagram — full circuit schematic — PDF p.145](../diagrams/p0145-r1091-gordini-1960-wiring-schematic.webp)
+![R1091 Gordini 1960 wiring diagram — full circuit schematic — PDF p.145](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0145-r1091-gordini-1960-wiring-schematic.webp)
 
 ### List of wires — Gordini 1961 model
 
@@ -1013,7 +1013,7 @@ Dip switch single wires: 311 black; 319 pink; 320 pink; 364 green.
 
 <!-- PDF p.147 · D-31 -->
 
-![R1091 Gordini 1961 wiring diagram — full circuit schematic — PDF p.147](../diagrams/p0147-r1091-gordini-1961-wiring-schematic.webp)
+![R1091 Gordini 1961 wiring diagram — full circuit schematic — PDF p.147](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0147-r1091-gordini-1961-wiring-schematic.webp)
 
 ### Component connections (Gordini)
 
@@ -1393,11 +1393,11 @@ the graphs:
 2. If the vacuum advance is not correct, check that the moving parts are free and replace the vacuum
    capsule if necessary.
 
-![Centrifugal advance curves — references RK, WW, XC and Marelli S98A — PDF p.162](../diagrams/p0162-centrifugal-advance-curves.webp)
+![Centrifugal advance curves — references RK, WW, XC and Marelli S98A — PDF p.162](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0162-centrifugal-advance-curves.webp)
 
 <!-- PDF p.163 · D-47 -->
 
-![Distributor advance curves — centrifugal R.199 and TZ; vacuum RO, AD, JA and Marelli S98A — PDF p.163](../diagrams/p0163-advance-curves-vacuum.webp)
+![Distributor advance curves — centrifugal R.199 and TZ; vacuum RO, AD, JA and Marelli S98A — PDF p.163](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0163-advance-curves-vacuum.webp)
 
 ### Adjusting the static timing on the vehicle
 
@@ -1637,7 +1637,7 @@ dimension **G**. Adjusting washer thickness: **(R)**.
 
 <!-- NEEDS REVIEW: Ducellier dimension F prints "0.1 to 1.5 mm (.004 to .020")", but 1.5 mm ≈ .059" (as printed for dimension G), while .004–.020" ≈ 0.1–0.5 mm. The mm and inch halves of the F cell can't both be right; kept exactly as printed (source misprint). -->
 
-![Ducellier starter — pinion at-rest position gauge (dimension D) — PDF p.173](../diagrams/p0173-ducellier-starter-pinion-gauge.webp)
+![Ducellier starter — pinion at-rest position gauge (dimension D) — PDF p.173](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0173-ducellier-starter-pinion-gauge.webp)
 
 **Adjusting the at-rest position of the starter pinion.** After refitting the armature to the dynamo
 body and before fitting the bearing at the drive end, ensure that the bearing at the commutator end is
@@ -1656,7 +1656,7 @@ pinion. If the pinion position is not correct, change shims R (see cross section
 
 ### Paris-Rhône starter
 
-![Paris-Rhône starter — cross-section (dimensions H, B, A; adjusting washers R) — PDF p.174](../diagrams/p0174-paris-rhone-starter-section.webp)
+![Paris-Rhône starter — cross-section (dimensions H, B, A; adjusting washers R) — PDF p.174](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0174-paris-rhone-starter-section.webp)
 
 **Checking and adjusting dimensions.**
 
@@ -1700,7 +1700,7 @@ attention is to be paid to the following points during re-assembly. Always fit a
 
 <!-- PDF p.177 · D-61 -->
 
-![Marelli starter — cross-section (dimensions A, B, C, D) — PDF p.177](../diagrams/p0177-marelli-starter-section.webp)
+![Marelli starter — cross-section (dimensions A, B, C, D) — PDF p.177](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0177-marelli-starter-section.webp)
 
 **Specifications.**
 
@@ -1738,7 +1738,7 @@ not as described, add or remove adjusting washers D. Generally speaking, the oth
 pinion do not require checking because they are automatically determined by the adjustment of the
 pinion when at rest.
 
-![Marelli starter — pinion-position gauge dimensions (A–P) — PDF p.178](../diagrams/p0178-marelli-starter-gauge-dimensions.webp)
+![Marelli starter — pinion-position gauge dimensions (A–P) — PDF p.178](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0178-marelli-starter-gauge-dimensions.webp)
 
 | Dimension | mm   | inches  |
 | --------- | ---- | ------- |

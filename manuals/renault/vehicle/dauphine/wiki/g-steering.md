@@ -57,7 +57,7 @@ Page numbers are the printed **G-n** pages.
 
 <!-- PDF p.270 · G-3 -->
 
-![Steering location on the vehicle and the "DIRECTION Type 59" identification plate on the front cross member — PDF p.270](../diagrams/p0270-identification.webp)
+![Steering location on the vehicle and the "DIRECTION Type 59" identification plate on the front cross member — PDF p.270](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0270-identification.webp)
 
 - Type 59 index 01 for left hand drive vehicles.
 - Type 59 index 02 for right hand drive vehicles.
@@ -90,7 +90,7 @@ adjusting the front wheel alignment. This new rack can be fitted in place of the
 
 <!-- PDF p.271 · G-4 -->
 
-![Steering box — longitudinal section (upper) and cross-section bearing arrangements Fig.1 / Fig.2 (lower) — PDF p.271](../diagrams/p0271-longitudinal-cross-section.webp)
+![Steering box — longitudinal section (upper) and cross-section bearing arrangements Fig.1 / Fig.2 (lower) — PDF p.271](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0271-longitudinal-cross-section.webp)
 
 ---
 
@@ -180,7 +180,7 @@ Mount the steering box on support Dir.20, which is to be gripped in a vice.
 6. Remove the flange set bolt.
 7. Remove the flange (9), the upper circlip (10), the safety washer (11) and the spacer (12).
 
-![Steering pinion and drive flange — exploded view (flange 9, upper circlip 10, safety washer 11, spacer 12, seal 13, circlip 14, thrust washer 15, grease nipple 16, bearing 17, pinion 18, sealing washer 19, circlip 20) — PDF p.275](../diagrams/p0275-pinion-flange-exploded.webp)
+![Steering pinion and drive flange — exploded view (flange 9, upper circlip 10, safety washer 11, spacer 12, seal 13, circlip 14, thrust washer 15, grease nipple 16, bearing 17, pinion 18, sealing washer 19, circlip 20) — PDF p.275](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0275-pinion-flange-exploded.webp)
 
 8. Remove seal (13) by means of extractor Dir.16.
 9. Remove circlip (14), thrust washer (15) — by centralizing it — and grease nipple (16).
@@ -224,7 +224,7 @@ Use the repair kit consisting of bushes and snap rings to replace the bearing bu
 
 <!-- PDF p.278 · G-11 -->
 
-![Steering rack reassembly — sectional view showing snap rings (21), return spring (24), rubber sleeve (25), cups (22), lower bearing bush (26) and rack bearing bush (27), with the Dir.18C insertion end fitting and snap-ring retaining fork — PDF p.278](../diagrams/p0278-rack-reassembly-section.webp)
+![Steering rack reassembly — sectional view showing snap rings (21), return spring (24), rubber sleeve (25), cups (22), lower bearing bush (26) and rack bearing bush (27), with the Dir.18C insertion end fitting and snap-ring retaining fork — PDF p.278](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0278-rack-reassembly-section.webp)
 
 1. Fit the lower bearing bush (26) from inside the housing.
 2. Grease the unit and place a reserve of grease in that part of the housing behind the rack bearing
@@ -281,7 +281,7 @@ Use the repair kit consisting of bushes and snap rings to replace the bearing bu
 
 <!-- PDF p.281 · G-14 -->
 
-![Adjusting the steering pinion end play — plunger assembly (parts 4–7) and the Dir.19 hand-press pre-load setup, screw (C), thrust washer (5), lever flexible arm (D), screw head (E) and flange set bolt (B) — PDF p.281](../diagrams/p0281-pinion-endplay-adjustment.webp)
+![Adjusting the steering pinion end play — plunger assembly (parts 4–7) and the Dir.19 hand-press pre-load setup, screw (C), thrust washer (5), lever flexible arm (D), screw head (E) and flange set bolt (B) — PDF p.281](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0281-pinion-endplay-adjustment.webp)
 
 This is the only method to be used:
 
@@ -321,7 +321,7 @@ This is the only method to be used:
 
 <!-- PDF p.283 · G-16 -->
 
-![Steering link — exploded view: rack end (part A, link end fitting 28) and stub axle end (part B, grease nipple 1) — PDF p.283](../diagrams/p0283-steering-links-exploded.webp)
+![Steering link — exploded view: rack end (part A, link end fitting 28) and stub axle end (part B, grease nipple 1) — PDF p.283](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0283-steering-links-exploded.webp)
 
 **Dismantling**
 
@@ -366,7 +366,7 @@ The picture shows a right hand link (as seen from the driving position).
 
 <!-- PDF p.284 · G-17 -->
 
-![Steering column — exploded view: flange (9), flexible coupling (2), steering lock (4), column (5), bracket (7), rubber mat (12), felt (13), insulating plate (14), sealing washer/bush (15), nut (16), steering wheel (17) — PDF p.284](../diagrams/p0284-steering-column-exploded.webp)
+![Steering column — exploded view: flange (9), flexible coupling (2), steering lock (4), column (5), bracket (7), rubber mat (12), felt (13), insulating plate (14), sealing washer/bush (15), nut (16), steering wheel (17) — PDF p.284](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0284-steering-column-exploded.webp)
 
 **Removing:**
 
@@ -435,7 +435,7 @@ wheel should form equal angles with respect to the horizontal (see paragraph V).
 
 <!-- PDF p.286 · G-19 -->
 
-![Steering lock (anti-theft cartridge) removal — locking tab (1), securing screws (2), bracket (7) — PDF p.286](../diagrams/p0286-steering-lock.webp)
+![Steering lock (anti-theft cartridge) removal — locking tab (1), securing screws (2), bracket (7) — PDF p.286](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-dauphine/p0286-steering-lock.webp)
 
 **Removing:**
 
