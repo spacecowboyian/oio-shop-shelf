@@ -24,6 +24,16 @@
 slug: toyota-4a-fe-repair
 title: "Toyota 4A-FE Engine Repair Manual (Sep. 1989)"
 
+# Placement in the automotive taxonomy (manuals/taxonomy.yml). Keys must resolve there;
+# CI blocks unknown ones. Drives the folder home + the generated README front matter.
+# This is a 4A-FE manual (the incidental 4A-GE references are not a 4A-GE manual — see below),
+# so only 4a-fe is declared.
+taxonomy:
+  make: toyota          # -> makes.toyota
+  category: engine      # engine | vehicle ; this manual lives under manuals/toyota/engine/
+  engines:              # engine families this manual covers (keys under makes.toyota.engines)
+    - 4a-fe
+
 source:
   type: local
   location: "Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf"

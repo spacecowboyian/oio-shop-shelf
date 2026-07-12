@@ -6,7 +6,7 @@ rules (never invent/adjust a spec value, cite the source page).
 
 > **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
 > this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the
-> repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing
+> repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/` browsing
 > fails and how to navigate by raw URL.
 
 **This is a 4A-FE manual.** Toyota's cover titles it "4A-FE, 4A-GE," but the 4A-GE content
@@ -39,7 +39,7 @@ these as **incidental reference**, not 4A-GE repair coverage. Everything untagge
 
 ## Cross-checking with the other 4A manual
 
-The repo also has [`toyota-4a-fe-4a-ge`](../../toyota-4a-fe-4a-ge/wiki/00-index.md) (the
+The repo also has [`toyota-4a-fe-4a-ge`](../../4a-fe-4a-ge/wiki/00-index.md) (the
 Service & Maintenance Manual). For a gap in THIS abridged scan, that manual may have the
 page. When the two disagree on a value, surface both with their sources — do not silently
 pick one.

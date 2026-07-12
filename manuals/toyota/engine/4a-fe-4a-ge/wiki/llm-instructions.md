@@ -2,7 +2,7 @@
 
 You have access to a Toyota 4A-F / 4A-GE engine service manual: OCR'd markdown for search, plus the original scanned PDF for diagrams. Read this file first, before answering anything from these documents.
 
-> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing fails and how to navigate by raw URL.
+> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/` browsing fails and how to navigate by raw URL.
 
 ## Fast path for a specific value — `../data/manual-index.jsonl`
 **Experimental.** For any single-value lookup (a spec, torque, clearance, resistance, voltage, capacity, DTC code, or part number), `grep ../data/manual-index.jsonl` for the term and stop — one flat file holds one JSON row per retrievable fact across the *whole* manual, so this resolves in one hop with no chapter-file read. Each row has the value fields plus `_page` (cite it), `_file`, `_section`, and `_flags`. **If `_flags` is non-empty, surface that OCR-uncertainty rather than stating the value as fact; if it's empty, the value is a clean transcription — answer directly.** Never alter a numeric value. Only fall through to the chapter files / index below when the value isn't in `manual-index.jsonl` or the question is a procedure/diagram/diagnosis rather than a value lookup.

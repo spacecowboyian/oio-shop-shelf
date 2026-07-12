@@ -42,6 +42,22 @@ Accept either a local path or a link (Drive/URL). If it's a link, download it
 first to a local working file. Confirm the manual's make/engine/system so you can
 pick a `slug` (e.g. `toyota-4a-fe-4a-ge`) and title.
 
+## 1a. Place it in the automotive taxonomy
+
+Manuals live at **`manuals/<make>/<vehicle|engine>/<unit>/`** — see
+[`manuals/taxonomy.md`](../../manuals/taxonomy.md) for the whole convention. Decide:
+
+- **category** — an engine-family manual (spans many cars) → `engine`; a whole-vehicle /
+  chassis manual → `vehicle`.
+- **make / model / engine keys** — these must exist in **`manuals/taxonomy.yml`** (the
+  controlled vocabulary, anchored to NHTSA vPIC). If the make/model/engine isn't there yet,
+  **add it to `taxonomy.yml` first** (look up the canonical make name + `Make_ID` via the
+  vPIC API — steps in `taxonomy.md`). CI blocks a manifest that names an unregistered entry.
+
+Then copy `manuals/_template/` to `manuals/<make>/<category>/<unit>/`. **Everywhere below,
+`manuals/<slug>/` is shorthand for that path.** The manifest `slug` stays the globally-unique
+id; the folder `<unit>` is a short name (the make is implied by the parent).
+
 ## 1b. Manual overview & scope — build it FIRST, confirm with the user
 
 Before converting anything, write **`manuals/<slug>/README.md`** — a short overview of
@@ -87,8 +103,9 @@ Requires `qpdf` on PATH for encrypted input.
 ## 3. Author the manifest, render, and split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).
-The key content is the **chapter list with 1-based inclusive source page ranges** —
-read them off the manual's own table of contents.
+Two required parts: the **`taxonomy:` block** (make/category/models/chassis/engines from
+step 1a — every key must resolve in `taxonomy.yml`), and the **chapter list with 1-based
+inclusive source page ranges** — read those off the manual's own table of contents.
 
 ```
 python scripts/02_render_pages.py manuals/<slug>/     # page images for cross-checking
@@ -131,6 +148,17 @@ entry (see [issue #9](https://github.com/spacecowboyian/oio-shop-shelf/issues/9)
 Generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
 alphabetical index. (The 4A-GE reference ships hand-curated richer indexes; new
 manuals start from the generated ones.)
+
+## 5b. Generate the README front matter
+
+```
+python scripts/10_write_frontmatter.py manuals/<slug>/
+```
+
+Writes the taxonomy front matter (make/models/chassis/engines/years) to the top of the
+manual's `README.md` from the manifest — this is how an agent finds the right manual for a
+car. It only rewrites that generated block, never your overview prose. Never hand-edit the
+block; change the manifest (or `taxonomy.yml`) and re-run.
 
 ## 6. Bake the index into the PDF
 

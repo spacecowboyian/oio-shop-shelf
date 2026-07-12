@@ -37,6 +37,17 @@ Accept either a local path or a link (Drive/URL). If it's a link, download it
 first to a local working file. Confirm the manual's make/engine/system so you can
 pick a `slug` (e.g. `toyota-4a-fe-4a-ge`) and title.
 
+## 1a — Place it in the automotive taxonomy
+
+Manuals live at **`manuals/<make>/<vehicle|engine>/<unit>/`** (see
+[`manuals/taxonomy.md`](../../../manuals/taxonomy.md)). Decide **category** (engine-family
+manual → `engine`; whole-vehicle/chassis manual → `vehicle`) and the **make/model/engine
+keys** — which must exist in **`manuals/taxonomy.yml`** (controlled vocab, vPIC-anchored).
+If a key isn't there, **add it to `taxonomy.yml` first** (canonical make name + `Make_ID`
+via the vPIC API — steps in `taxonomy.md`); CI blocks unregistered entries. Then copy
+`_template/` to that path. Below, `manuals/<slug>/` is shorthand for it; `slug` stays the
+unique id, `<unit>` is a short folder name.
+
 ## 1b — Manual overview & scope — build it FIRST, confirm with the user
 
 Before converting anything, write **`manuals/<slug>/README.md`** — a short overview of
@@ -87,8 +98,9 @@ Requires `qpdf` on PATH for encrypted input.
 ## 3 — Author the manifest, render & split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).
-The key content is the **chapter list with 1-based inclusive source page ranges** —
-read them off the manual's own table of contents.
+Two required parts: the **`taxonomy:` block** (make/category/models/chassis/engines from
+step 1a — keys must resolve in `taxonomy.yml`) and the **chapter list with 1-based inclusive
+source page ranges** — read those off the manual's own table of contents.
 
 ```
 python scripts/02_render_pages.py manuals/<slug>/     # page images for cross-checking
@@ -137,6 +149,17 @@ the repo-root `MANUALS.md`. This is what lets an assistant with no shell and no 
 reach the wiki at all — GitHub blocks automated crawling of `/tree/` folder pages, so
 relative paths and folder browsing dead-end; the raw-URL lists don't. Run it any time files
 are added/renamed (it's idempotent; repo/branch auto-detected from the git remote).
+
+## 5b — Generate the README front matter
+
+```
+python scripts/10_write_frontmatter.py manuals/<slug>/
+```
+
+Writes the taxonomy front matter (make/models/chassis/engines/years) to the top of the
+manual's `README.md` from the manifest — the machine-discovery layer for finding the right
+manual for a car. Rewrites only that generated block, never your prose. Don't hand-edit it;
+change the manifest/`taxonomy.yml` and re-run.
 
 ## 6 — Bake the index into the PDF
 
