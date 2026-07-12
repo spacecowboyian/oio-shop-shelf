@@ -5,6 +5,16 @@
 slug: toyota-18r-18rg-repair
 title: "Toyota 18R / 18R-C / 18R-G Engine Repair Manual"
 
+# Placement in the automotive taxonomy (manuals/taxonomy.yml). Keys must resolve there;
+# CI blocks unknown ones. Drives the folder home + the generated README front matter.
+taxonomy:
+  make: toyota            # -> makes.toyota
+  category: engine        # engine-family manual; lives under manuals/toyota/engine/
+  engines:                # engine families this manual covers (keys under makes.toyota.engines)
+    - 18r
+    - 18r-c
+    - 18r-g
+
 source:
   type: local
   location: "source.pdf"

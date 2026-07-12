@@ -7,7 +7,7 @@ folder; text layer via Adobe Paper Capture, decrypted with qpdf).
 4A-FE engine, which vehicles used it, and what this manual does and doesn't cover.
 
 **Status: all 9 chapters transcribed** (image-verified), with a baked-in alphabetical index.
-Added by dogfooding the [`convert-manual`](../../../skills/convert-manual/SKILL.md) skill.
+Added by dogfooding the [`convert-manual`](../../../../../skills/convert-manual/SKILL.md) skill.
 
 **If you're an AI assistant:** read [llm-instructions.md](llm-instructions.md) first — this
 manual has three provenance landmines (encrypted source, an **abridged** scan with missing
@@ -17,7 +17,7 @@ only incidental 4A-GE references (tagged `(4A-GE)`). Also read the repo root
 
 ## This is a DISTINCT manual
 
-Not to be confused with [`manuals/toyota-4a-fe-4a-ge/`](../../toyota-4a-fe-4a-ge/wiki/00-index.md)
+Not to be confused with [`manuals/toyota-4a-fe-4a-ge/`](../../4a-fe-4a-ge/wiki/00-index.md)
 — that is the **4A-F / 4A-GE Service & Maintenance Manual** (219 pp). This is the **4A-FE
 Engine Repair Manual** (228 pp). Toyota's cover titles this one "4A-FE, 4A-GE," but the
 4A-GE content is incidental only (see [`../README.md`](../README.md)) — treat it as a 4A-FE

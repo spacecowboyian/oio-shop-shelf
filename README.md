@@ -66,20 +66,26 @@ pipeline for a contributor bringing their own PDF, and walks them through the PR
 
 ```
 manuals/
-  <manual-slug>/            e.g. toyota-4a-fe-4a-ge/
-    manifest.yml            title, source pointer, license note, chapter page-ranges → filenames
-    <manual>.pdf             source PDF, committed alongside the wiki — see Licensing below
-    wiki/                   generated output — THE SOURCE OF TRUTH
-      00-index.md
-      01-....md, 02-....md  one file per chapter (split further if huge)
-      09-quick-reference.md torque/voltage/resistance/clearance specs, linked to source anchors
-      10-needs-review.md    consolidated flag list
-      11a..-alphabetical-index.md
-      llm-instructions.md   per-manual guidance for AI assistants consuming the wiki
-    raw-ocr/                gitignored intermediate OCR text (regenerable, not committed)
+  taxonomy.yml              controlled vocabulary of makes/models/chassis/engines (vPIC-anchored)
+  taxonomy.md               how the make → {vehicle,engine} → unit layout + tags work
+  <make>/                   e.g. toyota/
+    vehicle/ | engine/      whole-vehicle (chassis) manuals vs engine-family manuals
+      <unit>/               e.g. mr2-aw11/  or  4a-fe-repair/
+        manifest.yml        title, source pointer, license note, taxonomy block, chapter page-ranges
+        README.md           overview + GENERATED taxonomy front matter (agent discovery layer)
+        <manual>.pdf         source PDF, committed alongside the wiki — see Licensing below
+        wiki/               generated output — THE SOURCE OF TRUTH
+          00-index.md
+          01-....md, 02-....md  one file per chapter (split further if huge)
+          09-quick-reference.md torque/voltage/resistance/clearance specs, linked to source anchors
+          10-needs-review.md    consolidated flag list
+          11a..-alphabetical-index.md
+          llm-instructions.md   per-manual guidance for AI assistants consuming the wiki
+        raw-ocr/            gitignored intermediate OCR text (regenerable, not committed)
   _template/                skeleton for a new manual
 
-scripts/                    01-06 pipeline + 07 optional Brains mirror (disabled)
+scripts/                    01-06 pipeline, 08 index-in-PDF, 09 README front matter;
+                            07 optional Brains mirror (disabled)
 .github/workflows/          CI: link check + manifest schema validation
 llm-instructions.md         entry point for ANY LLM answering questions from a manual here
 glossary.md                 automotive terminology + OEM manual conventions an LLM needs

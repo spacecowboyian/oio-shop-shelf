@@ -9,8 +9,9 @@ try:
 except ImportError:  # pragma: no cover
     sys.exit("Missing dependency: PyYAML. Run: pip install -r scripts/requirements.txt")
 
-REQUIRED_MANIFEST_KEYS = ("slug", "title", "source", "rights", "chapters")
+REQUIRED_MANIFEST_KEYS = ("slug", "title", "source", "rights", "chapters", "taxonomy")
 REQUIRED_CHAPTER_KEYS = ("file", "title", "page_start", "page_end")
+TAXONOMY_CATEGORIES = ("engine", "vehicle")
 
 
 def manual_dir(arg: str, require_manifest: bool = True) -> Path:
@@ -78,6 +79,104 @@ def validate_manifest(data: dict) -> list[str]:
                 errors.append(f"chapters[{i}] page_start {ps} > page_end {pe}")
     elif chapters is not None:
         errors.append("chapters must be a list")
+    errors += _taxonomy_shape_errors(data.get("taxonomy"))
+    return errors
+
+
+def _taxonomy_shape_errors(tax) -> list[str]:
+    """Shape-only checks for the manifest `taxonomy:` block (no registry needed).
+
+    Registry cross-reference (do these keys EXIST in taxonomy.yml?) is a separate step —
+    see validate_against_taxonomy — because that needs the filesystem and this must stay
+    import-free so CI can call validate_manifest standalone.
+    """
+    errors: list[str] = []
+    if tax is None:
+        return errors  # absence already reported by the REQUIRED_MANIFEST_KEYS loop
+    if not isinstance(tax, dict):
+        return ["taxonomy must be a mapping"]
+    if not tax.get("make"):
+        errors.append("taxonomy.make is required")
+    cat = tax.get("category")
+    if cat not in TAXONOMY_CATEGORIES:
+        errors.append(f"taxonomy.category must be one of {TAXONOMY_CATEGORIES}")
+    if cat == "engine":
+        if not _nonempty_list(tax.get("engines")):
+            errors.append("taxonomy.engines must be a non-empty list for category: engine")
+    elif cat == "vehicle":
+        if not _nonempty_list(tax.get("models")):
+            errors.append("taxonomy.models must be a non-empty list for category: vehicle")
+    for key in ("engines", "models", "chassis"):
+        if key in tax and not isinstance(tax[key], list):
+            errors.append(f"taxonomy.{key} must be a list")
+    return errors
+
+
+def _nonempty_list(v) -> bool:
+    return isinstance(v, list) and len(v) > 0
+
+
+def taxonomy_path(manuals_root: Path) -> Path:
+    return manuals_root / "taxonomy.yml"
+
+
+def load_taxonomy(manuals_root: Path) -> dict:
+    """Load manuals/taxonomy.yml (the controlled vocabulary). Exits if missing/broken."""
+    p = taxonomy_path(manuals_root)
+    if not p.is_file():
+        sys.exit(f"No taxonomy.yml in {manuals_root} — the taxonomy registry is required.")
+    data = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    if not isinstance(data.get("makes"), dict):
+        sys.exit(f"{p} is invalid: top-level `makes:` mapping missing.")
+    return data
+
+
+def validate_against_taxonomy(data: dict, taxonomy: dict) -> list[str]:
+    """Cross-reference a manifest's `taxonomy:` block against taxonomy.yml.
+
+    Returns human-readable errors when a make/model/chassis/engine the manifest declares
+    is not registered in taxonomy.yml. Keeps the registry canonical (register-first).
+    """
+    errors: list[str] = []
+    tax = data.get("taxonomy")
+    if not isinstance(tax, dict):
+        return errors  # shape errors already reported elsewhere
+    makes = taxonomy.get("makes") or {}
+    mk = tax.get("make")
+    make_entry = makes.get(mk)
+    if make_entry is None:
+        errors.append(
+            f"taxonomy.make '{mk}' is not in taxonomy.yml — add it there first "
+            f"(see manuals/taxonomy.md)."
+        )
+        return errors  # can't check sub-keys without the make
+    known_engines = (make_entry.get("engines") or {})
+    for e in tax.get("engines") or []:
+        if e not in known_engines:
+            errors.append(
+                f"taxonomy.engines '{e}' is not under makes.{mk}.engines in taxonomy.yml."
+            )
+    known_models = (make_entry.get("models") or {})
+    for mdl in tax.get("models") or []:
+        if mdl not in known_models:
+            errors.append(
+                f"taxonomy.models '{mdl}' is not under makes.{mk}.models in taxonomy.yml."
+            )
+    # chassis is advisory: check each declared chassis is listed under one of the manifest's
+    # models in taxonomy.yml (only when the model resolved).
+    declared_chassis = [c for c in (tax.get("chassis") or [])]
+    if declared_chassis:
+        registered_chassis = {
+            code
+            for mdl in tax.get("models") or []
+            for code in (known_models.get(mdl, {}) or {}).get("chassis", []) or []
+        }
+        for code in declared_chassis:
+            if code not in registered_chassis:
+                errors.append(
+                    f"taxonomy.chassis '{code}' is not registered under makes.{mk}."
+                    f"models.*.chassis in taxonomy.yml."
+                )
     return errors
 
 

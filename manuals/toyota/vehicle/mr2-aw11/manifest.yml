@@ -7,6 +7,18 @@
 slug: toyota-mr2-aw11
 title: "Toyota MR2 (AW11) 1988 Service Manual"
 
+# Placement in the automotive taxonomy (manuals/taxonomy.yml). Keys must resolve there;
+# CI blocks unknown ones. Drives the folder home + the generated README front matter.
+taxonomy:
+  make: toyota            # -> makes.toyota
+  category: vehicle       # whole-vehicle manual; lives under manuals/toyota/vehicle/
+  models: [mr2]           # keys under makes.toyota.models
+  chassis: [AW11]         # generation/chassis codes (under makes.toyota.models.mr2.chassis)
+  engines:                # engines this vehicle uses (keys under makes.toyota.engines)
+    - 4a-ge
+    - 4a-gze
+  years: "1984-1989"      # AW11 generation span (this scan is the 1988 book)
+
 source:
   type: local
   location: "mr2-aw11-1988-fsm.pdf"

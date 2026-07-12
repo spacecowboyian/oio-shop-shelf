@@ -1,8 +1,39 @@
-# Manifest for a single manual. Copy this folder to manuals/<your-slug>/ and edit.
+# Manifest for a single manual. Copy this folder to its taxonomy home:
+#   manuals/<make>/<vehicle|engine>/<unit>/     e.g. manuals/toyota/vehicle/mr2-aw11/
+#                                                    manuals/toyota/engine/4a-fe-repair/
+# `make` and `<vehicle|engine>` come from the `taxonomy:` block below; `<unit>` is a short
+# folder name (the make is already implied by the parent). The slug stays the globally-unique
+# id and need not equal the folder name. See manuals/taxonomy.md for the whole convention.
 # Every field marked (required) must be filled before the pipeline scripts will run.
 
-slug: example-make-model            # (required) folder-safe id, matches the folder name
+slug: example-make-model            # (required) globally-unique folder-safe id (e.g. toyota-mr2-aw11)
 title: "Example Make/Model Service Manual"   # (required) human title for the index
+
+# (required) Placement in the automotive taxonomy — manuals/taxonomy.yml.
+# Every key below MUST resolve to an entry in taxonomy.yml or CI fails
+# (scripts/validate_manifests.py). Add the make/model/engine THERE first if it's new.
+# This block also drives the generated README front matter (scripts/10_write_frontmatter.py),
+# which is how an agent finds the right manual for a given car.
+#
+# category: engine   -> whole-engine-family manual (spans many cars). Declare `engines:`.
+# category: vehicle  -> whole-vehicle / chassis manual. Declare `models:` (+ `chassis:`,
+#                       and `engines:` the vehicle uses). Example (a Toyota MR2, AW11):
+#
+# taxonomy:
+#   make: toyota
+#   category: vehicle
+#   models: [mr2]              # keys under makes.toyota.models
+#   chassis: [aw11]           # generation/chassis codes (under the model)
+#   engines: [4a-ge, 4a-gze]  # engines the vehicle uses (keys under makes.toyota.engines)
+#   years: "1984-1989"        # optional; free-text span this manual's chassis covers
+#
+# The engine-manual form (what the two committed Toyota manuals use):
+taxonomy:
+  make: example-make          # (required) key under makes: in taxonomy.yml
+  category: engine            # (required) engine | vehicle
+  engines:                    # (required for engine) keys under makes.<make>.engines
+    - example-engine
+  # years: "1990-1999"        # optional free-text coverage span
 
 # (required) Pointer to the SOURCE PDF. Default posture: commit it into this folder
 # (type: local, a filename relative to this manifest) so an AI assistant reading the

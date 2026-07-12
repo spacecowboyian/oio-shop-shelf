@@ -11,7 +11,7 @@
 > inline notes on [PDF p.282]. The 18R and 18R-G distributor sections are kept separate:
 > note the 18R distributor breaks down into **8** numbered components while the 18R-G
 > distributor lists **6**, and their ignition timing differs (7° BTDC vs. 12° BTDC).
-> See [llm-instructions.md](llm-instructions.md) and the [glossary](../../../skills/auto-mechanic/glossary.md).
+> See [llm-instructions.md](llm-instructions.md) and the [glossary](../../../../../skills/auto-mechanic/glossary.md).
 
 ## In this chapter
 
