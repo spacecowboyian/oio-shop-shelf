@@ -1,3 +1,15 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
+slug: "renault-dauphine"
+title: "Renault Dauphine / Ondine / Gordini Workshop Manual (M.R. 93)"
+make: "Renault"
+category: "vehicle"
+models: ["Dauphine"]
+chassis: ["R1090", "R1091", "R1093"]
+engines: ["Ventoux (Type 670)"]
+years: "1956-1967"
+---
+
 # Renault Dauphine / Ondine / Gordini — Factory Workshop Manual (M.R. 93)
 
 > **Overview — please review before the conversion proceeds.** Facts taken from the

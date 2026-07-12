@@ -31,5 +31,4 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/11b-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-4a-ge/wiki/11b-alphabetical-index.md)
 - [wiki/11c-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-4a-ge/wiki/11c-alphabetical-index.md)
 - [wiki/11d-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-4a-ge/wiki/11d-alphabetical-index.md)
-- [Toyota-4A-F-4A-GE-engine-manual-OCR.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-4a-ge/Toyota-4A-F-4A-GE-engine-manual-OCR.pdf)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-4a-ge/data/manual-index.jsonl)

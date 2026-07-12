@@ -408,7 +408,7 @@ Carry out the removing operations in reverse, taking the following precautions:
 <!-- PDF p.285 · G-18 -->
 
 1. Carry out the same operations as were described in paragraph XI to remove bracket (7) without
-   removing the steering column (5). <!-- NEEDS REVIEW: source misprint, not OCR — page image prints "paragraph XI"; but removal of bracket (7) is described in paragraph IX ([Removing and refitting the steering column](#ix--removing-and-refitting-the-steering-column)), not paragraph XI (Replacing the steering wheel). Kept as printed; the reference should almost certainly read "IX". -->
+   removing the steering column (5). <!-- NEEDS REVIEW: source misprint, not OCR — page image prints "paragraph XI"; but removal of bracket (7) is described in paragraph IX ([Removing and refitting the steering column](g-steering.md#ix-removing-and-refitting-the-steering-column)), not paragraph XI (Replacing the steering wheel). Kept as printed; the reference should almost certainly read "IX". -->
 2. When bracket (7) is removed: extract bushes (11).
 3. When refitting the bushes, ensure that they are correctly positioned between the pressed in portions
    (18).

@@ -35,4 +35,3 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/17b-body-electrical-part-2.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/mr2-aw11/wiki/17b-body-electrical-part-2.md)
 - [wiki/18-air-conditioning.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/mr2-aw11/wiki/18-air-conditioning.md)
 - [wiki/19-appendix-service-specifications-sst-and-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/mr2-aw11/wiki/19-appendix-service-specifications-sst-and-index.md)
-- [mr2-aw11-1988-fsm.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/mr2-aw11/mr2-aw11-1988-fsm.pdf)
