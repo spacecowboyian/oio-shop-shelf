@@ -73,7 +73,7 @@ manuals/
       <unit>/               e.g. mr2-aw11/  or  4a-fe-repair/
         manifest.yml        title, source pointer, license note, taxonomy block, chapter page-ranges
         README.md           overview + GENERATED taxonomy front matter (agent discovery layer)
-        <manual>.pdf         source PDF, committed alongside the wiki — see Licensing below
+        (source PDF)        NOT in git — hosted on a GitHub Release, linked from manifest.yml (see Licensing)
         wiki/               generated output — THE SOURCE OF TRUTH
           00-index.md
           01-....md, 02-....md  one file per chapter (split further if huge)
@@ -146,12 +146,14 @@ Pre-release (**v0.1**, scaffolding). See the milestones below.
 The **tooling** in this repo is released under [MIT](LICENSE) *(placeholder — may change to Apache-2.0)*.
 
 **Source manuals are a separate matter.** OEM service manuals are typically copyrighted
-by the manufacturer/publisher, and this repo commits the source PDF alongside each
-manual's wiki anyway — deliberately, so both the markdown and an AI assistant reading it
-can cross-check diagrams, wiring charts, and exploded views that never made it into text.
-This is a considered risk, not an oversight: no license/permission has been sought from
-any manufacturer, and a takedown request could land at any time. See
-[CONTRIBUTING.md](CONTRIBUTING.md) before adding a new manual.
+by the manufacturer/publisher, and this project hosts the source PDF anyway — deliberately,
+so both the markdown and an AI assistant reading it can cross-check diagrams, wiring charts,
+and exploded views that never made it into text. The PDF is **not stored in git** — it lives
+on a per-manual [GitHub Release](https://github.com/spacecowboyian/oio-shop-shelf/releases)
+and each `manifest.yml` `source.location` links to it (kept out of history to keep clones
+light; see [MAINTAINERS.md](MAINTAINERS.md)). This is a considered risk, not an oversight:
+no license/permission has been sought from any manufacturer, and a takedown request could
+land at any time. See [CONTRIBUTING.md](CONTRIBUTING.md) before adding a new manual.
 
 ---
 
