@@ -1,6 +1,11 @@
-# LLM instructions — <MANUAL TITLE>
+# LLM instructions — Toyota 18R / 18R-C / 18R-G Engine Repair Manual
 
 Guidance for AI assistants answering questions from this manual wiki.
+
+> **Fetch-only agent (no shell / no GitHub MCP)?** Don't browse the folder — every file in
+> this manual is listed as an absolute raw URL in [`all-files.md`](all-files.md). See the
+> repo-root [`llm-instructions.md`](../../../llm-instructions.md) for why `/tree/` browsing
+> fails and how to navigate by raw URL.
 
 ## What this is
 
