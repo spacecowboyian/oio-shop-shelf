@@ -100,7 +100,9 @@ built every wiki here, so they hold regardless of which manual you're reading:
 3. **If a value looks wrong and is NOT already flagged**, say so explicitly. Don't
    silently trust it, and don't invent a "corrected" number yourself.
 4. **Diagrams, wiring charts, and exploded views exist only as images**, never as text
-   in the markdown — never try to describe one from the markdown alone. Two cases:
+   in the markdown — never try to describe one from the markdown alone.
+   **Precedence: prefer the delivered image; fall back to the PDF page only when a needed
+   diagram isn't delivered.** Concretely:
    - If the manual **delivers** the diagram, the wiki embeds it as a markdown image at the
      citation point (`![caption — PDF p.N](…)`, and it's listed in `manifest.yml`
      `diagrams:`). Surface that image to the user — clients that render markdown images

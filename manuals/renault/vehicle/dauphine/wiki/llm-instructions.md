@@ -29,7 +29,9 @@ Covers types **R1090 / R1091 / R1093**. Read this file first, before answering f
   as images here (next section).
 
 ## Diagrams ARE delivered here — surface them
-This manual dogfoods diagram delivery. **~120 diagram-only figures** (wiring schematics,
+**Precedence: prefer the delivered image; only when a needed diagram isn't in `manifest.yml`
+`diagrams:` do you fall back to citing the PDF page.** This manual dogfoods diagram delivery.
+**~120 diagram-only figures** (wiring schematics,
 exploded views, torque/loosening sequences, body-jig dimensions, gauge setups) are rendered
 to images and **embedded at their citation point** in the chapter markdown as
 `![caption — PDF p.N](../diagrams/pNNNN-….webp)`, and registered in `manifest.yml`'s
