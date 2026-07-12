@@ -8,7 +8,10 @@ models: ["MR2"]
 chassis: ["AW11"]
 engines: ["4A-GE", "4A-GZE"]
 years: "1984-1989"
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-mr2-aw11/mr2-aw11.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [mr2-aw11.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-mr2-aw11/mr2-aw11.pdf)
 
 # Toyota MR2 (AW11) 1988 — Factory Service Manual
 

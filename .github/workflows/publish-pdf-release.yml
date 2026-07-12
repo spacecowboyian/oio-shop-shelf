@@ -43,6 +43,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python deps (for the README front-matter refresh)
+        run: pip install -r scripts/requirements.txt
+
       - name: Move PDFs to releases, strip from tree, push
         env:
           GH_TOKEN: ${{ github.token }}

@@ -5,7 +5,10 @@ title: "Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual"
 make: "Toyota"
 category: "engine"
 engines: ["4A-F", "4A-GE"]
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-4a-ge/4a-fe-4a-ge.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [4a-fe-4a-ge.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-4a-ge/4a-fe-4a-ge.pdf)
 
 # Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual — Overview
 

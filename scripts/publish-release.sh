@@ -59,6 +59,14 @@ s = re.sub(r'(?m)^\s{2}location:[^\n]*', '  location: "%s"' % url, s, count=1)
 open(f, "w", encoding="utf-8").write(s)
 PY
 
+# Refresh the manual's README so its front matter + visible "Source PDF" link point at
+# the release URL we just set (needs PyYAML; best-effort locally, always works in CI).
+if python3 scripts/10_write_frontmatter.py "$dir" >/dev/null 2>&1; then
+  git add "$dir/README.md"
+else
+  echo "  note: run 'python scripts/10_write_frontmatter.py $dir' to refresh the README PDF link (needs PyYAML)"
+fi
+
 [ "$upload" = "$pdf" ] || rm -f "$upload"
 git rm --quiet "$pdf"
 git add "$dir/manifest.yml"

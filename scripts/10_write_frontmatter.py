@@ -35,7 +35,10 @@ MARKER = "AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter
 # so a block written by an earlier-numbered version of this script is still recognised and
 # replaced rather than duplicated.
 GENERATED_BLOCK_RE = re.compile(
-    r"\A---\n#[^\n]*AUTO-GENERATED[^\n]*taxonomy front matter[^\n]*\n.*?\n---\n(?:\n)?",
+    r"\A---\n#[^\n]*AUTO-GENERATED[^\n]*taxonomy front matter[^\n]*\n.*?\n---\n(?:\n)?"
+    # optional trailing visible "Source PDF" line (also generated here) — consumed on
+    # re-run so it's replaced, not duplicated.
+    r"(?:> 📄 \*\*Source PDF\*\*[^\n]*\n(?:\n)?)?",
     re.DOTALL,
 )
 
@@ -83,8 +86,19 @@ def build_front_matter(manifest: dict, taxonomy: dict) -> str:
         lines.append(f"engines: {_list(engines)}")
     if tax.get("years"):
         lines.append(f"years: {_q(tax['years'])}")
+    # source PDF (only once it's hosted on a Release, i.e. source.type == url) — both a
+    # machine-readable front-matter key and, below, a visible clickable link.
+    src = manifest.get("source") or {}
+    pdf_url = src.get("location") if src.get("type") == "url" else None
+    if pdf_url:
+        lines.append(f"source_pdf: {_q(pdf_url)}")
     lines.append("---")
-    return "\n".join(lines) + "\n"
+    block = "\n".join(lines) + "\n"
+    if pdf_url:
+        name = pdf_url.rsplit("/", 1)[-1]
+        block += (f"\n> 📄 **Source PDF** (hosted on GitHub Releases, not committed): "
+                  f"[{name}]({pdf_url})\n")
+    return block
 
 
 def write_readme(mdir: Path, front_matter: str) -> str:

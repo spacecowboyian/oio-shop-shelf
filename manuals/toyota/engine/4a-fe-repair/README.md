@@ -5,7 +5,10 @@ title: "Toyota 4A-FE Engine Repair Manual (Sep. 1989)"
 make: "Toyota"
 category: "engine"
 engines: ["4A-FE"]
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-repair/4a-fe-repair.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [4a-fe-repair.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-repair/4a-fe-repair.pdf)
 
 # Toyota 4A-FE Engine Repair Manual — Overview
 

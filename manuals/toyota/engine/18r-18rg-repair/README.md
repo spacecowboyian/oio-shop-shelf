@@ -5,7 +5,10 @@ title: "Toyota 18R / 18R-C / 18R-G Engine Repair Manual"
 make: "Toyota"
 category: "engine"
 engines: ["18R", "18R-C", "18R-G"]
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-18r-18rg-repair/18r-18rg-repair.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [18r-18rg-repair.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-18r-18rg-repair/18r-18rg-repair.pdf)
 
 # Toyota 18R / 18R-C / 18R-G Engine Repair Manual — Overview
 
