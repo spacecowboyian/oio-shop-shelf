@@ -1,0 +1,110 @@
+# Renault Dauphine / Ondine / Gordini factory workshop manual (M.R. 93, English ed.).
+# Covers types R1090 / R1091 / R1093. Source: contributor's PDF (Google Drive), 479 pp,
+# scanned, no usable text layer (OCR'd with --force; the scan's page boxes were reframed
+# to the image before OCR — see scripts/01_prepare_pdf.py). Chapters are the manual's own
+# lettered tabs (A–P, skipping I and O); page ranges verified against the divider pages.
+
+slug: renault-dauphine
+title: "Renault Dauphine / Ondine / Gordini Workshop Manual (M.R. 93)"
+
+taxonomy:
+  make: renault           # -> makes.renault (vPIC Make_ID 13647)
+  category: vehicle       # whole-vehicle manual; lives under manuals/renault/vehicle/
+  models: [dauphine]
+  chassis: [R1090, R1091, R1093]   # Dauphine / Dauphine Gordini / Dauphine "1093"
+  engines: [ventoux]      # 845 cc Ventoux (Type 670)
+  years: "1956-1967"
+
+source:
+  type: local             # contributor hand-off; a maintainer moves it to a Release at merge
+  location: "renault-dauphine-mr93.pdf"
+  pages: 479
+
+rights: >
+  Original manual (c) Régie Nationale des Usines Renault (Renault). English edition,
+  November 1964, ref. 85 093 00 06. Sourced from a contributor's copy. Committed here
+  without a license from Renault — a considered risk, consistent with the rest of this
+  repo. See CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: true             # scan carries only a stray annotation font; force real OCR
+
+render:
+  dpi: 200
+  diagram_dpi: 150
+
+# 1-based inclusive source-PDF page ranges. section_code is the manual's own chapter tab
+# letter (matches the "<L> - <n>" running header) so check_page_continuity.py keys off it.
+# Pages 1-2 (cover + tab index) fold into chapter A; p479 (back cover) into P.
+chapters:
+  - file: "a-general.md"
+    section_code: "A"
+    title: "General (specifications, lifting points)"
+    page_start: 1
+    page_end: 15
+  - file: "b-engine.md"
+    section_code: "B"
+    title: "Engine"
+    page_start: 16
+    page_end: 68
+  - file: "c-clutch.md"
+    section_code: "C"
+    title: "Clutch"
+    page_start: 69
+    page_end: 118
+  - file: "d-electrical-and-ignition.md"
+    section_code: "D"
+    title: "Electrical Equipment and Ignition"
+    page_start: 119
+    page_end: 185
+  - file: "e-gearbox.md"
+    section_code: "E"
+    title: "Gearbox (Transmission Case)"
+    page_start: 186
+    page_end: 247
+  - file: "f-braking-system.md"
+    section_code: "F"
+    title: "Braking System"
+    page_start: 248
+    page_end: 268
+  - file: "g-steering.md"
+    section_code: "G"
+    title: "Steering"
+    page_start: 269
+    page_end: 286
+  - file: "h-front-axle.md"
+    section_code: "H"
+    title: "Front Axle"
+    page_start: 287
+    page_end: 305
+  - file: "j-rear-axle.md"
+    section_code: "J"
+    title: "Rear Axle"
+    page_start: 306
+    page_end: 310
+  - file: "k-wheels-hubs-drums.md"
+    section_code: "K"
+    title: "Wheels - Hubs - Drums"
+    page_start: 311
+    page_end: 332
+  - file: "l-suspension-shock-absorbers.md"
+    section_code: "L"
+    title: "Suspension - Shock Absorbers"
+    page_start: 333
+    page_end: 353
+  - file: "m-bodywork.md"
+    section_code: "M"
+    title: "Bodywork"
+    page_start: 354
+    page_end: 436
+  - file: "n-heater.md"
+    section_code: "N"
+    title: "Heater"
+    page_start: 437
+    page_end: 449
+  - file: "p-special-tools.md"
+    section_code: "P"
+    title: "Special Tools"
+    page_start: 450
+    page_end: 479
