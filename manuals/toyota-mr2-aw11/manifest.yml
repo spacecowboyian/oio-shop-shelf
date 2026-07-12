@@ -1,0 +1,150 @@
+# Toyota MR2 (AW11) 1988 whole-vehicle Factory Service Manual.
+# Source: Internet Archive item "1988-toyota-mr-2-repair-manual-toyota" (free, unrestricted).
+# 1066 pp, text layer present. Covers 4A-GE + 4A-GZE. See README.md for scope/provenance.
+# Chapter page ranges auto-detected from page running-headers (no embedded TOC) — verify
+# at section seams during cleanup.
+
+slug: toyota-mr2-aw11
+title: "Toyota MR2 (AW11) 1988 Service Manual"
+
+source:
+  type: local
+  location: "mr2-aw11-1988-fsm.pdf"
+  pages: 1066
+
+rights: >
+  Original manual (c) Toyota Motor Corporation. Sourced from the Internet Archive
+  (item 1988-toyota-mr-2-repair-manual-toyota), free and unrestricted. Both the derived
+  markdown transcription and the source PDF are committed here without a license from
+  Toyota — a considered risk, consistent with the rest of this repo. See CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: false
+
+render:
+  dpi: 200
+
+# 1-based inclusive source-PDF page ranges (auto-detected section blocks; big sections
+# split into ~95-page parts). See README.md.
+chapters:
+  - file: "01-general-information-introduction.md"
+    section_code: "IN"
+    title: "General Information / Introduction"
+    page_start: 1
+    page_end: 11
+  - file: "02-maintenance.md"
+    section_code: "MA"
+    title: "Maintenance"
+    page_start: 12
+    page_end: 24
+  - file: "03a-engine-mechanical-part-1.md"
+    section_code: "EM"
+    title: "Engine Mechanical (Part 1)"
+    page_start: 25
+    page_end: 90
+  - file: "03b-engine-mechanical-part-2.md"
+    section_code: "EM"
+    title: "Engine Mechanical (Part 2)"
+    page_start: 91
+    page_end: 155
+  - file: "04-supercharger-system-4a-gze.md"
+    section_code: "SC"
+    title: "Supercharger System (4A-GZE)"
+    page_start: 156
+    page_end: 174
+  - file: "05a-efi-system-and-emission-control-part-1.md"
+    section_code: "FI"
+    title: "EFI System and Emission Control (Part 1)"
+    page_start: 175
+    page_end: 260
+  - file: "05b-efi-system-and-emission-control-part-2.md"
+    section_code: "FI"
+    title: "EFI System and Emission Control (Part 2) + Engine Cooling"
+    page_start: 261
+    page_end: 345
+  - file: "06-engine-lubrication.md"
+    section_code: "LU"
+    title: "Engine Lubrication"
+    page_start: 346
+    page_end: 362
+  - file: "07-ignition-system.md"
+    section_code: "IG"
+    title: "Ignition System"
+    page_start: 363
+    page_end: 374
+  - file: "08-starting-system.md"
+    section_code: "ST"
+    title: "Starting System"
+    page_start: 375
+    page_end: 386
+  - file: "09-charging-system.md"
+    section_code: "CH"
+    title: "Charging System"
+    page_start: 387
+    page_end: 402
+  - file: "10-clutch.md"
+    section_code: "CL"
+    title: "Clutch"
+    page_start: 403
+    page_end: 417
+  - file: "11a-manual-transmission-c50-c52-part-1.md"
+    section_code: "MT"
+    title: "Manual Transmission (C52/E51) (Part 1)"
+    page_start: 418
+    page_end: 468
+  - file: "11b-manual-transmission-c50-c52-part-2.md"
+    section_code: "MT"
+    title: "Manual Transmission (C52/E51) (Part 2)"
+    page_start: 469
+    page_end: 518
+  - file: "12a-automatic-transmission-a240e-a241e-part-1.md"
+    section_code: "AT"
+    title: "Automatic Transmission (A240E/A241E) (Part 1)"
+    page_start: 519
+    page_end: 592
+  - file: "12b-automatic-transmission-a240e-a241e-part-2.md"
+    section_code: "AT"
+    title: "Automatic Transmission (A240E/A241E) (Part 2)"
+    page_start: 593
+    page_end: 665
+  - file: "13-front-suspension-and-axle.md"
+    section_code: "FA"
+    title: "Front Suspension and Axle"
+    page_start: 666
+    page_end: 691
+  - file: "14-rear-suspension-and-axle.md"
+    section_code: "RA"
+    title: "Rear Suspension and Axle"
+    page_start: 692
+    page_end: 731
+  - file: "15-brake-system.md"
+    section_code: "BR"
+    title: "Brake System"
+    page_start: 732
+    page_end: 771
+  - file: "16-steering.md"
+    section_code: "SR"
+    title: "Steering"
+    page_start: 772
+    page_end: 796
+  - file: "17a-body-electrical-part-1.md"
+    section_code: "BE"
+    title: "Body Electrical (Part 1)"
+    page_start: 797
+    page_end: 867
+  - file: "17b-body-electrical-part-2.md"
+    section_code: "BE"
+    title: "Body Electrical (Part 2) + Body"
+    page_start: 868
+    page_end: 938
+  - file: "18-air-conditioning.md"
+    section_code: "AC"
+    title: "Air Conditioning"
+    page_start: 939
+    page_end: 981
+  - file: "19-appendix-service-specifications-sst-and-index.md"
+    section_code: "AP"
+    title: "Appendix - Service Specifications, SST and Index"
+    page_start: 982
+    page_end: 1066

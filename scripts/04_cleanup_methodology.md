@@ -109,6 +109,51 @@ value appears in running text (tables are auto-detected already). Keep the unit 
 to the number (`44 N·m`, `0.20 mm`, `13.8 V`, `1.6 Ω`). The builder regexes on
 number+unit patterns.
 
+## Rule 8 — Source misprints vs OCR errors (state which)
+
+Two different failure modes, both handled by "keep as printed + flag," but the flag must say
+which:
+- **OCR error** you resolved from the page image → use the image value and note
+  `<!-- NEEDS REVIEW: OCR read X; page image shows Y — corrected from image -->`.
+- **The manual itself misprints** a value (the page image confirms the wrong value, e.g. a
+  unit conversion that can't reconcile) → keep it exactly as printed and note
+  `<!-- NEEDS REVIEW: source misprint, not OCR — printed "X"; the (…) conversion implies Y -->`.
+Never silently "fix" either. A reader must be able to tell an OCR artifact from a real
+manual typo.
+
+## Rule 9 — Duplicate / abridged scans and misfiled pages
+
+A chapter's page range sometimes contains a **duplicate (often abridged) scan** of the same
+content, or a few pages **belonging to another chapter** (misfiled in the scan). Transcribe
+the **most complete pass once**, drop the duplicate/foreign pages, and record the dedup
+decision in an HTML source-note comment at the top of the file. (The repo's
+`check_page_continuity.py` also surfaces suspected gaps — but note it reads the manual's own
+in-body page-code cross-references as page markers, so it over-reports; confirm real gaps
+against the images before recording them.)
+
+## Rule 10 — Diagram-only data and electrical matrices
+
+- **Torque/spec callouts that appear only in an exploded-view diagram** (never restated in
+  prose): pull them into a components torque table. If the diagram's leader line doesn't make
+  the target fastener unambiguous, transcribe the value and flag the attribution.
+- **Switch/relay continuity matrices** (dot-and-line grids): render as a "switch position →
+  connected terminal groups" table. **Hysteresis switch-point diagrams** (ON/OFF thresholds):
+  render as a "switching point → state" table. Where a grid is too dense/ambiguous to read
+  reliably, leave a figure placeholder and flag it rather than guessing every dot.
+
+## Rule 11 — Anchor slugs for THIS repo's link checker
+
+`06_check_links.py` slugifies headings as: lowercase → strip non-`[\w\s-]` → collapse
+**whitespace runs to a single `-`**. Consequences for intra-file links you write:
+- An em-dash heading "Foo — Bar" becomes `#foo-bar` (single hyphen), **not** `#foo--bar`.
+- The checker does **not** add GitHub-style `-1`/`-2` suffixes for duplicate headings — so
+  don't link to `#heading-1`; make the heading text unique instead (see Rule 4 anchor note).
+
+> **Chapter numbering:** don't collide with the generated index filenames. `05_build_indexes.py`
+> now reserves only the specific `11a..11d-alphabetical-index.md` names (not the bare `11`
+> prefix), so a chapter numbered `11a` is fine — but keep generated names (`00-`, `09-`,
+> `10-`, `11?-alphabetical-index`) clear of chapter files.
+
 ## Output checklist (self-verify before saving)
 
 - [ ] Every number matches the OCR/image; none silently changed.
@@ -125,3 +170,9 @@ per change: date · what changed · why (link the PR/issue).
 
 - 2026-07-11 · Marked this doc a living standard; added changelog + link to
   `10-needs-review.md` as the canonical "flag, don't guess" example (#3).
+- 2026-07-12 · Added Rules 8–11 from the Toyota MR2 (AW11) conversion (24-chapter whole-
+  vehicle FSM): source-misprint vs OCR flag wording; duplicate/abridged-scan & misfiled-page
+  handling; diagram-only torque callouts + electrical continuity/hysteresis matrices; and this
+  repo's anchor-slug rules (single-hyphen collapse, no `-N` suffixes). Also fixed
+  `05_build_indexes.py` to reserve only the specific `11?-alphabetical-index.md` filenames so a
+  chapter numbered `11a` is no longer silently dropped from the indexes.
