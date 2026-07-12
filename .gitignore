@@ -16,3 +16,6 @@ venv/
 *.swp
 .idea/
 .vscode/
+
+# Staged source PDFs awaiting conversion (the converted manual commits its own copy)
+_inbox/
