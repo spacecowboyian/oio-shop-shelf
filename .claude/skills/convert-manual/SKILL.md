@@ -196,9 +196,16 @@ commit, push, PR, and what a good description says. Full step-by-step (with
 copy-paste commands and the first-timer path) is in
 **`references/pull-request-walkthrough.md`**. Read it and adapt to their setup.
 
+**Do commit the OCR'd + indexed source PDF in the manual folder** — that's the hand-off.
+It does **not** stay in git: a maintainer moves it to a `manuals-<slug>` GitHub Release at
+merge (`scripts/publish-release.sh`) and it's stripped from the tree, so PDFs never bloat
+history. Tell the contributor the **`no-pdf-guard` CI check will be red** while their PDF is
+committed — that's expected and clears at merge. Manual PRs are **squash-merged.** Full
+contract: `MAINTAINERS.md`.
+
 ## What a finished package looks like
 
-Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF,
-`wiki/` with per-chapter `.md`, `00-index.md`, `09-*`, `10-needs-review.md`,
-`11a..d-alphabetical-index.md`, and `llm-instructions.md`. Don't commit raw OCR
-intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).
+Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF (committed for
+the PR; moved to a Release at merge), `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`,
+`10-needs-review.md`, `11a..d-alphabetical-index.md`, and `llm-instructions.md`. Don't commit
+raw OCR intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).

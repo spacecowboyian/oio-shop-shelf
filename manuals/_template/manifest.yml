@@ -35,11 +35,19 @@ taxonomy:
     - example-engine
   # years: "1990-1999"        # optional free-text coverage span
 
-# (required) Pointer to the SOURCE PDF. Default posture: commit it into this folder
-# (type: local, a filename relative to this manifest) so an AI assistant reading the
-# wiki can open it for diagrams/wiring charts. See CONTRIBUTING.md on copyright risk.
+# (required) Pointer to the SOURCE PDF.
+# As a CONTRIBUTOR: leave this as `type: local` pointing at the PDF you commit into this
+# folder — that's the hand-off. Do NOT worry about hosting.
+# At MERGE, a maintainer runs `scripts/publish-release.sh <this-dir>`, which uploads the
+# PDF to a `manuals-<slug>` GitHub Release, flips this block to `type: url` with the
+# release download URL, and removes the committed PDF (PDFs never enter git history —
+# see MAINTAINERS.md). So a merged manual ends up looking like:
+#   source:
+#     type: url
+#     location: "https://github.com/<owner>/<repo>/releases/download/manuals-<slug>/<slug>.pdf"
+#     pages: 219
 source:
-  type: local                       # local | url
+  type: local                       # local (contributor) | url (set by publish-release.sh at merge)
   location: "your-source.pdf"
   pages: 219                        # total page count of the source PDF
 
