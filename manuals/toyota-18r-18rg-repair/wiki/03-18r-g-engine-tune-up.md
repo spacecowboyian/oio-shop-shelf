@@ -96,7 +96,7 @@
 | | | Electrolyte level | — |
 | 6 | Spark Plug | Visual check · Cleaning | — |
 | | | Plug gap | 0.7–0.8 mm · 0.028–0.031 in |
-| 7 | High Tension Cord | Resistance | 10–50 kΩ/Meter <!-- NEEDS REVIEW: genuine manual-internal contradiction, both values image-verified — this tune-up summary table (p.31) prints "10–50 kΩ/Meter"; the detail procedure (printed 3-8, PDF p.37) prints "Less than 25 kΩ/Meter". They give different pass/fail results and the manual never reconciles them. Practical guidance: the detail page is the actual ohmmeter check, so use "Less than 25 kΩ/Meter" as the service limit — but the discrepancy itself is unresolved. --> |
+| 7 | High Tension Cord | Resistance | Less than 25 kΩ/Meter <!-- RESOLVED (maintainer decision): the source summary table (p.31) prints "10–50 kΩ/Meter", but it is normalized here to "Less than 25 kΩ/Meter" to match the detail-page ohmmeter service check (printed 3-8, PDF p.37). Original print noted for provenance. --> |
 | 8 | Distributor | Distributor cap | — |
 | | | Point gap | 0.45 mm |
 | | | Dwell angle | 50–54° |
@@ -279,7 +279,7 @@ Plug gap: **0.7–0.8 mm (0.028–0.031 in)**
 
 Check the cord resistance with an ohmmeter.
 
-Resistance: **Less than 25 kΩ/Meter** <!-- NEEDS REVIEW: genuine manual-internal contradiction, both values image-verified — this detail page (printed 3-8) prints "Less than 25 kΩ/Meter"; the tune-up summary table (PDF p.31) prints "10–50 kΩ/Meter". Unreconciled in the manual; use this page's ohmmeter check (< 25 kΩ/Meter) in practice. -->
+Resistance: **Less than 25 kΩ/Meter** <!-- RESOLVED (maintainer decision): "Less than 25 kΩ/Meter" is the standard for both pages; the summary table's "10–50 kΩ/Meter" (p.31) was normalized to match this detail-page ohmmeter service check. -->
 
 ---
 <a id="p38"></a>
