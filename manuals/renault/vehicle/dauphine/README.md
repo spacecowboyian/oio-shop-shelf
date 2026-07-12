@@ -12,9 +12,10 @@ years: "1956-1967"
 
 # Renault Dauphine / Ondine / Gordini — Factory Workshop Manual (M.R. 93)
 
-> **Overview — please review before the conversion proceeds.** Facts taken from the
-> manual's own cover/contents pages are marked *(from manual)*; vehicle/engine background
-> is best-effort context *(background — review-pending)*, **not** from the manual.
+> Facts taken from the manual's own cover/contents pages are marked *(from manual)*;
+> vehicle/engine background is best-effort context *(background — review-pending)*, **not**
+> from the manual. For AI assistants answering from this manual, start at
+> [`wiki/llm-instructions.md`](wiki/llm-instructions.md).
 
 ## What this manual is *(from manual)*
 
