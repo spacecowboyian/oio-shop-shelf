@@ -20,8 +20,8 @@ taxonomy:
   years: "1984-1989"      # AW11 generation span (this scan is the 1988 book)
 
 source:
-  type: local
-  location: "mr2-aw11-1988-fsm.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-mr2-aw11/mr2-aw11.pdf"
   pages: 1066
 
 rights: >

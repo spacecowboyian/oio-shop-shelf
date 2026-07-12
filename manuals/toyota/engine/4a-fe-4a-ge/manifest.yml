@@ -18,8 +18,8 @@ taxonomy:
     - 4a-ge
 
 source:
-  type: local
-  location: "Toyota-4A-F-4A-GE-engine-manual-OCR.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-4a-ge/4a-fe-4a-ge.pdf"
   pages: 219
 
 rights: >

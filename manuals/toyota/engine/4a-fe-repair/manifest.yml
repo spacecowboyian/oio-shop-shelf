@@ -35,8 +35,8 @@ taxonomy:
     - 4a-fe
 
 source:
-  type: local
-  location: "Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-4a-fe-repair/4a-fe-repair.pdf"
   pages: 228
 
 rights: >
