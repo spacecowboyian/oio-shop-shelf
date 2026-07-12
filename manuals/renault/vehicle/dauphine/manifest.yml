@@ -710,3 +710,69 @@ diagrams:
     depth: mono
     caption: "Wheel-rim buckle and eccentricity check — dial-indicator points V (buckle) and E/E1 (eccentricity)"
     safety_relevant: false
+  - page: 335
+    file: "diagrams/p0335-shock-absorber-identification.webp"
+    kind: chart
+    depth: gray
+    caption: "Shock absorber identification — Fig.1/2/3 manufacturing-series signs and the AR / date-code (e.g. A 6 = Jan 1956) markings"
+    safety_relevant: false
+  - page: 336
+    file: "diagrams/p0336-aerostable-suspension-sections.webp"
+    kind: exploded
+    depth: mono
+    caption: "Aerostable suspension cross-sections — front (dwg 59996) and rear (dwg 59997); also serves R.1091 (L-6)"
+    safety_relevant: false
+  - page: 338
+    file: "diagrams/p0338-rear-suspension-modification-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear suspension cross-section (dwg 54 039.1) — 1960 modification spacer locations A, B, C"
+    safety_relevant: false
+  - page: 340
+    file: "diagrams/p0340-front-shock-absorber-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front shock absorber removal — upper attachment point (1) and lower securing yoke (2)"
+    safety_relevant: true
+  - page: 341
+    file: "diagrams/p0341-front-shock-absorber-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front shock absorber refitting — exploded view (dwg 45924.2), section (60002) and upper-attachment detail A"
+    safety_relevant: true
+  - page: 342
+    file: "diagrams/p0342-aerostable-front-shock-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Aerostable front shock absorber refitting (dwg 58 630-1) — rubber pads (4, 5), cup washer (6), nut (7), lock nut (8)"
+    safety_relevant: true
+  - page: 344
+    file: "diagrams/p0344-rear-shock-absorber-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear shock absorber refitting — exploded view (dwg 45925-2), section (60003) and upper-securing detail A"
+    safety_relevant: true
+  - page: 345
+    file: "diagrams/p0345-aerostable-rear-removal-no-evidgom.webp"
+    kind: exploded
+    depth: gray
+    caption: "Aerostable rear spring/shock removal, no Evidgom pad (dwg 59 997-1) — attachment point (1), bell housing (2), strap nuts (3), lower attachment (4)"
+    safety_relevant: true
+  - page: 346
+    file: "diagrams/p0346-aerostable-rear-removal-evidgom.webp"
+    kind: exploded
+    depth: gray
+    caption: "Aerostable rear spring/shock removal, Evidgom pad (dwg 54-59.1) — securing point (1), strap (2), strap nuts (3), lower attachment (4)"
+    safety_relevant: true
+  - page: 349
+    file: "diagrams/p0349-anti-roll-bar-link-arrangement.webp"
+    kind: exploded
+    depth: gray
+    caption: "Anti-roll bar and connecting links — left-hand and right-hand link arrangements (fit the correct way round)"
+    safety_relevant: false
+  - page: 351
+    file: "diagrams/p0351-half-shaft-limiter-pad.webp"
+    kind: exploded
+    depth: gray
+    caption: "Half shaft movement limiter — installed photo (48429-2) and section (48430-1) with setting dimension A = 161 mm"
+    safety_relevant: false

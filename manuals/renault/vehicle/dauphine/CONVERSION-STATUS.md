@@ -58,8 +58,8 @@ Consequences to reconcile before committing D:
 - [x] H front axle (p287–305) — DONE. 11 diagrams, ~15 images, 1 flag (camber/castor label).
 - [x] J rear axle (p306–310) — DONE. 4 diagrams, 5 images, 0 flags.
 - [x] K wheels-hubs-drums (p311–332) — DONE. 7 diagrams, 22 images, 3 flags (source misprints).
-- [~] L suspension-shock-absorbers (p333–353) — NEXT
-- [ ] M bodywork (p354–436) — LARGE, figure-heavy
+- [x] L suspension-shock-absorbers (p333–353) — DONE. 11 diagrams, ~19 images, 3 flags.
+- [~] M bodywork (p354–436) — NEXT (LARGE, figure-heavy)
 - [ ] N heater (p437–449)
 - [ ] P special tools (p450–479) — catalogue; render as ref#→description TABLE, don't image-dump
 
