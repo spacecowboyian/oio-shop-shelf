@@ -165,8 +165,12 @@ def main() -> int:
         print(f"Wrote {mdir/'wiki'/'all-files.md'} ({n} files) for {repo}@{branch}")
         return 0
 
-    mdirs = sorted(p for p in (REPO_ROOT / "manuals").iterdir()
-                   if (p / "manifest.yml").is_file() and p.name != "_template")
+    # Manuals nest as manuals/<make>/<vehicle|engine>/<unit>/ — find them by manifest.
+    manuals_root = REPO_ROOT / "manuals"
+    mdirs = sorted({
+        p.parent for p in manuals_root.glob("**/manifest.yml")
+        if "_template" not in p.relative_to(manuals_root).parts
+    })
     for mdir in mdirs:
         n = write_all_files(mdir, repo, branch)
         print(f"  {mdir.name}: {n} files")

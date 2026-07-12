@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""09 — Generate each manual's README front matter from its manifest + the taxonomy.
+"""10 — Generate each manual's README front matter from its manifest + the taxonomy.
 
 Usage:
-    python scripts/09_write_frontmatter.py <manuals/.../unit/>   # one manual
-    python scripts/09_write_frontmatter.py --all                 # every manual
+    python scripts/10_write_frontmatter.py <manuals/.../unit/>   # one manual
+    python scripts/10_write_frontmatter.py --all                 # every manual
 
 The manifest `taxonomy:` block (make/category/models/chassis/engines) is the SOURCE OF
 TRUTH. This script resolves those keys to their canonical names in manuals/taxonomy.yml and
@@ -29,10 +29,13 @@ from _common import (  # noqa: E402
     validate_against_taxonomy,
 )
 
-MARKER = "AUTO-GENERATED — taxonomy front matter (scripts/09_write_frontmatter.py); do not edit"
-# A leading YAML front-matter fence whose first line is our marker comment.
+MARKER = "AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit"
+# Match a leading YAML front-matter fence whose first line is OUR marker comment. Keyed on
+# the stable "AUTO-GENERATED … taxonomy front matter" signature (not the exact script path),
+# so a block written by an earlier-numbered version of this script is still recognised and
+# replaced rather than duplicated.
 GENERATED_BLOCK_RE = re.compile(
-    r"\A---\n#\s*" + re.escape(MARKER) + r".*?\n---\n(?:\n)?",
+    r"\A---\n#[^\n]*AUTO-GENERATED[^\n]*taxonomy front matter[^\n]*\n.*?\n---\n(?:\n)?",
     re.DOTALL,
 )
 

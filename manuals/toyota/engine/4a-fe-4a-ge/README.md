@@ -1,3 +1,12 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
+slug: "toyota-4a-fe-4a-ge"
+title: "Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual"
+make: "Toyota"
+category: "engine"
+engines: ["4A-F", "4A-GE"]
+---
+
 # Toyota 4A-F / 4A-GE Engine Service & Maintenance Manual — Overview
 
 *What this manual is, what it covers, and what it doesn't. Skim this first for bearings.*

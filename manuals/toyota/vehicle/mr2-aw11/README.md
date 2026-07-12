@@ -1,3 +1,15 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
+slug: "toyota-mr2-aw11"
+title: "Toyota MR2 (AW11) 1988 Service Manual"
+make: "Toyota"
+category: "vehicle"
+models: ["MR2"]
+chassis: ["AW11"]
+engines: ["4A-GE", "4A-GZE"]
+years: "1984-1989"
+---
+
 # Toyota MR2 (AW11) 1988 — Factory Service Manual
 
 > **Overview / scope note — review before conversion.** *What the manual contains*

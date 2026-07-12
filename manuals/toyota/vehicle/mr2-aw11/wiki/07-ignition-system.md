@@ -2,7 +2,7 @@
 
 *Section code: `IG` | Source PDF pages 363–374 (manual pages IG-1 – IG-12) | Covers the 4A-GE and 4A-GZE ignition systems: precautions, troubleshooting, Electronic Spark Advance (ESA), on-vehicle inspection, distributor service, and ignition-timing adjustment.*
 
-Related: 4A-GE engine internals are shared with the repo's [4A-FE / 4A-GE engine manual](../../toyota-4a-fe-4a-ge/wiki/02-service-specifications.md) (see its Ignition — Service Data section) — that manual lists slightly different ignition service-data values for its application; use the AW11 values below for the AW11 chassis.
+Related: 4A-GE engine internals are shared with the repo's [4A-FE / 4A-GE engine manual](../../../engine/4a-fe-4a-ge/wiki/02-service-specifications.md) (see its Ignition — Service Data section) — that manual lists slightly different ignition service-data values for its application; use the AW11 values below for the AW11 chassis.
 
 <a id="p363"></a>
 ## In this chapter
