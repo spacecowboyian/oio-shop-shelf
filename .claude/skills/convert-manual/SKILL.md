@@ -62,8 +62,15 @@ the whole conversion. See `manuals/toyota-4a-fe-4a-ge-repair/README.md` for a wo
 Produce a clean, text-searchable working PDF before anything else:
 
 ```
+mkdir -p manuals/<slug>/                               # the dir just needs to exist
 python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 ```
+
+`01` runs **before the manifest exists on purpose** — it only needs the source PDF and
+the `manuals/<slug>/` directory. That's the right order: OCR first, then read the manual's
+own table of contents *out of* `raw-ocr/full-text.txt` when you write the chapter page
+ranges in step 3. For a non-English manual, pass `--language` (e.g. `--language eng+deu`)
+since there's no manifest yet to read it from.
 
 `01` handles two things automatically:
 - **Encryption** — scanned OEM PDFs are often owner-password/permission-encrypted
@@ -117,11 +124,19 @@ per model and tag each entry (issue #9).
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
+python scripts/09_link_index.py                       # all-files.md + repo-root MANUALS.md
 ```
 
-Generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
+`05` generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
 alphabetical index. (The 4A-GE reference ships hand-curated richer indexes; new
 manuals start from the generated ones.)
+
+`09` generates the **absolute-URL** navigation that web-fetch-only agents need:
+`manuals/<slug>/wiki/all-files.md` (every file as a `raw.githubusercontent.com` link) and
+the repo-root `MANUALS.md`. This is what lets an assistant with no shell and no GitHub MCP
+reach the wiki at all — GitHub blocks automated crawling of `/tree/` folder pages, so
+relative paths and folder browsing dead-end; the raw-URL lists don't. Run it any time files
+are added/renamed (it's idempotent; repo/branch auto-detected from the git remote).
 
 ## 6 — Bake the index into the PDF
 

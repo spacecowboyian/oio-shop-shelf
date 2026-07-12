@@ -13,19 +13,34 @@ REQUIRED_MANIFEST_KEYS = ("slug", "title", "source", "rights", "chapters")
 REQUIRED_CHAPTER_KEYS = ("file", "title", "page_start", "page_end")
 
 
-def manual_dir(arg: str) -> Path:
-    """Resolve and validate a manuals/<slug>/ directory passed on the CLI."""
+def manual_dir(arg: str, require_manifest: bool = True) -> Path:
+    """Resolve and validate a manuals/<slug>/ directory passed on the CLI.
+
+    Most scripts need the manifest and keep ``require_manifest=True``. Step 01
+    (decrypt + OCR) can run before the manifest exists, so it passes False — the
+    directory must exist, but manifest.yml is not yet required.
+    """
     d = Path(arg).resolve()
     if not d.is_dir():
         sys.exit(f"Not a directory: {d}")
-    if not (d / "manifest.yml").is_file():
+    if require_manifest and not (d / "manifest.yml").is_file():
         sys.exit(f"No manifest.yml in {d}")
     return d
 
 
-def load_manifest(mdir: Path) -> dict:
-    """Load and lightly validate manifest.yml. Exits on schema errors."""
-    data = yaml.safe_load((mdir / "manifest.yml").read_text(encoding="utf-8")) or {}
+def load_manifest(mdir: Path, required: bool = True) -> dict:
+    """Load and lightly validate manifest.yml. Exits on schema errors.
+
+    With ``required=False``, a missing manifest.yml returns ``{}`` instead of
+    exiting (so step 01 can OCR before the manifest is authored); a manifest that
+    *is* present is still validated.
+    """
+    mf = mdir / "manifest.yml"
+    if not mf.is_file():
+        if required:
+            sys.exit(f"No manifest.yml in {mdir}")
+        return {}
+    data = yaml.safe_load(mf.read_text(encoding="utf-8")) or {}
     errors = validate_manifest(data)
     if errors:
         sys.exit("manifest.yml is invalid:\n  - " + "\n  - ".join(errors))

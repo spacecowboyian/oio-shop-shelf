@@ -359,9 +359,16 @@ def main() -> int:
     manifest = load_manifest(mdir)
     wdir = wiki_dir(mdir)
 
-    src = mdir / manifest["source"]["location"]
+    # The committed, shipped PDF is manifest.source.location. But 01_prepare_pdf.py
+    # writes the OCR'd, text-searchable copy to prepared.pdf (gitignored) and does NOT
+    # overwrite source.location — so baking onto source.location alone would index the
+    # non-searchable raw scan (#12). Bake onto the OCR'd copy when it exists; --in-place
+    # then ships the result to source.location so the committed PDF is OCR'd + indexed.
+    ship = mdir / manifest["source"]["location"]
+    prepared = mdir / "prepared.pdf"
+    src = prepared if prepared.is_file() else ship
     if not src.is_file():
-        sys.exit(f"Source PDF not found: {src}")
+        sys.exit(f"Source PDF not found: {src} — run 01_prepare_pdf.py first.")
 
     index_md = wdir / "00-index.md"
     if not index_md.is_file():
@@ -373,12 +380,17 @@ def main() -> int:
     if not chapters and not alpha:
         sys.exit("No index entries parsed — check 00-index.md / 11*-alphabetical-index.md.")
 
+    # --in-place ships to the committed source.location (making it OCR'd + indexed),
+    # reading content from `src` (the OCR'd prepared.pdf when present).
     if args.in_place:
-        out = src.resolve()
+        out = ship.resolve()
     else:
         out = Path(args.output).resolve() if args.output \
-            else src.with_name(src.stem + "-indexed.pdf")
+            else ship.with_name(ship.stem + "-indexed.pdf")
     in_place = out == src.resolve()
+    if out == ship.resolve() and src.resolve() != ship.resolve() \
+            and not (args.in_place or args.force):
+        sys.exit(f"Refusing to overwrite committed {ship}. Use --in-place, --output, or --force.")
     if in_place and not (args.in_place or args.force):
         sys.exit(f"Refusing to overwrite source {src}. Use --in-place, --output, or --force.")
 
