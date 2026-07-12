@@ -30,12 +30,118 @@ from _common import load_manifest, manual_dir  # noqa: E402
 
 
 def has_text_layer(pdf: Path) -> bool:
-    """True if pdffonts reports any embedded font (a proxy for a real text layer)."""
-    out = subprocess.run(
+    """True if the PDF has a *usable* text layer.
+
+    A font being listed is not enough: some scans carry a stray non-content font
+    (a bookmark/annotation layer) that lists in pdffonts but yields no page text,
+    which would fool us into skipping OCR and producing an empty extraction. So we
+    also require pdftotext to actually pull a meaningful amount of text out.
+    """
+    fonts = subprocess.run(
         ["pdffonts", str(pdf)], capture_output=True, text=True, check=True
     ).stdout.splitlines()
-    # First two lines are the header + separator; any further line == a font.
-    return len(out) > 2
+    if len(fonts) <= 2:  # header + separator only == no fonts at all
+        return False
+    # Confirm real extractable text: sample the doc and require a floor of characters
+    # per page (a genuine text layer clears this easily; an empty scan does not).
+    text = subprocess.run(
+        ["pdftotext", "-l", "20", str(pdf), "-"], capture_output=True, text=True
+    ).stdout
+    n_pages = min(20, page_count(pdf) or 20)
+    return len(text.strip()) >= 100 * max(1, n_pages)
+
+
+def page_count(pdf: Path) -> int:
+    out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+    for line in out.splitlines():
+        if line.startswith("Pages:"):
+            try:
+                return int(line.split(":", 1)[1].strip())
+            except ValueError:
+                return 0
+    return 0
+
+
+def normalize_page_boxes(pdf: Path, dst: Path | None = None) -> int:
+    """Frame each *full-page scan* to its image so renders aren't clipped or distorted.
+
+    Manuals come in every page size and shape, and some scanned PDFs ship page boxes that
+    don't match the scanned image on the page: a CropBox *smaller* than the image clips
+    content (pages look cut off), while a MediaBox much *larger* than the image leaves big
+    blank margins and makes pdftoppm (page render + diagram delivery + the baked-index PDF)
+    produce a distorted, oversized page. Both were seen on the Renault M.R.93 scan (CropBox
+    595×762 but the image runs to ~595×848, inside a 595×1224 MediaBox).
+
+    Fix, applied per page and adaptive to any dimensions: when a page is **dominated by a
+    single full-page scanned image**, set both MediaBox and CropBox to that image's bounding
+    box so every renderer frames exactly the scan. A page is treated as a full-page scan
+    only when its image spans ≥90% of the page width and ≥50% of its height — so
+    born-digital / text-layout pages and sparse pages (a small logo, a divider) are left
+    exactly as authored, never cropped to a figure. No-op for well-formed PDFs.
+
+    Runs on the source BEFORE OCR: ocrmypdf --force-ocr rasterizes each page at its page
+    box, so a box whose aspect doesn't match the scan bakes a stretched image into the OCR'd
+    PDF — fixing the box afterwards can't undo it. With ``dst`` given, writes the corrected
+    PDF there (leaving the source untouched) and returns the change count; the caller then
+    OCRs ``dst``. With ``dst`` None, rewrites ``pdf`` in place.
+
+    Returns the number of pages reframed (0 == nothing needed it; caller keeps using the src).
+    """
+    try:
+        import fitz  # PyMuPDF (already a pipeline dependency)
+    except ImportError:
+        print("  (skipping page-box normalization — PyMuPDF not installed)")
+        return 0
+    MARGIN = 2.0  # pt of slack so we never shave a content edge
+    doc = fitz.open(str(pdf))
+    changed = 0
+    for page in doc:
+        if page.rotation:
+            continue  # rotation complicates bbox↔box mapping; leave rotated pages alone
+        mbox = page.mediabox
+        if mbox.width <= 0 or mbox.height <= 0:
+            continue
+        # Largest image that plausibly IS the page (a full-page scan), if any.
+        # get_image_bbox returns fitz coordinates (origin TOP-left, y grows down).
+        best = None
+        for img in page.get_images(full=True):
+            try:
+                bb = page.get_image_bbox(img) & mbox
+            except Exception:
+                continue
+            if not bb.is_valid or bb.width <= 1 or bb.height <= 1:
+                continue
+            if bb.width >= 0.9 * mbox.width and bb.height >= 0.5 * mbox.height:
+                if best is None or abs(bb.get_area()) > abs(best.get_area()):
+                    best = bb
+        if best is None:
+            continue  # not a full-page scan — respect the authored layout
+        target = fitz.Rect(best.x0 - MARGIN, best.y0 - MARGIN,
+                           best.x1 + MARGIN, best.y1 + MARGIN) & mbox
+        cur = page.cropbox
+        if not (abs(cur.width - target.width) > 1 or abs(cur.height - target.height) > 1
+                or abs(cur.x0 - target.x0) > 1 or abs(cur.y0 - target.y0) > 1):
+            continue  # already framed to the scan
+        # set_mediabox wants PDF coordinates (origin BOTTOM-left, y grows up), so flip the
+        # fitz-space target's y-axis about the page height. Passing fitz coords directly
+        # silently grabs the wrong vertical band and clips the page (top content lost).
+        H = mbox.height
+        pdf_box = fitz.Rect(target.x0, H - target.y1, target.x1, H - target.y0)
+        page.set_mediabox(pdf_box)  # also resets cropbox to match
+        changed += 1
+    if changed:
+        if dst is not None:
+            doc.save(str(dst), garbage=3, deflate=True)
+            doc.close()
+        else:
+            # Can't full-save over the still-open source path; write a sibling and replace.
+            tmp = pdf.with_suffix(".normbox.pdf")
+            doc.save(str(tmp), garbage=3, deflate=True)
+            doc.close()
+            tmp.replace(pdf)
+    else:
+        doc.close()
+    return changed
 
 
 def require_tools(*tools: str) -> None:
@@ -108,6 +214,17 @@ def main() -> int:
     if is_encrypted(source):
         print("Encrypted PDF detected — decrypting with qpdf...")
         source = decrypt_pdf(source, raw_dir / "decrypted.pdf")
+
+    # 0b) Reframe full-page scans to the image BEFORE OCR. ocrmypdf --force-ocr rasterizes
+    # each page at its page box, so a box whose aspect doesn't match the scan bakes a
+    # stretched image into the OCR'd PDF that no later fix can undo. No-op for well-formed
+    # PDFs and for born-digital/text pages (see normalize_page_boxes).
+    normalized = raw_dir / "normalized.pdf"
+    fixed = normalize_page_boxes(source, normalized)
+    if fixed:
+        print(f"Reframed {fixed} full-page-scan page(s) to the scanned image (before OCR) "
+              "to prevent clipped/stretched renders.")
+        source = normalized
 
     if has_text_layer(source) and not force:
         print("Text layer detected — copying source to prepared.pdf (no OCR).")

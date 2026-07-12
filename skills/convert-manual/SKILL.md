@@ -100,6 +100,28 @@ python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
 Requires `qpdf` on PATH for encrypted input.
 
+### Known source-PDF gotchas (both auto-handled by `01`, but know the symptoms)
+
+Two failure modes seen on real scans — surfaced by the Renault M.R.93 conversion, now
+guarded in `01`, but verify after running:
+
+- **OCR silently skipped → near-empty `full-text.txt`.** Some scans carry a stray
+  non-content font (a bookmark/annotation layer) that makes `pdffonts` list a font even
+  though the pages have **no real text**. The old check trusted the font list and skipped
+  OCR, leaving `full-text.txt` almost empty (e.g. 9 lines). `01` now also requires
+  `pdftotext` to actually extract text before believing a text layer exists. **Sanity
+  check:** `wc -l manuals/<slug>/raw-ocr/full-text.txt` — a real manual is thousands of
+  lines. If it's tiny, force OCR: `python scripts/01_prepare_pdf.py <src.pdf> manuals/<slug>/ --force`.
+- **Squished, stretched, or cut-off page renders.** Manuals come in every page size/shape,
+  and some scans ship page boxes (MediaBox/CropBox) that don't match the actual scanned
+  image — too small clips content (pages look cut off), too large stretches it / adds huge
+  blank margins under `pdftoppm`. `01` now detects **full-page-scan** pages and reframes
+  both boxes to the scanned image's own bounding box (per page, any dimensions), printing
+  how many it fixed. It deliberately leaves **born-digital / text-layout** pages and sparse
+  pages (a logo, a divider) untouched, so it won't crop a real layout to a figure.
+  **Sanity check:** render one page and confirm nothing is cut off or stretched. If you hit
+  this on a `prepared.pdf` made before the fix, re-run `01 --force` from the original PDF.
+
 ## 3. Author the manifest, render, and split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).

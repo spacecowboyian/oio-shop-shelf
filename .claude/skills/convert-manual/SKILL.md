@@ -95,6 +95,15 @@ since there's no manifest yet to read it from.
 Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
 Requires `qpdf` on PATH for encrypted input.
 
+**Known source-PDF gotchas** (auto-handled by `01`, seen on the Renault M.R.93 scan — verify after):
+- **Near-empty `full-text.txt`** → a stray annotation font fooled the text-layer check into
+  skipping OCR. `01` now also requires real extracted text; if `wc -l …/raw-ocr/full-text.txt`
+  is tiny, force it: `python scripts/01_prepare_pdf.py <src.pdf> manuals/<slug>/ --force`.
+- **Squished / stretched / cut-off renders** → source page boxes don't match the scanned
+  image (any page size). `01` reframes **full-page-scan** pages to the image's own bbox
+  (leaves born-digital/text/sparse pages untouched), prints pages fixed. Render one page to
+  confirm nothing's cut off or stretched; re-run `01 --force` from the original on any pre-fix PDF.
+
 ## 3 — Author the manifest, render & split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).
