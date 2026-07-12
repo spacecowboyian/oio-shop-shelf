@@ -16,8 +16,8 @@ taxonomy:
     - 18r-g
 
 source:
-  type: local
-  location: "source.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-18r-18rg-repair/18r-18rg-repair.pdf"
   pages: 335
 
 rights: >
