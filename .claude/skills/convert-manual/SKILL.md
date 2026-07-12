@@ -95,6 +95,15 @@ since there's no manifest yet to read it from.
 Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
 Requires `qpdf` on PATH for encrypted input.
 
+**Known source-PDF gotchas** (auto-handled by `01`, seen on the Renault M.R.93 scan — verify after):
+- **Near-empty `full-text.txt`** → a stray annotation font fooled the text-layer check into
+  skipping OCR. `01` now also requires real extracted text; if `wc -l …/raw-ocr/full-text.txt`
+  is tiny, force it: `python scripts/01_prepare_pdf.py <src.pdf> manuals/<slug>/ --force`.
+- **Squished / stretched / cut-off renders** → source page boxes don't match the scanned
+  image (any page size). `01` reframes **full-page-scan** pages to the image's own bbox
+  (leaves born-digital/text/sparse pages untouched), prints pages fixed. Render one page to
+  confirm nothing's cut off or stretched; re-run `01 --force` from the original on any pre-fix PDF.
+
 ## 3 — Author the manifest, render & split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).
@@ -125,6 +134,20 @@ table, or code *means*. The glossary supplies: canonical component/abbreviation 
 **OCR-misread patterns** (Ω→"2", l→i, h→li, rn→m, unreliable punctuation) you must screen
 for before treating an odd value or term as real. This is not optional polish — it's how a
 faithful transcription becomes a *usable* one.
+
+## 4b — Deliver diagram-only pages
+
+Diagrams/wiring charts/exploded views exist only as images. When a page or figure is
+diagram-only and the user must *see* it, deliver it instead of a bare "see PDF p.N"
+(rules: `04_cleanup_methodology.md` Rule 12):
+1. Add a manifest **`diagrams:`** entry (`page`, `file: diagrams/p<NNNN>-<slug>.webp`,
+   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`) — `mono` for line art (~30 KB),
+   `gray` for photo/halftone pages.
+2. `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (needs `cwebp`).
+3. Embed each at its citation point with a **relative** link
+   (`![caption — PDF p.N](../diagrams/pNNNN-...webp)`) so it previews in the PR;
+   `publish-release.sh` flips it to the Release URL at merge. **Commit `diagrams/`** (unlike
+   the gitignored `pages/`); a maintainer moves the images to the Release, same as the PDF.
 
 ## 5 — Build the index files
 
@@ -207,5 +230,8 @@ contract: `MAINTAINERS.md`.
 
 Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF (committed for
 the PR; moved to a Release at merge), `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`,
-`10-needs-review.md`, `11a..d-alphabetical-index.md`, and `llm-instructions.md`. Don't commit
+`10-needs-review.md`, `11a..d-alphabetical-index.md`, `llm-instructions.md`, and `diagrams/*.webp`
+if any (step 4b — committed for the PR, moved to the Release at merge like the PDF). Don't commit
 raw OCR intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).
+No GitHub account? Bundle the folder (wiki, manifest, `diagrams/`, PDF) into a zip and hand it
+off per `references/cloud-no-cli.md`; a maintainer opens the PR.

@@ -100,6 +100,28 @@ python scripts/01_prepare_pdf.py <source.pdf> manuals/<slug>/
 Produces `manuals/<slug>/prepared.pdf` + `raw-ocr/full-text.txt` (both gitignored).
 Requires `qpdf` on PATH for encrypted input.
 
+### Known source-PDF gotchas (both auto-handled by `01`, but know the symptoms)
+
+Two failure modes seen on real scans — surfaced by the Renault M.R.93 conversion, now
+guarded in `01`, but verify after running:
+
+- **OCR silently skipped → near-empty `full-text.txt`.** Some scans carry a stray
+  non-content font (a bookmark/annotation layer) that makes `pdffonts` list a font even
+  though the pages have **no real text**. The old check trusted the font list and skipped
+  OCR, leaving `full-text.txt` almost empty (e.g. 9 lines). `01` now also requires
+  `pdftotext` to actually extract text before believing a text layer exists. **Sanity
+  check:** `wc -l manuals/<slug>/raw-ocr/full-text.txt` — a real manual is thousands of
+  lines. If it's tiny, force OCR: `python scripts/01_prepare_pdf.py <src.pdf> manuals/<slug>/ --force`.
+- **Squished, stretched, or cut-off page renders.** Manuals come in every page size/shape,
+  and some scans ship page boxes (MediaBox/CropBox) that don't match the actual scanned
+  image — too small clips content (pages look cut off), too large stretches it / adds huge
+  blank margins under `pdftoppm`. `01` now detects **full-page-scan** pages and reframes
+  both boxes to the scanned image's own bounding box (per page, any dimensions), printing
+  how many it fixed. It deliberately leaves **born-digital / text-layout** pages and sparse
+  pages (a logo, a divider) untouched, so it won't crop a real layout to a figure.
+  **Sanity check:** render one page and confirm nothing is cut off or stretched. If you hit
+  this on a `prepared.pdf` made before the fix, re-run `01 --force` from the original PDF.
+
 ## 3. Author the manifest, render, and split
 
 Help the contributor write `manuals/<slug>/manifest.yml` (copy `manuals/_template/`).
@@ -130,6 +152,31 @@ table, or code *means*. The glossary supplies: canonical component/abbreviation 
 **OCR-misread patterns** (Ω→"2", l→i, h→li, rn→m, unreliable punctuation) you must screen
 for before treating an odd value or term as real. This is not optional polish — it's how a
 faithful transcription becomes a *usable* one.
+
+## 4b. Deliver diagram-only pages (render + embed)
+
+Diagrams, wiring charts, and exploded views exist only as images — the markdown can't
+carry them. As you clean up, whenever a page (or figure) is **diagram-only** and the user
+would need to *see* it — a wiring chart, an exploded view, a torque/loosening **sequence**,
+any essential figure with no faithful text equivalent — deliver it instead of leaving a
+bare "see PDF p.N" (full rules: **`04_cleanup_methodology.md` Rule 12**):
+
+1. Add an entry to the manifest **`diagrams:`** block (`page`, `file: diagrams/p<NNNN>-<slug>.webp`,
+   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`). Use `mono` for clean line art
+   (~30 KB), `gray` only when the page has a photo/halftone.
+2. Render them all:
+   ```
+   python scripts/02_render_pages.py manuals/<slug>/ --diagrams
+   ```
+   (Requires `cwebp`; writes lossless WebP to `manuals/<slug>/diagrams/`.)
+3. Embed each at its citation point with a **relative** link so it previews in the PR:
+   `![Head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)`.
+   At merge, `publish-release.sh` moves these images to the manual's Release and flips the
+   links to the Release URL — same light-history treatment as the source PDF, so **commit
+   `diagrams/` in your PR** (unlike `pages/`, which stays gitignored).
+
+This is the whole point of committing the source PDF (see CONTRIBUTING.md) made deliverable:
+the safety-relevant, diagram-only content a reader must be *shown*, not paraphrased.
 
 ## 5. Build the index files
 
@@ -199,5 +246,12 @@ copy-paste commands and the first-timer path) is in
 
 Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF,
 `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`, `10-needs-review.md`,
-`11a..d-alphabetical-index.md`, and `llm-instructions.md`. Don't commit raw OCR
-intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).
+`11a..d-alphabetical-index.md`, and `llm-instructions.md`, plus `diagrams/*.webp` if the
+manual delivers any (step 4b). Don't commit raw OCR intermediates (`.gitignore` already
+excludes `raw-ocr/`, `pages/`, `prepared.pdf`) — but **do** commit `diagrams/` and the
+source PDF; a maintainer moves both to the Release at merge.
+
+**No GitHub account?** The package is just files. Bundle the manual folder (wiki, manifest,
+`diagrams/`, PDF) into a zip and hand it off per `references/cloud-no-cli.md` (e.g. attach
+it to an issue or share via Drive) — a maintainer opens the PR. The diagram images ride
+along in the bundle exactly like the PDF.

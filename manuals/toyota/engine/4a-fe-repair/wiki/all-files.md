@@ -19,4 +19,3 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/09-service-specifications-torque-sst.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-repair/wiki/09-service-specifications-torque-sst.md)
 - [wiki/10-needs-review.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-repair/wiki/10-needs-review.md)
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-repair/wiki/11a-alphabetical-index.md)
-- [Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/4a-fe-repair/Toyota-4A-FE-4A-GE-engine-repair-manual-OCR.pdf)

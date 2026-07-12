@@ -1,0 +1,852 @@
+# Renault Dauphine / Ondine / Gordini factory workshop manual (M.R. 93, English ed.).
+# Covers types R1090 / R1091 / R1093. Source: contributor's PDF (Google Drive), 479 pp,
+# scanned, no usable text layer (OCR'd with --force; the scan's page boxes were reframed
+# to the image before OCR — see scripts/01_prepare_pdf.py). Chapters are the manual's own
+# lettered tabs (A–P, skipping I and O); page ranges verified against the divider pages.
+
+slug: renault-dauphine
+title: "Renault Dauphine / Ondine / Gordini Workshop Manual (M.R. 93)"
+
+taxonomy:
+  make: renault           # -> makes.renault (vPIC Make_ID 13647)
+  category: vehicle       # whole-vehicle manual; lives under manuals/renault/vehicle/
+  models: [dauphine]
+  chassis: [R1090, R1091, R1093]   # Dauphine / Dauphine Gordini / Dauphine "1093"
+  engines: [ventoux]      # 845 cc Ventoux (Type 670)
+  years: "1956-1967"
+
+source:
+  type: local             # contributor hand-off; a maintainer moves it to a Release at merge
+  location: "renault-dauphine-mr93.pdf"
+  pages: 479
+
+rights: >
+  Original manual (c) Régie Nationale des Usines Renault (Renault). English edition,
+  November 1964, ref. 85 093 00 06. Sourced from a contributor's copy. Committed here
+  without a license from Renault — a considered risk, consistent with the rest of this
+  repo. See CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: true             # scan carries only a stray annotation font; force real OCR
+
+render:
+  dpi: 200
+  diagram_dpi: 150
+
+# 1-based inclusive source-PDF page ranges. section_code is the manual's own chapter tab
+# letter (matches the "<L> - <n>" running header) so check_page_continuity.py keys off it.
+# Pages 1-2 (cover + tab index) fold into chapter A; p479 (back cover) into P.
+chapters:
+  - file: "a-general.md"
+    section_code: "A"
+    title: "General (specifications, lifting points)"
+    page_start: 1
+    page_end: 15
+  - file: "b-engine.md"
+    section_code: "B"
+    title: "Engine"
+    page_start: 16
+    page_end: 68
+  - file: "c-clutch.md"
+    section_code: "C"
+    title: "Clutch"
+    page_start: 69
+    page_end: 118
+  - file: "d-electrical-and-ignition.md"
+    section_code: "D"
+    title: "Electrical Equipment and Ignition"
+    page_start: 119
+    page_end: 185
+  - file: "e-gearbox.md"
+    section_code: "E"
+    title: "Gearbox (Transmission Case)"
+    page_start: 186
+    page_end: 247
+  - file: "f-braking-system.md"
+    section_code: "F"
+    title: "Braking System"
+    page_start: 248
+    page_end: 268
+  - file: "g-steering.md"
+    section_code: "G"
+    title: "Steering"
+    page_start: 269
+    page_end: 286
+  - file: "h-front-axle.md"
+    section_code: "H"
+    title: "Front Axle"
+    page_start: 287
+    page_end: 305
+  - file: "j-rear-axle.md"
+    section_code: "J"
+    title: "Rear Axle"
+    page_start: 306
+    page_end: 310
+  - file: "k-wheels-hubs-drums.md"
+    section_code: "K"
+    title: "Wheels - Hubs - Drums"
+    page_start: 311
+    page_end: 332
+  - file: "l-suspension-shock-absorbers.md"
+    section_code: "L"
+    title: "Suspension - Shock Absorbers"
+    page_start: 333
+    page_end: 353
+  - file: "m-bodywork.md"
+    section_code: "M"
+    title: "Bodywork"
+    page_start: 354
+    page_end: 436
+  - file: "n-heater.md"
+    section_code: "N"
+    title: "Heater"
+    page_start: 437
+    page_end: 449
+  - file: "p-special-tools.md"
+    section_code: "P"
+    title: "Special Tools"
+    page_start: 450
+    page_end: 479
+
+# Diagram-only figures delivered per cleanup methodology Rule 12 (rendered to WebP by
+# scripts/02_render_pages.py --diagrams; embedded at the citation point in the chapter md).
+diagrams:
+  - page: 13
+    file: "diagrams/p0013-lifting-points.webp"
+    kind: exploded
+    depth: mono
+    caption: "Dauphine lifting points A–F (side view and underbody views)"
+    safety_relevant: true
+  - page: 14
+    file: "diagrams/p0014-lifting-trolley-jack.webp"
+    kind: exploded
+    depth: gray
+    caption: "Trolley-jack lifting points — front (A, under front cross member) and rear (B, under rear half shaft tubes)"
+    safety_relevant: true
+  - page: 39
+    file: "diagrams/p0039-water-pump-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Water pump exploded view (parts 1-16) — keys the numbered reassembly steps"
+    safety_relevant: false
+  - page: 44
+    file: "diagrams/p0044-timing-gear-backplate-drilling.webp"
+    kind: chart
+    depth: mono
+    caption: "Timing gear back plate — drilling location for oil-jet hole A (dims A, B, C)"
+    safety_relevant: false
+  - page: 49
+    file: "diagrams/p0049-cylinder-head-bolt-tightening-sequence.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cylinder head bolt tightening sequence (bolts 1-12)"
+    safety_relevant: true
+  - page: 56
+    file: "diagrams/p0056-fuel-pump-sev-46a1-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Fuel pump S.E.V. Type 46 A1 exploded view (parts 1-20) — numbered dismantling order"
+    safety_relevant: false
+  - page: 57
+    file: "diagrams/p0057-fuel-pump-ac-yk6060-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Fuel pump AC Type YK 6060 exploded view (parts 1-7) — numbered dismantling order"
+    safety_relevant: false
+  - page: 65
+    file: "diagrams/p0065-carburettor-32-pibt-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOLEX Type 32 PIBT carburettor exploded view"
+    safety_relevant: false
+  - page: 67
+    file: "diagrams/p0067-carburettor-30-paia3-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOLEX Type 30 PAIA-3 double-barrel carburettor exploded view"
+    safety_relevant: false
+  - page: 72
+    file: "diagrams/p0072-conventional-clutch-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Conventional clutch cross-section showing operation (1 withdrawal fork … 10 flywheel)"
+    safety_relevant: false
+  - page: 73
+    file: "diagrams/p0073-withdrawal-fork-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Clutch withdrawal fork exploded view (1 return spring, 2 rubber washer, 3 spacer, 4 fork, 5 pad carrier)"
+    safety_relevant: false
+  - page: 75
+    file: "diagrams/p0075-ferlec-clutch-components-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Standard Ferlec clutch components exploded view and installation wiring schematic"
+    safety_relevant: false
+  - page: 80
+    file: "diagrams/p0080-ferlec-rheostat-case-schematic.webp"
+    kind: wiring
+    depth: gray
+    caption: "Standard Ferlec rheostat case internal layout and rheostat/resistance schematic (studs A–D, R1–R7)"
+    safety_relevant: false
+  - page: 85
+    file: "diagrams/p0085-ferlec-connection-diagram.webp"
+    kind: wiring
+    depth: mono
+    caption: "Standard Ferlec clutch connection diagram (two-way switch, microswitch, regulator, rheostat case terminals)"
+    safety_relevant: false
+  - page: 88
+    file: "diagrams/p0088-simplified-6v-clutch-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Simplified Ferlec 6-Volt clutch (Type 510-03) exploded view (parts 1-12) and cross-section"
+    safety_relevant: false
+  - page: 89
+    file: "diagrams/p0089-simplified-6v-circuit-schematic.webp"
+    kind: wiring
+    depth: gray
+    caption: "Simplified Ferlec 6-Volt clutch electrical circuit schematic (components 1-11)"
+    safety_relevant: false
+  - page: 104
+    file: "diagrams/p0104-simplified-12v-circuit-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "Simplified Ferlec 12-Volt clutch (Type 510-05) electrical circuit schematic (components 1-17)"
+    safety_relevant: false
+  - page: 105
+    file: "diagrams/p0105-simplified-12v-clutch-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Simplified Ferlec 12-Volt clutch exploded view (parts 1-12)"
+    safety_relevant: false
+  - page: 109
+    file: "diagrams/p0109-systematic-defect-chart-left.webp"
+    kind: chart
+    depth: mono
+    caption: "Systematic defect finding chart (12 V) — left half: symptom rows and first cause columns"
+    safety_relevant: false
+  - page: 110
+    file: "diagrams/p0110-systematic-defect-chart-right.webp"
+    kind: chart
+    depth: mono
+    caption: "Systematic defect finding chart (12 V) — right half: remaining cause columns, reference numbers and remedies"
+    safety_relevant: false
+  - page: 121
+    file: "diagrams/p0121-r1090-pre1961-harness-routing.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 wiring diagram, models previous to 1961 — harness routing over the vehicle"
+    safety_relevant: false
+  - page: 123
+    file: "diagrams/p0123-r1090-pre1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 wiring diagram, models previous to 1961 — full circuit schematic"
+    safety_relevant: false
+  - page: 128
+    file: "diagrams/p0128-r1090-1961-harness-routing.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 wiring diagram, 1961 models — harness routing over the vehicle"
+    safety_relevant: false
+  - page: 130
+    file: "diagrams/p0130-r1090-1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 wiring diagram, 1961 models — full circuit schematic"
+    safety_relevant: false
+  - page: 137
+    file: "diagrams/p0137-r1090-12v-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1090 12-volt wiring diagram — full circuit schematic"
+    safety_relevant: false
+  - page: 143
+    file: "diagrams/p0143-r1091-gordini-harness-routing.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini harness routing over the vehicle — 1960 and 1961 models"
+    safety_relevant: false
+  - page: 145
+    file: "diagrams/p0145-r1091-gordini-1960-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini 1960 wiring diagram — full circuit schematic"
+    safety_relevant: false
+  - page: 147
+    file: "diagrams/p0147-r1091-gordini-1961-wiring-schematic.webp"
+    kind: wiring
+    depth: mono
+    caption: "R1091 Gordini 1961 wiring diagram — full circuit schematic"
+    safety_relevant: false
+  - page: 162
+    file: "diagrams/p0162-centrifugal-advance-curves.webp"
+    kind: chart
+    depth: mono
+    caption: "Centrifugal advance curves — references RK, WW, XC and Marelli S98A"
+    safety_relevant: true
+  - page: 163
+    file: "diagrams/p0163-advance-curves-vacuum.webp"
+    kind: chart
+    depth: mono
+    caption: "Distributor advance curves — centrifugal R.199 and TZ; vacuum RO, AD, JA and Marelli S98A"
+    safety_relevant: true
+  - page: 173
+    file: "diagrams/p0173-ducellier-starter-pinion-gauge.webp"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier starter — pinion at-rest position gauge (dimension D)"
+    safety_relevant: false
+  - page: 174
+    file: "diagrams/p0174-paris-rhone-starter-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starter — cross-section (dimensions H, B, A; adjusting washers R)"
+    safety_relevant: true
+  - page: 177
+    file: "diagrams/p0177-marelli-starter-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Marelli starter — cross-section (dimensions A, B, C, D)"
+    safety_relevant: false
+  - page: 178
+    file: "diagrams/p0178-marelli-starter-gauge-dimensions.webp"
+    kind: exploded
+    depth: mono
+    caption: "Marelli starter — pinion-position gauge dimensions (A–P)"
+    safety_relevant: true
+  - page: 187
+    file: "diagrams/p0187-gearbox-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Location of the gearbox (transmission case) in the vehicle"
+    safety_relevant: false
+  - page: 193
+    file: "diagrams/p0193-operating-diagram-289.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 289 gearbox"
+    safety_relevant: false
+  - page: 194
+    file: "diagrams/p0194-sections-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and cross section through the differential, type 289"
+    safety_relevant: false
+  - page: 199
+    file: "diagrams/p0199-differential-exploded-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Differential exploded view, type 289"
+    safety_relevant: false
+  - page: 200
+    file: "diagrams/p0200-secondary-shaft-exploded-289.webp"
+    kind: exploded
+    depth: mono
+    caption: "Secondary shaft exploded view (callouts 5-14), type 289"
+    safety_relevant: true
+  - page: 208
+    file: "diagrams/p0208-operating-diagram-314.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 314 gearbox"
+    safety_relevant: false
+  - page: 209
+    file: "diagrams/p0209-sections-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and section through the differential, type 314"
+    safety_relevant: false
+  - page: 210
+    file: "diagrams/p0210-gear-locking-system-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gear locking system (interlock plunger 1), type 314"
+    safety_relevant: true
+  - page: 224
+    file: "diagrams/p0224-secondary-shaft-exploded-314.webp"
+    kind: exploded
+    depth: mono
+    caption: "Secondary shaft exploded view (callouts 12-18), type 314"
+    safety_relevant: true
+  - page: 228
+    file: "diagrams/p0228-operating-diagram-316.webp"
+    kind: chart
+    depth: mono
+    caption: "Operating (power-flow) diagram, type 316 gearbox"
+    safety_relevant: false
+  - page: 229
+    file: "diagrams/p0229-sections-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Longitudinal section and section through the differential, type 316"
+    safety_relevant: false
+  - page: 230
+    file: "diagrams/p0230-gear-locking-system-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gear locking system (shift-fork interlock plungers 1, 2, 3, R), type 316"
+    safety_relevant: true
+  - page: 235
+    file: "diagrams/p0235-differential-exploded-316.webp"
+    kind: exploded
+    depth: mono
+    caption: "Differential exploded view, type 316"
+    safety_relevant: false
+  - page: 249
+    file: "diagrams/p0249-brake-system-layout.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake system layout on the vehicle — reservoir, master cylinder, rigid and flexible lines to all four wheels"
+    safety_relevant: true
+  - page: 252
+    file: "diagrams/p0252-fixed-point-shoes.webp"
+    kind: exploded
+    depth: mono
+    caption: "Straight fixed point vs. inclined fixed point front shoes"
+    safety_relevant: false
+  - page: 254
+    file: "diagrams/p0254-master-cylinder-old-operation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (pre-May 1959 type) — sectional operating diagram, positions A/B/C"
+    safety_relevant: true
+  - page: 255
+    file: "diagrams/p0255-master-cylinder-new-operation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (post-May 1959 type) — sectional operating diagram, positions A/B/C"
+    safety_relevant: true
+  - page: 256
+    file: "diagrams/p0256-master-cylinder-old-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (pre-May 1959 type) — exploded view, parts 1–8"
+    safety_relevant: true
+  - page: 257
+    file: "diagrams/p0257-master-cylinder-new-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Master cylinder (post-May 1959 type) — exploded view, parts 1–7, and cast-boss identification"
+    safety_relevant: true
+  - page: 258
+    file: "diagrams/p0258-master-cylinder-clearance.webp"
+    kind: exploded
+    depth: mono
+    caption: "Adjusting the master cylinder clearance — pedal free movement G and clearance K, thrust-rod adjustment"
+    safety_relevant: true
+  - page: 260
+    file: "diagrams/p0260-pedal-assembly-1958.webp"
+    kind: exploded
+    depth: mono
+    caption: "1958-model pedal assembly — exploded view"
+    safety_relevant: false
+  - page: 263
+    file: "diagrams/p0263-brake-shoes.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake shoe assembly on the anchor plate — leading (C) and trailing (T) shoes, return-spring layouts"
+    safety_relevant: true
+  - page: 264
+    file: "diagrams/p0264-brake-shoe-adjustment.webp"
+    kind: exploded
+    depth: mono
+    caption: "Adjusting the brake shoes — leading square (C) and trailing square (T)"
+    safety_relevant: true
+  - page: 265
+    file: "diagrams/p0265-hand-brake-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Hand brake — ratchet, quadrant and lever exploded view"
+    safety_relevant: false
+  - page: 267
+    file: "diagrams/p0267-limiting-valve.webp"
+    kind: exploded
+    depth: mono
+    caption: "Brake pressure limiting valve — sectional operation (A normal, B violent) and pressure-gauge checking set-up"
+    safety_relevant: true
+  - page: 270
+    file: "diagrams/p0270-identification.webp"
+    kind: chart
+    depth: gray
+    caption: "Steering location on the vehicle and the DIRECTION Type 59 identification plate on the front cross member"
+    safety_relevant: false
+  - page: 271
+    file: "diagrams/p0271-longitudinal-cross-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering box longitudinal section (upper) and cross-section pinion-bearing arrangements Fig.1 (no nylon cage) / Fig.2 (nylon cage) (lower)"
+    safety_relevant: true
+  - page: 275
+    file: "diagrams/p0275-pinion-flange-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering pinion and drive flange exploded view, parts 9-20 (flange, circlips, washers, seal, grease nipple, bearing, pinion)"
+    safety_relevant: true
+  - page: 278
+    file: "diagrams/p0278-rack-reassembly-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering rack reassembly sectional view: snap rings (21), return spring (24), rubber sleeve (25), cups (22), bearing bushes (26/27), Dir.18C insertion fitting and retaining fork"
+    safety_relevant: true
+  - page: 281
+    file: "diagrams/p0281-pinion-endplay-adjustment.webp"
+    kind: sequence
+    depth: mono
+    caption: "Adjusting the steering pinion end play: plunger assembly (parts 4-7) and the Dir.19 hand-press pre-load setup, screw C / lever arm D / screw head E / flange set bolt B"
+    safety_relevant: true
+  - page: 283
+    file: "diagrams/p0283-steering-links-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering link exploded view: rack end (part A, end fitting 28) and stub axle end (part B, grease nipple 1)"
+    safety_relevant: true
+  - page: 284
+    file: "diagrams/p0284-steering-column-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering column exploded view: flange 9, flexible coupling 2, steering lock 4, column 5, bracket 7, mat/felt/insulator 12-14, sealing bush 15, nut 16, steering wheel 17"
+    safety_relevant: true
+  - page: 286
+    file: "diagrams/p0286-steering-lock.webp"
+    kind: chart
+    depth: gray
+    caption: "Steering lock (anti-theft cartridge) removal: locking tab 1, securing screws 2, bracket 7"
+    safety_relevant: false
+  - page: 288
+    file: "diagrams/p0288-front-axle-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front axle location on the vehicle (front suspension cut into the body outline)"
+    safety_relevant: false
+  - page: 289
+    file: "diagrams/p0289-identification-plate.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front axle assembly and the TRAIN AV Type 67.. identification plate, with underbody view"
+    safety_relevant: false
+  - page: 290
+    file: "diagrams/p0290-castor-camber-geometry.webp"
+    kind: chart
+    depth: mono
+    caption: "Front-axle geometry: front-elevation view (CH) and side view of king-pin inclination (I) and castor (Ca)"
+    safety_relevant: false
+  - page: 292
+    file: "diagrams/p0292-preliminary-check-points.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front-axle preliminary check points 1-13 located on the assembly"
+    safety_relevant: false
+  - page: 299
+    file: "diagrams/p0299-lower-arm-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Lower suspension arm exploded view (hinge pins 8/10/14/16, nuts 13/17, bearings 9, rubber bushes 11)"
+    safety_relevant: false
+  - page: 300
+    file: "diagrams/p0300-kingpin-endplay-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin end-play adjustment: cross-section showing the adjusting-washer location at the lower attachment point"
+    safety_relevant: true
+  - page: 301
+    file: "diagrams/p0301-suspension-arm-gauge.webp"
+    kind: chart
+    depth: gray
+    caption: "Suspension-arm checking gauge T.Av.22: dimensioned front and side views (A-H) and gauge setups"
+    safety_relevant: true
+  - page: 302
+    file: "diagrams/p0302-kingpin-gauge.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin assembly on checking gauge T.Av.20 (thrust washer, key and lower attachment point fitted)"
+    safety_relevant: false
+  - page: 303
+    file: "diagrams/p0303-rubber-bush-press.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rubber bush replacement on the press: suspension-arm and king-pin setups (mandrel references A, B, C, D)"
+    safety_relevant: false
+  - page: 304
+    file: "diagrams/p0304-kingpin-bush.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin bush refitting (references A, D) and extraction by press (C, B) and hand extractor T.Av.71 A (E, G)"
+    safety_relevant: false
+  - page: 305
+    file: "diagrams/p0305-kingpin-bush-refit-ream.webp"
+    kind: exploded
+    depth: gray
+    caption: "King-pin bush refitting (references B, D; hand extractor E, F, G) and the in-line bush reaming setup"
+    safety_relevant: false
+  - page: 307
+    file: "diagrams/p0307-rear-axle-location.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear axle location on the vehicle — rear swing-axle / half-shaft tubes cut into the body outline (J-3)"
+    safety_relevant: false
+  - page: 308
+    file: "diagrams/p0308-half-shaft-tube-removal-checking.webp"
+    kind: exploded
+    depth: gray
+    caption: "Half shaft tube — removal (strap, shock-absorber points, half-shell nuts) and checking on gauge TAr.56A showing dimension D between each trunnion and the gauge (J-4)"
+    safety_relevant: true
+  - page: 309
+    file: "diagrams/p0309-half-shaft-tube-lh-mounting-pads.webp"
+    kind: exploded
+    depth: gray
+    caption: "Left-hand half shaft tube removal, side mounting pad, and right-hand mounting-pad replacement (J-5)"
+    safety_relevant: false
+  - page: 310
+    file: "diagrams/p0310-mounting-pad-universal-joint.webp"
+    kind: exploded
+    depth: gray
+    caption: "Left-hand mounting pad and the rear-axle universal joint exploded view (closed yoke type) (J-6)"
+    safety_relevant: false
+  - page: 313
+    file: "diagrams/p0313-hub-cross-sections.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front (46 248.2) and rear (46 249.2) hub cross-sections — 5-hole star member wheels"
+    safety_relevant: false
+  - page: 315
+    file: "diagrams/p0315-front-hub-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front hub-drum bearing assembly exploded view (bolts, bearing stop, baffle washer, bearings, track rings, hub-drum)"
+    safety_relevant: false
+  - page: 319
+    file: "diagrams/p0319-rear-hub-bearing-exploded.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rear hub bearing and seal exploded view (46 262) and bearing-cover cross-section (46 249 A)"
+    safety_relevant: false
+  - page: 321
+    file: "diagrams/p0321-3hole-hub-cross-sections.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front and rear hub cross-sections with taper-washer detail (63147) — 3-hole dished type wheels"
+    safety_relevant: false
+  - page: 325
+    file: "diagrams/p0325-brake-anchor-plate-types.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front brake anchor plate types: straight fixed points D (53246-1) and inclined fixed points F (53245-1)"
+    safety_relevant: true
+  - page: 330
+    file: "diagrams/p0330-rear-hub-bearing-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Rear hub bearing and seal cross-section (51928-2) — nuts B, nut C and nylon-cage bearing orientation A"
+    safety_relevant: true
+  - page: 331
+    file: "diagrams/p0331-buckle-eccentricity-gauge.webp"
+    kind: chart
+    depth: mono
+    caption: "Wheel-rim buckle and eccentricity check — dial-indicator points V (buckle) and E/E1 (eccentricity)"
+    safety_relevant: false
+  - page: 335
+    file: "diagrams/p0335-shock-absorber-identification.webp"
+    kind: chart
+    depth: gray
+    caption: "Shock absorber identification — Fig.1/2/3 manufacturing-series signs and the AR / date-code (e.g. A 6 = Jan 1956) markings"
+    safety_relevant: false
+  - page: 336
+    file: "diagrams/p0336-aerostable-suspension-sections.webp"
+    kind: exploded
+    depth: mono
+    caption: "Aerostable suspension cross-sections — front (dwg 59996) and rear (dwg 59997); also serves R.1091 (L-6)"
+    safety_relevant: false
+  - page: 338
+    file: "diagrams/p0338-rear-suspension-modification-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear suspension cross-section (dwg 54 039.1) — 1960 modification spacer locations A, B, C"
+    safety_relevant: false
+  - page: 340
+    file: "diagrams/p0340-front-shock-absorber-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Front shock absorber removal — upper attachment point (1) and lower securing yoke (2)"
+    safety_relevant: true
+  - page: 341
+    file: "diagrams/p0341-front-shock-absorber-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front shock absorber refitting — exploded view (dwg 45924.2), section (60002) and upper-attachment detail A"
+    safety_relevant: true
+  - page: 342
+    file: "diagrams/p0342-aerostable-front-shock-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Aerostable front shock absorber refitting (dwg 58 630-1) — rubber pads (4, 5), cup washer (6), nut (7), lock nut (8)"
+    safety_relevant: true
+  - page: 344
+    file: "diagrams/p0344-rear-shock-absorber-refitting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear shock absorber refitting — exploded view (dwg 45925-2), section (60003) and upper-securing detail A"
+    safety_relevant: true
+  - page: 345
+    file: "diagrams/p0345-aerostable-rear-removal-no-evidgom.webp"
+    kind: exploded
+    depth: gray
+    caption: "Aerostable rear spring/shock removal, no Evidgom pad (dwg 59 997-1) — attachment point (1), bell housing (2), strap nuts (3), lower attachment (4)"
+    safety_relevant: true
+  - page: 346
+    file: "diagrams/p0346-aerostable-rear-removal-evidgom.webp"
+    kind: exploded
+    depth: gray
+    caption: "Aerostable rear spring/shock removal, Evidgom pad (dwg 54-59.1) — securing point (1), strap (2), strap nuts (3), lower attachment (4)"
+    safety_relevant: true
+  - page: 349
+    file: "diagrams/p0349-anti-roll-bar-link-arrangement.webp"
+    kind: exploded
+    depth: gray
+    caption: "Anti-roll bar and connecting links — left-hand and right-hand link arrangements (fit the correct way round)"
+    safety_relevant: false
+  - page: 351
+    file: "diagrams/p0351-half-shaft-limiter-pad.webp"
+    kind: exploded
+    depth: gray
+    caption: "Half shaft movement limiter — installed photo (48429-2) and section (48430-1) with setting dimension A = 161 mm"
+    safety_relevant: false
+  - page: 356
+    file: "diagrams/p0356-main-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Main dimensions (unladen) — side, front, plan and rear views with dimensions 1–23"
+    safety_relevant: false
+  - page: 357
+    file: "diagrams/p0357-floor-section-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Floor section — exploded view of side members, cross members and brackets (parts 1–12, stiffeners A)"
+    safety_relevant: false
+  - page: 358
+    file: "diagrams/p0358-floor-section-checking-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Floor section checking dimensions — plan (A–N) and side elevation (O–AB)"
+    safety_relevant: true
+  - page: 360
+    file: "diagrams/p0360-trammel-gauge-check-points.webp"
+    kind: chart
+    depth: mono
+    caption: "Trammel-gauge check points on the whole vehicle (A/A', B/B', C/C', D/D' referenced to pilot holes P.1, P.2, P.3) and centre floor underside"
+    safety_relevant: true
+  - page: 368
+    file: "diagrams/p0368-jig-bench-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Combined checking and repair jig bench — elevation and plan with dimensions A–R"
+    safety_relevant: true
+  - page: 377
+    file: "diagrams/p0377-front-cross-member-identification.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front cross member identification — the two cross-member types and spring-cup features (dimensions A–D)"
+    safety_relevant: false
+  - page: 382
+    file: "diagrams/p0382-side-member-section-brackets.webp"
+    kind: chart
+    depth: mono
+    caption: "Side member section (dimensions A–F) and stiffening-bracket drawings (1) and (2) with dimensions A–J"
+    safety_relevant: false
+  - page: 387
+    file: "diagrams/p0387-body-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Body components — exploded views of the detachable components and the superstructure outer panels"
+    safety_relevant: false
+  - page: 388
+    file: "diagrams/p0388-inner-panels-straightening.webp"
+    kind: exploded
+    depth: mono
+    caption: "Inner bodywork panels — exploded view (parts 1–12) and door-surround straightening dimensions A–L"
+    safety_relevant: false
+  - page: 404
+    file: "diagrams/p0404-door-lid-clearances.webp"
+    kind: chart
+    depth: mono
+    caption: "Door and lid clearance arrangement — side view with section figures 1–12 and clearances A–F"
+    safety_relevant: false
+  - page: 405
+    file: "diagrams/p0405-door-lid-clearance-sections.webp"
+    kind: chart
+    depth: mono
+    caption: "Door and lid clearance section details (fig. 7–13) with clearances G–N"
+    safety_relevant: false
+  - page: 427
+    file: "diagrams/p0427-auto-trans-scuttle-toeboard.webp"
+    kind: chart
+    depth: mono
+    caption: "Automatic-transmission bodywork — scuttle (dimensions A–H) and toe-board (LHD/RHD) modifications"
+    safety_relevant: false
+  - page: 428
+    file: "diagrams/p0428-auto-trans-underbody.webp"
+    kind: chart
+    depth: mono
+    caption: "Automatic-transmission underbody — under tray, seat back partition (P–Y) and rear LH wheel arch (AA–AE)"
+    safety_relevant: false
+  - page: 438
+    file: "diagrams/p0438-renault-heater-installation.webp"
+    kind: exploded
+    depth: gray
+    caption: "Renault heater — installation in the body (hot air trapped in the radiator casings and ducted to the front nozzles and rear seat base) and the heater/radiator unit"
+    safety_relevant: false
+  - page: 439
+    file: "diagrams/p0439-standard-sofica-installation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Standard SOFICA heater — installation in the body, and heater cutaway showing radiator (R), filter screen (F) and fan (V)"
+    safety_relevant: false
+  - page: 440
+    file: "diagrams/p0440-thermostat-section.webp"
+    kind: exploded
+    depth: gray
+    caption: "Cooling-system thermostat — sectioned views closed and open (water-flow arrows) and the engine-compartment installation"
+    safety_relevant: false
+  - page: 441
+    file: "diagrams/p0441-sofica-heater-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Standard SOFICA heater removal — input leads (1), earth/ground lead (2), securing bolt (3), duct (4); and heater-motor exploded view (filter F, fan V, motor M, casing C, radiator R)"
+    safety_relevant: false
+  - page: 442
+    file: "diagrams/p0442-heater-radiator-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "Heater-radiator removal — drain plug (5), hoses (6) and (7) and the radiator securing bolts; plus the bleeding and filter-screen maintenance views"
+    safety_relevant: false
+  - page: 444
+    file: "diagrams/p0444-intense-cold-installation.webp"
+    kind: exploded
+    depth: mono
+    caption: "SOFICA 'intense cold' heater — installation in the body and the front air-distribution control detail"
+    safety_relevant: false
+  - page: 445
+    file: "diagrams/p0445-intense-cold-principle.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOFICA 'intense cold' heater — cutaway (nozzle 1, radiator 2, filter screen 3, fan 4, ducts 5) and front air-distribution rods (A) operating flaps (B)"
+    safety_relevant: false
+  - page: 447
+    file: "diagrams/p0447-intense-cold-removal.webp"
+    kind: exploded
+    depth: gray
+    caption: "SOFICA 'intense cold' heater removal, and the motor-fan unit exploded (four securing bolts A, rubber spacers B)"
+    safety_relevant: false
+  - page: 448
+    file: "diagrams/p0448-motor-fan-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Motor-fan unit fully exploded — half casings (C, D), impeller securing nut (E, left-hand thread), impeller (F), snail housing (G), motor retaining nuts (H), motor (J), rubber washers (K), spacers (L)"
+    safety_relevant: true
+  - page: 449
+    file: "diagrams/p0449-electrical-circuit.webp"
+    kind: wiring
+    depth: gray
+    caption: "SOFICA 'intense cold' heater electrical circuit — 3-position switch (A high / B off / C slow), resistance (1), motor (2)"
+    safety_relevant: false

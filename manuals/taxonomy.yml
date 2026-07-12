@@ -66,3 +66,17 @@ makes:
       18r-g:
         name: 18R-G
         family: R
+
+  renault:
+    name: Renault
+    vpic_make_id: 13647
+    models:
+      dauphine:
+        name: Dauphine
+        # R1090 Dauphine, R1091 Dauphine Gordini, R1093 Dauphine "1093" (competition).
+        # The M.R.93 factory manual covers all three (Ondine = trim of R1090).
+        chassis: [R1090, R1091, R1093]
+    engines:
+      ventoux:
+        name: Ventoux (Type 670)   # 845 cc OHV "Ventoux", Dauphine's engine family
+        family: Ventoux

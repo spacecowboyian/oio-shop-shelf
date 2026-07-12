@@ -99,9 +99,18 @@ built every wiki here, so they hold regardless of which manual you're reading:
    tell the user it's flagged and why — don't just state it.
 3. **If a value looks wrong and is NOT already flagged**, say so explicitly. Don't
    silently trust it, and don't invent a "corrected" number yourself.
-4. **Diagrams, wiring charts, and exploded views exist only in the PDF**, never as text
-   in the markdown. When the user needs one, open the manual's committed PDF at the
-   cited page rather than trying to describe it from markdown alone.
+4. **Diagrams, wiring charts, and exploded views exist only as images**, never as text
+   in the markdown — never try to describe one from the markdown alone.
+   **Precedence: prefer the delivered image; fall back to the PDF page only when a needed
+   diagram isn't delivered.** Concretely:
+   - If the manual **delivers** the diagram, the wiki embeds it as a markdown image at the
+     citation point (`![caption — PDF p.N](…)`, and it's listed in `manifest.yml`
+     `diagrams:`). Surface that image to the user — clients that render markdown images
+     show it inline; otherwise give the user the image URL. This is the diagram-only,
+     often safety-relevant content (e.g. a bolt loosening sequence) you must *show*, not
+     paraphrase.
+   - If it isn't delivered, fall back to citing the source page so the user can open the
+     PDF there themselves.
 5. **Cite the source page number** when you answer from a manual, so the user can verify
    against the PDF themselves.
 6. **Grep first, escalate to the alphabetical index only when grep is too noisy to

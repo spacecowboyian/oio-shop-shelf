@@ -21,17 +21,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fail if any PDF is tracked
+      - name: Fail if any PDF or diagram image is tracked
         run: |
+          # Both source PDFs and rendered diagram images (issue #1) live on GitHub
+          # Releases, never in git history. Either being committed makes this RED — which
+          # is EXPECTED on an unpublished manual PR; publish-release.sh clears it.
           pdfs="$(git ls-files '*.pdf' || true)"
-          if [ -n "$pdfs" ]; then
-            echo "::error::Source PDF(s) are committed to git. PDFs must live on GitHub Releases, not in history."
-            echo "Tracked PDF(s):"
-            echo "$pdfs" | sed 's/^/  - /'
+          imgs="$(git ls-files 'manuals/**/diagrams/*' || true)"
+          bins="$(printf '%s\n%s\n' "$pdfs" "$imgs" | grep -c . || true)"
+          if [ "$bins" != "0" ]; then
+            echo "::error::Binary asset(s) are committed to git. Source PDFs and diagram images must live on GitHub Releases, not in history."
+            [ -n "$pdfs" ] && { echo "Tracked PDF(s):";   echo "$pdfs" | sed 's/^/  - /'; }
+            [ -n "$imgs" ] && { echo "Tracked diagram image(s):"; echo "$imgs" | sed 's/^/  - /'; }
             echo ""
             echo "Before merging, a maintainer must, for each manual dir:"
             echo "  scripts/publish-release.sh <manual-dir>   # e.g. manuals/toyota/vehicle/mr2-aw11"
             echo "then commit and SQUASH-merge (never rebase / merge-commit). See MAINTAINERS.md."
             exit 1
           fi
-          echo "OK — no tracked PDFs."
+          echo "OK — no tracked PDFs or diagram images."
