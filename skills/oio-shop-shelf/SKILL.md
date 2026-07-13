@@ -41,10 +41,21 @@ cost less than the floor; do make sure it costs barely more.
 **Fast path — a specific value (do this first).** If the question is a single value — a spec,
 torque, clearance, resistance, voltage, capacity, DTC code, or part number — do NOT read the
 glossary or any chapter file first. If the manual has `manuals/<slug>/data/manual-index.jsonl`,
-`grep` it for the term, read the matching row, cite its `_page`, and **surface `_flags` if
-non-empty** (that value is OCR-uncertain — don't state it as settled). Empty `_flags` = clean
+`grep` it, read the matching row, cite its `_page`, and **surface `_flags` if non-empty**
+(that value is OCR-uncertain — don't state it as settled). Empty `_flags` = clean
 transcription, answer directly. That's the whole path: root `llm-instructions.md` → grep index
 → answer. This is what keeps marginal cost near the floor.
+
+**Grep the MANUAL's term, not the user's words — this is the difference between a hit and a
+whiff.** A user speaks loosely ("head stud torque", "the head torque", "check engine light");
+the manual says "cylinder head tightening torque". Apply the **auto-mechanic** terminology lens
+(you already carry it — no file read needed) to translate the question into the manual's
+canonical wording *before* you grep: the canonical component name, common synonyms
+(head bolt / head stud / cylinder head; king pin / stub axle; dynamo / generator), the
+manual's own convention ("tightening torque" not "torque spec"), and expected units
+(`m.kg`, `lbs.ft`). A first grep that misses is usually a terminology gap, not a missing value —
+broaden with a synonym or the canonical term before you conclude it isn't there or fall through
+to the deeper path. Watch for OCR-misread variants too (glossary's Ω→"2", l→i patterns).
 
 **Deeper path — procedures, diagrams, diagnosis, or a value the index doesn't have.** Only
 then:
