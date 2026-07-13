@@ -9,6 +9,9 @@ rules (never invent/adjust a spec value, cite the source page).
 > repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/` browsing
 > fails and how to navigate by raw URL.
 
+## Fast path for a specific value — `../data/manual-index.jsonl`
+For any single-value lookup (a spec, torque, clearance, resistance, voltage, capacity, or part number), `grep ../data/manual-index.jsonl` for the term and stop — one flat file holds one JSON row per retrievable fact across the *whole* manual, so this resolves in one hop with no chapter-file read. Each row has the value fields plus `_page` (cite it), `_file`, `_section`, and `_flags`. **If `_flags` is non-empty, surface that OCR-uncertainty rather than stating the value as fact; if it's empty, the value is a clean transcription — answer directly.** This index is authoritative; do not also check the chapter files for the same value. Only fall through to the chapter files when the value isn't in `manual-index.jsonl` or the question is a procedure/diagnosis rather than a value lookup.
+
 **This is a 4A-FE manual.** Toyota's cover titles it "4A-FE, 4A-GE," but the 4A-GE content
 is incidental and insufficient for a 4A-GE repair. Answer 4A-GE questions only from the
 handful of explicitly `(4A-GE)`-tagged items, and say plainly that this manual doesn't
