@@ -10,6 +10,21 @@ Covers types **R1090 / R1091 / R1093**. Read this file first, before answering f
 > repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/`
 > browsing fails and how to navigate by raw URL.
 
+## Fast path — a specific value (do this FIRST)
+For a single value — torque, clearance, capacity, resistance, voltage, part number — grep the
+flat lookup index **[`../data/manual-index.jsonl`](../data/manual-index.jsonl)** (one JSON row
+per fact across the whole manual, covering both spec *tables* and prose spec statements like a
+torque in a NOTE). Read the matching row, cite its `_page`, and **if `_flags` is non-empty,
+surface that OCR-uncertainty** rather than stating the value as settled. One grep, one line —
+don't open a chapter for a value lookup.
+
+**Grep the manual's term, not the user's words.** A user asks loosely ("head stud torque", "the
+head torque"); this manual says "cylinder head tightening torque" (**6.5 m.kg / 45 lbs.ft, p49**).
+Use mechanic terminology (see [`glossary.md`](../../../../../glossary.md) / the `auto-mechanic`
+skill) to translate to the manual's canonical wording and synonyms before grepping — a first
+miss is usually a terminology gap, not a missing value. Also mind this manual's OCR quirks
+(1964 typescript; Ω↔"2", dropped digits) and quote the row for the user's exact model/year/variant.
+
 ## What's in this bundle
 - `00-index.md` — chapter list.
 - **14 lettered chapters** — the manual's own tab structure (letters skip I and O):

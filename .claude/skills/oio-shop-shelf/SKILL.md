@@ -32,10 +32,18 @@ cost less than the floor; do make sure it costs barely more.
 **Fast path — a specific value (do this first).** If the question is a single value — a spec,
 torque, clearance, resistance, voltage, capacity, DTC code, or part number — do NOT read the
 glossary or any chapter file first. If the manual has `manuals/<slug>/data/manual-index.jsonl`,
-`grep` it for the term, read the matching row, cite its `_page`, and **surface `_flags` if
+`grep` it, read the matching row, cite its `_page`, and **surface `_flags` if
 non-empty** (that value is OCR-uncertain — don't state it as settled). Empty `_flags` = clean
 transcription, answer directly. That's the whole path: root `llm-instructions.md` → grep index
 → answer. This is what keeps marginal cost near the floor.
+
+**Grep the MANUAL's term, not the user's words.** A user speaks loosely ("head stud torque",
+"the head torque"); the manual says "cylinder head tightening torque". Apply the **auto-mechanic**
+terminology lens (you already carry it — no file read needed) to translate into the manual's
+canonical wording before grepping: canonical component name, synonyms (head bolt / head stud /
+cylinder head; dynamo / generator), the manual's convention ("tightening torque"), expected
+units (`m.kg`, `lbs.ft`), and OCR-misread variants. A first grep that misses is usually a
+terminology gap — broaden with a synonym before concluding the value is absent.
 
 **Deeper path — procedures, diagrams, diagnosis, or a value the index doesn't have.** Only
 then:
