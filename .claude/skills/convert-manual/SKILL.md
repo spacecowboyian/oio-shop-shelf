@@ -159,8 +159,16 @@ per model and tag each entry (issue #9).
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
+python scripts/build_lookup_index.py manuals/<slug>/   # data/manual-index.jsonl — the fast path
 python scripts/09_link_index.py                       # all-files.md + repo-root MANUALS.md
 ```
+
+`build_lookup_index.py` flattens every spec **table** AND every prose spec statement (torque
+in a NOTE, clearance in a step) into one `_page`-cited JSON row per fact (with `_flags`) — the
+fast path a browsing/voice agent greps once for a torque/spec answer instead of reading
+chapters. Torque is often prose-only, so a table-only index misses the most-asked question.
+Point `wiki/llm-instructions.md`'s fast-path at `../data/manual-index.jsonl`, and remind the
+agent to grep the manual's canonical term (via `auto-mechanic`), not the user's literal words.
 
 `05` generates `00-index.md`, quick-reference, `10-needs-review.md`, and the
 alphabetical index. (The 4A-GE reference ships hand-curated richer indexes; new

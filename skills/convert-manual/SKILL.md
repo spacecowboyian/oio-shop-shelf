@@ -182,7 +182,19 @@ the safety-relevant, diagram-only content a reader must be *shown*, not paraphra
 
 ```
 python scripts/05_build_indexes.py manuals/<slug>/
+python scripts/build_lookup_index.py manuals/<slug>/   # data/manual-index.jsonl — the fast path
 ```
+
+`build_lookup_index.py` flattens every spec **table** AND every prose spec statement (a
+torque in a NOTE, a clearance in a step) into one JSON row per fact — `_page`-cited, with
+`_flags` carried from the manual's NEEDS REVIEW notes. This is the **fast path** a
+browsing/voice agent greps once to answer a torque/spec question in a single hop instead of
+reading chapters (see the `oio-shop-shelf` skill). Torque values are often prose-only, so a
+table-only index would miss the most-asked question — this catches both.
+When you write `wiki/llm-instructions.md`, point its fast-path section at
+`../data/manual-index.jsonl` and remind the agent to **grep the manual's canonical term, not
+the user's words** (use the `auto-mechanic` terminology lens to bridge "head stud" →
+"cylinder head" before grepping).
 
 **Curate index terms with the `auto-mechanic` lens.** A mechanic looks things up by
 **component and symptom**, not by procedure verb: write **component-first** entries
