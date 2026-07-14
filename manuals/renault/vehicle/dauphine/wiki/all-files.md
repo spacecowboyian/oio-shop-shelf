@@ -25,4 +25,4 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/m-bodywork.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/renault/vehicle/dauphine/wiki/m-bodywork.md)
 - [wiki/n-heater.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/renault/vehicle/dauphine/wiki/n-heater.md)
 - [wiki/p-special-tools.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/renault/vehicle/dauphine/wiki/p-special-tools.md)
-- [renault-dauphine-mr93.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/renault/vehicle/dauphine/renault-dauphine-mr93.pdf)
+- [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/renault/vehicle/dauphine/data/manual-index.jsonl)

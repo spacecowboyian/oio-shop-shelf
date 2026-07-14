@@ -10,8 +10,20 @@ Covers types **R1090 / R1091 / R1093**. Read this file first, before answering f
 > repo-root [`llm-instructions.md`](../../../../../llm-instructions.md) for why `/tree/`
 > browsing fails and how to navigate by raw URL.
 
-## Fast path for a specific value — `../data/manual-index.jsonl`
-For any single-value lookup (a spec, torque, clearance, resistance, voltage, capacity, or part number), `grep ../data/manual-index.jsonl` for the term and stop — one flat file holds one JSON row per retrievable fact across the *whole* manual, so this resolves in one hop with no chapter-file read. Each row has the value fields plus `_page` (cite it), `_file`, `_section`, and `_flags`. **If `_flags` is non-empty, surface that OCR-uncertainty rather than stating the value as fact; if it's empty, the value is a clean transcription — answer directly.** This index is authoritative; do not also check the chapter files for the same value. Only fall through to the chapter files when the value isn't in `manual-index.jsonl` or the question is a procedure/diagram/diagnosis rather than a value lookup.
+## Fast path — a specific value (do this FIRST)
+For a single value — torque, clearance, capacity, resistance, voltage, part number — grep the
+flat lookup index **[`../data/manual-index.jsonl`](../data/manual-index.jsonl)** (one JSON row
+per fact across the whole manual, covering both spec *tables* and prose spec statements like a
+torque in a NOTE). Read the matching row, cite its `_page`, and **if `_flags` is non-empty,
+surface that OCR-uncertainty** rather than stating the value as settled. One grep, one line —
+don't open a chapter for a value lookup.
+
+**Grep the manual's term, not the user's words.** A user asks loosely ("head stud torque", "the
+head torque"); this manual says "cylinder head tightening torque" (**6.5 m.kg / 45 lbs.ft, p49**).
+Use mechanic terminology (see [`glossary.md`](../../../../../glossary.md) / the `auto-mechanic`
+skill) to translate to the manual's canonical wording and synonyms before grepping — a first
+miss is usually a terminology gap, not a missing value. Also mind this manual's OCR quirks
+(1964 typescript; Ω↔"2", dropped digits) and quote the row for the user's exact model/year/variant.
 
 ## What's in this bundle
 - `00-index.md` — chapter list.

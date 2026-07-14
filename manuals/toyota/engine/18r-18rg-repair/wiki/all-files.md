@@ -23,3 +23,4 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/11-charging-system.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/18r-18rg-repair/wiki/11-charging-system.md)
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/18r-18rg-repair/wiki/11a-alphabetical-index.md)
 - [wiki/12-sst-and-service-specifications.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/18r-18rg-repair/wiki/12-sst-and-service-specifications.md)
+- [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/engine/18r-18rg-repair/data/manual-index.jsonl)
