@@ -44,7 +44,16 @@ makes:
       mr2:
         name: MR2
         chassis: [AW11]        # 1st-gen (1984-1989); 4A-GE / supercharged 4A-GZE
+      corolla:
+        name: Corolla
+        # FWD generations only (this repo has no RWD Corolla manual yet):
+        # E80 (1984-1987) AE82/AE80; E90 (1988-1992) AE91/AE92. Codes are general
+        # knowledge, not from a manual's own VIN section — flagged best-effort.
+        chassis: [AE80, AE82, AE91, AE92]
     engines:
+      4a-c:
+        name: 4A-C             # carbureted, Corolla FWD 1984-1987
+        family: A
       4a-f:
         name: 4A-F
         family: A
