@@ -352,7 +352,7 @@ problems usually show up as flooding, hard starting, stalling, severe backfiring
 acceleration — a carburetor leaking fuel and/or covered with wet-looking deposits
 definitely needs attention.
 
-<!-- NEEDS REVIEW: OCR of item 2's symptom list has a garbled word rendered "staffing*/" — reconstructed as "stalling" from context (standard Haynes phrasing "flooding, hard starting, stalling, severe backfiring and poor acceleration"); verify against p.139 image if the exact wording matters. -->
+<!-- NOTE: confirmed against the p.136 page image (not p.139 as originally cited) — item 2 reads exactly "flooding, hard starting, stalling, severe backfiring and poor acceleration." -->
 
 (3) Some performance complaints attributed to the carburetor actually stem from loose,
 out-of-adjustment, or malfunctioning engine/electrical components, or leaking/disconnected/
@@ -393,7 +393,7 @@ speed does not change; (g) disconnect the vacuum hose from the vacuum switch (il
 (7) If no problems are found, the system is okay; any further checks should be done by a
 dealer service department.
 
-<!-- NEEDS REVIEW: item 5(a) in the raw OCR draft has an illegible trailing fragment after "below 45-degrees Fahrenheit" (garbled characters, possibly a stray annotation mark) — the core spec "below 45°F" itself is clear and transcribed as printed; the trailing fragment is omitted as noise, not a data value. -->
+<!-- NOTE: confirmed against the p.136 page image — the printed text reads exactly "The coolant temperature should be below 45-degrees Fahrenheit." The trailing fragment in the raw OCR draft is a handwritten margin annotation on the scanned page (not printed manual text), correctly omitted here. -->
 
 Vacuum switch configuration notes: some 1984 through 1987 models use two vacuum switches
 (in which case, remove the hose from the switch farthest from the EBCV; others use a

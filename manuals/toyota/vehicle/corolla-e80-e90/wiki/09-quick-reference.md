@@ -74,13 +74,13 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.30 | mm | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | 4A-F, 4A-FE, 4A-GE (dual overhead cam) Exhaust 0.008 to 0.012 in (0.20 to 0.30 mm) |
 | 0 | mm | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | 0 in (0 mm) |
 | 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- DIAGRAM CANDIDATE: p.27 — "Engine compartment components" photo, numbered callouts |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
-| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed  |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
+| 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | &lt;!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which cris |
 | 5 | mm | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | (5 mm) below the maximum level line, or below the minimum level line if one is molded |
 | 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | #### SOHC engines (4A-C) |
 | 4 | A | [01-tune-up-and-routine-maintenance.md](01-tune-up-and-routine-maintenance.md) | #### DOHC engines (4A-F, 4A-FE, 4A-GE) |
@@ -172,13 +172,13 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 28.021 | mm | [02a-engines.md](02a-engines.md) | Valve lifter bore diameter, service limit (DOHC only) 1.1024 to 1.1032 in (28.000 to 28.02 |
 | 0.046 | mm | [02a-engines.md](02a-engines.md) | Lifter-to-bore oil clearance, standard (DOHC only) 0.0005 to 0.0018 in (0.015 to 0.046 mm) |
 | 0.10 | mm | [02a-engines.md](02a-engines.md) | Lifter-to-bore oil clearance, service limit (DOHC only) 0.0039 in (0.10 mm) |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 38.41 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 25.4 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 34.8 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 38.41 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 34.51 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
-| 34.52 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 38.41 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 25.4 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 34.8 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 38.41 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 34.51 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
+| 34.52 | mm | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — t |
 | 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- DIAGRAM CANDIDATE: p.54 — "Cylinder location and distributor rotation" diagram for |
 | 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- DIAGRAM CANDIDATE: p.54 — "Cylinder location and distributor rotation" diagram for |
 | 4 | A | [02a-engines.md](02a-engines.md) | Camshaft bearing cap bolts — 4A-C 108 in-lbs |
@@ -212,12 +212,12 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 4 | A | [02a-engines.md](02a-engines.md) | Rocker arm shaft pedestal bolts (4A-C only) 18 |
 | 4 | A | [02a-engines.md](02a-engines.md) | Valve cover nuts/bolts — 4A-C 18 in-lbs |
 | 4 | A | [02a-engines.md](02a-engines.md) | Valve cover nuts/bolts — 4A-GE engines 15 in-lbs |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
-| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4 |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
+| 4 | A | [02a-engines.md](02a-engines.md) | &lt;!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engi |
 | 4 | A | [02a-engines.md](02a-engines.md) | manual covers: the SOHC, two-valve-per-cylinder **4A-C**; and two DOHC, four-valve-per- |
 | 4 | A | [02a-engines.md](02a-engines.md) | cylinder engines — one with dual camshaft timing belt sprockets (**4A-GE**), and one with  |
 | 4 | A | [02a-engines.md](02a-engines.md) | single camshaft timing belt sprocket, called **4A-F** with a carburetor or **4A-FE** with |
@@ -435,6 +435,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.02 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Connecting rod journal taper/out-of-round limit 0.0008 in (0.02 mm) |
 | 0.051 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Connecting rod bearing oil clearance, standard 0.0008 to 0.0020 in (0.020 to 0.051 mm) |
 | 0.08 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Connecting rod bearing oil clearance, service limit 0.0031 in (0.08 mm) |
+| 0.25 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Connecting rod side clearance (endplay), standard 0.0059 to 0.0098 in (0.15 to 0.25 mm) |
+| 0.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Connecting rod side clearance (endplay), service limit 0.012 in (0.30 mm) |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing journal diameter — 4A-C, 1984-1986 1.8892 to 1.8898 in (47.985 to 48.000 mm) |
 | 48.000 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing journal diameter — 4A-C, 1984-1986 1.8892 to 1.8898 in (47.985 to 48.000 mm) |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing journal diameter — 4A-C, 1987 1.8891 to 1.8898 in (47.982 to 48.000 mm) |
@@ -520,11 +522,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | **Piston ring end gap — 4A-C, 1984-1986:** No. 1 (top) compression ring, standard 0.0098 t |
 | 0.470 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0185 in (0.250 to 0.470 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle) |
 | 1.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0185 in (0.250 to 0.470 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle) |
-| 1.02 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638 in (1.62 mm). |
-| 1.62 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638 in (1.62 mm). |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the No. 2 compression ring standard end-gap range for 4A-C 1984-1986 |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the No. 2 compression ring standard end-gap range for 4A-C 1984-1986 |
-| 0.42 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the No. 2 compression ring standard end-gap range for 4A-C 1984-1986 |
+| 0.420 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | compression ring, standard 0.0059 to 0.0165 in (0.150 to 0.420 mm), service limit 0.0402 i |
+| 1.02 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | (1.02 mm); oil ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638  |
+| 1.02 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | (1.02 mm); oil ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638  |
+| 1.62 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | (1.62 mm). Confirmed against the p.88 page image. |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | **Piston ring end gap — 4A-C, 1987:** No. 1 (top), standard 0.0098 to 0.0138 in (0.25 to |
 | 0.35 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.35 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle), standard 0.0059 to 0.0165 in |
 | 1.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.35 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle), standard 0.0059 to 0.0165 in |
@@ -558,11 +559,11 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1.00 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0157 in (0.15 to 0.40 mm), service limit 0.0394 in (1.00 mm); oil ring, standard 0.0039  |
 | 0.70 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0276 in (0.10 to 0.70 mm), service limit 0.0512 in (1.30 mm). |
 | 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0276 in (0.10 to 0.70 mm), service limit 0.0512 in (1.30 mm). |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the sour |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the sour |
-| 0.0512 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the sour |
-| 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the sour |
-| 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the sour |
+| 0.0512 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | limit as "0.0512 mm (1.30 mm)", both figures labeled "mm" (inconsistent with every other |
+| 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | limit as "0.0512 mm (1.30 mm)", both figures labeled "mm" (inconsistent with every other |
+| 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | to be "0.0512 in" (0.0512 in ≈ 1.30 mm). Transcribed above as "0.0512 in (1.30 mm)" per |
+| 1.30 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | to be "0.0512 in" (0.0512 in ≈ 1.30 mm). Transcribed above as "0.0512 in (1.30 mm)" per |
+| 0.0512 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | flagging so a mechanic doesn't read this as 0.0512 mm. --> |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | **Piston ring side clearance — 4A-C, 1984-1985:** No. 1 compression ring 0.0012 to 0.0028  |
 | 0.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | (0.03 to 0.07 mm); No. 2 compression ring 0.0008 to 0.0024 in (0.02 to 0.06 mm). |
 | 0.06 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | (0.03 to 0.07 mm); No. 2 compression ring 0.0008 to 0.0024 in (0.02 to 0.06 mm). |
@@ -577,12 +578,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 0.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-F/4A-FE:** No. 1 0.0016 to |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-F/4A-FE:** No. 1 0.0016 to |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-F/4A-FE:** No. 1 0.0016 to |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
-| 0.08 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
-| 0.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
-| 0.08 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
-| 0.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut  |
+| 0.08 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0031 in (0.04 to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). Confirmed agains |
+| 0.07 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 0.0031 in (0.04 to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). Confirmed agains |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing cap bolts — 4A-C 43 |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing cap bolts — 4A-F, 4A-FE, 4A-GE 44 |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | Main bearing cap bolts — 4A-F, 4A-FE, 4A-GE 44 |
@@ -616,9 +613,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 42 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 4A-GE pistons — measured 1-21/32 inches (42mm) from the bottom. 4A-FE pistons — measured |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 4A-GE pistons — measured 1-21/32 inches (42mm) from the bottom. 4A-FE pistons — measured |
 | 38.5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | 1-33/64 inches (38.5mm) from the bottom. |
-| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 4A-FE piston measurement distance is printed as "1-33/64-inches  |
-| 38.5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 4A-FE piston measurement distance is printed as "1-33/64-inches  |
-| 38.5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NEEDS REVIEW: the 4A-FE piston measurement distance is printed as "1-33/64-inches  |
+| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NOTE: the 4A-FE piston measurement distance "1-33/64-inches (38.5 mm)" is confirme |
+| 38.5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NOTE: the 4A-FE piston measurement distance "1-33/64-inches (38.5 mm)" is confirme |
+| 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NOTE: the 4A-FE piston measurement distance "1-33/64-inches (38.5 mm)" is confirme |
+| 38.5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- NOTE: the 4A-FE piston measurement distance "1-33/64-inches (38.5 mm)" is confirme |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- DIAGRAM CANDIDATE: p.107 — illustrations 17.11a "On 1984 through 1986 4A-C engines |
 | 5 | mm | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- DIAGRAM CANDIDATE: p.107 — illustrations 17.11a "On 1984 through 1986 4A-C engines |
 | 4 | A | [02b-general-engine-overhaul-procedures.md](02b-general-engine-overhaul-procedures.md) | &lt;!-- DIAGRAM CANDIDATE: p.107 — illustrations 17.11a "On 1984 through 1986 4A-C engines |
@@ -680,7 +678,6 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 45 | °F | [04-fuel-and-exhaust-systems.md](04-fuel-and-exhaust-systems.md) | temperature should be below 45°F; (b) disconnect the vacuum hose from the vacuum switch; |
 | 2,500 | rpm | [04-fuel-and-exhaust-systems.md](04-fuel-and-exhaust-systems.md) | speed at 2,500 rpm; (d) reconnect the EBCV connector — engine rpm should momentarily drop |
 | 300 | rpm | [04-fuel-and-exhaust-systems.md](04-fuel-and-exhaust-systems.md) | about 300 rpm; (e) with the engine idling, repeat steps (b) and (d); (f) check that engine |
-| 45 | °F | [04-fuel-and-exhaust-systems.md](04-fuel-and-exhaust-systems.md) | &lt;!-- NEEDS REVIEW: item 5(a) in the raw OCR draft has an illegible trailing fragment af |
 | 4 | A | [05-engine-electrical-systems.md](05-engine-electrical-systems.md) | 4A-C (SOHC), U.S. 0.4 to 0.5 ohms |
 | 4 | A | [05-engine-electrical-systems.md](05-engine-electrical-systems.md) | 4A-C (SOHC), Canada, 1984 1.2 to 1.5 ohms |
 | 4 | A | [05-engine-electrical-systems.md](05-engine-electrical-systems.md) | 4A-C (SOHC), Canada, 1985-1987 1.3 to 1.5 ohms |

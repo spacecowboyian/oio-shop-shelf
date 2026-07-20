@@ -56,10 +56,9 @@ Don't clean vinyl trim with detergents, caustic soap, or petroleum-based cleaner
 soap and water works fine, with a soft brush for ingrained dirt. Wash as frequently as the
 rest of the vehicle. After cleaning, a high-quality rubber and vinyl protectant helps
 prevent oxidation and cracking — can also be applied to weatherstripping, vacuum lines, and
-rubber hoses, which often fail from chemical degradation, and to [tires, per typical Haynes
-phrasing — see NEEDS REVIEW].
+rubber hoses, which often fail from chemical degradation, and to the tires.
 
-<!-- NEEDS REVIEW: the final sentence of this Section is cut off in the raw OCR ("The protectant can also be applied to weatherstripping, vacuum lines and rubber hoses, which often fail as a re[sult] of [chem]ical degradation, and to [tires]" — the object of the final "and to..." clause is illegible/garbled in the extracted text). Likely completes with "tires" per standard Haynes protectant-usage phrasing, but this is inferred, not read — verify against page image p.233 if the exact wording matters. -->
+<!-- NOTE: confirmed against the p.232 page image (not p.233 as originally guessed) — the printed sentence reads exactly "...and to the tires." -->
 
 **[PDF p.234]**
 ## 4. Upholstery and carpets - maintenance (PDF p.234) <a id="p234"></a>

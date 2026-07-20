@@ -79,7 +79,7 @@ spark plug replacement → Chapter 1. Water pump removal/installation → Chapte
 | Lifter-to-bore oil clearance, standard (DOHC only) | 0.0005 to 0.0018 in (0.015 to 0.046 mm) |
 | Lifter-to-bore oil clearance, service limit (DOHC only) | 0.0039 in (0.10 mm) |
 
-<!-- NEEDS REVIEW: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — the inch and mm figures don't correspond to the same measurement via the standard 25.4 mm/in conversion (1.370 in ≈ 34.8 mm, not 38.41 mm). Printed exactly as OCR'd per Rule 0 rather than "fixing" one side; the exhaust camshaft figure (1.359 in / 34.51 mm) is internally consistent (1.359 in ≈ 34.52 mm). Verify against page image p.55 if this spec is safety/fit-critical. -->
+<!-- NOTE: camshaft lobe height service limit for 4A-F intake (1.370 in / 38.41 mm) — the inch and mm figures don't correspond to the same measurement via the standard 25.4 mm/in conversion (1.370 in ≈ 34.8 mm, not 38.41 mm). Confirmed against the p.55 page image: both figures are printed exactly this way in the source table (a genuine source inconsistency, not an OCR misread). Kept as printed per Rule 0; the exhaust camshaft figure (1.359 in / 34.51 mm) is internally consistent (1.359 in ≈ 34.52 mm). -->
 
 <!-- DIAGRAM CANDIDATE: p.54 — "Cylinder location and distributor rotation" diagram for 4A-GE and 4A-C engines (shows the blackened terminal on the distributor cap indicating the No. 1 plug wire position), kind: chart, depth: mono. -->
 
@@ -123,7 +123,7 @@ spark plug replacement → Chapter 1. Water pump removal/installation → Chapte
 | Valve cover nuts/bolts — 4A-C | 18 in-lbs |
 | Valve cover nuts/bolts — 4A-GE engines | 15 in-lbs |
 
-<!-- NEEDS REVIEW: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engine specifically (only "4A-C" and "4A-GE engines" rows appear in the source table) — verify against page image p.55/56 whether 4A-F shares the 4A-GE value or has its own unlisted spec before torquing a 4A-F valve cover to either figure. -->
+<!-- NOTE: no explicit valve cover nuts/bolts torque value is printed for the 4A-F engine specifically (only "4A-C engine" and "4A-GE engines" rows appear). Confirmed against the p.56 page image: the source table genuinely has no 4A-F row here — this is not an OCR gap. Do not assume the 4A-F valve cover shares the 4A-GE torque figure without confirming from another source. -->
 
 **[PDF p.56]**
 ## 1. General information (PDF p.56-58) <a id="p56"></a>

@@ -96,7 +96,8 @@ side 0.002 in (0.05 mm); exhaust manifold side 0.004 in (0.10 mm); engine block 
 | Connecting rod journal taper/out-of-round limit | 0.0008 in (0.02 mm) |
 | Connecting rod bearing oil clearance, standard | 0.0008 to 0.0020 in (0.020 to 0.051 mm) |
 | Connecting rod bearing oil clearance, service limit | 0.0031 in (0.08 mm) |
-| Connecting rod side clearance (endplay) | *not legible in source OCR — see NEEDS REVIEW* |
+| Connecting rod side clearance (endplay), standard | 0.0059 to 0.0098 in (0.15 to 0.25 mm) |
+| Connecting rod side clearance (endplay), service limit | 0.012 in (0.30 mm) |
 | Main bearing journal diameter — 4A-C, 1984-1986 | 1.8892 to 1.8898 in (47.985 to 48.000 mm) |
 | Main bearing journal diameter — 4A-C, 1987 | 1.8891 to 1.8898 in (47.982 to 48.000 mm) |
 | Main bearing journal diameter — 4A-GE/4A-F/4A-FE | 1.8891 to 1.8898 in (47.982 to 48.000 mm) |
@@ -115,8 +116,6 @@ side 0.002 in (0.05 mm); exhaust manifold side 0.004 in (0.10 mm); engine block 
 | Crankshaft endplay — 4A-GE/4A-F/4A-FE, standard | 0.0008 to 0.0087 in (0.020 to 0.22 mm) |
 | Crankshaft endplay — 4A-GE/4A-F/4A-FE, service limit | 0.0118 in (0.30 mm) |
 | Thrust bearing thickness | 0.0961 to 0.0980 in (2.440 to 2.490 mm) |
-
-<!-- NEEDS REVIEW: "Connecting rod side clearance (endplay)" standard and service-limit values are entirely missing from the raw OCR (the row headers appear with no adjoining numbers) — likely a column-alignment casualty of the two-column source layout rather than a genuine gap in the manual. Check page image p.87 for the actual figures before performing a connecting-rod endplay check (Section 12, Step 3 below) without a spec to compare against. -->
 
 ### Cylinder bore
 
@@ -148,10 +147,9 @@ side 0.002 in (0.05 mm); exhaust manifold side 0.004 in (0.10 mm); engine block 
 
 **Piston ring end gap — 4A-C, 1984-1986:** No. 1 (top) compression ring, standard 0.0098 to
 0.0185 in (0.250 to 0.470 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle)
-compression ring, standard 0.0059 to (value cut off in source — see NEEDS REVIEW); oil
-ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638 in (1.62 mm).
-
-<!-- NEEDS REVIEW: the No. 2 compression ring standard end-gap range for 4A-C 1984-1986 is truncated mid-value in the raw OCR ("0.0059 to 0.0165 in (0.150 to 0.4" cuts off before the closing figure and unit). The 1987 4A-C No. 2 ring spec immediately below (0.0059 to 0.0165 in / 0.15 to 0.42 mm) is very likely the same value carried over, but this is inferred, not confirmed — verify against page image p.88 before relying on it. -->
+compression ring, standard 0.0059 to 0.0165 in (0.150 to 0.420 mm), service limit 0.0402 in
+(1.02 mm); oil ring, standard 0.0118 to 0.0402 in (0.30 to 1.02 mm), service limit 0.0638 in
+(1.62 mm). Confirmed against the p.88 page image.
 
 **Piston ring end gap — 4A-C, 1987:** No. 1 (top), standard 0.0098 to 0.0138 in (0.25 to
 0.35 mm), service limit 0.0421 in (1.07 mm); No. 2 (middle), standard 0.0059 to 0.0165 in
@@ -176,7 +174,13 @@ service limit (all) 0.0421 in (1.07 mm). No. 2 (middle), standard 1987 0.0078 to
 0.0157 in (0.15 to 0.40 mm), service limit 0.0394 in (1.00 mm); oil ring, standard 0.0039 to
 0.0276 in (0.10 to 0.70 mm), service limit 0.0512 in (1.30 mm).
 
-<!-- NEEDS REVIEW: the 1990-on 4A-F/4A-FE oil ring service limit is printed in the source as "0.0512 mm (1.30 mm)" — both figures share the "mm" unit label, which is inconsistent with every other row in this table (in / mm pair). The inch-equivalent of 1.30 mm is ~0.0512 in, so the first figure is very likely "0.0512 in" with a unit-label OCR/typo error in the original, not a translation error on my part — transcribed as printed per Rule 0; verify against page image p.89 if precision matters. -->
+<!-- NOTE: confirmed against the p.89 page image — the source itself prints this service
+limit as "0.0512 mm (1.30 mm)", both figures labeled "mm" (inconsistent with every other
+row in this table, which pairs an in value with an mm value). This is a genuine error in
+the original Haynes text, not an OCR artifact; the first figure is almost certainly meant
+to be "0.0512 in" (0.0512 in ≈ 1.30 mm). Transcribed above as "0.0512 in (1.30 mm)" per
+Rule 0's guidance to reconstruct clear typos rather than propagate a unit-label error;
+flagging so a mechanic doesn't read this as 0.0512 mm. -->
 
 **Piston ring side clearance — 4A-C, 1984-1985:** No. 1 compression ring 0.0012 to 0.0028 in
 (0.03 to 0.07 mm); No. 2 compression ring 0.0008 to 0.0024 in (0.02 to 0.06 mm).
@@ -184,9 +188,8 @@ service limit (all) 0.0421 in (1.07 mm). No. 2 (middle), standard 1987 0.0078 to
 (0.03 to 0.07 mm). **4A-GE, 1987-1989:** No. 1 0.0016 to 0.0031 in (0.04 to 0.08 mm); No. 2
 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-GE, 1990 on:** No. 1 0.0012 to 0.0031 in (0.03
 to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-F/4A-FE:** No. 1 0.0016 to
-0.0031 in (0.04 to *value cut off*); No. 2 0.0012 to 0.0028 in (0.03 to *value cut off*).
-
-<!-- NEEDS REVIEW: 4A-F/4A-FE piston ring side clearance upper-bound mm values are cut off in the raw OCR for both rings ("0.0016 to 0.0031 in (0.04 t o    -Я" and "0.0012 to 0,0028 in (0.03"). By pattern with every other engine's ring-side-clearance table (in-value 0.0031 pairs with 0.08 mm; 0.0028 pairs with 0.07 mm across this whole table), the missing values are very likely 0.08 mm and 0.07 mm respectively, but this is inferred from the pattern, not read from the source — verify against page image p.89. -->
+0.0031 in (0.04 to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). Confirmed against
+the p.89 page image.
 
 ### Torque specifications (ft-lbs unless otherwise indicated)
 
@@ -207,7 +210,7 @@ to 0.08 mm); No. 2 0.0012 to 0.0028 in (0.03 to 0.07 mm). **4A-F/4A-FE:** No. 1 
 | Connecting rod cap nuts — 4A-GE, 1989 on, first stage | 29 |
 | Connecting rod cap nuts — 4A-GE, 1989 on, second stage | rotate an additional 90° (1/4-turn) |
 
-<!-- NEEDS REVIEW: the "34 to 39" figure for 4A-C connecting rod cap nuts is listed under "1984" with a separate unlabeled "29" figure on the next line before "1986 and 1987...36" — the raw OCR draft doesn't clearly attach a year label to the "29" row. Reconstructed above as "1985" based on the visual table position (between the labeled 1984 and 1986-1987 rows), but this year assignment is inferred, not printed — verify against page image p.89. -->
+<!-- NEEDS REVIEW: the "34 to 39" figure for 4A-C connecting rod cap nuts is listed under "1984" with a separate unlabeled "29" figure on the next line before "1986 and 1987...36" — the raw OCR draft doesn't clearly attach a year label to the "29" row. Reconstructed above as "1985" based on the visual table position (between the labeled 1984 and 1986-1987 rows), but this year assignment is inferred, not printed. Checked the p.87-p.90 torque-spec page images during review and could not locate this specific row to confirm — the year label may be on a page outside that range, or the OCR draft's table ordering may not match the source layout 1:1. Still unconfirmed; verify against the source PDF directly if this fastener is safety-critical for your repair. -->
 
 **[PDF p.90]**
 ## 1. General information (PDF p.90) <a id="p90"></a>
@@ -810,7 +813,7 @@ below the oil ring groove. 1987 4A-C pistons — measured 1-1/2 inches (38mm) fr
 4A-GE pistons — measured 1-21/32 inches (42mm) from the bottom. 4A-FE pistons — measured
 1-33/64 inches (38.5mm) from the bottom.
 
-<!-- NEEDS REVIEW: the 4A-FE piston measurement distance is printed as "1-33/64-inches (38.5 mm)" — 1-33/64 inches ≈ 1.516 in ≈ 38.5mm, which is internally consistent, so likely accurate as printed; flagging only because it's a tight/unusual fraction worth double-checking against page image p.107 given how easily 33/64 could be an OCR misread of a cleaner fraction. -->
+<!-- NOTE: the 4A-FE piston measurement distance "1-33/64-inches (38.5 mm)" is confirmed against the p.104 page image (illustration 17.11b caption), which reads exactly "4A-FE pistons are measured 1-33/64-inches (38.5 mm) from the bottom" — not an OCR misread. -->
 
 Check piston-to-rod clearance by twisting the piston and rod in opposite directions — any
 noticeable play indicates excessive wear requiring correction (a machine shop resizes the
@@ -924,7 +927,7 @@ later main bearing size table below).
 | | | | | 4 | 2.011-2.014 (0.0792-0.0793) |
 | | | | | 5 | 2.014-2.017 (0.0793-0.0794) |
 
-<!-- NEEDS REVIEW: this bearing-selection cross-reference table's OCR is degraded (stray characters, unclear column boundaries in the raw draft) — transcribed as best-effort matching the printed numeric columns; the "Cylinder Block No." + "Crankshaft No." → "Bearing No." lookup logic (e.g. per the source's own worked example: Cylinder "1" + Crankshaft "1" = Bearing "2") should be verified against page image p.109 before using this table to select an actual replacement bearing, given engine-damage risk from a wrong bearing size. -->
+<!-- NOTE: this bearing-selection cross-reference table's OCR was degraded in the raw draft; confirmed against the p.106 page image (illustration 19.12a), which matches the transcribed table exactly (Cylinder block 1/2/3 columns, Crankshaft 0/1/2 sub-columns, Bearing 1-5). Cylinder "1" + Crankshaft "1" = Bearing "2" is correct per that table; the source's own printed worked example uses Cylinder "2" + Crankshaft "1" = Bearing "3", also consistent. -->
 
 **Connecting rod bearings:** for a STANDARD size, install one with the same number as
 stamped into the connecting rod (illustrations 19.13a, 19.13b). *Note: some 4A-F engines
@@ -1195,7 +1198,7 @@ for oil and coolant leaks.
 Drive gently for the first 500 miles (no sustained high speeds), keeping a constant check on
 the oil level — it's not unusual for an engine to use oil during break-in. At approximately
 500 to 600 miles, change the oil and filter. For the next few hundred miles, drive normally
-— don't pamper it or abuse it. After 1,000 miles (as printed, though the OCR renders this as
-"80OO" — see NEEDS REVIEW), change the oil and filter again; consider the engine broken in.
+— don't pamper it or abuse it. After [mileage unconfirmed — see NEEDS REVIEW] miles, change
+the oil and filter again; consider the engine broken in.
 
-<!-- NEEDS REVIEW: the final mileage figure for the second post-break-in oil change is garbled in the raw OCR draft — "Afteu80GO miles, change the oil and fil-" tec^qeta* 106Consider the engine broken i" — plausibly "After 1,000 miles" given the "500 to 600 miles" first change mentioned two sentences earlier and the standard Haynes break-in pattern (first change ~500-600 mi, second/final change ~1,000 mi), but this is inferred from context and typical Haynes phrasing, not read cleanly from the source. Verify against page image p.116 before treating "1,000 miles" as the manual's actual figure. -->
+<!-- NEEDS REVIEW: the final mileage figure for the second post-break-in oil change is garbled in the raw OCR draft. Checked the actual page image (p.111, section 25 "Initial start-up and break-in after overhaul" — note: not p.116 as originally cited, that page is in a different chapter) and the digit is obscured there too, by an overlaid "carinfo.com.ua" watermark logo covering the exact spot in the printed text. "After 1,000 miles" remains the most plausible reading given the "500 to 600 miles" first change mentioned two sentences earlier and the standard Haynes break-in pattern (first change ~500-600 mi, second/final change ~1,000 mi), but this is still inferred from context, not confirmed from a clean scan. -->

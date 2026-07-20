@@ -364,12 +364,10 @@ nuts), and detach the tripod joint from the side gear shaft. Remove the disc bra
 bracket, and disc (Chapter 9). Remove the control arm-to-balljoint bolts/nuts and detach the
 arm from the balljoint (Chapter 10). Push the driveaxle out of the hub with a two-jaw puller
 (illustration 10.11a) and remove the driveaxle. If the inner end is splined to the
-differential (not nut-secured), separate it from the differential — on right-hand driveaxles,
-tap gently against the CV joint with a hammer and prybar (illustration 10.11b — pry the inner
-CV joint out of the driveaxle with a large screwdriver or pry bar); left-hand driveaxles
-[procedure continues per source, method not fully specified in the extracted text].
-
-<!-- NEEDS REVIEW: the instruction for removing left-hand driveaxles from the differential is cut off in the raw OCR draft ("...tap gently against [the CV] joint with a hammer and [prybar]. Left-hand driveaxles" — the sentence ends there, with no continuation visible in the extracted text). Likely continues onto page 195 with a distinct removal method (Toyota FWD left driveaxles commonly needed a slide-hammer or puller rather than tapping, due to a spring-loaded circlip retention design differing side-to-side) — verify against page image p.194-195 before relying on this step for a real removal. -->
+differential (not nut-secured), separate it from the differential — on right-hand
+driveaxles, tap gently against the inner joint with a hammer and brass drift punch;
+left-hand driveaxles can be pried out with a large screwdriver (illustration 10.11b).
+Confirmed against the p.191 page image (not p.194-195 as originally guessed).
 
 *Note (as printed): it's not a good idea to move the vehicle with a driveaxle removed, but if
 you must, first install a bolt and pair of washers as shown (illustration 10.12: 1 2-inch

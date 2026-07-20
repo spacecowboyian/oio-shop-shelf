@@ -447,10 +447,10 @@ equipped shop.* The home mechanic can, however, make simple checks for minor,
 easily-repaired faults: (a) inspecting the cruise control actuating switches and wiring for
 broken wires or loose connections; (b) checking the cruise control fuse; (c) checking the
 hoses in the engine compartment for tight connections, cracked hoses, and obvious vacuum
-leaks — *the system is vacuum-operated, so it's critical that all vacuum switches, hoses, and
-connections be [tight and in good condition]*.
+leaks — *the cruise control system is operated by a vacuum, so it's critical that all
+vacuum switches, hoses, and connections be secure*.
 
-<!-- NEEDS REVIEW: the final clause of item (c) is cut off in the raw OCR draft ("it is critica l that all vacuum S w iM le t. hose s and connections be" — text ends there). Reconstructed above as "tight and in good condition" based on standard phrasing for this kind of vacuum-system caution, but this is inferred, not read from the source — verify against page image p.257 if the exact wording matters. -->
+<!-- NOTE: confirmed against the p.257 page image — the printed sentence ends "...it is critical that all vacuum switches, hoses and connections be secure." (My earlier reconstruction guessed "tight and in good condition," which was wrong — corrected here from the image.) -->
 
 **[PDF p.258]**
 ## 18. Power door lock system - description and check (PDF p.258) <a id="p258"></a>
@@ -494,7 +494,7 @@ pull on the wires, only on the connector housings themselves.
 Light blue, LG = Light green, O = Orange, P = Pink, R = Red, V = Violet, W = White, Y =
 Yellow.
 
-<!-- NEEDS REVIEW: the color code table lists both "G = Green" and "GR = Green" as separate entries with identical color names in the raw OCR — this is very likely two genuinely distinct colors in the original (e.g. "GR" commonly denotes Gray on Toyota wiring diagrams of this era, not a second "Green"), with "Gray" OCR-misread as "Green" for the GR row. Transcribed exactly as printed per Rule 0 rather than silently correcting; verify against page image p.258 before using the GR code to trace a wire color in the diagrams below. -->
+<!-- NOTE: confirmed against the p.258 page image — the printed, typeset table itself lists both "G = Green" and "GR = Green" with identical color names; this is not an OCR misread (my earlier hypothesis that "GR" meant Gray was wrong). It reads as a genuine oddity/error in the original manual's color-code table. Use wire position/circuit context rather than the GR code alone when tracing a wire in the diagrams below, since GR does not reliably distinguish from G here. -->
 
 ### Diagram set 1 — "Typical 1987 and earlier model wiring diagram" (11 sheets)
 

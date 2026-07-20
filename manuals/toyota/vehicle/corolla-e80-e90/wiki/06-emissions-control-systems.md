@@ -213,13 +213,13 @@ The Check Engine warning light, on the instrument panel, comes on when the ignit
 | Code 51 (EFI only) | 5 Flashes, Pause, 1 Flash | A/C switch signal | Air conditioner switch on, idle switch off during diagnosis check | A/C switch circuit; A/C switch; A/C amplifier; Throttle position sensor circuit; Throttle position sensor; ECU |
 | Code 52 | 5 Flashes, Pause, 2 Flashes | Knock sensor (1990 and later 4A-GE engines only) | Open or short circuit | Knock sensor circuit; Knock sensor; ECU |
 | Code 53 | 5 Flashes, Pause, 3 Flashes | Knock control (1990 and later 4A-GE engines only) | ECU | ECU connectors; ECU |
-| Code 71* | 7 Flashes, Pause, 1 Flash | EGR (California 4A-GE engine only) is too low <!-- NEEDS REVIEW: source misprint, not OCR — printed exactly as "EGR (California 4A-GE is too low engine only)" in the "Circuit or system" column, with "is too low" oddly nested inside the parenthetical; page image p.162 confirms the manual itself prints this word order. The "Diagnosis" column ("EGR gas temperature signal") suggests the intended meaning is "EGR gas temperature is too low (California 4A-GE engine only)" — but transcribed here exactly as printed, not corrected. --> | EGR gas temperature signal | EGR system (EGR valve, hoses, etc.); EGR gas temperature sensor circuit; EGR gas temperature sensor; Vacuum switching valve for the EGR circuit; ECU |
+| Code 71* | 7 Flashes, Pause, 1 Flash | EGR (California 4A-GE engine only) is too low <!-- NOTE: source misprint, not OCR — confirmed against the p.162 page image, printed exactly as "EGR (California 4A-GE is too low engine only)" in the "Circuit or system" column, with "is too low" oddly nested inside the parenthetical. The "Diagnosis" column ("EGR gas temperature signal") suggests the intended meaning is "EGR gas temperature is too low (California 4A-GE engine only)" — but transcribed here exactly as printed, not corrected. --> | EGR gas temperature signal | EGR system (EGR valve, hoses, etc.); EGR gas temperature sensor circuit; EGR gas temperature sensor; Vacuum switching valve for the EGR circuit; ECU |
 | Code 72 (carb only) | — | Fuel cut solenoid signal | Open circuit in fuel cut solenoid signal (FCS) | Fuel cut solenoid circuit; Fuel cut solenoid; ECU |
 
 \* On 1991 models, the vehicle must be driven, shut off and driven again to set code 21 (depending on the cause of the code) and codes 25, 26 and 71.
 
-<!-- NEEDS REVIEW: OCR read "Code 2 Г" for the oxygen-sensor code above the coolant-temperature code; page image p.162 clearly shows "Code 21*" — corrected from image. -->
-<!-- NEEDS REVIEW: OCR read "Code 71-" (hyphen); page image p.162 clearly shows "Code 71*" — corrected from image, consistent with the footnote listing "codes 25, 26 and 71" as asterisked. -->
+<!-- NOTE: OCR read "Code 2 Г" for the oxygen-sensor code above the coolant-temperature code; page image p.161 (not p.162 as originally cited — that code is in the "1988 AND LATER" table on the preceding page) clearly shows "Code 21*" — corrected from image. -->
+<!-- NOTE: OCR read "Code 71-" (hyphen); page image p.162 clearly shows "Code 71*" — corrected from image, consistent with the footnote listing "codes 25, 26 and 71" as asterisked. -->
 
 ---
 

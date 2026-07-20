@@ -240,7 +240,7 @@ Ft-lbs unless otherwise indicated.
 
 <!-- DIAGRAM CANDIDATE: p.27 — "Engine compartment components" photo, numbered callouts 1-15 (1984 through 1988 model shown, printed caption reads "4A-LC engine", others similar). -->
 
-<!-- NEEDS REVIEW: source misprint, not OCR — the photo caption on PDF p.27 is printed "4A-LC engine"; every other engine-code reference in this chapter uses 4A-C, 4A-F, 4A-FE or 4A-GE and there is no "4A-LC" engine elsewhere in this manual's specs. Kept exactly as printed; likely a Haynes typo for "4A-C". -->
+<!-- NOTE: source misprint, not OCR — confirmed against the p.27 page image, which crisply and unambiguously prints "4A-LC engine" in the caption. Every other engine-code reference in this chapter uses 4A-C, 4A-F, 4A-FE or 4A-GE and there is no "4A-LC" engine elsewhere in this manual's specs; kept exactly as printed per Rule 0 — almost certainly a Haynes typo for "4A-C". -->
 
 **Engine compartment components** (1984 through 1988 model shown, others similar):
 
@@ -1303,8 +1303,6 @@ values by engine.
     | 14 | 2.800 (0.1102) | 32 | 3.250 (0.1280) |
     | 16 | 2.850 (0.1122) | 34 | 3.300 (0.1299) |
     | 18 | 2.900 (0.1142) | | |
-
-    <!-- NEEDS REVIEW: OCR draft read shim 32's thickness as "0.1200"; page image (p.45, table 24.22) clearly shows "0.1280" — corrected from image. -->
 
 23. With the special valve lifter tools still in position, install the new adjusting
     shim. Measure the clearance with a feeler gauge to make sure your calculations are

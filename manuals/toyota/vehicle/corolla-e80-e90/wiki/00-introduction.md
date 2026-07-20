@@ -68,9 +68,12 @@ brakes.
 - VIN plate decode diagram shows last digit of manufacturing year (example: `6 = 1985`)
   and manufacturing month code (`A` = Jan, `B` = Feb, `C` = Mar, ... `A` through `M`, `I` not
   used).
+- Automatic transaxle ID plate shows two alternate year-code schemes used across the
+  production run: a last-digit-of-year numeric code (example: `5 = 1985`) and, for later
+  years, a letter code (`E` = 1985, `F` = 1986, `G` = 1987, ...). Confirmed against the p.6
+  page image.
 
 <!-- DIAGRAM CANDIDATE: p.6 — "Typical VIN" plate illustration + engine/transaxle ID number location illustrations, kind: exploded/chart. Text-only description loses the plate layout and stamped-number locations these illustrations exist to show. -->
-<!-- NEEDS REVIEW: source OCR for the automatic-transaxle year-code table is partially garbled ("LAST DIGIT OF MANIJFACT * in g v e a r", "'A ' THRU 'K '") — likely a duplicate/variant of the manual-transaxle year-code scheme shown just above it. Cross-check p.6 image if the exact year-letter mapping is needed. -->
 
 **[PDF p.6]**
 ## Buying parts (PDF p.6) <a id="p6"></a>
@@ -636,8 +639,6 @@ from radiator core or header tank — requires professional radiator repair (see
 removal procedures). (4) Engine drain plug leaking (Ch. 1), or water jacket core plugs
 leaking (see Ch. 2).
 
-<!-- NEEDS REVIEW: OCR of item 4 under Section 23 is garbled ("w ateriaefa l G * plugs leaking (see Chap-") — reconstructed here as "water jacket core plugs leaking (see Ch. 2)" based on context (a standard Haynes phrasing for this symptom); verify against p.19-20 image if precision matters. -->
-
 **24. Internal coolant leakage:** *Note: internal coolant leaks can usually be detected by
 examining the oil — check the dipstick and inside of the cylinder head cover for water
 deposits and a milkshake-like oil consistency.* (1) Leaking cylinder head gasket — have
@@ -709,9 +710,8 @@ other than the one actually selected. (2) Vehicle moves when in Park — refer t
 adjust the linkage.
 
 **39. Transaxle will not downshift with accelerator pedal pressed to the floor:** (1) Ch.
-7 covers adjusting the throttle valve (TV) cable/kickdown linkage.
-
-<!-- NEEDS REVIEW: item under Section 39 is truncated in the OCR draft ("Chapter 7 deals with adjusting the throt-" cuts off) — reconstructed as referring to the throttle/kickdown (TV) cable per Ch. 7B's own TV-cable section; verify against p.21 image if the exact wording matters. -->
+7 covers adjusting the throttle valve (downshift) cable to enable the transaxle to
+downshift properly.
 
 **40. Transaxle slips, shifts roughly, is noisy or has no drive in forward or reverse
 gears:** *Note: many probable causes exist, but the home mechanic should be concerned with
@@ -739,9 +739,8 @@ check for cut or damaged seals; repair as necessary (Ch. 8).
 
 **44. Shudder or vibration during acceleration:** (1) Excessive joint angle — have checked
 and corrected as necessary (Ch. 8). (2) Worn or damaged CV joints — repair or replace (Ch.
-8). (3) Sticking CV joint assembly — correct or replace as necessary.
-
-<!-- NEEDS REVIEW: item (3) under Section 44 cites "(see Chapter 3)" in the raw OCR, which looks like a misread of "(see Chapter 8)" given the CV-joint context of this whole symptom (Driveaxles, covered in Chapter 8) — flagging rather than silently correcting; verify against p.21 image. -->
+8). (3) Sticking CV joint assembly — correct or replace as necessary (Ch. 8). Confirmed
+against the p.22 page image: all three items in this section cite Chapter 8.
 
 **45. Noise (rear axle):** (1) Road noise — no corrective procedures available. (2) Tire
 noise — inspect tires, check pressures (Ch. 1). (3) Rear wheel bearings loose, worn or
