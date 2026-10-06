@@ -122,15 +122,23 @@ position such that the variation of toe between the mid-load and high positions 
 moves towards a **decrease of toe-out, from 0 to 2 mm per half-axle** (front toe-in under
 these conditions).
 
-<!-- NEEDS REVIEW:"interax" is French "entraxe" = centre distance; "rudder" is "biellettes"
-or "leviers de direction" — the exact component is not recoverable, rendered as "steering
-arms" from context; "rack bits" is "les embouts de crémaillère" = rack ends.
-The three part numbers are transcribed digit-for-digit from the page image; note the
-standard support is numbered 6000000557 (10 digits) while the other two are 6000000351 and
-6000001352 — the inconsistency is as printed. These part numbers match the H = 55/56/57 mm
-supports described on G-1.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.83 · risk-if-guessed 0.56 · blocks-a-job 0.26 
-     HAND-CHECKED: kept open because the component behind "rudder" is not recoverable; rendered from context only. -->
+<!-- NEEDS REVIEW: one word here is untranslatable; the MECHANISM is not in doubt and is
+stated plainly above.
+     What the paragraph is about: the three support heights (55 / 56 / 57 mm centre distance)
+     set how high the steering rack sits, and rack height is what governs how toe changes as
+     the suspension moves — bump steer. The factory chose the heights so the change always
+     runs the same way, towards less toe-out, 0 to 2 mm per half-axle. That is why a support
+     is swapped rather than shimmed, and why H-2 insists on re-checking toe between the low
+     and high positions after any refit.
+     The untranslatable word is "rudder", in "placing the rack bits in relation to rudder".
+     "Rack bits" is "embouts de cremaillere" = rack ends; what the rack ends are being
+     positioned RELATIVE TO is the word that did not survive. It is the steering link they
+     drive — a track rod or steering arm — but the specific French term is not recoverable
+     from this copy and is not guessed at here.
+     "interax" is "entraxe" = centre distance. "The media" is "les supports" — the translator
+     took the other sense of "support".
+     The three part numbers are transcribed digit-for-digit; note the standard support reads
+     6000000557 against 6000000351 and 6000001352 — the inconsistency is as printed. -->
 
 <a id="p42"></a>
 ### 2) Checks and settings

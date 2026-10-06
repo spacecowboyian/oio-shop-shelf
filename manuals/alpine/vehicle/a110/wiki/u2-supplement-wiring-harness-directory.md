@@ -10,13 +10,17 @@
 
 Source PDF pages 64–72; supplement pages **3** to **11**.
 
-> **Images only.** Every page in this section is a dense table with 90°-rotated column
-> headings. The English translation in this copy is overlaid on top of the French original
-> and renders both unreadable. **No value, colour code, terminal number or part number from
-> these pages has been transcribed** — a wrong reading here would put current through the
-> wrong circuit.
+> **These nine pages are wiring documentation that the translation has destroyed.**
 >
-> Read these pages from the images below, or from the source PDF pp.64–72.
+> The English overlay sits on top of the French original with the column headings running at
+> 90°, so neither layer can be read. **Nothing on them has been transcribed** — not a colour
+> code, not a terminal number, not a part number. A wrong reading here puts current through
+> the wrong circuit.
+>
+> This is not a gap that further work on this copy can close. It is a permanent defect of
+> this translated edition, recorded as such. Anyone who needs A110 harness data should go to
+> the French original or a Renault 8/10/16 wiring manual; the images below are reproduced so
+> you can at least see what is on each page, not so you can work from them.
 
 The pages are headed, as far as is legible, **"DIRECTORY OF FAILURES"** — French
 *répertoire des faisceaux* (wiring harness directory). The translator read *faisceaux*
@@ -43,7 +47,7 @@ The pages are headed, as far as is legible, **"DIRECTORY OF FAILURES"** — Fren
 <a id="p64"></a>
 **[PDF p.64]**
 
-## What is on each page (orientation only — NOT data)
+## What is on each page (so you can find the right one — NOT data)
 
 | Supplement page | PDF page | Content, from the fragments that are legible |
 | --------------- | -------- | -------------------------------------------- |
@@ -57,16 +61,15 @@ The pages are headed, as far as is legible, **"DIRECTORY OF FAILURES"** — Fren
 | 10 | 71 | Butt connectors — body/chassis frame, single Ø 5, Ø 2 |
 | 11 | 72 | **Characteristics of lamps** — cross-reference numbers (e.g. 08 54 013 46…, 77 01 500 …) |
 
-<!-- NEEDS REVIEW:the table above is a reading of scattered legible words across each page
-image and is offered only so a reader can tell which page to open. The words themselves are
-machine-translated from French and several ("Fo g-f re", "Ri ghga", "Mano- conta ct") are
-too broken to interpret. NOTHING here should be treated as an accurate index of the page
-contents, and no reference number above is complete. A reader needing harness data must use
-the source PDF pp.64-72.
-Note also that the main manual's only wiring diagram (p.29) covers the Version 85 (série)
-only — see [C — Electrical Equipment](c-electrical-equipment.md#c-wiring-diagram).
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.49 · blocks-a-job 0.31 
-     HAND-CHECKED: kept open because a standing warning that an entire 9-page section must not be trusted as an index. -->
+<!-- TRANSLATION NOTE (closed 2026-10-06 as a permanent source defect, not an open item):
+the table above is a reading of scattered legible words across each page image, offered only
+so a reader can tell which page to open. The words are machine-translated from French and
+several ("Fo g-f re", "Ri ghga", "Mano- conta ct") are too broken to interpret. NOTHING here
+is an accurate index of the page contents, and no reference number above is complete.
+     Nothing further can be recovered from this copy — these pages are wiring documentation
+     the translation destroyed, so this is a property of the source, not work left undone.
+     Note also that the main manual's only wiring diagram (p.29) covers the Version 85
+     (serie) only — see [C — Electrical Equipment](c-electrical-equipment.md#c-wiring-diagram). -->
 
 ---
 

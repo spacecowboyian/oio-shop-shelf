@@ -145,13 +145,14 @@ separated.
 > This is done at the "scalex" with an abrasive disc **No. 24** on a rasp or disc grinder.
 > Cover the area thus freed of fibre with mixed resin, then apply the polyester mastic.
 
-<!-- NEEDS REVIEW:step 2's reason clause prints "initial qualities of resistance meca- /
-I'm sorry." — the machine translation dropped the end of the sentence ("mécanique"); read as
-mechanical resistance. "the repairing room" is "la pièce à réparer" = the part being
-repaired, read as such. The dimension C = 40 to 50 mm and the abrasive disc No. 24 are
-legible. "scalex" is as printed and is not recoverable.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.48 · blocks-a-job 0.22 
-     HAND-CHECKED: kept open because "scalex" names a tool or location in a repair step and is not recoverable. -->
+<!-- TRANSLATION NOTE: step 2's reason clause prints "initial qualities of resistance meca-
+/ I'm sorry." — the translation dropped "mecanique"; read as mechanical resistance. "the
+repairing room" is "la piece a reparer" = the part being repaired. The dimension
+C = 40 to 50 mm and the abrasive disc No. 24 are legible and unchanged.
+     "scalex" is not recoverable, and is chalked up to the translation (maintainer call,
+     2026-10-06) rather than carried as an open item: it names a place or a tool in a
+     fibreglass repair step whose dimension and abrasive grade are both given, so the step is
+     followable without it. -->
 
 <a id="p52"></a>
 ### 2) Repair with replacement of a body part

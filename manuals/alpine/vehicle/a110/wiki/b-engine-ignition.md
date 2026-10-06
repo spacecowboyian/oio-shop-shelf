@@ -88,17 +88,24 @@ By rectangular plate on the unit (RENAULT plate or ALPINE plate).
   exhaust spring seats and cups for fitting internal springs; alignment of the intake ports
   relative to the manifold; machining (**2.6 mm**) of the joint face.
 - Intake and exhaust manifold RENAULT 8 S.
-- ALPINE *scumbags*.
+- ALPINE **[untranslatable — printed "scumbags"; see note]**.
 - RENAULT carburettor 8 S.
 - RENAULT 8G water pump and fan.
 - RENAULT 8G oil pump.
 - ALPINE camshaft.
 - Clutch type R. 1135 with Estafette-type flywheel No **8331975** for graphite release stops.
 
-<!-- NEEDS REVIEW:"ALPINE scumbags" is an untranslated/garbled machine-translation of some
-French part name; the page image shows the same words, so the source word cannot be
-recovered from this copy. Left as printed — do not guess. It recurs on B-3 as "ALPINE
-aluminium scumbags".
+<!-- NEEDS REVIEW: "scumbags" is a machine-translation failure, not a part name, and is NOT
+reproduced above as though it were one — the body marks the slot untranslatable and the
+printed word is quoted only here.
+     Positional evidence, recorded for anyone who later gets the French original: on B-2
+     (810-30) the entry sits between "Intake collector and exhaust RENAULT 8 S" and "RENAULT
+     carburettor 8 S". On B-3 (807-25) "ALPINE aluminium scumbags" sits between the machined
+     timing cover and "Special assembly", while the ALPINE inlet/exhaust manifolds AND the
+     ALPINE aluminium oil sump are both listed separately in that same list. So: an ALPINE
+     part, made in aluminium, that is neither the manifolds nor the sump, and on the 810-30
+     falls between manifold and carburettor. The source word is not recoverable from this
+     copy and is deliberately not guessed at.
 "with type steering wheel Estafette No 8331975" — French "volant" means FLYWHEEL, not
 steering wheel; rendered as flywheel above. The part number is unchanged.
 "rectification (2.6 mm) of the plane joint" is machining of the head joint face by 2.6 mm —
@@ -144,8 +151,8 @@ This engine is delivered prepared by the R.N.U.R. to the following specification
 - Special camshaft.
 - Cylinder housing reinforced at the level of the liners.
 - Timing cover machined to accept an intermediate plate for the rear engine crossmember support.
-- ALPINE aluminium *scumbags*.
-- Special assembly.
+- ALPINE aluminium **[untranslatable — printed "scumbags"; see note]**.
+- Special assembly (printed truncated as "Special ass.").
 - Double valve springs.
 - Intake valves Ø **42**, less head, hollow — tulip-shape; different exhaust valve.
 - ALPINE inlet and exhaust manifolds.
@@ -157,9 +164,11 @@ This engine is delivered prepared by the R.N.U.R. to the following specification
 <!-- NEEDS REVIEW:"Cultivators (heat treatment different)" is French "culbuteurs" = rocker
 arms; "crepine" is the oil pickup strainer; "Pion of additional centering" is "pion de
 centrage" = centring dowel. Wording restored, values unchanged. "Special ass." is printed
-truncated and is not recoverable.
+truncated; read as "Special assembly" (maintainer reading, 2026-10-06 — French "ensemble
+spécial" / "assemblage spécial"). The truncation is in the source, so this is a reading, not
+a transcription.
      TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.93 · risk-if-guessed 0.47 · blocks-a-job 0.31 
-     HAND-CHECKED: kept open because "Special ass." is truncated in the source and is not recoverable. -->
+     HAND-CHECKED 2026-10-06: "Special ass." resolved to "Special assembly". Nothing else in this note is undecided. -->
 
 <a id="p11"></a>
 ### Option 1600 GS, derived from 807-25
@@ -523,11 +532,11 @@ Similar in all respects to the timing of the original RENAULT engines.
 | --- | --- | --- | --- | --- | --- |
 | | 0.06 to 0.11 | 0.06 to 0.11 | 0.06 to 0.11 | 0.05 to 0.12 | 0.05 to 0.12 |
 
-<!-- NEEDS REVIEW:printed "Side game of the tree with cams in mm" — French "jeu latéral de
-l'arbre à cames" = camshaft end float. The 1600 GS column prints the two values on separate
-lines without a "to"; read as 0.05 to 0.12 to match the 1600 S column.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.78 · risk-if-guessed 0.27 · blocks-a-job 0.15 
-     HAND-CHECKED: kept open because the 1600 GS camshaft end float is READ as a range the page does not actually print as one. -->
+<!-- TRANSLATION NOTE: printed "Side game of the tree with cams in mm" — French "jeu latéral
+de l'arbre à cames" = camshaft end float. The 1600 GS cell prints its two values on separate
+lines without the word "to", but EVERY other cell in that row is "X to Y" set over two lines
+in exactly the same way, so the range reads unambiguously. Re-checked against the page image
+2026-10-06; nothing undecided. -->
 
 <a id="p21"></a>
 **[PDF p.21]**

@@ -20,10 +20,10 @@ Every flag the pass closed was then read by hand before it was closed.
 
 | | Before | After |
 | --- | --- | --- |
-| Open `NEEDS REVIEW` flags | 108 | **76** |
-| Closed as translation notes | — | 32 |
+| Open `NEEDS REVIEW` flags | 108 | **73** |
+| Closed as translation notes | — | 35 |
 
-The 32 closed ones were pure glossary entries — "*Reports* is French *rapports* =
+The 35 closed ones were pure glossary entries — "*Reports* is French *rapports* =
 ratios", "*Rocket door* is *porte-fusée* = stub axle carrier" — where the note itself settles
 the matter and no figure is in doubt. **Nothing was deleted.** They are still in the chapter
 source, retagged `<!-- TRANSLATION NOTE … -->`, so the knowledge stays and only the open-item
@@ -32,7 +32,7 @@ count changes.
 Each remaining flag now carries a `TRIAGE` line recording its verdict, recommended next step,
 and the three probabilities behind them.
 
-## The remaining 76, by next step
+## The remaining 73, by next step
 
 | Next step | Count |
 | --------- | ----- |
@@ -118,3 +118,18 @@ with that citation. psi conversions were added to the chapter, clearly marked as
 typographic slip in the source, not two variants. Nothing in the manual distinguishes them
 and no part or procedure keys off the third zero. Both pages keep their own spelling exactly
 as printed. Not independently checked against an Alpine or Renault parts catalogue.
+
+## The last of the seven, taken to the owner
+
+Of the seven flags held back for a human, five are now settled and two were reworded. The
+owner disagreed with me on two of them and was right both times.
+
+| Flag | Outcome |
+| ---- | ------- |
+| Camshaft end float, p.20 | **Closed — I was wrong.** I flagged the 1600 GS cell for printing its two values without the word "to". Every other cell in that row is "X to Y" set over two lines in exactly the same way, so the range was never ambiguous. Re-checked against the page image. |
+| "Special ass.", p.11 | **Closed** — read as **"Special assembly"**. Obvious in hindsight, and recorded as a reading rather than a transcription because the source really is truncated. |
+| "scalex", p.52 | **Closed** as a translation artifact. The repair step gives both its dimension (C = 40–50 mm) and its abrasive grade (No. 24), so it is followable without the word. |
+| Harness directory, pp.64–72 | **Closed as a permanent source defect.** These are wiring documents the translation destroyed; no further work on this copy can recover them. The chapter now says that outright instead of carrying it as an open item. |
+| "rudder", p.42 | **Reworded.** The old note flailed between two French guesses and was, fairly, called out as making no sense. The *mechanism* was never in doubt and is now stated plainly: the 55/56/57 mm supports set rack height, which sets how toe changes through suspension travel — bump steer. One word is still untranslatable; the flag now says only that. |
+| "scumbags", pp.11 & 12 | **Still open, but no longer presented as a part name.** The body text marks the slot untranslatable instead of printing a joke word as though ALPINE sold one. The note now records *positional* evidence instead: it is an ALPINE part, available in aluminium, that is neither the manifolds nor the sump (both listed separately), and on the 810-30 it falls between the manifold and the carburettor. That is a real lead for anyone who gets the French original. |
+| `812-000`, p.11 | **Resolved** as a typographic slip — see above. |

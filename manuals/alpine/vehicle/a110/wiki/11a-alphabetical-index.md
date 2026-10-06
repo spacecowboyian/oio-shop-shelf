@@ -283,6 +283,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## W
 
-- What is on each page (orientation only — NOT data) — [u2-supplement-wiring-harness-directory.md#p64](u2-supplement-wiring-harness-directory.md#p64) ([PDF p.64])
+- What is on each page (so you can find the right one — NOT data) — [u2-supplement-wiring-harness-directory.md#p64](u2-supplement-wiring-harness-directory.md#p64) ([PDF p.64])
 - Wire colour key (from the diagram's own legend) — [c-electrical-equipment.md#p29](c-electrical-equipment.md#p29) ([PDF p.29])
 
