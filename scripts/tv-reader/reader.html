@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+  :root { --bg:#0b0b0c; --fg:#e8e8ea; --dim:#8a8a93; --accent:#d8b24a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+    font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; overflow:hidden; }
+  #stage { position:absolute; inset:0 0 44px 0; display:flex; align-items:center;
+    justify-content:center; gap:10px; padding:10px; }
+  .pane { position:relative; height:100%; display:flex; align-items:center; justify-content:center; }
+  .pane canvas { background:#fff; box-shadow:0 0 0 1px #2a2a2e, 0 8px 30px #0008;
+    max-height:100%; max-width:100%; }
+  .pane.empty canvas { visibility:hidden; }
+  .pane.sel canvas { box-shadow:0 0 0 5px var(--accent), 0 8px 30px #0008; }
+  #zoomwrap { position:absolute; inset:0 0 44px 0; display:none; overflow:hidden;
+    background:var(--bg); }
+  #zoomwrap.on { display:block; }
+  #zoomcanvas { position:absolute; transform-origin:0 0; background:#fff; }
+  #manual { color:var(--dim); }
+  #bar { position:absolute; left:0; right:0; bottom:0; height:44px; display:flex;
+    align-items:center; gap:18px; padding:0 18px; background:#141417;
+    border-top:1px solid #26262b; font-size:15px; }
+  #label { color:var(--accent); font-weight:600; }
+  #hint { color:var(--dim); margin-left:auto; font-size:13px; }
+  #busy { position:absolute; top:12px; right:16px; color:var(--dim); font-size:13px;
+    opacity:0; transition:opacity .15s; }
+  #busy.on { opacity:1; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="pane" id="paneL"><canvas id="cL"></canvas></div>
+  <div class="pane" id="paneR"><canvas id="cR"></canvas></div>
+</div>
+<div id="zoomwrap"><canvas id="zoomcanvas"></canvas></div>
+<div id="busy">rendering\u2026</div>
+<div id="bar">
+  <span id="label">—</span>
+  <span id="manual">__TITLE__</span>
+  <span id="hint">◀ ▶ page · OK zoom · ▲▼ in zoom: pan · BACK exit zoom</span>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+const qs = new URLSearchParams(location.search);
+const FILE = qs.get("file") || "manual.pdf";
+const OVERSAMPLE = parseFloat(qs.get("os") || "2");   // render beyond CSS size, then downscale
+const MAXPX = parseInt(qs.get("maxpx") || "3508", 10); // native scan height; never exceed
+const PRELOAD = 2;
+let page = Math.max(1, parseInt(qs.get("page") || "1", 10));
+let doc = null, total = 0;
+let zoom = false, zscale = 1, zx = 0, zy = 0;
+let sel = 0;                     // 0 = left page, 1 = right page
+
+const cL = document.getElementById("cL"), cR = document.getElementById("cR");
+const paneL = document.getElementById("paneL"), paneR = document.getElementById("paneR");
+const label = document.getElementById("label"), busy = document.getElementById("busy");
+const zwrap = document.getElementById("zoomwrap"), zc = document.getElementById("zoomcanvas");
+
+const cache = new Map(), inflight = new Map();
+const dpr = window.devicePixelRatio || 1;
+
+function cssHeight() { return document.getElementById("stage").clientHeight - 20; }
+function renderPx()  { return Math.min(MAXPX, Math.round(cssHeight() * dpr * OVERSAMPLE)); }
+
+
+async function renderToCanvas(n, px) {
+  const pg = await doc.getPage(n);
+  const base = pg.getViewport({ scale: 1 });
+  const vp = pg.getViewport({ scale: px / base.height });
+  const c = document.createElement("canvas");
+  c.width = Math.ceil(vp.width); c.height = Math.ceil(vp.height);
+  await pg.render({ canvasContext: c.getContext("2d", { alpha:false }), viewport: vp }).promise;
+  return c;
+}
+
+function getPage(n, px) {
+  if (n < 1 || n > total) return Promise.resolve(null);
+  const key = n + "@" + px;
+  if (cache.has(key)) return Promise.resolve(cache.get(key));
+  if (inflight.has(key)) return inflight.get(key);
+  const p = renderToCanvas(n, px).then(c => {
+    cache.set(key, c); inflight.delete(key);
+    while (cache.size > 6) cache.delete(cache.keys().next().value);  // TV memory is tight
+    return c;
+  });
+  inflight.set(key, p);
+  return p;
+}
+
+function blit(canvas, src, pane) {
+  if (!src) { pane.classList.add("empty"); return; }
+  pane.classList.remove("empty");
+  canvas.width = src.width; canvas.height = src.height;      // full-res backing store
+  canvas.style.height = cssHeight() + "px";                  // CSS downscale = sharp
+  canvas.style.width = "auto";
+  canvas.getContext("2d", { alpha:false }).drawImage(src, 0, 0);
+}
+
+async function show() {
+  const px = renderPx();
+  label.textContent = `p. ${page}${page + 1 <= total ? "\u2013" + (page + 1) : ""} of ${total}`;
+  busy.classList.add("on");
+  const [a, b] = await Promise.all([getPage(page, px), getPage(page + 1, px)]);
+  blit(cL, a, paneL); blit(cR, b, paneR);
+  if (!b) sel = 0;
+  applySel();
+  busy.classList.remove("on");
+  for (let d = 2; d <= 1 + PRELOAD * 2; d++) {
+    const fwd = page + d, back = page - (d - 1);
+    if (fwd <= total) getPage(fwd, px);
+    if (back >= 1) getPage(back, px);
+  }
+}
+
+function applySel() {
+  paneL.classList.toggle("sel", sel === 0);
+  paneR.classList.toggle("sel", sel === 1 && !paneR.classList.contains("empty"));
+}
+
+function flip(delta) {
+  if (!doc) return;
+  const next = page + delta * 2;
+  if (next < 1 || next > total) return;
+  page = next;
+  history.replaceState(null, "", `?file=${encodeURIComponent(FILE)}&page=${page}`);
+  show();
+}
+
+async function enterZoom() {
+  if (!doc) return;
+  const target = Math.min(page + sel, total);
+  const pg = await doc.getPage(target);
+  const base = pg.getViewport({ scale: 1 });
+  const vp = pg.getViewport({ scale: MAXPX / base.height });   // native resolution
+  zc.width = Math.ceil(vp.width); zc.height = Math.ceil(vp.height);
+  busy.classList.add("on");
+  await pg.render({ canvasContext: zc.getContext("2d", { alpha:false }), viewport: vp }).promise;
+  busy.classList.remove("on");
+  const fitH = innerHeight - 44;                               // CSS size = fit-to-screen
+  const cssW = zc.width / zc.height * fitH;
+  zc.style.height = fitH + "px"; zc.style.width = cssW + "px";
+  zscale = 2;                                                  // then 2x on top of fit
+  zx = (innerWidth - cssW * zscale) / 2; zy = -(fitH * zscale - fitH) / 2;
+  applyZoom(); zoom = true; zwrap.classList.add("on");
+}
+function applyZoom() { zc.style.transform = `translate(${zx}px,${zy}px) scale(${zscale})`; }
+function exitZoom() { zoom = false; zwrap.classList.remove("on"); }
+
+const ZOOM_KEYS = new Set(["Enter","NumpadEnter","Select","Accept"," ","Spacebar","MediaPlayPause"]);
+const EXIT_KEYS = new Set(["Escape","Esc","Backspace","GoBack","BrowserBack"]);
+
+addEventListener("keydown", e => {
+  const k = e.key, kc = e.keyCode;
+  const RIGHT = k === "ArrowRight" || kc === 39;
+  const LEFT  = k === "ArrowLeft"  || kc === 37;
+  const UP    = k === "ArrowUp"    || kc === 38;
+  const DOWN  = k === "ArrowDown"  || kc === 40;
+  const OK    = ZOOM_KEYS.has(k) || kc === 13 || kc === 23 || kc === 32;
+  const BACK  = EXIT_KEYS.has(k) || kc === 27 || kc === 8 || kc === 4;
+
+  if (!zoom) {
+    if (RIGHT) {                                   // select right page, else next spread
+      if (sel === 0 && !paneR.classList.contains("empty")) { sel = 1; applySel(); }
+      else { sel = 0; flip(1); }
+      e.preventDefault();
+    } else if (LEFT) {                             // select left page, else previous spread
+      if (sel === 1) { sel = 0; applySel(); }
+      else { sel = 1; flip(-1); }
+      e.preventDefault();
+    } else if (OK) { enterZoom(); e.preventDefault(); }
+  } else {
+    const step = 140;
+    if (RIGHT) { zx -= step; applyZoom(); e.preventDefault(); }
+    else if (LEFT) { zx += step; applyZoom(); e.preventDefault(); }
+    else if (UP) { zy += step; applyZoom(); e.preventDefault(); }
+    else if (DOWN) { zy -= step; applyZoom(); e.preventDefault(); }
+    else if (BACK || OK) { exitZoom(); e.preventDefault(); }
+  }
+});
+
+addEventListener("resize", () => { cache.clear(); show(); });
+
+(async () => {
+  label.textContent = "loading PDF\u2026";  doc = await pdfjsLib.getDocument({ url: FILE, rangeChunkSize: 262144 }).promise;
+  total = doc.numPages;
+  if (page > total) page = 1;
+  show();
+})().catch(err => { label.textContent = "error: " + err.message; });
+</script>
+</body>
+</html>
