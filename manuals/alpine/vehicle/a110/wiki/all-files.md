@@ -28,4 +28,5 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/u3-supplement-steering-brakes.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110/wiki/u3-supplement-steering-brakes.md)
 - [wiki/u4-supplement-bodywork-paint.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110/wiki/u4-supplement-bodywork-paint.md)
 - [wiki/u5-supplement-special-tooling.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110/wiki/u5-supplement-special-tooling.md)
+- [alpine-a110.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110/alpine-a110.pdf)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110/data/manual-index.jsonl)

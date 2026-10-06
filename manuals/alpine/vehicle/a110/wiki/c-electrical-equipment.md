@@ -35,8 +35,7 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
 | 10 | **Fan motor — water radiator** | — | Rabotti 12 V, No 6000000631 | Rabotti 12 V, No 6000000631 |
 | | **Fan motor — oil radiator** | — | — | Rabotti 12 V, No 6000000631 |
 
-<!-- NEEDS REVIEW:
-(1) "DEMARRIER" is French "démarreur" = starter motor; "ALLUMER" is "allumeur" = distributor;
+<!-- NEEDS REVIEW:(1) "DEMARRIER" is French "démarreur" = starter motor; "ALLUMER" is "allumeur" = distributor;
     "BOUGIES" = spark plugs; "ALTERNATOR OR GENERATRICE" = alternator or dynamo;
     "PRESSURE TRANSMITTOR OIL (TRAMA)" = oil pressure transmitter/sender;
     "ELTRA THERMISTANCE" = thermistor sender; "MCTO VENTILATOR" = "moto-ventilateur" = fan
@@ -51,7 +50,8 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
     zero. Row 8 applies only to the 1600 S; rows 9/10 are blank for the 85 (which has a
     rear radiator cooled by an engine-driven fan — see B-13).
 (7) The 85 column groups "type R1190 / Great colds" under both the alternator and the
-    regulator; rendered as a separate "Fitted to" row above. -->
+    regulator; rendered as a separate "Fitted to" row above.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.72 · risk-if-guessed 0.39 · blocks-a-job 0.26 -->
 
 <a id="p28"></a>
 **[PDF p.28]**
@@ -75,8 +75,7 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
 | 23 | **Long-range lamps** | Iodine Cibium Ø 162 | Iodine Cibium Ø 162 | Iodine Cibium Ø 162 |
 | 24 | **Road horn** | DUCEL Tenor | DUCEL Tenor | DUCEL Tenor |
 
-<!-- NEEDS REVIEW:
-(1) "AMPEREMETTER OR VOLTO" is "ampèremètre ou voltmètre"; "WISE-VITER MOTOR" is
+<!-- NEEDS REVIEW:(1) "AMPEREMETTER OR VOLTO" is "ampèremètre ou voltmètre"; "WISE-VITER MOTOR" is
     "moteur essuie-glace" = windscreen wiper motor; "COMMODO ECLAIRAGE" is the lighting
     stalk switch; "ROAD PHARES" is "phares route" = main-beam headlamps;
     "LONG-RANGE PASSENGERS" is "phares longue portée" = long-range driving lamps;
@@ -92,7 +91,8 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
     = iodine (quartz-halogen) headlamps and fog lamps. Rendered above; verify.
 (5) "on versions Mills" (row 11, 1600 S) is untranslated and not recoverable.
 (6) "DUCEL I2V" in row 18 of the 1600 S column uses a capital I for the digit 1 — an OCR
-    artifact; the value is 12 V. -->
+    artifact; the value is 12 V.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.46 · blocks-a-job 0.42 -->
 
 <a id="p29"></a>
 **[PDF p.29]**
@@ -125,11 +125,12 @@ Title block as printed: **BERLINETTE A.110 Version 85 (série) — Câblage éle
 
 A two-code wire label such as `Rg/Ma` is a red wire with a brown tracer.
 
-<!-- NEEDS REVIEW: this colour key is transcribed from the diagram's own printed legend and
+<!-- NEEDS REVIEW:this colour key is transcribed from the diagram's own printed legend and
 is the one part of p.29 that survives as text. The rest of the diagram — component labels,
 connector positions, circuit routing — is NOT transcribed and must be read from the image
 or the source PDF p.29. Note the diagram is captioned "Version 85" only: no wiring diagram
-for the 1300 G, 1300 S or 1600 S appears in this scan. See 10-needs-review.md. -->
+for the 1300 G, 1300 S or 1600 S appears in this scan. See 10-needs-review.md.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.92 · risk-if-guessed 0.60 · blocks-a-job 0.72 -->
 
 ---
 

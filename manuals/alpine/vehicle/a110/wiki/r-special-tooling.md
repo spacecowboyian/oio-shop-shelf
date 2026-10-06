@@ -15,7 +15,7 @@ Section **R**, source PDF pages 58–60, manual page **R-1**.
 > other than those necessary for the repair of RENAULT vehicles of the Renault 8, 10 and 16
 > ranges are essential for the repair of ALPINE type A 110 vehicles.
 
-<!-- NEEDS REVIEW: "candle key" is French "clé à bougies" = spark-plug wrench. The part
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"candle key" is French "clé à bougies" = spark-plug wrench. The part
 number 6000001258 is printed without spaces here; the update supplement's own tooling table
 prints the same tool as "60 00 001 258" — see
 [u5-supplement-special-tooling.md](u5-supplement-special-tooling.md). Same number,
@@ -42,12 +42,14 @@ The table was never filled in on this copy. The amendments that would have been 
 were instead issued as the bound supplement — see
 [u1-supplement-general-engine-electrical.md](u1-supplement-general-engine-electrical.md).
 
-<!-- NEEDS REVIEW: the third column header prints "JT" — probably an OCR reading of a French
-abbreviation; not recoverable. The table body is genuinely empty on the page image. -->
+<!-- NEEDS REVIEW:the third column header prints "JT" — probably an OCR reading of a French
+abbreviation; not recoverable. The table body is genuinely empty on the page image.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.16 · blocks-a-job 0.15 -->
 
 ## Missing pages in this scan
 
-<!-- NEEDS REVIEW: ABRIDGED SCAN — section R is a single page (R-1) in this scan. The supplement's own Chapter R tooling table (PDF p.83) is much longer, which suggests the original R section may have had more pages. -->
+<!-- NEEDS REVIEW:ABRIDGED SCAN — section R is a single page (R-1) in this scan. The supplement's own Chapter R tooling table (PDF p.83) is much longer, which suggests the original R section may have had more pages.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.96 · risk-if-guessed 0.46 · blocks-a-job 0.26 -->
 
 See [10-needs-review.md](10-needs-review.md) and [../README.md](../README.md).
 

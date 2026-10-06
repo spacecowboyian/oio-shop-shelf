@@ -44,8 +44,7 @@ a need to provide a crossmember with welded threaded ends.
 The aim of all these changes is to ensure the rigidity of the rear end, and hence improve
 the stability of the vehicle at high speed.
 
-<!-- NEEDS REVIEW:
-(1) "holds" throughout is French "cales" = shims — confirmed by the untranslated "Cales" in
+<!-- NEEDS REVIEW:(1) "holds" throughout is French "cales" = shims — confirmed by the untranslated "Cales" in
     the 6 mm note. The 12 mm, 23 mm and 6 mm values are legible on the page image and are
     unchanged.
 (2) "Laying a pull between clutches and cross" is "pose d'un tirant entre carter
@@ -56,7 +55,8 @@ the stability of the vehicle at high speed.
     the evident sense but is NOT certain.
 (4) "Side pads in hard c/c" is "tampons latéraux type dur"; "c/c" is not recoverable.
 (5) "to obtain a bodywork negative" is "carrossage négatif" = negative camber — "bodywork"
-    here is the translation reading "carrossage" as "carrosserie". -->
+    here is the translation reading "carrossage" as "carrosserie".
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.58 · blocks-a-job 0.39 -->
 
 <a id="p46"></a>
 **[PDF p.46]**
@@ -70,17 +70,19 @@ is therefore **no need to act on the eccentric** to obtain toe-in or toe-out at 
 wheels. On the other hand it is recommended to **check the alignment of the powertrain
 relative to the chassis**.
 
-<!-- NEEDS REVIEW: "The rocket tubes are mounted without any contraindications" is French
+<!-- NEEDS REVIEW:"The rocket tubes are mounted without any contraindications" is French
 "les tubes de fusée sont montés sans aucun réglage" — "fusée" is the stub axle, not a
 rocket; "contraindications" renders a French word for adjustment/provision that is not
 recoverable, so the reading above is from context. "a pinch or an opening of the AR wheels"
 is "pincement ou ouverture" = toe-in or toe-out. The heading prints "DEPOSITED - REMISSION
 IN STATE - REPOSITED FROM / TRAIN AR OR ALTERNATION OF ITS / ELEMENTS" = "dépose, remise en
-état, repose du train AR ou remplacement de ses éléments". -->
+état, repose du train AR ou remplacement de ses éléments".
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.96 · risk-if-guessed 0.39 · blocks-a-job 0.21 -->
 
 ## Missing pages in this scan
 
-<!-- NEEDS REVIEW: ABRIDGED SCAN — page J-1 is MISSING from this scan. PDF p.45 is the unnumbered section divider plate and PDF p.46 is already J-2. -->
+<!-- NEEDS REVIEW:ABRIDGED SCAN — page J-1 is MISSING from this scan. PDF p.45 is the unnumbered section divider plate and PDF p.46 is already J-2.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.92 · risk-if-guessed 0.44 · blocks-a-job 0.30 -->
 
 See [10-needs-review.md](10-needs-review.md) and [../README.md](../README.md).
 

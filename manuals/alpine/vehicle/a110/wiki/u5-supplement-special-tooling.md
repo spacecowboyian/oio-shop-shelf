@@ -33,8 +33,7 @@ Suppliers, as printed:
 | AVDEL | 66, rue David d'Angers, 75 — Paris 19e |
 | Charles MAIRE | 42, rue E. Bouté, 91 — Ris-Orangis |
 
-<!-- NEEDS REVIEW:
-(1) The Jack-Nut clamp is listed here as "IT 1956" but as "TI 1956" on supplement p.20 — the
+<!-- NEEDS REVIEW:(1) The Jack-Nut clamp is listed here as "IT 1956" but as "TI 1956" on supplement p.20 — the
     two DISAGREE. Both transcribed; see
     [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md#b-jack-nut-nuts).
 (2) The spark-plug wrench is "60 00 001 258" here and "6000001258" on manual page R-1 — same
@@ -44,7 +43,8 @@ Suppliers, as printed:
     "cales" = mounts/shims (as elsewhere in this manual); "Ch. Mayor" is Charles Maire.
 (5) Addresses are restored to their French forms as place names only ("Dunkirk Street" →
     rue de Dunkerque, "THE GARENNE-COLOMBES" → La Garenne-Colombes, "42 E. Bouté Street" →
-    42 rue E. Bouté). No reference number was changed. -->
+    42 rue E. Bouté). No reference number was changed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.95 · risk-if-guessed 0.69 · blocks-a-job 0.30 -->
 
 <a id="p84"></a>
 **[PDF p.84]**
@@ -78,7 +78,7 @@ Sheet 3's note, as far as it can be read:
 > "THE MEASUREMENT IS MADE ON THE CENTRE OF THE … OF THE PIECE … THE MEASUREMENT ON THE
 > CENTRE OF … DEPOSITED …"
 
-<!-- NEEDS REVIEW: everything in this section is fragmentary.
+<!-- NEEDS REVIEW:everything in this section is fragmentary.
 (1) Sheet 1's "20-11-90" looks like a date but 1990 is twenty years after this manual — it
     is more likely a drawing number or a damaged "20-11-70". Left as printed.
 (2) Sheet 2's "Kmm 45:0.2" uses the same ":" for ± seen throughout this scan, so it is
@@ -94,7 +94,8 @@ Sheet 3's note, as far as it can be read:
     treated as unreadable.
 Anyone making these tools must work from the source PDF pp.84-87, or better, from the
 original ALPINE plans 05-11-02 to 05-11-07 cited in
-[u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md). -->
+[u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md).
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.88 · blocks-a-job 0.64 -->
 
 ---
 

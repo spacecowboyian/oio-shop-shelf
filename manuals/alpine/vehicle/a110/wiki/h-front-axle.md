@@ -26,7 +26,7 @@ Deformable transverse quadrilateral (double wishbone), using the same elements a
 However, the positioning of the lower wishbone on the crossmember is modified in order to
 obtain **negative camber**: the fastening points are moved **9 mm outwards**.
 
-<!-- NEEDS REVIEW: "Rocket door" is French "porte-fusée" = stub axle carrier / upright
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"Rocket door" is French "porte-fusée" = stub axle carrier / upright
 ("fusée" is the stub axle, not a rocket). "a nega-tif" is "carrossage négatif" = negative
 camber, split across a line break in the translation. -->
 
@@ -93,7 +93,7 @@ With a **Facom 470** device or **BEM** optical device.
 within a tolerance of **1°** — preferably obtaining the higher value on the right-hand (D)
 side.
 
-<!-- NEEDS REVIEW: "the sail of the rims" is "le voile des jantes" = rim run-out/wobble;
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"the sail of the rims" is "le voile des jantes" = rim run-out/wobble;
 "Articulation games" is "jeux des articulations" = play in the joints; "must be ega-" is
 "égalisées" = equalised, truncated on the page; "(pre- we'll try to get the value the
 highest on side D)" is "(de préférence on cherchera à obtenir la valeur la plus élevée du
@@ -122,13 +122,14 @@ position such that the variation of toe between the mid-load and high positions 
 moves towards a **decrease of toe-out, from 0 to 2 mm per half-axle** (front toe-in under
 these conditions).
 
-<!-- NEEDS REVIEW: "interax" is French "entraxe" = centre distance; "rudder" is "biellettes"
+<!-- NEEDS REVIEW:"interax" is French "entraxe" = centre distance; "rudder" is "biellettes"
 or "leviers de direction" — the exact component is not recoverable, rendered as "steering
 arms" from context; "rack bits" is "les embouts de crémaillère" = rack ends.
 The three part numbers are transcribed digit-for-digit from the page image; note the
 standard support is numbered 6000000557 (10 digits) while the other two are 6000000351 and
 6000001352 — the inconsistency is as printed. These part numbers match the H = 55/56/57 mm
-supports described on G-1. -->
+supports described on G-1.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.83 · risk-if-guessed 0.56 · blocks-a-job 0.26 -->
 
 <a id="p42"></a>
 ### 2) Checks and settings
@@ -191,9 +192,10 @@ supports described on G-1. -->
 
 See **MR 68** or **MR 131**.
 
-<!-- NEEDS REVIEW: the heading prints "DEPOSITED - STATE REMISSION - REPCSE / FOREIGN
+<!-- NEEDS REVIEW:the heading prints "DEPOSITED - STATE REMISSION - REPCSE / FOREIGN
 TRAIN" — French "dépose, remise en état, repose / train avant" = removal, overhaul,
-refitting / front axle. -->
+refitting / front axle.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: needs_french_original · leaves-undecided 0.95 · risk-if-guessed 0.69 · blocks-a-job 0.52 -->
 
 ---
 

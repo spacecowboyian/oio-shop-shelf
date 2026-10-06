@@ -41,7 +41,7 @@ Section **B**, source PDF pages 10–25, manual pages **B-2** to **B-16**.
 | Recommended speed (t/min) | 6300 | 6750 | 7000 | 6000 | 6500 |
 | Maximum speed (t/min) | 6500 | 7000 | 7500 | 6250 | 7000 |
 
-<!-- NEEDS REVIEW: the "Engine type" row prints the VERSION name ("1300 S", "1600 GS") in
+<!-- NEEDS REVIEW:the "Engine type" row prints the VERSION name ("1300 S", "1600 GS") in
 two columns where the others give an engine number — kept exactly as printed. Note also
 "812-000" (three zeros) here against "812-00" on page A-2; both left as printed.
 The second timing row is printed "FRG"; in a French manual the sequence is AOA / RFA / AOE
@@ -50,7 +50,8 @@ The second timing row is printed "FRG"; in a French manual the sequence is AOA /
 unchanged.
 "Ch" is French "chevaux" (SAE horsepower as printed); "t/min" is tours/minute = rpm.
 Torque values print a trailing stray letter ("10.5 d", "11.9 a", "12.4 to") — an artifact of
-"à" (at); the numbers are unchanged. -->
+"à" (at); the numbers are unchanged.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.59 · risk-if-guessed 0.44 · blocks-a-job 0.15 -->
 
 <a id="p11"></a>
 **[PDF p.11]**
@@ -86,14 +87,15 @@ By rectangular plate on the unit (RENAULT plate or ALPINE plate).
 - ALPINE camshaft.
 - Clutch type R. 1135 with Estafette-type flywheel No **8331975** for graphite release stops.
 
-<!-- NEEDS REVIEW: "ALPINE scumbags" is an untranslated/garbled machine-translation of some
+<!-- NEEDS REVIEW:"ALPINE scumbags" is an untranslated/garbled machine-translation of some
 French part name; the page image shows the same words, so the source word cannot be
 recovered from this copy. Left as printed — do not guess. It recurs on B-3 as "ALPINE
 aluminium scumbags".
 "with type steering wheel Estafette No 8331975" — French "volant" means FLYWHEEL, not
 steering wheel; rendered as flywheel above. The part number is unchanged.
 "rectification (2.6 mm) of the plane joint" is machining of the head joint face by 2.6 mm —
-value unchanged. -->
+value unchanged.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: needs_french_original · leaves-undecided 0.92 · risk-if-guessed 0.55 · blocks-a-job 0.46 -->
 
 <a id="p11"></a>
 ### (b) Type 812-00, identical to the RENAULT 8 G engine
@@ -118,9 +120,10 @@ value unchanged. -->
   rectification for intake valves Ø **35 mm**; rectification of **4/10th** for intake valves
   Ø **38,5 mm**.
 
-<!-- NEEDS REVIEW: "Bone joint" is an untranslated French term, unrecoverable from this copy.
+<!-- NEEDS REVIEW:"Bone joint" is an untranslated French term, unrecoverable from this copy.
 "5/10th" and "4/10th" are French shorthand for 0.5 mm and 0.4 mm; left in the printed form.
-"1,2 mm" and "38,5 mm" keep their French decimal commas as printed. -->
+"1,2 mm" and "38,5 mm" keep their French decimal commas as printed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: needs_french_original · leaves-undecided 0.95 · risk-if-guessed 0.76 · blocks-a-job 0.59 -->
 
 <a id="p11"></a>
 ### (d) Type 807-25, derived from 807-01 of R. 1151
@@ -143,10 +146,11 @@ This engine is delivered prepared by the R.N.U.R. to the following specification
 - **WEBER 45 DCOE** carburettor.
 - ALPINE aluminium oil sump with re-cut pickup-strainer height.
 
-<!-- NEEDS REVIEW: "Cultivators (heat treatment different)" is French "culbuteurs" = rocker
+<!-- NEEDS REVIEW:"Cultivators (heat treatment different)" is French "culbuteurs" = rocker
 arms; "crepine" is the oil pickup strainer; "Pion of additional centering" is "pion de
 centrage" = centring dowel. Wording restored, values unchanged. "Special ass." is printed
-truncated and is not recoverable. -->
+truncated and is not recoverable.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.93 · risk-if-guessed 0.47 · blocks-a-job 0.31 -->
 
 <a id="p11"></a>
 ### Option 1600 GS, derived from 807-25
@@ -208,10 +212,11 @@ condition before connecting.
 Operate in the reverse order of removal. Replenish the oil and water. Bleed the brake
 system. Check the engine alignment relative to the longitudinal axis of the vehicle.
 
-<!-- NEEDS REVIEW: these procedures are translated loosely ("Unburst the cross-section
+<!-- NEEDS REVIEW:these procedures are translated loosely ("Unburst the cross-section
 support box chassis speeds", "Unroll the mo- the chassis", "Operate contrary to filing").
 The step sequence and every number are as printed; the English has been made readable.
-Verify step 3/5 wording against the French original before relying on it. -->
+Verify step 3/5 wording against the French original before relying on it.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: needs_french_original · leaves-undecided 0.96 · risk-if-guessed 0.71 · blocks-a-job 0.39 -->
 
 <a id="p15"></a>
 **[PDF p.15]**
@@ -266,13 +271,14 @@ Verify step 3/5 wording against the French original before relying on it. -->
 | Intake | 1.1 to 1.4 | 1.7 | 1,7 | 1.5 to 1.8 | 1.5 to 1.8 |
 | Exhaust | 1.4 to 1.7 | 1.5 | 1,5 | 1.7 to 2 | 1.7 to 2 |
 
-<!-- NEEDS REVIEW: the table heading prints "SOUPAPED STEELS" and the two rows "Admission" /
+<!-- NEEDS REVIEW:the table heading prints "SOUPAPED STEELS" and the two rows "Admission" /
 "Stimulation". "Width of litters" is French "largeur des sièges" = seat width (sièges =
 seats, machine-translated as "litters"); the second row is read as Exhaust because it pairs
 with Admission exactly as every other intake/exhaust pair in this chapter does — but the
 printed word is "Stimulation", so verify. "Repair with 1/2 throat" is "gorge" = groove.
 The 807-25 exhaust cell OCRs with a leading "?" ("?1.7 to 2"); the page image shows
-"1.7 to 2". -->
+"1.7 to 2".
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.79 · risk-if-guessed 0.41 · blocks-a-job 0.17 -->
 
 <a id="p16"></a>
 **[PDF p.16]**
@@ -292,7 +298,7 @@ The 807-25 exhaust cell OCRs with a leading "?" ("?1.7 to 2"); the page image sh
 | Valve lift, intake (mm) | 8.4 | 8.94 | 10.2 | 10,1 | 10.1 |
 | Valve lift, exhaust (mm) | 8.4 | 8.43 | 10 | 10,1 | 10.1 |
 
-<!-- NEEDS REVIEW: "Diameter of tail" is "diamètre de queue" = stem diameter; "Angle of
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"Diameter of tail" is "diamètre de queue" = stem diameter; "Angle of
 range" is "angle de portée" = seat angle; "Lifting valves" is "levée des soupapes" = valve
 lift. 807-25 lift prints French commas ("10,1"); left as printed. -->
 
@@ -312,13 +318,14 @@ lift. 807-25 lift prints French commas ("10,1"); left as printed. -->
 | Inner diameter, outer spring (mm) | 21.6 | 24.4 | 24.4 | 27.6 | 27.6 |
 | Inner diameter, inner spring (mm) | 12 | 17.3 | 17.3 | 19.8 | 19.8 |
 
-<!-- NEEDS REVIEW: the 812-000 free lengths print with a leading hash ("# 43", "# 41,2") —
+<!-- NEEDS REVIEW:the 812-000 free lengths print with a leading hash ("# 43", "# 41,2") —
 a scan artifact; the numbers are as shown. The 1600 GS outer-spring figure OCRs as
 "22 7 sub" and the inner as ".16.7 under"; the page image reads 22,7 and 16.7. The 1300 S
 inner-spring inner diameter OCRs as "? 17.3". "Domestic spring" is "ressort intérieur" =
 inner spring; "Yarn diameter" is "diamètre du fil" = wire diameter; "Decrease in length
 under load" is "diminution de longueur sous charge". "sub"/"under" both render French
-"sous". -->
+"sous".
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.27 · risk-if-guessed 0.33 · blocks-a-job 0.15 -->
 
 <a id="p16"></a>
 ### Rocker bearing surfaces and pushrods
@@ -331,11 +338,12 @@ under load" is "diminution de longueur sous charge". "sub"/"under" both render F
 | Pushrod length, exhaust (mm) | 176 | 189 | 189 | 105.5 | 105.5 |
 | Pushrod diameter (mm) | 5 | 5.5 | 5.5 | — | — |
 
-<!-- NEEDS REVIEW: the printed headings are "CULBUTOR POWERS" (French "portées de
+<!-- NEEDS REVIEW:the printed headings are "CULBUTOR POWERS" (French "portées de
 culbuteurs" = rocker bearing surfaces) and "IIGE OF CULBURIERS" ("tiges de culbuteurs" =
 pushrods). The 807-25 / 1600 GS pushrod-diameter cells are blank on the page; "—" means
 not printed. Note the 85's intake and exhaust pushrods are the same length while the
-others differ — as printed. -->
+others differ — as printed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.81 · risk-if-guessed 0.55 · blocks-a-job 0.43 -->
 
 <a id="p17"></a>
 **[PDF p.17]**
@@ -396,14 +404,15 @@ Depending on use (competition) it is recommended to replace **all exhaust valves
 | Liner protrusion (mm) | 0.04 to 0.11 | 0.05 to 0.12 | 0.15 to 0.20 | 0,10 to 0.15 | 0,10 to 0.15 |
 | Inside Ø (mm) | 73 | 74.5 | 75.7 | 77 | 77.80 |
 
-<!-- NEEDS REVIEW: the gasket rows are labelled only "Blue gasket thickness / Red / Green"
+<!-- NEEDS REVIEW:the gasket rows are labelled only "Blue gasket thickness / Red / Green"
 on the page, and the 1300 S column prints FOUR values (0.05, 0.07, 0.10, 0.12) against
 three colour labels — so the fourth value's colour is not stated. The 1300 G column prints
 only two (0.07, 0.09). Rendered exactly as counted from the page image; "—" means no value
 printed, not zero. The 85 red cell OCRs as "? 0.10".
 "Exceeding shirts" is French "dépassement des chemises" = liner protrusion above the block
 face — a value you set with these shim gaskets, so getting the colour mapping right matters.
-Verify against the source PDF p.18. -->
+Verify against the source PDF p.18.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.85 · blocks-a-job 0.67 -->
 
 <a id="p18"></a>
 ### (b) Pistons
@@ -414,11 +423,12 @@ Marked with an arrow on the (engine) flywheel side.
 | --- | --- | --- | --- | --- | --- |
 | | Flat | Domed with flats | Domed with flats | Domed with flats | Domed with flats |
 
-<!-- NEEDS REVIEW: "Remarked with an arrow on the steering motor" is French "repéré par une
+<!-- NEEDS REVIEW:"Remarked with an arrow on the steering motor" is French "repéré par une
 flèche" plus a direction word the translation garbled — the orientation reference is not
 recoverable from this copy. Do not rely on the "flywheel side" reading above; check the
 source PDF p.18. "Plate" is "plat" = flat; "Bomb with flats" is "bombé avec méplats" =
-domed with flats. -->
+domed with flats.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.81 · blocks-a-job 0.63 -->
 
 <a id="p19"></a>
 **[PDF p.19]**
@@ -432,9 +442,10 @@ domed with flats. -->
 | --- | --- | --- | --- | --- |
 | Tight in the rod and free in the piston | Free in the rod and the piston | Free in the rod and the piston | Free in the rod and the piston | Free in the rod and the piston |
 
-<!-- NEEDS REVIEW: the 1300 G / 1300 S / 1600 S / 1600 GS cells print "Free in the / and the
+<!-- NEEDS REVIEW:the 1300 G / 1300 S / 1600 S / 1600 GS cells print "Free in the / and the
 / piston" — the word "bielle" (rod) was dropped by the translation in all four. The 85 cell
-prints "Hard in the biel and free in the piston". Read as above; verify. -->
+prints "Hard in the biel and free in the piston". Read as above; verify.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.96 · risk-if-guessed 0.54 · blocks-a-job 0.34 -->
 
 <a id="p19"></a>
 ### (d) Connecting rods (*bielles*)
@@ -460,12 +471,13 @@ Each rod carries a boss on one side that fixes its orientation. The rods of **cy
 and 3** are fitted the same way round, working side towards the timing gear. **Cylinders 2
 and 4** likewise, working side towards the steering side.
 
-<!-- NEEDS REVIEW: "on the side of the decal- / This is a job that allows for its
+<!-- NEEDS REVIEW:"on the side of the decal- / This is a job that allows for its
 orientation" is a broken translation of a French sentence naming the identifying boss;
 "working side distribute" is "côté travail: distribution" (timing side) and "working on the
 steering side" is "côté direction". In a rear-engined car "côté direction" is unusual and
 may be a mistranslation of "côté volant" (flywheel side). Do NOT fit rods on this reading
-alone — check the source PDF p.19 and its figures. -->
+alone — check the source PDF p.19 and its figures.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.86 · blocks-a-job 0.68 -->
 
 <a id="p20"></a>
 **[PDF p.20]**
@@ -503,9 +515,10 @@ Similar in all respects to the timing of the original RENAULT engines.
 | --- | --- | --- | --- | --- | --- |
 | | 0.06 to 0.11 | 0.06 to 0.11 | 0.06 to 0.11 | 0.05 to 0.12 | 0.05 to 0.12 |
 
-<!-- NEEDS REVIEW: printed "Side game of the tree with cams in mm" — French "jeu latéral de
+<!-- NEEDS REVIEW:printed "Side game of the tree with cams in mm" — French "jeu latéral de
 l'arbre à cames" = camshaft end float. The 1600 GS column prints the two values on separate
-lines without a "to"; read as 0.05 to 0.12 to match the 1600 S column. -->
+lines without a "to"; read as 0.05 to 0.12 to match the 1600 S column.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.78 · risk-if-guessed 0.27 · blocks-a-job 0.15 -->
 
 <a id="p21"></a>
 **[PDF p.21]**
@@ -530,10 +543,11 @@ by the water-pump fan.
 
 > **NOTE:** No additives are recommended either in the oil or in the petrol.
 
-<!-- NEEDS REVIEW: the oil-pressure rows print NO unit on the page — on a French manual of
+<!-- NEEDS REVIEW:the oil-pressure rows print NO unit on the page — on a French manual of
 this date these are almost certainly kg/cm2 (≈ bar), but that is not stated, so no unit is
 asserted here. "Periodicity of discharges" is "périodicité des vidanges" = oil change
-interval. The 1300 G oil cell OCRs as "EIFs" (Elf). -->
+interval. The 1300 G oil cell OCRs as "EIFs" (Elf).
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.79 · risk-if-guessed 0.61 · blocks-a-job 0.22 -->
 
 <a id="p21"></a>
 **[PDF p.21]**
@@ -558,10 +572,11 @@ replaces the expansion tank.
 **Thermostat.** Depending on the outside temperature and use, pierced with **1 to 4 holes**
 of additional bleed of Ø **4.5** (winter- or summer-type thermostat).
 
-<!-- NEEDS REVIEW: the hole count OCRs as "from I to 4 holes"; the page image shows "1 to 4".
+<!-- NEEDS REVIEW:the hole count OCRs as "from I to 4 holes"; the page image shows "1 to 4".
 "waterproof circuit and expansion vase" is "circuit étanche et vase d'expansion" = sealed
 circuit and expansion tank; "water box" is "boîte à eau" = header tank. "Ø 4.5" has no unit
-printed; mm is implied but not stated. -->
+printed; mm is implied but not stated.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.65 · risk-if-guessed 0.66 · blocks-a-job 0.28 -->
 
 <a id="p22"></a>
 **[PDF p.22]**
@@ -589,7 +604,7 @@ For float level and stroke adjustment see the carburettor chapter of **MR 96**.
 > **CAUTION (1600 S / 1600 GS):** never remove the mechanical petrol pump when using an
 > electric pump.
 
-<!-- NEEDS REVIEW: the "85" column is split into two sub-columns on the page (the Weber 32
+<!-- NEEDS REVIEW:the "85" column is split into two sub-columns on the page (the Weber 32
 DIR 4 is a twin-barrel carburettor, printed "body 28 body"); its float and filter rows span
 both, rendered as merged cells above. Blank cells shown as "—" are not printed on the page,
 not zero.
@@ -599,7 +614,8 @@ jet; Inj. = pump/injector jet; "Nozzle" = buse = venturi/choke.
 "(26g out of 14)" and "(8.5 out of 14)" are the translation's rendering of a French
 parenthetical about DCOE type 14 — read as "26 g on the 14", but not certain.
 "A. 8 Lautette with Cobra's head" is an untranslated/garbled French filter description and
-is not recoverable from this copy — left as printed. -->
+is not recoverable from this copy — left as printed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.64 · blocks-a-job 0.34 -->
 
 <a id="p24"></a>
 **[PDF p.24]**
@@ -625,14 +641,15 @@ is not recoverable from this copy — left as printed. -->
 > distributor **4266**, a notch must be re-cut on the distributor body to orient the
 > distributor head to the engine.
 
-<!-- NEEDS REVIEW: the two spark-plug rows are labelled only "Candles — Normal" and
+<!-- NEEDS REVIEW:the two spark-plug rows are labelled only "Candles — Normal" and
 "Circuit" on the page, and the cells do not line up cleanly with those two rows in every
 column (the 85 column prints three entries, the 1300 S column leaves the middle blank).
 The split above is the most consistent reading of the page image but is NOT certain —
 check the source PDF p.24 before buying plugs.
 "Candles" is French "bougies" = spark plugs; "lighter"/"allowers" is "allumeur" =
 distributor; "March" is Marchal. "Ducellier-to-Ducellier taking turns account" is a garbled
-rendering of the French row label naming the Ducellier distributor part number. -->
+rendering of the French row label naming the Ducellier distributor part number.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.73 · blocks-a-job 0.49 -->
 
 <a id="p24"></a>
 ### B-16 — Centrifugal advance curves
@@ -658,7 +675,8 @@ lines), not a single curve; no band values are transcribed here. -->
 
 ## Missing pages in this scan
 
-<!-- NEEDS REVIEW: ABRIDGED SCAN — page B-1 is MISSING from this scan. PDF p.10 is the unnumbered section divider plate and PDF p.11 is already B-2, so one numbered page is absent. Section B otherwise runs B-2 to B-16 unbroken. This is a property of the source scan and cannot be fixed by this conversion. -->
+<!-- NEEDS REVIEW:ABRIDGED SCAN — page B-1 is MISSING from this scan. PDF p.10 is the unnumbered section divider plate and PDF p.11 is already B-2, so one numbered page is absent. Section B otherwise runs B-2 to B-16 unbroken. This is a property of the source scan and cannot be fixed by this conversion.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.98 · risk-if-guessed 0.76 · blocks-a-job 0.44 -->
 
 See [10-needs-review.md](10-needs-review.md) and [../README.md](../README.md).
 

@@ -22,7 +22,7 @@ Example as printed: **Type 353-03**.
 The page carries an external view of the gearbox and a **longitudinal section of gearbox
 353**.
 
-<!-- NEEDS REVIEW: "BOX OF VITSES" is French "boîte de vitesses" = gearbox; "brication" is a
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"BOX OF VITSES" is French "boîte de vitesses" = gearbox; "brication" is a
 truncated "fabrication"; "Carver" is "carter" = casing/housing; "LONGITUDINAL CCUPE" is
 "coupe longitudinale" = longitudinal section. No values on this page. -->
 
@@ -60,7 +60,7 @@ truncated "fabrication"; "Carver" is "carter" = casing/housing; "LONGITUDINAL CC
 | 364-01 | 5 "rallye" | 8×27, *différentiel renforcé*, *carter emb. Rt 16* | 7701452792 / 7701452793 | *Diffère de 353 par couple, rapports, carter embrayage type Rt 16, différentiel renforcé, arbre d'embrayage. Option sur 1600 S et 1600 (GS)* |
 | 364-06 | 5 (normal) | 8×27, *différentiel renforcé*, *carter emb. Rt 16* | 7701507158 | *Diffère de 353 par couple, rapports, carter embrayage type Rt 16, différentiel renforcé, arbre d'embrayage. En série sur 1600 GS, en option sur 1600 S* |
 
-<!-- NEEDS REVIEW: this table is transcribed from the FRENCH column of the page images.
+<!-- NEEDS REVIEW:this table is transcribed from the FRENCH column of the page images.
 (1) Several descriptions are cut off at the right-hand edge where the English overlay
     begins; those are shown ending with "…". Words shown in brackets or marked (?) were
     inferred from partial letters.
@@ -76,7 +76,8 @@ truncated "fabrication"; "Carver" is "carter" = casing/housing; "LONGITUDINAL CC
     ratio sets such as "3,62 / 2,50 / 1,91 / 1,48 / 1,03" (353-11) and
     "3,62 / 2,36 / 1,69 / 1,29 / 1,03" (353-13 / 364-06) — these are NOT reliable, because
     the column each belongs to cannot be determined under the overlay. Read them from the
-    source PDF pp.35–36 before using them. -->
+    source PDF pp.35–36 before using them.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.76 · blocks-a-job 0.54 -->
 
 <a id="p37"></a>
 **[PDF p.37]**
@@ -91,10 +92,11 @@ the rear.
 
 > **NOTE:** There is an optional **"Hewland" self-locking differential**, competition only.
 
-<!-- NEEDS REVIEW: "Tachymeter training is done by a square" is French "l'entraînement du
+<!-- NEEDS REVIEW:"Tachymeter training is done by a square" is French "l'entraînement du
 tachymètre se fait par carré" = the speedometer/tachometer drive is a square drive;
 "self-locking bridge" is "pont autobloquant" = limited-slip / self-locking differential
-("pont" = axle/final drive, not bridge). -->
+("pont" = axle/final drive, not bridge).
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.91 · risk-if-guessed 0.53 · blocks-a-job 0.48 -->
 
 <a id="p37"></a>
 ### Removing and refitting the gearbox
@@ -108,10 +110,11 @@ range.
 > **NOTE:** When refitting, do not omit to pull up the mounts between the side pads and the
 > central box and crossmember.
 
-<!-- NEEDS REVIEW: "DEPOSITED AND REPOSED BY THE B.V." is "dépose et repose de la B.V."
+<!-- NEEDS REVIEW:"DEPOSITED AND REPOSED BY THE B.V." is "dépose et repose de la B.V."
 (boîte de vitesses) = gearbox removal and refitting; "When rewinding" is "au remontage" =
 on reassembly; "the holds" is "les cales" or "les attaches" — the exact fastening named is
-not recoverable. Verify step wording against the source PDF p.37. -->
+not recoverable. Verify step wording against the source PDF p.37.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.61 · blocks-a-job 0.45 -->
 
 <a id="p37"></a>
 ### Gearbox adjustment
@@ -122,11 +125,12 @@ The procedure and the setting values remain the same as those of boxes **330-00*
 - For boxes **330-06** and **330-08** refer to **MR. 131**.
 - Boxes **353** and **364** refer to **MR 133 (R 1135)**.
 
-<!-- NEEDS REVIEW: the heading is printed "STRENGTHENING OF THE CITY OF VITSES" — a machine
+<!-- NEEDS REVIEW:the heading is printed "STRENGTHENING OF THE CITY OF VITSES" — a machine
 translation of a French heading about the boîte de vitesses whose first word is not
 recoverable ("réglage" = adjustment is the reading that fits the body text, but it is a
 guess and is flagged as such). "Conical distance" is "distance conique" = the crown-wheel /
-pinion cone setting distance. -->
+pinion cone setting distance.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.63 · blocks-a-job 0.47 -->
 
 <a id="p37"></a>
 ### Replacing the gear linkage
@@ -139,14 +143,16 @@ pinion cone setting distance. -->
 > If the rod is difficult to release, unbolt the rear engine mounting so as to raise the
 > nose of the gearbox.
 
-<!-- NEEDS REVIEW: the heading is printed "REPLACEMENT OF THE VITES AND LEVEL CONTROL
+<!-- NEEDS REVIEW:the heading is printed "REPLACEMENT OF THE VITES AND LEVEL CONTROL
 BREAKDOWN." and the sub-heading "VITSES" — French "vitesses"; the full heading is not
 recoverable (it probably covers the gear-change linkage and the oil level check, but the
-page gives no level-check text). Steps above are the readable procedure only. -->
+page gives no level-check text). Steps above are the readable procedure only.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.37 · blocks-a-job 0.30 -->
 
 ## Missing pages in this scan
 
-<!-- NEEDS REVIEW: ABRIDGED SCAN — section E ends at E-4 in this scan. Pages E-2 and E-3 are present but illegible (see above), so of the four pages only E-1 and E-4 are usable as text. -->
+<!-- NEEDS REVIEW:ABRIDGED SCAN — section E ends at E-4 in this scan. Pages E-2 and E-3 are present but illegible (see above), so of the four pages only E-1 and E-4 are usable as text.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.96 · risk-if-guessed 0.74 · blocks-a-job 0.65 -->
 
 See [10-needs-review.md](10-needs-review.md) and [../README.md](../README.md).
 

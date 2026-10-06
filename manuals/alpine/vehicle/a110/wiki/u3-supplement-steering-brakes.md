@@ -23,7 +23,7 @@ block** (PR 871 plates **61-01** and **61-05**).
 
 Electrical circuit diagram boards are planned.
 
-<!-- NEEDS REVIEW: the three chassis numbers (11912, 12249, 16951) are legible. Note 12249
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):the three chassis numbers (11912, 12249, 16951) are legible. Note 12249
 is the same vehicle number given in the Chapter B ignition amendment for the version 85.
 "Plan electrical circuit diagram boards" is "planches schémas de circuits électriques
 prévues" = circuit diagram plates planned — i.e. a promise of further plates, not an
@@ -53,12 +53,13 @@ From vehicle **No. 11779**, version 85 cars are equipped with gearbox **353-35**
 
 Mounting identical to that of versions 85, from vehicle **11872**.
 
-<!-- NEEDS REVIEW: this is the ONLY readable clutch part data in the whole document — the
+<!-- NEEDS REVIEW:this is the ONLY readable clutch part data in the whole document — the
 main manual's clutch table on D-1 (PDF p.31) is illegible. See
 [D — Clutch](d-clutch.md#d-1-clutch-characteristics-table).
 "Mounting identical to that of versions 85 to 85" prints "85" twice; read as "versions 85",
 with the second occurrence a duplication artifact. "Ball stop" is "butée à billes" = ball
-release bearing. -->
+release bearing.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_structural · next step: close_as_documentation · leaves-undecided 0.36 · risk-if-guessed 0.34 · blocks-a-job 0.31 -->
 
 <a id="p73"></a>
 **[PDF p.73]**
@@ -76,7 +77,7 @@ The **BV 353-20** and **364** can be equipped with a **32 × 31** long fifth, mu
 
 The unique conical-distance setting for all indices of **BV 364** is **61.5 mm**.
 
-<!-- NEEDS REVIEW: "torque 11 x 34, nor-malaise" is French "couple 11 × 34, normale" =
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"torque 11 x 34, nor-malaise" is French "couple 11 × 34, normale" =
 final-drive pair 11×34, normal — "couple" here is the crown-wheel-and-pinion pair, NOT a
 tightening torque. "tachymètre: 6 x 10" is the speedometer drive gear pair. "32 x 31 long
 seme" is "32 × 31 cinquième longue" = long (tall) fifth gear. The conical distance 61.50 /
@@ -100,8 +101,9 @@ instead of **R.1135**.
 Add: on some version 85 cars, from vehicle **No. 12037**, assembly of the **R. 1136** front
 axle instead of **R. 1135**. **The setting values are unchanged.**
 
-<!-- NEEDS REVIEW: "The setting values are unchanged" means the H-1 geometry figures still
-apply — see [H — Regulatory values](h-front-axle.md#h-1-regulatory-values-geometry-settings). -->
+<!-- NEEDS REVIEW:"The setting values are unchanged" means the H-1 geometry figures still
+apply — see [H — Regulatory values](h-front-axle.md#h-1-regulatory-values-geometry-settings).
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_structural · next step: close_as_documentation · leaves-undecided 0.24 · risk-if-guessed 0.22 · blocks-a-job 0.17 -->
 
 <a id="p73"></a>
 **[PDF p.73]**
@@ -119,9 +121,10 @@ axle instead of **R. 1135**.
 Add: on some version 85 cars, from vehicle **No. 12037**, installation of **R. 1136** front
 and rear dampers instead of **R.1135**.
 
-<!-- NEEDS REVIEW: this supersedes the damper references in
+<!-- NEEDS REVIEW:this supersedes the damper references in
 [L-1](l-suspension-shock-absorbers.md#l-1-dampers-amortisseurs), which gives type R 1135
-front and rear. -->
+front and rear.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.32 · risk-if-guessed 0.51 · blocks-a-job 0.29 -->
 
 <a id="p73"></a>
 **[PDF p.73]**
@@ -188,12 +191,13 @@ Build up the modified **R. 1135** front hub with the centring washer **60 00 001
 the modified **R. 1151** disc, using **10 × 27** screws reference **60 00 001 427**, head
 thickness **6.8 cm**, plus nuts and washers.
 
-<!-- NEEDS REVIEW: "head thickness: 6.8 cm" is almost certainly wrong as a unit — a screw
+<!-- NEEDS REVIEW:"head thickness: 6.8 cm" is almost certainly wrong as a unit — a screw
 head 68 mm thick is not plausible, and the equivalent rear-brake step below gives "head
 thickness: 4.2" with no unit. The page prints "6.8 cm"; it is left EXACTLY as printed.
 Check the source PDF p.74. "the intertwined puck" is French "la rondelle de centrage" =
 centring washer; "rocket" is "fusée" = stub axle; "ron-These fans" is "rondelles" = washers,
-split across a line. -->
+split across a line.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.95 · risk-if-guessed 0.78 · blocks-a-job 0.53 -->
 
 <a id="p73"></a>
 ### Rear brakes — installation procedure (modified stub-axle tube)
@@ -227,12 +231,13 @@ split across a line. -->
 Drill a hole of Ø … on the outer front side of the caliper in the piston axis, in order to
 be able to re-seat the piston (six-point male key, **7 mm**).
 
-<!-- NEEDS REVIEW: the drill diameter in step (d) prints "Ø lt" / "Ø It" — the digits are
+<!-- NEEDS REVIEW:the drill diameter in step (d) prints "Ø lt" / "Ø It" — the digits are
 lost. DO NOT drill a caliper on this instruction; get the dimension from the source PDF
 p.74. "key six male bands of 7 mm" is "clé six pans mâle de 7 mm" = 7 mm male hex key.
 Step (c)'s "Grinding the game, if necessary / tact with the working of the red cage- / I
 think it's a good idea." is a broken sentence where the translator inserted an opinion; the
-condition being checked (contact with something) is not recoverable. -->
+condition being checked (contact with something) is not recoverable.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.94 · blocks-a-job 0.83 -->
 
 <a id="p73"></a>
 ### III — Handbrake
@@ -256,9 +261,10 @@ condition being checked (contact with something) is not recoverable. -->
 Use connectors reference **60 00 001 431** with screwed unions reference **60 00 001 430**
 and the corresponding sealing washers.
 
-<!-- NEEDS REVIEW: "stirrup" is "étrier" = caliper; "The rocket tube" is "le tube de fusée"
+<!-- NEEDS REVIEW:"stirrup" is "étrier" = caliper; "The rocket tube" is "le tube de fusée"
 = stub-axle tube. The paragraph ends "the sealing washers correspond- / Yours." — the
-translator emitted "Yours." for "correspondantes". -->
+translator emitted "Yours." for "correspondantes".
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.15 · risk-if-guessed 0.25 · blocks-a-job 0.30 -->
 
 <a id="p75"></a>
 **[PDF p.75]**
@@ -269,9 +275,10 @@ When replacing or dismantling a master cylinder, check whether or not there is a
 spacer at the bottom of the master-cylinder piston acting on the thrust rod, and if so
 transfer this spacer to the new master cylinder, or to the one being refitted.
 
-<!-- NEEDS REVIEW: "an aluminium interlocker-minium acting on the thrust rod" and "back up
+<!-- NEEDS REVIEW:"an aluminium interlocker-minium acting on the thrust rod" and "back up
 this in-tretoise" are both the French "entretoise" (spacer/distance piece) mangled; rendered
-as spacer. "or the document filed" is "ou celui déposé" = or the one removed. -->
+as spacer. "or the document filed" is "ou celui déposé" = or the one removed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.27 · risk-if-guessed 0.27 · blocks-a-job 0.24 -->
 
 <a id="p75"></a>
 **[PDF p.75]**
@@ -298,8 +305,7 @@ Applied **5 minutes apart**. Drying: **2 hours** in the open air.
 An additional table on the composition and references of replacement paint kits follows —
 see [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md).
 
-<!-- NEEDS REVIEW:
-(1) The amendment cites "table 2 on page N6" — but Table 2 in this scan is on PDF p.57,
+<!-- NEEDS REVIEW:(1) The amendment cites "table 2 on page N6" — but Table 2 in this scan is on PDF p.57,
     which is manual page N-5's companion sheet, and this scan has no page N-6. The
     discrepancy is as printed; see 10-needs-review.md.
 (2) The product is named "U 48-024" in the sentence and "U 48/224" in the table on the same
@@ -308,7 +314,8 @@ see [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md).
 (3) "Diluent 4,047" uses a French comma as a thousands separator for the product code 4047
     used elsewhere on these pages; left as printed.
 (4) The sentence about blue 331 breaks off ("takes account of the removal of the / in the
-    case of blue 331 as a result of adjunc-") and the removed product is not recoverable. -->
+    case of blue 331 as a result of adjunc-") and the removed product is not recoverable.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.53 · blocks-a-job 0.68 -->
 
 ---
 
