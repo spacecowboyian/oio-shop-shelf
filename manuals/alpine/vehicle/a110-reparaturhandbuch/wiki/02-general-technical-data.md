@@ -1,6 +1,7 @@
 <!-- SOURCE NOTE: PDF pages 10-13 of alpine-a110-reparaturhandbuch.pdf. Translated from the
-German original; prose is English, every value is as printed. Decimal COMMAS are the source's
-own and are kept (Rule 13) — "3,85 m" is three point eight five metres.
+German original; prose is English, every value is as printed. Decimal separators are normalized
+to the English convention (Rule 13): the page prints "3,85 m", this wiki writes "3.85 m".
+Notation changes, value does not; no unit is converted.
 PDF p.13 ("Wichtigste Einstellungen") OCRs almost entirely to noise and was transcribed from
 the rendered page image at 200 dpi, in quadrants. It also carries HANDWRITTEN annotations by a
 previous owner; those are called out individually below and are NOT manual data. -->
@@ -40,17 +41,17 @@ The following dimensions apply to **all** versions.
 
 | Dimension | Value |
 |---|---|
-| Overall length | 3,85 m |
-| Overall width | 1,52 m |
-| Maximum height (laden) | 1,10 m |
-| Maximum height (unladen) | 1,13 m <!-- NEEDS REVIEW: OCR read "1,13 0"; the same table on the factory-manual page A-2 (PDF p.380) OCRs as "1,5 0". 1,13 m is the reading consistent with the laden figure of 1,10 m, but neither scan is clean — verify against the source PDF. --> |
-| Front overhang | 0,840 m |
-| Rear overhang | 0,910 m |
-| Wheelbase | 2,10 m |
-| Front track, at the ground | 1,29 m |
-| Rear track, at the ground | 1,27 m |
-| Ground clearance, laden | 0,11 m |
-| Interior width, at elbow height | 1,22 m |
+| Overall length | 3.85 m |
+| Overall width | 1.52 m |
+| Maximum height (laden) | 1.10 m |
+| Maximum height (unladen) | 1.13 m <!-- NEEDS REVIEW: OCR read "1.13 0"; the same table on the factory-manual page A-2 (PDF p.380) OCRs as "1.5 0". 1.13 m is the reading consistent with the laden figure of 1.10 m, but neither scan is clean — verify against the source PDF. --> |
+| Front overhang | 0.840 m |
+| Rear overhang | 0.910 m |
+| Wheelbase | 2.10 m |
+| Front track, at the ground | 1.29 m |
+| Rear track, at the ground | 1.27 m |
+| Ground clearance, laden | 0.11 m |
+| Interior width, at elbow height | 1.22 m |
 
 ## Weights
 
@@ -113,8 +114,8 @@ Rack-and-pinion steering with a compensating spring.
 
 | Item | Standard | Optional (more direct steering) |
 |---|---|---|
-| Turns of the steering wheel, lock to lock | 3,2 | 2,5 |
-| Reduction ratio | 17 : 1 | 13,5 : 1 |
+| Turns of the steering wheel, lock to lock | 3.2 | 2.5 |
+| Reduction ratio | 17 : 1 | 13.5 : 1 |
 
 Steering wheel diameter: 300 mm, 330 mm and 360 mm.
 
@@ -147,8 +148,8 @@ Recommended tyre pressures in kg/cm²:
 
 | Tyre | Front | Rear |
 |---|---|---|
-| 15" tyres | 1,4–1,6 | 2,0–2,3 |
-| 13" tyres | 1,6–1,8 | 2,3–2,5 |
+| 15" tyres | 1.4–1.6 | 2.0–2.3 |
+| 13" tyres | 1.6–1.8 | 2.3–2.5 |
 
 Wheels marked with an asterisk (\*) can only be fitted with widened wings.
 
@@ -175,15 +176,15 @@ against PDF p.12 before ordering or fitting anything. -->
 | Optional rear-mounted "aircraft tank" (*Flugzeugtank*) | 79 litres |
 | Cooling system | 9 litres <!-- NEEDS REVIEW: printed label OCRs as "Kühl- und rer 9 Liter"; the second word is lost. The key-settings plate (below) gives 7 L for the 1300 VC and 9 L for the 1600 types, so a single "9 litres" here may be version-specific. Verify. --> |
 | Gearbox oil | 2 litres (gearbox type 364: 2 1/2 litres) |
-| Braking system | 0,27 litres |
+| Braking system | 0.27 litres |
 
 ### Engine oil
 
 | | 1300 | 1300 G | 1300 S | 1600 S |
 |---|---|---|---|---|
 | Engine oil (sump) | 3 l | 3 l | 4 l | 4 l |
-| \+ oil cooler | + 0,5 | + 0,5 | + 0,5 | + 0,5 |
-| Special oil filter (racing version) | 4 l (special) | 4 l (special) | + 0,5 | + 0,5 |
+| \+ oil cooler | + 0.5 | + 0.5 | + 0.5 | + 0.5 |
+| Special oil filter (racing version) | 4 l (special) | 4 l (special) | + 0.5 | + 0.5 |
 
 <!-- NEEDS REVIEW: this table is the least reliable on the page. The OCR reads
 "31 / 2.9: 1 / 41 / a Ss" for the sump row and scatters the "4 1 (Spezial)" cells across
@@ -212,10 +213,10 @@ is NOT manual data. -->
 |---|---|---|---|---|
 | Engine type | 810-05 | 844-30 (SC), 844-34 (SI) | 843-30 | 807-25 (1600 VB), 844-32 (1600 VC) |
 | Displacement (cm³) | 1289 | 1605 | 1647 | 1565 (807-25) or 1605 (844-32) |
-| Oil fill | 3 L + filter 0,25 L + oil cooler 0,50 L | 4 L + filter 0,30 L + oil cooler 0,50 L | 4 L + filter 0,30 L | 4 L + filter 0,3 L + oil cooler 0,50 L |
+| Oil fill | 3 L + filter 0.25 L + oil cooler 0.50 L | 4 L + filter 0.30 L + oil cooler 0.50 L | 4 L + filter 0.30 L | 4 L + filter 0.3 L + oil cooler 0.50 L |
 
 <!-- NEEDS REVIEW: the last column's oil-fill cell is printed partly in FRENCH on this German
-plate ("4 L + filtre 0,3 L + refroidisseur 0,50 L", and the displacement cell reads
+plate ("4 L + filtre 0.3 L + refroidisseur 0.50 L", and the displacement cell reads
 "1565 (807-25) ou 1605 (844-32)"). That is the source's own mixed-language printing, not a
 transcription error — rendered to English here, with the printed wording recorded. -->
 
@@ -223,12 +224,12 @@ transcription error — rendered to English here, with the printed wording recor
 
 | | Engine type 810 | Engine types 807, 843 and 844 |
 |---|---|---|
-| Tightening torque, cold engine (m·daN) | 6 | 7,75–8,25 |
-| Tightening torque, warm engine (m·daN) | 6 | 8,50–9 |
-| Maximum distortion of the cylinder head face (mm) | 0,05 | 0,05 |
-| Valve clearance, intake (mm) | 0,15 (cold) | 0,20 (warm) |
-| Valve clearance, exhaust (mm) | 0,20 (cold) | 0,25 (warm) |
-| Liner protrusion (mm) | 0,04–0,12 | 0,15–0,20 |
+| Tightening torque, cold engine (m·daN) | 6 | 7.75–8.25 |
+| Tightening torque, warm engine (m·daN) | 6 | 8.50–9 |
+| Maximum distortion of the cylinder head face (mm) | 0.05 | 0.05 |
+| Valve clearance, intake (mm) | 0.15 (cold) | 0.20 (warm) |
+| Valve clearance, exhaust (mm) | 0.20 (cold) | 0.25 (warm) |
+| Liner protrusion (mm) | 0.04–0.12 | 0.15–0.20 |
 
 <!-- NEEDS REVIEW: the second column's printed header is partly obscured on the scan; it OCRs
 as "Matortyvp GOR / 843 u, daa" and reads on the image as "Motortyp 80■ / 843 u. 844". It is
@@ -250,7 +251,7 @@ than transcribed from the leader lines.
 
 | Engine type | At idle | At 4000 rpm |
 |---|---|---|
-| 810 | 0,7 bar | 3,5 bar <!-- NEEDS REVIEW: OCR reads "Motortyp 610. :9,5 bar" at 4000 rpm. The leading digit is not legible on the image at this scan quality; 3,5 bar is the reading consistent with a 0,7 bar idle figure, but 9,5 bar as OCR'd is not credible for this engine. VERIFY against the source PDF before use. --> |
+| 810 | 0.7 bar | 3.5 bar <!-- NEEDS REVIEW: OCR reads "Motortyp 610. :9.5 bar" at 4000 rpm. The leading digit is not legible on the image at this scan quality; 3.5 bar is the reading consistent with a 0.7 bar idle figure, but 9.5 bar as OCR'd is not credible for this engine. VERIFY against the source PDF before use. --> |
 | 843 / 844 | 2 bar | 4 bar |
 
 ### Cooling system
@@ -266,10 +267,10 @@ than transcribed from the leader lines.
 | | 1300 VC | 1600 VH | 1600 VD |
 |---|---|---|---|
 | Carburettor | Weber 32 DIR | Weber 32 DAR | Weber 45 DCOE (SC) or electronic fuel injection (SI) |
-| Minimum throttle opening | 0,8 mm | 1,2 mm | — |
+| Minimum throttle opening | 0.8 mm | 1.2 mm | — |
 | Starter-flap opening gap (pneumatic) | 8 mm | 6 mm | — |
-| Float level | 7 mm | 7 mm | 5,5 mm |
-| Float travel | 8 mm | 8 mm | 11,5–12 mm |
+| Float level | 7 mm | 7 mm | 5.5 mm |
+| Float travel | 8 mm | 8 mm | 11.5–12 mm |
 | Idle speed (rpm) | 800 ± 50 | 800 ± 25 | 1000 ± 50 |
 
 ### Ignition
@@ -312,7 +313,7 @@ specification is repeated in the Brakes block below. -->
 |---|---|---|---|---|
 | Gearbox type | 330 A 4 B | 355 | 385-15 | 364 |
 | Oil grade | API GL 4 | SAE 80 or API GL 5 | SAE 80 | SAE 80 |
-| Oil capacity | 2 L | 2 L | 2 L | 2,2 L |
+| Oil capacity | 2 L | 2 L | 2 L | 2.2 L |
 
 <!-- NEEDS REVIEW: this row is badly compromised and should not be trusted as printed.
   - "355" is printed, but a HANDWRITTEN "353" is inked over it. Type 353 is the gearbox the
@@ -322,7 +323,7 @@ specification is repeated in the Brakes block below. -->
   - "385-15" is printed, and type 385 is REAL: the type cross-reference table on PDF p.8
     gives gearbox 385 for the 1600 VH (SX) and for the Renault 16 TX. So this cell is not a
     misread of 365. The "-15" suffix is still unexplained and unconfirmed.
-  - "364" and "2,2 L" are HANDWRITTEN additions, not printed. They are retained because type
+  - "364" and "2.2 L" are HANDWRITTEN additions, not printed. They are retained because type
     364 and its 2 1/2 litre capacity are confirmed by the printed capacities section above —
     but they are an owner's annotation, not factory data.
   - The oil-grade row spans columns with a single printed entry; the per-column split shown
@@ -335,12 +336,12 @@ specification is repeated in the Brakes block below. -->
 | Camber | −2° ± 30' | −2° ± 30' | −2° 25' ± 30' |
 | Castor | 7° 30' ± 30' | 8° ± 30' | 8° ± 30' |
 | Toe | 2 ± 1 mm (toe-out) | 2 ± 1 mm (toe-in) | 2 ± 1 mm (toe-in) |
-| Steering-box height | 9,5 to 10, +20' to +25' | 8 to 9, +5' to +15' | 8 to 9, +5' to +15' (on modified tool T.Av. 4■) |
+| Steering-box height | 9.5 to 10, +20' to +25' | 8 to 9, +5' to +15' | 8 to 9, +5' to +15' (on modified tool T.Av. 4■) |
 | Attitude | half load | half load | half load |
 | With tool | T.Av. 56 A | T.Av. 56 A – 110-02 | T.Av. 238-02 – 110-02 |
 
 - **Track variation (*Spreizung*):** maximum difference between right and left: 1°.
-- **Rim run-out:** 1,2 mm maximum measured at the rim flange (steel wheel); 0,5 mm maximum
+- **Rim run-out:** 1.2 mm maximum measured at the rim flange (steel wheel); 0.5 mm maximum
   measured at the rim flange (light-alloy wheel).
 - **Locking position of the rubber bushes:** laden, with tools T.Av. 56 A and 110-02.
 
@@ -360,8 +361,8 @@ column header of the front-axle block. Not manual data. -->
 | | 1300 VC | 1600 VD and 1600 VH |
 |---|---|---|
 | Camber | −1° to −2° | −2° 25' ± 30' |
-| Toe | 0 mm | 1,5 to 2 mm (toe-in) |
-| Ball-joint height of the rear track rods | — | 8,8 to 9,2 on T.Av. 481, or +15' |
+| Toe | 0 mm | 1.5 to 2 mm (toe-in) |
+| Ball-joint height of the rear track rods | — | 8.8 to 9.2 on T.Av. 481, or +15' |
 | Attitude | — | laden |
 | With tool | — | T.Av. 238-02 – 110-02 – T.Av. 56 A |
 
@@ -384,16 +385,16 @@ are kept as printed. -->
 
 | Item | 1300 VC | 1600 VD and 1600 VH |
 |---|---|---|
-| Minimum thickness, front brake discs | 6,5 mm | 11 mm |
-| Minimum thickness, rear brake discs | 6,5 mm | 11 mm |
-| Thickness, front brake pads | min 5,5 mm, max 9,5 mm | min 7 mm, max 16 mm |
-| Thickness, rear brake pads | min 5,5 mm, max 9,5 mm | min 7 mm, max 14 mm |
+| Minimum thickness, front brake discs | 6.5 mm | 11 mm |
+| Minimum thickness, rear brake discs | 6.5 mm | 11 mm |
+| Thickness, front brake pads | min 5.5 mm, max 9.5 mm | min 7 mm, max 16 mm |
+| Thickness, rear brake pads | min 5.5 mm, max 9.5 mm | min 7 mm, max 14 mm |
 
 <!-- NEEDS REVIEW: SAFETY-RELEVANT, and the least certain block on the plate. The OCR of these
-four rows is garbage ("1SCOVE 55mm", "1290 VG 3.3mm", "min 85mm, maxi 925 mm", "mini 5,5 mm,
+four rows is garbage ("1SCOVE 55mm", "1290 VG 3.3mm", "min 85mm, maxi 925 mm", "mini 5.5 mm,
 maxi 35 mm"). The values above are read from the page image, where the front and rear disc rows
-appear IDENTICAL (6,5 / 11 mm) — which is plausible for a four-wheel-disc car but is exactly
+appear IDENTICAL (6.5 / 11 mm) — which is plausible for a four-wheel-disc car but is exactly
 the kind of repetition a scan artefact can manufacture, and the OCR disagrees with it. The pad
-maxima (9,5 / 16 / 14 mm) are legible but the minima are not crisp. DO NOT use any figure in
+maxima (9.5 / 16 / 14 mm) are legible but the minima are not crisp. DO NOT use any figure in
 this table to decide whether a disc or pad is serviceable without checking the source PDF
 page, and preferably the brakes chapter. -->

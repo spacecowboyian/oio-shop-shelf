@@ -1,5 +1,6 @@
 <!-- SOURCE NOTE: PDF pages 14-22. Translated from the German original; prose is English, every
-value is as printed, decimal commas kept (Rule 13). The specification tables on PDF pp.15, 19,
+value is as printed, decimal separators normalized to the English convention (Rule 13) — the
+page prints "0,044", this wiki writes "0.044". The specification tables on PDF pp.15, 19,
 20 and 21 were transcribed from the rendered page images, not the OCR; where the OCR and the
 image disagreed the image was used and the disagreement is recorded in a flag.
 Torque is printed in mkp (metre-kilopond) throughout this chapter and is NOT converted. -->
@@ -15,11 +16,11 @@ Torque is printed in mkp (metre-kilopond) throughout this chapter and is NOT con
 |---|---|---|---|---|---|
 | Engine type | 810-30 | 812-00 | 1300 S | 807-25 | 1600 GS |
 | Displacement | 1289 cm³ | 1255 cm³ | 1296 cm³ | 1565 cm³ | 1596 cm³ |
-| Bore/stroke | 73 x 77 | 74,5 x 72 | 75,7 x 72 | 77 x 84 | 77,8 x 84 |
-| Compression ratio | 9,4/1 | 10,5/1 | 12/1 | 10,25/1 | 11,5/1 |
+| Bore/stroke | 73 x 77 | 74.5 x 72 | 75.7 x 72 | 77 x 84 | 77.8 x 84 |
+| Compression ratio | 9.4/1 | 10.5/1 | 12/1 | 10.25/1 | 11.5/1 |
 | Maximum output SAE | 81 PS at 5900 rpm | 103 PS at 6750 rpm | 132 PS at 7200 rpm | 138 PS at 6000 rpm | 172 PS at 7000 rpm |
 | Maximum output DIN | 74 PS | 88 PS | 116 PS | 110 PS | approx. 155 PS |
-| Maximum torque in mkp | 10,5 at 3500 rpm | 11,9 at 5000 rpm | 12,4 at 4500 rpm | 14,7 at 5000 rpm | 18,4 at 6000 rpm |
+| Maximum torque in mkp | 10.5 at 3500 rpm | 11.9 at 5000 rpm | 12.4 at 4500 rpm | 14.7 at 5000 rpm | 18.4 at 6000 rpm |
 | Intake valve opens before TDC | 20° | 31° | 50° | 40° | 53° |
 | Intake valve closes after BDC | 80° | 61° | 91° | 72° | 83° |
 | Exhaust valve opens before BDC | 55° | 62° | 74° | 72° | 83° |
@@ -60,7 +61,7 @@ valves.
 
 - Cylinder head: reworked valve seats; seat faces of the intake and exhaust valve springs, and
   the spring caps for fitting the inner springs, likewise reworked; matching of the intake
-  ports to those of the manifold; joint face ground down by **2,6 mm**.
+  ports to those of the manifold; joint face ground down by **2.6 mm**.
 - Intake and exhaust manifold of the RENAULT 8 S.
 - **Valve cover (*Ventildeckel*) ALPINE.**
 - Carburettor of the RENAULT 8 S.
@@ -86,10 +87,10 @@ compensated with a **13 mm** thick spacer plate.
 - Oil sump ALPINE.
 - Camshaft **13 R** ALPINE <!-- NEEDS REVIEW: OCR reads this as both "13 R" and "15 R" in
   different passes of the same page. The digit is not crisp on the image. Verify. -->
-- Stronger oil-pump valve spring tension (plus one washer of **1,2 mm**).
+- Stronger oil-pump valve spring tension (plus one washer of **1.2 mm**).
 - Cylinder head gasket.
 - Cylinder head: intake ports machined, polished and aligned; intake valves reworked by 5/10 to
-  a diameter of **35 mm**, exhaust valves reworked by 4/10 to a diameter of **38,5 mm**.
+  a diameter of **35 mm**, exhaust valves reworked by 4/10 to a diameter of **38.5 mm**.
   <!-- NEEDS REVIEW: the intake-valve diameter is lost in the OCR of this page (it reads
   "auf einen g / (o) mm"). 35 mm is taken from the B-3 page (PDF p.384), which prints "von
   35 mm nachgearbeitet" for the same item. Confirm against PDF p.16 before relying on it. -->
@@ -117,7 +118,7 @@ This engine is already modified at the Renault works as follows:
 
 ### 1600 GS engine on request, derived from type 807-25
 
-- Special pistons and liners, bore **77,80** (displacement 1596 cm³).
+- Special pistons and liners, bore **77.80** (displacement 1596 cm³).
 - Cylinder head: alignment of the ports; inner and outer valve springs different; special
   spring caps (stepped).
 - Special camshaft.
@@ -218,7 +219,7 @@ Carry out the removal operations in reverse order.
 |---|---|---|---|---|---|
 | Type of bearing shells | Multi-material (*Mehrstoff*) | Alu-tin | Alu-tin | Alu-tin | Alu-tin |
 | Permissible weight difference between the 4 con-rods | 6 g | 3 g | 3 g | 3 g | 3 g |
-| Big-end bearing tightening torque in mkp | 4 to 4,5 | 4,25 to 4,75 | 4,25 to 4,75 | 4,5 | 4,5 |
+| Big-end bearing tightening torque in mkp | 4 to 4.5 | 4.25 to 4.75 | 4.25 to 4.75 | 4.5 | 4.5 |
 
 For the 1300 G and 1300 S the table adds **"Pleuelfuss erhöht (A)"** — con-rod foot raised (A).
 
@@ -233,21 +234,21 @@ der Motoren 812-00 und 1300 S" followed by a sectional drawing. -->
 
 | | 1300 | 1300 G | 1300 S | 1600 S | 1600 GS |
 |---|---|---|---|---|---|
-| ⌀ of the big-end journals | 44 | 43,98 | 43,98 | 48 | 48 |
-| ⌀ of the main bearing journals | 46 | 46 | 46 | 54,8 | 54,8 |
-| Regrinding of the big-end and main journals | 0,25 | 0,25 | not advised | not advised | not advised |
+| ⌀ of the big-end journals | 44 | 43.98 | 43.98 | 48 | 48 |
+| ⌀ of the main bearing journals | 46 | 46 | 46 | 54.8 | 54.8 |
+| Regrinding of the big-end and main journals | 0.25 | 0.25 | not advised | not advised | not advised |
 | Depending on vehicle use, check the bearing shells every | — | 15000 km | 10000 km | 15000 km | 15000 km |
 | Type of bearing shells | Multi-material | Alu-tin | Alu-tin | Alu-tin | Alu-tin |
-| End float in mm | 0,044 to 0,16 | 0,045 to 0,19 | 0,045 to 0,19 | 0,05 to 0,23 | 0,05 to 0,23 |
+| End float in mm | 0.044 to 0.16 | 0.045 to 0.19 | 0.045 to 0.19 | 0.05 to 0.23 | 0.05 to 0.23 |
 | Main bearing journals | Burnish-polished (*Prägepoliert*) | Burnish-polished | Burnish-polished | Burnish-polished | Burnish-polished |
-| Main bearing tightening torque in mkp | 5,5 to 6,5 | 6 to 6,75 | 6 to 6,75 | 6,5 | 6,5 |
+| Main bearing tightening torque in mkp | 5.5 to 6.5 | 6 to 6.75 | 6 to 6.75 | 6.5 | 6.5 |
 
-<!-- NEEDS REVIEW: journal diameters. "43,98" (1300 G and 1300 S) and "48" (1600 S and 1600 GS)
+<!-- NEEDS REVIEW: journal diameters. "43.98" (1300 G and 1300 S) and "48" (1600 S and 1600 GS)
 are read from the image but the leading digit of the 1600 figures is soft and could be 43; the
-"43,98" could be "45,98". The 1600 main journal "54,8" is legible. Measure the part; do not
+"43.98" could be "45.98". The 1600 main journal "54.8" is legible. Measure the part; do not
 order bearings on these figures alone. -->
 
-<!-- NEEDS REVIEW: the regrinding row prints a figure (0,25) for the two 1300 engines and the
+<!-- NEEDS REVIEW: the regrinding row prints a figure (0.25) for the two 1300 engines and the
 words "wird abgeraten" — "is not advised" — for the other three. Rendered as words, not as a
 blank. -->
 
@@ -269,9 +270,9 @@ the water pump's fan blade.
 
 | | 1300 | 1300 G | 1300 S | 1600 S | 1600 GS |
 |---|---|---|---|---|---|
-| Engine oil capacity | 3 or 4 l | 2,5 or 4 l | 4 l | 4 l | 4 l |
-| Oil pump pressure, cold | 4 to 4,5 | 4 to 4,5 | 4,5 to 5 | 4 to 4,5 | 4 to 4,5 |
-| Oil pump pressure, warm | 3,5 to 4 | 3,5 to 4 | 3 to 4 | 3,5 to 4 | 3,5 to 4 |
+| Engine oil capacity | 3 or 4 l | 2.5 or 4 l | 4 l | 4 l | 4 l |
+| Oil pump pressure, cold | 4 to 4.5 | 4 to 4.5 | 4.5 to 5 | 4 to 4.5 | 4 to 4.5 |
+| Oil pump pressure, warm | 3.5 to 4 | 3.5 to 4 | 3 to 4 | 3.5 to 4 | 3.5 to 4 |
 | At 4000 rpm, warm | — | — | — | 4 – 5 | 4 – 5 |
 | Replace the oil filter element every | 10000 km | 10000 km | 5000 km | 10000 km | 5000 km |
 | Oil change every | 2500 km | 2500 km | 2500 km | 2500 km | 2500 km |
