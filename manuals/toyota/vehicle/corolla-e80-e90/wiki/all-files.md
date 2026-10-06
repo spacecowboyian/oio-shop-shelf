@@ -27,5 +27,4 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/corolla-e80-e90/wiki/11a-alphabetical-index.md)
 - [wiki/12-chassis-electrical-system.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/corolla-e80-e90/wiki/12-chassis-electrical-system.md)
 - [wiki/13-index-and-reference.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/corolla-e80-e90/wiki/13-index-and-reference.md)
-- [Toyota_Corolla_1984_1992_Haynes.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/corolla-e80-e90/Toyota_Corolla_1984_1992_Haynes.pdf)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/toyota/vehicle/corolla-e80-e90/data/manual-index.jsonl)

@@ -7,6 +7,9 @@ previous owner; those are called out individually below and are NOT manual data.
 
 # General vehicle data and the key-settings plate
 
+<a id="p10"></a>
+**[PDF p.10]**
+
 ## Vehicle design
 
 **Model A. 110.** Rear-engined, rear-wheel-drive vehicle.
@@ -27,6 +30,9 @@ From the 1970 model year the Type A.110 vehicles are available in four versions:
 > engine = 1600 VC.
 
 Identification is by the rhomboid plate fixed in the luggage compartment.
+
+<a id="p11"></a>
+**[PDF p.11]**
 
 ## Vehicle dimensions
 
@@ -93,6 +99,9 @@ elastic hub. Unguided or guided graphite or ball release bearing, depending on v
 Type 330: fully synchronised 4-speed gearbox with one reverse gear.
 Types 353/364: fully synchronised 5-speed gearbox with one reverse gear.
 Floor-mounted gear lever (*Knüppelschaltung*).
+
+<a id="p12"></a>
+**[PDF p.12]**
 
 ## Transmission
 
@@ -183,6 +192,9 @@ key-settings plate (PDF p.13), which gives 3 L for the 1300 VC and 4 L for the 1
 but the 1300 G and 1300 S values are NOT independently confirmed, and the layout of the
 "special oil filter" row is uncertain. Do not rely on this table; use the key-settings plate
 below, or the per-engine chapters. -->
+
+<a id="p13"></a>
+**[PDF p.13]**
 
 ## Key settings plate ("Wichtigste Einstellungen")
 
