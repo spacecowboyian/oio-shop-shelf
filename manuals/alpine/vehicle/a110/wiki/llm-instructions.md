@@ -85,7 +85,7 @@ skill.
 - **5 supplement chapters** (`u1`…`u5`) — the October 1971 additive, bound after the manual.
   **These win over the main manual.**
 - `09-quick-reference.md` — harvested spec values linked to their source page.
-- `10-needs-review.md` — **76 flags**, triaged into a ranked worklist (see `../TRIAGE.md`). Unusually many, and that is the point: this manual
+- `10-needs-review.md` — **73 flags**, triaged into a ranked worklist (see `../TRIAGE.md`). Unusually many, and that is the point: this manual
   earns them. Read the flag before quoting the value it sits next to.
 - `11a-alphabetical-index.md` — generated from headings.
 - The source PDF (on the Release) — the authority for anything visual, and the thing to check

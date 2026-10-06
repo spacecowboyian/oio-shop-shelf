@@ -124,7 +124,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 57 | mm | [h-front-axle.md](h-front-axle.md) | Upgraded support 57 mm 6000001352 |
 | 57 | mm | [h-front-axle.md](h-front-axle.md) | The figures **56** and **57 mm** are stamped on the **rear face** of the supports. |
 | 2 | mm | [h-front-axle.md](h-front-axle.md) | moves towards a **decrease of toe-out, from 0 to 2 mm per half-axle** (front toe-in under |
-| 57 | mm | [h-front-axle.md](h-front-axle.md) | 6000001352 — the inconsistency is as printed. These part numbers match the H = 55/56/57 mm |
+| 57 | mm | [h-front-axle.md](h-front-axle.md) | What the paragraph is about: the three support heights (55 / 56 / 57 mm centre distance) |
+| 2 | mm | [h-front-axle.md](h-front-axle.md) | runs the same way, towards less toe-out, 0 to 2 mm per half-axle. That is why a support |
 | 56 | A | [h-front-axle.md](h-front-axle.md) | h Obtain the mid-load position by placing the fore-and-aft stays **56 A** between the uppe |
 | 57 | mm | [h-front-axle.md](h-front-axle.md) | > supports, or by replacing the steering support(s) with one of **55, 56 or 57 mm** as |
 | 56 | mm | [h-front-axle.md](h-front-axle.md) | > raise the boxes on the right by replacing a **55** support with a **56 mm** support. |
@@ -171,7 +172,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 20 | °C | [n-bodywork.md](n-bodywork.md) | temperature above **20 °C**, decrease the dose of hardener; in cold weather increase this |
 | 18 | °C | [n-bodywork.md](n-bodywork.md) | for the resin to harden. In an inadequately heated space (less than **18 °C**), in high- |
 | 50 | mm | [n-bodywork.md](n-bodywork.md) | > **In the event of a tear,** chamfer the edges of the tear to a width **C = 40 to 50 mm** |
-| 50 | mm | [n-bodywork.md](n-bodywork.md) | repaired, read as such. The dimension C = 40 to 50 mm and the abrasive disc No. 24 are |
+| 50 | mm | [n-bodywork.md](n-bodywork.md) | C = 40 to 50 mm and the abrasive disc No. 24 are legible and unchanged. |
 | 50 | mm | [n-bodywork.md](n-bodywork.md) | **50 mm × 15 mm**), two holes and screws such as **PARKER**. |
 | 15 | mm | [n-bodywork.md](n-bodywork.md) | **50 mm × 15 mm**), two holes and screws such as **PARKER**. |
 | 5 | cm | [n-bodywork.md](n-bodywork.md) | sand the edges to a bevel about **5 cm** either side of the junction line, lay and |
