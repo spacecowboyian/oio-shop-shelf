@@ -27,6 +27,20 @@ Two ways, with different tradeoffs:
 - **Open the URL in a browser on the TV** (e.g. TV Bro on Google TV). A real browser
   passes the whole D-pad through, so every control below works.
 
+## Jumping to a page
+
+The intended workflow: ask about a procedure or spec in chat, then put the page it
+cites on the TV. With a reader already running, `--goto` moves it:
+
+```bash
+python scripts/tv-reader/serve.py --goto 232
+```
+
+The page polls `/state`, so the jump lands in about a second with no reload and no
+re-cast — which matters, because reloading means re-initialising pdf.js on the TV.
+`--goto` needs only `--port` (default 8789) to find the running reader; it ignores
+`--manual` and exits immediately.
+
 ## Controls
 
 | Key | Action |
@@ -44,3 +58,13 @@ Two ways, with different tradeoffs:
 | `--port N` | 8789 | |
 | `--cast DEVICE` | — | device name from `catt scan` |
 | `--oversample F` | 2 | render scale above display size. Pages render at `display × dpr × F`, capped at the scan's native height, then downscale in CSS — that is what keeps text sharp on a 1080p panel. Lower it to ~1.5 if a weak TV flips sluggishly. |
+
+## Not built yet
+
+**One server, several manuals.** Today a reader serves a single manual and `--goto`
+takes only a page number, so switching manuals means restarting and re-casting. The
+shape it wants: the server loads every manual named in a project config, `/goto`
+takes a slug alongside the page, and the reader swaps PDFs without a reload. That
+would make the chat workflow work across the whole shelf rather than one manual at a
+time — worth doing when the reader moves to an always-on host (a Raspberry Pi in the
+garage, which also gets a real browser and so the full D-pad).

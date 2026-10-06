@@ -21,16 +21,22 @@ import errno
 import os
 import re
 import shutil
+import json
 import socket
 import subprocess
 import sys
+import threading
 import time
+import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from _common import load_manifest  # noqa: E402
+
+STATE = {"page": 1, "rev": 0}      # the reader polls this; --goto bumps rev
+STATE_LOCK = threading.Lock()
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
@@ -114,6 +120,24 @@ def make_handler(pdf: Path, page_html: bytes):
                 self._head(200, "text/html; charset=utf-8", len(page_html))
                 self.wfile.write(page_html)
                 return
+            if path in ("/state", "/goto"):
+                if path == "/goto":
+                    q = urllib.parse.parse_qs(self.path.partition("?")[2])
+                    try:
+                        want = int(q.get("page", ["1"])[0])
+                    except ValueError:
+                        self.send_error(400, "page must be an integer")
+                        return
+                    with STATE_LOCK:
+                        STATE["page"] = max(1, want)
+                        STATE["rev"] += 1
+                with STATE_LOCK:
+                    body = json.dumps(STATE).encode()
+                self._head(200, "application/json", len(body),
+                           {"Cache-Control": "no-store"})
+                self.wfile.write(body)
+                return
+
             if path != "/manual.pdf":
                 self.send_error(404)
                 return
@@ -179,16 +203,35 @@ def cast(device: str, url: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--manual", required=True,
+    ap.add_argument("--manual",
                     help="manifest slug (e.g. renault-dauphine) or manual directory name")
     ap.add_argument("--page", type=int, default=1, help="page to open on (left of the spread)")
     ap.add_argument("--port", type=int, default=8789)
     ap.add_argument("--cast", metavar="DEVICE",
                     help='cast to this Chromecast/Google TV by name (see: catt scan)')
+    ap.add_argument("--goto", type=int, metavar="N",
+                    help="tell an already-running tv-reader to show page N, and exit")
     ap.add_argument("--oversample", type=float, default=2.0,
                     help="render scale above display size; lower is faster, softer (default 2)")
     args = ap.parse_args()
 
+    if args.goto is not None:
+        # Jump an already-running reader. The page polls /state, so this lands in
+        # about a second with no reload and no re-cast.
+        try:
+            with urllib.request.urlopen(
+                f"http://127.0.0.1:{args.port}/goto?page={args.goto}", timeout=5
+            ) as r:
+                print(f"showing page {json.load(r)['page']}")
+        except OSError as e:
+            sys.exit(f"No tv-reader answering on port {args.port} ({e}).\n"
+                     f"  start one: python {Path(__file__).name} --manual <slug> --cast <device>")
+        return
+
+    if not args.manual:
+        ap.error("--manual is required (or use --goto N to steer a running reader)")
+
+    STATE["page"] = args.page
     mdir = find_manual(args.manual)
     manifest = load_manifest(mdir)
     pdf = resolve_pdf(mdir, manifest)
