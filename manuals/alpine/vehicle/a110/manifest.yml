@@ -1,0 +1,257 @@
+slug: alpine-a110
+title: "Alpine A110 Repair Manual (Type A 110 — 1300 VA/VB/VC, 1600 VB) — 1st edition, October 1970"
+
+taxonomy:
+  make: alpine
+  category: vehicle
+  models: [a110]
+  chassis: [1300VA, 1300VB, 1300VC, 1600VB]
+  engines: [810-30, 812-00, 807-25]
+  years: "1970-1971"
+
+source:
+  type: local
+  location: "alpine-a110.pdf"
+  pages: 87
+
+rights: >
+  Copyright of the original manual belongs to Societe des Automobiles ALPINE / Renault.
+  No license was sought; committing it here is a considered risk, taken deliberately.
+  See CONTRIBUTING.md. This copy is an English translation of the French original, of
+  uncertain provenance — see README.md.
+
+ocr:
+  language: eng
+  force: false
+
+render:
+  dpi: 200
+
+# The manual numbers its pages by SECTION CODE (A-1, B-13, N-4...), not continuously, so
+# section_code below is the manual's own letter tab. Each section opens with an unnumbered
+# illustrated divider plate; the numbered pages follow it.
+chapters:
+  - file: "a-general.md"
+    section_code: "A"
+    title: "General — covers, contents, vehicle presentation and characteristics"
+    page_start: 1
+    page_end: 9
+  - file: "b-engine-ignition.md"
+    section_code: "B"
+    title: "Engine and Ignition (Moteur - Allumage)"
+    page_start: 10
+    page_end: 25
+  - file: "c-electrical-equipment.md"
+    section_code: "C"
+    title: "Electrical Equipment (Equipement electrique)"
+    page_start: 26
+    page_end: 29
+  - file: "d-clutch.md"
+    section_code: "D"
+    title: "Clutch (Embrayage)"
+    page_start: 30
+    page_end: 32
+  - file: "e-gearbox.md"
+    section_code: "E"
+    title: "Gearbox (Boite de vitesses)"
+    page_start: 33
+    page_end: 37
+  - file: "g-steering.md"
+    section_code: "G"
+    title: "Steering (Direction)"
+    page_start: 38
+    page_end: 39
+  - file: "h-front-axle.md"
+    section_code: "H"
+    title: "Front Axle (Train avant)"
+    page_start: 40
+    page_end: 44
+  - file: "j-rear-axle.md"
+    section_code: "J"
+    title: "Rear Axle (Train arriere)"
+    page_start: 45
+    page_end: 46
+  - file: "l-suspension-shock-absorbers.md"
+    section_code: "L"
+    title: "Suspension and Shock Absorbers (Suspension - Amortisseurs)"
+    page_start: 47
+    page_end: 48
+  - file: "m-braking-system.md"
+    section_code: "M"
+    title: "Braking System (Freinage)"
+    page_start: 49
+    page_end: 50
+  - file: "n-bodywork.md"
+    section_code: "N"
+    title: "Bodywork (Carrosserie)"
+    page_start: 51
+    page_end: 57
+  - file: "r-special-tooling.md"
+    section_code: "R"
+    title: "Special Tooling (Outillage special) and manual update log"
+    page_start: 58
+    page_end: 60
+  # --- Update supplement (mise a jour / Technical Notes), bound after the manual proper.
+  # Amendments dated December 1970 into 1971. Mixed section codes, so no section_code here.
+  - file: "u1-supplement-general-engine-electrical.md"
+    title: "Update supplement — title page; amendments to Chapters A, B and C"
+    page_start: 61
+    page_end: 63
+  - file: "u2-supplement-wiring-harness-directory.md"
+    title: "Update supplement — wiring harness and connector directory (images only)"
+    page_start: 64
+    page_end: 72
+  - file: "u3-supplement-steering-brakes.md"
+    title: "Update supplement - amendments to Chapters C, D, E, G, H, J, L, M and N"
+    page_start: 73
+    page_end: 75
+  - file: "u4-supplement-bodywork-paint.md"
+    title: "Update supplement — paint and lacquer compositions; chassis and body checking"
+    page_start: 76
+    page_end: 82
+  - file: "u5-supplement-special-tooling.md"
+    title: "Update supplement — Chapter R special tooling and tool drawings"
+    page_start: 83
+    page_end: 87
+
+# Diagram delivery (04_cleanup_methodology.md Rule 12). Two kinds of entry here:
+#   - genuine diagrams/plates (wiring diagram, timing chain, advance curves, drawings);
+#   - pages whose ENGLISH TRANSLATION OVERLAY is rotated across the French original and is
+#     unreadable as text (D-1, E-2, E-3, Table 2, and the whole wiring-harness directory).
+#     Those are delivered because no faithful transcription of them is possible.
+diagrams:
+  - page: 7
+    file: "diagrams/p0007-general-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Alpine A110 general dimension drawing - front, rear, side and plan views (A-1)"
+  - page: 20
+    file: "diagrams/p0020-timing-chain-arrangement.webp"
+    kind: exploded
+    depth: mono
+    caption: "Timing chain arrangement - 85 / 1300 G / 1300 S and 1600 S (B-11)"
+    safety_relevant: true
+  - page: 25
+    file: "diagrams/p0025-ignition-advance-curves.webp"
+    kind: chart
+    depth: mono
+    caption: "Ignition centrifugal advance curves R 230, R 234 and R 236 (B-16)"
+    safety_relevant: true
+  - page: 26
+    file: "diagrams/p0026-electrical-equipment-layout.webp"
+    kind: wiring
+    depth: gray
+    caption: "Electrical equipment layout on the vehicle (section C plate)"
+  - page: 29
+    file: "diagrams/p0029-wiring-diagram-version-85.webp"
+    kind: wiring
+    depth: mono
+    caption: "Berlinette A.110 Version 85 (serie) electrical wiring diagram, 30 June 1970"
+    safety_relevant: true
+  - page: 31
+    file: "diagrams/p0031-clutch-characteristics-table.webp"
+    kind: chart
+    depth: mono
+    caption: "Clutch characteristics table, manual page D-1 - illegible as text, image only"
+  - page: 35
+    file: "diagrams/p0035-gearbox-characteristics-1.webp"
+    kind: chart
+    depth: mono
+    caption: "Gearbox characteristics table part 1, manual page E-2 - ratio columns illegible"
+  - page: 36
+    file: "diagrams/p0036-gearbox-characteristics-2.webp"
+    kind: chart
+    depth: mono
+    caption: "Gearbox characteristics table part 2, manual page E-3 - ratio columns illegible"
+  - page: 44
+    file: "diagrams/p0044-castor-measuring-flags.webp"
+    kind: sequence
+    depth: mono
+    caption: "Locally-made castor-measuring flags, left and right (TAV 481), for the H-2 alignment procedure"
+    safety_relevant: true
+  - page: 57
+    file: "diagrams/p0057-table2-lacquer-composition.webp"
+    kind: chart
+    depth: mono
+    caption: "Table 2 - composition of VERILAC polyurethane lacquers, December 1970 edition (N-5)"
+  - page: 63
+    file: "diagrams/p0063-supplement-advance-curves.webp"
+    kind: chart
+    depth: mono
+    caption: "Supplement - ignition advance curves R.247, R.262, R.267 and vacuum curve T.C.34"
+    safety_relevant: true
+  - page: 64
+    file: "diagrams/p0064-harness-directory-1.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 1 of 9 - rotated table, image only"
+  - page: 65
+    file: "diagrams/p0065-harness-directory-2.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 2 of 9 - lighting circuits - rotated table, image only"
+  - page: 66
+    file: "diagrams/p0066-harness-directory-3.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 3 of 9 - senders and contacts - rotated table, image only"
+  - page: 67
+    file: "diagrams/p0067-harness-directory-4.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 4 of 9 - charging and starting - rotated table, image only"
+  - page: 68
+    file: "diagrams/p0068-harness-directory-5.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 5 of 9 - switches and contactors - rotated table, image only"
+  - page: 69
+    file: "diagrams/p0069-harness-directory-6.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 6 of 9 - terminal plates and horns - rotated table, image only"
+  - page: 70
+    file: "diagrams/p0070-harness-directory-7.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 7 of 9 - butt connectors and shunts - rotated table, image only"
+  - page: 71
+    file: "diagrams/p0071-harness-directory-8.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring harness directory 8 of 9 - butt connectors - rotated table, image only"
+  - page: 72
+    file: "diagrams/p0072-harness-directory-9-lamps.webp"
+    kind: chart
+    depth: mono
+    caption: "Characteristics of lamps and cross-reference numbers - rotated table, image only"
+  - page: 76
+    file: "diagrams/p0076-supplement-table2-lacquers.webp"
+    kind: chart
+    depth: mono
+    caption: "Supplement - Table 2 December 1970 edition, VERILAC lacquer composition - rotated, image only"
+  - page: 82
+    file: "diagrams/p0082-screen-seal-drawings.webp"
+    kind: exploded
+    depth: mono
+    caption: "Drawings A to E - windscreen and rear screen seal sections and drain hole positions"
+  - page: 84
+    file: "diagrams/p0084-tool-drawing-1.webp"
+    kind: sequence
+    depth: mono
+    caption: "Tool drawing sheet 1"
+  - page: 85
+    file: "diagrams/p0085-tool-drawing-05-11-03.webp"
+    kind: sequence
+    depth: mono
+    caption: "Tool drawing - ALPINE plan 05-11-03, anti-roll bar bearing support (symmetrical left part)"
+  - page: 86
+    file: "diagrams/p0086-tool-drawing-measurement-note.webp"
+    kind: sequence
+    depth: mono
+    caption: "Tool drawing - measurement note and support"
+  - page: 87
+    file: "diagrams/p0087-tool-drawing-05-11-07.webp"
+    kind: sequence
+    depth: mono
+    caption: "Tool drawing - ALPINE plan 05-11-07, engine supports"

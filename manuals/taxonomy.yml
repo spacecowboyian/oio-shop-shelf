@@ -89,3 +89,24 @@ makes:
       ventoux:
         name: Ventoux (Type 670)   # 845 cc OHV "Ventoux", Dauphine's engine family
         family: Ventoux
+
+  alpine:
+    name: Alpine
+    vpic_make_id: 11081
+    models:
+      a110:
+        name: A110
+        # Factory "type" codes for the model-70 versions, from the manual's own A-1
+        # presentation page. vPIC has no A110 model entry (the catalog is VIN-era,
+        # post-1981), so the model name is the OEM designation, not a vPIC Model_Name.
+        chassis: [1300VA, 1300VB, 1300VC, 1600VB]
+    engines:
+      810-30:
+        name: 810-30            # version "85" / 1300 VC; derived from Renault 810-03 (R1192)
+        family: Sierra
+      812-00:
+        name: 812-00            # 1300 G / 1300 S; derived from Renault 8 Gordini
+        family: Sierra
+      807-25:
+        name: 807-25            # 1600 S / 1600 VB; derived from 807-01 (Renault 16 TS)
+        family: Cleon-Alu
