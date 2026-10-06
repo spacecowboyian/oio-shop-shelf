@@ -73,11 +73,10 @@ Add the address of the supplier of **Hylomar** paste:
 > 96, rue Georges SAND
 > 37 — COURSE
 
-<!-- NEEDS REVIEW:"dough" is French "pâte" = paste (the Hylomar jointing compound used on
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"dough" is French "pâte" = paste (the Hylomar jointing compound used on
 the 1300 S head gasket — see [B-8](b-engine-ignition.md#b-8-head-gasket-replacement)).
 "37- COURSE" is the département 37 plus a town name the translation garbled; not
-recoverable.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.71 · blocks-a-job 0.35 -->
+recoverable. -->
 
 <a id="p62"></a>
 ### Page B-10 — Gudgeon pin diameters
@@ -139,7 +138,7 @@ stated. This supersedes nothing in B-13, which only mentions a thermostat pierce
   - minimum **0,170 bar**
   - maximum **0.280 bar**
 
-<!-- NEEDS REVIEW:(1) "replace air sprinkler 200 para. 180" is French "remplacer le gicleur d'air 200 par le
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):(1) "replace air sprinkler 200 para. 180" is French "remplacer le gicleur d'air 200 par le
     180" = replace the 200 air corrector jet with the 180 — "para." is "par le". This
     supersedes the 1600 S "G. Air (a) = 200" cell in
     [B-13/B-14 Carburation](b-engine-ignition.md#b-13-b-14-7-carburation).
@@ -148,8 +147,7 @@ stated. This supersedes nothing in B-13, which only mentions a thermostat pierce
     1.3 mm" on the same page.
 (4) "the pump does not debi-" is "la pompe ne débitant pas" = with the pump not delivering.
     The minimum prints with a French comma (0,170) and the maximum with a period (0.280);
-    both left as printed.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.23 · risk-if-guessed 0.42 · blocks-a-job 0.22 -->
+    both left as printed. -->
 
 <a id="p62"></a>
 ### Page B-15 — Ignition

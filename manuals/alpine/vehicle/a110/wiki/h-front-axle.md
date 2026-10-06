@@ -129,7 +129,8 @@ The three part numbers are transcribed digit-for-digit from the page image; note
 standard support is numbered 6000000557 (10 digits) while the other two are 6000000351 and
 6000001352 — the inconsistency is as printed. These part numbers match the H = 55/56/57 mm
 supports described on G-1.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.83 · risk-if-guessed 0.56 · blocks-a-job 0.26 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.83 · risk-if-guessed 0.56 · blocks-a-job 0.26 
+     HAND-CHECKED: kept open because the component behind "rudder" is not recoverable; rendered from context only. -->
 
 <a id="p42"></a>
 ### 2) Checks and settings

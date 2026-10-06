@@ -20,10 +20,10 @@ Every flag the pass closed was then read by hand before it was closed.
 
 | | Before | After |
 | --- | --- | --- |
-| Open `NEEDS REVIEW` flags | 108 | **92** |
-| Closed as translation notes | — | 16 |
+| Open `NEEDS REVIEW` flags | 108 | **77** |
+| Closed as translation notes | — | 31 |
 
-The 16 closed ones were pure glossary entries — "*Reports* is French *rapports* =
+The 31 closed ones were pure glossary entries — "*Reports* is French *rapports* =
 ratios", "*Rocket door* is *porte-fusée* = stub axle carrier" — where the note itself settles
 the matter and no figure is in doubt. **Nothing was deleted.** They are still in the chapter
 source, retagged `<!-- TRANSLATION NOTE … -->`, so the knowledge stays and only the open-item
@@ -32,15 +32,37 @@ count changes.
 Each remaining flag now carries a `TRIAGE` line recording its verdict, recommended next step,
 and the three probabilities behind them.
 
-## The remaining 92, by next step
+## The remaining 77, by next step
 
 | Next step | Count |
 | --------- | ----- |
 | Verify against the scanned PDF page | 52 |
-| Candidate for closing — borderline, wants a human look | 22 |
+| Candidate for closing — borderline, went to a human (now done) | 0 |
 | Record permanently as a source defect | 12 |
 | Needs the French original / another manual / a real car | 5 |
 | Unclassified | 1 |
+
+## The 22 borderline candidates — resolved by hand
+
+Jev recommended `close_as_documentation` for 22 flags that my risk gate had held back. I read
+all 22 and **closed 15, kept 7**. The seven that stayed each name something genuinely still
+unknown, and now carry a `HAND-CHECKED:` line saying why:
+
+| Flag | PDF p. | Why it stays open |
+| ---- | ------ | ----------------- |
+| Tyre pressures | 9 | The **unit is unknown** — the page prints only "kg". On a 1970 French manual that is almost certainly kg/cm², but it is not printed, so it is not asserted. |
+| Engine characteristics | 11 | `812-000` here against `812-00` on A-2 is an unresolved inconsistency, and reading `FRG` as `RFA` is an inference. |
+| Type 807-25 parts list | 11 | "Special ass." is truncated in the source and cannot be recovered. |
+| Camshaft end float | 20 | The 1600 GS figures are **read as a range the page does not print as one**. |
+| Steering rack supports | 42 | The component behind "rudder" is not recoverable; "steering arms" is from context only. |
+| Body repair, minor damage | 52 | "scalex" names a tool or location in a repair step and is not recoverable. |
+| Harness directory index | 64 | A standing warning that an entire 9-page section must not be trusted as an index. Permanent, not resolvable. |
+
+The 15 closed were glosses that resolve themselves — "*Directorate*" is *direction*,
+"*VA spring*" is *AV* transposed, "*Yours.*" is the translator's rendering of
+*correspondantes*. Two were closed despite naming something unrecoverable, because what was
+lost is not actionable: the `JT` column header of a table that is **empty anyway**, and the
+town name of a 1971 Hylomar supplier in département 37.
 
 ## Highest risk if guessed — start here
 

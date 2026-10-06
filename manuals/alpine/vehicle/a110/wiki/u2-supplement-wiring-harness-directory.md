@@ -65,7 +65,8 @@ contents, and no reference number above is complete. A reader needing harness da
 the source PDF pp.64-72.
 Note also that the main manual's only wiring diagram (p.29) covers the Version 85 (série)
 only — see [C — Electrical Equipment](c-electrical-equipment.md#c-wiring-diagram).
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.49 · blocks-a-job 0.31 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.49 · blocks-a-job 0.31 
+     HAND-CHECKED: kept open because a standing warning that an entire 9-page section must not be trusted as an index. -->
 
 ---
 
