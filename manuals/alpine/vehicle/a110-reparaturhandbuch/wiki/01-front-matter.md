@@ -5,6 +5,9 @@ The contents pages (PDF 2-6) are NOT reproduced verbatim -- see the note under C
 
 # Front matter — coverage, chassis numbers, type codes and the service schedule
 
+<a id="p1"></a>
+**[PDF p.1]**
+
 ## Cover
 
 > **REPARATURHANDBUCH — Typ A 110**
@@ -20,6 +23,9 @@ The cover lists only the 1300 VA/VB/VC, 1600 VB and GS types, but the book cover
 that: the chassis-number and type tables below carry the **1600 VA, 1600 VC, 1600 VD and
 1600 VH** as well, through to the end of production. See
 [the key-settings plate](02-general-technical-data.md#key-settings-plate-wichtigste-einstellungen).
+
+<a id="p2"></a>
+**[PDF p.2]**
 
 ## Contents
 
@@ -42,6 +48,9 @@ The contents page closes with the publisher's disclaimer:
 > **excluding all liability**.
 > *(„Die in diesem Buch enthaltenen Ratschläge werden nach bestem Wissen und Gewissen erteilt,
 > jedoch unter Ausschluß jeglicher Haftung!")*
+
+<a id="p7"></a>
+**[PDF p.7]**
 
 ## Chassis numbers by build period
 
@@ -82,6 +91,9 @@ The contents page closes with the publisher's disclaimer:
   (4) The source prints repeat marks (ditto) rather than restating the build period on
       continuation rows; the period has been written out in full on every row here for
       table legibility. The 1300 S row for 70/71 is a ditto of "Produktionsende". -->
+
+<a id="p8"></a>
+**[PDF p.8]**
 
 ## Renault and Alpine type codes with their engines and gearboxes
 
@@ -168,6 +180,9 @@ here. -->
 <!-- NEEDS REVIEW: the R16 TS output reads "83" and the R16 TX "93" on the image; both digits
 are at the edge of legibility and could be 88/98. The R8 Major displacement pair "956/1108"
 and output "40/45" are clear. Verify any figure before relying on it. -->
+
+<a id="p9"></a>
+**[PDF p.9]**
 
 ## Service diagnosis schedule
 

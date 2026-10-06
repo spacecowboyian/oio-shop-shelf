@@ -1,3 +1,15 @@
+---
+# AUTO-GENERATED — taxonomy front matter (scripts/10_write_frontmatter.py); do not edit
+slug: "alpine-a110-reparaturhandbuch"
+title: "Alpine A110 Reparaturhandbuch (Typ A 110) — German factory repair handbook, RENAULT · ALPINE"
+make: "Alpine"
+category: "vehicle"
+models: ["A110"]
+chassis: ["1300VA", "1300VB", "1300VC", "1600VA", "1600VB", "1600VC", "1600VD", "1600VH"]
+engines: ["810-30", "810-05", "812-00", "807-25", "843-30", "844-30", "844-32", "844-34", "1600 GS"]
+years: "1969-1976"
+---
+
 <!-- Taxonomy front matter is generated here by scripts/10_write_frontmatter.py once the
      manifest exists. Do not hand-write it. -->
 
