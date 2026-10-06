@@ -8,6 +8,17 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 300 | mm | [a-general.md](a-general.md) | Steering wheel Ø: **300 mm, 330 mm and 360 mm**. |
 | 330 | mm | [a-general.md](a-general.md) | Steering wheel Ø: **300 mm, 330 mm and 360 mm**. |
 | 360 | mm | [a-general.md](a-general.md) | Steering wheel Ø: **300 mm, 330 mm and 360 mm**. |
+| 20–23 | psi | [a-general.md](a-general.md) | For reference, those are roughly **20–23 psi front / 28–33 psi rear** on 15-inch wheels an |
+| 28–33 | psi | [a-general.md](a-general.md) | For reference, those are roughly **20–23 psi front / 28–33 psi rear** on 15-inch wheels an |
+| 23–26 | psi | [a-general.md](a-general.md) | **23–26 psi front / 33–36 psi rear** on 13-inch wheels. |
+| 33–36 | psi | [a-general.md](a-general.md) | **23–26 psi front / 33–36 psi rear** on 13-inch wheels. |
+| 0.98 | bar | [a-general.md](a-general.md) | atmosphere, ≈ 0.98 bar), NOT a bare mass and NOT psi. |
+| 14 | psi | [a-general.md](a-general.md) | original — prints its own tyre pressures as "1 kg (14 psi)" front and "1.5 kg (23 psi)" |
+| 23 | psi | [a-general.md](a-general.md) | original — prints its own tyre pressures as "1 kg (14 psi)" front and "1.5 kg (23 psi)" |
+| 14 | psi | [a-general.md](a-general.md) | rear (manuals/renault/vehicle/dauphine, wiki/k-wheels-hubs-drums.md, PDF p.332). 14 psi |
+| 14.223 | psi | [a-general.md](a-general.md) | per 1 kg is kg/cm2 (1 kg/cm2 = 14.223 psi). The Toyota MR2 FSM in this repo prints the |
+| 30 | psi | [a-general.md](a-general.md) | same pairing explicitly: "2.1 kg/cm2 (30 psi)". |
+| 14.223 | psi | [a-general.md](a-general.md) | 14.223 psi per kg/cm2, rounded to the nearest psi. They are not in the source. The |
 | 2.6 | mm | [b-engine-ignition.md](b-engine-ignition.md) | relative to the manifold; machining (**2.6 mm**) of the joint face. |
 | 2.6 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "rectification (2.6 mm) of the plane joint" is machining of the head joint face by 2.6 mm  |
 | 2.6 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "rectification (2.6 mm) of the plane joint" is machining of the head joint face by 2.6 mm  |

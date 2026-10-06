@@ -276,19 +276,34 @@ partly translated; the arrangement above is the evident reading — verify.
 
 Tyres: **Michelin X AS — Dunlop SP Sport — V10 GT**.
 
-Recommended pressures, in kg:
+Recommended pressures, printed as "in kg" — i.e. **kg/cm²** (see note):
 
 | Wheels | Front | Rear |
 | ------ | ----- | ---- |
 | 15 inch | 1,4 to 1,6 | 2.0 to 2.3 |
 | 13 inch | 1.6 to 1.8 | 2.3 to 2.5 |
 
-<!-- NEEDS REVIEW:the unit is printed only as "kg" — on a French manual of this date that
-is kg/cm2 (≈ bar). Not stated on the page, so not asserted here. The 15-inch front figure
-is printed "1, 4 to 1,6" with French commas while the rest of the table uses periods; all
-left as printed.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.57 · risk-if-guessed 0.59 · blocks-a-job 0.27 
-     HAND-CHECKED: kept open because the UNIT of the tyre pressures is genuinely unknown — the page prints only "kg". -->
+For reference, those are roughly **20–23 psi front / 28–33 psi rear** on 15-inch wheels and
+**23–26 psi front / 33–36 psi rear** on 13-inch wheels.
+
+<!-- TRANSLATION NOTE (unit resolved from the shop-shelf, 2026-10-06): the page prints the
+unit only as "kg". That is the French convention of the period for kg/cm2 (= 1 technical
+atmosphere, ≈ 0.98 bar), NOT a bare mass and NOT psi.
+     Settled from this repo rather than from general knowledge: the Renault Dauphine M.R.93
+     — same manufacturer, same country, same era, and an English edition of a French
+     original — prints its own tyre pressures as "1 kg (14 psi)" front and "1.5 kg (23 psi)"
+     rear (manuals/renault/vehicle/dauphine, wiki/k-wheels-hubs-drums.md, PDF p.332). 14 psi
+     per 1 kg is kg/cm2 (1 kg/cm2 = 14.223 psi). The Toyota MR2 FSM in this repo prints the
+     same pairing explicitly: "2.1 kg/cm2 (30 psi)".
+     The psi figures added above are CONVERSIONS computed from the printed kg/cm2 values at
+     14.223 psi per kg/cm2, rounded to the nearest psi. They are not in the source. The
+     printed values themselves are unchanged, French decimal commas and all: the 15-inch
+     front cell prints "1, 4 to 1,6" while the rest of the table uses periods. -->
+
+<!-- TRANSLATION NOTE: the 15-inch front figure is printed "1, 4 to 1,6" with French decimal
+commas and a stray space, while the rest of the table uses periods. Transcribed exactly as
+printed; read as 1,4 to 1,6, which is the only reading consistent with the other three cells
+(pressures rise as wheel diameter falls). Nothing undecided. -->
 
 Rims:
 
