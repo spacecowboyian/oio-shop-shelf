@@ -110,3 +110,10 @@ makes:
       807-25:
         name: 807-25            # 1600 S / 1600 VB; derived from 807-01 (Renault 16 TS)
         family: Cleon-Alu
+      1600-gs:
+        name: 1600 GS           # competition engine option, derived from 807-25
+        # The manual gives NO engine number for this one: its own characteristics table
+        # (B-2) prints the version name "1600 GS" in the column where every other version
+        # prints an engine code. So "1600 GS" is the designation the source actually uses,
+        # not a stand-in for a code we failed to find.
+        family: Cleon-Alu
