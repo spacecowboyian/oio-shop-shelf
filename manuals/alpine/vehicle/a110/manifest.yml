@@ -6,7 +6,7 @@ taxonomy:
   category: vehicle
   models: [a110]
   chassis: [1300VA, 1300VB, 1300VC, 1600VB]
-  engines: [810-30, 812-00, 807-25]
+  engines: [810-30, 812-00, 807-25, 1600-gs]
   years: "1970-1971"
 
 source:
