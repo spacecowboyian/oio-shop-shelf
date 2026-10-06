@@ -100,7 +100,7 @@ makes:
         # 1300VA/VB/VC, 1600VB and GS are the cover-stated types of the model-70 book.
         # 1600VC/VD/VH come from the "Wichtigste Einstellungen" plate (printed p.12) of the
         # German Reparaturhandbuch — the later SC and SI cars.
-        chassis: [1300VA, 1300VB, 1300VC, 1600VB, 1600VC, 1600VD, 1600VH]
+        chassis: [1300VA, 1300VB, 1300VC, 1600VA, 1600VB, 1600VC, 1600VD, 1600VH]
     engines:
       # --- Cléon-Fonte / "Sierra" derived, 1300 cars ---
       810-30:

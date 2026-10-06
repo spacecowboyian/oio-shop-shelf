@@ -228,8 +228,11 @@ plate). The unit is NOT converted (Rule 13). 6 m·daN is approximately 60 N·m; 
 approximation as a working figure without checking the per-engine chapter. -->
 
 Head-bolt tightening sequences are printed on the plate as two numbered diagrams — one for
-engine 810 and one for engines 843 and 844. They are diagram-only and are delivered as an
-image rather than transcribed from the leader lines; see the diagram registered for PDF p.13.
+engine 810 and one for engines 843 and 844. They are diagram-only: the bolt order is carried
+entirely by the positions of the numbers in the figures, so it is delivered as an image rather
+than transcribed from the leader lines.
+
+![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](../diagrams/p0013-key-settings-plate.webp)
 
 **Lubrication** — minimum oil pressure at 80 °C:
 
@@ -304,8 +307,9 @@ specification is repeated in the Brakes block below. -->
     rest of this manual documents (there is no type 355 anywhere else in the book), so the
     printed value is likely a misprint that the owner corrected — but the printed value is
     kept here per Rule 0.
-  - "385-15" is printed; no type 385 appears anywhere else in the manual, whereas 365 does.
-    Likely "365-15" misread or misprinted. Kept as read.
+  - "385-15" is printed, and type 385 is REAL: the type cross-reference table on PDF p.8
+    gives gearbox 385 for the 1600 VH (SX) and for the Renault 16 TX. So this cell is not a
+    misread of 365. The "-15" suffix is still unexplained and unconfirmed.
   - "364" and "2,2 L" are HANDWRITTEN additions, not printed. They are retained because type
     364 and its 2 1/2 litre capacity are confirmed by the printed capacities section above —
     but they are an owner's annotation, not factory data.
