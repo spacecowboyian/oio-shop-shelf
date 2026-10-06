@@ -188,6 +188,24 @@ addEventListener("keydown", e => {
 
 addEventListener("resize", () => { cache.clear(); show(); });
 
+// Poll for a page pushed by `serve.py --goto N`. Only a change in rev moves the
+// view, so this never fights the remote while you are reading.
+let lastRev = null;
+setInterval(async () => {
+  try {
+    const st = await (await fetch("/state", { cache: "no-store" })).json();
+    if (lastRev === null) { lastRev = st.rev; return; }
+    if (st.rev !== lastRev) {
+      lastRev = st.rev;
+      if (!doc) return;
+      if (zoom) exitZoom();
+      page = Math.min(Math.max(1, st.page), total);
+      sel = 0;
+      show();
+    }
+  } catch (e) { /* server gone; keep showing what we have */ }
+}, 1500);
+
 (async () => {
   label.textContent = "loading PDF\u2026";  doc = await pdfjsLib.getDocument({ url: FILE, rangeChunkSize: 262144 }).promise;
   total = doc.numPages;
