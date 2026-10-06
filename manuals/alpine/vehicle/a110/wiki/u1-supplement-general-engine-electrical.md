@@ -31,10 +31,11 @@ Add the **ALPINE 5a aluminium rim**, fitted as series equipment on the 1600 S si
 **Cooling system with heating:** correct, for models with a front radiator, the quoted
 capacity to **13 to 14 litres instead of 9 litres**.
 
-<!-- NEEDS REVIEW: supersedes the "Cooling system with heating: 9 l" figure in
+<!-- NEEDS REVIEW:supersedes the "Cooling system with heating: 9 l" figure in
 [A — General, §14](a-general.md#14-capacity). The 9 l figure stays correct only for cars
 with a rear radiator. "ALPINE 5a" may be "5 1/2" — the A-3 rim table lists an
-"ALPINE 5 1/2 × 13"; verify against the source PDF p.62. -->
+"ALPINE 5 1/2 × 13"; verify against the source PDF p.62.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.95 · risk-if-guessed 0.57 · blocks-a-job 0.35 -->
 
 <a id="p62"></a>
 **[PDF p.62]**
@@ -72,10 +73,11 @@ Add the address of the supplier of **Hylomar** paste:
 > 96, rue Georges SAND
 > 37 — COURSE
 
-<!-- NEEDS REVIEW: "dough" is French "pâte" = paste (the Hylomar jointing compound used on
+<!-- NEEDS REVIEW:"dough" is French "pâte" = paste (the Hylomar jointing compound used on
 the 1300 S head gasket — see [B-8](b-engine-ignition.md#b-8-head-gasket-replacement)).
 "37- COURSE" is the département 37 plus a town name the translation garbled; not
-recoverable. -->
+recoverable.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.71 · blocks-a-job 0.35 -->
 
 <a id="p62"></a>
 ### Page B-10 — Gudgeon pin diameters
@@ -84,9 +86,10 @@ recoverable. -->
 | --- | --- | --- | --- | --- | --- |
 | Piston pin Ø | 20 | 20 | 20 | 21 | 21 |
 
-<!-- NEEDS REVIEW: the main manual's B-10 gives no gudgeon pin diameters at all (only
+<!-- NEEDS REVIEW:the main manual's B-10 gives no gudgeon pin diameters at all (only
 whether the pin is tight or free), so this table ADDS data rather than correcting it. No
-unit is printed; mm is implied by the Ø symbol but not stated. -->
+unit is printed; mm is implied by the Ø symbol but not stated.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.95 · risk-if-guessed 0.50 · blocks-a-job 0.16 -->
 
 <a id="p62"></a>
 ### Page B-12
@@ -95,10 +98,11 @@ unit is printed; mm is implied by the Ø symbol but not stated. -->
 - **Paragraph 6** — correct the cooling capacity: for versions with a front radiator,
   **13 to 14 litres instead of 9 litres**.
 
-<!-- NEEDS REVIEW: this is the first place in the whole manual where the oil-pressure UNIT
+<!-- NEEDS REVIEW:this is the first place in the whole manual where the oil-pressure UNIT
 is stated — "bars". The B-12 oil-pressure table (PDF p.21) prints its figures with no unit
 at all; this amendment makes bars the likely reading there too, but the main table is still
-left unitless in [B-12](b-engine-ignition.md#b-12-5-lubrication) as printed. -->
+left unitless in [B-12](b-engine-ignition.md#b-12-5-lubrication) as printed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.91 · risk-if-guessed 0.64 · blocks-a-job 0.31 -->
 
 <a id="p62"></a>
 ### Page B-13 — Thermostat
@@ -112,9 +116,10 @@ Add:
 
 The **1600 GS group IV** versions are fitted **without thermostat**.
 
-<!-- NEEDS REVIEW: the temperature unit is printed only as "15°" — °C is implied but not
+<!-- NEEDS REVIEW:the temperature unit is printed only as "15°" — °C is implied but not
 stated. This supersedes nothing in B-13, which only mentions a thermostat pierced with 1 to
-4 bleed holes of Ø 4.5. -->
+4 bleed holes of Ø 4.5.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.92 · risk-if-guessed 0.61 · blocks-a-job 0.31 -->
 
 <a id="p62"></a>
 ### Page B-14 — Carburation
@@ -134,8 +139,7 @@ stated. This supersedes nothing in B-13, which only mentions a thermostat pierce
   - minimum **0,170 bar**
   - maximum **0.280 bar**
 
-<!-- NEEDS REVIEW:
-(1) "replace air sprinkler 200 para. 180" is French "remplacer le gicleur d'air 200 par le
+<!-- NEEDS REVIEW:(1) "replace air sprinkler 200 para. 180" is French "remplacer le gicleur d'air 200 par le
     180" = replace the 200 air corrector jet with the 180 — "para." is "par le". This
     supersedes the 1600 S "G. Air (a) = 200" cell in
     [B-13/B-14 Carburation](b-engine-ignition.md#b-13-b-14-7-carburation).
@@ -144,7 +148,8 @@ stated. This supersedes nothing in B-13, which only mentions a thermostat pierce
     1.3 mm" on the same page.
 (4) "the pump does not debi-" is "la pompe ne débitant pas" = with the pump not delivering.
     The minimum prints with a French comma (0,170) and the maximum with a period (0.280);
-    both left as printed. -->
+    both left as printed.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.23 · risk-if-guessed 0.42 · blocks-a-job 0.22 -->
 
 <a id="p62"></a>
 ### Page B-15 — Ignition
@@ -193,11 +198,12 @@ mechanical tachometer drive, reference **4245**, curves **R.247** and **C. 34**.
   sure it is connected correctly. The supply for this motor is provided by a **Cartier 12 V
   relay, reference 08 55 608 100**.
 
-<!-- NEEDS REVIEW: "D8 E7l" prints a letter l for the final character; read as D8 E71 — but
+<!-- NEEDS REVIEW:"D8 E7l" prints a letter l for the final character; read as D8 E71 — but
 the C-1 table in the main manual lists the 1300 G/1300 S starter as "PARIS-RHONE 12V D8
 E75", so this could equally be D8 E75 with a damaged digit. NOT resolved; check the source
 PDF p.63 before ordering. "Moto fan" is "moto-ventilateur" = fan motor; "The motor motor
-motor fan" is a repeated-word OCR artifact. -->
+motor fan" is a repeated-word OCR artifact.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.98 · risk-if-guessed 0.80 · blocks-a-job 0.66 -->
 
 <a id="p63"></a>
 ### Centrifugal advance curves R.247, R.262, R.267 and vacuum curve T.C.34

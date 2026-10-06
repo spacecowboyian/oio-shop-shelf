@@ -95,6 +95,13 @@ on pages 64–72 and **paint and polyurethane lacquer compositions** on 76–77.
   will often need the corresponding **Renault** workshop manual.
 - No owner/driver content, no parts catalogue, no later A110 1600 SC/SX material (post-1973).
 
+## Review flags
+
+This conversion carries **92 open `NEEDS REVIEW` flags** — high, and earned: see the caveats
+below. They have been triaged into a ranked worklist, with the highest-risk items and the
+pages that retire the most flags per minute called out in **[TRIAGE.md](TRIAGE.md)**. No
+value in this manual was decided by a model.
+
 ## Provenance caveats — read before trusting a number
 
 1. **It is a machine translation.** Section titles alone show the quality: "MOTOR ALLUMAGE",

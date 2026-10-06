@@ -57,14 +57,15 @@ The pages are headed, as far as is legible, **"DIRECTORY OF FAILURES"** — Fren
 | 10 | 71 | Butt connectors — body/chassis frame, single Ø 5, Ø 2 |
 | 11 | 72 | **Characteristics of lamps** — cross-reference numbers (e.g. 08 54 013 46…, 77 01 500 …) |
 
-<!-- NEEDS REVIEW: the table above is a reading of scattered legible words across each page
+<!-- NEEDS REVIEW:the table above is a reading of scattered legible words across each page
 image and is offered only so a reader can tell which page to open. The words themselves are
 machine-translated from French and several ("Fo g-f re", "Ri ghga", "Mano- conta ct") are
 too broken to interpret. NOTHING here should be treated as an accurate index of the page
 contents, and no reference number above is complete. A reader needing harness data must use
 the source PDF pp.64-72.
 Note also that the main manual's only wiring diagram (p.29) covers the Version 85 (série)
-only — see [C — Electrical Equipment](c-electrical-equipment.md#c-wiring-diagram). -->
+only — see [C — Electrical Equipment](c-electrical-equipment.md#c-wiring-diagram).
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.49 · blocks-a-job 0.31 -->
 
 ---
 

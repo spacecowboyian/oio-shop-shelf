@@ -18,8 +18,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 38,5 | mm | [b-engine-ignition.md](b-engine-ignition.md) | Ø **38,5 mm**. |
 | 0.5 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "5/10th" and "4/10th" are French shorthand for 0.5 mm and 0.4 mm; left in the printed form |
 | 0.4 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "5/10th" and "4/10th" are French shorthand for 0.5 mm and 0.4 mm; left in the printed form |
-| 1,2 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "1,2 mm" and "38,5 mm" keep their French decimal commas as printed. --> |
-| 38,5 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "1,2 mm" and "38,5 mm" keep their French decimal commas as printed. --> |
+| 1,2 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "1,2 mm" and "38,5 mm" keep their French decimal commas as printed. |
+| 38,5 | mm | [b-engine-ignition.md](b-engine-ignition.md) | "1,2 mm" and "38,5 mm" keep their French decimal commas as printed. |
 | 5 | mm | [b-engine-ignition.md](b-engine-ignition.md) | - Oil pump rotor **5 mm** higher. |
 | 150 | °C | [b-engine-ignition.md](b-engine-ignition.md) | > assembly. Dry it by heating to about **150 °C for 20 minutes** in an oven. A simple |
 | 1.3 | mm | [b-engine-ignition.md](b-engine-ignition.md) | Gasket between the aluminium manifolds and the carburettor base: **1.2 to 1.3 mm**. |
@@ -85,7 +85,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 12 | V | [c-electrical-equipment.md](c-electrical-equipment.md) | 20 **Heater motor** Sofica 12 V, type R1135 Sofica 12 V, type R 1135 Sofica 12 V, type R 1 |
 | 12 | V | [c-electrical-equipment.md](c-electrical-equipment.md) | 20 **Heater motor** Sofica 12 V, type R1135 Sofica 12 V, type R 1135 Sofica 12 V, type R 1 |
 | 2 | V | [c-electrical-equipment.md](c-electrical-equipment.md) | (6) "DUCEL I2V" in row 18 of the 1600 S column uses a capital I for the digit 1 — an OCR |
-| 12 | V | [c-electrical-equipment.md](c-electrical-equipment.md) | artifact; the value is 12 V. --> |
+| 12 | V | [c-electrical-equipment.md](c-electrical-equipment.md) | artifact; the value is 12 V. |
 | 21 | mm | [e-gearbox.md](e-gearbox.md) | 353-03 5 (normal) 8×33 "normal" 0980794200 *Montée sur R.1135, normal largeur roulement pi |
 | 21 | mm | [e-gearbox.md](e-gearbox.md) | 353-05 5 (normal) 9×34 "normal" 0980794400 *Ne diffère de 353-03 que par le couple. Roulem |
 | 19 | mm | [e-gearbox.md](e-gearbox.md) | 353-13 5 (normal) 8×33 *renforcé* 7701500574 *Ne diffère de 353-03 que par le couple renfo |
@@ -93,7 +93,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 44,8 | mm | [g-steering.md](g-steering.md) | Rack travel per turn of the steering wheel 44,8 mm 57.5 mm |
 | 57.5 | mm | [g-steering.md](g-steering.md) | Rack travel per turn of the steering wheel 44,8 mm 57.5 mm |
 | 2 | mm | [g-steering.md](g-steering.md) | the **rack rings** — the rack itself is raised by **2 mm**. |
-| 8 | mm | [g-steering.md](g-steering.md) | (1) "A turn of the steering wheel causes a movement of the 44, 8mm rack" — the French |
+| 8 | mm | [g-steering.md](g-steering.md) | &lt;!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):(1) "A turn  |
 | 44,8 | mm | [g-steering.md](g-steering.md) | decimal comma makes this 44,8 mm (not "44" and "8mm"); read from the page image. |
 | 8 | mm | [g-steering.md](g-steering.md) | decimal comma makes this 44,8 mm (not "44" and "8mm"); read from the page image. |
 | 55 | mm | [g-steering.md](g-steering.md) | - standard supports — **H = 55 mm** mounting-hole spacing; |
@@ -201,7 +201,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 32 | mm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | production brakes in M-2 (38/32 mm cylinders, |
 | 261 | mm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | 261 mm discs). Do not mix the two sets. --> |
 | 6.8 | cm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | thickness **6.8 cm**, plus nuts and washers. |
-| 6.8 | cm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | &lt;!-- NEEDS REVIEW: "head thickness: 6.8 cm" is almost certainly wrong as a unit — a scr |
+| 6.8 | cm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | &lt;!-- NEEDS REVIEW:"head thickness: 6.8 cm" is almost certainly wrong as a unit — a scre |
 | 68 | mm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | head 68 mm thick is not plausible, and the equivalent rear-brake step below gives "head |
 | 6.8 | cm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | thickness: 4.2" with no unit. The page prints "6.8 cm"; it is left EXACTLY as printed. |
 | 3 | mm | [u3-supplement-steering-brakes.md](u3-supplement-steering-brakes.md) | 4. Fit a flat washer **3 mm** thick on that stud to compensate for the thickness of the |
@@ -221,7 +221,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 12 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | (3) "3o (range of 12 mm instead of 6)" — "3o" is 3° (degree sign OCR'd as o). |
 | 137 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | **137 mm ± 1** between the lower part of the beam and the table surface, at about |
 | 100 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | **100 mm** back from the axis of the front members (this support is necessary because the |
-| 37 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | &lt;!-- NEEDS REVIEW: "a distanthis of l37 mm + l" — the OCR gives l for 1 twice; read as |
+| 37 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | &lt;!-- NEEDS REVIEW:"a distanthis of l37 mm + l" — the OCR gives l for 1 twice; read as |
 | 137 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | 137 mm ± 1 from the page image. "marble" is "marbre" = surface table/alignment bench; |
 | 9.5 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | 2. Drill using a **9.5 mm** long-series drill (useful length **150 mm**), giving the drill |
 | 150 | mm | [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md) | 2. Drill using a **9.5 mm** long-series drill (useful length **150 mm**), giving the drill |

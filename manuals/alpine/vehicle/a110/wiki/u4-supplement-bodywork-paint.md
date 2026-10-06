@@ -20,8 +20,9 @@ English overlay rotated across the French and **cannot be read as text**.
 
 ![Table 2, December 1970 edition — composition of VERILAC polyurethane lacquers — PDF p.76](../diagrams/p0076-supplement-table2-lacquers.webp)
 
-<!-- NEEDS REVIEW: nothing from this page is transcribed. The readable page that follows
-(supplement p.16, below) covers the same ground in usable form — prefer it. -->
+<!-- NEEDS REVIEW:nothing from this page is transcribed. The readable page that follows
+(supplement p.16, below) covers the same ground in usable form — prefer it.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.87 · risk-if-guessed 0.40 · blocks-a-job 0.28 -->
 
 <a id="p77"></a>
 **[PDF p.77]**
@@ -161,8 +162,7 @@ English overlay rotated across the French and **cannot be read as text**.
 | Azure blue | 1,000 kg | 60 00 001 628 |
 | Aluminium underlayer | 1,000 kg | 60 00 001 629 |
 
-<!-- NEEDS REVIEW:
-(1) The White row of section 13 prints its reference truncated as "60 00 001 6" — the last
+<!-- NEEDS REVIEW:(1) The White row of section 13 prints its reference truncated as "60 00 001 6" — the last
     two digits are cut off at the page edge. Shown as "60 00 001 6…"; it is almost certainly
     613 given the sequence 614-629 that follows, but that is NOT printed, so it is not
     asserted.
@@ -177,7 +177,8 @@ English overlay rotated across the French and **cannot be read as text**.
 (5) Codes with internal spaces ("AS AT 4917 3", "As at 49 124", "C8 17") are printed that
     way. "As at 49 124" is the same product as "AT 49124" named on manual page N-3 — the
     spacing differs between pages. Section 10's catalyst "C8 17" is the "817" catalyst of
-    N-3 with an OCR'd prefix. -->
+    N-3 with an OCR'd prefix.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.95 · risk-if-guessed 0.32 · blocks-a-job 0.29 -->
 
 <a id="p78"></a>
 **[PDF p.78]**
@@ -298,12 +299,13 @@ Refitting:
 11. Refit the mechanical assemblies and adjust the front axle and the steering housing.
 12. Weld the brake hose supports.
 
-<!-- NEEDS REVIEW: "a distanthis of l37 mm + l" — the OCR gives l for 1 twice; read as
+<!-- NEEDS REVIEW:"a distanthis of l37 mm + l" — the OCR gives l for 1 twice; read as
 137 mm ± 1 from the page image. "marble" is "marbre" = surface table/alignment bench;
 "holds" is "cales" = shims (as elsewhere); "Pop laughs" is "rivets Pop"; "false loin / false
 AV lanterns" is "faux longerons" = false side members — "lanterne" and "loin" are both the
 translation misreading "longeron". The step order above follows the page's own order but the
-two columns of the original interleave; verify against the source PDF p.79. -->
+two columns of the original interleave; verify against the source PDF p.79.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.93 · risk-if-guessed 0.68 · blocks-a-job 0.32 -->
 
 <a id="p78"></a>
 ### E — Rear section of the beam frame
@@ -340,11 +342,12 @@ SA 70** from:
 
 Replacement blades bear the reference **EP 9239**.
 
-<!-- NEEDS REVIEW: the last hull element prints "Pavillon with and without bullets-/Break."
+<!-- NEEDS REVIEW:the last hull element prints "Pavillon with and without bullets-/Break."
 — "pavillon" is the roof panel, but the qualifier is not recoverable. "Half-block AV and AR
 up to the amount of door included" is "demi-flancs AV et AR jusqu'au montant de porte
 inclus" = front and rear half-sides up to and including the door pillar. "VA part VA bottom
-plate-shape" is "partie AV de la plate-forme" = front part of the platform. -->
+plate-shape" is "partie AV de la plate-forme" = front part of the platform.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.95 · risk-if-guessed 0.38 · blocks-a-job 0.38 -->
 
 <a id="p78"></a>
 ### G — Nutsert and Jack-Nut inserts
@@ -393,12 +396,13 @@ reference **60 00 001 546**, can be used in plastic thicknesses of **4 to 5 mm**
 > 5, rue de Dunkerque
 > 75 — PARIS 10e
 
-<!-- NEEDS REVIEW: the drill in step (b)1 prints "Ø 11" while the nut is a Ø 6 Jack-Nut —
+<!-- NEEDS REVIEW:the drill in step (b)1 prints "Ø 11" while the nut is a Ø 6 Jack-Nut —
 that is what the page says, but it reads oddly; check the source PDF p.80. The clamp
 reference is printed "TI 1956" here and "IT 1956" in the supplement's own tooling table on
 p.83 — the two DISAGREE; both are transcribed. "5 Dunkirk Street" is "5, rue de Dunkerque";
 "THE GARENNE-COLOMBES" is "La Garenne-Colombes" — place names restored. "in his dressing
-room" is a machine-translation artifact with no counterpart. -->
+room" is a machine-translation artifact with no counterpart.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.87 · blocks-a-job 0.59 -->
 
 <a id="p78"></a>
 ### H — Windscreen and rear screen sealing
@@ -481,8 +485,7 @@ the consequence of a lack of mastic between the aluminium gutters, references
 
 Dimensions marked on the drawings, as printed: **150** (drawing D) and **130** (drawing E).
 
-<!-- NEEDS REVIEW:
-(1) "AR bezel" throughout is French "lunette AR" = rear screen/backlight, not a bezel.
+<!-- NEEDS REVIEW:(1) "AR bezel" throughout is French "lunette AR" = rear screen/backlight, not a bezel.
 (2) "hardwood" is French "bois dur"?? — more likely a mistranslation of "baie" (aperture) or
     "caisse" (body shell); the component is NOT recoverable and "hardwood" is almost
     certainly wrong. Rendered as "body" where the sense is clear and left flagged here.
@@ -494,7 +497,8 @@ Dimensions marked on the drawings, as printed: **150** (drawing D) and **130** (
     translated as "flag". The reference numbers 60 00 000 163/164 are legible.
 (6) Paragraph (b)2 step 3 prints "I'm sorry, sir." where the French continued; the step
     above follows the surviving clauses. The cabin/engine-compartment distinction matters
-    (water must drain outside, not inside) — verify against the source PDF p.81. -->
+    (water must drain outside, not inside) — verify against the source PDF p.81.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: verify_against_pdf_page · leaves-undecided 0.97 · risk-if-guessed 0.65 · blocks-a-job 0.48 -->
 
 ---
 

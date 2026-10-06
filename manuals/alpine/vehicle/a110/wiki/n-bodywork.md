@@ -38,7 +38,7 @@ ribs at maximum to allow their adjustment to the bodyshell.
 > **NOTE:** As an option, ALPINE can supply **lightened hulls** for competition use; the
 > weight saving can reach **30 to 40 kg**.
 
-<!-- NEEDS REVIEW: "chas-beam" is "châssis poutre" = backbone chassis; "otters" is a
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"chas-beam" is "châssis poutre" = backbone chassis; "otters" is a
 truncated artifact at the end of the chassis-weight sentence and carries no value; "Cap AV
 and AR" is "capots AV et AR" = front and rear bonnets; "weight gain" is "gain de poids" =
 weight SAVING, not gain. The 100 kg / 50 kg / 30-40 kg figures are legible and unchanged. -->
@@ -85,7 +85,7 @@ for the resin to harden. In an inadequately heated space (less than **18 °C**),
 humidity air currents, or outdoors, the hardening time is longer. It is therefore necessary
 to warm the atmosphere with infra-red, or to increase the dose of catalyst.
 
-<!-- NEEDS REVIEW: "Ree ex:" is "Réf. ex:" = reference, for example; "pre-access AC 33%" is
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):"Ree ex:" is "Réf. ex:" = reference, for example; "pre-access AC 33%" is
 "pré-accéléré à 33 %"; "Naphthenate of Cobait" is cobalt naphthenate; "TRIGCNOX" is
 Trigonox (OCR'd O); "It is therefore necessary to increase the number of workers. / iron the
 atmosphere with infra-" is a broken rendering of "il est donc nécessaire de réchauffer
@@ -145,11 +145,12 @@ separated.
 > This is done at the "scalex" with an abrasive disc **No. 24** on a rasp or disc grinder.
 > Cover the area thus freed of fibre with mixed resin, then apply the polyester mastic.
 
-<!-- NEEDS REVIEW: step 2's reason clause prints "initial qualities of resistance meca- /
+<!-- NEEDS REVIEW:step 2's reason clause prints "initial qualities of resistance meca- /
 I'm sorry." — the machine translation dropped the end of the sentence ("mécanique"); read as
 mechanical resistance. "the repairing room" is "la pièce à réparer" = the part being
 repaired, read as such. The dimension C = 40 to 50 mm and the abrasive disc No. 24 are
-legible. "scalex" is as printed and is not recoverable. -->
+legible. "scalex" is as printed and is not recoverable.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.48 · blocks-a-job 0.22 -->
 
 <a id="p52"></a>
 ### 2) Repair with replacement of a body part
@@ -182,13 +183,14 @@ workshops.
 
 > **NOTE:** Cleaning brushes and containers is done with **acetone**.
 
-<!-- NEEDS REVIEW: "50m/m x 15m/m about" is "50 m/m × 15 m/m environ" — m/m is the French
+<!-- NEEDS REVIEW:"50m/m x 15m/m about" is "50 m/m × 15 m/m environ" — m/m is the French
 shorthand for millimetres, rendered as mm above. "As a rossery, they are not diminished" is
 "la carrosserie n'en est pas diminuée"; "identify the replacement elements, These must be
 carried out by the manufacturer but experience has demonstrated that this approach there was
 no problem" is a scrambled passage whose sense is only partly recoverable — the reading
 above follows the surviving clauses. Plates 82-05 to 82-08 of PR 871 and the catalogue
-reference PR. 871 are legible. -->
+reference PR. 871 are legible.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.90 · risk-if-guessed 0.37 · blocks-a-job 0.24 -->
 
 <a id="p54"></a>
 **[PDF p.54]**
@@ -228,13 +230,14 @@ hardener **430**; diluent **D 4047**.
 
 For other colours: lacquer according to **Table 2**; hardener **430**; diluent **D 4047**.
 
-<!-- NEEDS REVIEW: the products list prints "- I'm sorry." where the first product category
+<!-- NEEDS REVIEW:the products list prints "- I'm sorry." where the first product category
 is named and "- SCUS-CCUCHE." (= "sous-couche" = undercoat) and "- That's right." as further
 category headings — two of the four category names are NOT recoverable. The product codes
 themselves (K 89021, TC 50, K 89007, 817, AU 49173, AT 49124, 41000 B, 430, D 4047) are
 legible and unchanged. "Blue ALPINE me-/Tallised ref. 33l" prints a letter l for the final
 digit; the page elsewhere gives 331, used above. "Hardening 430" is "durcisseur 430" =
-hardener. -->
+hardener.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_blocking · next step: verify_against_pdf_page · leaves-undecided 0.96 · risk-if-guessed 0.36 · blocks-a-job 0.55 -->
 
 #### 3) Surface preparation
 
@@ -257,10 +260,11 @@ hardener. -->
    Apply 3 or 4 coats without interruption. Drying: **5 to 6 hours**.
 5. Take up slight defects with polyester coating. Paper sanding **400** with water.
 
-<!-- NEEDS REVIEW: the TC 50 dose prints "= 2 per-" followed by "It's not a big deal." — the
+<!-- NEEDS REVIEW:the TC 50 dose prints "= 2 per-" followed by "It's not a big deal." — the
 unit word is cut off and the translator emitted an apology in its place. "2 parts" above
 follows the 100-parts basis of the line above it, but the printed text does NOT say "parts"
-— verify against the source PDF p.54. All other quantities and times are legible. -->
+— verify against the source PDF p.54. All other quantities and times are legible.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.93 · risk-if-guessed 0.32 · blocks-a-job 0.24 -->
 
 #### 4) Application of lacquers (composition — Table 2)
 
@@ -289,10 +293,11 @@ For the complete painting of one car, allow:
 | Underlay mixture | 1.7 kg |
 | Lacquer mixture | 3,3 kg |
 
-<!-- NEEDS REVIEW: the lacquer quantity prints "- 3, 3kg" — a French decimal comma split by
+<!-- NEEDS REVIEW:the lacquer quantity prints "- 3, 3kg" — a French decimal comma split by
 a space, read as 3,3 kg; the other two rows use periods. The 9 kg primer figure is large
 relative to the other two but is what the page prints. "hat number 30" is "chapeau n° 30" =
-air cap No. 30; "Pistolage" is spray application, left as printed in the sentence. -->
+air cap No. 30; "Pistolage" is spray application, left as printed in the sentence.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.33 · risk-if-guessed 0.26 · blocks-a-job 0.18 -->
 
 <a id="p54"></a>
 ### (b) Painting of bonnet interiors
@@ -311,12 +316,13 @@ Astral for example).
 
 Drying: **1 hour** at ambient temperature.
 
-<!-- NEEDS REVIEW: "aureoles" is "auréoles" = haloes/rings; "Depolished depolishment" is
+<!-- NEEDS REVIEW:"aureoles" is "auréoles" = haloes/rings; "Depolished depolishment" is
 "dépolissage" = matting/keying the surface. The paragraph ends "Drying: 1 hour at am-
 temperature / You're a biante." — "am-/biante" is "ambiante" (ambient) split across a line
 with the translator's apology inserted; read as ambient temperature. The two paint codes
 341 0016 and 341 0014 differ by one digit and are both legible — check them against the
-source PDF p.55 before ordering. -->
+source PDF p.55 before ordering.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: verify_against_pdf_page · leaves-undecided 0.94 · risk-if-guessed 0.31 · blocks-a-job 0.30 -->
 
 <a id="p56"></a>
 **[PDF p.56]**
@@ -362,7 +368,7 @@ source PDF p.55 before ordering. -->
 | 11 | STEEL BLUE |
 | 12 | ORANGE |
 
-<!-- NEEDS REVIEW: colour names are left exactly as printed, including the ones the
+<!-- TRANSLATION NOTE (triaged: nothing left undecided, no value at stake):colour names are left exactly as printed, including the ones the
 translation mangled: "VERY PARIOLI" is French "VERT PARIOLI" (Parioli green) with T read as
 Y; "BEIG SABLE" is "BEIGE SABLE"; "JAUNE" and "GRIS MONTEBELLO" were left untranslated by
 the source. Codes 1-12 are legible and sequential. This is the key to the identification
@@ -384,15 +390,17 @@ Fragments legible on the page, recorded only as orientation — **not as data**:
 parts-by-weight figures (100, 147, 172, 146, 010, 40, 43, 47, 4047 …) and the product codes
 **UT 146 010**, **D 430**, **4047**.
 
-<!-- NEEDS REVIEW: nothing in Table 2 is transcribed as data. The parts-by-weight figures
+<!-- NEEDS REVIEW:nothing in Table 2 is transcribed as data. The parts-by-weight figures
 cannot be attributed to their colour rows under the overlay. A cleaner version of the same
 information appears in the UPDATE SUPPLEMENT on PDF p.77 — see
 [u4-supplement-bodywork-paint.md](u4-supplement-bodywork-paint.md), which lists the
-polyurethane lacquer kit compositions in readable form. Prefer that page. -->
+polyurethane lacquer kit compositions in readable form. Prefer that page.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: other · leaves-undecided 0.95 · risk-if-guessed 0.41 · blocks-a-job 0.30 -->
 
 ## Missing pages in this scan
 
-<!-- NEEDS REVIEW: ABRIDGED SCAN — section N ends at N-5 in this scan, but the October 1971 supplement cites page N-13 of this manual (and the supplement's Chapter N amendment refers to a 'table 2 on page N-6' that is not in this scan either). Pages N-6 through N-13 therefore existed and are ABSENT. Anything about body dimensions, chassis jigs or trim that would live in those pages is simply not here. -->
+<!-- NEEDS REVIEW:ABRIDGED SCAN — section N ends at N-5 in this scan, but the October 1971 supplement cites page N-13 of this manual (and the supplement's Chapter N amendment refers to a 'table 2 on page N-6' that is not in this scan either). Pages N-6 through N-13 therefore existed and are ABSENT. Anything about body dimensions, chassis jigs or trim that would live in those pages is simply not here.
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: record_as_source_defect · leaves-undecided 0.96 · risk-if-guessed 0.71 · blocks-a-job 0.51 -->
 
 See [10-needs-review.md](10-needs-review.md) and [../README.md](../README.md).
 
