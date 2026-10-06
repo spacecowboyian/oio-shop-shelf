@@ -19,3 +19,6 @@ venv/
 
 # Staged source PDFs awaiting conversion (the converted manual commits its own copy)
 _inbox/
+
+# tv-reader PDF cache (downloaded from Releases on demand)
+scripts/tv-reader/.cache/
