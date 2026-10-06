@@ -5,7 +5,7 @@ taxonomy:
   make: alpine
   category: vehicle
   models: [a110]
-  chassis: [1300VA, 1300VB, 1300VC, 1600VB, 1600VC, 1600VD, 1600VH]
+  chassis: [1300VA, 1300VB, 1300VC, 1600VA, 1600VB, 1600VC, 1600VD, 1600VH]
   engines: [810-30, 810-05, 812-00, 807-25, 843-30, 844-30, 844-32, 844-34, 1600-gs]
   years: "1969-1976"
 
@@ -219,3 +219,15 @@ diagrams:
     depth: gray
     caption: "'Wichtigste Einstellungen' key-settings plate — including the cylinder head bolt tightening sequences for engine 810 and engines 843/844"
     safety_relevant: true
+  - page: 8
+    file: "diagrams/p0008-renault-alpine-type-codes.webp"
+    kind: chart
+    depth: mono
+    caption: "Renault and Alpine type codes with their engines and gearboxes — A110, A310, R8, R10, R12, R15/17, R16"
+    safety_relevant: false
+  - page: 9
+    file: "diagrams/p0009-service-diagnosis-schedule.webp"
+    kind: chart
+    depth: mono
+    caption: "Wartungs-Diagnose — service and inspection schedule with interval symbols"
+    safety_relevant: false
