@@ -17,12 +17,14 @@ the manifest's source URL into scripts/tv-reader/.cache/.
 from __future__ import annotations
 
 import argparse
+import errno
 import os
 import re
 import shutil
 import socket
 import subprocess
 import sys
+import time
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -155,17 +157,23 @@ def make_handler(pdf: Path, page_html: bytes):
 
 
 def cast(device: str, url: str) -> None:
+    # DashCast ignores a cast of the URL it already holds, so make each cast unique —
+    # otherwise re-running after a restart leaves a dead page on the screen.
+    url = f"{url}&t={int(time.time())}"
     catt = shutil.which("catt")
     if not catt:
         print("catt not found (pip install catt) — open the URL on the TV yourself.")
         return
     print(f"Casting to {device!r} ...", flush=True)
+    # A session still holding the previous URL swallows the new cast silently, so
+    # end it first. Nothing playing is not an error here.
+    subprocess.run([catt, "-d", device, "stop"], capture_output=True, text=True, timeout=60)
     r = subprocess.run([catt, "-d", device, "cast_site", url],
                        capture_output=True, text=True, timeout=120)
-    sys.stdout.write(r.stdout)
+    print(r.stdout.strip(), flush=True)
     if r.returncode != 0:
         sys.stderr.write(r.stderr)
-        print("Cast failed. Check the device name with: catt scan")
+        print("Cast failed. Check the device name with: catt scan", flush=True)
 
 
 def main() -> None:
@@ -189,18 +197,31 @@ def main() -> None:
     page_html = (HERE / "reader.html").read_text(encoding="utf-8") \
         .replace("__TITLE__", title).encode("utf-8")
 
+    # Bind before announcing anything, so a busy port fails loudly and not halfway.
+    try:
+        server = ThreadingHTTPServer(("0.0.0.0", args.port), make_handler(pdf, page_html))
+    except OSError as e:
+        if e.errno != errno.EADDRINUSE:
+            raise
+        sys.exit(
+            f"Port {args.port} is already in use \u2014 an earlier tv-reader is probably "
+            f"still running.\n"
+            f"  reuse it:   http://{lan_ip()}:{args.port}/index.html?page={args.page}\n"
+            f"  stop it:    lsof -nP -iTCP:{args.port} -sTCP:LISTEN -t | xargs kill\n"
+            f"  other port: --port {args.port + 1}"
+        )
+
     url = (f"http://{lan_ip()}:{args.port}/index.html"
            f"?page={args.page}&os={args.oversample:g}")
     print(f"{title}\n  {pdf.relative_to(REPO) if pdf.is_relative_to(REPO) else pdf}")
     print(f"  serving {url}")
-    print("  controls: ◀ ▶ select / turn page · OK zoom · arrows pan · BACK exit zoom")
+    print("  controls: ◀ ▶ select / turn page · OK zoom · arrows pan · BACK exit zoom", flush=True)
 
-    server = ThreadingHTTPServer(("0.0.0.0", args.port), make_handler(pdf, page_html))
     if args.cast:
         import threading
         threading.Thread(target=server.serve_forever, daemon=True).start()
         cast(args.cast, url)
-        print("Serving until Ctrl-C.")
+        print("Serving until Ctrl-C.", flush=True)
         try:
             threading.Event().wait()
         except KeyboardInterrupt:

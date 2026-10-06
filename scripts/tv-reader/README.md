@@ -19,7 +19,9 @@ the manifest's `source.location` into `.cache/` (gitignored).
 Two ways, with different tradeoffs:
 
 - **Cast it** (`--cast`, needs [catt](https://github.com/skorokithakis/catt)). Launches
-  the DashCast receiver, so nothing has to be installed on the TV. Known limit: the
+  the DashCast receiver, so nothing has to be installed on the TV. The script stops any
+  running session first — a receiver still holding the previous URL ignores a new cast
+  without reporting an error. Known limit: the
   Chromecast receiver swallows some remote keys — left/right page turns arrive, but OK
   and the down arrow may not, which disables zoom and vertical panning.
 - **Open the URL in a browser on the TV** (e.g. TV Bro on Google TV). A real browser
