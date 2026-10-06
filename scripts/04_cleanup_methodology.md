@@ -190,6 +190,34 @@ Still transcribe every value, table, or step you *can* faithfully pull from the 
 And reserve delivery for genuinely diagram-only content: don't image-dump a page whose
 substance is already faithfully in the markdown.
 
+## Rule 13 — Translated sources: translate the prose, never the data
+
+Some manuals are not in English (the Alpine A110 `Reparaturhandbuch` is German). Translating
+is allowed and often the point — but it is a second place numbers can die, on top of OCR, so
+it is fenced:
+
+- **Never translate, convert or reformat a value.** Rule 0 applies to the translation pass as
+  hard as to the OCR pass. Do not convert units (`daN·m` stays `daN·m`, never silently becomes
+  `N·m`), do not convert decimal commas to points (`0,15 mm` stays `0,15 mm` unless the page
+  image shows a point), and do not re-order a range. Part numbers, type codes and section codes
+  are data, not words: `Ventildeckel` translates, `R.1135` does not.
+- **Translate the prose, keep the manual's terms of art.** Use the `auto-mechanic` glossary's
+  canonical English component names. Where a source term has no clean English equivalent, or
+  the right term depends on context you cannot settle, keep the source word and flag it rather
+  than inventing one.
+- **Record the source word whenever the translation is uncertain.** Put the printed foreign
+  term inside the flag, so the choice stays auditable without reopening the PDF:
+  ```markdown
+  Valve cover <!-- NEEDS REVIEW: printed "Ventildeckel"; rendered "valve cover" (rocker cover) -->
+  ```
+  A wiki that is English-only loses the ability to search the source language, so the flags are
+  the only audit trail left — do not skip them to keep the prose tidy.
+- **Headings carry the section's own wording where it is an identifier.** A chapter whose
+  printed title is a type code or section name keeps that code in the heading.
+- **Never translate from the OCR alone on a dense table.** Table OCR in a scanned non-English
+  manual fails in both directions at once (bad glyphs AND bad word order). Read the page image
+  before transcribing any table whose cells carry type codes or specs.
+
 ## Output checklist (self-verify before saving)
 
 - [ ] Every number matches the OCR/image; none silently changed.
@@ -217,3 +245,7 @@ per change: date · what changed · why (link the PR/issue).
 - 2026-07-12 · Added Rule 12 (diagram delivery): diagram-only figures are now rendered to a
   compact WebP and embedded at the citation point (relative link, flipped to the Release URL
   at merge), instead of a bare "see PDF p.N" placeholder. Updated Rule 6 accordingly (#1).
+- 2026-10-06 · Added Rule 13 (translated sources) from the Alpine A110 German
+  `Reparaturhandbuch` conversion: translation is a second pass that can corrupt values, so
+  units, decimal commas, part numbers and type codes are fenced off from it, and an uncertain
+  translation must carry the printed source term in its flag.

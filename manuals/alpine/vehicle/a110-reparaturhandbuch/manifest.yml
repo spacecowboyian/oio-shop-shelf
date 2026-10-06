@@ -209,3 +209,13 @@ chapters:
     title: "Supplement — chapter R special tooling drawings and chassis measuring-point drawings"
     page_start: 461
     page_end: 468
+
+# Diagram-only figures delivered as images (Rule 12). Rendered by
+# `02_render_pages.py <dir> --diagrams`; committed for the PR, moved to the Release at merge.
+diagrams:
+  - page: 13
+    file: "diagrams/p0013-key-settings-plate.webp"
+    kind: chart
+    depth: gray
+    caption: "'Wichtigste Einstellungen' key-settings plate — including the cylinder head bolt tightening sequences for engine 810 and engines 843/844"
+    safety_relevant: true
