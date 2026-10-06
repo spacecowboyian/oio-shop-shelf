@@ -231,3 +231,15 @@ diagrams:
     depth: mono
     caption: "Wartungs-Diagnose — service and inspection schedule with interval symbols"
     safety_relevant: false
+  - page: 25
+    file: "diagrams/p0025-engine-807-843-844-torques.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine types 807 / 843 / 844 — sectional drawing with cylinder head, main bearing and big-end tightening torques"
+    safety_relevant: true
+  - page: 26
+    file: "diagrams/p0026-oil-circuit-807-843-844.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine 807 / 843 / 844 — oil circuit of the engine lubrication"
+    safety_relevant: false

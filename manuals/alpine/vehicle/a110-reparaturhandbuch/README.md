@@ -166,9 +166,13 @@ rather than two.
 
 1. **This wiki is an English translation made by this conversion, not by the publisher.** The
    source is German. Chapter prose and headings here are translated to English per the
-   contributor's choice; **numbers are never translated, converted or reformatted** (cleanup
-   Rule 0). Where a German term's translation is genuinely uncertain, the printed German word
-   is recorded in a `NEEDS REVIEW` note so it stays auditable.
+   contributor's choice. **No unit is converted and no digit is changed** (cleanup Rule 0) —
+   `m.daN` and `mkp` stay as the page prints them. The one thing that IS normalized is the
+   **decimal separator**: the German source writes `0,044 mm`, and this wiki writes
+   `0.044 mm`, because an English-language wiki that kept the comma would show its readers a
+   number that looks wrong. Thousands separators go the same way (`10.000 km` → `10,000 km`).
+   Notation changes; value does not. Where a German term's translation is genuinely uncertain,
+   the printed German word is recorded in a `NEEDS REVIEW` note so it stays auditable.
 2. **The source PDF's existing text layer was unusable and was discarded.** It was produced by
    *Adobe Acrobat Pro DC Paper Capture* and is badly garbled (the contents page reads
    `In.~altsverzeichnis`, `Identifi zi e:rung`). This conversion **re-OCR'd all 468 pages from

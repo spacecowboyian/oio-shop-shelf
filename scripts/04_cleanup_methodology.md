@@ -196,11 +196,22 @@ Some manuals are not in English (the Alpine A110 `Reparaturhandbuch` is German).
 is allowed and often the point — but it is a second place numbers can die, on top of OCR, so
 it is fenced:
 
-- **Never translate, convert or reformat a value.** Rule 0 applies to the translation pass as
-  hard as to the OCR pass. Do not convert units (`daN·m` stays `daN·m`, never silently becomes
-  `N·m`), do not convert decimal commas to points (`0,15 mm` stays `0,15 mm` unless the page
-  image shows a point), and do not re-order a range. Part numbers, type codes and section codes
+- **Never convert a unit, and never change a digit.** Rule 0 applies to the translation pass as
+  hard as to the OCR pass. Do not convert units (`m.daN` stays `m.daN`, never silently becomes
+  `N·m`), do not re-order a range, and do not round. Part numbers, type codes and section codes
   are data, not words: `Ventildeckel` translates, `R.1135` does not.
+- **DO normalize decimal separators to the English convention.** A German source writes
+  `0,044` for forty-four thousandths and `10.000` for ten thousand. An English-language wiki
+  that keeps those reads as wrong numbers to its actual audience — `0,044` looks like a list
+  and `10.000` looks like ten. So: a decimal comma becomes a decimal **point** (`0,044 mm` →
+  `0.044 mm`), and a thousands point becomes a thousands **comma** or nothing (`10.000 km` →
+  `10,000 km`). This changes notation, never value, and it is the one reformatting Rule 13
+  permits.
+  Do it by audit, not by blind regex: list every `digit,digit` token in the chapter first and
+  eyeball it, because the two cases look alike. `0,840` is a decimal; `15,000` written by you
+  earlier in English is already a thousands separator and must not be flipped back.
+  Say in the chapter's source note that separators were normalized, so a reader comparing
+  against the page knows why the page shows a comma and the wiki shows a point.
 - **Translate the prose, keep the manual's terms of art.** Use the `auto-mechanic` glossary's
   canonical English component names. Where a source term has no clean English equivalent, or
   the right term depends on context you cannot settle, keep the source word and flag it rather
@@ -249,3 +260,6 @@ per change: date · what changed · why (link the PR/issue).
   `Reparaturhandbuch` conversion: translation is a second pass that can corrupt values, so
   units, decimal commas, part numbers and type codes are fenced off from it, and an uncertain
   translation must carry the printed source term in its flag.
+- 2026-10-06 · Rule 13 amended: decimal separators ARE normalized to the English
+  convention (comma → point, thousands point → comma), since an English wiki that keeps German
+  separators shows its readers wrong-looking numbers. Units, digits and ranges stay untouched.

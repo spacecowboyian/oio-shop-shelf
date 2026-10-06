@@ -13,13 +13,17 @@ before answering from it.
 
 **This manual is German; this wiki is an English translation made by the conversion.** Two
 passes stand between the printed page and the text you are reading — OCR, then translation.
-Per cleanup Rule 13, **no value was translated**: units stay as printed (`mkp`, `m·daN`, `bar`,
-`kg/cm²` are NOT converted), decimal **commas** are the source's own (`0,15 mm` is fifteen
-hundredths), and part numbers and type codes are untouched. Do not "helpfully" convert them for
-the user unless they ask, and say so when you do.
+Per cleanup Rule 13, **no unit was converted and no digit was changed**: `mkp`, `m.daN`, `bar`
+and `kg/cm²` stay exactly as printed, and part numbers and type codes are untouched. Do not
+"helpfully" convert a unit for the user unless they ask, and say so when you do.
+
+**Decimal separators ARE normalized.** The German pages print `0,044 mm`; this wiki writes
+`0.044 mm`, and `10.000 km` becomes `10,000 km`. So if a user compares a line here against the
+source page and sees a comma where the wiki has a point, that is expected and the value is the
+same. Only the separator moved.
 
 **This copy is annotated.** A previous owner inked corrections onto several pages — a "353"
-over a printed gearbox type, a handwritten "364 / 2,2 L" column, "1600 S" beside the axle
+over a printed gearbox type, a handwritten "364 / 2.2 L" column, "1600 S" beside the axle
 blocks, a row label on the service chart. Every one is flagged in place and is **not** factory
 data. If a flag says "HANDWRITTEN", tell the user it is an annotation.
 
