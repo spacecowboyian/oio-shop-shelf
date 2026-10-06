@@ -20,10 +20,10 @@ Every flag the pass closed was then read by hand before it was closed.
 
 | | Before | After |
 | --- | --- | --- |
-| Open `NEEDS REVIEW` flags | 108 | **77** |
-| Closed as translation notes | — | 31 |
+| Open `NEEDS REVIEW` flags | 108 | **76** |
+| Closed as translation notes | — | 32 |
 
-The 31 closed ones were pure glossary entries — "*Reports* is French *rapports* =
+The 32 closed ones were pure glossary entries — "*Reports* is French *rapports* =
 ratios", "*Rocket door* is *porte-fusée* = stub axle carrier" — where the note itself settles
 the matter and no figure is in doubt. **Nothing was deleted.** They are still in the chapter
 source, retagged `<!-- TRANSLATION NOTE … -->`, so the knowledge stays and only the open-item
@@ -32,7 +32,7 @@ count changes.
 Each remaining flag now carries a `TRIAGE` line recording its verdict, recommended next step,
 and the three probabilities behind them.
 
-## The remaining 77, by next step
+## The remaining 76, by next step
 
 | Next step | Count |
 | --------- | ----- |
@@ -50,8 +50,7 @@ unknown, and now carry a `HAND-CHECKED:` line saying why:
 
 | Flag | PDF p. | Why it stays open |
 | ---- | ------ | ----------------- |
-| Tyre pressures | 9 | The **unit is unknown** — the page prints only "kg". On a 1970 French manual that is almost certainly kg/cm², but it is not printed, so it is not asserted. |
-| Engine characteristics | 11 | `812-000` here against `812-00` on A-2 is an unresolved inconsistency, and reading `FRG` as `RFA` is an inference. |
+| Engine characteristics | 11 | Reading `FRG` as `RFA` is an inference, and the "Engine type" row prints version names where engine codes belong. (The `812-000`/`812-00` half of this flag is now resolved — see below.) |
 | Type 807-25 parts list | 11 | "Special ass." is truncated in the source and cannot be recovered. |
 | Camshaft end float | 20 | The 1600 GS figures are **read as a range the page does not print as one**. |
 | Steering rack supports | 42 | The component behind "rudder" is not recoverable; "steering arms" is from context only. |
@@ -103,3 +102,19 @@ anything undecided / would guessing be dangerous / does it block a job), then ap
 thresholds in code. The first attempt asked "is this safety-relevant?", which tracked how
 dangerous the *subsystem* was rather than the note, and rated glossary entries in the brake
 chapter at 0.87. Asking specifically about the *undecided remainder* fixed it.
+
+## Two of the seven, settled afterwards
+
+**Tyre pressure unit — resolved from the shop-shelf, not from general knowledge.** The A110
+page prints the unit only as "kg". The **Renault Dauphine M.R.93** in this repo — same
+manufacturer, same country, same era, and likewise an English edition of a French original —
+prints its own as **"1 kg (14 psi)"** front and **"1.5 kg (23 psi)"** rear
+(`manuals/renault/vehicle/dauphine`, `wiki/k-wheels-hubs-drums.md`, PDF p.332). 14 psi per
+1 kg is **kg/cm²** (1 kg/cm² = 14.223 psi); the Toyota MR2 FSM here prints the same pairing
+outright as "2.1 kg/cm² (30 psi)". So the bare "kg" is kg/cm², and the A110 flag is closed
+with that citation. psi conversions were added to the chapter, clearly marked as computed.
+
+**`812-000` vs `812-00`** — recorded as a maintainer judgement: the same engine, a
+typographic slip in the source, not two variants. Nothing in the manual distinguishes them
+and no part or procedure keys off the third zero. Both pages keep their own spelling exactly
+as printed. Not independently checked against an Alpine or Renault parts catalogue.

@@ -44,6 +44,13 @@ Section **B**, source PDF pages 10–25, manual pages **B-2** to **B-16**.
 <!-- NEEDS REVIEW:the "Engine type" row prints the VERSION name ("1300 S", "1600 GS") in
 two columns where the others give an engine number — kept exactly as printed. Note also
 "812-000" (three zeros) here against "812-00" on page A-2; both left as printed.
+     MAINTAINER JUDGEMENT (2026-10-06): treat "812-000" and "812-00" as the SAME engine,
+     the difference being a typographic slip in the source rather than two variants. The
+     manual nowhere distinguishes them, no part or procedure in it keys off the third zero,
+     and the two spellings are used for the same column of the same version. Both remain
+     transcribed exactly as each page prints them; this note records the reading, it does
+     not change either page. Not independently verified against an Alpine or Renault parts
+     catalogue.
 The second timing row is printed "FRG"; in a French manual the sequence is AOA / RFA / AOE
 / RFE (avance ouverture admission, retard fermeture admission, avance ouverture
 échappement, retard fermeture échappement), so "FRG" is read as RFA. The degree values are
@@ -52,7 +59,7 @@ unchanged.
 Torque values print a trailing stray letter ("10.5 d", "11.9 a", "12.4 to") — an artifact of
 "à" (at); the numbers are unchanged.
      TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.59 · risk-if-guessed 0.44 · blocks-a-job 0.15 
-     HAND-CHECKED: kept open because "812-000" vs "812-00" is an unresolved inconsistency, and "FRG"->RFA is an inference. -->
+     HAND-CHECKED: the 812-000 / 812-00 point is RESOLVED (see maintainer judgement above). Still open because "FRG"->RFA is an inference and the "Engine type" row prints version names where engine codes belong. -->
 
 <a id="p11"></a>
 **[PDF p.11]**
