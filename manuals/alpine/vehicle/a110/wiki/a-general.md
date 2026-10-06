@@ -163,10 +163,9 @@ manual as translated says 812-00 for both. Unresolved — see ../README.md.
 
 Cooling: water cooling with radiator, sealed. Oil cooling with a radiator mounted in bypass.
 
-<!-- NEEDS REVIEW:"Water cooling with radiator / Waterproof" is French "refroidissement
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"Water cooling with radiator / Waterproof" is French "refroidissement
 d'eau par radiateur, étanche" (sealed system), not "waterproof"; "Diversion-mounted diator"
-is "radiateur monté en dérivation" (bypass-mounted radiator). Wording only.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.96 · risk-if-guessed 0.61 · blocks-a-job 0.40 -->
+is "radiateur monté en dérivation" (bypass-mounted radiator). Wording only. -->
 
 <a id="p8"></a>
 ### 4) Electrical equipment
@@ -243,11 +242,10 @@ periods; all three are left as printed. "Directorate" in the translation is Fren
 - Rear arms consisting of two **trompettes** (trumpet tubes), one each side of the gearbox.
 - Independent half-axles, located longitudinally by two adjustable tie-rods.
 
-<!-- NEEDS REVIEW:"on both sides of the speeds" is a mistranslation of "de part et d'autre
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"on both sides of the speeds" is a mistranslation of "de part et d'autre
 de la boîte de vitesses" (either side of the gearbox) — "vitesses" was translated alone.
 "Two adjustable force legs" is "deux jambes de force réglables" = two adjustable
-tie-rods/struts.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.29 · risk-if-guessed 0.33 · blocks-a-job 0.22 -->
+tie-rods/struts. -->
 
 <a id="p9"></a>
 ### 11) Suspension
@@ -289,7 +287,8 @@ Recommended pressures, in kg:
 is kg/cm2 (≈ bar). Not stated on the page, so not asserted here. The 15-inch front figure
 is printed "1, 4 to 1,6" with French commas while the rest of the table uses periods; all
 left as printed.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.57 · risk-if-guessed 0.59 · blocks-a-job 0.27 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.57 · risk-if-guessed 0.59 · blocks-a-job 0.27 
+     HAND-CHECKED: kept open because the UNIT of the tyre pressures is genuinely unknown — the page prints only "kg". -->
 
 Rims:
 

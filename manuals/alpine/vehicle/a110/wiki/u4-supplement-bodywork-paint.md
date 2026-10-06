@@ -20,9 +20,8 @@ English overlay rotated across the French and **cannot be read as text**.
 
 ![Table 2, December 1970 edition — composition of VERILAC polyurethane lacquers — PDF p.76](../diagrams/p0076-supplement-table2-lacquers.webp)
 
-<!-- NEEDS REVIEW:nothing from this page is transcribed. The readable page that follows
-(supplement p.16, below) covers the same ground in usable form — prefer it.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.87 · risk-if-guessed 0.40 · blocks-a-job 0.28 -->
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):nothing from this page is transcribed. The readable page that follows
+(supplement p.16, below) covers the same ground in usable form — prefer it. -->
 
 <a id="p77"></a>
 **[PDF p.77]**

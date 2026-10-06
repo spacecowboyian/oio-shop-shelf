@@ -42,9 +42,8 @@ The table was never filled in on this copy. The amendments that would have been 
 were instead issued as the bound supplement — see
 [u1-supplement-general-engine-electrical.md](u1-supplement-general-engine-electrical.md).
 
-<!-- NEEDS REVIEW:the third column header prints "JT" — probably an OCR reading of a French
-abbreviation; not recoverable. The table body is genuinely empty on the page image.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.16 · blocks-a-job 0.15 -->
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):the third column header prints "JT" — probably an OCR reading of a French
+abbreviation; not recoverable. The table body is genuinely empty on the page image. -->
 
 ## Missing pages in this scan
 

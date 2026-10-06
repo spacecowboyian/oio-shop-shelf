@@ -150,7 +150,8 @@ I'm sorry." — the machine translation dropped the end of the sentence ("mécan
 mechanical resistance. "the repairing room" is "la pièce à réparer" = the part being
 repaired, read as such. The dimension C = 40 to 50 mm and the abrasive disc No. 24 are
 legible. "scalex" is as printed and is not recoverable.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.48 · blocks-a-job 0.22 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.95 · risk-if-guessed 0.48 · blocks-a-job 0.22 
+     HAND-CHECKED: kept open because "scalex" names a tool or location in a repair step and is not recoverable. -->
 
 <a id="p52"></a>
 ### 2) Repair with replacement of a body part

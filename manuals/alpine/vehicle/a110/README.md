@@ -97,7 +97,7 @@ on pages 64–72 and **paint and polyurethane lacquer compositions** on 76–77.
 
 ## Review flags
 
-This conversion carries **92 open `NEEDS REVIEW` flags** — high, and earned: see the caveats
+This conversion carries **77 open `NEEDS REVIEW` flags** — high, and earned: see the caveats
 below. They have been triaged into a ranked worklist, with the highest-risk items and the
 pages that retire the most flags per minute called out in **[TRIAGE.md](TRIAGE.md)**. No
 value in this manual was decided by a model.

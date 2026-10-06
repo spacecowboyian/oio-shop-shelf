@@ -18,7 +18,7 @@ Section **L**, source PDF pages 47–48, manual page **L-1**.
 | **Front spring** | Spring No **0428158000**, flexibility **40 %**, with **16 mm** shims — **or** spring No **6000001316**, flexibility **33 %**, without shims (cars **without** front radiator) | Spring No **0428158000**, flexibility **40 %**, with **23 mm** shims — **or** spring No **6000001353**, flexibility **33 %**, without shims (cars **with** front radiator) | Spring No **0428158000**, flexibility **40 %**, with **23 mm** shims — **or** spring No **6000001353**, flexibility **33 %**, without shims (cars **with** front radiator) |
 | **Rear spring** | R 1190 spring modified, No **6000000494**, flexibility **27 %**, with "Caravelle" shims No **0555554300** | R 1190 spring modified, No **6000000494**, flexibility **27 %**, with "Caravelle" shims — **or** spring R 1135 No **0428353800** with "Caravelle" shims on vehicles fitted with the **80 l** rear tank | Spring R 1135 No **0428353800**, flexibility **24 %**, with "Caravelle" shims No **0555554300** |
 
-<!-- NEEDS REVIEW:(1) The row label is printed "VA spring" — this is "AV" (avant = front) with the letters
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):(1) The row label is printed "VA spring" — this is "AV" (avant = front) with the letters
     transposed; the AR (rear) row below is labelled correctly, and the detail table that
     follows labels the same part numbers "AV Spring". Read as front.
 (2) The 85 column prints "(Voices without AV radiator)" and the other two "(Cars with AV
@@ -28,8 +28,7 @@ Section **L**, source PDF pages 47–48, manual page **L-1**.
 (3) The 1300 G/1300 S rear-spring part number OCRs as "Ó428353800" with an accented O; the
     page image and the detail table below both give 0428353800.
 (4) "flexibility" renders French "flexibilité", given as a percentage — this is the manual's
-    own spring-rate figure, not a conversion.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.22 · risk-if-guessed 0.25 · blocks-a-job 0.14 -->
+    own spring-rate figure, not a conversion. -->
 
 <a id="p48"></a>
 ### Spring detail

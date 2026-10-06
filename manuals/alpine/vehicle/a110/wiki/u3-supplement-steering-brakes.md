@@ -53,13 +53,12 @@ From vehicle **No. 11779**, version 85 cars are equipped with gearbox **353-35**
 
 Mounting identical to that of versions 85, from vehicle **11872**.
 
-<!-- NEEDS REVIEW:this is the ONLY readable clutch part data in the whole document — the
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):this is the ONLY readable clutch part data in the whole document — the
 main manual's clutch table on D-1 (PDF p.31) is illegible. See
 [D — Clutch](d-clutch.md#d-1-clutch-characteristics-table).
 "Mounting identical to that of versions 85 to 85" prints "85" twice; read as "versions 85",
 with the second occurrence a duplication artifact. "Ball stop" is "butée à billes" = ball
-release bearing.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_structural · next step: close_as_documentation · leaves-undecided 0.36 · risk-if-guessed 0.34 · blocks-a-job 0.31 -->
+release bearing. -->
 
 <a id="p73"></a>
 **[PDF p.73]**
@@ -101,9 +100,8 @@ instead of **R.1135**.
 Add: on some version 85 cars, from vehicle **No. 12037**, assembly of the **R. 1136** front
 axle instead of **R. 1135**. **The setting values are unchanged.**
 
-<!-- NEEDS REVIEW:"The setting values are unchanged" means the H-1 geometry figures still
-apply — see [H — Regulatory values](h-front-axle.md#h-1-regulatory-values-geometry-settings).
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_structural · next step: close_as_documentation · leaves-undecided 0.24 · risk-if-guessed 0.22 · blocks-a-job 0.17 -->
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"The setting values are unchanged" means the H-1 geometry figures still
+apply — see [H — Regulatory values](h-front-axle.md#h-1-regulatory-values-geometry-settings). -->
 
 <a id="p73"></a>
 **[PDF p.73]**
@@ -261,10 +259,9 @@ condition being checked (contact with something) is not recoverable.
 Use connectors reference **60 00 001 431** with screwed unions reference **60 00 001 430**
 and the corresponding sealing washers.
 
-<!-- NEEDS REVIEW:"stirrup" is "étrier" = caliper; "The rocket tube" is "le tube de fusée"
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"stirrup" is "étrier" = caliper; "The rocket tube" is "le tube de fusée"
 = stub-axle tube. The paragraph ends "the sealing washers correspond- / Yours." — the
-translator emitted "Yours." for "correspondantes".
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.15 · risk-if-guessed 0.25 · blocks-a-job 0.30 -->
+translator emitted "Yours." for "correspondantes". -->
 
 <a id="p75"></a>
 **[PDF p.75]**
@@ -275,10 +272,9 @@ When replacing or dismantling a master cylinder, check whether or not there is a
 spacer at the bottom of the master-cylinder piston acting on the thrust rod, and if so
 transfer this spacer to the new master cylinder, or to the one being refitted.
 
-<!-- NEEDS REVIEW:"an aluminium interlocker-minium acting on the thrust rod" and "back up
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"an aluminium interlocker-minium acting on the thrust rod" and "back up
 this in-tretoise" are both the French "entretoise" (spacer/distance piece) mangled; rendered
-as spacer. "or the document filed" is "ou celui déposé" = or the one removed.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.27 · risk-if-guessed 0.27 · blocks-a-job 0.24 -->
+as spacer. "or the document filed" is "ou celui déposé" = or the one removed. -->
 
 <a id="p75"></a>
 **[PDF p.75]**

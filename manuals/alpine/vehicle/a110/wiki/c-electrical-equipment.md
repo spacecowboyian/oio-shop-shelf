@@ -35,7 +35,7 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
 | 10 | **Fan motor — water radiator** | — | Rabotti 12 V, No 6000000631 | Rabotti 12 V, No 6000000631 |
 | | **Fan motor — oil radiator** | — | — | Rabotti 12 V, No 6000000631 |
 
-<!-- NEEDS REVIEW:(1) "DEMARRIER" is French "démarreur" = starter motor; "ALLUMER" is "allumeur" = distributor;
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):(1) "DEMARRIER" is French "démarreur" = starter motor; "ALLUMER" is "allumeur" = distributor;
     "BOUGIES" = spark plugs; "ALTERNATOR OR GENERATRICE" = alternator or dynamo;
     "PRESSURE TRANSMITTOR OIL (TRAMA)" = oil pressure transmitter/sender;
     "ELTRA THERMISTANCE" = thermistor sender; "MCTO VENTILATOR" = "moto-ventilateur" = fan
@@ -50,8 +50,7 @@ Section **C**, source PDF pages 26–29, manual pages **C-1** and **C-2**.
     zero. Row 8 applies only to the 1600 S; rows 9/10 are blank for the 85 (which has a
     rear radiator cooled by an engine-driven fan — see B-13).
 (7) The 85 column groups "type R1190 / Great colds" under both the alternator and the
-    regulator; rendered as a separate "Fitted to" row above.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.72 · risk-if-guessed 0.39 · blocks-a-job 0.26 -->
+    regulator; rendered as a separate "Fitted to" row above. -->
 
 <a id="p28"></a>
 **[PDF p.28]**

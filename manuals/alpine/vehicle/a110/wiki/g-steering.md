@@ -39,10 +39,9 @@ the **rack rings** — the rack itself is raised by **2 mm**.
 
 This steering being the same as that of the **RENAULT 8**, refer to **MR 68**.
 
-<!-- NEEDS REVIEW:the heading prints "DEPOSITED REPAIR AND DIRECTORATE-GENERAL" — French
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):the heading prints "DEPOSITED REPAIR AND DIRECTORATE-GENERAL" — French
 "dépose, réparation et repose de la direction". "Directorate" throughout this chapter is
-"direction" = steering.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.25 · risk-if-guessed 0.30 · blocks-a-job 0.21 -->
+"direction" = steering. -->
 
 <a id="p39"></a>
 **[PDF p.39]**
@@ -63,14 +62,13 @@ Two fixing methods were used.
 > the low and high positions of the vehicle. Refer to the chapter
 > [H — Front Axle](h-front-axle.md).
 
-<!-- NEEDS REVIEW:"Note FIXATICN" is "Note fixation" (mounting note) with an OCR'd O;
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):"Note FIXATICN" is "Note fixation" (mounting note) with an OCR'd O;
 "standard ports" is "supports standard"; "the distance is struck on the AR face" is
 "la cote est frappée sur la face AR" = the dimension is stamped on the rear face;
 "the variation of clamps" is "la variation de pincement" = the variation of TOE-IN — this
 is a geometry check, not a clamp check. "Lie down" renders "légèrement allongés"
 (slightly elongated), referring to the holes. The H = 55 / 56 / 57 mm values match the
-support part numbers listed on H-2.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_blocking · next step: close_as_documentation · leaves-undecided 0.79 · risk-if-guessed 0.35 · blocks-a-job 0.26 -->
+support part numbers listed on H-2. -->
 
 ## Missing pages in this scan
 

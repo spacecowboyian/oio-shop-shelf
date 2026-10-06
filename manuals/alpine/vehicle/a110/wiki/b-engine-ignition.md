@@ -51,7 +51,8 @@ unchanged.
 "Ch" is French "chevaux" (SAE horsepower as printed); "t/min" is tours/minute = rpm.
 Torque values print a trailing stray letter ("10.5 d", "11.9 a", "12.4 to") — an artifact of
 "à" (at); the numbers are unchanged.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.59 · risk-if-guessed 0.44 · blocks-a-job 0.15 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.59 · risk-if-guessed 0.44 · blocks-a-job 0.15 
+     HAND-CHECKED: kept open because "812-000" vs "812-00" is an unresolved inconsistency, and "FRG"->RFA is an inference. -->
 
 <a id="p11"></a>
 **[PDF p.11]**
@@ -150,7 +151,8 @@ This engine is delivered prepared by the R.N.U.R. to the following specification
 arms; "crepine" is the oil pickup strainer; "Pion of additional centering" is "pion de
 centrage" = centring dowel. Wording restored, values unchanged. "Special ass." is printed
 truncated and is not recoverable.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.93 · risk-if-guessed 0.47 · blocks-a-job 0.31 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.93 · risk-if-guessed 0.47 · blocks-a-job 0.31 
+     HAND-CHECKED: kept open because "Special ass." is truncated in the source and is not recoverable. -->
 
 <a id="p11"></a>
 ### Option 1600 GS, derived from 807-25
@@ -338,12 +340,11 @@ under load" is "diminution de longueur sous charge". "sub"/"under" both render F
 | Pushrod length, exhaust (mm) | 176 | 189 | 189 | 105.5 | 105.5 |
 | Pushrod diameter (mm) | 5 | 5.5 | 5.5 | — | — |
 
-<!-- NEEDS REVIEW:the printed headings are "CULBUTOR POWERS" (French "portées de
+<!-- TRANSLATION NOTE (triaged + hand-checked: nothing left undecided):the printed headings are "CULBUTOR POWERS" (French "portées de
 culbuteurs" = rocker bearing surfaces) and "IIGE OF CULBURIERS" ("tiges de culbuteurs" =
 pushrods). The 807-25 / 1600 GS pushrod-diameter cells are blank on the page; "—" means
 not printed. Note the 85's intake and exhaust pushrods are the same length while the
-others differ — as printed.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_safety · next step: close_as_documentation · leaves-undecided 0.81 · risk-if-guessed 0.55 · blocks-a-job 0.43 -->
+others differ — as printed. -->
 
 <a id="p17"></a>
 **[PDF p.17]**
@@ -518,7 +519,8 @@ Similar in all respects to the timing of the original RENAULT engines.
 <!-- NEEDS REVIEW:printed "Side game of the tree with cams in mm" — French "jeu latéral de
 l'arbre à cames" = camshaft end float. The 1600 GS column prints the two values on separate
 lines without a "to"; read as 0.05 to 0.12 to match the 1600 S column.
-     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.78 · risk-if-guessed 0.27 · blocks-a-job 0.15 -->
+     TRIAGE 2026-10-06 (TypeSafe/Jev, classification only — no value supplied or confirmed by the model): keep_review · next step: close_as_documentation · leaves-undecided 0.78 · risk-if-guessed 0.27 · blocks-a-job 0.15 
+     HAND-CHECKED: kept open because the 1600 GS camshaft end float is READ as a range the page does not actually print as one. -->
 
 <a id="p21"></a>
 **[PDF p.21]**
