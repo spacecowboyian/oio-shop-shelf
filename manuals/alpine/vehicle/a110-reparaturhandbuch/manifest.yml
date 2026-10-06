@@ -1,0 +1,211 @@
+slug: alpine-a110-reparaturhandbuch
+title: "Alpine A110 Reparaturhandbuch (Typ A 110) — German factory repair handbook, RENAULT · ALPINE"
+
+taxonomy:
+  make: alpine
+  category: vehicle
+  models: [a110]
+  chassis: [1300VA, 1300VB, 1300VC, 1600VB, 1600VC, 1600VD, 1600VH]
+  engines: [810-30, 810-05, 812-00, 807-25, 843-30, 844-30, 844-32, 844-34, 1600-gs]
+  years: "1969-1976"
+
+source:
+  type: local
+  location: "alpine-a110-reparaturhandbuch.pdf"
+  pages: 468
+
+rights: >
+  Copyright of the original manual belongs to Regie Nationale des Usines Renault /
+  Societe des Automobiles ALPINE. No license was sought; committing it here is a
+  considered risk, taken deliberately. See CONTRIBUTING.md. The scan carries a
+  "DerFranzose" retailer watermark on every page; that watermark is part of this copy,
+  not of the original book.
+
+ocr:
+  language: deu+eng
+  force: true            # the source carries an unusable Acrobat Paper Capture text layer
+
+render:
+  dpi: 200
+
+# ---------------------------------------------------------------------------
+# THREE BOUND DOCUMENTS IN ONE PDF.
+#
+#   PDF   1-374  The large German Reparaturhandbuch. Full overhaul chapters for the
+#                engines and gearboxes, and the only part covering the later 1600 SC /
+#                SC-SI cars (types 1600 VD / 1600 VH). Continuously numbered, but the
+#                printed-to-PDF offset DRIFTS from -1 to +10 because unnumbered plate
+#                and divider pages are interleaved; it also inserts suffixed pages
+#                (e.g. 114a). There is no constant offset to apply.
+#
+#   PDF 375-433  The 1st edition, October 1970 factory repair manual, in German.
+#                Paginated by the factory's own SECTION CODES (A-1, B-2, H-1 ...), not
+#                continuously. This is the German original of the same manual the repo
+#                previously held only as an English machine translation (closed PR #29).
+#
+#   PDF 434-468  The update supplement (Technische Notizen), carrying amendments dated
+#                December 1970 onward. Re-issues changes against the section codes above
+#                and adds the cable directory, bulb table and lacquer tables.
+#
+# Chapter page ranges below are 1-based inclusive SOURCE-PDF pages and are contiguous
+# across all 468 pages. section_code is the manual's own letter tab where it has one;
+# the Reparaturhandbuch part has no letter tabs, so those chapters omit it.
+# ---------------------------------------------------------------------------
+chapters:
+  # --- Part 1: Reparaturhandbuch (PDF 1-374) ---
+  - file: "01-front-matter.md"
+    title: "Front matter — cover, contents, chassis numbers by build date, Renault/Alpine type codes with engines and gearboxes, maintenance diagnosis"
+    page_start: 1
+    page_end: 9
+  - file: "02-general-technical-data.md"
+    title: "General vehicle data and the 'Wichtigste Einstellungen' key-settings plate"
+    page_start: 10
+    page_end: 13
+  - file: "03-engine-ignition-data.md"
+    title: "Engine and ignition — data, removal and refitting, cylinder head, liners, pistons, con-rods, crankshaft, timing, lubrication"
+    page_start: 14
+    page_end: 22
+  - file: "04-engine-807-843-844.md"
+    title: "Engine types 807 / 843 / 844 — overhaul"
+    page_start: 23
+    page_end: 63
+  - file: "05-engine-810.md"
+    title: "Engine type 810 — overhaul"
+    page_start: 64
+    page_end: 97
+  - file: "06-engine-812.md"
+    title: "Engine type 812 — overhaul"
+    page_start: 98
+    page_end: 138
+  - file: "07-ignition.md"
+    title: "Ignition system (all types) — points gap, static timing, advance curves"
+    page_start: 139
+    page_end: 141
+  - file: "08-fuel-system.md"
+    title: "Fuel system — 1600 S, 1300 VC and 1300 G/S carburettors, synchronisation, idle setting"
+    page_start: 142
+    page_end: 158
+  - file: "09-cooling.md"
+    title: "Cooling system (all types) — draining, filling, bleeding"
+    page_start: 159
+    page_end: 160
+  - file: "10-clutch.md"
+    title: "Clutch — variants, identification, replacement, free play, release bearing and fork"
+    page_start: 161
+    page_end: 170
+  - file: "11-gearbox.md"
+    title: "Gearboxes 353 / 364 and 330 — data, overhaul, cone distance, backlash, differential bearings, shift linkage, tooth-contact check"
+    page_start: 171
+    page_end: 235
+  - file: "12-steering.md"
+    title: "Steering (all types) — rack overhaul, pinion end-float, Hardy disc"
+    page_start: 236
+    page_end: 248
+  - file: "13-front-axle.md"
+    title: "Front axle (all types) — camber, castor, toe, setting, half-axle and wishbone overhaul, hubs and bearings"
+    page_start: 249
+    page_end: 269
+  - file: "14-rear-axle.md"
+    title: "Rear axle (all types) — half-axles, universal joints, axle tubes, hubs and bearings, alignment"
+    page_start: 270
+    page_end: 280
+  - file: "15-suspension-dampers.md"
+    title: "Suspension and dampers (all types) — spring characteristics, front and rear dampers and springs"
+    page_start: 281
+    page_end: 286
+  - file: "16-brakes.md"
+    title: "Braking system (all types) — data, operation, fault-finding, calipers, master cylinders, pressure proportioning valve, discs, 'Hydrovac' servo"
+    page_start: 287
+    page_end: 319
+  - file: "17-electrical.md"
+    title: "Electrical equipment (all types) — component list, wiring diagram, cable directory, bulb table, alternators and regulators, starter and alternator overhaul"
+    page_start: 320
+    page_end: 354
+  - file: "18-body.md"
+    title: "Bodywork — minor damage repair, panel replacement, paint types and identification, polyurethane lacquer and primer composition, screen sealing"
+    page_start: 355
+    page_end: 368
+  - file: "19-chassis.md"
+    title: "Chassis — checking the chassis and axles, body jig, chassis dimension drawings, chassis and front crossmember replacement"
+    page_start: 369
+    page_end: 374
+
+  # --- Part 2: factory repair manual, 1st edition October 1970 (PDF 375-433) ---
+  - file: "20-fm-title-contents.md"
+    title: "Factory manual (Oct 1970) — title page and contents plate"
+    page_start: 375
+    page_end: 377
+  - file: "21-fm-a-general.md"
+    section_code: "A"
+    title: "Factory manual A — General: vehicle design, versions and type codes, general vehicle data"
+    page_start: 378
+    page_end: 381
+  - file: "22-fm-b-engine-ignition.md"
+    section_code: "B"
+    title: "Factory manual B — Engine and ignition: technical data, Renault-to-Alpine differences, dismantling, reassembly, sub-assembly overhaul"
+    page_start: 382
+    page_end: 397
+  - file: "23-fm-c-electrical.md"
+    section_code: "C"
+    title: "Factory manual C — Electrical equipment: technical data, wiring diagram"
+    page_start: 398
+    page_end: 401
+  - file: "24-fm-d-clutch.md"
+    section_code: "D"
+    title: "Factory manual D — Clutch: technical data, including the 200 DEC competition clutch"
+    page_start: 402
+    page_end: 404
+  - file: "25-fm-e-gearbox.md"
+    section_code: "E"
+    title: "Factory manual E — Gearbox: identification, technical data, dismantling and reassembly"
+    page_start: 405
+    page_end: 410
+  - file: "26-fm-g-steering.md"
+    section_code: "G"
+    title: "Factory manual G — Steering: longitudinal section, removal and refitting"
+    page_start: 411
+    page_end: 412
+  - file: "27-fm-h-front-axle.md"
+    section_code: "H"
+    title: "Factory manual H — Front axle: technical data, checking and setting"
+    page_start: 413
+    page_end: 417
+  - file: "28-fm-j-rear-axle.md"
+    section_code: "J"
+    title: "Factory manual J — Rear axle: technical data"
+    page_start: 418
+    page_end: 419
+  - file: "29-fm-l-suspension.md"
+    section_code: "L"
+    title: "Factory manual L — Suspension and dampers: spring characteristics"
+    page_start: 420
+    page_end: 421
+  - file: "30-fm-m-brakes.md"
+    section_code: "M"
+    title: "Factory manual M — Braking system"
+    page_start: 422
+    page_end: 423
+  - file: "31-fm-n-body.md"
+    section_code: "N"
+    title: "Factory manual N — Bodywork: paint types, polyurethane lacquer composition (Table 2)"
+    page_start: 424
+    page_end: 431
+  - file: "32-fm-r-special-tools.md"
+    section_code: "R"
+    title: "Factory manual R — Special tooling"
+    page_start: 432
+    page_end: 433
+
+  # --- Part 3: update supplement, December 1970 onward (PDF 434-468) ---
+  - file: "33-supplement-general-engine-electrical.md"
+    title: "Supplement — title page, chapter A general data, engine amendments, wiring diagram, cable directory, bulb table, chapter C amendments"
+    page_start: 434
+    page_end: 446
+  - file: "34-supplement-axles-brakes-body.md"
+    title: "Supplement — chapter H front axle, brake carrier and handbrake, Table 2 (December 1970) lacquer composition and 'Kit' refinish sets, chassis and body"
+    page_start: 447
+    page_end: 460
+  - file: "35-supplement-special-tools-chassis.md"
+    title: "Supplement — chapter R special tooling drawings and chassis measuring-point drawings"
+    page_start: 461
+    page_end: 468
