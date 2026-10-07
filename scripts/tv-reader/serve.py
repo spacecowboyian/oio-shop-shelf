@@ -35,7 +35,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from _common import load_manifest  # noqa: E402
 
-STATE = {"page": 1, "rev": 0}      # the reader polls this; --goto bumps rev
+STATE = {"page": 1, "rev": 0, "reload": 0}   # the reader polls this; --goto/--reload bump it
 STATE_LOCK = threading.Lock()
 
 HERE = Path(__file__).resolve().parent
@@ -120,7 +120,10 @@ def make_handler(pdf: Path, page_html: bytes):
                 self._head(200, "text/html; charset=utf-8", len(page_html))
                 self.wfile.write(page_html)
                 return
-            if path in ("/state", "/goto"):
+            if path in ("/state", "/goto", "/reload"):
+                if path == "/reload":
+                    with STATE_LOCK:
+                        STATE["reload"] += 1
                 if path == "/goto":
                     q = urllib.parse.parse_qs(self.path.partition("?")[2])
                     try:
@@ -211,9 +214,22 @@ def main() -> None:
                     help='cast to this Chromecast/Google TV by name (see: catt scan)')
     ap.add_argument("--goto", type=int, metavar="N",
                     help="tell an already-running tv-reader to show page N, and exit")
+    ap.add_argument("--reload", action="store_true",
+                    help="tell an already-running tv-reader to reload itself, and exit "
+                         "(picks up edits to reader.html without re-casting)")
     ap.add_argument("--oversample", type=float, default=2.0,
                     help="render scale above display size; lower is faster, softer (default 2)")
     args = ap.parse_args()
+
+    if args.reload:
+        try:
+            with urllib.request.urlopen(
+                f"http://127.0.0.1:{args.port}/reload", timeout=5
+            ) as r:
+                print(f"reloading (reload #{json.load(r)['reload']})")
+        except OSError as e:
+            sys.exit(f"No tv-reader answering on port {args.port} ({e}).")
+        return
 
     if args.goto is not None:
         # Jump an already-running reader. The page polls /state, so this lands in
