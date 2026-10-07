@@ -22,11 +22,7 @@ Two ways, with different tradeoffs:
   the DashCast receiver, so nothing has to be installed on the TV. Cast once and leave
   it: `--goto` and `--reload` drive the page from then on. Known limits: the
   Chromecast receiver swallows some remote keys — left/right page turns arrive, but OK
-  and the down arrow may not, which disables zoom and vertical panning. And once it
-  holds a page, it ignores further casts of any URL: catt reports success, the TV never
-  fetches, and `catt stop` does not dislodge it (DashCast reports no media state, so
-  there is nothing to stop). Use `--reload` rather than re-casting; the only reset from
-  outside is pressing Home on the TV remote.
+  and the down arrow may not, which disables zoom and vertical panning.
 - **Open the URL in a browser on the TV** (e.g. TV Bro on Google TV). A real browser
   passes the whole D-pad through, so every control below works.
 
@@ -50,8 +46,23 @@ After editing `reader.html`, pick the change up the same way:
 python scripts/tv-reader/serve.py --reload
 ```
 
-The page polls for this and reloads itself, which is the only reliable way to refresh
-a cast receiver — see the cast limits below.
+The page polls for this and reloads itself, so an edit lands without re-casting.
+
+## When the TV casts and then drops to the Home screen
+
+The TV has to reach *this machine* by IP, and `--cast` sends whatever address the
+server picked at startup. If the laptop has since moved networks — or sits behind a
+second router that NATs it away from the TV — catt still connects and reports success
+(that direction works), but the TV cannot fetch the page and the receiver quits.
+
+Check both ends are on the same subnet before blaming the receiver:
+
+```bash
+ipconfig getifaddr en0       # must be the TV's subnet
+catt scan                    # lists the TV with its address
+```
+
+Then restart the server so it picks up the current address, and cast again.
 
 ## Controls
 
