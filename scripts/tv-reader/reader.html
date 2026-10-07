@@ -190,10 +190,14 @@ addEventListener("resize", () => { cache.clear(); show(); });
 
 // Poll for a page pushed by `serve.py --goto N`. Only a change in rev moves the
 // view, so this never fights the remote while you are reading.
-let lastRev = null;
+let lastRev = null, lastReload = null;
 setInterval(async () => {
   try {
     const st = await (await fetch("/state", { cache: "no-store" })).json();
+    // A cast receiver may ignore a re-cast of a URL it already holds, so the page
+    // reloads itself on request instead of depending on the sender.
+    if (lastReload === null) lastReload = st.reload;
+    else if (st.reload !== lastReload) { location.reload(); return; }
     if (lastRev === null) { lastRev = st.rev; return; }
     if (st.rev !== lastRev) {
       lastRev = st.rev;

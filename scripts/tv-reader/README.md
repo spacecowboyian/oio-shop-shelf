@@ -19,11 +19,14 @@ the manifest's `source.location` into `.cache/` (gitignored).
 Two ways, with different tradeoffs:
 
 - **Cast it** (`--cast`, needs [catt](https://github.com/skorokithakis/catt)). Launches
-  the DashCast receiver, so nothing has to be installed on the TV. The script stops any
-  running session first — a receiver still holding the previous URL ignores a new cast
-  without reporting an error. Known limit: the
+  the DashCast receiver, so nothing has to be installed on the TV. Cast once and leave
+  it: `--goto` and `--reload` drive the page from then on. Known limits: the
   Chromecast receiver swallows some remote keys — left/right page turns arrive, but OK
-  and the down arrow may not, which disables zoom and vertical panning.
+  and the down arrow may not, which disables zoom and vertical panning. And once it
+  holds a page, it ignores further casts of any URL: catt reports success, the TV never
+  fetches, and `catt stop` does not dislodge it (DashCast reports no media state, so
+  there is nothing to stop). Use `--reload` rather than re-casting; the only reset from
+  outside is pressing Home on the TV remote.
 - **Open the URL in a browser on the TV** (e.g. TV Bro on Google TV). A real browser
   passes the whole D-pad through, so every control below works.
 
@@ -40,6 +43,15 @@ The page polls `/state`, so the jump lands in about a second with no reload and 
 re-cast — which matters, because reloading means re-initialising pdf.js on the TV.
 `--goto` needs only `--port` (default 8789) to find the running reader; it ignores
 `--manual` and exits immediately.
+
+After editing `reader.html`, pick the change up the same way:
+
+```bash
+python scripts/tv-reader/serve.py --reload
+```
+
+The page polls for this and reloads itself, which is the only reliable way to refresh
+a cast receiver — see the cast limits below.
 
 ## Controls
 
