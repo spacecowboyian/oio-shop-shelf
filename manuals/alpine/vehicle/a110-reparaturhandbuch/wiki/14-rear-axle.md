@@ -262,7 +262,7 @@ the second digit is a broken "0" (read at 600 dpi). It agrees with the brakes ch
 kept with reasonable confidence; verify against PDF p.278 / p.310. No rear bearing end-float or
 preload figure is printed — the rear hub runs on a single press-fitted ball bearing. -->
 
-![Rear hub — section with nylon-cage ball bearing, closed side (A), nuts (B) 5 mkg, hub nut (C) 20 mkg — PDF p.278](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0278-rear-hub-bearing-section.webp)
+![Rear hub — section with nylon-cage ball bearing, closed side (A), nuts (B) 5 mkg, hub nut (C) 20 mkg — PDF p.278](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0278-rear-hub-bearing-section.png)
 
 <a id="p279"></a>
 **[PDF p.279]**

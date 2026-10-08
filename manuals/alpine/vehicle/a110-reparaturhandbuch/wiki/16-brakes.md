@@ -137,7 +137,7 @@ The drawing shows the machined caliper corner: angles **68°** and **140°**, an
 
 <!-- NEEDS REVIEW: "Bremsankerplatten" rendered "brake anchor plates (dust shields)"; "Halteplaketten" rendered "retaining plates". The drawing's 68° / 140° / 13 are read from the image; which edge each angle is measured from is shown only on the drawing — read PDF p.288 before machining a caliper. -->
 
-![Caliper machining for 13-inch alloy wheels (68°, 140°, 13) — PDF p.288](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0288-caliper-machining-13in-wheels.webp)
+![Caliper machining for 13-inch alloy wheels (68°, 140°, 13) — PDF p.288](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0288-caliper-machining-13in-wheels.png)
 
 <a id="p289"></a>
 **[PDF p.289]**
@@ -549,7 +549,7 @@ top right margin; not content. -->
 Caliper section, figure 55185.3: pads **(1)**, nut **(2)**, dust cap **(3)**, piston **(4)**,
 square-section seal **(5)**, adjuster pin/spindle **(6)**, copper seal **(7)**.
 
-![Bendix caliper section with part numbers 1–7 — PDF p.299](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0299-caliper-section-parts.webp)
+![Bendix caliper section with part numbers 1–7 — PDF p.299](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0299-caliper-section-parts.png)
 
 <!-- NEEDS REVIEW: the key to items 1–7 is not printed as a legend; it is assembled from the
 text of PDF pp.299–301 ("Mutter (2)", "Staubkappe (3)", "Kolben (4)", "Rundumdichtung (5)",
@@ -1165,7 +1165,7 @@ The vacuum cylinder **(M)** consists of a housing **(5)**, which is firmly attac
 **(11)** by four clips **(12)**. Inside it are the vacuum piston **(13)**, the operating rod
 **(14)** and the return spring **(15)**.
 
-![Hydrovac brake servo section, items 3–32 — PDF p.313](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0313-hydrovac-servo-section.webp)
+![Hydrovac brake servo section, items 3–32 — PDF p.313](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0313-hydrovac-servo-section.png)
 
 <a id="p314"></a>
 **[PDF p.314]**

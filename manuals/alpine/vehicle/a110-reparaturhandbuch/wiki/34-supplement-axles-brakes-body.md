@@ -357,7 +357,7 @@ sealing compound.
 | D = D1 | 1386 mm ±2 for all models except 1600 S |
 | D = D1 | 1380 mm ±2 for 1600 S |
 
-![Gauge and measuring points, chassis of the Alpine, seen from below — PDF p.465](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0465-chassis-measuring-points-05-11-04.webp)
+![Gauge and measuring points, chassis of the Alpine, seen from below — PDF p.465](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0465-chassis-measuring-points-05-11-04.png)
 
 <!-- NEEDS REVIEW: SAFETY RELEVANT (structural measurements). All dimensions on this page were read
 from the image and the OCR agrees (the "±" sign prints as "+" over "−"). "Lotscheibe" rendered "plumb
@@ -667,7 +667,7 @@ improved cross-section with the enlarged lip; **C** — the windscreen-frame low
 and a dimension of **150**; **D** — the rear-window frame lower corner with the drain hole and a dimension of
 **130**; **E** — the sealing compound at the frame edge. They are delivered as an image.
 
-![Figures A to E — sealing profiles and drain-hole positions, windscreen and rear window — PDF p.460](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0460-windscreen-sealing-figures-a-e.webp)
+![Figures A to E — sealing profiles and drain-hole positions, windscreen and rear window — PDF p.460](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0460-windscreen-sealing-figures-a-e.png)
 
 <!-- NEEDS REVIEW: the dimensions "150" (figure C) and "130" (figure D) are the only numbers on the drawings
 and carry no unit and no leader that says what they measure (presumably mm, the distance of the drain hole
