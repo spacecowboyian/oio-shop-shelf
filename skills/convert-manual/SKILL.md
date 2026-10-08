@@ -177,8 +177,9 @@ bare "see PDF p.N" (full rules: **`04_cleanup_methodology.md` Rule 12**):
    cannot open the image at all.
 3. Embed each at its citation point with a **relative** link so it previews in the PR:
    `![Head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.png)`.
-   At merge, `publish-release.sh` moves these images to the manual's Release and flips the
-   links to the Release URL — same light-history treatment as the source PDF, so **commit
+   The links stay relative and the images stay in git — only the source PDF moves to the
+   Release — because `raw.githubusercontent.com` serves a tree file as `image/png` to external
+   readers, while a Release asset redirects to a signed URL they cannot fetch. So **commit
    `diagrams/` in your PR** (unlike `pages/`, which stays gitignored).
 
 This is the whole point of committing the source PDF (see CONTRIBUTING.md) made deliverable:

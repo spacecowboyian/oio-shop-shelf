@@ -80,7 +80,7 @@ The adjustment is made on the underside of the vehicle, below the gearbox.
 2. Slacken or tighten the nut **(2)** until the play at the release fork is **2 to 3 mm**.
 3. Tighten the locknut.
 
-![Clutch free-play adjustment, locknut 1 and adjusting nut 2, engines 807/843/844 and 810/812 — PDF p.163](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0163-clutch-free-play-adjustment.png)
+![Clutch free-play adjustment, locknut 1 and adjusting nut 2, engines 807/843/844 and 810/812 — PDF p.163](../diagrams/p0163-clutch-free-play-adjustment.png)
 
 <!-- NEEDS REVIEW: OCR read the 807/843/844 play as "2 — Zmm"; the page image prints "2 - 3mm" —
 corrected from image. CROSS-CHECK with the key-settings plate (chapter 02): free play at the
@@ -109,7 +109,7 @@ chapter 02's reading. -->
 3. Insert the release shaft and align it with the fork.
 4. Insert the pins, observing the protrusion **D** relative to the release fork: **D = 1 mm**.
 
-![Release fork pins A (cylindrical) and B (grooved), and pin protrusion D = 1 mm — PDF p.164](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0164-release-fork-pins-protrusion-d.png)
+![Release fork pins A (cylindrical) and B (grooved), and pin protrusion D = 1 mm — PDF p.164](../diagrams/p0164-release-fork-pins-protrusion-d.png)
 
 <!-- NEEDS REVIEW: "Kerbstifte" rendered "roll pins / grooved pins"; the page distinguishes
 cylindrical pins A from grooved pins B. -->
