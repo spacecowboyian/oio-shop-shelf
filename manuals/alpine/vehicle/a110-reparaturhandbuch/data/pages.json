@@ -11,8 +11,9 @@
  },
  "base_url": {
   "raw": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
-  "cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
-  "used": "raw"
+  "cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@12ac799c88d06339dc18e827399999f10e3f1acb/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+  "used": "raw",
+  "note": "`url` on each page is already absolute \u2014 prefer it. `raw` is GitHub itself and always current. `cdn` is jsDelivr pinned to the commit these images were generated from: immutable and fast, but frozen, so it will not pick up a later correction."
  },
  "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf",
  "chapters": [
