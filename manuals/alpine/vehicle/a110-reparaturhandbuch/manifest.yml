@@ -513,3 +513,33 @@ diagrams:
     depth: mono
     caption: "Chassis checking dimensions (Fahrgestell – Kontrollmasse): side, plan and end views"
     safety_relevant: true
+  - page: 365
+    file: "diagrams/p0365-screen-sealing-figures.webp"
+    kind: chart
+    depth: mono
+    caption: "Windscreen / rear-window sealing - Figures A to E (profiles, drain-hole positions 150 and 130, frame build-up)"
+    safety_relevant: false
+  - page: 369
+    file: "diagrams/p0369-chassis-check-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Chassis check dimensions (Fahrgestell - Kontrollmasse): side, plan and end views"
+    safety_relevant: true
+  - page: 370
+    file: "diagrams/p0370-body-jig-05-11-02.webp"
+    kind: exploded
+    depth: mono
+    caption: "Body jig adapter drawing 05-11-02 - sections A-A, B-B, C-C, F-F, detail D"
+    safety_relevant: true
+  - page: 371
+    file: "diagrams/p0371-stabiliser-holder-05-11-03.webp"
+    kind: exploded
+    depth: mono
+    caption: "Anti-roll-bar bearing-bracket holder for the body jig, drawing 05-11-03 (left piece, symmetric)"
+    safety_relevant: true
+  - page: 372
+    file: "diagrams/p0372-chassis-gauge-points-05-11-04.webp"
+    kind: chart
+    depth: mono
+    caption: "Chassis seen from below with gauge points A-B-C-D-E and gauge Car.27 marks, drawing 05-11-04"
+    safety_relevant: true
