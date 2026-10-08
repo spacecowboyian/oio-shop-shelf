@@ -47,6 +47,7 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/34-supplement-axles-brakes-body.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/wiki/34-supplement-axles-brakes-body.md)
 - [wiki/35-supplement-special-tools-chassis.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/wiki/35-supplement-special-tools-chassis.md)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/manual-index.jsonl)
+- [data/pages.json](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/pages.json)
 - [diagrams/p0008-renault-alpine-type-codes.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/diagrams/p0008-renault-alpine-type-codes.png)
 - [diagrams/p0009-service-diagnosis-schedule.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/diagrams/p0009-service-diagnosis-schedule.png)
 - [diagrams/p0013-key-settings-plate.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/diagrams/p0013-key-settings-plate.png)

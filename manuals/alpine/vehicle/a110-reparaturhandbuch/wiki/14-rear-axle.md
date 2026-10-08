@@ -10,12 +10,12 @@ page but obscures no value in this range. -->
 # Rear axle (all types)
 
 <a id="p270"></a>
-**[PDF p.270]**
+**[PDF p.270](../page-images/p0270.png)**
 
 Section divider: **Rear axle** (section tab **J**). No text or values.
 
 <a id="p271"></a>
-**[PDF p.271]**
+**[PDF p.271](../page-images/p0271.png)**
 
 ## Rear axle — description of changes
 
@@ -71,7 +71,7 @@ described here (swing half-axles, trailing struts) has no "rear track rods" — 
 height line in chapter 02 may belong to a different rear layout. Kept as an open question. -->
 
 <a id="p272"></a>
-**[PDF p.272]**
+**[PDF p.272](../page-images/p0272.png)**
 
 ## Technical data
 
@@ -90,7 +90,7 @@ gearbox. Each half-axle comprises:
 "Fangband" rendered "check strap" (travel-limiting strap). -->
 
 <a id="p273"></a>
-**[PDF p.273]**
+**[PDF p.273](../page-images/p0273.png)**
 
 ## Removing and refitting a half-axle, right or left
 
@@ -113,7 +113,7 @@ gearbox. Each half-axle comprises:
     central tube (accessible from inside the car, at the lower edge of the gearbox tunnel).
 
 <a id="p274"></a>
-**[PDF p.274]**
+**[PDF p.274](../page-images/p0274.png)**
 
 13. Compress the spring with the compressor **Sus.21**.
 14. Release the dampers at the top.
@@ -138,7 +138,7 @@ underline ("5 mkɒ"); read as "5 mkp", as on PDF pp.275 and 277 where the same n
 The OCR lost the number entirely ("> _mkov"). -->
 
 <a id="p275"></a>
-**[PDF p.275]**
+**[PDF p.275](../page-images/p0275.png)**
 
 ## Removing and refitting a side gearbox mounting
 
@@ -165,7 +165,7 @@ Same work as for the left-hand mounting. In addition, free the throttle cable fr
 > **NOTE:** the universal joints **cannot be repaired**.
 
 <a id="p276"></a>
-**[PDF p.276]**
+**[PDF p.276](../page-images/p0276.png)**
 
 ## Removing and refitting an axle tube
 
@@ -188,7 +188,7 @@ Same work as for the left-hand mounting. In addition, free the throttle cable fr
     spacer washers between the deflector plate and the axle-tube flange.
 
 <a id="p277"></a>
-**[PDF p.277]**
+**[PDF p.277](../page-images/p0277.png)**
 
 12. Compress the spring with the compressor **Sus.21**.
 13. Release the upper damper mountings.
@@ -217,7 +217,7 @@ Carry out the removal operations in reverse order.
 - Fill with gearbox oil.
 
 <a id="p278"></a>
-**[PDF p.278]**
+**[PDF p.278](../page-images/p0278.png)**
 
 ## Removing and refitting the hub and hub (wheel) bearing
 
@@ -265,7 +265,7 @@ preload figure is printed — the rear hub runs on a single press-fitted ball be
 ![Rear hub — section with nylon-cage ball bearing, closed side (A), nuts (B) 5 mkg, hub nut (C) 20 mkg — PDF p.278](../diagrams/p0278-rear-hub-bearing-section.png)
 
 <a id="p279"></a>
-**[PDF p.279]**
+**[PDF p.279](../page-images/p0279.png)**
 
 ## Checking the rear axle position
 
@@ -281,7 +281,7 @@ preload figure is printed — the rear hub runs on a single press-fitted ball be
 5. Do the same at the other wheel.
 
 <a id="p280"></a>
-**[PDF p.280]**
+**[PDF p.280](../page-images/p0280.png)**
 
 6. Push the vehicle forwards by **half a wheel revolution**.
 7. Fit the pointer carrier to one wheel so that the pointer faces **forwards**.

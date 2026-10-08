@@ -16,13 +16,13 @@ different typeface (inserted supplement). -->
 # Gearboxes 353 / 364 and 330
 
 <a id="p171"></a>
-**[PDF p.171]**
+**[PDF p.171](../page-images/p0171.png)**
 
 Section divider: **GETRIEBE** (gearboxes), section tab **E**. The page carries only a
 perspective drawing of the gearbox and no data.
 
 <a id="p172"></a>
-**[PDF p.172]**
+**[PDF p.172](../page-images/p0172.png)**
 
 ## Gearbox technical data
 
@@ -80,7 +80,7 @@ page image; the ones given are the readings consistent with the printed ratio.
     HANDWRITTEN ticks/crosses, not printed — not factory data. -->
 
 <a id="p173"></a>
-**[PDF p.173]**
+**[PDF p.173](../page-images/p0173.png)**
 
 The table continues; the first cell carries the end of the 353-13 row ("Replaced by 353-33,
 No. 7701508101" / "on 1300.").
@@ -114,7 +114,7 @@ Final-drive arithmetic checks: 33/8 = 4.125, 35/9 = 3.89, 34/9 = 3.78 (printed 3
 (printed 3,37). No other chapter of this book carries the per-type ratio table to cross-check. -->
 
 <a id="p174"></a>
-**[PDF p.174]**
+**[PDF p.174](../page-images/p0174.png)**
 
 ## Identification
 
@@ -127,7 +127,7 @@ The page carries a longitudinal section of the type 353 gearbox (drawing 65 048,
 PDF p.176). It has no callouts or values.
 
 <a id="p175"></a>
-**[PDF p.175]**
+**[PDF p.175](../page-images/p0175.png)**
 
 ## Gearbox type 353 / 364 — 5-speed
 
@@ -192,7 +192,7 @@ same wording; the 364 capacity disagreement (2 L here vs 2 1/2 L in chapter 02) 
 in the source. See [General technical data](02-general-technical-data.md). -->
 
 <a id="p176"></a>
-**[PDF p.176]**
+**[PDF p.176](../page-images/p0176.png)**
 
 ### Longitudinal section and cross-section of the differential
 
@@ -201,7 +201,7 @@ callout **(1)** pointing at the side oil seal/bearing area of the differential b
 (the "C" leak point of the note on PDF p.175). No values.
 
 <a id="p177"></a>
-**[PDF p.177]**
+**[PDF p.177](../page-images/p0177.png)**
 
 ## Shift scheme
 
@@ -229,7 +229,7 @@ H-pattern with directions. Confirm the physical lever directions on the car befo
 them. Read from the page image of PDF p.177. -->
 
 <a id="p178"></a>
-**[PDF p.178]**
+**[PDF p.178](../page-images/p0178.png)**
 
 ## Cross-section with shift fork arrangement
 
@@ -247,7 +247,7 @@ a) The disc **(1)** locks:
 - the shift rails of 1st and 2nd gear and of reverse, when 3rd or 4th gear is engaged.
 
 <a id="p179"></a>
-**[PDF p.179]**
+**[PDF p.179](../page-images/p0179.png)**
 
 b) The locking pin **(2)** locks:
 
@@ -257,7 +257,7 @@ b) The locking pin **(2)** locks:
 (Sections 65 050, 65 051 and 65 052 show the 5th-gear housing and locking pin.)
 
 <a id="p180"></a>
-**[PDF p.180]**
+**[PDF p.180](../page-images/p0180.png)**
 
 ## Removing and refitting the gearbox
 
@@ -291,7 +291,7 @@ links of the swing axle); "Führungsplatte"/"Führungsbolzen" = guide plate / gu
 handbrake. -->
 
 <a id="p181"></a>
-**[PDF p.181]**
+**[PDF p.181](../page-images/p0181.png)**
 
 18. Compress the rear axle springs with the tool **Sus.21**.
 19. Release:
@@ -317,7 +317,7 @@ handbrake. -->
 differential bearing carrier, called "Gelenkschalen" on PDF p.183). -->
 
 <a id="p182"></a>
-**[PDF p.182]**
+**[PDF p.182](../page-images/p0182.png)**
 
 30. Disconnect the gearshift linkage and the speedometer cable.
 31. Place a jack under the oil sump.
@@ -346,7 +346,7 @@ Carry out all removal operations in reverse order, noting the following:
 says "Das Ende der Kupplungswelle leicht fetten" (lightly grease the end of the clutch shaft). -->
 
 <a id="p183"></a>
-**[PDF p.183]**
+**[PDF p.183](../page-images/p0183.png)**
 
 ## Removing and refitting the gearbox with the power unit removed
 
@@ -367,7 +367,7 @@ says "Das Ende der Kupplungswelle leicht fetten" (lightly grease the end of the 
 12. Remove the axle trumpets and secure the differential bearing carriers again with two nuts.
 
 <a id="p184"></a>
-**[PDF p.184]**
+**[PDF p.184](../page-images/p0184.png)**
 
 13. Remove the starter.
 14. Remove the clutch housing cover plate and the stiffener.
@@ -393,7 +393,7 @@ lever. If the linkage is difficult to remove, slacken the rear engine mounting s
 gearbox can be raised.
 
 <a id="p185"></a>
-**[PDF p.185]**
+**[PDF p.185](../page-images/p0185.png)**
 
 ## Overhauling the complete gearbox
 
@@ -405,7 +405,7 @@ gearbox can be raised.
    drawings 65 055 / 65 056).
 
 <a id="p186"></a>
-**[PDF p.186]**
+**[PDF p.186](../page-images/p0186.png)**
 
 4. Engage 3rd gear.
 5. Drive out the roll pin of the selector shaft with the drift **B.Vi.31 A**.
@@ -427,7 +427,7 @@ gearbox can be raised.
     - the 5th-speed gear from the secondary shaft.
 
 <a id="p187"></a>
-**[PDF p.187]**
+**[PDF p.187](../page-images/p0187.png)**
 
 13. Remove the two securing bolts of the front intermediate plate and take the plate off.
 14. Remove the connecting bolts of the two casing halves.
@@ -441,7 +441,7 @@ of the primary shaft and of the 3rd/4th and 5th shift rails) are not in this PDF
 the sequence below is complete. -->
 
 <a id="p188"></a>
-**[PDF p.188]**
+**[PDF p.188](../page-images/p0188.png)**
 
 ### Shift rail of 1st and 2nd gear and of reverse
 
@@ -461,7 +461,7 @@ the sequence below is complete. -->
 Verriegelungskugel …" and "Schalt-gabel ausbauen" partly lost). -->
 
 <a id="p189"></a>
-**[PDF p.189]**
+**[PDF p.189](../page-images/p0189.png)**
 
 ### Reverse idler gear
 
@@ -476,7 +476,7 @@ Remove the circlip and remove:
 2. Using the tool **T.Ar.65** and the press, press off the bearing sleeve of the 5th-speed gear.
 
 <a id="p190"></a>
-**[PDF p.190]**
+**[PDF p.190](../page-images/p0190.png)**
 
 3. Remove the taper roller bearing and the adjusting shim of the primary shaft.
 4. Remove the circlip of the inner roller bearing cage and pull the cage off.
@@ -504,7 +504,7 @@ for the synchro parts here; on PDF p.175 the 3rd/4th "Schieberad" also forms the
 so it is a toothed sleeve. "Gleitsteine" = sliding blocks (synchro keys). -->
 
 <a id="p191"></a>
-**[PDF p.191]**
+**[PDF p.191](../page-images/p0191.png)**
 
 - Press off the 3rd/4th-gear synchro hub with the puller **T.Ar.65** and the press.
 - Remove:
@@ -523,7 +523,7 @@ Gangrad und dessen"; the missing word is not visible. "Nutenscheibe" (literally 
 washer") is rendered "splined washer" — it is the splined thrust washer that locates each gear. -->
 
 <a id="p192"></a>
-**[PDF p.192]**
+**[PDF p.192](../page-images/p0192.png)**
 
 Remove:
 
@@ -542,7 +542,7 @@ Remove:
   - either with the puller **B.Vi.28** and the claws **B.Vi.48**,
 
 <a id="p193"></a>
-**[PDF p.193]**
+**[PDF p.193](../page-images/p0193.png)**
 
   - or with the tool **T.Ar.65**.
 - Remove the eight crown wheel bolts (**self-locking bolts; they cannot be re-used**).
@@ -572,7 +572,7 @@ planet (differential) pinions, not the final-drive bevel pinion; rendered "plane
 "Rundumdichtung" rendered "O-ring seal". -->
 
 <a id="p194"></a>
-**[PDF p.194]**
+**[PDF p.194](../page-images/p0194.png)**
 
 ## Reassembly
 
@@ -608,7 +608,7 @@ The synchro hubs and the secondary shaft are matched to each other.
   ensured.
 
 <a id="p195"></a>
-**[PDF p.195]**
+**[PDF p.195](../page-images/p0195.png)**
 
 **2 — Measuring the secondary shaft**
 
@@ -644,7 +644,7 @@ electric oven and heat it to **250° C**. Do not press the hub on before it has 
 temperature.
 
 <a id="p196"></a>
-**[PDF p.196]**
+**[PDF p.196](../page-images/p0196.png)**
 
 #### Synchro of 3rd and 4th gear
 
@@ -668,7 +668,7 @@ dismantled and is to be re-used, assemble it as follows. Fit onto the hub:
 3. The temporary key is inserted into a spline groove that contains a lubrication hole.
 
 <a id="p197"></a>
-**[PDF p.197]**
+**[PDF p.197](../page-images/p0197.png)**
 
 4. Take the 1st/2nd-gear synchro hub out of the oven and fit it in the correct direction:
    - the mark matching the one on the sliding sleeve upwards, i.e. towards the 2nd-speed gear;
@@ -686,7 +686,7 @@ dismantled and is to be re-used, assemble it as follows. Fit onto the hub:
    turn it to offset it.
 
 <a id="p198"></a>
-**[PDF p.198]**
+**[PDF p.198](../page-images/p0198.png)**
 
 10. Fit the 3rd-speed gear with the synchro ring. Slide on the splined washer and turn it to
     offset it.
@@ -704,7 +704,7 @@ dismantled and is to be re-used, assemble it as follows. Fit onto the hub:
     - the double roller bearing.
 
 <a id="p199"></a>
-**[PDF p.199]**
+**[PDF p.199](../page-images/p0199.png)**
 
 14. Fit:
     - the front spacer plate (required when setting the cone distance);
@@ -746,7 +746,7 @@ German edition swapped them). Translated literally as printed; check against the
 61 637 on PDF p.199. -->
 
 <a id="p200"></a>
-**[PDF p.200]**
+**[PDF p.200](../page-images/p0200.png)**
 
 8. Dip the second planet gear in hypoid oil **80 EP** and fit it to the crown wheel.
 9. Secure the crown wheel with **new self-locking bolts**. Tightening torque: **6 mkg** (use the
@@ -766,7 +766,7 @@ metre-kilogram) — reproduced as printed, not converted. -->
    - the taper roller bearing.
 
 <a id="p201"></a>
-**[PDF p.201]**
+**[PDF p.201](../page-images/p0201.png)**
 
 ### 5th-gear synchro assembly
 
@@ -811,7 +811,7 @@ The data table (PDF pp.172–173) gives other values by gearbox variant: 50.5 (1
 61.50 for 364-01/-05. Use the value for your gearbox type. -->
 
 <a id="p202"></a>
-**[PDF p.202]**
+**[PDF p.202](../page-images/p0202.png)**
 
 In exceptional cases the dimension A may not correspond to the theoretical distance. A number
 **X** then appears on the end face of the pinion — next to the pairing number — representing the
@@ -850,7 +850,7 @@ as to increase the reading — consistent, but verify against the gauge geometry
 on it. -->
 
 <a id="p203"></a>
-**[PDF p.203]**
+**[PDF p.203](../page-images/p0203.png)**
 
 ## B — Setting the crown-wheel backlash and the differential bearings
 
@@ -878,7 +878,7 @@ The special tool **T.Ar.63** is used for this; it consists of two each of:
 9. Tighten the securing bolts of the differential bearing carriers to **5 mkp**.
 
 <a id="p204"></a>
-**[PDF p.204]**
+**[PDF p.204](../page-images/p0204.png)**
 
 10. With the corresponding spindles **(3)**, press the thrust pads against the respective bearing
     outer races (**do not force**). Make sure the pads turn freely up to the point of contact.
@@ -911,7 +911,7 @@ the backlash is in range — the verbs are reproduced as printed; one spindle is
 other is backed off to shift the crown wheel, which the page does not spell out. -->
 
 <a id="p205"></a>
-**[PDF p.205]**
+**[PDF p.205](../page-images/p0205.png)**
 
 ### 2 — Differential bearings
 
@@ -961,7 +961,7 @@ setting is therefore final.
    - the bearing outer races (press them in).
 
 <a id="p206"></a>
-**[PDF p.206]**
+**[PDF p.206](../page-images/p0206.png)**
 
 **b) New bearings.** New bearings must be fitted **with preload**.
 
@@ -1009,7 +1009,7 @@ FORCE (kp), not a torque (mkp); "kp" is almost certainly meant. (2) The rotating
 pull unit — kept exactly as printed. -->
 
 <a id="p207"></a>
-**[PDF p.207]**
+**[PDF p.207](../page-images/p0207.png)**
 
 ## C — Aligning the primary shaft
 
@@ -1032,7 +1032,7 @@ position is obtained by fitting the washer **(1)** (section 65 085).
 5. Connect the clutch shaft to the primary shaft with the roll pin.
 
 <a id="p208"></a>
-**[PDF p.208]**
+**[PDF p.208](../page-images/p0208.png)**
 
 ## Final assembly
 
@@ -1057,7 +1057,7 @@ position is obtained by fitting the washer **(1)** (section 65 085).
 4. Insert the rail, fit the shift fork (**raised boss towards the differential**) and secure it.
 
 <a id="p209"></a>
-**[PDF p.209]**
+**[PDF p.209](../page-images/p0209.png)**
 
 ### Reverse idler gear
 
@@ -1082,7 +1082,7 @@ position is obtained by fitting the washer **(1)** (section 65 085).
 5. **Do not tighten the nuts yet.**
 
 <a id="p210"></a>
-**[PDF p.210]**
+**[PDF p.210](../page-images/p0210.png)**
 
 6. Fit the front spacer plate, the gasket coated with Perfect-Seal (order no. **805 463**) and the
    dowels. Insert the two securing bolts, **but do not tighten them**.
@@ -1109,7 +1109,7 @@ position is obtained by fitting the washer **(1)** (section 65 085).
 image shows "805 463", matching PDF pp.182, 184 and 209 — corrected from image. -->
 
 <a id="p211"></a>
-**[PDF p.211]**
+**[PDF p.211](../page-images/p0211.png)**
 
 11. Offer up the rail with fork to the 5th-gear synchro assembly; the notch of the rail
     opposite the chamfer of the sliding sleeve.
@@ -1128,7 +1128,7 @@ image shows "805 463", matching PDF pp.182, 184 and 209 — corrected from image
 "B.Vi.204" — corrected from image. -->
 
 <a id="p212"></a>
-**[PDF p.212]**
+**[PDF p.212](../page-images/p0212.png)**
 
 16. Coat the front cover gasket with Perfect-Seal (order no. **805 463**) and fit it.
 17. Offer up the front cover and slide it over the 3rd/4th and 5th shift rails; **make sure the
@@ -1146,7 +1146,7 @@ roll-pin drift used throughout) — corrected from image. No torque is printed f
 bolts. -->
 
 <a id="p213"></a>
-**[PDF p.213]**
+**[PDF p.213](../page-images/p0213.png)**
 
 23. Coat the paper gasket of the clutch housing with Perfect-Seal (order no. **805 463**). Offer
     up the clutch housing and secure it.
@@ -1157,7 +1157,7 @@ bolts. -->
 > **NOTE:** gearbox oil is filled only after installation in the vehicle.
 
 <a id="p214"></a>
-**[PDF p.214]**
+**[PDF p.214](../page-images/p0214.png)**
 
 ## Gearbox type 330 — 4-speed
 
@@ -1167,7 +1167,7 @@ The type, the reference number and the serial number of the gearbox are stamped 
 to the shift cover (perspective view 58 051).
 
 <a id="p215"></a>
-**[PDF p.215]**
+**[PDF p.215](../page-images/p0215.png)**
 
 ### Technical data (type 330)
 
@@ -1239,7 +1239,7 @@ the same wording as API GL 4. See [General technical data](02-general-technical-
 > forget the spacer shims!**
 
 <a id="p216"></a>
-**[PDF p.216]**
+**[PDF p.216](../page-images/p0216.png)**
 
 ### Longitudinal section and differential cross-section (type 330)
 
@@ -1247,7 +1247,7 @@ Drawings only: longitudinal section (57 927) and cross-section of the differenti
 callout **(1)** at the differential bearing carrier seal. No values.
 
 <a id="p217"></a>
-**[PDF p.217]**
+**[PDF p.217](../page-images/p0217.png)**
 
 ### Shift scheme of the gearbox (type 330)
 
@@ -1255,7 +1255,7 @@ Figure only (drawings 58 126, 36 128, 36 130): power flow in each gear, with the
 **PM = neutral position**, **AR = reverse gear**.
 
 <a id="p218"></a>
-**[PDF p.218]**
+**[PDF p.218](../page-images/p0218.png)**
 
 ### Cross-section at the shift forks; locking of the shift rails (type 330)
 
@@ -1269,7 +1269,7 @@ ball. In addition, the disc **(1)** locks:
 (Sections 57 929–57 934.)
 
 <a id="p219"></a>
-**[PDF p.219]**
+**[PDF p.219](../page-images/p0219.png)**
 
 ### Removing and refitting the gearbox (type 330)
 
@@ -1297,7 +1297,7 @@ standard on "70 - 1100 VB and 1300". Not contradictory, but the fitments are wor
 5. Remove the spacer sleeve and the adjusting shims of the primary shaft.
 
 <a id="p220"></a>
-**[PDF p.220]**
+**[PDF p.220](../page-images/p0220.png)**
 
 6. Remove the connecting bolts and separate the two casing halves.
 7. Take out the secondary shaft.
@@ -1317,7 +1317,7 @@ standard on "70 - 1100 VB and 1300". Not contradictory, but the fitments are wor
 2. Drive out the roll pin of the 1st/2nd shift fork with the drift **B.Vi.31 A**. Catch the fork.
 
 <a id="p221"></a>
-**[PDF p.221]**
+**[PDF p.221](../page-images/p0221.png)**
 
 3. Knock out the roll pin in the selector lug of the reverse shift rail with the drift
    **B.Vi. 31 A**. Pull off the selector lug.
@@ -1338,7 +1338,7 @@ Remove the bearing outer races and the adjusting shims. Knock out the roll pin w
 separate the clutch shaft from the primary shaft.
 
 <a id="p222"></a>
-**[PDF p.222]**
+**[PDF p.222](../page-images/p0222.png)**
 
 - Pull off the bearing on the differential side with the puller **B.Vi.22**, using the sleeve
   **B.Vi.41**.
@@ -1357,7 +1357,7 @@ however, be removed and replaced. Proceed as follows:
    with the synchro ring.
 
 <a id="p223"></a>
-**[PDF p.223]**
+**[PDF p.223](../page-images/p0223.png)**
 
 #### Differential
 
@@ -1380,7 +1380,7 @@ Clean and check all parts thoroughly. The removed gaskets/seals and roll pins mu
 new ones on assembly.
 
 <a id="p224"></a>
-**[PDF p.224]**
+**[PDF p.224](../page-images/p0224.png)**
 
 #### Reassembly — differential (type 330)
 
@@ -1421,7 +1421,7 @@ Press both bearings on with the press.
 whereas type 353/364 gives "10 - 12 mkp" (PDF pp.199, 211). Both kept as printed. -->
 
 <a id="p225"></a>
-**[PDF p.225]**
+**[PDF p.225](../page-images/p0225.png)**
 
 #### Settings before assembly (type 330)
 
@@ -1471,7 +1471,7 @@ as "30,50 + 0,20 = 59,70" — the page image shows 50,50 / 50,70. -->
 PDF p.202 — corrected from image. -->
 
 <a id="p226"></a>
-**[PDF p.226]**
+**[PDF p.226](../page-images/p0226.png)**
 
 #### B — Setting the backlash and the differential bearings (type 330)
 
@@ -1499,7 +1499,7 @@ This setting is carried out with the special tool **T.Ar.63**, which consists of
 9. Tighten the nuts of the differential bearing carriers to **5 mkg**.
 
 <a id="p227"></a>
-**[PDF p.227]**
+**[PDF p.227](../page-images/p0227.png)**
 
 10. By screwing in the spindles **(3)**, bring the measuring bells **(1)** lightly into contact
     with the bearing outer races. Make sure the bells turn freely up to this contact.
@@ -1522,7 +1522,7 @@ This setting is carried out with the special tool **T.Ar.63**, which consists of
     complete, the dial gauge can be removed.
 
 <a id="p228"></a>
-**[PDF p.228]**
+**[PDF p.228](../page-images/p0228.png)**
 
 **2 — Setting the differential bearings (type 330)**
 
@@ -1555,7 +1555,7 @@ just carried out is therefore final.
 2. Press out the bearing outer races and the measuring bells.
 
 <a id="p229"></a>
-**[PDF p.229]**
+**[PDF p.229](../page-images/p0229.png)**
 
 3. Into each differential bearing carrier fit:
    - the seal;
@@ -1587,7 +1587,7 @@ mkg) where the type 353/364 page (PDF p.206) prints "mkp" — same figures, unit
 on each page. -->
 
 <a id="p230"></a>
-**[PDF p.230]**
+**[PDF p.230](../page-images/p0230.png)**
 
 **Checking the preload (type 330)**
 
@@ -1616,7 +1616,7 @@ Fit onto the primary shaft (exploded view 58 101):
 - the spacer shim **(1)** that was removed on dismantling.
 
 <a id="p231"></a>
-**[PDF p.231]**
+**[PDF p.231](../page-images/p0231.png)**
 
 **1 — Position of the primary shaft**
 
@@ -1646,7 +1646,7 @@ lists 2.75 - 3 - 3.5 - 4 - 4.5 - 5 - 5.5 mm. Different gearboxes — do not mix.
 7. Connect the clutch shaft and the primary shaft with a new roll pin.
 
 <a id="p232"></a>
-**[PDF p.232]**
+**[PDF p.232](../page-images/p0232.png)**
 
 #### Final assembly — shift controls (type 330)
 
@@ -1670,7 +1670,7 @@ lists 2.75 - 3 - 3.5 - 4 - 4.5 - 5 - 5.5 mm. Different gearboxes — do not mix.
    pin.
 
 <a id="p233"></a>
-**[PDF p.233]**
+**[PDF p.233](../page-images/p0233.png)**
 
 **Reverse shaft**
 
@@ -1701,7 +1701,7 @@ lists 2.75 - 3 - 3.5 - 4 - 4.5 - 5 - 5.5 mm. Different gearboxes — do not mix.
 8. Fit the shift cover, but do not yet tighten the nuts fully.
 
 <a id="p234"></a>
-**[PDF p.234]**
+**[PDF p.234](../page-images/p0234.png)**
 
 9. Tighten the casing bolts in the sequence shown (drawing 58 108, numbered 1 to 17) to the
    following torques:
@@ -1724,7 +1724,7 @@ type 353/364 figure on PDF p.210 (65 092); the 353/364 figure is the one deliver
 No torque is printed for the shift cover nuts. -->
 
 <a id="p235"></a>
-**[PDF p.235]**
+**[PDF p.235](../page-images/p0235.png)**
 
 ## Tooth-contact pattern check
 

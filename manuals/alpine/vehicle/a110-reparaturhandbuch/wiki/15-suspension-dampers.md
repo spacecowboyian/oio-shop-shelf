@@ -9,12 +9,12 @@ PDF pp.283-286 were read from the page images; their procedures carry no torque 
 # Suspension and dampers (all types)
 
 <a id="p281"></a>
-**[PDF p.281]**
+**[PDF p.281](../page-images/p0281.png)**
 
 Section divider: **Suspension — dampers** (section tab **L**). No text or values.
 
 <a id="p282"></a>
-**[PDF p.282]**
+**[PDF p.282](../page-images/p0282.png)**
 
 ## Spring characteristics
 
@@ -63,7 +63,7 @@ For competition use, **Koni** or **Bilstein** dampers may also be fitted.
 high resolution). -->
 
 <a id="p283"></a>
-**[PDF p.283]**
+**[PDF p.283](../page-images/p0283.png)**
 
 ## Removing and refitting a front damper
 
@@ -92,7 +92,7 @@ high resolution). -->
 ![Front damper — components (1) lower bracket to (6) locknut — PDF p.283](../diagrams/p0283-front-damper-components.png)
 
 <a id="p284"></a>
-**[PDF p.284]**
+**[PDF p.284](../page-images/p0284.png)**
 
 ## Removing and refitting a rear damper
 
@@ -115,7 +115,7 @@ Carry out all the removal operations in reverse order.
 4. Refit the mounting plate with the bump-stop rubber.
 
 <a id="p285"></a>
-**[PDF p.285]**
+**[PDF p.285](../page-images/p0285.png)**
 
 ## Removing and refitting a front spring
 
@@ -141,7 +141,7 @@ setting values on PDF p.250 give a toe-OUT setting for cars from chassis 2163. P
 loosely for "toe"; see the toe-direction flag in [13-front-axle.md](13-front-axle.md). -->
 
 <a id="p286"></a>
-**[PDF p.286]**
+**[PDF p.286](../page-images/p0286.png)**
 
 ## Removing and refitting a rear spring
 

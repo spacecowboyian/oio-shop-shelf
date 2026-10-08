@@ -11,13 +11,13 @@ for 364-01) — the missing leading characters are supplied in square brackets. 
 # Section E — Gearbox
 
 <a id="p405"></a>
-**[PDF p.405]**
+**[PDF p.405](../page-images/p0405.png)**
 
 Section divider: **GETRIEBE** (Gearbox), tab **E**, with a drawing of the gearbox. No other
 content.
 
 <a id="p406"></a>
-**[PDF p.406]**
+**[PDF p.406](../page-images/p0406.png)**
 
 ## E-1 — Gearbox: identification and longitudinal section
 
@@ -29,7 +29,7 @@ gearbox.
 values.
 
 <a id="p407"></a>
-**[PDF p.407]**
+**[PDF p.407](../page-images/p0407.png)**
 
 ## E-2 — Gearbox types: technical data
 
@@ -64,7 +64,7 @@ denotes the A 110 "70" (1100 cm³) version, but the page does not say. "Bei 1300
 353-33 entry is printed on PDF p.408, continuing the 353-13 cell. -->
 
 <a id="p408"></a>
-**[PDF p.408]**
+**[PDF p.408](../page-images/p0408.png)**
 
 | Gearbox type | Fitted to | Crown wheel and pinion, final drive | Conical distance A in mm | 1st | 2nd | 3rd | 4th | 5th | 5th short |
 |---|---|---|---|---|---|---|---|---|---|
@@ -77,7 +77,7 @@ Gear ratios: 353-15 = 353-03; 353-16 = 353-11; 353-20 = 353-13.
 The upper half of PDF p.408 is blank.
 
 <a id="p409"></a>
-**[PDF p.409]**
+**[PDF p.409](../page-images/p0409.png)**
 
 ## E-3 — Gearbox types (continued)
 
@@ -103,7 +103,7 @@ names a type 364. Consistent. The 364 conical distance (61.50 mm) is very differ
 pinion. -->
 
 <a id="p410"></a>
-**[PDF p.410]**
+**[PDF p.410](../page-images/p0410.png)**
 
 ## E-4 — Pinion setting dimension, removal and overhaul
 

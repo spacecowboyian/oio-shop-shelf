@@ -127,29 +127,35 @@ Where two printings DO agree (main-bearing and big-end torques, the B-2 valve ti
 1300 VC brake disc and pad sizes), the flags say so — that agreement is the strongest evidence
 this wiki has that a value is right.
 
-## Diagrams
+## Images: every page, plus the named diagrams
 
-**72 diagram images are in the repository**, under `diagrams/`, embedded in the chapters at their
-citation points. They are black-and-white PNGs rendered at 300 dpi from the scan, so they stand up
-to zooming. Their raw URLs work for a fetch-only reader:
+**Every one of the 468 pages is a committed image.** Each `**[PDF p.N]**` marker in a chapter is
+a link to that page's picture, so you can always show a reader the page you are citing — there is
+no page you cannot produce. The URL pattern:
 
 ```
-https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/diagrams/<file>.png
+https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/page-images/pNNNN.png
 ```
 
-(Every one is listed in [`all-files.md`](all-files.md). They are served as `image/png` from the
-same host as this markdown — unlike the source PDF, which is a GitHub Release asset and is
-unreachable for most web-only readers.)
+`NNNN` is the PDF page, zero-padded to four digits (page 37 → `p0037.png`). They are
+black-and-white PNGs at 300 dpi, around 100 KB each, so they stand up to zooming on a big screen.
 
-**Still answer from the text first.** Wherever a figure carries information — a bolt tightening
-sequence, a torque callout, a setting — it is also **transcribed in the chapter next to the
-image**, with its flags. The cylinder head bolt sequences, for example, are written out as
-numbered rows in `02-general-technical-data.md`, `04-engine-807-843-844.md`, `05-engine-810.md`
-and `06-engine-812.md`. Quote the text and cite the PDF page; offer the image when the user wants
-to *see* the figure.
+**72 pages are also registered as named diagrams** under `diagrams/`, with a caption and a
+safety flag, and embedded at the point in the text where they matter. Those are the figures
+worth calling out by name (bolt sequences, wiring, exploded views, chassis measuring points).
 
-If you cannot load images at all, say so plainly rather than guessing at a figure, and give the
-PDF page number so the user can open it themselves.
+**[`../data/pages.json`](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/pages.json)** is the machine-readable index: every page with its
+file, pixel size, byte size, which chapter it belongs to, and the diagram caption where there is
+one — plus `base_url.raw` and `base_url.cdn` (jsDelivr) if you would rather build URLs than
+parse markdown.
+
+All of these are served as `image/png` from the same host as this markdown, with no redirect —
+unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only
+readers.
+
+**Answer from the text first.** Wherever a figure carries information — a bolt tightening
+sequence, a torque callout, a setting — it is also transcribed in the chapter next to the image,
+with its flags. Quote the text, cite the PDF page, and show the picture alongside it.
 
 ## Known problems in this source
 

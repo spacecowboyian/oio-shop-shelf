@@ -8,10 +8,10 @@ Torque is printed in mkp (metre-kilopond) throughout this chapter and is NOT con
 # Engine and ignition — technical data, removal and refitting
 
 <a id="p14"></a>
-**[PDF p.14]** — section divider plate: *Motor – Zündung* (Engine – Ignition).
+**[PDF p.14](../page-images/p0014.png)** — section divider plate: *Motor – Zündung* (Engine – Ignition).
 
 <a id="p15"></a>
-**[PDF p.15]**
+**[PDF p.15](../page-images/p0015.png)**
 
 ## Engine technical data
 
@@ -140,7 +140,7 @@ This engine is already modified at the Renault works as follows:
 by engine rather than by the source's letters. -->
 
 <a id="p16"></a>
-**[PDF p.16]**
+**[PDF p.16](../page-images/p0016.png)**
 
 ## Operations
 
@@ -177,7 +177,7 @@ Carry out the removal operations in reverse order.
 Before connecting the water and oil hoses, make sure they are in good condition.
 
 <a id="p17"></a>
-**[PDF p.17]**
+**[PDF p.17](../page-images/p0017.png)**
 
 ### Removing the power unit (engine and gearbox together)
 
@@ -187,7 +187,7 @@ Before connecting the water and oil hoses, make sure they are in good condition.
 3. Undo the bolts connecting the clutch housing and the cylinder block.
 
 <a id="p18"></a>
-**[PDF p.18]**
+**[PDF p.18](../page-images/p0018.png)**
 
 4. Release the tie rods connecting the power unit to the chassis.
 5. Release the engine crossmember from the chassis.
@@ -214,7 +214,7 @@ Carry out the removal operations in reverse order.
 > ["Motor 812-Gordini"](06-engine-812.md).
 
 <a id="p19"></a>
-**[PDF p.19]**
+**[PDF p.19](../page-images/p0019.png)**
 
 ## Gudgeon pins
 
@@ -241,7 +241,7 @@ that is not identified on this page. The source note under the table reads only 
 der Motoren 812-00 und 1300 S" followed by a sectional drawing. -->
 
 <a id="p20"></a>
-**[PDF p.20]**
+**[PDF p.20](../page-images/p0020.png)**
 
 ## Crankshaft
 
@@ -273,7 +273,7 @@ blank. -->
 Corresponds in all respects to the valve gear of the original Renault engines.
 
 <a id="p21"></a>
-**[PDF p.21]**
+**[PDF p.21](../page-images/p0021.png)**
 
 ## Lubrication
 
@@ -318,7 +318,7 @@ chapter is **not recoverable from this scan** — see the flag above. It is prin
 section **B-7** of the factory-manual part, PDF p.388.
 
 <a id="p22"></a>
-**[PDF p.22]** — section divider: *Motortypen 807 / 843 / 844 — fitted in the A 110 1600 S —
+**[PDF p.22](../page-images/p0022.png)** — section divider: *Motortypen 807 / 843 / 844 — fitted in the A 110 1600 S —
 overhaul*.
 
 ## Next

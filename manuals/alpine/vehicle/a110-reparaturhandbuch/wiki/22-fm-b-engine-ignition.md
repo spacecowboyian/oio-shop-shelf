@@ -19,12 +19,12 @@ there. -->
 # Section B — Engine and ignition
 
 <a id="p382"></a>
-**[PDF p.382]**
+**[PDF p.382](../page-images/p0382.png)**
 
 Section divider: **MOTOR – ZÜNDUNG** (Engine – ignition), tab **B**. No other content.
 
 <a id="p383"></a>
-**[PDF p.383]**
+**[PDF p.383](../page-images/p0383.png)**
 
 ## B-2 — Engine: technical data
 
@@ -88,7 +88,7 @@ Rectangular type plate on the cylinder block (RENAULT or ALPINE type plate).
   bearings.
 
 <a id="p384"></a>
-**[PDF p.384]**
+**[PDF p.384](../page-images/p0384.png)**
 
 ## B-3 — Engine differences (continued) and operations
 
@@ -184,7 +184,7 @@ Proceed as follows:
    - on some models, the struts connecting the engine to the chassis or to the rear crossmember.
 
 <a id="p385"></a>
-**[PDF p.385]**
+**[PDF p.385](../page-images/p0385.png)**
 
 ## B-4 — Removing the engine (continued)
 
@@ -224,7 +224,7 @@ the crossmember; the bulkhead cover plate; the gearbox crossmember, figure 61 40
 no values.
 
 <a id="p386"></a>
-**[PDF p.386]**
+**[PDF p.386](../page-images/p0386.png)**
 
 ## B-5 — Removing the power unit (continued)
 
@@ -247,7 +247,7 @@ Carry out the removal operations in reverse order.
 - Check the alignment of the engine with the longitudinal axis of the vehicle.
 
 <a id="p387"></a>
-**[PDF p.387]**
+**[PDF p.387](../page-images/p0387.png)**
 
 ## B-6 — Overhaul of the sub-assemblies: cylinder head
 
@@ -312,7 +312,7 @@ B-7).
 (PDF pp.113, 114). -->
 
 <a id="p388"></a>
-**[PDF p.388]**
+**[PDF p.388](../page-images/p0388.png)**
 
 ## B-7 — Valves, valve springs, tappets and pushrods
 
@@ -390,7 +390,7 @@ See the corresponding RENAULT repair manual:
 | Alpine 1600 S | MR 96 (R. 1151) |
 
 <a id="p389"></a>
-**[PDF p.389]**
+**[PDF p.389](../page-images/p0389.png)**
 
 ## B-8 — Special features (*Besonderheiten*)
 
@@ -433,7 +433,7 @@ Depending on the use of the vehicle (racing), it is recommended to replace the *
 every 7,000 - 10,000 km**.
 
 <a id="p390"></a>
-**[PDF p.390]**
+**[PDF p.390](../page-images/p0390.png)**
 
 ## B-9 — Liners, pistons, con-rods
 
@@ -474,7 +474,7 @@ Figure 62 356 shows the liner protrusion being measured with a dial gauge.
 | | flat | domed with flat | domed with flat | domed with flat | domed with flat |
 
 <a id="p391"></a>
-**[PDF p.391]**
+**[PDF p.391](../page-images/p0391.png)**
 
 ## B-10 — Gudgeon pins and con-rods
 
@@ -510,7 +510,7 @@ Each con-rod has a cast lug on the raised side of its foot, to make orientation 
 ![Con-rod of the 812-00 and 1300 S: raised foot dimension A and orientation lug — PDF p.391](../diagrams/p0391-conrod-raised-foot-812-1300s.png)
 
 <a id="p392"></a>
-**[PDF p.392]**
+**[PDF p.392](../page-images/p0392.png)**
 
 ## B-11 — Crankshaft and valve gear
 
@@ -546,7 +546,7 @@ The page shows the timing chain and sprocket marks for the **1300 – 1300 G –
 | | 0.06 to 0.11 | 0.06 to 0.11 | 0.06 to 0.11 | 0.05 to 0.12 | 0.05 to 0.12 |
 
 <a id="p393"></a>
-**[PDF p.393]**
+**[PDF p.393](../page-images/p0393.png)**
 
 ## B-12 — Lubrication and cooling system
 
@@ -590,7 +590,7 @@ on by hand. On vehicles in racing version, a water box (*Wasserkasten*) replaces
 tank.
 
 <a id="p394"></a>
-**[PDF p.394]**
+**[PDF p.394](../page-images/p0394.png)**
 
 ## B-13 — Cooling (continued) and fuel supply
 
@@ -609,7 +609,7 @@ The page carries only illustrations: a downdraught twin-choke carburettor, a car
 and a twin-choke side-draught carburettor body. No values.
 
 <a id="p395"></a>
-**[PDF p.395]**
+**[PDF p.395](../page-images/p0395.png)**
 
 ## B-14 — Carburettor data
 
@@ -649,7 +649,7 @@ The figure (65 979) shows the top of a DCOE carburettor with items 1, 2, G1 and 
 legend is printed for them.
 
 <a id="p396"></a>
-**[PDF p.396]**
+**[PDF p.396](../page-images/p0396.png)**
 
 ## B-15 — Ignition: identification of the distributors
 
@@ -673,7 +673,7 @@ curves as R 248 / C 34 and timing 0° ± 1°; this 1970 table gives R. 236 / C. 
 > provided with a notch for the orientation of the distributor cap.
 
 <a id="p397"></a>
-**[PDF p.397]**
+**[PDF p.397](../page-images/p0397.png)**
 
 ## B-16 — Centrifugal advance curves
 

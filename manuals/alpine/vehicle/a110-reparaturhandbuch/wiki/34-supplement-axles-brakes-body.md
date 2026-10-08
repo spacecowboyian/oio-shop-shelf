@@ -12,7 +12,7 @@ page numbers and are not used. -->
 # Update supplement — front axle, brakes, handbrake, body, paint, chassis
 
 <a id="p447"></a>
-**[PDF p.447]**
+**[PDF p.447](../page-images/p0447.png)**
 
 ## Chapter H — Front axle (amends [27](27-fm-h-front-axle.md))
 
@@ -82,7 +82,7 @@ cylinder (the caliper piston). Chapter 30 gives the standard (non-racing) brake 
    and washers.
 
 <a id="p448"></a>
-**[PDF p.448]**
+**[PDF p.448](../page-images/p0448.png)**
 
 #### b) Fitting the brake carrier
 
@@ -140,7 +140,7 @@ dropped zeros. The OCR read "Bestell-Nr. 07 06 302 900" correctly. The thickness
 disc, 10 mm, agrees with the 10 mm printed on p.447. -->
 
 <a id="p449"></a>
-**[PDF p.449]**
+**[PDF p.449](../page-images/p0449.png)**
 
 ### III — Handbrake
 
@@ -199,7 +199,7 @@ polyurethane black with hardener "DU 471" (0.420 kg per 1.000 kg), not DU 430 / 
 see the flag there. -->
 
 <a id="p450"></a>
-**[PDF p.450]**
+**[PDF p.450](../page-images/p0450.png)**
 
 ## Table 2 (issue December 1970) — composition of the VERLIAC polyurethane lacquers
 
@@ -233,7 +233,7 @@ written two ways — not resolved. The colour name "Gardenia Weiss" = Gardenia w
 "Italienisch Rot" = Italian red, "Alpine-Gelb" = Alpine yellow. -->
 
 <a id="p451"></a>
-**[PDF p.451]**
+**[PDF p.451](../page-images/p0451.png)**
 
 ## Composition of the lacquer replacement sets "KIT" (nos. 1 to 6)
 
@@ -255,7 +255,7 @@ thinner per 1.000 kg lacquer, i.e. 15 and 50 parts, while Table 2's top-coat rat
 are kept; the kit is a packaging quantity, not a mixing ratio. -->
 
 <a id="p452"></a>
-**[PDF p.452]**
+**[PDF p.452](../page-images/p0452.png)**
 
 ## Composition of the lacquer replacement sets "KIT" (nos. 7 to 13)
 
@@ -305,7 +305,7 @@ prefix on the page. Unit "kg" is printed for sets 1-6 and 12-13 and, on this pag
 the OCR dropped it on 7-8. -->
 
 <a id="p453"></a>
-**[PDF p.453]**
+**[PDF p.453](../page-images/p0453.png)**
 
 ## Chapter N — Checking the chassis (amends [31](31-fm-n-body.md); see also MR 131, chapter N)
 
@@ -369,7 +369,7 @@ A or D appears in chapters 21-32, so there is nothing to compare; the large manu
 1285 (B), 1386/1380 (D), consistent with this page. -->
 
 <a id="p454"></a>
-**[PDF p.454]**
+**[PDF p.454](../page-images/p0454.png)**
 
 The **engine axis** of the Alpine **1600 S** is almost horizontal, whereas on the Alpine **1300** it is
 inclined by about **3°** (spacer wedges of **12 instead of 6 mm**); this difference shows in an increase
@@ -418,7 +418,7 @@ printed; "e)" and "f)" continue from the previous page's "a) to d)". The dimensi
 the same as on the p.465 drawing. -->
 
 <a id="p455"></a>
-**[PDF p.455]**
+**[PDF p.455](../page-images/p0455.png)**
 
 ### C — Replacing the chassis
 
@@ -462,7 +462,7 @@ the steering box.
     the luggage-compartment floor.
 
 <a id="p456"></a>
-**[PDF p.456]**
+**[PDF p.456](../page-images/p0456.png)**
 
 17. Weld on the brake-hose holders.
 18. Complete the welded seams.
@@ -524,7 +524,7 @@ the printed phrase; the unit and decimal are not printed (a 4 mm thread of 0.70 
 presumably meant — not resolved). -->
 
 <a id="p457"></a>
-**[PDF p.457]**
+**[PDF p.457](../page-images/p0457.png)**
 
 These sleeves can easily be fitted to vehicles that were not originally equipped with them; proceed as
 follows:
@@ -559,7 +559,7 @@ also used. The nuts can be used when the thickness of the plastic part is **4 to
    supplier: M.F.O.M., 5, rue de Dunkerque, 75 — PARIS 10ème.
 
 <a id="p458"></a>
-**[PDF p.458]**
+**[PDF p.458](../page-images/p0458.png)**
 
 ### H — Sealing of windscreen and rear window
 
@@ -605,7 +605,7 @@ The bullet "Reduction of excess thickness..." refers to figure E on p.460. "THIR
 are the two Alpine body-production sites named in the text. -->
 
 <a id="p459"></a>
-**[PDF p.459]**
+**[PDF p.459](../page-images/p0459.png)**
 
 3. With a milling cutter of **9.5 mm**, long version (usable length **150 mm**), drill a hole according to
    the figure: set the drill at an angle that guarantees that the bore ends at the indicated point in
@@ -648,7 +648,7 @@ refers to figure C (150 dimension, p.460) and the rear one to figure D (130 dime
 parcel shelf behind the seats. -->
 
 <a id="p460"></a>
-**[PDF p.460]**
+**[PDF p.460](../page-images/p0460.png)**
 
 #### c) Sealing of the roof rain gutters — continued
 

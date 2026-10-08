@@ -19,14 +19,14 @@ the typed original and are rendered as bold or plain emphasis. -->
 Fitted to the **A 110 1300 VC (V 85)**.
 
 <a id="p64"></a>
-**[PDF p.64]**
+**[PDF p.64](../page-images/p0064.png)**
 
 Title page: *Motortyp 810 — Montiert in der Version A 110 1300 VC (V 85) — Instandsetzung*
 (engine type 810, fitted to the A 110 1300 VC (V 85) — overhaul). The faint engine drawing
 behind the title carries no information.
 
 <a id="p65"></a>
-**[PDF p.65]**
+**[PDF p.65](../page-images/p0065.png)**
 
 Full-page transverse sectional drawing of the engine, with no text or values.
 
@@ -34,7 +34,7 @@ Full-page transverse sectional drawing of the engine, with no text or values.
 page number "68" and figure number appear inverted. Nothing to transcribe. -->
 
 <a id="p66"></a>
-**[PDF p.66]**
+**[PDF p.66](../page-images/p0066.png)**
 
 ## Tightening torques (ANZUGSMOMENTE)
 
@@ -84,7 +84,7 @@ cold AND warm, for engine 810. The upper end of this chapter's range matches the
 lower figure does not appear on the plate. Not reconciled — both are reproduced as printed. -->
 
 <a id="p67"></a>
-**[PDF p.67]**
+**[PDF p.67](../page-images/p0067.png)**
 
 ## Engine lubrication oil circuit
 
@@ -94,7 +94,7 @@ an image.
 ![Engine type 810 — oil circuit of the engine lubrication, PDF p.67](../diagrams/p0067-oil-circuit-810.png)
 
 <a id="p68"></a>
-**[PDF p.68]**
+**[PDF p.68](../page-images/p0068.png)**
 
 ## Cylinder block — exploded view
 
@@ -103,7 +103,7 @@ camshaft and flange, timing chain and tensioner, crankshaft, pulley, liner/pisto
 sump and dipstick). It carries no item numbers or values.
 
 <a id="p69"></a>
-**[PDF p.69]**
+**[PDF p.69](../page-images/p0069.png)**
 
 ## Dismantling the cylinder head
 
@@ -129,7 +129,7 @@ sump and dipstick). It carries no item numbers or values.
    left in the cylinder head).
 
 <a id="p70"></a>
-**[PDF p.70]**
+**[PDF p.70](../page-images/p0070.png)**
 
 6. Free the cylinder head by turning it in the horizontal plane; if necessary help it with
    light blows of a plastic mallet on the corners of the head.
@@ -155,7 +155,7 @@ Check the liner protrusion (see
 [Fitting the liners and pistons](#fitting-the-liners-and-pistons)).
 
 <a id="p71"></a>
-**[PDF p.71]**
+**[PDF p.71](../page-images/p0071.png)**
 
 ## Dismantling and assembling the rocker shaft assembly
 
@@ -181,7 +181,7 @@ Removing a valve with the rocker shaft dismantled, and grinding in a valve: see
 [Engine types 807 / 843 / 844 — overhaul](04-engine-807-843-844.md) ("see engine 807!").
 
 <a id="p72"></a>
-**[PDF p.72]**
+**[PDF p.72](../page-images/p0072.png)**
 
 ## Replacing a valve guide
 
@@ -222,7 +222,7 @@ image: 26,5 and 26,2 (printed with decimal commas). -->
 9. Ream the valve guide bore with the reamer **Mot.132**.
 
 <a id="p73"></a>
-**[PDF p.73]**
+**[PDF p.73](../page-images/p0073.png)**
 
 ## Recutting a valve seat
 
@@ -233,7 +233,7 @@ Tool: **MS 518**.
 3. Fit the cutter head onto the pilot, taking care that it does not drop onto the valve seat.
 
 <a id="p74"></a>
-**[PDF p.74]**
+**[PDF p.74](../page-images/p0074.png)**
 
 4. Fit the handle and apply light pressure while turning.
 5. Once the correct bearing face of the valve seat is reached, its width must be reduced with
@@ -250,7 +250,7 @@ Tool: **MS 518**.
 >   direction of rotation.
 
 <a id="p75"></a>
-**[PDF p.75]**
+**[PDF p.75](../page-images/p0075.png)**
 
 ## Fitting the cylinder head
 
@@ -304,7 +304,7 @@ under the sectional-drawing torques above. Not reconciled. -->
 COLD. -->
 
 <a id="p76"></a>
-**[PDF p.76]**
+**[PDF p.76](../page-images/p0076.png)**
 
 ## Dismantling the cylinder block
 
@@ -325,7 +325,7 @@ COLD. -->
 10. Pull off the camshaft sprocket and the timing chain.
 
 <a id="p77"></a>
-**[PDF p.77]**
+**[PDF p.77](../page-images/p0077.png)**
 
 11. Remove the camshaft flange bolts.
 12. Remove the camshaft.
@@ -346,7 +346,7 @@ end.
 belongs to another document; it is not this page's content. -->
 
 <a id="p78"></a>
-**[PDF p.78]**
+**[PDF p.78](../page-images/p0078.png)**
 
 20. Take out the crankshaft, the bearing shells and the thrust washers.
 21. Remove the liner retainer.
@@ -363,7 +363,7 @@ belongs to another document; it is not this page's content. -->
 **Remove the protective coating with a solvent — never scrape it off!**
 
 <a id="p79"></a>
-**[PDF p.79]**
+**[PDF p.79](../page-images/p0079.png)**
 
 ## Pressing out the gudgeon pin
 
@@ -390,7 +390,7 @@ belongs to another document; it is not this page's content. -->
    the gudgeon pin can still move).
 
 <a id="p80"></a>
-**[PDF p.80]**
+**[PDF p.80](../page-images/p0080.png)**
 
 3. Lubricate the gudgeon pin with **Molykote oil M 55**.
 
@@ -421,7 +421,7 @@ As soon as the piece of solder reaches its melting point (forms a drop):
    Pressing in is complete when the pilot bottoms on the V-block.
 
 <a id="p81"></a>
-**[PDF p.81]**
+**[PDF p.81](../page-images/p0081.png)**
 
 5. After a few seconds, take the con-rod and piston off the V-block, slacken the centring sleeve
    and remove the fitting mandrel.
@@ -456,7 +456,7 @@ holes.
 and "Laufbuchsenabflachung" (flat on the liner). -->
 
 <a id="p82"></a>
-**[PDF p.82]**
+**[PDF p.82](../page-images/p0082.png)**
 
 ## Preparing the cylinder block
 
@@ -500,7 +500,7 @@ Checking the protrusion: see
 [Engine types 807 / 843 / 844 — overhaul](04-engine-807-843-844.md) ("see engine 807").
 
 <a id="p83"></a>
-**[PDF p.83]**
+**[PDF p.83](../page-images/p0083.png)**
 
 Fit the liners so that:
 
@@ -522,7 +522,7 @@ with their matching pistons and con-rods.
 4. Fit the thrust washers (**white metal towards the crankshaft**).
 
 <a id="p84"></a>
-**[PDF p.84]**
+**[PDF p.84](../page-images/p0084.png)**
 
 5. Fit the upper bearing shells (**without** oil holes) into the bearing caps.
 6. Oil the bearing shells.
@@ -562,7 +562,7 @@ Fit the oil seal of the front main bearing with the tool **Mot.131-02** or **Mot
 2. Oil the seal on its outer circumference.
 
 <a id="p85"></a>
-**[PDF p.85]**
+**[PDF p.85](../page-images/p0085.png)**
 
 Two cases can arise:
 
@@ -584,7 +584,7 @@ lip does not run on the groove left by the old seal.
 > not damaged. It is advisable to fit an old seal onto the seal collar of the tool to protect it.
 
 <a id="p86"></a>
-**[PDF p.86]**
+**[PDF p.86](../page-images/p0086.png)**
 
 ## Fitting the flywheel
 
@@ -609,7 +609,7 @@ lip does not run on the groove left by the old seal.
 (Pleuelfuss = con-rod foot). -->
 
 <a id="p87"></a>
-**[PDF p.87]**
+**[PDF p.87](../page-images/p0087.png)**
 
 4. Fit the con-rods onto the oiled crankpins.
 5. Fit the caps with their bearing shells, observing which cap belongs to which con-rod.
@@ -636,7 +636,7 @@ print the lower limit. -->
 ![Engine 810 — timing sprocket marks aligned on the line of centres, PDF p.87](../diagrams/p0087-timing-marks-810.png)
 
 <a id="p88"></a>
-**[PDF p.88]**
+**[PDF p.88](../page-images/p0088.png)**
 
 6. Lay the timing chain on the camshaft and crankshaft sprockets.
 7. Fit the camshaft sprocket without altering the setting.
@@ -664,7 +664,7 @@ Next fit the timing cover and the pulley oil seal, using the tool **Mot.457**, w
 - a spindle **(2)** with washer and nut.
 
 <a id="p89"></a>
-**[PDF p.89]**
+**[PDF p.89](../page-images/p0089.png)**
 
 1. Remove the old seal from the timing cover.
 2. Fit the timing cover with its cork gasket.
@@ -677,7 +677,7 @@ Next fit the timing cover and the pulley oil seal, using the tool **Mot.457**, w
 8. Fit the crankshaft pulley.
 
 <a id="p90"></a>
-**[PDF p.90]**
+**[PDF p.90](../page-images/p0090.png)**
 
 ## Fitting the oil sump and the distributor drive pinion
 
@@ -720,7 +720,7 @@ hand by **1/4 turn**. Slacken it again and lock it by **1/2 to 3/4 turn** using 
 sequence for the filter is reproduced exactly as printed. -->
 
 <a id="p91"></a>
-**[PDF p.91]**
+**[PDF p.91](../page-images/p0091.png)**
 
 ## Replacing the camshaft
 
@@ -750,7 +750,7 @@ Remove the two camshaft flange securing bolts. Remove the camshaft.
 ![Engine 810 — camshaft end float J at the flange, PDF p.91](../diagrams/p0091-camshaft-end-float-810.png)
 
 <a id="p92"></a>
-**[PDF p.92]**
+**[PDF p.92](../page-images/p0092.png)**
 
 ## Removing, refitting and overhauling the oil pump
 
@@ -764,7 +764,7 @@ Remove:
 - the oil sump (the sump bolts are arrowed in the figure).
 
 <a id="p93"></a>
-**[PDF p.93]**
+**[PDF p.93](../page-images/p0093.png)**
 
 - Turn the engine so that the front counterweight of the crankshaft takes up the position shown.
 - Remove the gaskets and clean the joint faces.
@@ -788,7 +788,7 @@ for a different pump design. The cross-reference to engine 807 does not make tho
 to the 810 — use 0.2 mm for this engine. -->
 
 <a id="p94"></a>
-**[PDF p.94]**
+**[PDF p.94](../page-images/p0094.png)**
 
 ### Refitting
 
@@ -805,7 +805,7 @@ to the 810 — use 0.2 mm for this engine. -->
 8. Fill with engine oil.
 
 <a id="p95"></a>
-**[PDF p.95]**
+**[PDF p.95](../page-images/p0095.png)**
 
 ## Removing and refitting a chain tensioner
 
@@ -834,7 +834,7 @@ The tensioning sleeve **(3)** is released when the plunger is moved towards the 
 **(4)**.
 
 <a id="p96"></a>
-**[PDF p.96]**
+**[PDF p.96](../page-images/p0096.png)**
 
 ### Spring-loaded mechanical chain tensioner
 
@@ -872,7 +872,7 @@ To fit this chain tensioner, the following modifications must be made to the cyl
 The spring is anchored in the cylinder block in the hole **(C)**.
 
 <a id="p97"></a>
-**[PDF p.97]**
+**[PDF p.97](../page-images/p0097.png)**
 
 #### Removal
 

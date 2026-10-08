@@ -14,7 +14,7 @@ The chassis is the central tube frame (backbone chassis) to which the polyester 
 [Bodywork](18-body.md). Check procedure and gauge dimensions: [18-body.md](18-body.md) PDF pp.367-368.
 
 <a id="p369"></a>
-**[PDF p.369]**
+**[PDF p.369](../page-images/p0369.png)**
 
 ## Chassis check dimensions (Fahrgestell - Kontrollmasse)
 
@@ -46,7 +46,7 @@ millimetres by context (no unit is printed). The drawing is delivered as an imag
 <!-- NEEDS REVIEW: four circled reference numbers (1)-(4) appear in the plan view near the rear frame and refer to a small "Nota" legend at the right of the drawing. The legend is typed very small and is illegible in the scan; the OCR fragments suggest engine-mount "support" variants for 1600 VB (competition version), 1300 SC / 1300 G, and 1600 S (competition version), but this is NOT reliable. Legend content not transcribed. -->
 
 <a id="p370"></a>
-**[PDF p.370]**
+**[PDF p.370](../page-images/p0370.png)**
 
 ## Body jig drawing 05-11-02
 
@@ -60,7 +60,7 @@ adapters; the dimensions are too small and faint to read in the scan.
 <!-- NEEDS REVIEW: SAFETY-RELEVANT / illegible. No dimension on this page could be read reliably, so none is transcribed. Legible labels: "Coupe A.A", "Coupe B.B", "Coupe C.C", "Coupe F.F", "Détail D", a framed inset titled "E...cale Alpine" (reading uncertain) with the note "pièce unique...", and a vertical "380" at the right margin of the page (same as the 380 half-width on p.369). References in French on the drawing to "plan n° 05.11.03" (the stabiliser-bracket holder, PDF p.371). To build the adapters, obtain a better copy of drawing 05-11-02. -->
 
 <a id="p371"></a>
-**[PDF p.371]**
+**[PDF p.371](../page-images/p0371.png)**
 
 ## Anti-roll-bar bearing-bracket holder — drawing 05-11-03
 
@@ -84,7 +84,7 @@ Readable annotations (as printed on the drawing, units not stated, French labels
 <!-- NEEDS REVIEW: SAFETY-RELEVANT / low confidence. This is a jig-fixture fabrication drawing, not vehicle chassis geometry, but a wrong hole position mis-locates the stabiliser bar mountings. The OCR returned nothing usable for this page; the table above was read from the 300 dpi image and many digits are faint: "8.5" and "14.5" hole diameters, "91.70", "115", "64.5 ± 0.2" and "50 ± 0.2" (two lengths along the lower profile) and the overall height (≈ 285, read "286") are NOT reliable. Only "TÔLE 10 mm", "pour information" and "PIÈCE GAUCHE SYMÉTRIQUE" are unambiguous. Use the image. -->
 
 <a id="p372"></a>
-**[PDF p.372]**
+**[PDF p.372](../page-images/p0372.png)**
 
 ## Chassis of the Alpine — from below, with gauge points (drawing 05-11-04)
 
@@ -122,7 +122,7 @@ Alpine drawing 05-11-04 (printed rotated at the left as "05 - 11 - 04"): "FAHRGE
 <!-- NEEDS REVIEW: SAFETY-RELEVANT. The typed dimension block (A, B, C, D) is clear and matches the text on PDF pp.367-368 (A = A1 = 794 ± 2; B = B1 = 1285 ± 2; C = C1 = 1090; D = D1 = 1386 ± 2, and 1380 ± 2 for 1600 S). The D line is printed "1386 ± ausser bei 1600 S = 1380 ± 2": the tolerance after 1386 is cut off in the text ("± 2" on PDF p.367) — copied as printed here. Unit mm by context. The sketch dimensions 378 (front), 760 (rear frame), and especially the gauge Car.27 lengths (763, 600, 463, 197; the OCR read "7 63"/"600"/"483") are small and faint: "463" was read 483 by the OCR but the 300 dpi crop shows 463; "600" and "763" and the gauge scale readouts under the bar are NOT reliable. The "E / E1" dimensions (1005 ± 2 / 1008 ± 2) are NOT printed on this drawing's text block; they appear only in the text on PDF p.367. The labelled letters A, A1, B, B1, C, C1, D, D1, E, E1 mark gauge points on the sketch. Do not set a gauge from the sketch values; use the typed values. -->
 
 <a id="p373"></a>
-**[PDF p.373]**
+**[PDF p.373](../page-images/p0373.png)**
 
 ## Replacing the chassis (section C)
 
@@ -173,7 +173,7 @@ Order no. of the complete chassis: **60 00 001 667**.
 <!-- NEEDS REVIEW: the printed text repeats the "place the front crossmember on the jig ... introduce it into the member" step twice (steps 3 and 5 above); the first repeat ends with "A = A1 = 794 ± 2 (drawing 05-11-03) fit" and the second with "(drawing 05-11-04) check". Both are copied as printed — the drawing number differs (05-11-03 is the stabiliser holder; 05-11-04 is the gauge-points drawing, which is where A and A1 are defined), so "05-11-03" in step 4 is probably a misprint for 05-11-04, but it is not corrected. "137 ± 1" is printed without a unit (mm by context; the "100 mm" that follows is printed with one). "Aufsatzbock für Hinterachstraverse" rendered "mounting block for the rear-axle crossmember"; "Aufschlaggummis" = bump stops (rubber stops) of the springs. Scan note: the printed spacing "A = A1 = 794 ± 2" was read from the image. -->
 
 <a id="p374"></a>
-**[PDF p.374]**
+**[PDF p.374](../page-images/p0374.png)**
 
 ### Fitting (continued)
 

@@ -7,13 +7,13 @@ mostly sound but mangles "MR 68" and the steering-rack heading). -->
 # Section G — Steering
 
 <a id="p411"></a>
-**[PDF p.411]**
+**[PDF p.411](../page-images/p0411.png)**
 
 Section divider: **LENKUNG** (Steering), tab **G**, with a drawing of the steering rack. No other
 content.
 
 <a id="p412"></a>
-**[PDF p.412]**
+**[PDF p.412](../page-images/p0412.png)**
 
 ## G-1 — Steering: longitudinal section and data
 

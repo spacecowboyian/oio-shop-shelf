@@ -101,6 +101,10 @@ def manual_files(mdir: Path) -> list[Path]:
         for f in sorted(data.rglob("*")):
             if f.is_file() and not any(part in SKIP_DIRS for part in f.parts):
                 add(f)
+    # page-images/ holds one image per page (hundreds of files). Listing each would bury the
+    # rest of this index, and data/pages.json (added above) already enumerates them with their
+    # base URLs — so link the directory's index, not its contents.
+    #
     # Diagram images are committed (unlike the source PDF) precisely so a fetch-only reader
     # can open them by raw URL, so they belong in this list.
     diagrams = mdir / "diagrams"

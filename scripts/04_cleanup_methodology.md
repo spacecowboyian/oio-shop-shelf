@@ -207,6 +207,13 @@ for in-chat delivery instead of only citing the page (see [issue #1](https://git
    in the tree is served as `image/png` from the same host as the markdown — verified working
    with ChatGPT, which read a bolt sequence correctly off a `raw.githubusercontent.com` URL.
 
+**Every page is already delivered as an image.** `02_render_pages.py --page-images` renders the
+whole book to `page-images/p####.png` (committed) and each `**[PDF p.N]**` marker links its own
+page. So registering a `diagrams:` entry is no longer what makes a figure *reachable* — it is how
+you give a figure a **name, a caption and a safety flag**, so it can be cited and embedded at the
+point it matters. Register the figures a reader would ask for by name; don't try to enumerate
+every illustration in the book.
+
 Still transcribe every value, table, or step you *can* faithfully pull from the figure
 (Rule 10) — the image supplements the text, it does not excuse skipping transcription.
 **This includes sequences.** A bolt tightening or loosening order is carried by the positions

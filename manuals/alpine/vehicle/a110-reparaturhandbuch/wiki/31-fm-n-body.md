@@ -14,12 +14,12 @@ affected. -->
 # Section N — Body
 
 <a id="p424"></a>
-**[PDF p.424]**
+**[PDF p.424](../page-images/p0424.png)**
 
 Section divider: **KAROSSERIE** (Body), tab **N**, with a drawing of the car. No other content.
 
 <a id="p425"></a>
-**[PDF p.425]**
+**[PDF p.425](../page-images/p0425.png)**
 
 ## Chassis — checking dimensions (*Fahrgestell – Kontrollmasse*)
 
@@ -55,7 +55,7 @@ at the front axle line, 61 mm aft of a reference). Not an error, but the datums 
 large-manual chassis chapter (19-chassis.md) has not been compared. -->
 
 <a id="p426"></a>
-**[PDF p.426]**
+**[PDF p.426](../page-images/p0426.png)**
 
 ## N-1 — Body
 
@@ -126,7 +126,7 @@ These are mostly small cracks or "frayed" surfaces, i.e. places where the plasti
 from the glass-fibre cloth.
 
 <a id="p427"></a>
-**[PDF p.427]**
+**[PDF p.427](../page-images/p0427.png)**
 
 ## N-2 — Body repair (continued)
 
@@ -173,7 +173,7 @@ supplied by ALPINE are shown on plates **82-05 to 82-08** of the spare-parts cat
 A well-executed repair is completely invisible and
 
 <a id="p428"></a>
-**[PDF p.428]**
+**[PDF p.428](../page-images/p0428.png)**
 
 ## N-3 — Body repair (concluded) and polyurethane paints
 
@@ -242,7 +242,7 @@ Table 2 (spacing only). -->
   - catalyst 817 = **10 parts**.
 
 <a id="p429"></a>
-**[PDF p.429]**
+**[PDF p.429](../page-images/p0429.png)**
 
 ## N-4 — Polyurethane paints (continued)
 
@@ -294,7 +294,7 @@ the upper section as far as the cover along the front edge.
 Drying time: **1 hour** at ambient temperature.
 
 <a id="p430"></a>
-**[PDF p.430]**
+**[PDF p.430](../page-images/p0430.png)**
 
 ## N-5 — Table 1: paint identification plate (*Lack-Identifizierungsschild*)
 
@@ -321,7 +321,7 @@ copied as printed. The colour codes in Table 2 (331, 336, 333, 3312, 3310) are c
 page. -->
 
 <a id="p431"></a>
-**[PDF p.431]**
+**[PDF p.431](../page-images/p0431.png)**
 
 ## Table 2 — Composition of the VERILAC polyurethane paints
 
