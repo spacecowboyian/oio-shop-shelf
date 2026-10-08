@@ -1,0 +1,656 @@
+slug: alpine-a110-reparaturhandbuch
+title: "Alpine A110 Reparaturhandbuch (Typ A 110) — German factory repair handbook, RENAULT · ALPINE"
+
+taxonomy:
+  make: alpine
+  category: vehicle
+  models: [a110]
+  chassis: [1300VA, 1300VB, 1300VC, 1600VA, 1600VB, 1600VC, 1600VD, 1600VH]
+  engines: [810-30, 810-05, 812-00, 807-25, 843-30, 844-30, 844-32, 844-34, 1600-gs]
+  years: "1969-1976"
+
+source:
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf"
+  pages: 468
+
+rights: >
+  Copyright of the original manual belongs to Regie Nationale des Usines Renault /
+  Societe des Automobiles ALPINE. No license was sought; committing it here is a
+  considered risk, taken deliberately. See CONTRIBUTING.md. The scan carries a
+  "DerFranzose" retailer watermark on every page; that watermark is part of this copy,
+  not of the original book.
+
+ocr:
+  language: deu+eng
+  force: true            # the source carries an unusable Acrobat Paper Capture text layer
+
+render:
+  dpi: 200
+  diagram_dpi: 300        # scans are 212 ppi; 300 gives smoother edges for large-screen zoom
+  page_image_dpi: 300     # every page, same treatment — see page-images/ and data/pages.json
+  image_base: cdn         # bake jsDelivr URLs: chat clients render those, raw.githubusercontent often not
+
+# ---------------------------------------------------------------------------
+# THREE BOUND DOCUMENTS IN ONE PDF.
+#
+#   PDF   1-374  The large German Reparaturhandbuch. Full overhaul chapters for the
+#                engines and gearboxes, and the only part covering the later 1600 SC /
+#                SC-SI cars (types 1600 VD / 1600 VH). Continuously numbered, but the
+#                printed-to-PDF offset DRIFTS from -1 to +10 because unnumbered plate
+#                and divider pages are interleaved; it also inserts suffixed pages
+#                (e.g. 114a). There is no constant offset to apply.
+#
+#   PDF 375-433  The 1st edition, October 1970 factory repair manual, in German.
+#                Paginated by the factory's own SECTION CODES (A-1, B-2, H-1 ...), not
+#                continuously. This is the German original of the same manual the repo
+#                previously held only as an English machine translation (closed PR #29).
+#
+#   PDF 434-468  The update supplement (Technische Notizen), carrying amendments dated
+#                December 1970 onward. Re-issues changes against the section codes above
+#                and adds the cable directory, bulb table and lacquer tables.
+#
+# Chapter page ranges below are 1-based inclusive SOURCE-PDF pages and are contiguous
+# across all 468 pages. section_code is the manual's own letter tab where it has one;
+# the Reparaturhandbuch part has no letter tabs, so those chapters omit it.
+# ---------------------------------------------------------------------------
+chapters:
+  # --- Part 1: Reparaturhandbuch (PDF 1-374) ---
+  - file: "01-front-matter.md"
+    title: "Front matter — cover, contents, chassis numbers by build date, Renault/Alpine type codes with engines and gearboxes, maintenance diagnosis"
+    page_start: 1
+    page_end: 9
+  - file: "02-general-technical-data.md"
+    title: "General vehicle data and the 'Wichtigste Einstellungen' key-settings plate"
+    page_start: 10
+    page_end: 13
+  - file: "03-engine-ignition-data.md"
+    title: "Engine and ignition — data, removal and refitting, cylinder head, liners, pistons, con-rods, crankshaft, timing, lubrication"
+    page_start: 14
+    page_end: 22
+  - file: "04-engine-807-843-844.md"
+    title: "Engine types 807 / 843 / 844 — overhaul"
+    page_start: 23
+    page_end: 63
+  - file: "05-engine-810.md"
+    title: "Engine type 810 — overhaul"
+    page_start: 64
+    page_end: 97
+  - file: "06-engine-812.md"
+    title: "Engine type 812 — overhaul"
+    page_start: 98
+    page_end: 138
+  - file: "07-ignition.md"
+    title: "Ignition system (all types) — points gap, static timing, advance curves"
+    page_start: 139
+    page_end: 141
+  - file: "08-fuel-system.md"
+    title: "Fuel system — 1600 S, 1300 VC and 1300 G/S carburettors, synchronisation, idle setting"
+    page_start: 142
+    page_end: 158
+  - file: "09-cooling.md"
+    title: "Cooling system (all types) — draining, filling, bleeding"
+    page_start: 159
+    page_end: 160
+  - file: "10-clutch.md"
+    title: "Clutch — variants, identification, replacement, free play, release bearing and fork"
+    page_start: 161
+    page_end: 170
+  - file: "11-gearbox.md"
+    title: "Gearboxes 353 / 364 and 330 — data, overhaul, cone distance, backlash, differential bearings, shift linkage, tooth-contact check"
+    page_start: 171
+    page_end: 235
+  - file: "12-steering.md"
+    title: "Steering (all types) — rack overhaul, pinion end-float, Hardy disc"
+    page_start: 236
+    page_end: 248
+  - file: "13-front-axle.md"
+    title: "Front axle (all types) — camber, castor, toe, setting, half-axle and wishbone overhaul, hubs and bearings"
+    page_start: 249
+    page_end: 269
+  - file: "14-rear-axle.md"
+    title: "Rear axle (all types) — half-axles, universal joints, axle tubes, hubs and bearings, alignment"
+    page_start: 270
+    page_end: 280
+  - file: "15-suspension-dampers.md"
+    title: "Suspension and dampers (all types) — spring characteristics, front and rear dampers and springs"
+    page_start: 281
+    page_end: 286
+  - file: "16-brakes.md"
+    title: "Braking system (all types) — data, operation, fault-finding, calipers, master cylinders, pressure proportioning valve, discs, 'Hydrovac' servo"
+    page_start: 287
+    page_end: 319
+  - file: "17-electrical.md"
+    title: "Electrical equipment (all types) — component list, wiring diagram, cable directory, bulb table, alternators and regulators, starter and alternator overhaul"
+    page_start: 320
+    page_end: 354
+  - file: "18-body.md"
+    title: "Bodywork — minor damage repair, panel replacement, paint types and identification, polyurethane lacquer and primer composition, screen sealing"
+    page_start: 355
+    page_end: 368
+  - file: "19-chassis.md"
+    title: "Chassis — checking the chassis and axles, body jig, chassis dimension drawings, chassis and front crossmember replacement"
+    page_start: 369
+    page_end: 374
+
+  # --- Part 2: factory repair manual, 1st edition October 1970 (PDF 375-433) ---
+  - file: "20-fm-title-contents.md"
+    title: "Factory manual (Oct 1970) — title page and contents plate"
+    page_start: 375
+    page_end: 377
+  - file: "21-fm-a-general.md"
+    section_code: "A"
+    title: "Factory manual A — General: vehicle design, versions and type codes, general vehicle data"
+    page_start: 378
+    page_end: 381
+  - file: "22-fm-b-engine-ignition.md"
+    section_code: "B"
+    title: "Factory manual B — Engine and ignition: technical data, Renault-to-Alpine differences, dismantling, reassembly, sub-assembly overhaul"
+    page_start: 382
+    page_end: 397
+  - file: "23-fm-c-electrical.md"
+    section_code: "C"
+    title: "Factory manual C — Electrical equipment: technical data, wiring diagram"
+    page_start: 398
+    page_end: 401
+  - file: "24-fm-d-clutch.md"
+    section_code: "D"
+    title: "Factory manual D — Clutch: technical data, including the 200 DEC competition clutch"
+    page_start: 402
+    page_end: 404
+  - file: "25-fm-e-gearbox.md"
+    section_code: "E"
+    title: "Factory manual E — Gearbox: identification, technical data, dismantling and reassembly"
+    page_start: 405
+    page_end: 410
+  - file: "26-fm-g-steering.md"
+    section_code: "G"
+    title: "Factory manual G — Steering: longitudinal section, removal and refitting"
+    page_start: 411
+    page_end: 412
+  - file: "27-fm-h-front-axle.md"
+    section_code: "H"
+    title: "Factory manual H — Front axle: technical data, checking and setting"
+    page_start: 413
+    page_end: 417
+  - file: "28-fm-j-rear-axle.md"
+    section_code: "J"
+    title: "Factory manual J — Rear axle: technical data"
+    page_start: 418
+    page_end: 419
+  - file: "29-fm-l-suspension.md"
+    section_code: "L"
+    title: "Factory manual L — Suspension and dampers: spring characteristics"
+    page_start: 420
+    page_end: 421
+  - file: "30-fm-m-brakes.md"
+    section_code: "M"
+    title: "Factory manual M — Braking system"
+    page_start: 422
+    page_end: 423
+  - file: "31-fm-n-body.md"
+    section_code: "N"
+    title: "Factory manual N — Bodywork: paint types, polyurethane lacquer composition (Table 2)"
+    page_start: 424
+    page_end: 431
+  - file: "32-fm-r-special-tools.md"
+    section_code: "R"
+    title: "Factory manual R — Special tooling"
+    page_start: 432
+    page_end: 433
+
+  # --- Part 3: update supplement, December 1970 onward (PDF 434-468) ---
+  - file: "33-supplement-general-engine-electrical.md"
+    title: "Supplement — title page, chapter A general data, engine amendments, wiring diagram, cable directory, bulb table, chapter C amendments"
+    page_start: 434
+    page_end: 446
+  - file: "34-supplement-axles-brakes-body.md"
+    title: "Supplement — chapter H front axle, brake carrier and handbrake, Table 2 (December 1970) lacquer composition and 'Kit' refinish sets, chassis and body"
+    page_start: 447
+    page_end: 460
+  - file: "35-supplement-special-tools-chassis.md"
+    title: "Supplement — chapter R special tooling drawings and chassis measuring-point drawings"
+    page_start: 461
+    page_end: 468
+
+# Diagram-only figures delivered as images (Rule 12). Rendered by
+# `02_render_pages.py <dir> --diagrams`; committed for the PR, moved to the Release at merge.
+diagrams:
+  - page: 13
+    file: "diagrams/p0013-key-settings-plate.png"
+    kind: chart
+    depth: mono
+    caption: "'Wichtigste Einstellungen' key-settings plate — including the cylinder head bolt tightening sequences for engine 810 and engines 843/844"
+    safety_relevant: true
+  - page: 8
+    file: "diagrams/p0008-renault-alpine-type-codes.png"
+    kind: chart
+    depth: mono
+    caption: "Renault and Alpine type codes with their engines and gearboxes — A110, A310, R8, R10, R12, R15/17, R16"
+    safety_relevant: false
+    threshold: 35
+  - page: 9
+    file: "diagrams/p0009-service-diagnosis-schedule.png"
+    kind: chart
+    depth: mono
+    caption: "Wartungs-Diagnose — service and inspection schedule with interval symbols"
+    safety_relevant: false
+  - page: 25
+    file: "diagrams/p0025-engine-807-843-844-torques.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine types 807 / 843 / 844 — sectional drawing with cylinder head, main bearing and big-end tightening torques"
+    safety_relevant: true
+  - page: 26
+    file: "diagrams/p0026-oil-circuit-807-843-844.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 807 / 843 / 844 — oil circuit of the engine lubrication"
+    safety_relevant: false
+  - page: 66
+    file: "diagrams/p0066-engine-810-torques.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 810 — sectional drawing with head, main bearing, big-end, flywheel and camshaft-nose tightening torques (ANZUGSMOMENTE)"
+    safety_relevant: true
+  - page: 67
+    file: "diagrams/p0067-oil-circuit-810.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 810 — oil circuit of the engine lubrication"
+    safety_relevant: false
+  - page: 72
+    file: "diagrams/p0072-valve-guide-position-810.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 810 — valve guide replacement, guide position dimensions A (intake) and B (exhaust)"
+    safety_relevant: true
+  - page: 75
+    file: "diagrams/p0075-head-bolt-sequence-810.png"
+    kind: sequence
+    depth: mono
+    caption: "Engine 810 — cylinder head bolt tightening sequence and 5.5 m.daN torque"
+    safety_relevant: true
+  - page: 87
+    file: "diagrams/p0087-timing-marks-810.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 810 — timing sprocket marks aligned on the line of centres"
+    safety_relevant: true
+  - page: 90
+    file: "diagrams/p0090-distributor-drive-pinion-810.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 810 — distributor drive pinion slot alignment, larger half-circle (D) towards the clutch"
+    safety_relevant: true
+  - page: 91
+    file: "diagrams/p0091-camshaft-end-float-810.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 810 — camshaft end float J at the flange"
+    safety_relevant: false
+  - page: 100
+    file: "diagrams/p0100-engine-812-exploded-view.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 812 — exploded view"
+    safety_relevant: false
+  - page: 124
+    file: "diagrams/p0124-camshaft-bush-oil-holes.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — camshaft bush positions and lubrication-hole location (27°, 10.5)"
+    safety_relevant: true
+  - page: 128
+    file: "diagrams/p0128-front-crankshaft-seal-mot131.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — front crankshaft oil seal offset C and fitting with Mot.131, spacer E"
+    safety_relevant: false
+  - page: 132
+    file: "diagrams/p0132-timing-chain-v-marks.png"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — timing chain alignment, V marks on crankshaft and camshaft sprockets"
+    safety_relevant: true
+  - page: 133
+    file: "diagrams/p0133-cylinder-head-bolt-sequence.png"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — cylinder head bolt tightening sequence 1-10 (7 - 7.75 mkp)"
+    safety_relevant: true
+  - page: 134
+    file: "diagrams/p0134-distributor-drive-pinion.png"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — distributor drive pinion slot position, no. 1 cylinder at TDC firing"
+    safety_relevant: true
+  - page: 135
+    file: "diagrams/p0135-carburettor-mounting-clearance-j.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — carburettor mounting, clearance J = 1.5 mm, synchronizing screw 5"
+    safety_relevant: false
+  - page: 136
+    file: "diagrams/p0136-carburettor-synchronization.png"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — carburettor throttle synchronization linkage (screws 3/5, lever 6, stop 7, spring 8, fork 9)"
+    safety_relevant: false
+  - page: 177
+    file: "diagrams/p0177-shift-scheme-353.png"
+    kind: chart
+    depth: mono
+    caption: "Gearbox 353/364 — shift scheme: power flow in each gear"
+    safety_relevant: false
+  - page: 207
+    file: "diagrams/p0207-primary-shaft-alignment.png"
+    kind: exploded
+    depth: mono
+    caption: "Gearbox 353/364 — primary shaft alignment: faces A/B/C/D and washer (1)"
+    safety_relevant: true
+  - page: 210
+    file: "diagrams/p0210-casing-bolt-sequence.png"
+    kind: sequence
+    depth: mono
+    caption: "Gearbox 353/364 — casing half bolt tightening sequence 1-17 (7 mm: 2 mkp, 8 mm: 2.8 mkp)"
+    safety_relevant: true
+  - page: 235
+    file: "diagrams/p0235-tooth-contact-patterns.png"
+    kind: chart
+    depth: mono
+    caption: "Crown wheel and pinion tooth-contact patterns and corrections (Tragbildprüfung)"
+    safety_relevant: true
+  - page: 288
+    file: "diagrams/p0288-caliper-machining-13in-wheels.png"
+    kind: exploded
+    depth: mono
+    caption: "Caliper machining for 13-inch alloy wheels (68°, 140°, 13)"
+    safety_relevant: true
+  - page: 299
+    file: "diagrams/p0299-caliper-section-parts.png"
+    kind: exploded
+    depth: mono
+    caption: "Bendix caliper section with part numbers 1–7"
+    safety_relevant: true
+  - page: 313
+    file: "diagrams/p0313-hydrovac-servo-section.png"
+    kind: exploded
+    depth: mono
+    caption: "Hydrovac brake servo section, items 3–32"
+    safety_relevant: false
+  - page: 141
+    file: "diagrams/p0141-advance-curves-r230-r234-r236.png"
+    kind: chart
+    depth: mono
+    caption: "Centrifugal advance curves R.230, R.234 and R.236"
+    safety_relevant: true
+  - page: 146
+    file: "diagrams/p0146-dcoe-float-level-a-b.png"
+    kind: exploded
+    depth: mono
+    caption: "1600 S Weber 45 DCOE float level setting, dimensions A and B"
+    safety_relevant: false
+  - page: 147
+    file: "diagrams/p0147-dcoe-idle-screws-a-b-c-v.png"
+    kind: exploded
+    depth: mono
+    caption: "1600 S idle-setting screws A, B, C, V and lever 4 on the 45 DCOE pair"
+    safety_relevant: false
+  - page: 150
+    file: "diagrams/p0150-32dir-choke-and-vent-valve.png"
+    kind: exploded
+    depth: mono
+    caption: "1300 VC Weber 32 DIR choke flap and vent valve settings (items 1-8, E)"
+    safety_relevant: false
+  - page: 155
+    file: "diagrams/p0155-40dcoe-synchronization-linkage.png"
+    kind: exploded
+    depth: mono
+    caption: "1300 G/S carburettor synchronization linkage (screws 3/5, lever 6, stop 7, spring 8, fork 9)"
+    safety_relevant: false
+  - page: 163
+    file: "diagrams/p0163-clutch-free-play-adjustment.png"
+    kind: exploded
+    depth: mono
+    caption: "Clutch free-play adjustment, locknut 1 and adjusting nut 2 (engines 807/843/844 and 810/812)"
+    safety_relevant: true
+  - page: 164
+    file: "diagrams/p0164-release-fork-pins-protrusion-d.png"
+    kind: exploded
+    depth: mono
+    caption: "Release fork pins A and B, pin protrusion D = 1 mm (engine 807/843/844)"
+    safety_relevant: false
+  - page: 237
+    file: "diagrams/p0237-steering-section-mounting-height.png"
+    kind: exploded
+    depth: mono
+    caption: "Steering — longitudinal section and steering-box mounting bracket height H"
+    safety_relevant: true
+  - page: 247
+    file: "diagrams/p0247-pinion-end-float-setting.png"
+    kind: exploded
+    depth: mono
+    caption: "Steering pinion — end-float setting with clamp Dir.19 (C, D, E, b) and grease-nipple angle e = 45°"
+    safety_relevant: true
+  - page: 248
+    file: "diagrams/p0248-track-rods-left-right.png"
+    kind: exploded
+    depth: mono
+    caption: "Track rods — left (G) and right (D) identification, rack-end bush replacement"
+    safety_relevant: true
+  - page: 251
+    file: "diagrams/p0251-camber-check-dimensions.png"
+    kind: chart
+    depth: mono
+    caption: "Checking front camber with a spirit level — dimensions A, B, C, D, E, F"
+    safety_relevant: false
+  - page: 255
+    file: "diagrams/p0255-front-axle-setting-half-load.png"
+    kind: exploded
+    depth: mono
+    caption: "Front axle setting at half load (T.Av. 56 A) and lower wishbone castor eccentric (1)"
+    safety_relevant: true
+  - page: 256
+    file: "diagrams/p0256-measuring-flag-tav481.png"
+    kind: chart
+    depth: mono
+    caption: "Measuring flags T.Av. 481 (left/right) with hatched steering-height zone, and home-made bracket"
+    safety_relevant: true
+  - page: 269
+    file: "diagrams/p0269-front-hub-bearings.png"
+    kind: exploded
+    depth: mono
+    caption: "Front hub on taper roller bearings — section, inner-bearing extraction (B.Vi.28 / B.Vi.48), oil deflector A and seal B"
+    safety_relevant: true
+  - page: 278
+    file: "diagrams/p0278-rear-hub-bearing-section.png"
+    kind: exploded
+    depth: mono
+    caption: "Rear hub — nylon-cage ball bearing orientation (closed side A), nuts B 5 mkg, hub nut C 20 mkg"
+    safety_relevant: true
+  - page: 283
+    file: "diagrams/p0283-front-damper-components.png"
+    kind: exploded
+    depth: mono
+    caption: "Front damper — fitting order of bracket (1), rubber sleeve (2), rubber bush (3), dished washer (4), nut (5), locknut (6)"
+    safety_relevant: false
+  - page: 391
+    file: "diagrams/p0391-conrod-raised-foot-812-1300s.png"
+    kind: exploded
+    depth: mono
+    caption: "Con-rod of the 812-00 and 1300 S engines — raised foot dimension A and orientation lug (B-10)"
+    safety_relevant: true
+  - page: 392
+    file: "diagrams/p0392-timing-marks-1300-1600s.png"
+    kind: exploded
+    depth: mono
+    caption: "Timing chain sprocket marks on the line of centres — 1300/1300 G/1300 S and 1600 S (B-11)"
+    safety_relevant: true
+  - page: 397
+    file: "diagrams/p0397-advance-curves-r230-r234-r236.png"
+    kind: chart
+    depth: mono
+    caption: "Distributor centrifugal advance curves R. 230, R. 234 and R. 236 (B-16)"
+    safety_relevant: true
+  - page: 401
+    file: "diagrams/p0401-wiring-diagram-alpine-1300.png"
+    kind: wiring
+    depth: mono
+    caption: "Wiring diagram, Berlinette A. 110 Alpine 1300, dated 30 June 1970"
+    safety_relevant: false
+  - page: 410
+    file: "diagrams/p0410-gearbox-conical-distance-a.png"
+    kind: exploded
+    depth: mono
+    caption: "Gearbox section showing the conical distance (pinion setting dimension) A (E-4)"
+    safety_relevant: true
+  - page: 417
+    file: "diagrams/p0417-messfahne-renault-12-tav481.png"
+    kind: exploded
+    depth: mono
+    caption: "Measuring flag RENAULT 12 (modified T.Av. 481, left and right) and home-made bracket drawing"
+    safety_relevant: true
+  - page: 425
+    file: "diagrams/p0425-chassis-checking-dimensions.png"
+    kind: exploded
+    depth: mono
+    caption: "Chassis checking dimensions (Fahrgestell – Kontrollmasse): side, plan and end views"
+    safety_relevant: true
+    threshold: 42
+  - page: 365
+    file: "diagrams/p0365-screen-sealing-figures.png"
+    kind: chart
+    depth: mono
+    caption: "Windscreen / rear-window sealing - Figures A to E (profiles, drain-hole positions 150 and 130, frame build-up)"
+    safety_relevant: false
+  - page: 369
+    file: "diagrams/p0369-chassis-check-dimensions.png"
+    kind: chart
+    depth: mono
+    caption: "Chassis check dimensions (Fahrgestell - Kontrollmasse): side, plan and end views"
+    safety_relevant: true
+  - page: 370
+    file: "diagrams/p0370-body-jig-05-11-02.png"
+    kind: exploded
+    depth: mono
+    caption: "Body jig adapter drawing 05-11-02 - sections A-A, B-B, C-C, F-F, detail D"
+    safety_relevant: true
+  - page: 371
+    file: "diagrams/p0371-stabiliser-holder-05-11-03.png"
+    kind: exploded
+    depth: mono
+    caption: "Anti-roll-bar bearing-bracket holder for the body jig, drawing 05-11-03 (left piece, symmetric)"
+    safety_relevant: true
+  - page: 372
+    file: "diagrams/p0372-chassis-gauge-points-05-11-04.png"
+    kind: chart
+    depth: mono
+    caption: "Chassis seen from below with gauge points A-B-C-D-E and gauge Car.27 marks, drawing 05-11-04"
+    safety_relevant: true
+  - page: 323
+    file: "diagrams/p0323-wiring-diagram-france.png"
+    kind: wiring
+    depth: mono
+    caption: "Wiring diagram, A110, French-market equipment (Schaltplan)"
+    safety_relevant: false
+  - page: 332
+    file: "diagrams/p0332-alternator-circuit-diagrams.png"
+    kind: wiring
+    depth: mono
+    caption: "Alternator circuit diagrams, S.E.V.-Motorola and Paris-Rhône"
+    safety_relevant: false
+  - page: 334
+    file: "diagrams/p0334-ducellier-6183-terminals.png"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier 6183 starter, with hand-added terminal letters A, B, C"
+    safety_relevant: false
+  - page: 338
+    file: "diagrams/p0338-ducellier-fork-adjustment.png"
+    kind: exploded
+    depth: mono
+    caption: "Ducellier starter — engagement fork adjustment, clearances F and G and adjusting nut 1"
+    safety_relevant: false
+  - page: 339
+    file: "diagrams/p0339-paris-rhone-starter-d8e49-d10e43-exploded.png"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starters D 8 E 49 and D 10 E 43 — exploded views"
+    safety_relevant: false
+  - page: 340
+    file: "diagrams/p0340-paris-rhone-starter-d8e71-d8e84-d10e48-exploded.png"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starters D8E71, D8E84, D10E48 — exploded view with type-specific parts"
+    safety_relevant: false
+  - page: 345
+    file: "diagrams/p0345-paris-rhone-fork-adjustment.png"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starter — engagement fork adjustment, clearance H, solenoid supply, adjusters A and B"
+    safety_relevant: false
+  - page: 437
+    file: "diagrams/p0437-advance-curves-r247-r262-r267-c34.png"
+    kind: chart
+    depth: mono
+    caption: "Supplement: ignition advance curves R.247, R.262, R.267 and C.34"
+    safety_relevant: false
+  - page: 438
+    file: "diagrams/p0438-wiring-diagram-france.png"
+    kind: wiring
+    depth: mono
+    caption: "Supplement: wiring diagram, electrical equipment, France version"
+    safety_relevant: false
+  - page: 460
+    file: "diagrams/p0460-windscreen-sealing-figures-a-e.png"
+    kind: chart
+    depth: mono
+    caption: "Supplement: windscreen and rear-window sealing profiles and drain-hole positions (figures A-E)"
+    safety_relevant: false
+  - page: 462
+    file: "diagrams/p0462-tool-drawing-05-11-02-overall.png"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-02: mounting-block supports for the straightening bench, overall and section A-A"
+    safety_relevant: false
+  - page: 463
+    file: "diagrams/p0463-tool-drawing-05-11-02-wedges-sections.png"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-02: wedges, detail D, sections B-B and C-C"
+    safety_relevant: false
+    threshold: 42
+  - page: 464
+    file: "diagrams/p0464-tool-drawing-05-11-03-antiroll-holder.png"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-03: anti-roll-bar bearing-block holder"
+    safety_relevant: false
+    threshold: 42
+  - page: 465
+    file: "diagrams/p0465-chassis-measuring-points-05-11-04.png"
+    kind: chart
+    depth: mono
+    caption: "Chassis measuring points, seen from below (drawing 05-11-04), with gauge Car.27 marks"
+    safety_relevant: true
+  - page: 466
+    file: "diagrams/p0466-chassis-general-05-11-07.png"
+    kind: chart
+    depth: mono
+    caption: "General chassis drawing 05-11-07, side and plan, with main dimensions"
+    safety_relevant: true
+  - page: 467
+    file: "diagrams/p0467-chassis-front-views-05-11-07.png"
+    kind: chart
+    depth: mono
+    caption: "Chassis front views 05-11-07 with engine-mount versions"
+    safety_relevant: true
+    threshold: 42
+  - page: 24
+    file: "diagrams/p0024-liner-seals-807-vs-843-844.png"
+    kind: exploded
+    depth: mono
+    caption: "Engines 807 / 843 / 844 — liner seat seals: Excelnyl flat seal (807) against O-ring (843/844)"
+    safety_relevant: false
+    threshold: 42

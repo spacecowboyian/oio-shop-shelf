@@ -161,18 +161,25 @@ would need to *see* it — a wiring chart, an exploded view, a torque/loosening 
 any essential figure with no faithful text equivalent — deliver it instead of leaving a
 bare "see PDF p.N" (full rules: **`04_cleanup_methodology.md` Rule 12**):
 
-1. Add an entry to the manifest **`diagrams:`** block (`page`, `file: diagrams/p<NNNN>-<slug>.webp`,
-   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`). Use `mono` for clean line art
-   (~30 KB), `gray` only when the page has a photo/halftone.
+1. Add an entry to the manifest **`diagrams:`** block (`page`, `file: diagrams/p<NNNN>-<slug>.png`,
+   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`, optional `threshold:`). Use `mono`
+   (thresholded black-and-white) for scanned print and line art, `gray` only for a genuine
+   photo/halftone. Set `render.diagram_dpi` at or above the scan's native resolution
+   (`pdfimages -list` shows it); 300 is a good default for zooming on a large screen.
 2. Render them all:
    ```
    python scripts/02_render_pages.py manuals/<slug>/ --diagrams
    ```
-   (Requires `cwebp`; writes lossless WebP to `manuals/<slug>/diagrams/`.)
+   (Requires ImageMagick; writes PNG to `manuals/<slug>/diagrams/`.) **Look at every render:**
+   darker paper or a dark watermark comes out speckled or as solid black lettering — add
+   `threshold: 42` (or lower) to that entry and re-render. Also transcribe whatever the figure
+   carries (a bolt sequence as rows of numbers, a callout as a table row): many assistants
+   cannot open the image at all.
 3. Embed each at its citation point with a **relative** link so it previews in the PR:
-   `![Head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)`.
-   At merge, `publish-release.sh` moves these images to the manual's Release and flips the
-   links to the Release URL — same light-history treatment as the source PDF, so **commit
+   `![Head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.png)`.
+   The links stay relative and the images stay in git — only the source PDF moves to the
+   Release — because `raw.githubusercontent.com` serves a tree file as `image/png` to external
+   readers, while a Release asset redirects to a signed URL they cannot fetch. So **commit
    `diagrams/` in your PR** (unlike `pages/`, which stays gitignored).
 
 This is the whole point of committing the source PDF (see CONTRIBUTING.md) made deliverable:
@@ -258,7 +265,7 @@ copy-paste commands and the first-timer path) is in
 
 Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF,
 `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`, `10-needs-review.md`,
-`11a..d-alphabetical-index.md`, and `llm-instructions.md`, plus `diagrams/*.webp` if the
+`11a..d-alphabetical-index.md`, and `llm-instructions.md`, plus `diagrams/*.png` if the
 manual delivers any (step 4b). Don't commit raw OCR intermediates (`.gitignore` already
 excludes `raw-ocr/`, `pages/`, `prepared.pdf`) — but **do** commit `diagrams/` and the
 source PDF; a maintainer moves both to the Release at merge.

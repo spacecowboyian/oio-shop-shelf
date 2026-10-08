@@ -13,12 +13,39 @@ agent** with repo write access can follow it verbatim.
 Squash-only is enforced in repo settings (Settings → Pull Requests). The `no-pdf-guard`
 check is the safety net: it fails if any `*.pdf` would land on `main`.
 
-## Why PDFs aren't committed
+## Why PDFs aren't committed — but diagram images are
 
-They're huge (tens of MB each) and re-baking the clickable index rewrites them, so every
-change would balloon `git clone` / tarball downloads. The markdown is authoritative for
-specs and procedures; the PDF is only needed for diagrams, wiring charts, and exploded
-views. So we host the PDF on a Release and point `manifest.yml` at it.
+**PDFs go to a Release.** They're huge (tens of MB each) and re-baking the clickable index
+rewrites them, so every change would balloon `git clone` / tarball downloads. The markdown is
+authoritative for specs and procedures, so the PDF is only needed to look at an original
+scanned page. We host it on a Release and point `manifest.yml` at it.
+
+**Diagram images stay in git.** A manual's `diagrams/*.png` are committed and their wiki embeds
+stay relative. This is deliberate, and it is the one exception to "no binaries in history":
+
+- A Release asset's download URL **302s to a signed URL on `release-assets.githubusercontent.com`**
+  and is served as `application/octet-stream`. External AI assistants cannot follow that hop or
+  recognise the result as an image — ChatGPT's web reader reports "Failed to fetch restricted
+  URL", and the GitHub connector can't reach Release assets at all (they aren't repo contents).
+- A file in the tree is served by `raw.githubusercontent.com` as `image/png`, same host as the
+  markdown, no redirect. **Verified:** ChatGPT read a cylinder-head bolt sequence correctly off
+  a raw URL, row for row.
+- The cost is small. A manual's diagrams are a few MB — the A110's 72 images are 7 MB against a
+  90 MB PDF — and unlike the PDF they are the thing a reader actually needs to open.
+
+**Every page is an image too.** A manual also commits `page-images/p####.png` — the whole book,
+one black-and-white PNG per page at 300 dpi — plus `data/pages.json` indexing them. That is how a
+reader looks at *any* page without the PDF: each `**[PDF p.N]**` marker in the wiki links its own
+page image, and `pages.json` gives a JS client (see `scripts/tv-reader`) or an assistant the page
+list with both a `raw.githubusercontent.com` and a `cdn.jsdelivr.net` base URL.
+
+Curated `diagrams/` entries stay — they are the figures worth calling out by name, with captions
+and a `safety_relevant` flag — but a reader is no longer limited to them.
+
+Cost, for the A110: 45 MB of page images and 7 MB of diagrams, against a 90 MB PDF. Only ever one
+page crosses the network at a time.
+
+So `publish-release.sh` moves **only the PDF**, and `no-pdf-guard` checks **only** `*.pdf`.
 
 ## What a manual PR looks like when it arrives
 

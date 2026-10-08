@@ -34,7 +34,11 @@ GAP_THRESHOLD = 2
 def load_pages(text_file: Path) -> list[str]:
     raw = text_file.read_text(encoding="utf-8", errors="replace")
     pages = raw.split("\f")
-    if pages and pages[-1].strip() == "":
+    # A trailing form feed leaves one empty trailing element — drop that. But do NOT drop a
+    # genuinely BLANK last page: a scan whose final page carries no OCR text (a back cover,
+    # say) is a real page, and popping it makes every later page index overrun the list.
+    # Only the split artefact is safe to remove, so require the raw text to end in \f.
+    if pages and pages[-1] == "" and raw.endswith("\f"):
         pages.pop()
     return [""] + pages  # 1-based
 
@@ -50,7 +54,7 @@ def edge_text(page: str, n_top: int = 2, n_bot: int = 3) -> str:
 
 def dominant_code(pages: list[str], ps: int, pe: int) -> str | None:
     counts: Counter[str] = Counter()
-    for n in range(ps, pe + 1):
+    for n in range(ps, min(pe, len(pages) - 1) + 1):
         for m in CODE_RE.finditer(edge_text(pages[n])):
             if m.group(1) in KNOWN:
                 counts[m.group(1)] += 1
@@ -61,7 +65,7 @@ def page_relnums(pages: list[str], ps: int, pe: int, code: str) -> list[tuple[in
     """Best (physical page, relative page number) guess per page for `code`, read from
     the header/footer band only (the running page number), not the body cross-refs."""
     seq: list[tuple[int, int]] = []
-    for n in range(ps, pe + 1):
+    for n in range(ps, min(pe, len(pages) - 1) + 1):
         nums = [int(m.group(2)) for m in CODE_RE.finditer(edge_text(pages[n]))
                 if m.group(1) == code]
         if nums:

@@ -140,14 +140,21 @@ faithful transcription becomes a *usable* one.
 Diagrams/wiring charts/exploded views exist only as images. When a page or figure is
 diagram-only and the user must *see* it, deliver it instead of a bare "see PDF p.N"
 (rules: `04_cleanup_methodology.md` Rule 12):
-1. Add a manifest **`diagrams:`** entry (`page`, `file: diagrams/p<NNNN>-<slug>.webp`,
-   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`) — `mono` for line art (~30 KB),
-   `gray` for photo/halftone pages.
-2. `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (needs `cwebp`).
+1. Add a manifest **`diagrams:`** entry (`page`, `file: diagrams/p<NNNN>-<slug>.png`,
+   `kind`, `depth: mono|gray`, `caption`, `safety_relevant`, optional `threshold:`) — `mono`
+   (thresholded black-and-white) for scanned print and line art, `gray` only for a genuine
+   photo/halftone. Set `render.diagram_dpi` at or above the scan's native resolution
+   (`pdfimages -list` shows it); 300 is a good default for zooming on a large screen.
+2. `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (needs ImageMagick), then
+   **look at every render**: darker paper or a dark watermark comes out speckled or as solid
+   black lettering — add `threshold: 42` (or lower) to that entry and re-render. Also
+   transcribe what the figure carries (a bolt sequence as rows of numbers, a callout as a
+   table row): many assistants cannot open the image at all.
 3. Embed each at its citation point with a **relative** link
-   (`![caption — PDF p.N](../diagrams/pNNNN-...webp)`) so it previews in the PR;
-   `publish-release.sh` flips it to the Release URL at merge. **Commit `diagrams/`** (unlike
-   the gitignored `pages/`); a maintainer moves the images to the Release, same as the PDF.
+   (`![caption — PDF p.N](../diagrams/pNNNN-...png)`) so it previews in the PR;
+   **Commit `diagrams/` and leave the links relative** (unlike the gitignored `pages/`). Images
+   stay in git — only the PDF moves to the Release — so `raw.githubusercontent.com` serves them
+   to external readers.
 
 ## 5 — Build the index files
 
@@ -238,7 +245,7 @@ contract: `MAINTAINERS.md`.
 
 Mirror `manuals/toyota-4a-fe-4a-ge/`: `manifest.yml`, the OCR'd + indexed PDF (committed for
 the PR; moved to a Release at merge), `wiki/` with per-chapter `.md`, `00-index.md`, `09-*`,
-`10-needs-review.md`, `11a..d-alphabetical-index.md`, `llm-instructions.md`, and `diagrams/*.webp`
+`10-needs-review.md`, `11a..d-alphabetical-index.md`, `llm-instructions.md`, and `diagrams/*.png`
 if any (step 4b — committed for the PR, moved to the Release at merge like the PDF). Don't commit
 raw OCR intermediates (`.gitignore` already excludes `raw-ocr/`, `pages/`, `prepared.pdf`).
 No GitHub account? Bundle the folder (wiki, manifest, `diagrams/`, PDF) into a zip and hand it

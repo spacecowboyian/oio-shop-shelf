@@ -89,3 +89,49 @@ makes:
       ventoux:
         name: Ventoux (Type 670)   # 845 cc OHV "Ventoux", Dauphine's engine family
         family: Ventoux
+  alpine:
+    name: Alpine
+    vpic_make_id: 11081
+    models:
+      a110:
+        name: A110
+        # Factory "type" codes. vPIC has no A110 model entry (the catalog is VIN-era,
+        # post-1981), so the model name is the OEM designation, not a vPIC Model_Name.
+        # 1300VA/VB/VC, 1600VB and GS are the cover-stated types of the model-70 book.
+        # 1600VC/VD/VH come from the "Wichtigste Einstellungen" plate (printed p.12) of the
+        # German Reparaturhandbuch — the later SC and SI cars.
+        chassis: [1300VA, 1300VB, 1300VC, 1600VA, 1600VB, 1600VC, 1600VD, 1600VH]
+    engines:
+      # --- Cléon-Fonte / "Sierra" derived, 1300 cars ---
+      810-30:
+        name: 810-30            # version "85" / 1300 VC; derived from Renault 810-03 (R1192)
+        family: Sierra
+      810-05:
+        name: 810-05            # 1300 VC per the Reparaturhandbuch settings plate; 1289 cm3
+        family: Sierra
+      812-00:
+        name: 812-00            # 1300 G / 1300 S; derived from Renault 8 Gordini
+        family: Sierra
+      # --- Cléon-Alu, 1600 cars ---
+      807-25:
+        name: 807-25            # 1600 S / 1600 VB; derived from 807-01 (Renault 16 TS); 1565 cm3
+        family: Cleon-Alu
+      843-30:
+        name: 843-30            # 1600 VH; 1647 cm3
+        family: Cleon-Alu
+      844-30:
+        name: 844-30            # 1600 VD, "SC"; 1605 cm3
+        family: Cleon-Alu
+      844-32:
+        name: 844-32            # 1600 VC; 1605 cm3
+        family: Cleon-Alu
+      844-34:
+        name: 844-34            # 1600 VD, "SI" (electronic fuel injection); 1605 cm3
+        family: Cleon-Alu
+      1600-gs:
+        name: 1600 GS           # competition engine option, derived from 807-25
+        # The 1970 manual gives NO engine number for this one: its own characteristics table
+        # (B-2) prints the version name "1600 GS" in the column where every other version
+        # prints an engine code. So "1600 GS" is the designation the source actually uses,
+        # not a stand-in for a code we failed to find.
+        family: Cleon-Alu

@@ -82,8 +82,9 @@ These mirror `04_cleanup_methodology.md` — the short version:
   `<!-- NEEDS REVIEW: reason -->` inline; never guess.
 - **Link, don't duplicate.** Cross-reference other chapters/anchors with relative links.
 - **Deliver diagrams, don't just link them.** A diagram-only figure the reader must *see*
-  (wiring chart, exploded view, torque/loosening sequence) gets rendered to a compact WebP
-  and embedded at the citation point — add it to `manifest.yml` `diagrams:`, run
+  (wiring chart, exploded view, torque/loosening sequence) gets rendered to a black-and-white PNG
+  and embedded at the citation point — and whatever it carries (a bolt order, a callout) is
+  also written out as text — add it to `manifest.yml` `diagrams:`, run
   `02_render_pages.py --diagrams`, and embed a relative image link. Full rules: `04_cleanup_methodology.md` Rule 12.
 
 ## Questions
