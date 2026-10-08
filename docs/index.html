@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop Shelf</title>
+<style>
+  :root { --bg:#0b0b0c; --fg:#e8e8ea; --dim:#8a8a93; --accent:#d8b24a;
+    /* Sized against viewport height so the chrome stays legible from a 1080p panel
+       up to a 4K one, where a fixed 44px bar nearly disappears. */
+    --bar: clamp(44px, 6.1vh, 132px);
+    --fs:  clamp(15px, 2.05vh, 44px);
+    --fs-s: clamp(13px, 1.8vh, 38px);
+    --sel: clamp(5px, 0.7vh, 15px);
+    --gap: clamp(10px, 1.4vh, 30px); }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+    font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; overflow:hidden; }
+  #stage { position:absolute; inset:0 0 var(--bar) 0; display:flex; align-items:center;
+    justify-content:center; gap:var(--gap); padding:var(--gap); }
+  .pane { position:relative; height:100%; display:flex; align-items:center; justify-content:center; }
+  .pane img { background:#fff; box-shadow:0 0 0 1px #2a2a2e, 0 8px 30px #0008;
+    max-height:100%; max-width:100%; object-fit:contain; }
+  .pane.empty img { visibility:hidden; }
+  .pane.sel img { box-shadow:0 0 0 var(--sel) var(--accent), 0 8px 30px #0008; }
+  #zoomwrap { position:absolute; inset:0 0 var(--bar) 0; display:none; overflow:hidden;
+    background:var(--bg); }
+  #zoomwrap.on { display:block; }
+  #zoomimg { position:absolute; transform-origin:0 0; background:#fff; }
+  /* One unwrappable row. Anything that can reflow here visibly twitches on every page
+     turn, because the label's width changes with the page number. */
+  #bar { position:fixed; left:0; right:0; bottom:0; height:var(--bar); display:flex;
+    align-items:center; gap:calc(var(--gap) * 1.6); padding:0 calc(var(--gap) * 1.6);
+    background:#141417; border-top:1px solid #26262b; font-size:var(--fs);
+    white-space:nowrap; overflow:hidden; }
+  #label { color:var(--accent); font-weight:600; flex:0 0 auto;
+    font-variant-numeric:tabular-nums; }
+  #manual { color:var(--dim); flex:1 1 auto; min-width:0;
+    overflow:hidden; text-overflow:ellipsis; }
+  #hint { color:var(--dim); flex:0 0 auto; font-size:var(--fs-s); }
+  #msg { position:absolute; inset:0 0 var(--bar) 0; display:flex; align-items:center;
+    justify-content:center; padding:8vh; text-align:center; color:var(--dim);
+    font-size:var(--fs); line-height:1.6; }
+  #msg a { color:var(--accent); }
+  #msg.hide { display:none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="pane" id="paneL"><img id="iL" alt=""></div>
+  <div class="pane" id="paneR"><img id="iR" alt=""></div>
+</div>
+<div id="zoomwrap"><img id="zoomimg" alt=""></div>
+<div id="msg">loading&hellip;</div>
+<div id="bar">
+  <span id="label">&mdash;</span>
+  <span id="manual"></span>
+  <span id="hint">&#9664; &#9654; page &middot; OK zoom &middot; &#9650;&#9660; in zoom: pan &middot; BACK exit zoom</span>
+</div>
+
+<script src="config.js"></script>
+<script>
+const qs = new URLSearchParams(location.search);
+const PRELOAD = 2;                       // spreads kept warm in each direction
+const ROOM = qs.get("room") || (window.SHELF_CONFIG || {}).room || "";
+const STATE_BASE = ((window.SHELF_CONFIG || {}).stateBase || "").replace(/\/$/, "");
+
+let IMAGES = [], total = 0, slug = null, manuals = [];
+let page = Math.max(1, parseInt(qs.get("page") || "1", 10));
+let sel = 0, zoom = false, zscale = 1, zx = 0, zy = 0;
+
+const iL = document.getElementById("iL"), iR = document.getElementById("iR");
+const paneL = document.getElementById("paneL"), paneR = document.getElementById("paneR");
+const label = document.getElementById("label"), manualEl = document.getElementById("manual");
+const zwrap = document.getElementById("zoomwrap"), zoomimg = document.getElementById("zoomimg");
+const msg = document.getElementById("msg");
+
+function say(html) { msg.innerHTML = html; msg.classList.remove("hide"); }
+function clearSay() { msg.classList.add("hide"); }
+function barPx() {
+  return parseFloat(getComputedStyle(document.documentElement)
+    .getPropertyValue("--bar")) || 44;
+}
+
+function imgUrl(n) { return (n >= 1 && n <= IMAGES.length) ? IMAGES[n - 1] : null; }
+
+function preload(from, to) {
+  for (let n = from; n <= to; n++) {
+    const u = imgUrl(n);
+    if (u) { const im = new Image(); im.src = u; }
+  }
+}
+
+function applySel() {
+  paneL.classList.toggle("sel", sel === 0);
+  paneR.classList.toggle("sel", sel === 1 && !paneR.classList.contains("empty"));
+}
+
+function show() {
+  if (!IMAGES.length) return;
+  clearSay();
+  label.textContent = `p. ${page}${page + 1 <= total ? "–" + (page + 1) : ""} of ${total}`;
+  const a = imgUrl(page), b = imgUrl(page + 1);
+  iL.hidden = !a; if (a) iL.src = a;
+  iR.hidden = !b; if (b) iR.src = b;
+  paneL.classList.toggle("empty", !a);
+  paneR.classList.toggle("empty", !b);
+  if (!b) sel = 0;
+  applySel();
+  preload(page - PRELOAD * 2, page + 1 + PRELOAD * 2);
+  const u = new URL(location.href);
+  u.searchParams.set("manual", slug); u.searchParams.set("page", page);
+  history.replaceState(null, "", u);
+}
+
+function flip(delta) {
+  const next = page + delta * 2;
+  if (next < 1 || next > total) return;
+  page = next;
+  show();
+}
+
+function enterZoom() {
+  const u = imgUrl(Math.min(page + sel, total));
+  if (!u) return;
+  zoomimg.onload = () => {
+    const fitH = innerHeight - barPx();
+    const cssW = zoomimg.naturalWidth / zoomimg.naturalHeight * fitH;
+    zoomimg.style.height = fitH + "px"; zoomimg.style.width = cssW + "px";
+    zscale = 2;
+    zx = (innerWidth - cssW * zscale) / 2; zy = -(fitH * zscale - fitH) / 2;
+    applyZoom();
+  };
+  zoomimg.src = u;
+  zoom = true; zwrap.classList.add("on");
+}
+function applyZoom() { zoomimg.style.transform = `translate(${zx}px,${zy}px) scale(${zscale})`; }
+function exitZoom() { zoom = false; zwrap.classList.remove("on"); }
+
+const ZOOM_KEYS = new Set(["Enter", "NumpadEnter", "Select", "Accept", " ", "Spacebar", "MediaPlayPause"]);
+const EXIT_KEYS = new Set(["Escape", "Esc", "Backspace", "GoBack", "BrowserBack"]);
+
+addEventListener("keydown", e => {
+  const k = e.key, kc = e.keyCode;
+  const RIGHT = k === "ArrowRight" || kc === 39, LEFT = k === "ArrowLeft" || kc === 37;
+  const UP = k === "ArrowUp" || kc === 38, DOWN = k === "ArrowDown" || kc === 40;
+  const OK = ZOOM_KEYS.has(k) || kc === 13 || kc === 23 || kc === 32;
+  const BACK = EXIT_KEYS.has(k) || kc === 27 || kc === 8 || kc === 4;
+  if (!IMAGES.length) return;
+
+  if (!zoom) {
+    if (RIGHT) {
+      if (sel === 0 && !paneR.classList.contains("empty")) { sel = 1; applySel(); }
+      else { sel = 0; flip(1); }
+      e.preventDefault();
+    } else if (LEFT) {
+      if (sel === 1) { sel = 0; applySel(); }
+      else { sel = 1; flip(-1); }
+      e.preventDefault();
+    } else if (OK) { enterZoom(); e.preventDefault(); }
+  } else {
+    const step = 140;
+    if (RIGHT) { zx -= step; applyZoom(); e.preventDefault(); }
+    else if (LEFT) { zx += step; applyZoom(); e.preventDefault(); }
+    else if (UP) { zy += step; applyZoom(); e.preventDefault(); }
+    else if (DOWN) { zy -= step; applyZoom(); e.preventDefault(); }
+    else if (BACK || OK) { exitZoom(); e.preventDefault(); }
+  }
+});
+
+addEventListener("resize", () => { if (zoom) { exitZoom(); enterZoom(); } });
+
+async function loadManual(wantSlug) {
+  const m = manuals.find(x => x.slug === wantSlug) || manuals[0];
+  if (!m) throw new Error("no manuals with page images are published yet");
+  const data = await (await fetch(m.pages_json)).json();
+  // Compose from the pinned base rather than trusting pages.json's own `url`: that
+  // field is absent in older copies, and it points at a branch ref whose CDN cache
+  // can lag this file by hours.
+  IMAGES = (data.pages || []).map(p => m.base + p.file);
+  total = IMAGES.length;
+  slug = m.slug;
+  manualEl.textContent = m.title;
+  if (page > total) page = 1;
+}
+
+// Follow pages pushed from elsewhere (goto.html, or anything writing the same state).
+// The display polls outward, so nothing has to reach into this network.
+let lastRev = null;
+function startPolling() {
+  if (!STATE_BASE || !ROOM) return;
+  setInterval(async () => {
+    try {
+      const st = await (await fetch(
+        `${STATE_BASE}/state?room=${encodeURIComponent(ROOM)}`,
+        { cache: "no-store" })).json();
+      if (!st || typeof st.rev !== "number") return;
+      if (lastRev === null) { lastRev = st.rev; return; }
+      if (st.rev === lastRev) return;
+      lastRev = st.rev;
+      if (zoom) exitZoom();
+      if (st.manual && st.manual !== slug) await loadManual(st.manual);
+      page = Math.min(Math.max(1, st.page || 1), total);
+      sel = 0;
+      show();
+    } catch (e) { /* offline or endpoint down: keep showing the page */ }
+  }, 1500);
+}
+
+(async () => {
+  try {
+    manuals = (await (await fetch("manuals.json", { cache: "no-store" })).json()).manuals || [];
+    await loadManual(qs.get("manual"));
+    show();
+    startPolling();
+    if (!STATE_BASE || !ROOM) {
+      console.info("shop-shelf: no stateBase/room configured — remote page jumps are off");
+    }
+  } catch (err) {
+    say(`Could not load the manual.<br>${err.message}`);
+  }
+})();
+</script>
+</body>
+</html>

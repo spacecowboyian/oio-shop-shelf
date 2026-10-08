@@ -81,7 +81,9 @@ def resolve_pages(mdir: Path, local: bool) -> list[str] | None:
         # Serve the committed copies instead of the CDN — works with no internet on
         # the display, at the cost of this machine's bandwidth.
         return [f"/page/{pg['page']}" for pg in pages]
-    return [pg["url"] for pg in pages]
+    # `url` is absent in older pages.json files; compose it from the CDN base.
+    base = ((data.get("base_url") or {}).get("cdn") or "").rstrip("/")
+    return [pg.get("url") or f"{base}/{pg['file']}" for pg in pages]
 
 
 def resolve_pdf(mdir: Path, manifest: dict) -> Path:
