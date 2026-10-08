@@ -1,8 +1,19 @@
 # tv-reader — put a manual on a TV
 
-Serves a manual's PDF as a two-page spread a TV can display and a remote can drive.
-Pages are rendered client-side with pdf.js and fetched by HTTP range, so only the
-spread you are looking at crosses the network — not the whole 20–50 MB PDF.
+Serves a manual as a two-page spread a TV can display and a remote can drive.
+
+Two sources, picked automatically:
+
+- **Page images** when the manual has `data/pages.json` (every page pre-rendered to
+  PNG). The reader just shows them — nothing to rasterise, no PDF to download, and
+  flipping is as fast as the images arrive. By default they load from the jsDelivr
+  URLs baked into `pages.json`; `--images local` serves the committed copies from
+  this machine instead, which needs no internet on the display.
+- **The PDF** otherwise, rendered client-side with pdf.js and fetched by HTTP range,
+  so only the spread being read crosses the network rather than the whole 20–50 MB.
+
+Prefer images where they exist: it is the difference between decoding a PNG and
+rasterising a 300 DPI scan on a weak TV.
 
 ```bash
 python scripts/tv-reader/serve.py --manual renault-dauphine --page 39
@@ -40,7 +51,8 @@ re-cast — which matters, because reloading means re-initialising pdf.js on the
 `--goto` needs only `--port` (default 8789) to find the running reader; it ignores
 `--manual` and exits immediately.
 
-After editing `reader.html`, pick the change up the same way:
+`reader.html` is read per request, so after editing it you only need a reload — no
+server restart:
 
 ```bash
 python scripts/tv-reader/serve.py --reload
@@ -80,7 +92,8 @@ Then restart the server so it picks up the current address, and cast again.
 | `--page N` | 1 | page shown on the left of the spread |
 | `--port N` | 8789 | |
 | `--cast DEVICE` | — | device name from `catt scan` |
-| `--oversample F` | 2 | render scale above display size. Pages render at `display × dpr × F`, capped at the scan's native height, then downscale in CSS — that is what keeps text sharp on a 1080p panel. Lower it to ~1.5 if a weak TV flips sluggishly. |
+| `--images cdn\|local\|off` | cdn | where page images come from, if the manual has them: the CDN, this machine, or `off` to rasterise the PDF instead |
+| `--oversample F` | 2 | render scale above display size. Pages render at `display × dpr × F`, capped at the scan's native height, then downscale in CSS — that is what keeps text sharp on a 1080p panel. Lower it to ~1.5 if a weak TV flips sluggishly. PDF mode only; page images are already at native resolution. |
 
 ## Not built yet
 

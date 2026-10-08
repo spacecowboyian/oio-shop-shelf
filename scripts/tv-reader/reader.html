@@ -12,14 +12,15 @@
   #stage { position:absolute; inset:0 0 44px 0; display:flex; align-items:center;
     justify-content:center; gap:10px; padding:10px; }
   .pane { position:relative; height:100%; display:flex; align-items:center; justify-content:center; }
-  .pane canvas { background:#fff; box-shadow:0 0 0 1px #2a2a2e, 0 8px 30px #0008;
-    max-height:100%; max-width:100%; }
-  .pane.empty canvas { visibility:hidden; }
-  .pane.sel canvas { box-shadow:0 0 0 5px var(--accent), 0 8px 30px #0008; }
+  .pane canvas, .pane img { background:#fff; box-shadow:0 0 0 1px #2a2a2e, 0 8px 30px #0008;
+    max-height:100%; max-width:100%; object-fit:contain; }
+  .pane.empty canvas, .pane.empty img { visibility:hidden; }
+  .pane.sel canvas, .pane.sel img { box-shadow:0 0 0 5px var(--accent), 0 8px 30px #0008; }
   #zoomwrap { position:absolute; inset:0 0 44px 0; display:none; overflow:hidden;
     background:var(--bg); }
   #zoomwrap.on { display:block; }
-  #zoomcanvas { position:absolute; transform-origin:0 0; background:#fff; }
+  #zoomcanvas, #zoomimg { position:absolute; transform-origin:0 0; background:#fff; }
+  #zoomimg { display:none; }
   #manual { color:var(--dim); }
   #bar { position:absolute; left:0; right:0; bottom:0; height:44px; display:flex;
     align-items:center; gap:18px; padding:0 18px; background:#141417;
@@ -33,11 +34,11 @@
 </head>
 <body>
 <div id="stage">
-  <div class="pane" id="paneL"><canvas id="cL"></canvas></div>
-  <div class="pane" id="paneR"><canvas id="cR"></canvas></div>
+  <div class="pane" id="paneL"><canvas id="cL"></canvas><img id="iL" alt="" hidden></div>
+  <div class="pane" id="paneR"><canvas id="cR"></canvas><img id="iR" alt="" hidden></div>
 </div>
-<div id="zoomwrap"><canvas id="zoomcanvas"></canvas></div>
-<div id="busy">rendering\u2026</div>
+<div id="zoomwrap"><canvas id="zoomcanvas"></canvas><img id="zoomimg" alt=""></div>
+<div id="busy">rendering…</div>
 <div id="bar">
   <span id="label">—</span>
   <span id="manual">__TITLE__</span>
@@ -65,6 +66,53 @@ const label = document.getElementById("label"), busy = document.getElementById("
 const zwrap = document.getElementById("zoomwrap"), zc = document.getElementById("zoomcanvas");
 
 const cache = new Map(), inflight = new Map();
+
+// Image mode: the manual has pre-rendered page images (data/pages.json), so there is
+// nothing to rasterise — the browser just decodes a PNG. Much faster on a weak TV,
+// and no PDF download at all. Falls back to pdf.js when a manual has no images.
+let IMAGES = null;                       // array of page URLs, 1-based by index+1
+const iL = document.getElementById("iL"), iR = document.getElementById("iR");
+const zoomimg = document.getElementById("zoomimg");
+
+function imgUrl(n) { return (n >= 1 && n <= IMAGES.length) ? IMAGES[n - 1] : null; }
+
+function preloadImages(from, to) {
+  for (let n = from; n <= to; n++) {
+    const u = imgUrl(n);
+    if (u) { const im = new Image(); im.src = u; }
+  }
+}
+
+function showImages() {
+  cL.hidden = true; cR.hidden = true;        // the pdf.js canvases are unused here
+  label.textContent = `p. ${page}${page + 1 <= total ? "\u2013" + (page + 1) : ""} of ${total}`;
+  const a = imgUrl(page), b = imgUrl(page + 1);
+  iL.hidden = !a; if (a) iL.src = a;
+  iR.hidden = !b; if (b) iR.src = b;
+  paneL.classList.toggle("empty", !a);
+  paneR.classList.toggle("empty", !b);
+  if (!b) sel = 0;
+  applySel();
+  preloadImages(page - PRELOAD * 2, page + 1 + PRELOAD * 2);
+}
+
+function enterZoomImage() {
+  const u = imgUrl(Math.min(page + sel, total));
+  if (!u) return;
+  zoomimg.onload = () => {
+    const fitH = innerHeight - 44;
+    const cssW = zoomimg.naturalWidth / zoomimg.naturalHeight * fitH;
+    zoomimg.style.height = fitH + "px"; zoomimg.style.width = cssW + "px";
+    zscale = 2;
+    zx = (innerWidth - cssW * zscale) / 2; zy = -(fitH * zscale - fitH) / 2;
+    applyZoom();
+  };
+  zoomimg.src = u;
+  zoomcanvasHide();
+  zoom = true; zwrap.classList.add("on");
+}
+
+function zoomcanvasHide() { zc.style.display = "none"; zoomimg.style.display = "block"; }
 const dpr = window.devicePixelRatio || 1;
 
 function cssHeight() { return document.getElementById("stage").clientHeight - 20; }
@@ -105,6 +153,7 @@ function blit(canvas, src, pane) {
 }
 
 async function show() {
+  if (IMAGES) return showImages();
   const px = renderPx();
   label.textContent = `p. ${page}${page + 1 <= total ? "\u2013" + (page + 1) : ""} of ${total}`;
   busy.classList.add("on");
@@ -126,15 +175,17 @@ function applySel() {
 }
 
 function flip(delta) {
-  if (!doc) return;
+  if (!doc && !IMAGES) return;
   const next = page + delta * 2;
   if (next < 1 || next > total) return;
   page = next;
-  history.replaceState(null, "", `?file=${encodeURIComponent(FILE)}&page=${page}`);
+  history.replaceState(null, "", IMAGES ? `?page=${page}`
+                                        : `?file=${encodeURIComponent(FILE)}&page=${page}`);
   show();
 }
 
 async function enterZoom() {
+  if (IMAGES) return enterZoomImage();
   if (!doc) return;
   const target = Math.min(page + sel, total);
   const pg = await doc.getPage(target);
@@ -151,7 +202,7 @@ async function enterZoom() {
   zx = (innerWidth - cssW * zscale) / 2; zy = -(fitH * zscale - fitH) / 2;
   applyZoom(); zoom = true; zwrap.classList.add("on");
 }
-function applyZoom() { zc.style.transform = `translate(${zx}px,${zy}px) scale(${zscale})`; }
+function applyZoom() { (IMAGES ? zoomimg : zc).style.transform = `translate(${zx}px,${zy}px) scale(${zscale})`; }
 function exitZoom() { zoom = false; zwrap.classList.remove("on"); }
 
 const ZOOM_KEYS = new Set(["Enter","NumpadEnter","Select","Accept"," ","Spacebar","MediaPlayPause"]);
@@ -192,26 +243,20 @@ addEventListener("resize", () => { cache.clear(); show(); });
 // view, so this never fights the remote while you are reading.
 let lastRev = null, lastReload = null;
 setInterval(async () => {
-  try {
-    const st = await (await fetch("/state", { cache: "no-store" })).json();
-    // A cast receiver may ignore a re-cast of a URL it already holds, so the page
-    // reloads itself on request instead of depending on the sender.
-    if (lastReload === null) lastReload = st.reload;
-    else if (st.reload !== lastReload) { location.reload(); return; }
-    if (lastRev === null) { lastRev = st.rev; return; }
-    if (st.rev !== lastRev) {
-      lastRev = st.rev;
-      if (!doc) return;
-      if (zoom) exitZoom();
-      page = Math.min(Math.max(1, st.page), total);
-      sel = 0;
-      show();
-    }
-  } catch (e) { /* server gone; keep showing what we have */ }
-}, 1500);
+  label.textContent = "loading\u2026";
+  let mode = { mode: "pdf", urls: [] };
+  try { mode = await (await fetch("/pages.json", { cache: "no-store" })).json(); } catch (e) {}
 
-(async () => {
-  label.textContent = "loading PDF\u2026";  doc = await pdfjsLib.getDocument({ url: FILE, rangeChunkSize: 262144 }).promise;
+  if (mode.mode === "images" && mode.urls.length) {
+    IMAGES = mode.urls;
+    total = IMAGES.length;
+    if (page > total) page = 1;
+    show();
+    return;
+  }
+
+  label.textContent = "loading PDF\u2026";
+  doc = await pdfjsLib.getDocument({ url: FILE, rangeChunkSize: 262144 }).promise;
   total = doc.numPages;
   if (page > total) page = 1;
   show();
