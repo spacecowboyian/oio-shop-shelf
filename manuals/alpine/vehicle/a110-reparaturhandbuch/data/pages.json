@@ -9,11 +9,9 @@
   "threshold_default": 60,
   "dir": "page-images"
  },
- "base_url": {
-  "raw": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
-  "cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
-  "used": "raw"
- },
+ "base_url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+ "base_url_alternate_cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+ "base_url_alternate_cdn_caveat": "jsDelivr serves the same files and caches harder (12 h at the edge), so it is good for a client loading many images but can serve a stale copy for hours after a change. Prefer base_url, and the per-page url built from it.",
  "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf",
  "chapters": [
   {

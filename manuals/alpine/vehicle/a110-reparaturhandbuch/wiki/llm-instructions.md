@@ -150,9 +150,16 @@ carries an absolute **`url`**, plus the page number, pixel and byte size, owning
 where the page has a named figure — a `diagram` object with its own `url` and caption. Prefer the
 diagram's `url` when there is one, otherwise the page's.
 
-`base_url` lists both hosts and names the one the baked URLs use (`used`): `raw`
-(raw.githubusercontent.com, the default — GitHub itself, verified with external AI readers) and
-`cdn` (jsDelivr, a free CDN over the same files, better for a client pulling many images).
+**Use the baked `url`, not a base.** `base_url` is the host those urls were built from
+(raw.githubusercontent.com — GitHub itself, and the path verified with external AI readers).
+`base_url_alternate_cdn` is jsDelivr over the same files: good for a client loading hundreds of
+images, but it edge-caches a changed file for up to 12 hours, so it can serve a stale copy after
+a correction. Don't reach for it by default.
+
+**Inline display is the client's call.** Some chat clients render a markdown image, others turn
+it into a link; raw HTML is usually stripped. Give the url either way, with the page number, so
+the reader can open it — and don't claim an image is unavailable when the client simply did not
+embed it.
 
 All of these are served as `image/png` from the same host as this markdown, with no redirect —
 unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only

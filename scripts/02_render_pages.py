@@ -315,9 +315,18 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         "page_count": len(pages),
         "image": {"format": "png", "depth": "bilevel", "dpi": dpi,
                   "threshold_default": threshold, "dir": "page-images"},
-        # Every page below already carries an absolute `url` built from `base_url.used`.
-        # These are here so a consumer can swap bases without re-deriving paths.
-        "base_url": ({**bases, "used": prefer} if bases else None),
+        # Every page below carries a complete absolute `url` — that is what a consumer should
+        # use. These bases are only for a client that wants to re-point them deliberately, and
+        # are named so the alternative cannot be mistaken for the one in use: an AI reader that
+        # grabbed the CDN base from a neutral-looking {"raw":…,"cdn":…} map would silently read
+        # up-to-12-hour-stale files.
+        "base_url": (base if base else None),
+        "base_url_alternate_cdn": (bases.get("cdn") if bases else None),
+        "base_url_alternate_cdn_caveat": (
+            "jsDelivr serves the same files and caches harder (12 h at the edge), so it is good "
+            "for a client loading many images but can serve a stale copy for hours after a "
+            "change. Prefer base_url, and the per-page url built from it."
+            if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [
             {"file": f"wiki/{c['file']}", "title": c.get("title"),
