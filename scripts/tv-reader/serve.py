@@ -63,6 +63,27 @@ def find_manual(slug: str) -> Path:
     sys.exit(f"No manual with slug {slug!r}. Known manuals:\n  {known}")
 
 
+def resolve_pages(mdir: Path, local: bool) -> list[str] | None:
+    """Page-image URLs from data/pages.json, if the manual has been rendered.
+
+    Pre-rendered pages beat rasterising the PDF on the TV: the images are already at
+    the scan's native resolution, the browser decodes them far faster than pdf.js
+    renders, and nothing has to download a 20-50 MB PDF first.
+    """
+    pj = mdir / "data" / "pages.json"
+    if not pj.is_file():
+        return None
+    data = json.loads(pj.read_text(encoding="utf-8"))
+    pages = data.get("pages") or []
+    if not pages:
+        return None
+    if local:
+        # Serve the committed copies instead of the CDN — works with no internet on
+        # the display, at the cost of this machine's bandwidth.
+        return [f"/page/{pg['page']}" for pg in pages]
+    return [pg["url"] for pg in pages]
+
+
 def resolve_pdf(mdir: Path, manifest: dict) -> Path:
     """Prefer a PDF in the manual directory; else fetch the manifest source once."""
     local = sorted(p for p in mdir.glob("*.pdf") if p.name != "prepared.pdf")
@@ -100,7 +121,14 @@ def lan_ip() -> str:
         s.close()
 
 
-def make_handler(pdf: Path, page_html: bytes):
+def make_handler(pdf: Path | None, title: str, pages: list[str] | None,
+                 mdir: Path | None = None):
+    def page_html() -> bytes:
+        # Read per request: an edit to reader.html then needs only --reload, not a
+        # server restart.
+        return (HERE / "reader.html").read_text(encoding="utf-8") \
+            .replace("__TITLE__", title).encode("utf-8")
+
     class Handler(BaseHTTPRequestHandler):
         protocol_version = "HTTP/1.1"
 
@@ -117,9 +145,35 @@ def make_handler(pdf: Path, page_html: bytes):
         def do_GET(self):  # noqa: N802
             path = self.path.split("?", 1)[0]
             if path in ("/", "/index.html"):
-                self._head(200, "text/html; charset=utf-8", len(page_html))
-                self.wfile.write(page_html)
+                body = page_html()
+                self._head(200, "text/html; charset=utf-8", len(body),
+                           {"Cache-Control": "no-store"})
+                self.wfile.write(body)
                 return
+            if path == "/pages.json":
+                body = json.dumps({"mode": "images" if pages else "pdf",
+                                   "urls": pages or []}).encode()
+                self._head(200, "application/json", len(body),
+                           {"Cache-Control": "no-store"})
+                self.wfile.write(body)
+                return
+
+            if path.startswith("/page/") and mdir is not None:
+                try:
+                    n = int(path.rsplit("/", 1)[1])
+                except ValueError:
+                    self.send_error(404)
+                    return
+                img = mdir / "page-images" / f"p{n:04d}.png"
+                if not img.is_file():
+                    self.send_error(404)
+                    return
+                data = img.read_bytes()
+                self._head(200, "image/png", len(data),
+                           {"Cache-Control": "public, max-age=86400"})
+                self.wfile.write(data)
+                return
+
             if path in ("/state", "/goto", "/reload"):
                 if path == "/reload":
                     with STATE_LOCK:
@@ -141,7 +195,7 @@ def make_handler(pdf: Path, page_html: bytes):
                 self.wfile.write(body)
                 return
 
-            if path != "/manual.pdf":
+            if path != "/manual.pdf" or pdf is None:
                 self.send_error(404)
                 return
 
@@ -172,10 +226,10 @@ def make_handler(pdf: Path, page_html: bytes):
                     remaining -= len(buf)
 
         def do_HEAD(self):  # noqa: N802
-            if self.path.split("?", 1)[0] == "/manual.pdf":
+            if self.path.split("?", 1)[0] == "/manual.pdf" and pdf is not None:
                 self._head(200, "application/pdf", pdf.stat().st_size)
             else:
-                self._head(200, "text/html; charset=utf-8", len(page_html))
+                self._head(200, "text/html; charset=utf-8", len(page_html()))
 
         def log_message(self, fmt, *a):
             sys.stderr.write("  %s %s\n" % (self.address_string(), fmt % a))
@@ -217,6 +271,10 @@ def main() -> None:
     ap.add_argument("--reload", action="store_true",
                     help="tell an already-running tv-reader to reload itself, and exit "
                          "(picks up edits to reader.html without re-casting)")
+    ap.add_argument("--images", choices=("cdn", "local", "off"), default="cdn",
+                    help="use pre-rendered page images when the manual has them: "
+                         "'cdn' (jsDelivr, the default), 'local' (serve the committed "
+                         "copies), or 'off' to rasterise the PDF instead")
     ap.add_argument("--oversample", type=float, default=2.0,
                     help="render scale above display size; lower is faster, softer (default 2)")
     args = ap.parse_args()
@@ -250,15 +308,14 @@ def main() -> None:
     STATE["page"] = args.page
     mdir = find_manual(args.manual)
     manifest = load_manifest(mdir)
-    pdf = resolve_pdf(mdir, manifest)
+    pages = None if args.images == "off" else resolve_pages(mdir, args.images == "local")
+    pdf = None if pages else resolve_pdf(mdir, manifest)
 
     title = manifest.get("title", mdir.name)
-    page_html = (HERE / "reader.html").read_text(encoding="utf-8") \
-        .replace("__TITLE__", title).encode("utf-8")
-
     # Bind before announcing anything, so a busy port fails loudly and not halfway.
     try:
-        server = ThreadingHTTPServer(("0.0.0.0", args.port), make_handler(pdf, page_html))
+        server = ThreadingHTTPServer(
+            ("0.0.0.0", args.port), make_handler(pdf, title, pages, mdir))
     except OSError as e:
         if e.errno != errno.EADDRINUSE:
             raise
@@ -272,7 +329,12 @@ def main() -> None:
 
     url = (f"http://{lan_ip()}:{args.port}/index.html"
            f"?page={args.page}&os={args.oversample:g}")
-    print(f"{title}\n  {pdf.relative_to(REPO) if pdf.is_relative_to(REPO) else pdf}")
+    if pages:
+        where = "jsDelivr" if args.images == "cdn" else "page-images/ (served locally)"
+        source = f"{len(pages)} page images from {where}"
+    else:
+        source = str(pdf.relative_to(REPO) if pdf.is_relative_to(REPO) else pdf)
+    print(f"{title}\n  {source}")
     print(f"  serving {url}")
     print("  controls: ◀ ▶ select / turn page · OK zoom · arrows pan · BACK exit zoom", flush=True)
 
