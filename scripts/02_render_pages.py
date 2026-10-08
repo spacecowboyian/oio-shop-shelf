@@ -324,19 +324,16 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         "page_count": len(pages),
         "image": {"format": "png", "depth": "bilevel", "dpi": dpi,
                   "threshold_default": threshold, "dir": "page-images"},
-        # Every page below carries a complete absolute `url` — that is what a consumer should
-        # use. These bases are only for a client that wants to re-point them deliberately, and
-        # are named so the alternative cannot be mistaken for the one in use: an AI reader that
-        # grabbed the CDN base from a neutral-looking {"raw":…,"cdn":…} map would silently read
-        # up-to-12-hour-stale files.
-        "base_url": (base if base else None),
-        "base_url_alternate_cdn": (bases.get("cdn") if bases else None),
-        "base_url_alternate_cdn_caveat": (
-            "jsDelivr over the same files, pinned to the commit these images were generated "
-            "from, so it is immutable and cannot go stale. Good for a client loading many "
-            "images. It does NOT follow later corrections — for the current file always use "
-            "base_url, which is what the per-page url fields are built from."
-            if bases else None),
+        # Every page below carries a complete absolute `url`, which is the simplest thing to
+        # use. Both bases are kept here under stable names because real setups read them:
+        # `cdn` is pinned to the commit these images came from, so it is immutable and cannot
+        # serve a stale copy — the one reason it used to be the wrong default.
+        "base_url": ({**bases, "used": prefer,
+                      "note": ("`url` on each page is already absolute — prefer it. `raw` is "
+                               "GitHub itself and always current. `cdn` is jsDelivr pinned to "
+                               "the commit these images were generated from: immutable and fast, "
+                               "but frozen, so it will not pick up a later correction.")}
+                     if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [
             {"file": f"wiki/{c['file']}", "title": c.get("title"),

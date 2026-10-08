@@ -9,9 +9,12 @@
   "threshold_default": 60,
   "dir": "page-images"
  },
- "base_url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
- "base_url_alternate_cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@d88a24061d1567f574069dabe51b287ef8fae92f/manuals/alpine/vehicle/a110-reparaturhandbuch/",
- "base_url_alternate_cdn_caveat": "jsDelivr over the same files, pinned to the commit these images were generated from, so it is immutable and cannot go stale. Good for a client loading many images. It does NOT follow later corrections \u2014 for the current file always use base_url, which is what the per-page url fields are built from.",
+ "base_url": {
+  "raw": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+  "cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@12ac799c88d06339dc18e827399999f10e3f1acb/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+  "used": "raw",
+  "note": "`url` on each page is already absolute \u2014 prefer it. `raw` is GitHub itself and always current. `cdn` is jsDelivr pinned to the commit these images were generated from: immutable and fast, but frozen, so it will not pick up a later correction."
+ },
  "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf",
  "chapters": [
   {

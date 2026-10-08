@@ -150,18 +150,18 @@ carries an absolute **`url`**, plus the page number, pixel and byte size, owning
 where the page has a named figure — a `diagram` object with its own `url` and caption. Prefer the
 diagram's `url` when there is one, otherwise the page's.
 
-**Use the baked `url`, not a base.** `base_url` is the host those urls were built from
-(raw.githubusercontent.com — GitHub itself, and the path verified with external AI readers).
-`base_url_alternate_cdn` is jsDelivr over the same files, pinned to the commit the images were
-generated from — immutable, so it cannot go stale, and good for a client loading hundreds of
-images. It does not follow later corrections, so for the current file use `base_url`.
+**Use the baked `url`, not a base.** `base_url.raw` is the host those urls were built from
+(raw.githubusercontent.com — GitHub itself, always current). `base_url.cdn` is jsDelivr over the
+same files, pinned to the commit the images were generated from: immutable and fast, good for a
+client loading hundreds of images, but frozen, so it will not pick up a later correction.
 
-**Inline display is the client's call, and usually the answer is no.** Tested in both ChatGPT
-(web) and Claude (desktop): each turns a markdown image into a link or a "Show Image"
-placeholder rather than embedding it, and raw HTML is stripped. That is the renderer, not
-something this manual or a prompt can change. So always give the url with its page number, use
-your client's own image component if it has one, and never report an image as unavailable when
-the client simply chose not to embed it — the file is there.
+**Embed the page, don't just link it — but how depends on your client.** A plain markdown
+image is often turned into a link or a "Show Image" placeholder rather than displayed (seen in
+both ChatGPT web and Claude desktop). If your client has its own inline image block, use that
+instead: in ChatGPT, an `AppBlock` wrapping a native `<img>` does render the page inline, and is
+the difference between a reader seeing the page and merely being offered it. Always print the
+url and page number underneath either way, and never report a page as unavailable when the
+client simply declined to embed it — every page exists.
 
 All of these are served as `image/png` from the same host as this markdown, with no redirect —
 unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only
