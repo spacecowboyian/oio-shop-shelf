@@ -208,7 +208,25 @@ callout **(1)** pointing at the side oil seal/bearing area of the differential b
 The page is a figure only: the power flow through the gearbox in each gear (1, 2, 3, 4, 5,
 reverse "AR" and neutral "P.M") is drawn as gearbox sections arranged around the shift gate.
 
-![Shift scheme — power flow in each gear, PDF p.177](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0177-shift-scheme-353.webp)
+![Shift scheme — power flow in each gear, PDF p.177](../diagrams/p0177-shift-scheme-353.png)
+
+**Gate layout, as drawn.** The figure (printed sideways) shows the selector rail with the gears
+branching off it in four planes:
+
+| Plane along the rail | One side | Other side |
+|---|---|---|
+| 1 | 5 | — |
+| 2 | 3 | 4 |
+| 3 | 1 | 2 |
+| 4 | — | reverse (AR) |
+
+Neutral (**P.M**, *point mort*) is marked on the rail at the 3–4 plane, so the lever rests in the
+3–4 plane. The odd gears 1, 3 and 5 engage to one side, and 2, 4 and reverse to the other.
+
+<!-- NEEDS REVIEW: the figure does not say which side of the gate is left/right or which end is
+forward in the car, so the pattern is given as its topology only (planes and sides), not as an
+H-pattern with directions. Confirm the physical lever directions on the car before relying on
+them. Read from the page image of PDF p.177. -->
 
 <a id="p178"></a>
 **[PDF p.178]**
@@ -1000,7 +1018,7 @@ Face **(A)** of the 3rd-speed gear on the primary shaft must be offset from face
 the primary shaft is offset from face **(D)** of the 4th-speed gear on the secondary shaft. This
 position is obtained by fitting the washer **(1)** (section 65 085).
 
-![Primary shaft alignment — faces A/B/C/D and washer (1), PDF p.207](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0207-primary-shaft-alignment.webp)
+![Primary shaft alignment — faces A/B/C/D and washer (1), PDF p.207](../diagrams/p0207-primary-shaft-alignment.png)
 
 1. Into the left-hand casing half fit:
    - the secondary shaft (after removing the speedometer worm of the 5th-speed gear and the
@@ -1076,7 +1094,7 @@ position is obtained by fitting the washer **(1)** (section 65 085).
 | Bolts 7 mm diameter | **2 mkp** |
 | Bolts 8 mm diameter | **2.8 mkp** |
 
-![Casing half bolt tightening sequence 1–17 — PDF p.210](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0210-casing-bolt-sequence.webp)
+![Casing half bolt tightening sequence 1–17 — PDF p.210](../diagrams/p0210-casing-bolt-sequence.png)
 
 <!-- NEEDS REVIEW: the figure numbers the bolts 1 to 17 but does not show which positions are
 7 mm and which are 8 mm. Do not infer the diameter from the sequence number. -->
@@ -1726,7 +1744,7 @@ For this, the drive pinion is coated with marking paint (engineer's blue). The c
 | Both flanks at the small diameter | **Reduce** the backlash, i.e. crown wheel towards the pinion (by means of C). |
 | Both flanks at the large diameter | **Increase** the backlash, i.e. crown wheel away from the pinion (by means of C). |
 
-![Tooth-contact patterns on the pinion and their corrections, PDF p.235](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0235-tooth-contact-patterns.webp)
+![Tooth-contact patterns on the pinion and their corrections, PDF p.235](../diagrams/p0235-tooth-contact-patterns.png)
 
 Cross-references in the table are printed page numbers. They correspond to these sections:
 printed p. 206 = [A — Setting the pinion cone distance](#a-setting-the-pinion-cone-distance)

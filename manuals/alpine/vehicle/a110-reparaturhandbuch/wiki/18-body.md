@@ -502,7 +502,7 @@ between the gutter and the roof.
 
 The page prints "Dessin = Abbildung" (the French *dessin*, figure, is used in the captions).
 
-![Windscreen / rear-window sealing — Figures A to E (profiles, drain-hole position, frame build-up), PDF p.365](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0365-screen-sealing-figures.webp)
+![Windscreen / rear-window sealing — Figures A to E (profiles, drain-hole position, frame build-up), PDF p.365](../diagrams/p0365-screen-sealing-figures.png)
 
 | Figure | Content | Printed dimension |
 |---|---|---|

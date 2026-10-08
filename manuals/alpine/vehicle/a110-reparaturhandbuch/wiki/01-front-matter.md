@@ -112,7 +112,7 @@ The contents page closes with the publisher's disclaimer:
 *Renault und Alpine Typenbezeichnungen (Typencode) mit zugehörigen Motoren und Getrieben* —
 PDF p.8. Transcribed from the page image; the OCR of this table is unusable.
 
-![Renault and Alpine type codes with their engines and gearboxes — PDF p.8](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0008-renault-alpine-type-codes.webp)
+![Renault and Alpine type codes with their engines and gearboxes — PDF p.8](../diagrams/p0008-renault-alpine-type-codes.png)
 
 ### A 110
 
@@ -200,7 +200,7 @@ and output "40/45" are clear. Verify any figure before relying on it. -->
 
 *Wartungs-Diagnose (einschl. Service-Station)* — PDF p.9. Transcribed from the page image.
 
-![Wartungs-Diagnose service and inspection schedule — PDF p.9](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0009-service-diagnosis-schedule.webp)
+![Wartungs-Diagnose service and inspection schedule — PDF p.9](../diagrams/p0009-service-diagnosis-schedule.png)
 
 **Interval key, as printed:**
 

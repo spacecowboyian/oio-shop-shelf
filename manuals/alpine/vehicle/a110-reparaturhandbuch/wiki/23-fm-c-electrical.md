@@ -87,7 +87,7 @@ component labels are printed in French (e.g. *batterie*, *démarreur*, *dynamo*,
 *bobine*, *allumeur*, *centrale clignotante*, *essuie-glace*, *plafonnier*). It is delivered as an
 image; wire routes cannot be faithfully transcribed as text.
 
-![Wiring diagram, Berlinette A. 110 Alpine 1300, dated 30 June 1970 — PDF p.401](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0401-wiring-diagram-alpine-1300.webp)
+![Wiring diagram, Berlinette A. 110 Alpine 1300, dated 30 June 1970 — PDF p.401](../diagrams/p0401-wiring-diagram-alpine-1300.png)
 
 **Wire colour key (printed on the diagram):**
 

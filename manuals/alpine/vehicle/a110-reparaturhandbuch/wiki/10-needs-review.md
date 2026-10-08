@@ -1,6 +1,6 @@
 # Needs Review
 
-_440 flag(s) across 36 chapter file(s)._
+_441 flag(s) across 36 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -156,6 +156,7 @@ _440 flag(s) across 36 chapter file(s)._
 | [11-gearbox.md](11-gearbox.md) | the type 364 cone distance is printed 61,50 (both rows, clearly) against 50.5–53 for type 353 — the different value follows from the Renault 16 clutch housing, not an OCR slip. Final-drive arithmetic checks: 33/8 = 4.125, 35/9 = 3.89, 34/9 = 3.78 (printed 3,77), 27/8 = 3.375 (printed 3,37). No other chapter of this book carries the per-type ratio table to cross-check. |
 | [11-gearbox.md](11-gearbox.md) | printed "Differentialsperre" — rendered "limited-slip differential" (literally "differential lock"). "Seitenwellenkegelräder" = sun (side) gears; "Ausgleichkegelräder" = planet (differential) pinions. |
 | [11-gearbox.md](11-gearbox.md) | cross-chapter check. This page gives 2 litres and "EP 80 (Hypoid-Öl)" for type 353/364 with no separate 364 capacity. Chapter 02 (PDF capacities section) gives 2 litres but 2 1/2 litres for type 364, and its settings plate gives API GL 4 / SAE 80 / API GL 5 (with a HANDWRITTEN "2,2 L" for 364). EP 80 hypoid oil is consistent with SAE 80 / GL 5 but is not the same wording; the 364 capacity disagreement (2 L here vs 2 1/2 L in chapter 02) is unresolved in the source. See [General technical data](02-general-technical-data.md). |
+| [11-gearbox.md](11-gearbox.md) | the figure does not say which side of the gate is left/right or which end is forward in the car, so the pattern is given as its topology only (planes and sides), not as an H-pattern with directions. Confirm the physical lever directions on the car before relying on them. Read from the page image of PDF p.177. |
 | [11-gearbox.md](11-gearbox.md) | printed "Hinterachsstreben" — rendered "rear axle radius arms" (struts/trailing links of the swing axle); "Führungsplatte"/"Führungsbolzen" = guide plate / guide pin of the handbrake. |
 | [11-gearbox.md](11-gearbox.md) | printed "Fangbänder" — rendered "check straps" (rebound-limiting straps); "Halbschalen" = half-shells (the split housings clamping the swing-axle ball joint to the differential bearing carrier, called "Gelenkschalen" on PDF p.183). |
 | [11-gearbox.md](11-gearbox.md) | printed "Führungsmasse der Kupplungswelle" — literally "guide mass"; read as "Führungsmuffe/Führungszapfen" (spigot/guide end) of the clutch shaft; compare PDF p.184, which says "Das Ende der Kupplungswelle leicht fetten" (lightly grease the end of the clutch shaft). |
