@@ -397,4 +397,12 @@ appear IDENTICAL (6.5 / 11 mm) — which is plausible for a four-wheel-disc car 
 the kind of repetition a scan artefact can manufacture, and the OCR disagrees with it. The pad
 maxima (9.5 / 16 / 14 mm) are legible but the minima are not crisp. DO NOT use any figure in
 this table to decide whether a disc or pad is serviceable without checking the source PDF
-page, and preferably the brakes chapter. -->
+page, and preferably the brakes chapter.
+  CROSS-CHECK AGAINST THE BRAKES CHAPTER ([16-brakes.md](16-brakes.md), PDF pp.288-312):
+  1300 VC — CONSISTENT. Discs are 261 x 7.5 mm NEW, identical front and rear (pp.288, 312), so
+  the plate's identical front/rear rows are real, not a scan artefact, and a 6.5 mm minimum
+  leaves a plausible 1 mm wear allowance. Pads are 9.5 mm new including backing plate (p.312)
+  with a 5.5 mm wear limit (p.290) — matching the plate's 9.5 max / 5.5 min exactly.
+  1600 VD / VH — UNSUPPORTED. Nothing in the brakes chapter confirms the 11 mm disc minimum or
+  the 7 / 16 / 14 mm pad figures; that chapter gives only 1300-era nominal sizes. These four
+  values rest on this plate alone. -->

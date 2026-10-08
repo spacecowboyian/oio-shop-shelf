@@ -357,3 +357,21 @@ diagrams:
     depth: mono
     caption: "Crown wheel and pinion tooth-contact patterns and corrections (Tragbildprüfung)"
     safety_relevant: true
+  - page: 288
+    file: "diagrams/p0288-caliper-machining-13in-wheels.webp"
+    kind: exploded
+    depth: mono
+    caption: "Caliper machining for 13-inch alloy wheels (68°, 140°, 13)"
+    safety_relevant: true
+  - page: 299
+    file: "diagrams/p0299-caliper-section-parts.webp"
+    kind: exploded
+    depth: mono
+    caption: "Bendix caliper section with part numbers 1–7"
+    safety_relevant: true
+  - page: 313
+    file: "diagrams/p0313-hydrovac-servo-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Hydrovac brake servo section, items 3–32"
+    safety_relevant: false
