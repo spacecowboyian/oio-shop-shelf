@@ -56,5 +56,38 @@ then:
 
 Either way, answer following **auto-mechanic's** rules, using what you found as your source.
 
+## Showing the page on a screen (local CLI only, optional)
+
+Ian reads these answers in a garage. After citing a page, he may ask to *see* it — "put
+that on the TV", "show me the page". `scripts/tv-reader/` serves any manual as a reader
+on a TV or monitor; its README has the full story.
+
+**The index maps straight to it.** A row's `_page` is `pNN`, and NN is the PDF page the
+reader wants — strip the `p`. A row citing `"_page": "p39"` becomes:
+
+```bash
+python scripts/tv-reader/serve.py --goto 39
+```
+
+That is the whole move once a reader is running: one command, about a second, no reload.
+(Verified against the Dauphine, whose p39 renders the row it came from. The index builder
+is shared, so other manuals should match — worth confirming once per manual the first
+time you use it, by checking the page on screen says what the row says.)
+
+**If nothing is running yet**, start it once for that manual — this is the only step that
+needs the manual slug and a display:
+
+```bash
+python scripts/tv-reader/serve.py --manual renault-dauphine --page 39 --cast "Living Room TV"
+```
+
+Afterwards use `--goto` alone. Re-casting is slow and unnecessary; the page polls for
+jumps.
+
+**Never let this delay or replace the answer.** Cite the page as normal, then offer the
+screen. If no reader is running, no cast target exists, or the assistant has no shell,
+say so in one line and move on — the citation is the deliverable, the screen is a
+convenience.
+
 This skill is a thin wrapper. `llm-instructions.md` is written to work for any LLM, not
 just Claude Code — if you're ever unsure which one has the answer, the root file wins.
