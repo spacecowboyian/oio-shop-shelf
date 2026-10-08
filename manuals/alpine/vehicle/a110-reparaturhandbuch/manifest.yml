@@ -375,3 +375,45 @@ diagrams:
     depth: mono
     caption: "Hydrovac brake servo section, items 3–32"
     safety_relevant: false
+  - page: 141
+    file: "diagrams/p0141-advance-curves-r230-r234-r236.webp"
+    kind: chart
+    depth: mono
+    caption: "Centrifugal advance curves R.230, R.234 and R.236"
+    safety_relevant: true
+  - page: 146
+    file: "diagrams/p0146-dcoe-float-level-a-b.webp"
+    kind: exploded
+    depth: mono
+    caption: "1600 S Weber 45 DCOE float level setting, dimensions A and B"
+    safety_relevant: false
+  - page: 147
+    file: "diagrams/p0147-dcoe-idle-screws-a-b-c-v.webp"
+    kind: exploded
+    depth: mono
+    caption: "1600 S idle-setting screws A, B, C, V and lever 4 on the 45 DCOE pair"
+    safety_relevant: false
+  - page: 150
+    file: "diagrams/p0150-32dir-choke-and-vent-valve.webp"
+    kind: exploded
+    depth: mono
+    caption: "1300 VC Weber 32 DIR choke flap and vent valve settings (items 1-8, E)"
+    safety_relevant: false
+  - page: 155
+    file: "diagrams/p0155-40dcoe-synchronization-linkage.webp"
+    kind: exploded
+    depth: mono
+    caption: "1300 G/S carburettor synchronization linkage (screws 3/5, lever 6, stop 7, spring 8, fork 9)"
+    safety_relevant: false
+  - page: 163
+    file: "diagrams/p0163-clutch-free-play-adjustment.webp"
+    kind: exploded
+    depth: mono
+    caption: "Clutch free-play adjustment, locknut 1 and adjusting nut 2 (engines 807/843/844 and 810/812)"
+    safety_relevant: true
+  - page: 164
+    file: "diagrams/p0164-release-fork-pins-protrusion-d.webp"
+    kind: exploded
+    depth: mono
+    caption: "Release fork pins A and B, pin protrusion D = 1 mm (engine 807/843/844)"
+    safety_relevant: false
