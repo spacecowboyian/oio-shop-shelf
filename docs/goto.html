@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Send to the shelf display</title>
+<style>
+  :root { --bg:#0b0b0c; --fg:#e8e8ea; --dim:#8a8a93; --accent:#d8b24a; --bad:#e06c5a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; min-height:100%; background:var(--bg); color:var(--fg);
+    font:17px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:34rem; margin:0 auto; padding:14vh 20px 20px; text-align:center; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; }
+  .page { font-size:3rem; font-weight:700; color:var(--accent); margin:.5rem 0;
+    font-variant-numeric:tabular-nums; }
+  .manual { color:var(--dim); font-size:.95rem; word-break:break-word; }
+  .status { margin-top:2rem; font-size:1.05rem; min-height:1.6em; }
+  .status.bad { color:var(--bad); }
+  .hint { margin-top:2.5rem; color:var(--dim); font-size:.85rem; }
+  a { color:var(--accent); }
+  button { font:inherit; margin-top:1.5rem; padding:.6rem 1.4rem; border-radius:8px;
+    border:1px solid #33333a; background:#1b1b1f; color:var(--fg); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Shop shelf</h1>
+  <div class="page" id="page">&mdash;</div>
+  <div class="manual" id="manual"></div>
+  <div class="status" id="status">sending&hellip;</div>
+  <button id="retry" hidden>Try again</button>
+  <div class="hint" id="hint"></div>
+</main>
+
+<script src="config.js"></script>
+<script>
+// Opened from a link — typically one a chat assistant handed over. Writes the page
+// to the shared state; the display is polling and picks it up within a second or two.
+const qs = new URLSearchParams(location.search);
+const cfg = window.SHELF_CONFIG || {};
+const STATE_BASE = (qs.get("base") || cfg.stateBase || "").replace(/\/$/, "");
+const ROOM = qs.get("room") || cfg.room || "";
+const MANUAL = qs.get("manual") || "";
+const PAGE = parseInt(qs.get("page") || "0", 10);
+
+const statusEl = document.getElementById("status");
+const retry = document.getElementById("retry");
+
+document.getElementById("page").textContent = PAGE ? "p. " + PAGE : "?";
+document.getElementById("manual").textContent = MANUAL;
+
+function fail(text, hint) {
+  statusEl.textContent = text;
+  statusEl.classList.add("bad");
+  if (hint) document.getElementById("hint").innerHTML = hint;
+  retry.hidden = false;
+}
+
+async function send() {
+  retry.hidden = true;
+  statusEl.classList.remove("bad");
+  statusEl.textContent = "sending…";
+
+  if (!PAGE) return fail("No page given in the link.");
+  if (!STATE_BASE || !ROOM) {
+    return fail("No display configured.",
+      "Set <code>stateBase</code> and <code>room</code> in <code>config.js</code>, " +
+      "or pass <code>?base=</code> and <code>?room=</code> in the link.");
+  }
+
+  const u = new URL(STATE_BASE + "/goto");
+  u.searchParams.set("room", ROOM);
+  u.searchParams.set("page", String(PAGE));
+  if (MANUAL) u.searchParams.set("manual", MANUAL);
+
+  try {
+    const r = await fetch(u, { method: "POST" });
+    if (!r.ok) throw new Error("the display service answered " + r.status);
+    statusEl.textContent = "On the screen ✓";
+    document.getElementById("hint").textContent =
+      "You can close this. The display updates within a second or two.";
+  } catch (e) {
+    fail("Could not reach the display service.", String(e.message || e));
+  }
+}
+
+retry.addEventListener("click", send);
+send();
+</script>
+</body>
+</html>
