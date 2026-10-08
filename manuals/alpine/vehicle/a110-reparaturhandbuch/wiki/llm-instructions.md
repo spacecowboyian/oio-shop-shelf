@@ -158,58 +158,55 @@ client loading hundreds of images, but frozen, so it will not pick up a later co
 ## How to display a page — follow this, don't improvise
 
 Showing the scanned page is most of the value here, and it is the part that most often goes
-wrong. The rules below are the ones that were actually tested; a user should not have to paste
-them into a prompt.
+wrong. A user should not have to paste these rules into a prompt.
 
-**Use the `url` from `pages.json`.** It is already absolute and already points at the CDN
-(jsDelivr), which is what chat clients will render. Do not rebuild it from `base_url.raw`:
-raw.githubusercontent.com is fine for *fetching* a file but is commonly refused as an image
-source, which is exactly how you end up showing a broken image. Prefer a page entry's
-`diagram.url` when it has one.
+### The requirement (every client)
 
-**Embed it so it is visible, not merely linked**, in this order of preference:
+**Take the `url` from `pages.json`.** It is absolute and already points at the CDN (jsDelivr),
+which is what chat clients will render. Do not rebuild it from `base_url.raw`:
+raw.githubusercontent.com is right for *fetching* a file but is commonly refused as an image
+source, which is how you end up showing a broken image. Prefer a page's `diagram.url` where it
+has one.
 
-1. **Attach it as a normal chat image** if you can download the file and present it the way you
-   present an image you generated. This is the only route that gets the client's native viewer,
-   so the reader can tap to zoom. Prefer it.
-2. **Otherwise use your client's inline image block.** A plain markdown `![](url)` is frequently
-   downgraded to a link or a "Show Image" placeholder (seen in both ChatGPT web and Claude
-   desktop), and raw HTML in ordinary prose is usually stripped. In ChatGPT an `AppBlock`
-   wrapping a native `<img>` does render inline:
+**Display it, in this order of preference:**
 
-   ```
-   <AppBlock title="PDF page N" variant="inline" app_block_id="manual-page-N">
-     <div style="width:100%;display:flex;justify-content:center;background:#f2f2f2;border-radius:8px;padding:8px;">
-       <a href="IMAGE_URL" target="_blank" rel="noopener" title="Open full size">
-         <img src="IMAGE_URL" alt="Factory manual page N" style="display:block;width:100%;max-width:760px;height:auto;cursor:zoom-in;" />
-       </a>
-     </div>
-   </AppBlock>
-   ```
+1. **Attach it as a normal chat image** — download the file and present it the way you present
+   an image you produced yourself. This is the only route that gets the client's own viewer, so
+   the reader can tap to zoom. Prefer it whenever you can.
+2. **Otherwise use whatever inline image mechanism your client actually supports.**
+3. **If neither works, give the link** — but see the acceptance criterion below.
 
-   Wrap the `<img>` in that link: an image inside a custom block gets no tap-to-zoom of its own,
-   so the anchor is what lets the reader open the full-size page (these are ~2500 x 3500 px).
+**Caption each image** on the next line: `PDF page N · IMAGE_URL`
 
-**Caption every image**, on the line directly beneath it:
+**Show every page the answer rests on**, each captioned.
 
-```
-PDF page N · IMAGE_URL
-```
+**Never claim a page is unavailable.** Every page of this manual has an image. Never redraw a
+manual page; your own diagram may accompany the real one, clearly marked as yours, never
+replace it.
 
-**Show every page the answer rests on**, each with its own caption — not just the first.
+### Acceptance criterion
 
-**Never claim a page is unavailable.** Every page of this manual has an image. If one genuinely
-fails to render, say that it failed, give the url, and carry on — do not silently substitute a
-different figure, and do not redraw the page. You may add your own SVG to clarify a sequence or
-layout, clearly marked as yours, *alongside* the real page and never instead of it.
+> A technical answer is not finished until the scan is actually displayed, **or** you have said
+> plainly that you could not display it and why.
 
-All of these are served as `image/png` from the same host as this markdown, with no redirect —
-unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only
-readers.
+Do not describe an image as shown when it rendered as a link, a placeholder or a broken image.
+Say which happened and give the url. A reader can act on an honest failure; they cannot act on
+a claim that something is visible when it is not.
 
-**Answer from the text first.** Wherever a figure carries information — a bolt tightening
-sequence, a torque callout, a setting — it is also transcribed in the chapter next to the image,
-with its flags. Quote the text, cite the PDF page, and show the picture alongside it.
+### Client-specific notes — unverified, and not part of the contract
+
+How a client turns a URL into a visible image is its own business and changes without notice.
+This repo does not mandate a mechanism. What has been observed:
+
+- **Claude (desktop)** — follows the rules above correctly as written.
+- **ChatGPT (web)** — a plain markdown image is downgraded to a link. It has variously proposed
+  an `AppBlock` wrapping a native `<img>`, and an `AsyncImage` component, as the way to render
+  inline; results have been inconsistent and it notes itself that `AsyncImage` restricts its
+  source. Treat either as an experiment, not a guarantee, and fall back to the acceptance
+  criterion above rather than reporting success.
+
+If you find a mechanism that reliably works in a client, it belongs here — as an observation,
+not as a rule the rest of the manual depends on.
 
 ## Known problems in this source
 
