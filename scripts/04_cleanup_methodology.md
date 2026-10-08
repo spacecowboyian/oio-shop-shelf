@@ -167,26 +167,51 @@ for in-chat delivery instead of only citing the page (see [issue #1](https://git
    ```yaml
    diagrams:
      - page: 66
-       file: "diagrams/p0066-headbolt-loosening-sequence.webp"
+       file: "diagrams/p0066-headbolt-loosening-sequence.png"
        kind: sequence          # sequence | wiring | exploded | chart
-       depth: mono             # mono = pure line art (~30 KB); gray = page has a photo/halftone (~70 KB)
+       depth: mono             # mono = thresholded black-and-white; gray = genuine photo/halftone only
+       # threshold: 42         # optional, mono only: percent, default 60 — see below
        caption: "Cylinder head bolt loosening sequence"
        safety_relevant: true   # set when a wrong reading risks damage/injury (bolt order, torque sequence)
    ```
-   Name the file `diagrams/p<NNNN>-<short-slug>.webp` (zero-padded source page). Pick
-   `depth: mono` for clean line art; `gray` only if the page carries a photo or halftone
-   shading that a 1-bit threshold would wreck.
+   Name the file `diagrams/p<NNNN>-<short-slug>.png` (zero-padded source page). PNG, not
+   WebP: every viewer, tool and AI pipeline reads it, and for black-and-white images the size
+   difference is only ~20%. (Existing manuals that already ship `.webp` still render; the
+   format follows the extension.)
+   Pick `depth: mono` for scanned print — line art, typed plates, procedure photos printed as
+   line art. It renders the page in grayscale, stretches the contrast and **thresholds** it
+   to pure black and white, which drops the gray paper tone, scanner shading and light
+   watermarks and keeps thin numbers crisp. (Do not use pdftoppm's own `-mono`: it dithers
+   that gray into speckle.) Use `gray` only for a genuine photo or halftone that a threshold
+   would turn into blotches.
+   **Check every render.** A page with darker paper or a darker watermark comes out speckled
+   or with the watermark as solid black lettering; add `threshold: 42` (or lower, e.g. 35) to
+   that entry and re-render. A lower threshold drops more of the gray but can thin out faint
+   lines, so look at the result. A watermark printed as dark as the drawing cannot be
+   removed by any threshold — accept it and move on.
+   **Resolution:** set `render.diagram_dpi` in the manifest. Never render below the scan's
+   native resolution (`pdfimages -list` on the source shows it as x-ppi) — anything lower
+   throws real detail away. 300 dpi is a good default for scans around 200-300 ppi: above the
+   native resolution it adds no information, but upsampling before the threshold gives
+   smoother edges when the image is zoomed on a large screen. Expect ~50-150 KB per page.
 2. **Render it:** `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (renders
-   every `diagrams:` page at its depth to a lossless WebP).
+   every `diagrams:` page at its depth, fresh from the PDF — never from a previously shipped
+   image).
 3. **Embed it at the citation point** with a **relative** path — not a bare page reference:
    ```markdown
-   ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)
+   ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.png)
    ```
    Keep it relative so it previews inside the PR; `publish-release.sh` rewrites it to the
    stable Release URL at merge (the image is stripped from git, same as the source PDF).
 
 Still transcribe every value, table, or step you *can* faithfully pull from the figure
 (Rule 10) — the image supplements the text, it does not excuse skipping transcription.
+**This includes sequences.** A bolt tightening or loosening order is carried by the positions
+of the numbers in the figure, but it is still transcribable: write it out as rows of numbers
+(e.g. "far row 10-6-1-3-7, near row 8-4-2-5-9, clutch end on the right"), with the
+orientation if the page gives one. Many AI assistants that read this wiki cannot open the
+image at all — ChatGPT's web reader cannot fetch a GitHub Release asset — so a sequence that
+exists only as a picture is, for them, missing.
 And reserve delivery for genuinely diagram-only content: don't image-dump a page whose
 substance is already faithfully in the markdown.
 
@@ -263,3 +288,8 @@ per change: date · what changed · why (link the PR/issue).
 - 2026-10-06 · Rule 13 amended: decimal separators ARE normalized to the English
   convention (comma → point, thousands point → comma), since an English wiki that keeps German
   separators shows its readers wrong-looking numbers. Units, digits and ranges stay untouched.
+- 2026-10-08 · Rule 12 amended after the Alpine A110 head-bolt failure: diagrams render to
+  PNG (not WebP) as thresholded black-and-white, with a per-diagram `threshold:` override and a
+  rule never to render below the scan's native resolution (300 dpi recommended for zoom). Bolt
+  sequences must be transcribed as text too — an assistant that cannot load the image could not
+  answer "what's the head-bolt sequence?" from an image-only figure.

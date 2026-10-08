@@ -110,7 +110,7 @@ pinion. -->
 The figure (65 083) shows a gearbox section with the **conical distance A** dimensioned from the
 pinion to the differential axis.
 
-![Gearbox section showing the conical distance (pinion setting dimension) A — PDF p.410](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0410-gearbox-conical-distance-a.webp)
+![Gearbox section showing the conical distance (pinion setting dimension) A — PDF p.410](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0410-gearbox-conical-distance-a.png)
 
 > **NOTE:** the speedometer is driven by a square drive, since there is no transmission angle as
 > on the RENAULT 8 GORDINI. A **"Hewland"** limited-slip differential (*Differentialsperre*) is

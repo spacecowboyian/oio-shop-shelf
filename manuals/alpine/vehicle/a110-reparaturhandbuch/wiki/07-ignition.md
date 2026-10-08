@@ -126,7 +126,7 @@ the car), "Kupplungsgehäuse" (clutch housing / bell housing), "OT" (oberer Totp
 The page prints three advance graphs (degrees of advance against speed). They are delivered as an
 image; the legible axis labels are transcribed below. Read the curves themselves from the image.
 
-![Centrifugal advance curves R.230, R.234 and R.236 — PDF p.141](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0141-advance-curves-r230-r234-r236.webp)
+![Centrifugal advance curves R.230, R.234 and R.236 — PDF p.141](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0141-advance-curves-r230-r234-r236.png)
 
 | Curve | Degree labels on the vertical axis | Speed labels on the horizontal axis | Shape of the nominal (centre) line |
 |---|---|---|---|

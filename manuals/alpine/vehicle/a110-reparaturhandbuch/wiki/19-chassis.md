@@ -21,7 +21,7 @@ The chassis is the central tube frame (backbone chassis) to which the polyester 
 Overall chassis drawing: side view, plan view, and two end views, with the dimensions below. Numbers are
 millimetres by context (no unit is printed). The drawing is delivered as an image.
 
-![Chassis check dimensions (FAHRGESTELL - Kontrollmasse): side, plan and end views — PDF p.369](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0369-chassis-check-dimensions.webp)
+![Chassis check dimensions (FAHRGESTELL - Kontrollmasse): side, plan and end views — PDF p.369](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0369-chassis-check-dimensions.png)
 
 | View | Dimension as printed | Locates (as far as the drawing shows) |
 |---|---|---|
@@ -55,7 +55,7 @@ Alpine drawing 05-11-02 (printed at bottom right as "05 - 11 - 02"): the Alpine 
 detail D, sections B-B, C-C and F-F, and a plan. It is a fabrication drawing for workshop-made
 adapters; the dimensions are too small and faint to read in the scan.
 
-![Body jig adapter drawing 05-11-02 — section A-A, B-B, C-C, F-F, detail D, plan — PDF p.370](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0370-body-jig-05-11-02.webp)
+![Body jig adapter drawing 05-11-02 — section A-A, B-B, C-C, F-F, detail D, plan — PDF p.370](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0370-body-jig-05-11-02.png)
 
 <!-- NEEDS REVIEW: SAFETY-RELEVANT / illegible. No dimension on this page could be read reliably, so none is transcribed. Legible labels: "Coupe A.A", "Coupe B.B", "Coupe C.C", "Coupe F.F", "Détail D", a framed inset titled "E...cale Alpine" (reading uncertain) with the note "pièce unique...", and a vertical "380" at the right margin of the page (same as the 380 half-width on p.369). References in French on the drawing to "plan n° 05.11.03" (the stabiliser-bracket holder, PDF p.371). To build the adapters, obtain a better copy of drawing 05-11-02. -->
 
@@ -68,7 +68,7 @@ Alpine drawing 05-11-03 (printed "05 - 11 - 03"): the holder for the anti-roll-b
 bearing brackets (luggage-compartment floor), a workshop-made piece for the body jig. The drawing is
 labelled **"PIÈCE GAUCHE SYMÉTRIQUE"** (left-hand piece; the right-hand piece is its mirror image).
 
-![Anti-roll-bar bearing-bracket holder, drawing 05-11-03 (left piece, symmetric) — PDF p.371](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0371-stabiliser-holder-05-11-03.webp)
+![Anti-roll-bar bearing-bracket holder, drawing 05-11-03 (left piece, symmetric) — PDF p.371](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0371-stabiliser-holder-05-11-03.png)
 
 Readable annotations (as printed on the drawing, units not stated, French labels translated):
 
@@ -90,7 +90,7 @@ Readable annotations (as printed on the drawing, units not stated, French labels
 
 Alpine drawing 05-11-04 (printed rotated at the left as "05 - 11 - 04"): "FAHRGESTELL DER ALPINE — Von unten gesehen" (chassis of the Alpine — seen from below), with LEFT (*LINKS*) and RIGHT (*RECHTS*), the gauge points, and below, the gauge Car.27 with its marked lengths.
 
-![Chassis of the Alpine seen from below with check points A-B-C-D-E and gauge Car.27 marks (drawing 05-11-04) — PDF p.372](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0372-chassis-gauge-points-05-11-04.webp)
+![Chassis of the Alpine seen from below with check points A-B-C-D-E and gauge Car.27 marks (drawing 05-11-04) — PDF p.372](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0372-chassis-gauge-points-05-11-04.png)
 
 **Typed measuring-point instructions on the drawing**
 

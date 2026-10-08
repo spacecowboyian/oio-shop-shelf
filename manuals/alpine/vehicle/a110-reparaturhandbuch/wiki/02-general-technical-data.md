@@ -236,12 +236,24 @@ but the leading engine number is NOT legible on this copy — verify. -->
 plate). The unit is NOT converted (Rule 13). 6 m·daN is approximately 60 N·m; do not use that
 approximation as a working figure without checking the per-engine chapter. -->
 
-Head-bolt tightening sequences are printed on the plate as two numbered diagrams — one for
-engine 810 and one for engines 843 and 844. They are diagram-only: the bolt order is carried
-entirely by the positions of the numbers in the figures, so it is delivered as an image rather
-than transcribed from the leader lines.
+**Head-bolt tightening sequence** (*Anzugsreihenfolge*), printed on the plate as two numbered
+grids. Each grid shows the ten bolts as two rows of five, read as printed:
 
-![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0013-key-settings-plate.webp)
+| Engine | Upper row | Lower row |
+|---|---|---|
+| 810 | 8 — 6 — 1 — 3 — 9 | 10 — 4 — 2 — 5 — 7 |
+| 843 and 844 | 10 — 6 — 1 — 3 — 7 | 8 — 4 — 2 — 5 — 9 |
+
+<!-- NEEDS REVIEW: SAFETY-RELEVANT. The grids do not say which end is the clutch end or which
+row is intake/exhaust. For the 843/844 the same order is printed on the photograph at PDF p.37,
+which marks the clutch end — see [04-engine-807-843-844.md](04-engine-807-843-844.md) (clutch end
+on the right as the grid is printed here). For the 810 see [05-engine-810.md](05-engine-810.md),
+whose own figure (PDF p.75) prints the same order. Both grids carry a small rectangle at their
+right-hand end whose meaning is not labelled. Transcribed from the page image; the first version
+of this chapter left these as an image only, which an assistant that cannot load images could
+not use. -->
+
+![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0013-key-settings-plate.png)
 
 **Lubrication** — minimum oil pressure at 80 °C:
 
