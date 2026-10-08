@@ -97,7 +97,7 @@ negative camber (tyre wear on the inside).
 <!-- NEEDS REVIEW: HANDWRITTEN annotation — the cross-reference after "Sturzwinkel berechnen!"
 is an ink addition reading "(s. unten)" ("see below"). Not factory text. -->
 
-![Checking camber with a spirit level — dimensions A, B, C, D, E, F — PDF p.251](../diagrams/p0251-camber-check-dimensions.webp)
+![Checking camber with a spirit level — dimensions A, B, C, D, E, F — PDF p.251](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0251-camber-check-dimensions.webp)
 
 <a id="p252"></a>
 **[PDF p.252]**
@@ -250,7 +250,7 @@ m) Finally, set the front-wheel toe **at half load**, and the toe distribution.
 The page's lower figure (59209.1) shows the lower wishbone pivot with the castor-adjusting
 eccentric bolt **(1)**.
 
-![Front axle setting — T.Av. 56 A at half load with measuring flag, and lower wishbone eccentric (1) — PDF p.255](../diagrams/p0255-front-axle-setting-half-load.webp)
+![Front axle setting — T.Av. 56 A at half load with measuring flag, and lower wishbone eccentric (1) — PDF p.255](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0255-front-axle-setting-half-load.webp)
 
 <a id="p256"></a>
 **[PDF p.256]**
@@ -280,7 +280,7 @@ its limits cannot be read reliably; use the image. The page does not print the 8
 chapter 02 gives for the 1600 VD/VH, nor any angle offsets (+20' to +25' / +5' to +15'). The
 right-hand edge of the page is cut off in the scan. -->
 
-![Measuring flag T.Av. 481 (left/right) and home-made bracket — PDF p.256](../diagrams/p0256-measuring-flag-tav481.webp)
+![Measuring flag T.Av. 481 (left/right) and home-made bracket — PDF p.256](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0256-measuring-flag-tav481.webp)
 
 <a id="p257"></a>
 **[PDF p.257]**
@@ -697,7 +697,7 @@ The bearing outer races are pressed in with the press.
 the tighten-until-stiff, back-off-1/6-turn method above. 0.35 mm, 1/6 and 200 mm were all
 checked against a high-resolution crop. -->
 
-![Front hub on taper roller bearings, inner-bearing extraction with B.Vi.28 / B.Vi.48 — PDF p.269](../diagrams/p0269-front-hub-bearings.webp)
+![Front hub on taper roller bearings, inner-bearing extraction with B.Vi.28 / B.Vi.48 — PDF p.269](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0269-front-hub-bearings.webp)
 
 ## Special tools used in this chapter
 

@@ -115,7 +115,7 @@ equipment, French-market specification). The numbered components are keyed in th
 [component key](#wiring-diagram-component-key) below; the lettered/numbered wires (A1, C8, D15,
 101 …) are listed in the [cable directory](#cable-directory).
 
-![Wiring diagram, A110, French-market equipment (Schaltplan) — PDF p.323](../diagrams/p0323-wiring-diagram-france.webp)
+![Wiring diagram, A110, French-market equipment (Schaltplan) — PDF p.323](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0323-wiring-diagram-france.webp)
 
 <!-- NEEDS REVIEW: diagram-only page, delivered as an image and not transcribed as text. It is the
 French-market ("Frankreich") version; no diagram for the Italian or German equipment is printed in
@@ -526,7 +526,7 @@ option/market variant. Not a contradiction of the normal-equipment value, but ch
 star-connected) alternators, each with its six-diode rectifier, separate regulator (terminals
 "Exc" and "+"), ignition switch and battery. No values.
 
-![Alternator circuit diagrams, S.E.V.-Motorola and Paris-Rhône — PDF p.332](../diagrams/p0332-alternator-circuit-diagrams.webp)
+![Alternator circuit diagrams, S.E.V.-Motorola and Paris-Rhône — PDF p.332](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0332-alternator-circuit-diagrams.webp)
 
 <a id="p333"></a>
 **[PDF p.333]**
@@ -612,7 +612,7 @@ If the armature is replaced, the pinion must be replaced at the same time, becau
 are a matched pair. If these parts are separated, on reassembly they must be aligned to each
 other so that the pinion engages in the recess of the armature.
 
-![Ducellier 6183 starter, with hand-added terminal letters A, B, C — PDF p.334](../diagrams/p0334-ducellier-6183-terminals.webp)
+![Ducellier 6183 starter, with hand-added terminal letters A, B, C — PDF p.334](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0334-ducellier-6183-terminals.webp)
 
 <!-- NEEDS REVIEW: HANDWRITTEN annotation — on the top figure (72459) a previous owner has inked the
 letters "A" and "C" on two leader lines to the solenoid terminals and a "3"-shaped letter (read as
@@ -703,7 +703,7 @@ Remove the starter motor.
 4. If necessary, adjust the adjusting nut **(1)** to obtain the specified clearance at (G) and
    (F).
 
-![Ducellier starter — engagement fork adjustment, clearances F and G and adjusting nut 1 — PDF p.338](../diagrams/p0338-ducellier-fork-adjustment.webp)
+![Ducellier starter — engagement fork adjustment, clearances F and G and adjusting nut 1 — PDF p.338](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0338-ducellier-fork-adjustment.webp)
 
 <!-- NEEDS REVIEW: clearance (G) is printed "0,05 und 1,5 mm" (underlined; confirmed on a 300 dpi
 crop). A thirty-fold spread from 0.05 to 1.5 mm is unusual for a pinion clearance and "0,5" may
@@ -718,7 +718,7 @@ source misprint, not OCR. -->
 Exploded views of the Paris-Rhône starter types **D 8 E 49** (figure 76474) and **D 10 E 43**
 (figure 76473). No values.
 
-![Paris-Rhône starters D 8 E 49 and D 10 E 43 — exploded views — PDF p.339](../diagrams/p0339-paris-rhone-starter-d8e49-d10e43-exploded.webp)
+![Paris-Rhône starters D 8 E 49 and D 10 E 43 — exploded views — PDF p.339](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0339-paris-rhone-starter-d8e49-d10e43-exploded.webp)
 
 <a id="p340"></a>
 **[PDF p.340]**
@@ -727,7 +727,7 @@ Exploded view of the starter types **D8E71 – D8E84 – D10E48**, with the driv
 D8E71 – D10E48 and of D8E84, the field coils of D10E48 and of D8E71 – D8E84 shown separately
 (figures 71513.2 and 71512.2).
 
-![Paris-Rhône starters D8E71, D8E84, D10E48 — exploded view with type-specific parts — PDF p.340](../diagrams/p0340-paris-rhone-starter-d8e71-d8e84-d10e48-exploded.webp)
+![Paris-Rhône starters D8E71, D8E84, D10E48 — exploded view with type-specific parts — PDF p.340](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0340-paris-rhone-starter-d8e71-d8e84-d10e48-exploded.webp)
 
 Remove the starter motor.
 
@@ -877,7 +877,7 @@ connecting piece **(B)** accordingly.
 **D 8 E 71 – D 8 E 84 – D 10 E 48:** if the clearance is not correct, remove the blanking plug in
 front of the solenoid, adjust the adjusting screw **(A)** accordingly, and refit the plug.
 
-![Paris-Rhône starter — engagement fork adjustment, clearance H, solenoid supply, adjusters A and B — PDF p.345](../diagrams/p0345-paris-rhone-fork-adjustment.webp)
+![Paris-Rhône starter — engagement fork adjustment, clearance H, solenoid supply, adjusters A and B — PDF p.345](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0345-paris-rhone-fork-adjustment.webp)
 
 <!-- NEEDS REVIEW: HANDWRITTEN / RETOUCHED — the clearance is printed "ca5 mm" (underlined) and the
 letters "ca" and several characters around it ("Den", "det", "In", "St", "und") have been inked
