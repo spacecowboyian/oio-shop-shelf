@@ -22,8 +22,8 @@ years: "1969-1976"
 
 The **German-language factory repair handbook** (*Reparaturhandbuch*) for the **Alpine A110
 "Berlinette"**, issued under the joint **RENAULT · ALPINE** imprint. **468 PDF pages** — some
-five times the size of the English-translation [`alpine-a110`](../a110/README.md) manual
-already in this repo, and far more detailed.
+five times the size of the English machine-translation edition that was proposed for this repo
+and set aside in its favour (see *Why this manual and not the English edition* below).
 
 The cover states the coverage directly:
 
@@ -33,8 +33,8 @@ The cover states the coverage directly:
 
 The text is **typewritten German**, clean and well printed, with line-art figures and
 exploded views throughout. It is an original German document, **not** a translation — which
-is the single biggest reason to prefer it over the existing English A110 manual (see
-*Relationship to the other A110 manual* below).
+is the single biggest reason it was chosen over the English edition (see *Why this manual
+and not the English edition* below).
 
 ### Edition / date
 
@@ -42,9 +42,14 @@ The handbook carries **no printed edition statement or date** that this scan sho
 chassis-number table runs through **September 1975 – August 1976**, so the book is at least a
 **1976-or-later** printing. Dating it more precisely than that is not possible from this copy.
 
-<!-- NEEDS REVIEW: edition and publication date are inferred solely from the last row of the
-chassis-number table (p.6). No imprint, colophon or edition line was found. Do not state a
-publication year as fact. -->
+The third bound document — the update supplement at PDF pp.434–468 — carries a cover dated
+**January 1972** (*Januar 1972*), which is the only date printed anywhere in this copy beyond the
+factory manual's own "1st edition, October 1970".
+
+<!-- NEEDS REVIEW: the large handbook (PDF 1-374) itself carries no edition statement or date;
+its "1976-or-later" dating is inferred solely from the last row of the chassis-number table.
+The January 1972 date belongs to the supplement, not to the handbook. Do not state a
+publication year for the handbook as fact. -->
 
 ## The car — background (best-effort, NOT from the manual; review pending)
 
@@ -142,25 +147,39 @@ manifest resolves each chapter to PDF pages from an OCR-derived page map.
   to the best of knowledge *"jedoch unter Ausschluß jeglicher Haftung"* — but excluding all
   liability.
 
-## Relationship to the other A110 manual in this repo
+## Review flags
 
-This repo also holds [`alpine-a110`](../a110/README.md) — the 87-page **English translation**
-of the October 1970 French original. The two are complementary, and where they disagree **this
-German handbook is the better source**:
+The conversion carries **437 `NEEDS REVIEW` flags** across 35 chapters, rolled up in
+[`wiki/10-needs-review.md`](wiki/10-needs-review.md). That is high, and earned: the scan is
+watermarked and hand-annotated, and most of the reference value sits in dense tables whose OCR
+was unusable and which were read from page images instead. The heaviest chapters are the gearbox
+(42), brakes (42), engine 812 (33) and electrical (28). **No value in this wiki was decided by a
+model** — where the page could not settle it, the flag says so.
 
-| | `alpine-a110` (English) | `alpine-a110-reparaturhandbuch` (this one) |
+## Why this manual and not the English edition
+
+An 87-page **English machine translation** of the October 1970 French factory manual was
+converted for this repo first ([spacecowboyian/oio-shop-shelf#29](https://github.com/spacecowboyian/oio-shop-shelf/pull/29))
+and **closed unmerged** in favour of this one. It never entered `main`. The comparison that
+decided it:
+
+| | English edition (#29, closed) | This handbook |
 |---|---|---|
 | Pages | 87 | 468 |
 | Language | English — **machine translation** of the French | **Original German** |
 | Years | 1970–1971 | 1969 – end of production (incl. 1600 SC, SC/SI) |
 | Engine overhaul | Specification only | **Full overhaul: 807/843/844, 810, 812** |
 | Gearbox overhaul | Specification only | **Full overhaul: 353/364, 330** |
-| Known defects | Abridged scan, many pages missing; garbled translation ("BOX OF VITSES", "scumbags"); numbers mangled twice | Complete scan; original-language text |
+| Known defects | Abridged scan, many pages missing; garbled translation ("BOX OF VITSES", "scumbags"); numbers mangled twice | Near-complete scan — one page missing (printed p.192, in the gearbox chapter) and one announced chassis section absent; watermarked and hand-annotated |
 
-The English manual's README warns that **every torque, clearance and capacity in it is
-provisional** because it was mangled by OCR *and* by machine translation. This handbook has no
-translation layer in the source, so its numbers are one OCR pass away from the printed page
-rather than two.
+That edition's own README warned that **every torque, clearance and capacity in it was
+provisional**, mangled by OCR *and* by machine translation. This handbook has no translation
+layer in the source, so its numbers are one OCR pass away from the printed page rather than two.
+
+It also **contains** the manual #29 was converting: PDF pp.375–433 here are the same 1st edition,
+October 1970 factory manual, in German. That is how the English edition's untranslatable
+"ALPINE *scumbags*" was finally identified — it is *Ventildeckel ALPINE*, the ALPINE valve cover
+(see [`wiki/22-fm-b-engine-ignition.md`](wiki/22-fm-b-engine-ignition.md)).
 
 ## Provenance caveats — read before trusting a number
 

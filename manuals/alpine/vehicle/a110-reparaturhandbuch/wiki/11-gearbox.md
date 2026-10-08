@@ -775,7 +775,7 @@ Before assembly, the following settings must be made:
 <!-- NEEDS REVIEW: "(s. dazu auch S.240!)" is typed in a different, larger typeface from the rest
 of the page (an inserted correction, not handwriting). "S.240" is a PRINTED page number; it
 corresponds to the "Tragbildprüfung" (tooth-contact check) at the end of this chapter —
-see [Tooth-contact pattern check](#tooth-contact-pattern-check). -->
+see [Tooth-contact pattern check](11-gearbox.md#tooth-contact-pattern-check). -->
 
 ## A — Setting the pinion cone distance
 

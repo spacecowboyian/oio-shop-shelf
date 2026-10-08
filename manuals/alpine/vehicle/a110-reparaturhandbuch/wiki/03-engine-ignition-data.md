@@ -7,6 +7,9 @@ Torque is printed in mkp (metre-kilopond) throughout this chapter and is NOT con
 
 # Engine and ignition — technical data, removal and refitting
 
+<a id="p14"></a>
+**[PDF p.14]** — section divider plate: *Motor – Zündung* (Engine – Ignition).
+
 <a id="p15"></a>
 **[PDF p.15]**
 
@@ -182,6 +185,10 @@ Before connecting the water and oil hoses, make sure they are in good condition.
 2. Disconnect the mechanical, electrical and hydraulic controls, and the water, oil and fuel
    hoses.
 3. Undo the bolts connecting the clutch housing and the cylinder block.
+
+<a id="p18"></a>
+**[PDF p.18]**
+
 4. Release the tie rods connecting the power unit to the chassis.
 5. Release the engine crossmember from the chassis.
 6. Raise the rear of the vehicle sufficiently for the power unit to be taken out downwards.
@@ -309,6 +316,10 @@ scan. -->
 The valve, valve-spring, tappet and pushrod data that the printed contents lists under this
 chapter is **not recoverable from this scan** — see the flag above. It is printed complete at
 section **B-7** of the factory-manual part, PDF p.388.
+
+<a id="p22"></a>
+**[PDF p.22]** — section divider: *Motortypen 807 / 843 / 844 — fitted in the A 110 1600 S —
+overhaul*.
 
 ## Next
 

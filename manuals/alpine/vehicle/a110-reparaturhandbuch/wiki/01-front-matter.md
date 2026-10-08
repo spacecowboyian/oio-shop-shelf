@@ -42,6 +42,18 @@ is reproduced in this wiki's chapter list.
 section. Anyone working from the paper book will want them; recovering them means reading
 PDF pp.2-6 as images and re-pairing the two columns by eye. Not attempted here. -->
 
+<a id="p3"></a>
+**[PDF p.3]** — contents, continued.
+
+<a id="p4"></a>
+**[PDF p.4]** — contents, continued.
+
+<a id="p5"></a>
+**[PDF p.5]** — contents, continued.
+
+<a id="p6"></a>
+**[PDF p.6]**
+
 The contents page closes with the publisher's disclaimer:
 
 > The advice contained in this book is given to the best of our knowledge and belief, but
