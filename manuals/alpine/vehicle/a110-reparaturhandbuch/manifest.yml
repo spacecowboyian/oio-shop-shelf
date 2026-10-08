@@ -243,3 +243,93 @@ diagrams:
     depth: mono
     caption: "Engine 807 / 843 / 844 — oil circuit of the engine lubrication"
     safety_relevant: false
+  - page: 66
+    file: "diagrams/p0066-engine-810-torques.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 810 — sectional drawing with head, main bearing, big-end, flywheel and camshaft-nose tightening torques (ANZUGSMOMENTE)"
+    safety_relevant: true
+  - page: 67
+    file: "diagrams/p0067-oil-circuit-810.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 810 — oil circuit of the engine lubrication"
+    safety_relevant: false
+  - page: 72
+    file: "diagrams/p0072-valve-guide-position-810.webp"
+    kind: exploded
+    depth: gray
+    caption: "Engine 810 — valve guide replacement, guide position dimensions A (intake) and B (exhaust)"
+    safety_relevant: true
+  - page: 75
+    file: "diagrams/p0075-head-bolt-sequence-810.webp"
+    kind: sequence
+    depth: gray
+    caption: "Engine 810 — cylinder head bolt tightening sequence and 5.5 m.daN torque"
+    safety_relevant: true
+  - page: 87
+    file: "diagrams/p0087-timing-marks-810.webp"
+    kind: exploded
+    depth: gray
+    caption: "Engine 810 — timing sprocket marks aligned on the line of centres"
+    safety_relevant: true
+  - page: 90
+    file: "diagrams/p0090-distributor-drive-pinion-810.webp"
+    kind: exploded
+    depth: gray
+    caption: "Engine 810 — distributor drive pinion slot alignment, larger half-circle (D) towards the clutch"
+    safety_relevant: true
+  - page: 91
+    file: "diagrams/p0091-camshaft-end-float-810.webp"
+    kind: exploded
+    depth: gray
+    caption: "Engine 810 — camshaft end float J at the flange"
+    safety_relevant: false
+  - page: 100
+    file: "diagrams/p0100-engine-812-exploded-view.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine type 812 — exploded view"
+    safety_relevant: false
+  - page: 124
+    file: "diagrams/p0124-camshaft-bush-oil-holes.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — camshaft bush positions and lubrication-hole location (27°, 10.5)"
+    safety_relevant: true
+  - page: 128
+    file: "diagrams/p0128-front-crankshaft-seal-mot131.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — front crankshaft oil seal offset C and fitting with Mot.131, spacer E"
+    safety_relevant: false
+  - page: 132
+    file: "diagrams/p0132-timing-chain-v-marks.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — timing chain alignment, V marks on crankshaft and camshaft sprockets"
+    safety_relevant: true
+  - page: 133
+    file: "diagrams/p0133-cylinder-head-bolt-sequence.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — cylinder head bolt tightening sequence 1-10 (7 - 7.75 mkp)"
+    safety_relevant: true
+  - page: 134
+    file: "diagrams/p0134-distributor-drive-pinion.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine 812 — distributor drive pinion slot position, no. 1 cylinder at TDC firing"
+    safety_relevant: true
+  - page: 135
+    file: "diagrams/p0135-carburettor-mounting-clearance-j.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — carburettor mounting, clearance J = 1.5 mm, synchronizing screw 5"
+    safety_relevant: false
+  - page: 136
+    file: "diagrams/p0136-carburettor-synchronization.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine 812 — carburettor throttle synchronization linkage (screws 3/5, lever 6, stop 7, spring 8, fork 9)"
+    safety_relevant: false

@@ -93,7 +93,13 @@ compensated with a **13 mm** thick spacer plate.
   a diameter of **35 mm**, exhaust valves reworked by 4/10 to a diameter of **38.5 mm**.
   <!-- NEEDS REVIEW: the intake-valve diameter is lost in the OCR of this page (it reads
   "auf einen g / (o) mm"). 35 mm is taken from the B-3 page (PDF p.384), which prints "von
-  35 mm nachgearbeitet" for the same item. Confirm against PDF p.16 before relying on it. -->
+  35 mm nachgearbeitet" for the same item. Confirm against PDF p.16 before relying on it.
+  CROSS-CHECK AGAINST B-7: the valve table at B-7 (PDF p.388) gives the 1300 S valve-head
+  diameters as INTAKE 38.5 mm and EXHAUST 32.6 mm, and chapter 06 (engine 812, PDF p.113) gives
+  intake 35 / exhaust 32.6 for the 812-00. So the 38.5 mm figure belongs to the 1300 S INTAKE,
+  not the exhaust as this list prints it. The list here (and its B-3 original) appears to have
+  the two valve diameters attached to the wrong valves, or to describe the 812-00 starting
+  point. Kept exactly as printed; do NOT machine valves from this line — use the B-7 table. -->
 - Oil pump rotor raised by **5 mm**.
 - Weber carburettor **45 DCOE**.
 - Aluminium oil sump ALPINE with a lower oil pick-up pipe height.
