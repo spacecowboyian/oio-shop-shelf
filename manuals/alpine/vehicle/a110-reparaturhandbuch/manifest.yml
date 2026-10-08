@@ -471,3 +471,45 @@ diagrams:
     depth: mono
     caption: "Front damper — fitting order of bracket (1), rubber sleeve (2), rubber bush (3), dished washer (4), nut (5), locknut (6)"
     safety_relevant: false
+  - page: 391
+    file: "diagrams/p0391-conrod-raised-foot-812-1300s.webp"
+    kind: exploded
+    depth: mono
+    caption: "Con-rod of the 812-00 and 1300 S engines — raised foot dimension A and orientation lug (B-10)"
+    safety_relevant: true
+  - page: 392
+    file: "diagrams/p0392-timing-marks-1300-1600s.webp"
+    kind: exploded
+    depth: gray
+    caption: "Timing chain sprocket marks on the line of centres — 1300/1300 G/1300 S and 1600 S (B-11)"
+    safety_relevant: true
+  - page: 397
+    file: "diagrams/p0397-advance-curves-r230-r234-r236.webp"
+    kind: chart
+    depth: mono
+    caption: "Distributor centrifugal advance curves R. 230, R. 234 and R. 236 (B-16)"
+    safety_relevant: true
+  - page: 401
+    file: "diagrams/p0401-wiring-diagram-alpine-1300.webp"
+    kind: wiring
+    depth: mono
+    caption: "Wiring diagram, Berlinette A. 110 Alpine 1300, dated 30 June 1970"
+    safety_relevant: false
+  - page: 410
+    file: "diagrams/p0410-gearbox-conical-distance-a.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gearbox section showing the conical distance (pinion setting dimension) A (E-4)"
+    safety_relevant: true
+  - page: 417
+    file: "diagrams/p0417-messfahne-renault-12-tav481.webp"
+    kind: exploded
+    depth: mono
+    caption: "Measuring flag RENAULT 12 (modified T.Av. 481, left and right) and home-made bracket drawing"
+    safety_relevant: true
+  - page: 425
+    file: "diagrams/p0425-chassis-checking-dimensions.webp"
+    kind: exploded
+    depth: mono
+    caption: "Chassis checking dimensions (Fahrgestell – Kontrollmasse): side, plan and end views"
+    safety_relevant: true

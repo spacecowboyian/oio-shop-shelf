@@ -44,7 +44,7 @@ The following dimensions apply to **all** versions.
 | Overall length | 3.85 m |
 | Overall width | 1.52 m |
 | Maximum height (laden) | 1.10 m |
-| Maximum height (unladen) | 1.13 m <!-- NEEDS REVIEW: OCR read "1.13 0"; the same table on the factory-manual page A-2 (PDF p.380) OCRs as "1.5 0". 1.13 m is the reading consistent with the laden figure of 1.10 m, but neither scan is clean — verify against the source PDF. --> |
+| Maximum height (unladen) | 1.13 m | |
 | Front overhang | 0.840 m |
 | Rear overhang | 0.910 m |
 | Wheelbase | 2.10 m |
@@ -57,17 +57,17 @@ The following dimensions apply to **all** versions.
 
 | | 1300 | 1300 G | 1300 S | 1600 S |
 |---|---|---|---|---|
-| Axle load, front | 260 kg | 280 kg | 280 kg | 280 kg |
-| Axle load, rear | 425 kg | 445 kg | 415 kg | 435 kg |
+| Axle load (unladen), front | 260 kg | 280 kg | 280 kg | 280 kg |
+| Axle load (unladen), rear | 425 kg | 415 kg | 415 kg | 435 kg |
 | Kerb weight | 685 kg | 695 kg | 695 kg | 715 kg |
 
-<!-- NEEDS REVIEW: two problems in this table, both left exactly as read.
-  (1) The printed column headers OCR as "1300 / 1300. G / 1300 G / 1600 S$" — the third column
-      repeats "1300 G". Every other table in the manual gives the four versions as
-      1300 / 1300 G / 1300 S / 1600 S, so the third header is rendered "1300 S" here. Verify.
-  (2) The 1300 G column does not add up: 280 + 445 = 725 kg against a printed kerb weight of
-      695 kg, whereas 280 + 415 = 695 kg exactly. So "445" is very likely a misread of "415".
-      It is NOT changed here (Rule 0) — the arithmetic is recorded so a reader can judge. -->
+<!-- NEEDS REVIEW: SOURCE MISPRINT, not OCR — the page image prints the third column header as
+"1300 G", repeating the second. Every other table in the manual gives the versions as
+1300 / 1300 G / 1300 S / 1600 S, and the factory manual's A-2 (PDF p.380) prints "1300 S" in that
+column, so it is rendered "1300 S" here.
+The 1300 G rear axle load was first transcribed from the OCR as 445 kg; the page image clearly
+prints 415 kg (corrected from image, Rule 8), which is also what A-2 prints and what makes
+280 + 415 = 695 kg reconcile with the printed kerb weight. -->
 
 ## Engine
 
@@ -121,9 +121,7 @@ Steering wheel diameter: 300 mm, 330 mm and 360 mm.
 
 ## Front axle
 
-Independent suspension with wishbones. <!-- NEEDS REVIEW: this line OCRs to noise
-("RANERTESEANTHRRENNE mit Suerienker"); rendered from the legible fragment "mit Querlenker"
-(with wishbone) and the corresponding A-2 page. Verify the full sentence against the image. -->
+Independent suspension with wishbones.
 
 ## Rear axle
 
@@ -158,15 +156,13 @@ Wheels marked with an asterisk (\*) can only be fitted with widened wings.
 | 4 1/2 x 15 | ALPINE 4 1/2 x 13 | DELTA-MIC 4 1/2 x 13 |
 | | ALPINE 5 1/2 x 13\* | DELTA-MIC 5 x 13 |
 | | G.T. 4 1/2 x 13 | GOTTI 4 1/2 x 13 |
-| | G.T. 5 x 13 | GOTTI 5 1/2 x 13\* <!-- NEEDS REVIEW: this cell OCRs only as "GOTTI IE" — the size is not recoverable from the text layer. The value shown is a reconstruction from the column's pattern and MUST be checked against the page image before use. --> |
+| | G.T. 5 x 13 | GOTTI 5 1/2 x 13\* | |
 | | G.T. 5 1/2 x 13\* | GOTTI 6 x 13\* |
 | | G.T. 6 x 13\* | |
 | | GOTTI 5 x 13 | |
 
-<!-- NEEDS REVIEW: the whole wheel table OCRs badly (the steel size reads "#4/2 x 15", the G.T.
-rows read "bk 4/2 x 13", "Gf. 5 x 13", "4.1. 51/2 x 13*", "G.T, 6 x 13*"). Sizes have been
-rendered in the conventional x 1/2 form; the asterisks are as printed. Verify the whole table
-against PDF p.12 before ordering or fitting anything. -->
+<!-- NEEDS REVIEW: the OCR of this wheel table was unusable; every cell above was read from
+the page image of PDF p.12 and confirmed against the factory manual's A-2 printing. -->
 
 ## Capacities
 
@@ -174,7 +170,7 @@ against PDF p.12 before ordering or fitting anything. -->
 |---|---|
 | Fuel tank | 38 litres (front metal tank) or 50 litres (plastic tank) |
 | Optional rear-mounted "aircraft tank" (*Flugzeugtank*) | 79 litres |
-| Cooling system | 9 litres <!-- NEEDS REVIEW: printed label OCRs as "Kühl- und rer 9 Liter"; the second word is lost. The key-settings plate (below) gives 7 L for the 1300 VC and 9 L for the 1600 types, so a single "9 litres" here may be version-specific. Verify. --> |
+| Cooling and heating system (*Kühl- und Heizungssystem*) | 9 litres <!-- NEEDS REVIEW: a single figure for all versions here; the key-settings plate (below) gives 7 L for the 1300 VC and 9 L for the 1600 types, and the cooling chapter (09-cooling.md, PDF p.159) gives 13 L for the front-radiator cars. Not reconciled. --> |
 | Gearbox oil | 2 litres (gearbox type 364: 2 1/2 litres) |
 | Braking system | 0.27 litres |
 
@@ -182,17 +178,17 @@ against PDF p.12 before ordering or fitting anything. -->
 
 | | 1300 | 1300 G | 1300 S | 1600 S |
 |---|---|---|---|---|
-| Engine oil (sump) | 3 l | 3 l | 4 l | 4 l |
-| \+ oil cooler | + 0.5 | + 0.5 | + 0.5 | + 0.5 |
-| Special oil filter (racing version) | 4 l (special) | 4 l (special) | + 0.5 | + 0.5 |
+| Engine oil (sump) + oil cooler | 3 l + 0.5 | 2.5 l + 0.5 | 4 l + 0.5 | 4 l + 0.5 |
+| Alternatively | 4 l (special) | 4 l (special) | — | — |
+| Special oil filter (racing version) | — | — | + 0.5 | + 0.5 |
 
-<!-- NEEDS REVIEW: this table is the least reliable on the page. The OCR reads
-"31 / 2.9: 1 / 41 / a Ss" for the sump row and scatters the "4 1 (Spezial)" cells across
-columns. The sump figures are rendered 3 / 3 / 4 / 4 litres on the strength of the
-key-settings plate (PDF p.13), which gives 3 L for the 1300 VC and 4 L for the 1600 types —
-but the 1300 G and 1300 S values are NOT independently confirmed, and the layout of the
-"special oil filter" row is uncertain. Do not rely on this table; use the key-settings plate
-below, or the per-engine chapters. -->
+<!-- NEEDS REVIEW: CORRECTED. This table was first written from the key-settings plate because
+its OCR was unusable, and that version was WRONG for the 1300 G (it gave 3 l). Re-read from the
+page image of PDF p.12: the 1300 G sump is 2.5 l, and the "4 l (special)" entries sit in the
+1300 and 1300 G columns only, beneath the sump figure — the 4-litre aluminium sump option
+described in 03-engine-ignition-data.md. The racing-filter "+ 0.5" applies to the 1300 S and
+1600 S only. The 2.5 l figure is independently printed in the lubrication table of chapter 03
+("2.5 or 4 l") and in the factory manual's A-2. -->
 
 <a id="p13"></a>
 **[PDF p.13]**
