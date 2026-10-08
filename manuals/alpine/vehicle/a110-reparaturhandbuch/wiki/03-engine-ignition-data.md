@@ -252,7 +252,10 @@ der Motoren 812-00 und 1300 S" followed by a sectional drawing. -->
 <!-- NEEDS REVIEW: journal diameters. "43.98" (1300 G and 1300 S) and "48" (1600 S and 1600 GS)
 are read from the image but the leading digit of the 1600 figures is soft and could be 43; the
 "43.98" could be "45.98". The 1600 main journal "54.8" is legible. Measure the part; do not
-order bearings on these figures alone. -->
+order bearings on these figures alone.
+  SETTLED BY THE FACTORY MANUAL: the B-7 table (PDF p.388, see 22-fm-b-engine-ignition.md)
+  prints 48 for the 1600 big-end journals and 43.98 for the 1300 G / 1300 S, from a cleaner
+  typeset — so the readings above are confirmed. -->
 
 <!-- NEEDS REVIEW: the regrinding row prints a figure (0.25) for the two 1300 engines and the
 words "wird abgeraten" — "is not advised" — for the other three. Rendered as words, not as a
