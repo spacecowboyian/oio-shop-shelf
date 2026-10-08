@@ -13,7 +13,7 @@ numbers in the page-image margins are used (see flags). -->
 # Update supplement — special tooling (chapter R) and chassis drawings
 
 <a id="p461"></a>
-**[PDF p.461]**
+**[PDF p.461](../page-images/p0461.png)**
 
 ## Chapter R — Special tooling (amends [32](32-fm-r-special-tools.md))
 
@@ -46,7 +46,7 @@ The following tool drawings were made by the factory for the body straightening 
 delivered as images; transcribed text covers the drawing numbers, titles and the legible dimensions only.
 
 <a id="p462"></a>
-**[PDF p.462]**
+**[PDF p.462](../page-images/p0462.png)**
 
 ### Drawing 05-11-02 — mounting-block supports (1 of 2: overall view and section A-A)
 
@@ -63,7 +63,7 @@ read reliably (candidate readings such as "3057" and "2557" are NOT safe); NONE 
 the image together with p.454 (which describes where each block goes). -->
 
 <a id="p463"></a>
-**[PDF p.463]**
+**[PDF p.463](../page-images/p0463.png)**
 
 ### Drawing 05-11-02 — mounting-block supports (2 of 2: wedge, detail D, sections B-B and C-C)
 
@@ -79,7 +79,7 @@ transcribed from this page: the sizes (wedge width, hole spacings, section width
 Use the image. -->
 
 <a id="p464"></a>
-**[PDF p.464]**
+**[PDF p.464](../page-images/p0464.png)**
 
 ### Drawing 05-11-03 — anti-roll-bar bearing-block holder (mounting block)
 
@@ -110,7 +110,7 @@ use the image. The unit is not printed (millimetres presumed). -->
 ## Chassis drawings
 
 <a id="p465"></a>
-**[PDF p.465]**
+**[PDF p.465](../page-images/p0465.png)**
 
 ### Drawing 05-11-04 — chassis of the Alpine, seen from below: measuring points
 
@@ -157,7 +157,7 @@ image the second figure of that pair is partly overprinted and reads either 1380
 tiny. The OCR draft labelled this drawing nothing useful; the left-margin number "05-11-04" is clear. -->
 
 <a id="p466"></a>
-**[PDF p.466]**
+**[PDF p.466](../page-images/p0466.png)**
 
 ### Drawing 05-11-07 — general view of the chassis (side and plan) with main dimensions
 
@@ -184,7 +184,7 @@ labelled the page "05-11-09" and printed "1261" and "3336" — the drawing numbe
 05-11-07. -->
 
 <a id="p467"></a>
-**[PDF p.467]**
+**[PDF p.467](../page-images/p0467.png)**
 
 ### Drawing 05-11-07 — front views of the chassis (engine-mount versions)
 
@@ -210,7 +210,7 @@ has none. The French "Nota" legend was read as above — "Support moteur 1600 VB
 page as another drawing number; the image shows "05-11-07" at the bottom. -->
 
 <a id="p468"></a>
-**[PDF p.468]**
+**[PDF p.468](../page-images/p0468.png)**
 
 ## Back cover
 

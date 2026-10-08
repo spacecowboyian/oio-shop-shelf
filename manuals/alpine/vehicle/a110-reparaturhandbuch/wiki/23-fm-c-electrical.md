@@ -12,13 +12,13 @@ p.399 is clipped by the scan edge (the oil-cooler fan part number). -->
 # Section C — Electrical equipment
 
 <a id="p398"></a>
-**[PDF p.398]**
+**[PDF p.398](../page-images/p0398.png)**
 
 Section divider: **ELEKTRISCHE AUSRÜSTUNG** (Electrical equipment), tab **C**, with a phantom
 drawing of the car showing the wiring loom. No other content.
 
 <a id="p399"></a>
-**[PDF p.399]**
+**[PDF p.399](../page-images/p0399.png)**
 
 ## C-1 — Electrical equipment: technical data
 
@@ -53,7 +53,7 @@ thermo-switch temperatures "82/92°" and "75/84°" are switching points (on/off)
 OCR read "75/849" — the "9" is a degree sign. -->
 
 <a id="p400"></a>
-**[PDF p.400]**
+**[PDF p.400](../page-images/p0400.png)**
 
 ## C-2 — Electrical equipment: instruments and accessories
 
@@ -78,7 +78,7 @@ OCR read "75/849" — the "9" is a degree sign. -->
 the page image shows 22621 and R. 1132 in all three columns — corrected from image. -->
 
 <a id="p401"></a>
-**[PDF p.401]**
+**[PDF p.401](../page-images/p0401.png)**
 
 ## Wiring diagram — Alpine 1300 (*Schaltschema*, BERLINETTE A. 110, 30 June 1970)
 

@@ -15,7 +15,7 @@ that occupies PDF pp.1-374. It is paginated by **section codes** printed in the 
 printed in the large manual; where the two printings disagree, the chapters of this part say so.
 
 <a id="p375"></a>
-**[PDF p.375]**
+**[PDF p.375](../page-images/p0375.png)**
 
 ## Title page
 
@@ -84,7 +84,7 @@ Wiki chapters for each section:
 | R | [Special tools](32-fm-r-special-tools.md) |
 
 <a id="p376"></a>
-**[PDF p.376]**
+**[PDF p.376](../page-images/p0376.png)**
 
 ## Contents (*Inhalt*), sheet I
 
@@ -112,7 +112,7 @@ section code printed beneath it on this scan; by its position between B9 and B11
 B10, but that is not printed. -->
 
 <a id="p377"></a>
-**[PDF p.377]**
+**[PDF p.377](../page-images/p0377.png)**
 
 ## Contents, sheet II
 

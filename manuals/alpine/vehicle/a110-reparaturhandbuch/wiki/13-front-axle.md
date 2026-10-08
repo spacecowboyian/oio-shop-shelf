@@ -11,12 +11,12 @@ page but obscures no value in this range. -->
 # Front axle (all types)
 
 <a id="p249"></a>
-**[PDF p.249]**
+**[PDF p.249](../page-images/p0249.png)**
 
 Section divider: **Front axle** (section tab **H**). No text or values.
 
 <a id="p250"></a>
-**[PDF p.250]**
+**[PDF p.250](../page-images/p0250.png)**
 
 ## Description
 
@@ -65,7 +65,7 @@ tolerance here is printed "± 30" without the minute sign.
 read as ± 1°. -->
 
 <a id="p251"></a>
-**[PDF p.251]**
+**[PDF p.251](../page-images/p0251.png)**
 
 ## Checking the camber
 
@@ -100,7 +100,7 @@ is an ink addition reading "(s. unten)" ("see below"). Not factory text. -->
 ![Checking camber with a spirit level — dimensions A, B, C, D, E, F — PDF p.251](../diagrams/p0251-camber-check-dimensions.png)
 
 <a id="p252"></a>
-**[PDF p.252]**
+**[PDF p.252](../page-images/p0252.png)**
 
 ## Checking the castor of the front wheels
 
@@ -127,7 +127,7 @@ as printed. Source as printed; the sign convention for the right wheel is eviden
 Treat this page as a method illustration only — the example values are not specifications. -->
 
 <a id="p253"></a>
-**[PDF p.253]**
+**[PDF p.253](../page-images/p0253.png)**
 
 ## Checking the toe of the front wheels
 
@@ -161,7 +161,7 @@ The second example's result OCRs as "+0,05n"; the image shows +0.03 m, which is 
 arithmetic of 1.60 − 1.57 — corrected from image. -->
 
 <a id="p254"></a>
-**[PDF p.254]**
+**[PDF p.254](../page-images/p0254.png)**
 
 ## Setting the front axle
 
@@ -220,7 +220,7 @@ The figures agree (1°); whether chapter 02's "Spreizung" item is the same check
 here. -->
 
 <a id="p255"></a>
-**[PDF p.255]**
+**[PDF p.255](../page-images/p0255.png)**
 
 h) Bring the front axle to the **"half load"** position: fit the tool **T.Av. 56 A** between the
    upper wishbone and the side member.
@@ -253,7 +253,7 @@ eccentric bolt **(1)**.
 ![Front axle setting — T.Av. 56 A at half load with measuring flag, and lower wishbone eccentric (1) — PDF p.255](../diagrams/p0255-front-axle-setting-half-load.png)
 
 <a id="p256"></a>
-**[PDF p.256]**
+**[PDF p.256](../page-images/p0256.png)**
 
 ## Measuring flag (Renault 12) T.Av. 481 and home-made bracket
 
@@ -283,7 +283,7 @@ right-hand edge of the page is cut off in the scan. -->
 ![Measuring flag T.Av. 481 (left/right) and home-made bracket — PDF p.256](../diagrams/p0256-measuring-flag-tav481.png)
 
 <a id="p257"></a>
-**[PDF p.257]**
+**[PDF p.257](../page-images/p0257.png)**
 
 ## Effects of bad front-axle settings
 
@@ -313,7 +313,7 @@ two renderings should be harmonized. -->
 | Very heavy loading of the vehicle | Changes the camber. |
 
 <a id="p258"></a>
-**[PDF p.258]**
+**[PDF p.258](../page-images/p0258.png)**
 
 ## XI — Removing and refitting a front half-axle
 
@@ -335,7 +335,7 @@ two renderings should be harmonized. -->
     the wheel side), the lock plate and the eccentric.
 
 <a id="p259"></a>
-**[PDF p.259]**
+**[PDF p.259](../page-images/p0259.png)**
 
 13. Slacken the Nylstop nuts of the ball joints by a few threads.
 14. Fit the special tool **T.Av.55** between the ball-joint shanks.
@@ -361,7 +361,7 @@ two renderings should be harmonized. -->
 nut. -->
 
 <a id="p260"></a>
-**[PDF p.260]**
+**[PDF p.260](../page-images/p0260.png)**
 
 5. Insert the spring with the lower wishbone into the upper seat.
 6. Fit the spring compressor **Sus.20**.
@@ -391,7 +391,7 @@ nut. -->
 shows 1.3 mkg ± 0.3 (restated identically on PDF p.264) — corrected from image. -->
 
 <a id="p261"></a>
-**[PDF p.261]**
+**[PDF p.261](../page-images/p0261.png)**
 
 16. Compress the spring and fit the T-piece **T.Av.56 A** of **78 mm** between the side member and
     the upper wishbone.
@@ -424,7 +424,7 @@ page's reading order. (c) "T.Av.56 A von 78 mm" — 78 mm is the T-piece length 
 half-load position. -->
 
 <a id="p262"></a>
-**[PDF p.262]**
+**[PDF p.262](../page-images/p0262.png)**
 
 ### Checking the front-axle data
 
@@ -459,7 +459,7 @@ If the last two dimensions (c and d) are not correct, they must be readjusted.
 14. Remove the upper wishbone.
 
 <a id="p263"></a>
-**[PDF p.263]**
+**[PDF p.263](../page-images/p0263.png)**
 
 ### Refitting
 
@@ -499,7 +499,7 @@ Then proceed as for refitting a front half-axle.
    turning the screw **(2)** with a **23 mm** spanner.
 
 <a id="p264"></a>
-**[PDF p.264]**
+**[PDF p.264](../page-images/p0264.png)**
 
 10. Remove the nut.
 11. Release the spring.
@@ -532,7 +532,7 @@ misprint, not OCR. -->
 Then proceed as for refitting a front half-axle.
 
 <a id="p265"></a>
-**[PDF p.265]**
+**[PDF p.265](../page-images/p0265.png)**
 
 ## Replacing a front stub axle
 
@@ -568,7 +568,7 @@ Then proceed as for refitting a front half-axle.
 ball-joint nuts are 9 mkg ± 1 on PDF pp.260 and 263. Source misprint, not OCR. -->
 
 <a id="p266"></a>
-**[PDF p.266]**
+**[PDF p.266](../page-images/p0266.png)**
 
 ## Dismantling and reassembling a front half-axle
 
@@ -592,7 +592,7 @@ For dismantling and reassembling the complete half-axle — stub axle, hub, brak
 see [Brakes](16-brakes.md).
 
 <a id="p267"></a>
-**[PDF p.267]**
+**[PDF p.267](../page-images/p0267.png)**
 
 ## Overhauling a front half-axle
 
@@ -625,7 +625,7 @@ T.Av.28 (lower wishbone) and T.Av.21 (upper wishbone) — corrected from image. 
 reassembly figure labels the parts (B) and (E), not (D), although the text names mandrel (D). -->
 
 <a id="p268"></a>
-**[PDF p.268]**
+**[PDF p.268](../page-images/p0268.png)**
 
 ## Replacing the two suspension ball joints on a half-axle
 
@@ -653,7 +653,7 @@ mkg value (strictly 0.6 mkg ≈ 4.3 lb·ft). The OCR rendered the tolerance as "
 the image shows +0.1 — corrected from image. -->
 
 <a id="p269"></a>
-**[PDF p.269]**
+**[PDF p.269](../page-images/p0269.png)**
 
 ## Front hub and wheel bearings
 

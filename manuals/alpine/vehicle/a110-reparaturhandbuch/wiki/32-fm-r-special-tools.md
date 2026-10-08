@@ -6,12 +6,12 @@ page of the October 1970 manual; PDF p.434 onwards is the December 1970+ update 
 # Section R — Special tools
 
 <a id="p432"></a>
-**[PDF p.432]**
+**[PDF p.432](../page-images/p0432.png)**
 
 Section divider: **SPEZIALWERKZEUGE** (Special tools), tab **R**. No other content.
 
 <a id="p433"></a>
-**[PDF p.433]**
+**[PDF p.433](../page-images/p0433.png)**
 
 ## R-1 — Special tools
 

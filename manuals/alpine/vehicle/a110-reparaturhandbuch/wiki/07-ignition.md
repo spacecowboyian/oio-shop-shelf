@@ -15,7 +15,7 @@ Distributor identification (distributor numbers, advance curves, spark plugs per
 [Engine type 812 — overhaul](06-engine-812.md), which carries PDF p.138.
 
 <a id="p139"></a>
-**[PDF p.139]**
+**[PDF p.139](../page-images/p0139.png)**
 
 ## Setting the ignition timing and the contact-breaker gap
 
@@ -78,7 +78,7 @@ figure (the left figure is labelled "1"; the right figure shows the screwdriver 
 triangular opening). -->
 
 <a id="p140"></a>
-**[PDF p.140]**
+**[PDF p.140](../page-images/p0140.png)**
 
 ## Setting the ignition timing (static)
 
@@ -119,7 +119,7 @@ The ignition timing is then set as described for the 1300 VC/G/S.
 the car), "Kupplungsgehäuse" (clutch housing / bell housing), "OT" (oberer Totpunkt = TDC). -->
 
 <a id="p141"></a>
-**[PDF p.141]**
+**[PDF p.141](../page-images/p0141.png)**
 
 ## Centrifugal advance curves
 

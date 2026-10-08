@@ -17,7 +17,7 @@ unit on the page. -->
 # Fuel system
 
 <a id="p142"></a>
-**[PDF p.142]**
+**[PDF p.142](../page-images/p0142.png)**
 
 ## Fuel supply — carburettor data by version
 
@@ -66,7 +66,7 @@ The figure shows the Weber DCOE from above with the idle jets **(1)** / **(g)**,
 > pump; simply "short-circuit" the mechanical pump by joining its inlet and outlet with a hose.
 
 <a id="p143"></a>
-**[PDF p.143]**
+**[PDF p.143](../page-images/p0143.png)**
 
 ## Carburettors — 1600 S
 
@@ -92,7 +92,7 @@ as a pair, per the table:
 > and 69**).
 
 <a id="p144"></a>
-**[PDF p.144]**
+**[PDF p.144](../page-images/p0144.png)**
 
 ### Jetting by identifier (1600 S)
 
@@ -133,7 +133,7 @@ contains the plate's values; this table gives 5 / 11.5 mm. Main jet here is 135 
 the PDF p.142 overview — different identifiers / dates. -->
 
 <a id="p145"></a>
-**[PDF p.145]**
+**[PDF p.145](../page-images/p0145.png)**
 
 ### Removing and fitting a carburettor (1600 S)
 
@@ -155,7 +155,7 @@ the PDF p.142 overview — different identifiers / dates. -->
 3. Always renew the Nylstop nuts.
 
 <a id="p146"></a>
-**[PDF p.146]**
+**[PDF p.146](../page-images/p0146.png)**
 
 4. Offer up the carburettor:
    - connect the engine breather return pipe;
@@ -203,7 +203,7 @@ jetting:
 the page (added later, typed, not handwritten). The "table" is presumably PDF p.144. -->
 
 <a id="p147"></a>
-**[PDF p.147]**
+**[PDF p.147](../page-images/p0147.png)**
 
 ### Idle setting (1600 S)
 
@@ -259,7 +259,7 @@ Pre-set all the screws first:
    **(A)**.
 
 <a id="p148"></a>
-**[PDF p.148]**
+**[PDF p.148](../page-images/p0148.png)**
 
 9. Short-circuit cylinders **1 and 2** (front) and set the engine speed to **750 rpm** with screw
    **(C)**.
@@ -290,7 +290,7 @@ The figure (73912.2, captioned in French "Repères 68 et 69") shows the by-pass 
 the identifier 68/69 carburettor.
 
 <a id="p149"></a>
-**[PDF p.149]**
+**[PDF p.149](../page-images/p0149.png)**
 
 ## Carburettor 1300 VC — WEBER Type 32 DIR
 
@@ -349,7 +349,7 @@ settle which carburettor the plate's 0.8 mm belongs to. -->
 corrected from image. -->
 
 <a id="p150"></a>
-**[PDF p.150]**
+**[PDF p.150](../page-images/p0150.png)**
 
 ### Setting the choke flap (1300 VC)
 
@@ -387,7 +387,7 @@ image prints "Muttern (E)" and "7,5 - 8 mm" — corrected from image. "Belüftun
 "vent valve" (float chamber vent). -->
 
 <a id="p151"></a>
-**[PDF p.151]**
+**[PDF p.151](../page-images/p0151.png)**
 
 ### Setting the idle (1300 VC)
 
@@ -423,7 +423,7 @@ the DIR 21) and also illustrates a SOLEX carburettor, which no A110 version in t
 may be taken over from a Renault saloon manual. Both values as printed. -->
 
 <a id="p152"></a>
-**[PDF p.152]**
+**[PDF p.152](../page-images/p0152.png)**
 
 ## Carburettors 1300 G/S
 
@@ -452,7 +452,7 @@ stray mark or a leader; the value is 35. These are the 1300 G figures (choke 32)
 choke 33 and main jet 130 per PDF p.142. -->
 
 <a id="p153"></a>
-**[PDF p.153]**
+**[PDF p.153](../page-images/p0153.png)**
 
 ### Removing and fitting the carburettors (1300 G/S)
 
@@ -484,7 +484,7 @@ Fit the ring seals into the intake stubs as follows:
 intake manifold" because p.155 calls the same part "Luftansaugkrümmer". -->
 
 <a id="p154"></a>
-**[PDF p.154]**
+**[PDF p.154](../page-images/p0154.png)**
 
 3. On each carburettor securing bolt fit:
    - the metal washer **(1)**;
@@ -497,7 +497,7 @@ intake manifold" because p.155 calls the same part "Luftansaugkrümmer". -->
    carburettor and stub.
 
 <a id="p155"></a>
-**[PDF p.155]**
+**[PDF p.155](../page-images/p0155.png)**
 
 ### Setting the carburettor synchronization (1300 G/S)
 
@@ -538,7 +538,7 @@ This synchronization and the J = 1.5 mm fitting are also given for engine 812 in
 [Engine type 812 — overhaul](06-engine-812.md) (PDF pp.135-136). -->
 
 <a id="p156"></a>
-**[PDF p.156]**
+**[PDF p.156](../page-images/p0156.png)**
 
 ## Misfiled clutch page — clutch identification
 
@@ -556,7 +556,7 @@ mechanism with release plate**.
 "Ausrückplatte" rendered "release plate". -->
 
 <a id="p157"></a>
-**[PDF p.157]**
+**[PDF p.157](../page-images/p0157.png)**
 
 ## Misfiled clutch page — replacing the clutch (all types)
 
@@ -593,7 +593,7 @@ kept as printed — verify before use. "Mitnehmerscheibe" rendered "driven plate
 "Tellerfeder" rendered "diaphragm spring". -->
 
 <a id="p158"></a>
-**[PDF p.158]**
+**[PDF p.158](../page-images/p0158.png)**
 
 ## Setting the idle (1300 G/S)
 
