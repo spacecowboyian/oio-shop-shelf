@@ -333,3 +333,27 @@ diagrams:
     depth: mono
     caption: "Engine 812 — carburettor throttle synchronization linkage (screws 3/5, lever 6, stop 7, spring 8, fork 9)"
     safety_relevant: false
+  - page: 177
+    file: "diagrams/p0177-shift-scheme-353.webp"
+    kind: chart
+    depth: mono
+    caption: "Gearbox 353/364 — shift scheme: power flow in each gear"
+    safety_relevant: false
+  - page: 207
+    file: "diagrams/p0207-primary-shaft-alignment.webp"
+    kind: exploded
+    depth: mono
+    caption: "Gearbox 353/364 — primary shaft alignment: faces A/B/C/D and washer (1)"
+    safety_relevant: true
+  - page: 210
+    file: "diagrams/p0210-casing-bolt-sequence.webp"
+    kind: sequence
+    depth: mono
+    caption: "Gearbox 353/364 — casing half bolt tightening sequence 1-17 (7 mm: 2 mkp, 8 mm: 2.8 mkp)"
+    safety_relevant: true
+  - page: 235
+    file: "diagrams/p0235-tooth-contact-patterns.webp"
+    kind: chart
+    depth: mono
+    caption: "Crown wheel and pinion tooth-contact patterns and corrections (Tragbildprüfung)"
+    safety_relevant: true
