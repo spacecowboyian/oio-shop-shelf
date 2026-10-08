@@ -162,7 +162,7 @@ See **MR 68** or **MR 131**.
 This sheet is a dimensioned drawing of the left (*LINKS*) and right (*RECHTS*) measuring flags
 **TAV 481**, and of a home-made bracket. It is delivered as an image.
 
-![Measuring flag RENAULT 12 (modified T.Av. 481, left and right) and home-made bracket drawing — PDF p.417](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0417-messfahne-renault-12-tav481.png)
+![Measuring flag RENAULT 12 (modified T.Av. 481, left and right) and home-made bracket drawing — PDF p.417](../diagrams/p0417-messfahne-renault-12-tav481.png)
 
 Values legible on the drawing:
 

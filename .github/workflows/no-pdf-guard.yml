@@ -3,6 +3,12 @@ name: no-pdf-guard
 # Hard guard: no PDF may ever land in git history. Source PDFs live on GitHub Releases
 # (see MAINTAINERS.md), never committed to a branch that merges into main.
 #
+# Diagram images are DELIBERATELY NOT guarded. They are committed to the tree so that
+# `raw.githubusercontent.com` serves them: a Release asset 302s to a signed URL on another
+# host and is served as application/octet-stream, which external AI assistants cannot
+# fetch or read. A tree file is served as image/png from the same host as the markdown,
+# and that is verified to work. See MAINTAINERS.md.
+#
 # - On a manual PR, the contributor's committed PDF makes this check RED — that is
 #   EXPECTED. It clears when a maintainer runs `scripts/publish-release.sh <manual-dir>`
 #   (which moves the PDF to a Release and removes it from the tree) before squash-merging.
@@ -21,22 +27,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fail if any PDF or diagram image is tracked
+      - name: Fail if any PDF is tracked
         run: |
-          # Both source PDFs and rendered diagram images (issue #1) live on GitHub
-          # Releases, never in git history. Either being committed makes this RED — which
-          # is EXPECTED on an unpublished manual PR; publish-release.sh clears it.
+          # Source PDFs live on GitHub Releases, never in git history. A committed PDF makes
+          # this RED — EXPECTED on an unpublished manual PR; publish-release.sh clears it.
+          # Diagram images are intentionally NOT checked: they belong in the tree so raw
+          # URLs serve them to external readers (see MAINTAINERS.md).
           pdfs="$(git ls-files '*.pdf' || true)"
-          imgs="$(git ls-files 'manuals/**/diagrams/*' || true)"
-          bins="$(printf '%s\n%s\n' "$pdfs" "$imgs" | grep -c . || true)"
-          if [ "$bins" != "0" ]; then
-            echo "::error::Binary asset(s) are committed to git. Source PDFs and diagram images must live on GitHub Releases, not in history."
-            [ -n "$pdfs" ] && { echo "Tracked PDF(s):";   echo "$pdfs" | sed 's/^/  - /'; }
-            [ -n "$imgs" ] && { echo "Tracked diagram image(s):"; echo "$imgs" | sed 's/^/  - /'; }
+          if [ -n "$pdfs" ]; then
+            echo "::error::PDF(s) are committed to git. Source PDFs must live on GitHub Releases, not in history."
+            echo "Tracked PDF(s):"; echo "$pdfs" | sed 's/^/  - /'
             echo ""
             echo "Before merging, a maintainer must, for each manual dir:"
             echo "  scripts/publish-release.sh <manual-dir>   # e.g. manuals/toyota/vehicle/mr2-aw11"
             echo "then commit and SQUASH-merge (never rebase / merge-commit). See MAINTAINERS.md."
             exit 1
           fi
-          echo "OK — no tracked PDFs or diagram images."
+          echo "OK — no tracked PDFs."

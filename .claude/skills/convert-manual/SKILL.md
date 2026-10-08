@@ -152,8 +152,9 @@ diagram-only and the user must *see* it, deliver it instead of a bare "see PDF p
    table row): many assistants cannot open the image at all.
 3. Embed each at its citation point with a **relative** link
    (`![caption — PDF p.N](../diagrams/pNNNN-...png)`) so it previews in the PR;
-   `publish-release.sh` flips it to the Release URL at merge. **Commit `diagrams/`** (unlike
-   the gitignored `pages/`); a maintainer moves the images to the Release, same as the PDF.
+   **Commit `diagrams/` and leave the links relative** (unlike the gitignored `pages/`). Images
+   stay in git — only the PDF moves to the Release — so `raw.githubusercontent.com` serves them
+   to external readers.
 
 ## 5 — Build the index files
 
