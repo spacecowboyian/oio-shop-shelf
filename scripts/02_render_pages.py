@@ -277,9 +277,18 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
     prefer = ((manifest.get("render", {}) or {}).get("image_base") or "raw").lower()
     if prefer not in ("raw", "cdn"):
         sys.exit(f"render.image_base must be 'raw' or 'cdn', got {prefer!r}")
+    # The CDN base is pinned to the current commit, not to the branch. @<sha> is immutable, so
+    # jsDelivr serves it with max-age=1y and it can never go stale — which is the one thing that
+    # made the branch form (@main, 12 h edge cache) a bad default after a correction.
+    sha = None
+    try:
+        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=mdir,
+                             capture_output=True, text=True, check=True).stdout.strip() or None
+    except subprocess.CalledProcessError:
+        pass
     bases = ({
         "raw": f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}/",
-        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{branch}/{rel}/",
+        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{sha or branch}/{rel}/",
     } if repo else {})
     base = bases.get(prefer) if bases else None
 
@@ -315,9 +324,16 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         "page_count": len(pages),
         "image": {"format": "png", "depth": "bilevel", "dpi": dpi,
                   "threshold_default": threshold, "dir": "page-images"},
-        # Every page below already carries an absolute `url` built from `base_url.used`.
-        # These are here so a consumer can swap bases without re-deriving paths.
-        "base_url": ({**bases, "used": prefer} if bases else None),
+        # Every page below carries a complete absolute `url`, which is the simplest thing to
+        # use. Both bases are kept here under stable names because real setups read them:
+        # `cdn` is pinned to the commit these images came from, so it is immutable and cannot
+        # serve a stale copy — the one reason it used to be the wrong default.
+        "base_url": ({**bases, "used": prefer,
+                      "note": ("`url` on each page is already absolute — prefer it. `raw` is "
+                               "GitHub itself and always current. `cdn` is jsDelivr pinned to "
+                               "the commit these images were generated from: immutable and fast, "
+                               "but frozen, so it will not pick up a later correction.")}
+                     if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [
             {"file": f"wiki/{c['file']}", "title": c.get("title"),
