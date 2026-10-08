@@ -253,32 +253,7 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
                 return ch
         return None
 
-    pages = []
-    for f in sorted(out_dir.glob("p*.png")):
-        page = int(f.stem[1:])
-        try:
-            w, h = subprocess.run(["magick", "identify", "-format", "%w %h", str(f)],
-                                  capture_output=True, text=True, check=True).stdout.split()
-        except (subprocess.CalledProcessError, ValueError):
-            w = h = None
-        ch = chapter_of(page)
-        d = diagrams.get(page)
-        pages.append({
-            "page": page,
-            "file": f"page-images/{f.name}",
-            "width": int(w) if w else None,
-            "height": int(h) if h else None,
-            "bytes": f.stat().st_size,
-            "chapter_file": (f"wiki/{ch['file']}" if ch else None),
-            "chapter_title": (ch.get("title") if ch else None),
-            "section_code": (ch.get("section_code") if ch else None),
-            "diagram": ({"file": d["file"], "kind": d["kind"],
-                         "caption": d["caption"],
-                         "safety_relevant": bool(d.get("safety_relevant", False))} if d else None),
-        })
-
-    # Both base URLs, so a consumer picks: raw is verified to work with external AI readers,
-    # the CDN is better for a client that loads many images (scripts/tv-reader). Same files.
+    # Resolve the public repo/branch so absolute URLs can be built.
     repo = branch = None
     try:
         remote = subprocess.run(["git", "remote", "get-url", "origin"], cwd=mdir,
@@ -294,18 +269,55 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
     except ValueError:          # manual dir outside the repo — no canonical public URL
         rel = repo = None
 
+    # Which base the absolute `url` fields are built from. raw.githubusercontent.com is the
+    # default: it is GitHub itself, so it cannot rot independently of the repo, and it is the
+    # one verified to work with external AI readers. jsDelivr is a free CDN over the same
+    # files — better for a client pulling hundreds of images — and is offered alongside.
+    # Override per manual with `render.image_base: cdn`.
+    prefer = ((manifest.get("render", {}) or {}).get("image_base") or "raw").lower()
+    if prefer not in ("raw", "cdn"):
+        sys.exit(f"render.image_base must be 'raw' or 'cdn', got {prefer!r}")
+    bases = ({
+        "raw": f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}/",
+        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{branch}/{rel}/",
+    } if repo else {})
+    base = bases.get(prefer) if bases else None
+
+    pages = []
+    for f in sorted(out_dir.glob("p*.png")):
+        page = int(f.stem[1:])
+        try:
+            w, h = subprocess.run(["magick", "identify", "-format", "%w %h", str(f)],
+                                  capture_output=True, text=True, check=True).stdout.split()
+        except (subprocess.CalledProcessError, ValueError):
+            w = h = None
+        ch = chapter_of(page)
+        d = diagrams.get(page)
+        pages.append({
+            "page": page,
+            "file": f"page-images/{f.name}",
+            "url": (base + f"page-images/{f.name}") if base else None,
+            "width": int(w) if w else None,
+            "height": int(h) if h else None,
+            "bytes": f.stat().st_size,
+            "chapter_file": (f"wiki/{ch['file']}" if ch else None),
+            "chapter_title": (ch.get("title") if ch else None),
+            "section_code": (ch.get("section_code") if ch else None),
+            "diagram": ({"file": d["file"],
+                         "url": (base + d["file"]) if base else None,
+                         "kind": d["kind"], "caption": d["caption"],
+                         "safety_relevant": bool(d.get("safety_relevant", False))} if d else None),
+        })
+
     doc = {
         "slug": manifest.get("slug"),
         "title": manifest.get("title"),
         "page_count": len(pages),
         "image": {"format": "png", "depth": "bilevel", "dpi": dpi,
                   "threshold_default": threshold, "dir": "page-images"},
-        "base_url": ({
-            # verified working with external AI readers (correct content-type, no redirect)
-            "raw": f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}/",
-            # CDN in front of the same files — better for a client loading many pages
-            "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{branch}/{rel}/",
-        } if repo else None),
+        # Every page below already carries an absolute `url` built from `base_url.used`.
+        # These are here so a consumer can swap bases without re-deriving paths.
+        "base_url": ({**bases, "used": prefer} if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [
             {"file": f"wiki/{c['file']}", "title": c.get("title"),
