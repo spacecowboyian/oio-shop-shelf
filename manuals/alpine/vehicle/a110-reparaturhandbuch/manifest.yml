@@ -417,3 +417,57 @@ diagrams:
     depth: mono
     caption: "Release fork pins A and B, pin protrusion D = 1 mm (engine 807/843/844)"
     safety_relevant: false
+  - page: 237
+    file: "diagrams/p0237-steering-section-mounting-height.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering — longitudinal section and steering-box mounting bracket height H"
+    safety_relevant: true
+  - page: 247
+    file: "diagrams/p0247-pinion-end-float-setting.webp"
+    kind: exploded
+    depth: mono
+    caption: "Steering pinion — end-float setting with clamp Dir.19 (C, D, E, b) and grease-nipple angle e = 45°"
+    safety_relevant: true
+  - page: 248
+    file: "diagrams/p0248-track-rods-left-right.webp"
+    kind: exploded
+    depth: mono
+    caption: "Track rods — left (G) and right (D) identification, rack-end bush replacement"
+    safety_relevant: true
+  - page: 251
+    file: "diagrams/p0251-camber-check-dimensions.webp"
+    kind: chart
+    depth: mono
+    caption: "Checking front camber with a spirit level — dimensions A, B, C, D, E, F"
+    safety_relevant: false
+  - page: 255
+    file: "diagrams/p0255-front-axle-setting-half-load.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front axle setting at half load (T.Av. 56 A) and lower wishbone castor eccentric (1)"
+    safety_relevant: true
+  - page: 256
+    file: "diagrams/p0256-measuring-flag-tav481.webp"
+    kind: chart
+    depth: mono
+    caption: "Measuring flags T.Av. 481 (left/right) with hatched steering-height zone, and home-made bracket"
+    safety_relevant: true
+  - page: 269
+    file: "diagrams/p0269-front-hub-bearings.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front hub on taper roller bearings — section, inner-bearing extraction (B.Vi.28 / B.Vi.48), oil deflector A and seal B"
+    safety_relevant: true
+  - page: 278
+    file: "diagrams/p0278-rear-hub-bearing-section.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rear hub — nylon-cage ball bearing orientation (closed side A), nuts B 5 mkg, hub nut C 20 mkg"
+    safety_relevant: true
+  - page: 283
+    file: "diagrams/p0283-front-damper-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Front damper — fitting order of bracket (1), rubber sleeve (2), rubber bush (3), dished washer (4), nut (5), locknut (6)"
+    safety_relevant: false
