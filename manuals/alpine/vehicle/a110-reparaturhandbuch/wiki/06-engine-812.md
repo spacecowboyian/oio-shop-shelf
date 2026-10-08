@@ -20,7 +20,7 @@ Fitted to the A 110 **1300 G** and **1300 S** (the engine of the RENAULT 8 Gordi
 the 812-00 and the 1300 S derivative).
 
 <a id="p98"></a>
-**[PDF p.98]**
+**[PDF p.98](../page-images/p0098.png)**
 
 Section title page: **Engine type 812 — fitted to the 1300 G/S version — Overhaul**
 (*Motortyp 812 — Montiert in der Version 1300 G/S — Instandsetzung*).
@@ -29,7 +29,7 @@ Section title page: **Engine type 812 — fitted to the 1300 G/S version — Ove
 of the sheet, not content of this page; the OCR of this page is noise from that bleed-through. -->
 
 <a id="p99"></a>
-**[PDF p.99]**
+**[PDF p.99](../page-images/p0099.png)**
 
 ## Identification
 
@@ -39,7 +39,7 @@ The type, the code number (*Kennzahl*) and the serial number (*Fabrikationsnumme
 a plate riveted to the **right-hand side** of the engine.
 
 <a id="p100"></a>
-**[PDF p.100]**
+**[PDF p.100](../page-images/p0100.png)**
 
 ## Exploded view of engine 812
 
@@ -53,7 +53,7 @@ labels on it are French part-identification abbreviations (`ADM`, `ECHAP`).
 this page; it is not part of the drawing and is not transcribed. -->
 
 <a id="p101"></a>
-**[PDF p.101]**
+**[PDF p.101](../page-images/p0101.png)**
 
 ## Technical data
 
@@ -120,7 +120,7 @@ This work is carried out for a standard exchange (*Standard-Austausch*) or for a
 4. Release the two oil cooler hoses and pull them out of the panel (*Wandung*).
 
 <a id="p102"></a>
-**[PDF p.102]**
+**[PDF p.102](../page-images/p0102.png)**
 
 5. Remove the two upper nuts and the two lower bolts of the oil cooler mounting.
 6. Swing the cooler downwards and take it out to the left. Drain the oil still in it.
@@ -145,7 +145,7 @@ This work is carried out for a standard exchange (*Standard-Austausch*) or for a
 wall/panel". -->
 
 <a id="p103"></a>
-**[PDF p.103]**
+**[PDF p.103](../page-images/p0103.png)**
 
 13. Disconnect the heater hoses at the water pump.
 14. Remove the valve cover and the carburettor intake stubs (*Ansaugstutzen*).
@@ -169,7 +169,7 @@ wall/panel". -->
     - the temperature sender wire.
 
 <a id="p104"></a>
-**[PDF p.104]**
+**[PDF p.104](../page-images/p0104.png)**
 
 22. Unlock and slacken the bolts connecting the engine to the clutch housing (the two upper bolts
     cannot be taken out completely).
@@ -188,7 +188,7 @@ connected correctly:
 - at **2**, the hose from the **lower** base.
 
 <a id="p105"></a>
-**[PDF p.105]**
+**[PDF p.105](../page-images/p0105.png)**
 
 Tighten the hose clips so that there is a dimension of **5.8 mm** between the stop and the
 pivot (*Anschlag und Drehzapfen*).
@@ -221,7 +221,7 @@ Fill with coolant and engine oil.
 8. Pull the throttle cable sleeve out of its bracket.
 
 <a id="p106"></a>
-**[PDF p.106]**
+**[PDF p.106](../page-images/p0106.png)**
 
 9. Disconnect the brake pipe at the brake pressure limiter (*Bremskraftverteiler*) inlet.
 10. Free the battery cable from its clip.
@@ -245,7 +245,7 @@ Carry out all the removal operations in reverse order.
 - Fill with coolant and engine oil.
 
 <a id="p107"></a>
-**[PDF p.107]**
+**[PDF p.107](../page-images/p0107.png)**
 
 ## Complete dismantling of the engine
 
@@ -262,7 +262,7 @@ Remove:
 - the carburettors and the intake stubs.
 
 <a id="p108"></a>
-**[PDF p.108]**
+**[PDF p.108](../page-images/p0108.png)**
 
 ## Dismantling the cylinder head
 
@@ -290,7 +290,7 @@ Remove:
 10. Remove the cylinder head and its gasket.
 
 <a id="p109"></a>
-**[PDF p.109]**
+**[PDF p.109](../page-images/p0109.png)**
 
 ## Dismantling the timing gear
 
@@ -308,7 +308,7 @@ no unit. A 12 mm bolt with a 1.75 mm pitch (standard M12 coarse) is the obvious 
 page prints "175" and that is what is reproduced. -->
 
 <a id="p110"></a>
-**[PDF p.110]**
+**[PDF p.110](../page-images/p0110.png)**
 
 9. Remove the chain tensioner. To do this:
    - unlock and unscrew the retaining bolt of the tensioner plunger;
@@ -325,7 +325,7 @@ page prints "175" and that is what is reproduced. -->
 reading above is legible but not crisp. -->
 
 <a id="p111"></a>
-**[PDF p.111]**
+**[PDF p.111](../page-images/p0111.png)**
 
 ## Removing the flywheel and crankshaft
 
@@ -345,7 +345,7 @@ reading above is legible but not crisp. -->
 Montagehalter abh..."); "abnehmen" (take off) is the evident reading. -->
 
 <a id="p112"></a>
-**[PDF p.112]**
+**[PDF p.112](../page-images/p0112.png)**
 
 ## Dismantling the valves — checking the joint face
 
@@ -384,7 +384,7 @@ The typewriter "5" on these pages has a flat top, which this glyph does not have
 whether a skimmed head is scrap. -->
 
 <a id="p113"></a>
-**[PDF p.113]**
+**[PDF p.113](../page-images/p0113.png)**
 
 ## Measuring the combustion chamber volume — valve spring data
 
@@ -450,7 +450,7 @@ chapter 03 has the two attributed the wrong way round — but that is NOT settle
 not reconciled. -->
 
 <a id="p114"></a>
-**[PDF p.114]**
+**[PDF p.114](../page-images/p0114.png)**
 
 ## Replacing the valve guides
 
@@ -479,7 +479,7 @@ flat **a = 8**. The page prints these inch equivalents:
 "a = flat (*Abflachung*)."
 
 <a id="p115"></a>
-**[PDF p.115]**
+**[PDF p.115](../page-images/p0115.png)**
 
 The drawing of the modified plate gives: pin protrusion **18.5**, thread depth **25**, plate
 height **86**, plate width **140**, pin spacing (overall) **340**.
@@ -511,7 +511,7 @@ it is 10 mm (.394" = 10 mm, and the text above says 10 mm). -->
    - otherwise correct the protrusion of the pins in the base plate, then lock the locknuts.
 
 <a id="p116"></a>
-**[PDF p.116]**
+**[PDF p.116](../page-images/p0116.png)**
 
 ### Making the guide sleeve
 
@@ -547,7 +547,7 @@ When replacing, **always use the next size up**.
    opposite the existing chamfer (if the guide does not already have one).
 
 <a id="p117"></a>
-**[PDF p.117]**
+**[PDF p.117](../page-images/p0117.png)**
 
 6. Press the new valve guide in with the press, as follows:
    - slide the mandrel **(1)** into the guide sleeve **(2)**;
@@ -572,7 +572,7 @@ When replacing, **always use the next size up**.
    - the temperature sender.
 
 <a id="p118"></a>
-**[PDF p.118]**
+**[PDF p.118](../page-images/p0118.png)**
 
 ## Dismantling the rocker shafts
 
@@ -592,7 +592,7 @@ The exploded figure numbers the pedestals **1** to **5** and the shafts **6** an
    a piece of wire.
 
 <a id="p119"></a>
-**[PDF p.119]**
+**[PDF p.119](../page-images/p0119.png)**
 
 ### Identification of the parts
 
@@ -619,7 +619,7 @@ the shafts **(7)** the groove width is **B = 4 mm**.
    gasket **(3)**.
 
 <a id="p120"></a>
-**[PDF p.120]**
+**[PDF p.120](../page-images/p0120.png)**
 
 ## Dismantling the oil pump
 
@@ -644,7 +644,7 @@ Clean and check all parts:
 Carry out all the dismantling operations in reverse order.
 
 <a id="p121"></a>
-**[PDF p.121]**
+**[PDF p.121](../page-images/p0121.png)**
 
 ## Dismantling and checking the crankshaft
 
@@ -687,7 +687,7 @@ covers the 812 for both the 1300 G and the 1300 S, gives two repair sizes, -0.25
 for both journals, with no restriction by variant. Flagged, not reconciled. -->
 
 <a id="p122"></a>
-**[PDF p.122]**
+**[PDF p.122](../page-images/p0122.png)**
 
 ## Checking the camshaft — overhauling the camshaft bearings in the cylinder block
 
@@ -742,7 +742,7 @@ figures. -->
 2. Fit the new oil seal with tool **Mot.128**.
 
 <a id="p123"></a>
-**[PDF p.123]**
+**[PDF p.123](../page-images/p0123.png)**
 
 The mandrels are to be made in-house (see the figure). The fitting-mandrel drawing **(B)** gives
 diameters **37.6 +0/-0.1** and **41.4 +0/-0.1**, lengths **18** and **147**, overall length
@@ -769,7 +769,7 @@ diameters **37.6 +0/-0.1** and **41.4 +0/-0.1**, lengths **18** and **147**, ove
 3. Remove the two screw plugs inside the tappet chamber. Clean the cylinder block.
 
 <a id="p124"></a>
-**[PDF p.124]**
+**[PDF p.124](../page-images/p0124.png)**
 
 ### Fitting the camshaft bushes
 
@@ -802,7 +802,7 @@ next to bush 1; the 27° angle's reference line and whether 10.5 (no unit) is me
 hole centre cannot be fully settled from the drawing. Transcribed, not interpreted further. -->
 
 <a id="p125"></a>
-**[PDF p.125]**
+**[PDF p.125](../page-images/p0125.png)**
 
 ## Fitting pistons and con-rods
 
@@ -862,7 +862,7 @@ the two ends' faces. This "A = 2 mm" is very likely the "(A)" that chapter 03 (P
 against "Pleuelfuss erhöht (A)" for the 1300 G and 1300 S without explaining it. -->
 
 <a id="p126"></a>
-**[PDF p.126]**
+**[PDF p.126](../page-images/p0126.png)**
 
 The gudgeon pin **floats in both the con-rod and the piston**. The con-rod small end
 (*Pleuelauge*) is fitted with a bush. If the play of the new piston is too great, fit a new bush.
@@ -897,7 +897,7 @@ are printed as shown; not reconciled. Check the actual pistons before choosing a
 The two figures show the assembled orientation for **con-rods 2 and 4** and **con-rods 1 and 3**.
 
 <a id="p127"></a>
-**[PDF p.127]**
+**[PDF p.127](../page-images/p0127.png)**
 
 ## Fitting the crankshaft
 
@@ -920,7 +920,7 @@ tightening torque 6 to 6.75 mkp for the 1300 G and 1300 S).
 being the one-hole pair), not the range 2 to 4. -->
 
 <a id="p128"></a>
-**[PDF p.128]**
+**[PDF p.128](../page-images/p0128.png)**
 
 10. Set a dial gauge with its feeler on the end of the crankshaft and check the end float:
     **0.45 to 0.19 mm**. If necessary, other thrust washers must be used. The washers are
@@ -968,7 +968,7 @@ old one, the seal must be offset from its original position by **C = approx. 3 m
 ![Front crankshaft oil seal — offset C and fitting with Mot.131, spacer E — PDF p.128](../diagrams/p0128-front-crankshaft-seal-mot131.png)
 
 <a id="p129"></a>
-**[PDF p.129]**
+**[PDF p.129](../page-images/p0129.png)**
 
 ### a) Fitting with the two-piece tool Mot.131 (photographs)
 
@@ -993,7 +993,7 @@ onto the guide, sealing lip towards the inside of the engine. Press the seal in 
 Here the seal must be fitted **in its original position** (no spacer).
 
 <a id="p130"></a>
-**[PDF p.130]**
+**[PDF p.130](../page-images/p0130.png)**
 
 ## Fitting the flywheel — checking the liner protrusion
 
@@ -1032,7 +1032,7 @@ Here the seal must be fitted **in its original position** (no spacer).
 The flywheel torque is printed "5 mkp" (OCR "5 mko"); read from the image. -->
 
 <a id="p131"></a>
-**[PDF p.131]**
+**[PDF p.131](../page-images/p0131.png)**
 
 ## Fitting the pistons and liners
 
@@ -1068,7 +1068,7 @@ the image shows "Mot.124", matching PDF p.109. -->
 5. Take the camshaft sprocket off again without turning the shaft.
 
 <a id="p132"></a>
-**[PDF p.132]**
+**[PDF p.132](../page-images/p0132.png)**
 
 ## Fitting the timing gear
 
@@ -1098,7 +1098,7 @@ The torque-wrench tool number after "(Drehmoment-" and the final words of the ri
 legible and is not filled in. -->
 
 <a id="p133"></a>
-**[PDF p.133]**
+**[PDF p.133](../page-images/p0133.png)**
 
 ## Fitting the oil sump
 
@@ -1151,7 +1151,7 @@ cannot be cross-checked there. Note this is a single cold figure; chapter 04 (80
 separate warm/cold figures for a different engine — do not mix them. -->
 
 <a id="p134"></a>
-**[PDF p.134]**
+**[PDF p.134](../page-images/p0134.png)**
 
 ## Fitting the distributor drive pinion
 
@@ -1188,7 +1188,7 @@ Fit the O-ring seals (*Rundumdichtungen*) into the intake stubs as follows:
 Dichtungen glatt werden" — only the tops of the letters survive). -->
 
 <a id="p135"></a>
-**[PDF p.135]**
+**[PDF p.135](../page-images/p0135.png)**
 
 3. On each carburettor securing bolt fit:
    - the metal washer **(1)**;
@@ -1213,7 +1213,7 @@ Dichtungen glatt werden" — only the tops of the letters survive). -->
 not name the carburettor model. -->
 
 <a id="p136"></a>
-**[PDF p.136]**
+**[PDF p.136](../page-images/p0136.png)**
 
 ## Setting the carburettor synchronization
 
@@ -1269,7 +1269,7 @@ this page ties it to the 1000 km cylinder head re-torque. Both printed; not reco
 10. Tension the V-belt.
 
 <a id="p137"></a>
-**[PDF p.137]**
+**[PDF p.137](../page-images/p0137.png)**
 
 11. Fit:
     - the driven plate (*Mitnehmerscheibe*): **longer hub boss towards the gearbox**;
@@ -1281,7 +1281,7 @@ this page ties it to the 1000 km cylinder head re-torque. Both printed; not reco
 > **NOTE:** oil is only filled after the engine has been installed.
 
 <a id="p138"></a>
-**[PDF p.138]**
+**[PDF p.138](../page-images/p0138.png)**
 
 ## Ignition system — distributor identification
 

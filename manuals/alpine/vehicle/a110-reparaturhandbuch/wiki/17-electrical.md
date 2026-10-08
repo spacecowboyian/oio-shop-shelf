@@ -23,7 +23,7 @@ The wiring diagram (p.323) and the alternator circuit diagrams (p.332) are deliv
 # Electrical equipment (all types)
 
 <a id="p320"></a>
-**[PDF p.320]**
+**[PDF p.320](../page-images/p0320.png)**
 
 Section title sheet **C — ELEKTRISCHE AUSRÜSTUNG** (electrical equipment), with a perspective
 drawing of the car showing the run of the wiring harnesses. No values on this page.
@@ -32,7 +32,7 @@ drawing of the car showing the run of the wiring harnesses. No values on this pa
 sheet in reverse; it is not this page's content and is not transcribed here. -->
 
 <a id="p321"></a>
-**[PDF p.321]**
+**[PDF p.321](../page-images/p0321.png)**
 
 ## Electrical components fitted, by version
 
@@ -74,7 +74,7 @@ the regulator — reproduced as printed; R. 1190 is otherwise the 1300 G/S type 
 (12 V – 55 Ah per chapter 02) is not listed on these pages. -->
 
 <a id="p322"></a>
-**[PDF p.322]**
+**[PDF p.322](../page-images/p0322.png)**
 
 Components 11–24.
 
@@ -106,7 +106,7 @@ works equipment" (factory/competition specification). The meaning of "Überland-
 "ÜBERLAND-SIGNALHORN". -->
 
 <a id="p323"></a>
-**[PDF p.323]**
+**[PDF p.323](../page-images/p0323.png)**
 
 ## Wiring diagram
 
@@ -122,7 +122,7 @@ French-market ("Frankreich") version; no diagram for the Italian or German equip
 this chapter (the update supplement, PDF 434-468, re-issues the electrical lists). -->
 
 <a id="p324"></a>
-**[PDF p.324]**
+**[PDF p.324](../page-images/p0324.png)**
 
 ## Cable directory
 
@@ -196,7 +196,7 @@ column and "Wärmefühler   Drehzahlmesser" across the to column — the middle 
 different column; rendered as printed. -->
 
 <a id="p325"></a>
-**[PDF p.325]**
+**[PDF p.325](../page-images/p0325.png)**
 
 ## Wiring diagram component key
 
@@ -249,7 +249,7 @@ fan sender. "Kilometerzähler" (item 32) is rendered "odometer"; in this car it 
 speedometer/odometer head (component 16 on PDF p.322). -->
 
 <a id="p326"></a>
-**[PDF p.326]**
+**[PDF p.326](../page-images/p0326.png)**
 
 ### C — main rear harness (continued)
 
@@ -314,7 +314,7 @@ permanent, E5 → lighting …). Verify any E-wire against the wiring diagram (P
 cutting into it. -->
 
 <a id="p327"></a>
-**[PDF p.327]**
+**[PDF p.327](../page-images/p0327.png)**
 
 ### F — fog lamp harness
 
@@ -385,7 +385,7 @@ Likewise the "KRAFTSTOFFVORRATGEBER" (T), "STROMVERSORGUNG NEBELLAMPEN" (V) and 
 designations print one block above their wire numbers and were matched by heading. -->
 
 <a id="p328"></a>
-**[PDF p.328]**
+**[PDF p.328](../page-images/p0328.png)**
 
 ### Connections (wires 101–148)
 
@@ -439,7 +439,7 @@ column edge). "Shunter" (105) and "REP" (115) are French terms left as printed �
 probably the indicator relay's warning-lamp terminal ("repétiteur"); not verified. -->
 
 <a id="p329"></a>
-**[PDF p.329]**
+**[PDF p.329](../page-images/p0329.png)**
 
 | Wire | Colour | Ø | From | To | Cable ends |
 |---|---|---|---|---|---|
@@ -459,7 +459,7 @@ breaker ("rupteur") terminal in French usage; "Delco" is the French shop word fo
 The upper half of this sheet is blank apart from bleed-through from the facing page. -->
 
 <a id="p330"></a>
-**[PDF p.330]**
+**[PDF p.330](../page-images/p0330.png)**
 
 ## Bulb table
 
@@ -492,7 +492,7 @@ whereas the component key (PDF p.325) only lists WINDSCREEN heating warning lamp
 printed. The France parking lamp is rated in amperes ("0,25 A"), not watts, as printed. -->
 
 <a id="p331"></a>
-**[PDF p.331]**
+**[PDF p.331](../page-images/p0331.png)**
 
 ## Alternators and voltage regulators
 
@@ -517,7 +517,7 @@ option/market variant. Not a contradiction of the normal-equipment value, but ch
 "30/40 Amp for all other versions" is not true of this variant. -->
 
 <a id="p332"></a>
-**[PDF p.332]**
+**[PDF p.332](../page-images/p0332.png)**
 
 ## Alternator circuit diagrams
 
@@ -529,7 +529,7 @@ star-connected) alternators, each with its six-diode rectifier, separate regulat
 ![Alternator circuit diagrams, S.E.V.-Motorola and Paris-Rhône — PDF p.332](../diagrams/p0332-alternator-circuit-diagrams.png)
 
 <a id="p333"></a>
-**[PDF p.333]**
+**[PDF p.333](../page-images/p0333.png)**
 
 ## Simple testing of the regulator and alternator
 
@@ -580,7 +580,7 @@ from the ignition switch (cable directory, PDF p.324). The printed line reads "E
 [gap] Spannung" — rendered "voltage arrives" from the context of the preceding "no voltage" case. -->
 
 <a id="p334"></a>
-**[PDF p.334]**
+**[PDF p.334](../page-images/p0334.png)**
 
 ## Overhaul of starter Ducellier 6183
 
@@ -621,7 +621,7 @@ are NOT factory labels. "siehe Seite 34" is a page number from another (French) 
 pagination, not this book's; the fork adjustment is on PDF p.338. -->
 
 <a id="p335"></a>
-**[PDF p.335]**
+**[PDF p.335](../page-images/p0335.png)**
 
 ### Reassembly
 
@@ -640,7 +640,7 @@ pagination, not this book's; the fork adjustment is on PDF p.338. -->
 6. Tighten the housing bolts and fit the cover.
 
 <a id="p336"></a>
-**[PDF p.336]**
+**[PDF p.336](../page-images/p0336.png)**
 
 ## Ducellier — replacing the drive pinion and brushes
 
@@ -662,7 +662,7 @@ parts are matched to each other. If these parts are separated on dismantling, on
 must be aligned to each other again so that the pinion engages in the recess of the armature.
 
 <a id="p337"></a>
-**[PDF p.337]**
+**[PDF p.337](../page-images/p0337.png)**
 
 ### Replacing the brushes
 
@@ -691,7 +691,7 @@ Remove the starter motor.
    necessary.
 
 <a id="p338"></a>
-**[PDF p.338]**
+**[PDF p.338](../page-images/p0338.png)**
 
 ## Ducellier — adjusting the engagement fork between solenoid and pinion
 
@@ -711,7 +711,7 @@ have been intended — but the page clearly prints 0,05. Kept as printed: source
 source misprint, not OCR. -->
 
 <a id="p339"></a>
-**[PDF p.339]**
+**[PDF p.339](../page-images/p0339.png)**
 
 ## Overhaul of Paris-Rhône starters
 
@@ -721,7 +721,7 @@ Exploded views of the Paris-Rhône starter types **D 8 E 49** (figure 76474) and
 ![Paris-Rhône starters D 8 E 49 and D 10 E 43 — exploded views — PDF p.339](../diagrams/p0339-paris-rhone-starter-d8e49-d10e43-exploded.png)
 
 <a id="p340"></a>
-**[PDF p.340]**
+**[PDF p.340](../page-images/p0340.png)**
 
 Exploded view of the starter types **D8E71 – D8E84 – D10E48**, with the drive-end housings of
 D8E71 – D10E48 and of D8E84, the field coils of D10E48 and of D8E71 – D8E84 shown separately
@@ -746,7 +746,7 @@ Remove the starter motor.
    commutator segments.
 
 <a id="p341"></a>
-**[PDF p.341]**
+**[PDF p.341](../page-images/p0341.png)**
 
 ### Starter types D 8 E 71 – D 8 E 84 – D 10 E 48
 
@@ -782,7 +782,7 @@ lost — read as D 10 E 43 from the sub-labels beneath it. "siehe Seite 41" is a
 page number; the Paris-Rhône fork adjustment is on PDF p.345. -->
 
 <a id="p342"></a>
-**[PDF p.342]**
+**[PDF p.342](../page-images/p0342.png)**
 
 Rear end bracket assembly, by type: **D 10 E 43** (figure 76549 — spring, washers and bolt
 under the end cap) and **D 8 E 71 – D 8 E 74 – D 10 E 48** (figures 75385.1 and 76420; **3** —
@@ -798,7 +798,7 @@ other occurrence in the chapter is "D 8 E 84" — probably a source misprint for
 the image is clear). The top label prints "D 10 E 4?" with the last digit faint; read as 43. -->
 
 <a id="p343"></a>
-**[PDF p.343]**
+**[PDF p.343](../page-images/p0343.png)**
 
 ## Paris-Rhône — replacing the drive pinion and brushes
 
@@ -826,7 +826,7 @@ Remove the starter motor.
 3. Solder on the new brushes; check the armature and reassemble the starter.
 
 <a id="p344"></a>
-**[PDF p.344]**
+**[PDF p.344](../page-images/p0344.png)**
 
 ## Paris-Rhône — replacing the solenoid
 
@@ -862,7 +862,7 @@ Remove the starter motor.
 3. Then adjust the engagement fork between solenoid and pinion (see page 41 — PDF p.345).
 
 <a id="p345"></a>
-**[PDF p.345]**
+**[PDF p.345](../page-images/p0345.png)**
 
 ## Paris-Rhône — adjusting the engagement fork between solenoid and drive pinion
 
@@ -886,7 +886,7 @@ Rendered "approx. 5 mm" as it now reads. SAFETY: verify this clearance against a
 before setting a starter. -->
 
 <a id="p346"></a>
-**[PDF p.346]**
+**[PDF p.346](../page-images/p0346.png)**
 
 ## Overhaul of S.E.V. Motorola alternators
 
@@ -907,7 +907,7 @@ same exploded view and the alternator table on PDF p.331 both print "34 837". Pr
 misprint in the heading; kept as printed. -->
 
 <a id="p347"></a>
-**[PDF p.347]**
+**[PDF p.347](../page-images/p0347.png)**
 
 5. Remove the four housing bolts.
 6. Insert a screwdriver into the slots between the stator and the front end bracket, and press
@@ -924,7 +924,7 @@ misprint in the heading; kept as printed. -->
    slip rings and the winding connections.
 
 <a id="p348"></a>
-**[PDF p.348]**
+**[PDF p.348](../page-images/p0348.png)**
 
 ### Rear bearing
 
@@ -945,7 +945,7 @@ PDF p.352. -->
 2. Separate the stator and the diode holders from the rear end bracket.
 
 <a id="p349"></a>
-**[PDF p.349]**
+**[PDF p.349](../page-images/p0349.png)**
 
 ### Reassembly
 
@@ -960,7 +960,7 @@ PDF p.352. -->
 To remove the brush holder, remove the two securing screws.
 
 <a id="p350"></a>
-**[PDF p.350]**
+**[PDF p.350](../page-images/p0350.png)**
 
 ## Overhaul of Paris-Rhône alternators
 
@@ -976,7 +976,7 @@ Remove the alternator.
 4. Pull off the pulley.
 
 <a id="p351"></a>
-**[PDF p.351]**
+**[PDF p.351](../page-images/p0351.png)**
 
 5. Remove the four housing bolts.
 6. Insert a screwdriver into the slots between the stator and the front end bracket, so as to
@@ -995,7 +995,7 @@ Remove the alternator.
 "abdrücken" (to press off); rendered "press off" as the operation shown is the same. -->
 
 <a id="p352"></a>
-**[PDF p.352]**
+**[PDF p.352](../page-images/p0352.png)**
 
 ### Replacing the front and rear ball bearings
 
@@ -1012,7 +1012,7 @@ Remove the alternator.
 8. Refit the key.
 
 <a id="p353"></a>
-**[PDF p.353]**
+**[PDF p.353](../page-images/p0353.png)**
 
 **Rear bearing**
 
@@ -1026,7 +1026,7 @@ Remove the alternator.
 Fit the slotted bush into the housing as intended and fit the rotor with both bearings.
 
 <a id="p354"></a>
-**[PDF p.354]**
+**[PDF p.354](../page-images/p0354.png)**
 
 Centre the rear retaining bracket with a **10 mm Ø** drift. Tighten the securing screws.
 

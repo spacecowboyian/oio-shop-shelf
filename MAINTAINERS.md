@@ -33,6 +33,18 @@ stay relative. This is deliberate, and it is the one exception to "no binaries i
 - The cost is small. A manual's diagrams are a few MB — the A110's 72 images are 7 MB against a
   90 MB PDF — and unlike the PDF they are the thing a reader actually needs to open.
 
+**Every page is an image too.** A manual also commits `page-images/p####.png` — the whole book,
+one black-and-white PNG per page at 300 dpi — plus `data/pages.json` indexing them. That is how a
+reader looks at *any* page without the PDF: each `**[PDF p.N]**` marker in the wiki links its own
+page image, and `pages.json` gives a JS client (see `scripts/tv-reader`) or an assistant the page
+list with both a `raw.githubusercontent.com` and a `cdn.jsdelivr.net` base URL.
+
+Curated `diagrams/` entries stay — they are the figures worth calling out by name, with captions
+and a `safety_relevant` flag — but a reader is no longer limited to them.
+
+Cost, for the A110: 45 MB of page images and 7 MB of diagrams, against a 90 MB PDF. Only ever one
+page crosses the network at a time.
+
 So `publish-release.sh` moves **only the PDF**, and `no-pdf-guard` checks **only** `*.pdf`.
 
 ## What a manual PR looks like when it arrives

@@ -11,13 +11,13 @@ workshop drawing for a home-made bracket and modified measuring flags, delivered
 # Section H — Front axle
 
 <a id="p413"></a>
-**[PDF p.413]**
+**[PDF p.413](../page-images/p0413.png)**
 
 Section divider: **VORDERACHSE** (Front axle), tab **H**, with a drawing of the wishbones and
 stub-axle carrier. No other content.
 
 <a id="p414"></a>
-**[PDF p.414]**
+**[PDF p.414](../page-images/p0414.png)**
 
 ## H-1 — Front axle: design and settings
 
@@ -54,7 +54,7 @@ corresponding chapter of the large manual (13-front-axle.md) was still untranscr
 was written. -->
 
 <a id="p415"></a>
-**[PDF p.415]**
+**[PDF p.415](../page-images/p0415.png)**
 
 ## H-2 — Setting the front axle
 
@@ -115,7 +115,7 @@ f) Place the front wheels on turntables.
 g) Lock the wheels with the pedal press.
 
 <a id="p416"></a>
-**[PDF p.416]**
+**[PDF p.416](../page-images/p0416.png)**
 
 ## H-3 — Setting the front axle (continued)
 
@@ -155,7 +155,7 @@ g) on PDF p.415. -->
 See **MR 68** or **MR 131**.
 
 <a id="p417"></a>
-**[PDF p.417]**
+**[PDF p.417](../page-images/p0417.png)**
 
 ## Measuring flag RENAULT 12 (*Messfahne RENAULT 12*) — modified T.Av. 481 and bracket
 

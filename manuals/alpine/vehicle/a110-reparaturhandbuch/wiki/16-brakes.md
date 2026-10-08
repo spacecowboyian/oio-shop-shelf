@@ -18,7 +18,7 @@ drawing and appears to be taken from a Renault saloon manual. -->
 # Braking system (all types)
 
 <a id="p287"></a>
-**[PDF p.287]**
+**[PDF p.287](../page-images/p0287.png)**
 
 Section title page ("BREMSSYSTEM") with a perspective drawing of a front brake caliper and its
 hose on the hub carrier (figure 62536-2). No values.
@@ -27,7 +27,7 @@ hose on the hub carrier (figure 62536-2). No values.
 mirror image. The bleed-through is not transcribed here. -->
 
 <a id="p288"></a>
-**[PDF p.288]**
+**[PDF p.288](../page-images/p0288.png)**
 
 ## Technical data
 
@@ -140,7 +140,7 @@ The drawing shows the machined caliper corner: angles **68°** and **140°**, an
 ![Caliper machining for 13-inch alloy wheels (68°, 140°, 13) — PDF p.288](../diagrams/p0288-caliper-machining-13in-wheels.png)
 
 <a id="p289"></a>
-**[PDF p.289]**
+**[PDF p.289](../page-images/p0289.png)**
 
 ## Operation of the braking system
 
@@ -171,7 +171,7 @@ device**, which works as follows (figures 55 222.3, 55 223.3, 57 741, 57 740):
   **(1)** with it up to the stop **(A)**.
 
 <a id="p290"></a>
-**[PDF p.290]**
+**[PDF p.290](../page-images/p0290.png)**
 
 The clearance of the spring ring in its groove is chosen so that the piston, and therefore the
 pads, can retract by a maximum of **0.7 to 0.8 mm**.
@@ -226,7 +226,7 @@ plate's 1300 VC pad minimum (5.5 mm) — but the plate's 1600 VD/VH minimum is 7
 does not say which models its 5.5 mm applies to. -->
 
 <a id="p291"></a>
-**[PDF p.291]**
+**[PDF p.291](../page-images/p0291.png)**
 
 6. For all work on the brake cylinder (replacing a seal, etc.) **only soft and rounded tools may
    be used.** The slightest damage to the cylinder (scratches, etc.) would cause leaks, and the
@@ -264,7 +264,7 @@ does not say which models its 5.5 mm applies to. -->
 rendered "stub-axle carrier"; "Achsrohre" rendered "axle tubes". -->
 
 <a id="p292"></a>
-**[PDF p.292]**
+**[PDF p.292](../page-images/p0292.png)**
 
 ## Fault-finding
 
@@ -298,7 +298,7 @@ anti-rattle bushes of the caliper). -->
 | 1 | Seats of the vibration dampers too large? | **Front axle:** replace the vibration dampers of 10 mm outside diameter with ones of 10.5 mm outside diameter. **Rear axle:** fit anti-noise springs on both wheels. |
 
 <a id="p293"></a>
-**[PDF p.293]**
+**[PDF p.293](../page-images/p0293.png)**
 
 ### Symptom: "squealing" — shrill noise when braking
 
@@ -342,7 +342,7 @@ anti-rattle bushes of the caliper). -->
 "806.521" here — same number, punctuation differs; both as printed. -->
 
 <a id="p294"></a>
-**[PDF p.294]**
+**[PDF p.294](../page-images/p0294.png)**
 
 ## Removing and refitting a caliper
 
@@ -374,7 +374,7 @@ fluid reservoir"; "Spiritus" rendered "methylated spirit"; "Geräuschdämpfergum
 "anti-noise rubbers". Figures 58591, 58592, 58593. -->
 
 <a id="p295"></a>
-**[PDF p.295]**
+**[PDF p.295](../page-images/p0295.png)**
 
 ### Refitting
 
@@ -420,7 +420,7 @@ If the brake hose is twisted:
 > permissible twist: 1/12 of a turn — fault table, PDF p.292.)
 
 <a id="p296"></a>
-**[PDF p.296]**
+**[PDF p.296](../page-images/p0296.png)**
 
 ## Bleeding with the brake pedal
 
@@ -458,7 +458,7 @@ Figure 55587.2: locknut **(1)**, adjusting screw **(2)**, cam **(3)** of the ope
 lever"; "Halterungsöse" rendered "retaining eye". -->
 
 <a id="p297"></a>
-**[PDF p.297]**
+**[PDF p.297](../page-images/p0297.png)**
 
 ## Freeing and lubricating seized pistons in the wheel cylinders
 
@@ -503,7 +503,7 @@ Fre.12A tool is in place. Scan defect: a neighbouring page shows through faintly
 background of this page; not transcribed. Figures 57 398.1, 58598. -->
 
 <a id="p298"></a>
-**[PDF p.298]**
+**[PDF p.298](../page-images/p0298.png)**
 
 ### Refitting the piston (after lubrication)
 
@@ -537,7 +537,7 @@ Refit the calipers.
 top right margin; not content. -->
 
 <a id="p299"></a>
-**[PDF p.299]**
+**[PDF p.299](../page-images/p0299.png)**
 
 ## Overhauling a caliper
 
@@ -577,7 +577,7 @@ cylinder groove; literally "all-round seal"). Step 6 refers to "die Nute (3) der
 item 3 is the dust cap, so "groove (3)" means the dust-cap groove; kept as printed. -->
 
 <a id="p300"></a>
-**[PDF p.300]**
+**[PDF p.300](../page-images/p0300.png)**
 
 ### B) Assembling the caliper
 
@@ -609,7 +609,7 @@ from the technical data on PDF p.288 (Girling "Amber", not to be mixed). Three d
 fluid designations in the book; reproduced as printed. -->
 
 <a id="p301"></a>
-**[PDF p.301]**
+**[PDF p.301](../page-images/p0301.png)**
 
 3. Guide the pin of the automatic adjuster with a small screwdriver so that it engages in its
    seat (figure 57405.1).
@@ -660,7 +660,7 @@ the scan (°C presumed). This boxed paragraph is in a different typeface from th
 page (a later insertion, typed). -->
 
 <a id="p302"></a>
-**[PDF p.302]**
+**[PDF p.302](../page-images/p0302.png)**
 
 ## Removing and refitting the master cylinder
 
@@ -723,7 +723,7 @@ Check that after the brake pedal is released:
 - there is no residual pressure left in the lines.
 
 <a id="p303"></a>
-**[PDF p.303]**
+**[PDF p.303](../page-images/p0303.png)**
 
 ## Overhauling the single master cylinder
 
@@ -757,7 +757,7 @@ PDF p.302 but item (6) on this page — different figures, each as printed. The 
 a different typeface (a later insertion). -->
 
 <a id="p304"></a>
-**[PDF p.304]**
+**[PDF p.304](../page-images/p0304.png)**
 
 ## Overhauling the tandem master cylinder
 
@@ -786,7 +786,7 @@ aluminium spacer washer.)
 p.303 (linked above). Figure numbers 74 4?5 1 and ?4 424 are only partly legible. -->
 
 <a id="p305"></a>
-**[PDF p.305]**
+**[PDF p.305](../page-images/p0305.png)**
 
 ## Removing the pedals with the master cylinder
 
@@ -822,7 +822,7 @@ Carry out all removal operations in reverse order. Check the free travel of the 
 master cylinder and the free travel of the clutch pedal. Bleed the brakes.
 
 <a id="p306"></a>
-**[PDF p.306]**
+**[PDF p.306](../page-images/p0306.png)**
 
 ## Brake pressure proportioning valve
 
@@ -876,7 +876,7 @@ marked on a hexagon at the valve inlet". -->
 Carry out all removal operations in reverse order. Bleed the braking system.
 
 <a id="p307"></a>
-**[PDF p.307]**
+**[PDF p.307](../page-images/p0307.png)**
 
 ## Removing and refitting a brake disc or an anchor plate — front
 
@@ -903,7 +903,7 @@ To pull the inner bearing off the stub axle, use the puller **B.Vi.28** with the
 carries the caliper bracket and dust shield); "Achsschenkel" rendered "stub axle". -->
 
 <a id="p308"></a>
-**[PDF p.308]**
+**[PDF p.308](../page-images/p0308.png)**
 
 7. Remove the bolts joining the hub and the brake disc (figure 57460).
 8. **Mark the position of the two parts relative to each other** and separate them with a
@@ -939,7 +939,7 @@ the front hub nut before backing off. Centring of the anchor plate: see assembly
 on PDF p.291 (2.5 mm ± 0.5). -->
 
 <a id="p309"></a>
-**[PDF p.309]**
+**[PDF p.309](../page-images/p0309.png)**
 
 ## Removing and refitting a brake disc — rear
 
@@ -981,7 +981,7 @@ on PDF p.291 (2.5 mm ± 0.5). -->
 content. The NOTA box is in a different typeface (a later insertion). -->
 
 <a id="p310"></a>
-**[PDF p.310]**
+**[PDF p.310](../page-images/p0310.png)**
 
 ### Refitting
 
@@ -1013,7 +1013,7 @@ content. The NOTA box is in a different typeface (a later insertion). -->
 rear hub nut has no tolerance printed. -->
 
 <a id="p311"></a>
-**[PDF p.311]**
+**[PDF p.311](../page-images/p0311.png)**
 
 ## "Hydrovac" brake servo
 
@@ -1048,7 +1048,7 @@ The hydraulic braking system comprises:
 - a brake pressure proportioning valve **(12)**.
 
 <a id="p312"></a>
-**[PDF p.312]**
+**[PDF p.312](../page-images/p0312.png)**
 
 ### Technical data (Hydrovac system)
 
@@ -1122,7 +1122,7 @@ the factory fill (matching PDF p.288). But PDF pp.300 and 303 tell you to dip se
 (sic) and "NASIC" are as printed. -->
 
 <a id="p313"></a>
-**[PDF p.313]**
+**[PDF p.313](../page-images/p0313.png)**
 
 ### Brake ratios
 
@@ -1168,7 +1168,7 @@ The vacuum cylinder **(M)** consists of a housing **(5)**, which is firmly attac
 ![Hydrovac brake servo section, items 3–32 — PDF p.313](../diagrams/p0313-hydrovac-servo-section.png)
 
 <a id="p314"></a>
-**[PDF p.314]**
+**[PDF p.314](../page-images/p0314.png)**
 
 A pipe **(16)** connects the left-hand chamber **(17)** of the vacuum cylinder with the right-hand
 side of the diaphragm **(29)** in the control valve **V**.
@@ -1214,7 +1214,7 @@ Proceed as follows (figure 62687):
 2. Remove the drain plug **(4)** **by hand** and empty the vacuum cylinder **(5)**.
 
 <a id="p315"></a>
-**[PDF p.315]**
+**[PDF p.315](../page-images/p0315.png)**
 
 3. Set the unit horizontal.
 4. Fill the cylinder with the special fluid; the filler plug serves as the level.
@@ -1245,7 +1245,7 @@ lubricant.
 > **NOTE:** if there is a fault, send the brake servo unit away for overhaul.
 
 <a id="p316"></a>
-**[PDF p.316]**
+**[PDF p.316](../page-images/p0316.png)**
 
 ## Brake servo — faults
 
@@ -1270,7 +1270,7 @@ lubricant.
 The source table gives causes only (no remedy column).
 
 <a id="p317"></a>
-**[PDF p.317]**
+**[PDF p.317](../page-images/p0317.png)**
 
 ### Servo leak test — conclusion
 
@@ -1300,7 +1300,7 @@ in PDF order. Transcribed in PDF order; read p.318 first. Scan defect: a row of 
 down the left margin (edge of a neighbouring sheet); not content. -->
 
 <a id="p318"></a>
-**[PDF p.318]**
+**[PDF p.318](../page-images/p0318.png)**
 
 ## Checking the braking system
 
@@ -1350,7 +1350,7 @@ Sekunden" and "ca. 35 km/h" are crisp on the image; units as printed (mm of merc
 structure. -->
 
 <a id="p319"></a>
-**[PDF p.319]**
+**[PDF p.319](../page-images/p0319.png)**
 
 ## Replacing the brake pressure proportioning valve (servo-equipped vehicles)
 

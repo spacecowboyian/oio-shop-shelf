@@ -9,13 +9,13 @@ mid-sentence. The page is headed "J-2"; no page "J-1" is present in the scan. --
 # Section J — Rear axle
 
 <a id="p418"></a>
-**[PDF p.418]**
+**[PDF p.418](../page-images/p0418.png)**
 
 Section divider: **HINTERACHSE** (Rear axle), tab **J**, with a drawing of the rear axle and
 power unit from below. No other content.
 
 <a id="p419"></a>
-**[PDF p.419]**
+**[PDF p.419](../page-images/p0419.png)**
 
 ## J-2 — Rear axle: modifications for negative camber
 

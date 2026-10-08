@@ -15,7 +15,7 @@ amends. Cross-checks against those chapters are given in flags; those chapters w
 # Update supplement — general data, engine, ignition, electrical, clutch, gearbox, steering
 
 <a id="p434"></a>
-**[PDF p.434]**
+**[PDF p.434](../page-images/p0434.png)**
 
 ## Supplement title page
 
@@ -46,7 +46,7 @@ L Suspension — shock absorbers, M Brake system, N Body, and a further tab cut 
 edge (presumably R, special tools).
 
 <a id="p435"></a>
-**[PDF p.435]**
+**[PDF p.435](../page-images/p0435.png)**
 
 ## Chapter A — General vehicle data (amends [21](21-fm-a-general.md))
 
@@ -128,7 +128,7 @@ outside temperatures **above 15 °C**.
 On the ALPINE **1600 GS, Group IV**, no thermostat is fitted.
 
 <a id="p436"></a>
-**[PDF p.436]**
+**[PDF p.436](../page-images/p0436.png)**
 
 ### Page B-14 — carburettor and fuel
 
@@ -200,7 +200,7 @@ attention to the correct connections. This motor is supplied through a **12 volt
 type as D8 E71 (not E75): the two documents disagree on that suffix; both as printed. -->
 
 <a id="p437"></a>
-**[PDF p.437]**
+**[PDF p.437](../page-images/p0437.png)**
 
 ## Ignition advance curves R.247, R.262, R.267 and C.34 (amends B-15 / B-16)
 
@@ -230,7 +230,7 @@ legible title. Use the image. The page has a stray hand-written-style mark at th
 ("d.") — ignore. -->
 
 <a id="p438"></a>
-**[PDF p.438]**
+**[PDF p.438](../page-images/p0438.png)**
 
 ## Chapter C — Wiring diagram, electrical equipment (amends [23](23-fm-c-electrical.md))
 
@@ -247,7 +247,7 @@ and component numbers are too small to be transcribed reliably from this scan an
 extracted; use the image together with the tables that follow. -->
 
 <a id="p439"></a>
-**[PDF p.439]**
+**[PDF p.439](../page-images/p0439.png)**
 
 ## Cable directory (*Kabelverzeichnis*) — harness key and harnesses A to C
 
@@ -325,7 +325,7 @@ sensor per the component list, items 58 and 67). The OCR of C3/C4 and of the col
 "Grau" correctly. Ø of C8 is 20/10. -->
 
 <a id="p440"></a>
-**[PDF p.440]**
+**[PDF p.440](../page-images/p0440.png)**
 
 ## Component list (*Kennnummer* — designation) for the wiring diagram
 
@@ -393,7 +393,7 @@ windscreen heating. "Standbeleuchtung"/"Standlicht" = parking/side light. The pa
 margin page number "67" and a thin line printed through the middle of the left table. -->
 
 <a id="p441"></a>
-**[PDF p.441]**
+**[PDF p.441](../page-images/p0441.png)**
 
 ## Cable directory (continued) — harnesses C, D and E
 
@@ -473,7 +473,7 @@ not fit ten wires; the E8-E10 pairings above follow the first occurrence of each
 misaligned by one line. The OCR of E5/E6 ("Gelb bp", "= > oan pb") is wrong; read from the image. -->
 
 <a id="p442"></a>
-**[PDF p.442]**
+**[PDF p.442](../page-images/p0442.png)**
 
 ## Cable directory (continued) — harnesses F, P, R, S, T, V, W
 
@@ -541,7 +541,7 @@ columns are crisp. The colour "Gelb - rot" of R5 and the "Lila - blau" of S6 wer
 image (OCR: "Gelb Berot", "Lila - blau"). -->
 
 <a id="p443"></a>
-**[PDF p.443]**
+**[PDF p.443](../page-images/p0443.png)**
 
 ## Connections table (*Anschlüsse*) — wires 01 to 137
 
@@ -603,7 +603,7 @@ rows and just "von 5" on others; copied as printed. The table continues on the n
 code 138 does not appear (see p.444). -->
 
 <a id="p444"></a>
-**[PDF p.444]**
+**[PDF p.444](../page-images/p0444.png)**
 
 ## Connections table (continued) — wires 139 to 148
 
@@ -629,7 +629,7 @@ brand name — presumably the Delco ignition/alternator); kept as printed. The t
 no further rows; the lower two-thirds of the page is blank. -->
 
 <a id="p445"></a>
-**[PDF p.445]**
+**[PDF p.445](../page-images/p0445.png)**
 
 ## Bulb table (*Lampentabelle*)
 
@@ -668,7 +668,7 @@ two-filament lamp of the first two rows. (5) "Spezialflash" is a printed brand/t
 others; order kept as printed. -->
 
 <a id="p446"></a>
-**[PDF p.446]**
+**[PDF p.446](../page-images/p0446.png)**
 
 ## Chapter C — page C-2 (amends [23](23-fm-c-electrical.md))
 

@@ -9,13 +9,13 @@ No section code is legible in the header of PDF p.423 on this scan. -->
 # Section M — Braking system
 
 <a id="p422"></a>
-**[PDF p.422]**
+**[PDF p.422](../page-images/p0422.png)**
 
 Section divider: **BREMSSYSTEM** (Braking system), tab **M**, with a drawing of a front brake.
 No other content.
 
 <a id="p423"></a>
-**[PDF p.423]**
+**[PDF p.423](../page-images/p0423.png)**
 
 ## M — Braking system: technical data
 

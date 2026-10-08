@@ -15,13 +15,13 @@ only PDF numbers are used for citation. -->
 # Bodywork (Karosserie)
 
 <a id="p355"></a>
-**[PDF p.355]**
+**[PDF p.355](../page-images/p0355.png)**
 
 Chapter title page, "KAROSSERIE", with a line drawing of the bare polyester body shell (no values).
 A faint bleed-through of the reverse page's text is visible; it is not part of this page.
 
 <a id="p356"></a>
-**[PDF p.356]**
+**[PDF p.356](../page-images/p0356.png)**
 
 ## Characteristics
 
@@ -92,7 +92,7 @@ This mostly concerns small cracks or "frayed" surfaces (*"zerfledderte" Oberflä
 places where the plastic has come away from the glass-fibre cloth.
 
 <a id="p357"></a>
-**[PDF p.357]**
+**[PDF p.357](../page-images/p0357.png)**
 
 First, roughen the inner surface (not the pressed one) carefully to remove any trace of paint or
 grease and to achieve a surface condition that guarantees a good bond. This work is often done with
@@ -145,7 +145,7 @@ A properly carried-out repair is absolutely invisible and in no way impairs the 
 treated, since the durability of the body is not reduced (continued on the next page).
 
 <a id="p358"></a>
-**[PDF p.358]**
+**[PDF p.358](../page-images/p0358.png)**
 
 Furthermore, these jobs can be carried out by any body shop, provided one or two workers have
 attended a course of a few days; the latter is, however, only really worthwhile if larger repairs
@@ -222,7 +222,7 @@ central Alpine spare-parts store:
 <!-- NEEDS REVIEW: the right-hand edge of the page cuts off "Teile" after "2" in the TC 50 line (printed "= 2 Teil-"); read as "2 parts" with the OCR's "Teil-" fragment. The abrasive-paper line is printed "220 - 320 / 400 (nass)"; whether 400 applies only to wet sanding is not stated — kept as printed. -->
 
 <a id="p359"></a>
-**[PDF p.359]**
+**[PDF p.359](../page-images/p0359.png)**
 
 Apply 3 to 4 coats directly one after another. Drying time: 5 to 6 hours. Repair minor defects with
 polyester undercoat. Sand with abrasive paper 400 (wet).
@@ -279,7 +279,7 @@ zone, e.g. the upper part up to the cover along the front edge.
 > *Glasfaser-Polyester-Kunststoffe* (Voss, Uetersen).
 
 <a id="p360"></a>
-**[PDF p.360]**
+**[PDF p.360](../page-images/p0360.png)**
 
 ## Table 1 — Paint identification plate (Lack-Identifizierungsschild)
 
@@ -335,7 +335,7 @@ page); each box holds one code digit/number from the three lists below.
 <!-- NEEDS REVIEW: the list is cut off by the bottom edge of the scan; an item 19 is visible only as the upper half of its letters ("Orange Akropolis" is the best reading) and further items may follow on a page not in the scan. Item 19 is therefore NOT entered in the table. Colour names are proper names and translated only for the colour word (Rot, Blau, Grün, Gelb, Weiß). -->
 
 <a id="p361"></a>
-**[PDF p.361]**
+**[PDF p.361](../page-images/p0361.png)**
 
 ## Table 2 — Composition of the Verilac polyurethane lacquers (edition December 1970)
 
@@ -362,7 +362,7 @@ Notes printed under the table:
   lacquer is the same.
 
 <a id="p362"></a>
-**[PDF p.362]**
+**[PDF p.362](../page-images/p0362.png)**
 
 ## Composition of the lacquer replacement kits ("KIT")
 
@@ -392,7 +392,7 @@ Numbers are kit order numbers, copied exactly. Quantities are in kg as printed.
 <!-- NEEDS REVIEW: all part numbers, lacquer codes and quantities read from the page image (the OCR garbled kit 4's number as "60-00_00.17604", the labels "336"/"331" as "335"/"334", and the quantities for kits 2-6 lost their unit). Kit 2 lacquer code is printed "U 146-435" with a hyphen (Table 2 on p.361 prints "U 146 435") — copied as printed. Kit 4 blue code "UX 147 172" differs from Table 2's "UX 172" (see flag on p.361). Page footer "17" is a printed sub-page number, not used. -->
 
 <a id="p363"></a>
-**[PDF p.363]**
+**[PDF p.363](../page-images/p0363.png)**
 
 | No. | Kit | Order no. | Component | Code | Quantity |
 |---|---|---|---|---|---|
@@ -442,7 +442,7 @@ Numbers are kit order numbers, copied exactly. Quantities are in kg as printed.
 <!-- NEEDS REVIEW: source misprint, not OCR — the sequence runs 613 ... 622, then Ruby red printed "632", then 624, 625 ... The number 623 never appears; "632" is almost certainly a misprint for 623, but it is kept exactly as printed (the page image confirms "632"). Do not order Ruby red by this number without checking the parts catalogue. The last five rows print no "Nr." prefix; copied as printed. Page footer "18" is a printed sub-page number. -->
 
 <a id="p364"></a>
-**[PDF p.364]**
+**[PDF p.364](../page-images/p0364.png)**
 
 ## Sealing the windscreen and rear window
 
@@ -486,7 +486,7 @@ In addition, various measures are taken on the body flange (*Karosserieband*):
 (Continued on the next page.)
 
 <a id="p365"></a>
-**[PDF p.365]**
+**[PDF p.365](../page-images/p0365.png)**
 
 ## Roof gutter sealing, and sealing figures A-E
 
@@ -515,7 +515,7 @@ The page prints "Dessin = Abbildung" (the French *dessin*, figure, is used in th
 <!-- NEEDS REVIEW: the dimensions 150 (Fig. C) and 130 (Fig. D) carry no unit on the drawing and the drawings give no further dimensioning; the manual does not say what the dimension is measured from. Read from the image at low resolution; the neighbouring text (PDF p.366) gives only the cutter size and hole diameter. Verify against the physical frame before drilling. -->
 
 <a id="p366"></a>
-**[PDF p.366]**
+**[PDF p.366](../page-images/p0366.png)**
 
 ### Windscreen — drain-hole drilling and refitting (continued)
 
@@ -555,7 +555,7 @@ The remedy is given on the previous page (PDF p.365).
 <!-- NEEDS REVIEW: the headings "2) Rear window" and "c) Sealing the roof gutters" lost their leading markers in the scan ("'Heckscheibe", ") Abdichtung der Dach-Regenrinnen"). The 8 mm and 9.5 mm figures and the seal numbers 60 00 001 281 / 282 were read from the image (OCR agreed). Note the seals are numbered 60 00 000 138/139 on p.364 and 60 00 001 281/282 here — the manual does not say whether the 001 numbers supersede the 000 ones; both copied as printed. -->
 
 <a id="p367"></a>
-**[PDF p.367]**
+**[PDF p.367](../page-images/p0367.png)**
 
 ## Checking the chassis (section A)
 
@@ -615,7 +615,7 @@ trailing arms, right and left.
 <!-- NEEDS REVIEW: all gauge dimensions read from the page image and agree with the OCR except OCR "1005 5 2" (image: 1005 ± 2) and the OCR "1386 mm * 2"/"1380 mm * 2" (image: ± 2). The unit is printed only on A, D; E/E1/B/C are printed without "mm" (the same drawing 05-11-04 prints all of A, B, C, D unitless) — they are in mm by context. The E/E1 offsets and 1° = 3 mm are source values, not derived. "Lotscheibe" rendered "plumb disc"; "Pedalwerk" rendered "pedal assembly". "MR 131" is the manual reference to the earlier workshop manual (chapter N, page N-13), not available in this scan. -->
 
 <a id="p368"></a>
-**[PDF p.368]**
+**[PDF p.368](../page-images/p0368.png)**
 
 The engine axis of the Alpine **1600 S** is nearly horizontal, whereas on the Alpine **1300** it is
 inclined by approx. **3°** (spacer wedges of 12 instead of 6 mm). This difference shows up as an

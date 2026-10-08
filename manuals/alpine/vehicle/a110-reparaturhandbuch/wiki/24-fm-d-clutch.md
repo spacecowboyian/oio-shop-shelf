@@ -9,13 +9,13 @@ the image shows as 0821754400). Part numbers are data and are copied exactly. --
 # Section D — Clutch
 
 <a id="p402"></a>
-**[PDF p.402]**
+**[PDF p.402](../page-images/p0402.png)**
 
 Section divider: **KUPPLUNG** (Clutch), tab **D**, with a drawing of a clutch cover. No other
 content.
 
 <a id="p403"></a>
-**[PDF p.403]**
+**[PDF p.403](../page-images/p0403.png)**
 
 ## D-1 — Clutch: technical data
 
@@ -50,7 +50,7 @@ racing version reads "vorsehen 0855931800 Koeffizient 2 6000000002" — rendered
 It is recommended to remove the engine when the clutch has to be overhauled.
 
 <a id="p404"></a>
-**[PDF p.404]**
+**[PDF p.404](../page-images/p0404.png)**
 
 ## D-2 — Clutch 200 DEC, racing version (*Kupplung 200 DEC – Rennsportausführung*)
 

@@ -10,7 +10,7 @@ surrounding text, i.e. inserted after the page was first typed — flagged where
 # Cooling system (all types)
 
 <a id="p159"></a>
-**[PDF p.159]**
+**[PDF p.159](../page-images/p0159.png)**
 
 ## Cooling system
 
@@ -83,7 +83,7 @@ of the heater matrix ... taken out of service", then describes the effect as a h
 on) — translated as printed. -->
 
 <a id="p160"></a>
-**[PDF p.160]**
+**[PDF p.160](../page-images/p0160.png)**
 
 ## Draining, filling and bleeding the cooling system
 

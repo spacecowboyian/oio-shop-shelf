@@ -12,12 +12,12 @@ transcribed. -->
 # Section A — General
 
 <a id="p378"></a>
-**[PDF p.378]**
+**[PDF p.378](../page-images/p0378.png)**
 
 Section divider: **ALLGEMEINES** (General), tab **A**. No other content.
 
 <a id="p379"></a>
-**[PDF p.379]**
+**[PDF p.379](../page-images/p0379.png)**
 
 ## A-1 — Vehicle design
 
@@ -46,7 +46,7 @@ itself agrees in both printings (1300 = 1300 VC, 1300 G = 1300 VA, 1300 S = 1300
 1600 S = 1600 VB, GS optional). The extra items in chapter 02 reflect that book's later date. -->
 
 <a id="p380"></a>
-**[PDF p.380]**
+**[PDF p.380](../page-images/p0380.png)**
 
 ## A-2 — General vehicle data
 
@@ -129,7 +129,7 @@ Types 353/364: fully synchronised 5-speed gearbox with one reverse gear.
 Floor-mounted gear lever (*Knüppelschaltung*).
 
 <a id="p381"></a>
-**[PDF p.381]**
+**[PDF p.381](../page-images/p0381.png)**
 
 ## A-3 — General vehicle data (continued)
 

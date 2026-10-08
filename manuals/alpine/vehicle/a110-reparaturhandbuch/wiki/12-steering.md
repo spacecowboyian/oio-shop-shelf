@@ -10,13 +10,13 @@ crosses every page but obscures no value in this range. -->
 # Steering (all types)
 
 <a id="p236"></a>
-**[PDF p.236]**
+**[PDF p.236](../page-images/p0236.png)**
 
 Section divider: **Steering** (section tab **G**). The page shows a general view of the steering
 rack and carries no text or values of its own.
 
 <a id="p237"></a>
-**[PDF p.237]**
+**[PDF p.237](../page-images/p0237.png)**
 
 ## Longitudinal section and description
 
@@ -63,7 +63,7 @@ Two mounting types are in use:
 > must be checked without fail — see [Front axle](13-front-axle.md).
 
 <a id="p238"></a>
-**[PDF p.238]**
+**[PDF p.238](../page-images/p0238.png)**
 
 ## Removing and refitting the complete steering
 
@@ -94,7 +94,7 @@ Carry out all the removal operations in reverse order. Do not forget:
 | Nuts (2) — self-locking | 0.750 mkg ± 0.150 |
 
 <a id="p239"></a>
-**[PDF p.239]**
+**[PDF p.239](../page-images/p0239.png)**
 
 - Observe the fitted direction of the bolts **(2)** (bolt head with washer towards the steering
   housing).
@@ -131,7 +131,7 @@ housing:
 > of limited use for that!
 
 <a id="p240"></a>
-**[PDF p.240]**
+**[PDF p.240](../page-images/p0240.png)**
 
 ## Dismantling the steering box
 
@@ -160,7 +160,7 @@ view (fig. 58944) the flange is item (10), and (6) is the plunger circlip. Read 
 (10). -->
 
 <a id="p241"></a>
-**[PDF p.241]**
+**[PDF p.241](../page-images/p0241.png)**
 
 11. Remove the oil seal **(14)** with the extractor **Dir.16**.
 12. Remove the circlip **(15)**, the grease nipple **(16)** and the washer **(19)**.
@@ -173,7 +173,7 @@ view (fig. 58944) the flange is item (10), and (6) is the plunger circlip. Read 
 > bearing **(18)** is pressed off the pinion **(17)**.
 
 <a id="p242"></a>
-**[PDF p.242]**
+**[PDF p.242](../page-images/p0242.png)**
 
 #### Rack
 
@@ -208,7 +208,7 @@ spring seats; reproduced as printed. -->
 > pinion side. This makes reassembly considerably easier.
 
 <a id="p243"></a>
-**[PDF p.243]**
+**[PDF p.243](../page-images/p0243.png)**
 
 ## Reassembly
 
@@ -229,7 +229,7 @@ spring seats; reproduced as printed. -->
 "Dir.18 C" for both the guide mandrel and the fitting fork — corrected from image. -->
 
 <a id="p244"></a>
-**[PDF p.244]**
+**[PDF p.244](../page-images/p0244.png)**
 
 10. Remove the guide mandrel and the fitting fork.
 11. Now fit the second rack bush **(28)** using a tube, and secure it with a new circlip.
@@ -245,7 +245,7 @@ spring seats; reproduced as printed. -->
 > When inserting the pinion **(17)**, the **flat face (A)** of the splines must face the plunger.
 
 <a id="p245"></a>
-**[PDF p.245]**
+**[PDF p.245](../page-images/p0245.png)**
 
 16. Fit in this order: the thrust ring **(19)**, the **new** circlip **(15)**, the **new** oil
     seal **(14)** — oil it before fitting — the spacer **(13)**, the lock washer **(12)** and
@@ -265,7 +265,7 @@ various changes were made, mainly affecting the following parts:
 (see the previous page).
 
 <a id="p246"></a>
-**[PDF p.246]**
+**[PDF p.246](../page-images/p0246.png)**
 
 ## Fitting the rack plunger
 
@@ -296,7 +296,7 @@ oil-seal extractor on PDF p.241. Probably a source misprint for Dir.19 — kept 
 (6) is the snap ring. Kept as printed. -->
 
 <a id="p247"></a>
-**[PDF p.247]**
+**[PDF p.247](../page-images/p0247.png)**
 
 ## Setting the pinion end float
 
@@ -331,7 +331,7 @@ spring-lever method of clamp Dir.19 described above. The OCR reads the torque as
 the image shows 2.25 mkg ± 0.25 — corrected from image. -->
 
 <a id="p248"></a>
-**[PDF p.248]**
+**[PDF p.248](../page-images/p0248.png)**
 
 ## Fitting the Hardy disc
 

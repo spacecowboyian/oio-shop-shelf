@@ -12,13 +12,13 @@ inside the fuel chapter at PDF pp.156-157 and are transcribed there:
 # Clutch
 
 <a id="p161"></a>
-**[PDF p.161]**
+**[PDF p.161](../page-images/p0161.png)**
 
 Section title page: **CLUTCH** (section tab **D**), with a drawing of a diaphragm-spring clutch
 mechanism. No text or values.
 
 <a id="p162"></a>
-**[PDF p.162]**
+**[PDF p.162](../page-images/p0162.png)**
 
 ## Clutch variants
 
@@ -60,7 +60,7 @@ printed pages 165-166, bound in the fuel chapter at PDF pp.156-157 — see
 [Fuel system](08-fuel-system.md).
 
 <a id="p163"></a>
-**[PDF p.163]**
+**[PDF p.163](../page-images/p0163.png)**
 
 ## Setting the clutch free play
 
@@ -88,7 +88,7 @@ release fork 2-3 mm AGREES, and this page prints it legibly for both engine fami
 chapter 02's reading. -->
 
 <a id="p164"></a>
-**[PDF p.164]**
+**[PDF p.164](../page-images/p0164.png)**
 
 ## Release bearing (engine 807/843/844) — replacement
 
@@ -115,7 +115,7 @@ chapter 02's reading. -->
 cylindrical pins A from grooved pins B. -->
 
 <a id="p165"></a>
-**[PDF p.165]**
+**[PDF p.165](../page-images/p0165.png)**
 
 ### Release bearing for a clutch mechanism without release plate (engine 807/843/844)
 
@@ -130,7 +130,7 @@ cylindrical pins A from grooved pins B. -->
    **Molykote BR 2**.
 
 <a id="p166"></a>
-**[PDF p.166]**
+**[PDF p.166](../page-images/p0166.png)**
 
 ## Release fork (engine 807/843/844) — replacement
 
@@ -151,7 +151,7 @@ cylindrical pins A from grooved pins B. -->
 prints them clearly — confirm against the page. -->
 
 <a id="p167"></a>
-**[PDF p.167]**
+**[PDF p.167](../page-images/p0167.png)**
 
 ### Clutch mechanism without release plate (engine 807/843/844)
 
@@ -173,7 +173,7 @@ pins B on PDF p.164. Either a different tool or a source misprint for Emb.384 �
 Both as printed. -->
 
 <a id="p168"></a>
-**[PDF p.168]**
+**[PDF p.168](../page-images/p0168.png)**
 
 ## Replacing the release bearing and fork (engine 810/812)
 
@@ -207,7 +207,7 @@ Both as printed. -->
 for bolt (1). -->
 
 <a id="p169"></a>
-**[PDF p.169]**
+**[PDF p.169](../page-images/p0169.png)**
 
 ## Clutch shaft seal (all types) — replacement
 
@@ -223,7 +223,7 @@ for bolt (1). -->
 4. Refit the gearbox.
 
 <a id="p170"></a>
-**[PDF p.170]**
+**[PDF p.170](../page-images/p0170.png)**
 
 ## Clutch shaft spigot bearing (all types) — replacement
 

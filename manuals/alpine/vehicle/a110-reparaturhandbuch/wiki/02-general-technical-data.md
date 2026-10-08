@@ -9,7 +9,7 @@ previous owner; those are called out individually below and are NOT manual data.
 # General vehicle data and the key-settings plate
 
 <a id="p10"></a>
-**[PDF p.10]**
+**[PDF p.10](../page-images/p0010.png)**
 
 ## Vehicle design
 
@@ -33,7 +33,7 @@ From the 1970 model year the Type A.110 vehicles are available in four versions:
 Identification is by the rhomboid plate fixed in the luggage compartment.
 
 <a id="p11"></a>
-**[PDF p.11]**
+**[PDF p.11](../page-images/p0011.png)**
 
 ## Vehicle dimensions
 
@@ -102,7 +102,7 @@ Types 353/364: fully synchronised 5-speed gearbox with one reverse gear.
 Floor-mounted gear lever (*Knüppelschaltung*).
 
 <a id="p12"></a>
-**[PDF p.12]**
+**[PDF p.12](../page-images/p0012.png)**
 
 ## Transmission
 
@@ -191,7 +191,7 @@ described in 03-engine-ignition-data.md. The racing-filter "+ 0.5" applies to th
 ("2.5 or 4 l") and in the factory manual's A-2. -->
 
 <a id="p13"></a>
-**[PDF p.13]**
+**[PDF p.13](../page-images/p0013.png)**
 
 ## Key settings plate ("Wichtigste Einstellungen")
 

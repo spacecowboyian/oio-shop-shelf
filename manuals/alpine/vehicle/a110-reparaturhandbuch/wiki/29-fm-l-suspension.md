@@ -10,13 +10,13 @@ load as "198 7 2 … LO 9%"). The last line of the page is clipped at the foot o
 # Section L — Suspension and shock absorbers
 
 <a id="p420"></a>
-**[PDF p.420]**
+**[PDF p.420](../page-images/p0420.png)**
 
 Section divider: **AUFHÄNGUNG – STOSSDÄMPFER** (Suspension – shock absorbers), tab **L**, with a
 drawing of a coil spring and a shock absorber. No other content.
 
 <a id="p421"></a>
-**[PDF p.421]**
+**[PDF p.421](../page-images/p0421.png)**
 
 ## L-1 — Suspension and shock absorbers: spring characteristics
 

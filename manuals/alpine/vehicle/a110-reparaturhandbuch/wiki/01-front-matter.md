@@ -6,7 +6,7 @@ The contents pages (PDF 2-6) are NOT reproduced verbatim -- see the note under C
 # Front matter — coverage, chassis numbers, type codes and the service schedule
 
 <a id="p1"></a>
-**[PDF p.1]**
+**[PDF p.1](../page-images/p0001.png)**
 
 ## Cover
 
@@ -25,7 +25,7 @@ that: the chassis-number and type tables below carry the **1600 VA, 1600 VC, 160
 [the key-settings plate](02-general-technical-data.md#key-settings-plate-wichtigste-einstellungen).
 
 <a id="p2"></a>
-**[PDF p.2]**
+**[PDF p.2](../page-images/p0002.png)**
 
 ## Contents
 
@@ -43,16 +43,16 @@ section. Anyone working from the paper book will want them; recovering them mean
 PDF pp.2-6 as images and re-pairing the two columns by eye. Not attempted here. -->
 
 <a id="p3"></a>
-**[PDF p.3]** — contents, continued.
+**[PDF p.3](../page-images/p0003.png)** — contents, continued.
 
 <a id="p4"></a>
-**[PDF p.4]** — contents, continued.
+**[PDF p.4](../page-images/p0004.png)** — contents, continued.
 
 <a id="p5"></a>
-**[PDF p.5]** — contents, continued.
+**[PDF p.5](../page-images/p0005.png)** — contents, continued.
 
 <a id="p6"></a>
-**[PDF p.6]**
+**[PDF p.6](../page-images/p0006.png)**
 
 The contents page closes with the publisher's disclaimer:
 
@@ -62,7 +62,7 @@ The contents page closes with the publisher's disclaimer:
 > jedoch unter Ausschluß jeglicher Haftung!")*
 
 <a id="p7"></a>
-**[PDF p.7]**
+**[PDF p.7](../page-images/p0007.png)**
 
 ## Chassis numbers by build period
 
@@ -105,7 +105,7 @@ The contents page closes with the publisher's disclaimer:
       table legibility. The 1300 S row for 70/71 is a ditto of "Produktionsende". -->
 
 <a id="p8"></a>
-**[PDF p.8]**
+**[PDF p.8](../page-images/p0008.png)**
 
 ## Renault and Alpine type codes with their engines and gearboxes
 
@@ -194,7 +194,7 @@ are at the edge of legibility and could be 88/98. The R8 Major displacement pair
 and output "40/45" are clear. Verify any figure before relying on it. -->
 
 <a id="p9"></a>
-**[PDF p.9]**
+**[PDF p.9](../page-images/p0009.png)**
 
 ## Service diagnosis schedule
 
