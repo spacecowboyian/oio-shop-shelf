@@ -98,14 +98,34 @@ Renault equivalents (R8, R10, R12, R15/17, R16) for sourcing parts.
   head-bolt sequences, the Renault/Alpine type table, the service schedule).
 - The source PDF — all other diagrams, wiring and exploded views live there.
 
-## Conversion status — IMPORTANT
+## Conversion status
 
-**This conversion is in progress.** Only chapters **01, 02 and 03** are transcribed. The other
-32 chapters are **stubs**: they state their PDF page range and nothing else.
+**All 35 chapters are transcribed**, covering every one of the 468 PDF pages (each carries its
+own `**[PDF p.N]**` marker). There are no stubs. **437 review flags** — high, and earned: this is
+a watermarked, hand-annotated typescript scan, and much of the value sits in dense tables whose
+OCR was unusable and which were read from page images instead. Read the flag before quoting a
+flagged value.
 
-If a chapter you need is a stub, **say so and point the user at the source PDF pages** — do not
-tell them the manual has no answer. The absence of a value in this wiki currently means "not
-yet transcribed", not "not in the manual".
+## When the book disagrees with itself — say so
+
+The book prints much of its data two or three times (the large handbook, the October 1970
+factory manual, the supplement, and the key-settings plate), and the printings do not always
+agree. These are recorded in flags in both places, never silently reconciled. The ones a user is
+most likely to hit:
+
+- **Crankshaft end float for the 810** — 0.05–0.23 mm in chapter 05 (p.84) against 0.044–0.16
+  in chapter 03. The 0.05–0.23 figure is the 807's, possibly carried over in the source.
+- **Front toe** — toe-OUT 2 ± 1 mm for every car in chapter 13 (p.250), against toe-out for the
+  1300 VC but toe-IN for the 1600 VD/VH on the key-settings plate.
+- **Front-radiator coolant capacity** — 13 L (chapter 09, p.159) and 13–14 L (supplement)
+  against 9 L on the plate and in the factory manual.
+- **Liner protrusion for the 807** — 0.15–0.20 mm on the plate, 0.10–0.15 at B-9.
+- **Maximum head skim for the 807-25** — 0.30 mm at B-6. Do not use 0.5 mm.
+- **1300 VC idle** — 675–725 rpm (chapter 08, p.151) against 800 ± 50 on the plate.
+
+Where two printings DO agree (main-bearing and big-end torques, the B-2 valve timing, the
+1300 VC brake disc and pad sizes), the flags say so — that agreement is the strongest evidence
+this wiki has that a value is right.
 
 ## Known problems in this source
 
@@ -118,5 +138,15 @@ yet transcribed", not "not in the manual".
 - The dense reference plates (PDF pp.8, 9, 13, 15, 19, 20, 21) OCR to near-noise and were
   transcribed from page images. Their flags are worth reading before you quote them.
 - The **brake disc and pad thickness block** on the key-settings plate (PDF p.13) is
-  safety-relevant and the least legible thing in the manual. Do not let a user judge a disc or
-  pad serviceable from it — send them to the source page.
+  safety-relevant. For the **1300 VC** it is confirmed by the brakes chapter (discs 261 x 7.5 mm
+  new, identical front and rear; pads 9.5 mm new, 5.5 mm limit). For the **1600 VD / VH** the
+  plate's figures (11 mm disc minimum; pads 7 / 16 / 14 mm) appear nowhere else in the book —
+  say so if a user asks.
+- **Hand annotation affects a setting**: the Paris-Rhône starter pinion clearance on p.345 has
+  been inked over ("ca 5 mm"; the typed original may have been 0.5 mm). Do not give a user that
+  figure as settled.
+- **Printed page 192 is missing** from the scan, leaving a gap in the 353/364 gearbox
+  dismantling sequence; chassis section G(b) is announced on p.374 but absent.
+- The **chassis dimension drawings** (pp.369–372) are too faint to set a gauge from; use the
+  typed gauge dimensions on pp.367 and 372, which are clear and agree.
+- **Misfiled pages**: PDF pp.156–157 are clutch pages bound inside the fuel chapter.

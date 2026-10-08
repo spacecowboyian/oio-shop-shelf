@@ -585,3 +585,63 @@ diagrams:
     depth: gray
     caption: "Paris-Rhône starter — engagement fork adjustment, clearance H, solenoid supply, adjusters A and B"
     safety_relevant: false
+  - page: 437
+    file: "diagrams/p0437-advance-curves-r247-r262-r267-c34.webp"
+    kind: chart
+    depth: mono
+    caption: "Supplement: ignition advance curves R.247, R.262, R.267 and C.34"
+    safety_relevant: false
+  - page: 438
+    file: "diagrams/p0438-wiring-diagram-france.webp"
+    kind: wiring
+    depth: gray
+    caption: "Supplement: wiring diagram, electrical equipment, France version"
+    safety_relevant: false
+  - page: 460
+    file: "diagrams/p0460-windscreen-sealing-figures-a-e.webp"
+    kind: chart
+    depth: mono
+    caption: "Supplement: windscreen and rear-window sealing profiles and drain-hole positions (figures A-E)"
+    safety_relevant: false
+  - page: 462
+    file: "diagrams/p0462-tool-drawing-05-11-02-overall.webp"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-02: mounting-block supports for the straightening bench, overall and section A-A"
+    safety_relevant: false
+  - page: 463
+    file: "diagrams/p0463-tool-drawing-05-11-02-wedges-sections.webp"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-02: wedges, detail D, sections B-B and C-C"
+    safety_relevant: false
+  - page: 464
+    file: "diagrams/p0464-tool-drawing-05-11-03-antiroll-holder.webp"
+    kind: chart
+    depth: mono
+    caption: "Tool drawing 05-11-03: anti-roll-bar bearing-block holder"
+    safety_relevant: false
+  - page: 465
+    file: "diagrams/p0465-chassis-measuring-points-05-11-04.webp"
+    kind: chart
+    depth: mono
+    caption: "Chassis measuring points, seen from below (drawing 05-11-04), with gauge Car.27 marks"
+    safety_relevant: true
+  - page: 466
+    file: "diagrams/p0466-chassis-general-05-11-07.webp"
+    kind: chart
+    depth: mono
+    caption: "General chassis drawing 05-11-07, side and plan, with main dimensions"
+    safety_relevant: true
+  - page: 467
+    file: "diagrams/p0467-chassis-front-views-05-11-07.webp"
+    kind: chart
+    depth: gray
+    caption: "Chassis front views 05-11-07 with engine-mount versions"
+    safety_relevant: true
+  - page: 24
+    file: "diagrams/p0024-liner-seals-807-vs-843-844.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engines 807 / 843 / 844 — liner seat seals: Excelnyl flat seal (807) against O-ring (843/844)"
+    safety_relevant: false
