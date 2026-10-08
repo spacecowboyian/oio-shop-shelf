@@ -277,18 +277,15 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
     prefer = ((manifest.get("render", {}) or {}).get("image_base") or "raw").lower()
     if prefer not in ("raw", "cdn"):
         sys.exit(f"render.image_base must be 'raw' or 'cdn', got {prefer!r}")
-    # The CDN base is pinned to the current commit, not to the branch. @<sha> is immutable, so
-    # jsDelivr serves it with max-age=1y and it can never go stale — which is the one thing that
-    # made the branch form (@main, 12 h edge cache) a bad default after a correction.
-    sha = None
-    try:
-        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=mdir,
-                             capture_output=True, text=True, check=True).stdout.strip() or None
-    except subprocess.CalledProcessError:
-        pass
+    # The CDN base tracks the branch, NOT a commit SHA. A SHA pin looks attractive (immutable,
+    # max-age=1y) but this repo squash-merges, so the SHA generated on a PR branch is discarded
+    # at merge and the URL is left pointing at an unreferenced object that GitHub will collect
+    # sooner or later. @<branch> always resolves. The cost is jsDelivr's ~12 h edge cache on a
+    # CHANGED file; new files appear immediately, and a correction can be forced out with
+    # https://purge.jsdelivr.net/gh/<repo>@<branch>/<path>
     bases = ({
         "raw": f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}/",
-        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{sha or branch}/{rel}/",
+        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{branch}/{rel}/",
     } if repo else {})
     base = bases.get(prefer) if bases else None
 
@@ -329,10 +326,12 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         # `cdn` is pinned to the commit these images came from, so it is immutable and cannot
         # serve a stale copy — the one reason it used to be the wrong default.
         "base_url": ({**bases, "used": prefer,
-                      "note": ("`url` on each page is already absolute — prefer it. `raw` is "
-                               "GitHub itself and always current. `cdn` is jsDelivr pinned to "
-                               "the commit these images were generated from: immutable and fast, "
-                               "but frozen, so it will not pick up a later correction.")}
+                      "note": ("`url` on each page is already absolute — prefer it. `cdn` is "
+                               "jsDelivr: use it for anything that has to RENDER in a chat "
+                               "client, which commonly refuses raw.githubusercontent.com as an "
+                               "image source. `raw` is GitHub itself and is the freshest, but "
+                               "is better for fetching a file than for displaying one. jsDelivr "
+                               "edge-caches a changed file ~12 h; purge.jsdelivr.net forces it.")}
                      if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [
