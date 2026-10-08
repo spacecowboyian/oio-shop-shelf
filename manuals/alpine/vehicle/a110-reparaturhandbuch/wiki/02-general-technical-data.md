@@ -253,7 +253,7 @@ right-hand end whose meaning is not labelled. Transcribed from the page image; t
 of this chapter left these as an image only, which an assistant that cannot load images could
 not use. -->
 
-![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0013-key-settings-plate.png)
+![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](../diagrams/p0013-key-settings-plate.png)
 
 **Lubrication** — minimum oil pressure at 80 °C:
 

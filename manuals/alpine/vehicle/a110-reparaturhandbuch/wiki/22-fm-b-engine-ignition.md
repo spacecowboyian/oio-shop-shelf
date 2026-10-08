@@ -507,7 +507,7 @@ Each con-rod has a cast lug on the raised side of its foot, to make orientation 
 - The con-rods of cylinders **2 and 4** are also oriented the same way, **but with the cast lug
   towards the flywheel**.
 
-![Con-rod of the 812-00 and 1300 S: raised foot dimension A and orientation lug — PDF p.391](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0391-conrod-raised-foot-812-1300s.png)
+![Con-rod of the 812-00 and 1300 S: raised foot dimension A and orientation lug — PDF p.391](../diagrams/p0391-conrod-raised-foot-812-1300s.png)
 
 <a id="p392"></a>
 **[PDF p.392]**
@@ -539,7 +539,7 @@ Corresponds in all respects to the valve gear of the original Renault engines.
 The page shows the timing chain and sprocket marks for the **1300 – 1300 G – 1300 S** (figure
 59 016-2) and for the **1600 S** (figure 67 290-1).
 
-![Timing chain sprocket marks on the line of centres — 1300/1300 G/1300 S (left) and 1600 S (right) — PDF p.392](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0392-timing-marks-1300-1600s.png)
+![Timing chain sprocket marks on the line of centres — 1300/1300 G/1300 S (left) and 1600 S (right) — PDF p.392](../diagrams/p0392-timing-marks-1300-1600s.png)
 
 | Camshaft end float in mm | 1300 | 1300 G | 1300 S | 1600 S | 1600 GS |
 |---|---|---|---|---|---|
@@ -681,7 +681,7 @@ The page prints three advance curves (degrees against engine speed), each with a
 tolerance band: **R. 230**, **R. 234** and **R. 236**. They are charts only and are delivered as
 an image.
 
-![Centrifugal advance curves R. 230, R. 234 and R. 236 — PDF p.397](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0397-advance-curves-r230-r234-r236.png)
+![Centrifugal advance curves R. 230, R. 234 and R. 236 — PDF p.397](../diagrams/p0397-advance-curves-r230-r234-r236.png)
 
 Axis labels legible on the scan:
 

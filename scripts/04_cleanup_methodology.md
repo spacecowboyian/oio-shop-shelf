@@ -201,8 +201,11 @@ for in-chat delivery instead of only citing the page (see [issue #1](https://git
    ```markdown
    ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.png)
    ```
-   Keep it relative so it previews inside the PR; `publish-release.sh` rewrites it to the
-   stable Release URL at merge (the image is stripped from git, same as the source PDF).
+   **The path stays relative, and the image stays in git.** Unlike the source PDF, diagram
+   images are committed: a Release asset 302s to a signed URL on another host and is served as
+   `application/octet-stream`, which an external AI assistant can neither fetch nor read. A file
+   in the tree is served as `image/png` from the same host as the markdown — verified working
+   with ChatGPT, which read a bolt sequence correctly off a `raw.githubusercontent.com` URL.
 
 Still transcribe every value, table, or step you *can* faithfully pull from the figure
 (Rule 10) — the image supplements the text, it does not excuse skipping transcription.
@@ -210,8 +213,8 @@ Still transcribe every value, table, or step you *can* faithfully pull from the 
 of the numbers in the figure, but it is still transcribable: write it out as rows of numbers
 (e.g. "far row 10-6-1-3-7, near row 8-4-2-5-9, clutch end on the right"), with the
 orientation if the page gives one. Many AI assistants that read this wiki cannot open the
-image at all — ChatGPT's web reader cannot fetch a GitHub Release asset — so a sequence that
-exists only as a picture is, for them, missing.
+image at all, and even one that can may be answering from the text — so a sequence that exists
+only as a picture is, for some readers, missing.
 And reserve delivery for genuinely diagram-only content: don't image-dump a page whose
 substance is already faithfully in the markdown.
 
@@ -279,8 +282,8 @@ per change: date · what changed · why (link the PR/issue).
   `05_build_indexes.py` to reserve only the specific `11?-alphabetical-index.md` filenames so a
   chapter numbered `11a` is no longer silently dropped from the indexes.
 - 2026-07-12 · Added Rule 12 (diagram delivery): diagram-only figures are now rendered to a
-  compact WebP and embedded at the citation point (relative link, flipped to the Release URL
-  at merge), instead of a bare "see PDF p.N" placeholder. Updated Rule 6 accordingly (#1).
+  compact image embedded at the citation point, instead of a bare "see PDF p.N" placeholder.
+  Updated Rule 6 accordingly (#1).
 - 2026-10-06 · Added Rule 13 (translated sources) from the Alpine A110 German
   `Reparaturhandbuch` conversion: translation is a second pass that can corrupt values, so
   units, decimal commas, part numbers and type codes are fenced off from it, and an uncertain
