@@ -543,3 +543,45 @@ diagrams:
     depth: mono
     caption: "Chassis seen from below with gauge points A-B-C-D-E and gauge Car.27 marks, drawing 05-11-04"
     safety_relevant: true
+  - page: 323
+    file: "diagrams/p0323-wiring-diagram-france.webp"
+    kind: wiring
+    depth: gray
+    caption: "Wiring diagram, A110, French-market equipment (Schaltplan)"
+    safety_relevant: false
+  - page: 332
+    file: "diagrams/p0332-alternator-circuit-diagrams.webp"
+    kind: wiring
+    depth: mono
+    caption: "Alternator circuit diagrams, S.E.V.-Motorola and Paris-Rhône"
+    safety_relevant: false
+  - page: 334
+    file: "diagrams/p0334-ducellier-6183-terminals.webp"
+    kind: exploded
+    depth: gray
+    caption: "Ducellier 6183 starter, with hand-added terminal letters A, B, C"
+    safety_relevant: false
+  - page: 338
+    file: "diagrams/p0338-ducellier-fork-adjustment.webp"
+    kind: exploded
+    depth: gray
+    caption: "Ducellier starter — engagement fork adjustment, clearances F and G and adjusting nut 1"
+    safety_relevant: false
+  - page: 339
+    file: "diagrams/p0339-paris-rhone-starter-d8e49-d10e43-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starters D 8 E 49 and D 10 E 43 — exploded views"
+    safety_relevant: false
+  - page: 340
+    file: "diagrams/p0340-paris-rhone-starter-d8e71-d8e84-d10e48-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Paris-Rhône starters D8E71, D8E84, D10E48 — exploded view with type-specific parts"
+    safety_relevant: false
+  - page: 345
+    file: "diagrams/p0345-paris-rhone-fork-adjustment.webp"
+    kind: exploded
+    depth: gray
+    caption: "Paris-Rhône starter — engagement fork adjustment, clearance H, solenoid supply, adjusters A and B"
+    safety_relevant: false
