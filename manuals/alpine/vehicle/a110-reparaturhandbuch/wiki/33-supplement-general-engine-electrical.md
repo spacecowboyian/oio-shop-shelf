@@ -209,7 +209,7 @@ line inside a tolerance band: **R.247** and **C.34** (distributor 4245 for the 8
 (distributor 4311) and **R.267** (distributor 4355). They are charts only and are delivered as an
 image.
 
-![Ignition advance curves R.247, R.262, R.267 and C.34 — PDF p.437](../diagrams/p0437-advance-curves-r247-r262-r267-c34.png)
+![Ignition advance curves R.247, R.262, R.267 and C.34 — PDF p.437](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0437-advance-curves-r247-r262-r267-c34.png)
 
 Tick labels legible on the scan (speed in rpm / advance in degrees, as read):
 
@@ -240,7 +240,7 @@ signalling). The diagram is delivered as an image. Each component is marked with
 component list on p.440; each wire carries its code from the cable directory on pp.439 and
 441-442 and the connections table on pp.443-444 (letters A to W, numbers 01 to 148).
 
-![Wiring diagram, electrical equipment, "France" equipment — PDF p.438](../diagrams/p0438-wiring-diagram-france.png)
+![Wiring diagram, electrical equipment, "France" equipment — PDF p.438](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0438-wiring-diagram-france.png)
 
 <!-- NEEDS REVIEW: the diagram is dense line art at about 200 dpi under a watermark. Wire codes
 and component numbers are too small to be transcribed reliably from this scan and have not been
