@@ -167,28 +167,102 @@ for in-chat delivery instead of only citing the page (see [issue #1](https://git
    ```yaml
    diagrams:
      - page: 66
-       file: "diagrams/p0066-headbolt-loosening-sequence.webp"
+       file: "diagrams/p0066-headbolt-loosening-sequence.png"
        kind: sequence          # sequence | wiring | exploded | chart
-       depth: mono             # mono = pure line art (~30 KB); gray = page has a photo/halftone (~70 KB)
+       depth: mono             # mono = thresholded black-and-white; gray = genuine photo/halftone only
+       # threshold: 42         # optional, mono only: percent, default 60 — see below
        caption: "Cylinder head bolt loosening sequence"
        safety_relevant: true   # set when a wrong reading risks damage/injury (bolt order, torque sequence)
    ```
-   Name the file `diagrams/p<NNNN>-<short-slug>.webp` (zero-padded source page). Pick
-   `depth: mono` for clean line art; `gray` only if the page carries a photo or halftone
-   shading that a 1-bit threshold would wreck.
+   Name the file `diagrams/p<NNNN>-<short-slug>.png` (zero-padded source page). PNG, not
+   WebP: every viewer, tool and AI pipeline reads it, and for black-and-white images the size
+   difference is only ~20%. (Existing manuals that already ship `.webp` still render; the
+   format follows the extension.)
+   Pick `depth: mono` for scanned print — line art, typed plates, procedure photos printed as
+   line art. It renders the page in grayscale, stretches the contrast and **thresholds** it
+   to pure black and white, which drops the gray paper tone, scanner shading and light
+   watermarks and keeps thin numbers crisp. (Do not use pdftoppm's own `-mono`: it dithers
+   that gray into speckle.) Use `gray` only for a genuine photo or halftone that a threshold
+   would turn into blotches.
+   **Check every render.** A page with darker paper or a darker watermark comes out speckled
+   or with the watermark as solid black lettering; add `threshold: 42` (or lower, e.g. 35) to
+   that entry and re-render. A lower threshold drops more of the gray but can thin out faint
+   lines, so look at the result. A watermark printed as dark as the drawing cannot be
+   removed by any threshold — accept it and move on.
+   **Resolution:** set `render.diagram_dpi` in the manifest. Never render below the scan's
+   native resolution (`pdfimages -list` on the source shows it as x-ppi) — anything lower
+   throws real detail away. 300 dpi is a good default for scans around 200-300 ppi: above the
+   native resolution it adds no information, but upsampling before the threshold gives
+   smoother edges when the image is zoomed on a large screen. Expect ~50-150 KB per page.
 2. **Render it:** `python scripts/02_render_pages.py manuals/<slug>/ --diagrams` (renders
-   every `diagrams:` page at its depth to a lossless WebP).
+   every `diagrams:` page at its depth, fresh from the PDF — never from a previously shipped
+   image).
 3. **Embed it at the citation point** with a **relative** path — not a bare page reference:
    ```markdown
-   ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.webp)
+   ![Cylinder head bolt loosening sequence — PDF p.66](../diagrams/p0066-headbolt-loosening-sequence.png)
    ```
-   Keep it relative so it previews inside the PR; `publish-release.sh` rewrites it to the
-   stable Release URL at merge (the image is stripped from git, same as the source PDF).
+   **The path stays relative, and the image stays in git.** Unlike the source PDF, diagram
+   images are committed: a Release asset 302s to a signed URL on another host and is served as
+   `application/octet-stream`, which an external AI assistant can neither fetch nor read. A file
+   in the tree is served as `image/png` from the same host as the markdown — verified working
+   with ChatGPT, which read a bolt sequence correctly off a `raw.githubusercontent.com` URL.
+
+**Every page is already delivered as an image.** `02_render_pages.py --page-images` renders the
+whole book to `page-images/p####.png` (committed) and each `**[PDF p.N]**` marker links its own
+page. So registering a `diagrams:` entry is no longer what makes a figure *reachable* — it is how
+you give a figure a **name, a caption and a safety flag**, so it can be cited and embedded at the
+point it matters. Register the figures a reader would ask for by name; don't try to enumerate
+every illustration in the book.
 
 Still transcribe every value, table, or step you *can* faithfully pull from the figure
 (Rule 10) — the image supplements the text, it does not excuse skipping transcription.
+**This includes sequences.** A bolt tightening or loosening order is carried by the positions
+of the numbers in the figure, but it is still transcribable: write it out as rows of numbers
+(e.g. "far row 10-6-1-3-7, near row 8-4-2-5-9, clutch end on the right"), with the
+orientation if the page gives one. Many AI assistants that read this wiki cannot open the
+image at all, and even one that can may be answering from the text — so a sequence that exists
+only as a picture is, for some readers, missing.
 And reserve delivery for genuinely diagram-only content: don't image-dump a page whose
 substance is already faithfully in the markdown.
+
+## Rule 13 — Translated sources: translate the prose, never the data
+
+Some manuals are not in English (the Alpine A110 `Reparaturhandbuch` is German). Translating
+is allowed and often the point — but it is a second place numbers can die, on top of OCR, so
+it is fenced:
+
+- **Never convert a unit, and never change a digit.** Rule 0 applies to the translation pass as
+  hard as to the OCR pass. Do not convert units (`m.daN` stays `m.daN`, never silently becomes
+  `N·m`), do not re-order a range, and do not round. Part numbers, type codes and section codes
+  are data, not words: `Ventildeckel` translates, `R.1135` does not.
+- **DO normalize decimal separators to the English convention.** A German source writes
+  `0,044` for forty-four thousandths and `10.000` for ten thousand. An English-language wiki
+  that keeps those reads as wrong numbers to its actual audience — `0,044` looks like a list
+  and `10.000` looks like ten. So: a decimal comma becomes a decimal **point** (`0,044 mm` →
+  `0.044 mm`), and a thousands point becomes a thousands **comma** or nothing (`10.000 km` →
+  `10,000 km`). This changes notation, never value, and it is the one reformatting Rule 13
+  permits.
+  Do it by audit, not by blind regex: list every `digit,digit` token in the chapter first and
+  eyeball it, because the two cases look alike. `0,840` is a decimal; `15,000` written by you
+  earlier in English is already a thousands separator and must not be flipped back.
+  Say in the chapter's source note that separators were normalized, so a reader comparing
+  against the page knows why the page shows a comma and the wiki shows a point.
+- **Translate the prose, keep the manual's terms of art.** Use the `auto-mechanic` glossary's
+  canonical English component names. Where a source term has no clean English equivalent, or
+  the right term depends on context you cannot settle, keep the source word and flag it rather
+  than inventing one.
+- **Record the source word whenever the translation is uncertain.** Put the printed foreign
+  term inside the flag, so the choice stays auditable without reopening the PDF:
+  ```markdown
+  Valve cover <!-- NEEDS REVIEW: printed "Ventildeckel"; rendered "valve cover" (rocker cover) -->
+  ```
+  A wiki that is English-only loses the ability to search the source language, so the flags are
+  the only audit trail left — do not skip them to keep the prose tidy.
+- **Headings carry the section's own wording where it is an identifier.** A chapter whose
+  printed title is a type code or section name keeps that code in the heading.
+- **Never translate from the OCR alone on a dense table.** Table OCR in a scanned non-English
+  manual fails in both directions at once (bad glyphs AND bad word order). Read the page image
+  before transcribing any table whose cells carry type codes or specs.
 
 ## Output checklist (self-verify before saving)
 
@@ -215,5 +289,17 @@ per change: date · what changed · why (link the PR/issue).
   `05_build_indexes.py` to reserve only the specific `11?-alphabetical-index.md` filenames so a
   chapter numbered `11a` is no longer silently dropped from the indexes.
 - 2026-07-12 · Added Rule 12 (diagram delivery): diagram-only figures are now rendered to a
-  compact WebP and embedded at the citation point (relative link, flipped to the Release URL
-  at merge), instead of a bare "see PDF p.N" placeholder. Updated Rule 6 accordingly (#1).
+  compact image embedded at the citation point, instead of a bare "see PDF p.N" placeholder.
+  Updated Rule 6 accordingly (#1).
+- 2026-10-06 · Added Rule 13 (translated sources) from the Alpine A110 German
+  `Reparaturhandbuch` conversion: translation is a second pass that can corrupt values, so
+  units, decimal commas, part numbers and type codes are fenced off from it, and an uncertain
+  translation must carry the printed source term in its flag.
+- 2026-10-06 · Rule 13 amended: decimal separators ARE normalized to the English
+  convention (comma → point, thousands point → comma), since an English wiki that keeps German
+  separators shows its readers wrong-looking numbers. Units, digits and ranges stay untouched.
+- 2026-10-08 · Rule 12 amended after the Alpine A110 head-bolt failure: diagrams render to
+  PNG (not WebP) as thresholded black-and-white, with a per-diagram `threshold:` override and a
+  rule never to render below the scan's native resolution (300 dpi recommended for zoom). Bolt
+  sequences must be transcribed as text too — an assistant that cannot load the image could not
+  answer "what's the head-bolt sequence?" from an image-only figure.

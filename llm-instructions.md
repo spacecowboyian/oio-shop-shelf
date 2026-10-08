@@ -87,6 +87,35 @@ SRI), unit/torque-table conventions, and known OCR misread patterns are exactly 
 of context that's easy to get wrong even when the raw text is right there. The glossary
 covers this once, for every manual in the repo.
 
+## Showing a page to the user
+
+A manual that has `data/pages.json` publishes **every page as an image**, and the scanned page
+is most of the value — so show it, don't just cite a page number. These rules live here so a
+user never has to paste them into a prompt.
+
+**The requirement, for every client:**
+
+- **Take the `url` straight from `pages.json`.** It is absolute and already points at whichever
+  host that manual serves images from. Don't rebuild it from `base_url.raw`:
+  raw.githubusercontent.com is right for *fetching* a file but is commonly refused as an image
+  source, which is how you end up displaying a broken image. Prefer a page's `diagram.url` where
+  it has one.
+- **Attach it as a normal chat image if you can** — that is the only route to the client's own
+  viewer and tap-to-zoom. Otherwise use whatever inline image mechanism your client supports.
+- **Caption each image** on the next line: `PDF page N · IMAGE_URL`.
+- **Show every page the answer rests on**, each captioned.
+- **Never say a page is unavailable** — every page has an image. Never redraw a manual page;
+  your own diagram may accompany the real one, marked as yours, never replace it.
+
+**Acceptance criterion.** A technical answer is not finished until the scan is actually
+displayed, *or* you have said plainly that you could not display it and why. Never describe an
+image as shown when it rendered as a link, a placeholder or a broken image — say which happened
+and give the url.
+
+**How** a client turns a URL into a visible image is its own business and changes without
+notice, so this repo mandates no mechanism. A manual's own `wiki/llm-instructions.md` records
+what has been observed per client, as observations rather than rules.
+
 ## Rules that apply to every manual in this repo
 
 These are enforced by the cleanup process (`scripts/04_cleanup_methodology.md`) that

@@ -1,16 +1,21 @@
 #!/usr/bin/env bash
-# publish-release.sh — move a manual's committed binaries (source PDF + diagram images)
-# to a GitHub Release and repoint the manifest / wiki at the release URLs, so nothing
-# binary ever lands in git history (keeps clones light — see MAINTAINERS.md).
+# publish-release.sh — move a manual's source PDF to a GitHub Release and repoint the
+# manifest at the release URL, so the (large) PDF never lands in git history (keeps clones
+# light — see MAINTAINERS.md). Diagram images stay in the tree; see below.
 #
 # Run this on a manual PR's branch BEFORE squash-merging. It is idempotent: re-running
 # re-uploads (--clobber) and leaves the manifest/wiki pointing at the same URLs.
 #
 #   scripts/publish-release.sh manuals/toyota/vehicle/mr2-aw11
 #
-# Handles two kinds of committed binary, both stripped from the tree here:
-#   - the source PDF        -> manifest `source:` flips local -> release URL
-#   - diagrams/*.webp       -> relative wiki embeds rewrite to the release URL (issue #1)
+# Handles the source PDF only: manifest `source:` flips local -> release URL and the PDF is
+# removed from the tree.
+#
+# Diagram images are NOT touched. They stay committed in `diagrams/` so that
+# `raw.githubusercontent.com` serves them to external readers: a Release asset 302s to a
+# signed URL on another host and is served as application/octet-stream, which an external AI
+# assistant can neither fetch nor read. A file in the tree is served as image/png from the
+# same host as the markdown. Wiki embeds therefore stay relative (`../diagrams/x.png`).
 #
 # Requires: gh (authenticated with repo write access), python3, git.
 set -euo pipefail
@@ -20,9 +25,8 @@ dir="${dir%/}"
 [ -f "$dir/manifest.yml" ] || { echo "No manifest.yml in '$dir'." >&2; exit 1; }
 
 pdf="$(git ls-files "$dir/*.pdf" | head -1 || true)"
-imgs="$(git ls-files "$dir/diagrams/*" || true)"
-if [ -z "$pdf" ] && [ -z "$imgs" ]; then
-  echo "No tracked PDF or diagram images under '$dir' — nothing to publish." >&2
+if [ -z "$pdf" ]; then
+  echo "No tracked PDF under '$dir' — nothing to publish. (Diagram images stay in the tree by design.)" >&2
   exit 1
 fi
 
@@ -39,11 +43,12 @@ ensure_release() {
   gh release view "$tag" >/dev/null 2>&1 && return 0
   gh release create "$tag" \
     --title "$title — source material" \
-    --notes "Source PDF + diagram images for \`$dir\`.
+    --notes "Source PDF for \`$dir\`.
 
 Kept out of git history (see MAINTAINERS.md): the wiki markdown in the repo is authoritative
-for specs and procedures. The PDF and the rendered diagram/wiring/exploded-view images are
-only needed to *show* the user something that has no text equivalent, so they live here."
+for specs and procedures, and this PDF is only needed for the original scanned pages. The
+rendered diagram images are NOT here — they live in the repo under \`diagrams/\`, so that
+raw.githubusercontent.com serves them to external readers."
 }
 
 # --- Source PDF: upload as a slug-named asset, repoint manifest, strip from tree ---------
@@ -85,37 +90,5 @@ PY
   echo "✓ '$pdf' removed from git; manifest source → $url"
 fi
 
-# --- Diagram images: upload, rewrite relative wiki embeds to release URLs, strip ---------
-if [ -n "$imgs" ]; then
-  n="$(printf '%s\n' "$imgs" | grep -c . || true)"
-  echo "→ Publishing $n diagram image(s) → release '$tag'"
-  ensure_release
-  # shellcheck disable=SC2086
-  printf '%s\n' "$imgs" | xargs gh release upload "$tag" --clobber
-  base="https://github.com/$repo/releases/download/$tag"
-
-  # Rewrite each image's relative embed (e.g. ](../diagrams/pNNNN.webp)) to its release URL
-  # across the manual's wiki/*.md — the same "flip the link at merge" the PDF does. The
-  # committed relative form is what let a reviewer preview the image inside the PR.
-  python3 - "$dir/wiki" "$base" <<'PY'
-import re, sys, pathlib
-wiki, base = pathlib.Path(sys.argv[1]), sys.argv[2]
-# ](<any ../>diagrams/<name>) -> ](<base>/<name>)
-pat = re.compile(r'\]\((?:\.\./)*diagrams/([^)\s]+)\)')
-for md in wiki.glob("*.md"):
-    s = md.read_text(encoding="utf-8")
-    ns = pat.sub(lambda m: "](%s/%s)" % (base, m.group(1)), s)
-    if ns != s:
-        md.write_text(ns, encoding="utf-8")
-PY
-
-  while IFS= read -r img; do
-    [ -n "$img" ] && git rm --quiet "$img"
-  done <<EOF
-$imgs
-EOF
-  git add "$dir/wiki" 2>/dev/null || true
-  echo "✓ diagram image(s) removed from git; wiki embeds repointed to $base/"
-fi
 
 echo "  Next: commit these changes, confirm the 'no-binary' checks are green, then SQUASH-merge."

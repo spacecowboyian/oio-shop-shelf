@@ -1,6 +1,8 @@
 # Regenerable OCR intermediates
 **/raw-ocr/
 **/*.rendered/
+# Working renders for the cleanup step (grayscale, regenerable). NOT page-images/, which is
+# the committed black-and-white set a reader is shown.
 manuals/**/pages/
 manuals/**/prepared.pdf
 
