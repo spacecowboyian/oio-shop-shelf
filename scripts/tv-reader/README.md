@@ -1,5 +1,9 @@
 # tv-reader — put a manual on a TV
 
+> Serving from this machine. For the hosted version that needs no local server —
+> GitHub Pages plus a state endpoint, which is what a Raspberry Pi or a chat on a
+> phone would use — see [`docs/`](../../docs/README.md).
+
 Serves a manual as a two-page spread a TV can display and a remote can drive.
 
 Two sources, picked automatically:

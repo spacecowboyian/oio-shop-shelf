@@ -1,0 +1,12 @@
+{
+ "ref": "efffa54dfd60b9e225c791207c6765aa7c59352d",
+ "manuals": [
+  {
+   "slug": "alpine-a110-reparaturhandbuch",
+   "title": "Alpine A110 Reparaturhandbuch (Typ A 110) \u2014 German factory repair handbook, RENAULT \u00b7 ALPINE",
+   "pages": 468,
+   "base": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@efffa54dfd60b9e225c791207c6765aa7c59352d/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+   "pages_json": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@efffa54dfd60b9e225c791207c6765aa7c59352d/manuals/alpine/vehicle/a110-reparaturhandbuch/data/pages.json"
+  }
+ ]
+}
