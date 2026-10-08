@@ -26,7 +26,7 @@ Section divider: **KAROSSERIE** (Body), tab **N**, with a drawing of the car. No
 A dimensioned drawing of the backbone chassis in side view, plan view and two end views. It is
 delivered as an image; the dimensions legible on the drawing are transcribed below.
 
-![Chassis checking dimensions (Fahrgestell – Kontrollmasse): side, plan and end views — PDF p.425](../diagrams/p0425-chassis-checking-dimensions.webp)
+![Chassis checking dimensions (Fahrgestell – Kontrollmasse): side, plan and end views — PDF p.425](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0425-chassis-checking-dimensions.webp)
 
 | View | Dimensions legible on the drawing (mm, as printed) |
 |---|---|

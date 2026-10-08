@@ -197,7 +197,7 @@ jetting:
 4. Then check the float travel: **B = 11.5 - 12 mm**.
 5. If it is not correct, bend the stop tongue **(5)** accordingly.
 
-![1600 S Weber 45 DCOE float level setting, dimensions A and B — PDF p.146](../diagrams/p0146-dcoe-float-level-a-b.webp)
+![1600 S Weber 45 DCOE float level setting, dimensions A and B — PDF p.146](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0146-dcoe-float-level-a-b.webp)
 
 <!-- NEEDS REVIEW: "(s. Tabelle)" after "5 - 5.5 mm" is in a different typeface from the rest of
 the page (added later, typed, not handwritten). The "table" is presumably PDF p.144. -->
@@ -231,7 +231,7 @@ The idle is set with the following screws:
 
 **Idle speed with the engine warm: 1000 ± 50 rpm.**
 
-![1600 S idle-setting screws A, B, C, V and lever 4 on the 45 DCOE pair — PDF p.147](../diagrams/p0147-dcoe-idle-screws-a-b-c-v.webp)
+![1600 S idle-setting screws A, B, C, V and lever 4 on the 45 DCOE pair — PDF p.147](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0147-dcoe-idle-screws-a-b-c-v.webp)
 
 <!-- NEEDS REVIEW: the OCR reads the by-pass screw identifiers as "63 - 69"; the image clearly
 prints "68 - 69" (consistent with the rest of the page) — corrected from image.
@@ -370,7 +370,7 @@ Two settings are required.
 3. Measure the choke flap opening: **7.5 - 8 mm**.
 4. To adjust, remove screw **(6)** and adjust the inner screws **(7)**.
 
-![1300 VC Weber 32 DIR choke flap and vent valve settings (items 1-8, E) — PDF p.150](../diagrams/p0150-32dir-choke-and-vent-valve.webp)
+![1300 VC Weber 32 DIR choke flap and vent valve settings (items 1-8, E) — PDF p.150](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0150-32dir-choke-and-vent-valve.webp)
 
 ### Vent valve
 
@@ -517,7 +517,7 @@ The throttles of both carburettors are synchronized as follows:
    the throttles of the front carburettor, these two throttles are also closed completely.
 3. In this position screw in screw **(5)** until the end of the screw just touches lever **(6)**.
 
-![1300 G/S carburettor synchronization linkage — screws 3 and 5, lever 6, stop 7, spring 8, fork 9 — PDF p.155](../diagrams/p0155-40dcoe-synchronization-linkage.webp)
+![1300 G/S carburettor synchronization linkage — screws 3 and 5, lever 6, stop 7, spring 8, fork 9 — PDF p.155](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0155-40dcoe-synchronization-linkage.webp)
 
 4. Fit the whole "intake stubs - carburettors - air intake manifold" assembly to the cylinder
    head.

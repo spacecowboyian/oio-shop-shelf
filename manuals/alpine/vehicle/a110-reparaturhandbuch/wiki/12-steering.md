@@ -44,7 +44,7 @@ diameters are not given on these pages. -->
 This steering can be overhauled. When a pinion with **9 teeth** is fitted instead of one with
 **7**, the rack bushes must also be changed (the rack then sits **2 mm** higher).
 
-![Steering — longitudinal section and steering-box mounting height H — PDF p.237](../diagrams/p0237-steering-section-mounting-height.webp)
+![Steering — longitudinal section and steering-box mounting height H — PDF p.237](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0237-steering-section-mounting-height.webp)
 
 ### Note: mounting
 
@@ -324,7 +324,7 @@ oil-seal extractor on PDF p.241. Probably a source misprint for Dir.19 — kept 
    **e = 45°** towards the wheel side.
 6. Fit the protective cap **(5)** on the thrust-plunger boss.
 
-![Steering pinion — end-float setting with clamp Dir.19 (C, D, E, b) and grease-nipple angle e — PDF p.247](../diagrams/p0247-pinion-end-float-setting.webp)
+![Steering pinion — end-float setting with clamp Dir.19 (C, D, E, b) and grease-nipple angle e — PDF p.247](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0247-pinion-end-float-setting.webp)
 
 <!-- NEEDS REVIEW: no numerical end-float value is printed; the setting is made purely by the
 spring-lever method of clamp Dir.19 described above. The OCR reads the torque as "292,25 mkg";
@@ -358,7 +358,7 @@ crisp. -->
 > The track rods are hard to tell apart; they **must not be interchanged**. Track rod **(G)** is
 > the **left**, **(D)** the **right** (see figure).
 
-![Track rods — left (G) and right (D) identification — PDF p.248](../diagrams/p0248-track-rods-left-right.webp)
+![Track rods — left (G) and right (D) identification — PDF p.248](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0248-track-rods-left-right.webp)
 
 1. Fit the dust boots **(4)**.
 2. Fit the rack ends **(3)** with the locknuts **(2)**, but do not tighten them.

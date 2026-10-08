@@ -46,5 +46,4 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/33-supplement-general-engine-electrical.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/wiki/33-supplement-general-engine-electrical.md)
 - [wiki/34-supplement-axles-brakes-body.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/wiki/34-supplement-axles-brakes-body.md)
 - [wiki/35-supplement-special-tools-chassis.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/wiki/35-supplement-special-tools-chassis.md)
-- [alpine-a110-reparaturhandbuch.pdf](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/alpine-a110-reparaturhandbuch.pdf)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/manual-index.jsonl)

@@ -241,7 +241,7 @@ engine 810 and one for engines 843 and 844. They are diagram-only: the bolt orde
 entirely by the positions of the numbers in the figures, so it is delivered as an image rather
 than transcribed from the leader lines.
 
-![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](../diagrams/p0013-key-settings-plate.webp)
+![Key-settings plate, including the cylinder head bolt tightening sequences for engine 810 and engines 843/844 — PDF p.13](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0013-key-settings-plate.webp)
 
 **Lubrication** — minimum oil pressure at 80 °C:
 

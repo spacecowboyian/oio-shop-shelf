@@ -47,7 +47,7 @@ The page is an exploded drawing only (cylinder head, valve gear, liners and pist
 cylinder block, crankshaft and flywheel, manifolds, timing cover). It carries no values; the few
 labels on it are French part-identification abbreviations (`ADM`, `ECHAP`).
 
-![Engine type 812 — exploded view, PDF p.100](../diagrams/p0100-engine-812-exploded-view.webp)
+![Engine type 812 — exploded view, PDF p.100](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0100-engine-812-exploded-view.webp)
 
 <!-- NEEDS REVIEW: text from the reverse side of the sheet bleeds through faintly on the left of
 this page; it is not part of the drawing and is not transcribed. -->
@@ -795,7 +795,7 @@ Machine the lubrication holes in the bushes:
 
 The figure for bush 1 shows the hole at **27°** and **10.5** from the bush edge.
 
-![Camshaft bush positions and lubrication-hole location (27°, 10.5) in the cylinder block — PDF p.124](../diagrams/p0124-camshaft-bush-oil-holes.webp)
+![Camshaft bush positions and lubrication-hole location (27°, 10.5) in the cylinder block — PDF p.124](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0124-camshaft-bush-oil-holes.webp)
 
 <!-- NEEDS REVIEW: Rule 10 — the "27°" and "10.5" callouts appear only on the sectional drawing
 next to bush 1; the 27° angle's reference line and whether 10.5 (no unit) is measured to the
@@ -965,7 +965,7 @@ old one, the seal must be offset from its original position by **C = approx. 3 m
 > **NOTE:** as the spacer washer you can use a piston ring of **85 mm** diameter from the
 > engines of **type 668**.
 
-![Front crankshaft oil seal — offset C and fitting with Mot.131, spacer E — PDF p.128](../diagrams/p0128-front-crankshaft-seal-mot131.webp)
+![Front crankshaft oil seal — offset C and fitting with Mot.131, spacer E — PDF p.128](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0128-front-crankshaft-seal-mot131.webp)
 
 <a id="p129"></a>
 **[PDF p.129]**
@@ -1090,7 +1090,7 @@ the image shows "Mot.124", matching PDF p.109. -->
    **805 463**) and fit the cover. It is centred with the tool **Mot.128**.
 10. Fit the pulley and the starting dog. Turn the engine over.
 
-![Timing chain alignment — V marks on the crankshaft and camshaft sprockets — PDF p.132](../diagrams/p0132-timing-chain-v-marks.webp)
+![Timing chain alignment — V marks on the crankshaft and camshaft sprockets — PDF p.132](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0132-timing-chain-v-marks.webp)
 
 <!-- NEEDS REVIEW: scan defect — the bottom line of both columns is clipped at the scan edge.
 The torque-wrench tool number after "(Drehmoment-" and the final words of the right column
@@ -1128,7 +1128,7 @@ The tightening sequence is given only on the figure. Reading the bolt numbers of
 | Far row | 7 – 5 – 2 – 4 – 10 |
 | Near row | 9 – 3 – 1 – 6 – 8 |
 
-![Cylinder head bolt tightening sequence 1-10, engine 812 — PDF p.133](../diagrams/p0133-cylinder-head-bolt-sequence.webp)
+![Cylinder head bolt tightening sequence 1-10, engine 812 — PDF p.133](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0133-cylinder-head-bolt-sequence.webp)
 
 <!-- NEEDS REVIEW: Rule 10 — the sequence numbers 1-10 are legible on the figure (7, 5, 2, 4, 10
 along the far row from left to right; 9, 3, 1, 6, 8 along the near row from left to right), but
@@ -1168,7 +1168,7 @@ separate warm/cold figures for a different engine — do not mix them. -->
    - the oil pressure switch;
    - the oil filter base.
 
-![Distributor drive pinion slot position at TDC firing, no. 1 cylinder — PDF p.134](../diagrams/p0134-distributor-drive-pinion.webp)
+![Distributor drive pinion slot position at TDC firing, no. 1 cylinder — PDF p.134](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0134-distributor-drive-pinion.webp)
 
 <!-- NEEDS REVIEW: "Gewindesteigung 175" as on PDF p.109 — printed without a decimal point;
 reproduced as printed (see the flag there). The engine stand here is "Mot.369"; PDF p.104 names
@@ -1207,7 +1207,7 @@ Dichtungen glatt werden" — only the tops of the letters survive). -->
 
 10. Fit the air intake manifold with new paper gaskets.
 
-![Carburettor mounting — clearance J between carburettor and intake stub; synchronizing screw 5 — PDF p.135](../diagrams/p0135-carburettor-mounting-clearance-j.webp)
+![Carburettor mounting — clearance J between carburettor and intake stub; synchronizing screw 5 — PDF p.135](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0135-carburettor-mounting-clearance-j.webp)
 
 <!-- NEEDS REVIEW: the carburettors are the Weber 45 DCOE per chapter 03 (1300 S); this page does
 not name the carburettor model. -->
@@ -1229,7 +1229,7 @@ figure):
 3. In this position, screw in screw **(5)** until the end of the screw just touches lever
    **(6)**.
 
-![Carburettor synchronization linkage — screws 3 and 5, lever 6, stop 7, spring 8, fork 9 — PDF p.136](../diagrams/p0136-carburettor-synchronization.webp)
+![Carburettor synchronization linkage — screws 3 and 5, lever 6, stop 7, spring 8, fork 9 — PDF p.136](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0136-carburettor-synchronization.webp)
 
 ## Final assembly
 

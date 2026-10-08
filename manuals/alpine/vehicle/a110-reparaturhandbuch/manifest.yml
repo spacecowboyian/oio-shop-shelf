@@ -10,8 +10,8 @@ taxonomy:
   years: "1969-1976"
 
 source:
-  type: local
-  location: "alpine-a110-reparaturhandbuch.pdf"
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf"
   pages: 468
 
 rights: >
