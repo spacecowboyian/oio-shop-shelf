@@ -277,9 +277,18 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
     prefer = ((manifest.get("render", {}) or {}).get("image_base") or "raw").lower()
     if prefer not in ("raw", "cdn"):
         sys.exit(f"render.image_base must be 'raw' or 'cdn', got {prefer!r}")
+    # The CDN base is pinned to the current commit, not to the branch. @<sha> is immutable, so
+    # jsDelivr serves it with max-age=1y and it can never go stale — which is the one thing that
+    # made the branch form (@main, 12 h edge cache) a bad default after a correction.
+    sha = None
+    try:
+        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=mdir,
+                             capture_output=True, text=True, check=True).stdout.strip() or None
+    except subprocess.CalledProcessError:
+        pass
     bases = ({
         "raw": f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}/",
-        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{branch}/{rel}/",
+        "cdn": f"https://cdn.jsdelivr.net/gh/{repo}@{sha or branch}/{rel}/",
     } if repo else {})
     base = bases.get(prefer) if bases else None
 
@@ -323,9 +332,10 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         "base_url": (base if base else None),
         "base_url_alternate_cdn": (bases.get("cdn") if bases else None),
         "base_url_alternate_cdn_caveat": (
-            "jsDelivr serves the same files and caches harder (12 h at the edge), so it is good "
-            "for a client loading many images but can serve a stale copy for hours after a "
-            "change. Prefer base_url, and the per-page url built from it."
+            "jsDelivr over the same files, pinned to the commit these images were generated "
+            "from, so it is immutable and cannot go stale. Good for a client loading many "
+            "images. It does NOT follow later corrections — for the current file always use "
+            "base_url, which is what the per-page url fields are built from."
             if bases else None),
         "source_pdf": (manifest.get("source", {}) or {}).get("location"),
         "chapters": [

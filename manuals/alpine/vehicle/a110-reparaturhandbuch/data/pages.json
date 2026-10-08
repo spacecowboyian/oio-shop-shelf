@@ -10,8 +10,8 @@
   "dir": "page-images"
  },
  "base_url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
- "base_url_alternate_cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@main/manuals/alpine/vehicle/a110-reparaturhandbuch/",
- "base_url_alternate_cdn_caveat": "jsDelivr serves the same files and caches harder (12 h at the edge), so it is good for a client loading many images but can serve a stale copy for hours after a change. Prefer base_url, and the per-page url built from it.",
+ "base_url_alternate_cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@d88a24061d1567f574069dabe51b287ef8fae92f/manuals/alpine/vehicle/a110-reparaturhandbuch/",
+ "base_url_alternate_cdn_caveat": "jsDelivr over the same files, pinned to the commit these images were generated from, so it is immutable and cannot go stale. Good for a client loading many images. It does NOT follow later corrections \u2014 for the current file always use base_url, which is what the per-page url fields are built from.",
  "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/a110-reparaturhandbuch.pdf",
  "chapters": [
   {

@@ -152,14 +152,16 @@ diagram's `url` when there is one, otherwise the page's.
 
 **Use the baked `url`, not a base.** `base_url` is the host those urls were built from
 (raw.githubusercontent.com — GitHub itself, and the path verified with external AI readers).
-`base_url_alternate_cdn` is jsDelivr over the same files: good for a client loading hundreds of
-images, but it edge-caches a changed file for up to 12 hours, so it can serve a stale copy after
-a correction. Don't reach for it by default.
+`base_url_alternate_cdn` is jsDelivr over the same files, pinned to the commit the images were
+generated from — immutable, so it cannot go stale, and good for a client loading hundreds of
+images. It does not follow later corrections, so for the current file use `base_url`.
 
-**Inline display is the client's call.** Some chat clients render a markdown image, others turn
-it into a link; raw HTML is usually stripped. Give the url either way, with the page number, so
-the reader can open it — and don't claim an image is unavailable when the client simply did not
-embed it.
+**Inline display is the client's call, and usually the answer is no.** Tested in both ChatGPT
+(web) and Claude (desktop): each turns a markdown image into a link or a "Show Image"
+placeholder rather than embedding it, and raw HTML is stripped. That is the renderer, not
+something this manual or a prompt can change. So always give the url with its page number, use
+your client's own image component if it has one, and never report an image as unavailable when
+the client simply chose not to embed it — the file is there.
 
 All of these are served as `image/png` from the same host as this markdown, with no redirect —
 unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only
