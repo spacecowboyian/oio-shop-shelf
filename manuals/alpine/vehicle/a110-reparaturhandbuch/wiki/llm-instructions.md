@@ -144,10 +144,15 @@ black-and-white PNGs at 300 dpi, around 100 KB each, so they stand up to zooming
 safety flag, and embedded at the point in the text where they matter. Those are the figures
 worth calling out by name (bolt sequences, wiring, exploded views, chassis measuring points).
 
-**[`../data/pages.json`](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/pages.json)** is the machine-readable index: every page with its
-file, pixel size, byte size, which chapter it belongs to, and the diagram caption where there is
-one — plus `base_url.raw` and `base_url.cdn` (jsDelivr) if you would rather build URLs than
-parse markdown.
+**[`../data/pages.json`](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/alpine/vehicle/a110-reparaturhandbuch/data/pages.json)** is the machine-readable index, and the reliable
+way to get an image URL: **don't construct one, read it.** Every entry in its `pages` array
+carries an absolute **`url`**, plus the page number, pixel and byte size, owning chapter, and —
+where the page has a named figure — a `diagram` object with its own `url` and caption. Prefer the
+diagram's `url` when there is one, otherwise the page's.
+
+`base_url` lists both hosts and names the one the baked URLs use (`used`): `raw`
+(raw.githubusercontent.com, the default — GitHub itself, verified with external AI readers) and
+`cdn` (jsDelivr, a free CDN over the same files, better for a client pulling many images).
 
 All of these are served as `image/png` from the same host as this markdown, with no redirect —
 unlike the source PDF, which is a GitHub Release asset and is unreachable for most web-only
