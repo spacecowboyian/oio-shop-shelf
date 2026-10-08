@@ -89,7 +89,7 @@ high resolution). -->
 (3 mkg) is given in the front half-axle refitting procedure in
 [13-front-axle.md](13-front-axle.md). -->
 
-![Front damper — components (1) lower bracket to (6) locknut — PDF p.283](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0283-front-damper-components.webp)
+![Front damper — components (1) lower bracket to (6) locknut — PDF p.283](../diagrams/p0283-front-damper-components.png)
 
 <a id="p284"></a>
 **[PDF p.284]**

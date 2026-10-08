@@ -65,7 +65,7 @@ Read off the leader lines of the longitudinal sectional drawing (PDF p.66).
 | Connecting rod (big-end) cap nuts | 4 - 4.5 m.daN |
 | *(leader to the front end of the camshaft — see flag)* | 3 m.daN |
 
-![Engine type 810 — sectional drawing with tightening torques, PDF p.66](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0066-engine-810-torques.webp)
+![Engine type 810 — sectional drawing with tightening torques, PDF p.66](../diagrams/p0066-engine-810-torques.png)
 
 <!-- NEEDS REVIEW: Rule 10 attribution. The 5.5-6 leader runs to a cylinder head bolt; the 5
 leader to the flywheel bolts on the crankshaft flange; the 5.5-6.5 leader to a main bearing cap
@@ -91,7 +91,7 @@ lower figure does not appear on the plate. Not reconciled — both are reproduce
 The oil circuit is a diagram only — arrows on a cutaway, with no values — and is delivered as
 an image.
 
-![Engine type 810 — oil circuit of the engine lubrication, PDF p.67](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0067-oil-circuit-810.webp)
+![Engine type 810 — oil circuit of the engine lubrication, PDF p.67](../diagrams/p0067-oil-circuit-810.png)
 
 <a id="p68"></a>
 **[PDF p.68]**
@@ -210,7 +210,7 @@ intake and exhaust guides, but which two faces the dimension runs between is not
 scan quality — read the figure on PDF p.72 before setting a guide. Values read from the page
 image: 26,5 and 26,2 (printed with decimal commas). -->
 
-![Engine 810 — valve guide position dimensions A (intake) and B (exhaust), PDF p.72](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0072-valve-guide-position-810.webp)
+![Engine 810 — valve guide position dimensions A (intake) and B (exhaust), PDF p.72](../diagrams/p0072-valve-guide-position-810.png)
 
 5. Insert the mandrel **(1)** into the guide bush **(2)**; note the different positions for the
    intake and exhaust valve guides.
@@ -273,7 +273,7 @@ rows of bolts are numbered:
 | One side of the head | 9 — 3 — 1 — 6 — 8 |
 | Other side of the head | 7 — 5 — 2 — 4 — 10 |
 
-![Engine 810 — cylinder head bolt tightening sequence and 5.5 m.daN torque, PDF p.75](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0075-head-bolt-sequence-810.webp)
+![Engine 810 — cylinder head bolt tightening sequence and 5.5 m.daN torque, PDF p.75](../diagrams/p0075-head-bolt-sequence-810.png)
 
 <!-- NEEDS REVIEW: the photograph does not label which end of the head is the flywheel end, so
 the rows are given as printed along the photo, not as "left/right" or "front/rear". The order
@@ -633,7 +633,7 @@ print the lower limit. -->
 4. Align the marks of the two timing sprockets with the centres of the crankshaft and camshaft.
 5. Pull off the camshaft sprocket without turning the shaft.
 
-![Engine 810 — timing sprocket marks aligned on the line of centres, PDF p.87](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0087-timing-marks-810.webp)
+![Engine 810 — timing sprocket marks aligned on the line of centres, PDF p.87](../diagrams/p0087-timing-marks-810.png)
 
 <a id="p88"></a>
 **[PDF p.88]**
@@ -694,7 +694,7 @@ Next fit the timing cover and the pulley oil seal, using the tool **Mot.457**, w
    - **slot of the pinion at right angles to the longitudinal axis of the engine, with the
      larger half-circle (D) towards the clutch.**
 
-![Engine 810 — distributor drive pinion slot alignment, PDF p.90](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0090-distributor-drive-pinion-810.webp)
+![Engine 810 — distributor drive pinion slot alignment, PDF p.90](../diagrams/p0090-distributor-drive-pinion-810.png)
 
 9. Fit:
    - the distributor;
@@ -747,7 +747,7 @@ Remove the two camshaft flange securing bolts. Remove the camshaft.
 4. Remove the camshaft sprocket.
 5. Then carry out the removal operations in reverse order.
 
-![Engine 810 — camshaft end float J at the flange, PDF p.91](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0091-camshaft-end-float-810.webp)
+![Engine 810 — camshaft end float J at the flange, PDF p.91](../diagrams/p0091-camshaft-end-float-810.png)
 
 <a id="p92"></a>
 **[PDF p.92]**
