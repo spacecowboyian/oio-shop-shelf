@@ -29,6 +29,7 @@ render:
   dpi: 200
   diagram_dpi: 300        # scans are 212 ppi; 300 gives smoother edges for large-screen zoom
   page_image_dpi: 300     # every page, same treatment — see page-images/ and data/pages.json
+  image_base: cdn         # bake jsDelivr URLs: chat clients render those, raw.githubusercontent often not
 
 # ---------------------------------------------------------------------------
 # THREE BOUND DOCUMENTS IN ONE PDF.
