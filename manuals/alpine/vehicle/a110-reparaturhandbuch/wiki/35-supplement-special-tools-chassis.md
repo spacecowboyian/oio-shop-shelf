@@ -54,7 +54,7 @@ Landscape drawing: an elevation labelled **"Coupe A.A"** (section A-A), a lower 
 **B-B** and **C-C**, a circled **"Détail : D"**, and call-outs "voir détail plan n° 05-11-03" (see detail
 drawing no. 05-11-03). Drawing number printed in the left margin: **05-11-02**.
 
-![Drawing 05-11-02, mounting-block supports for the straightening bench (overall, section A-A) — PDF p.462](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0462-tool-drawing-05-11-02-overall.png)
+![Drawing 05-11-02, mounting-block supports for the straightening bench (overall, section A-A) — PDF p.462](../diagrams/p0462-tool-drawing-05-11-02-overall.png)
 
 <!-- NEEDS REVIEW: the OCR draft labels this page "N&-11-09" — the page image shows "05-11-02" rotated in the
 left margin. Dimensions on this drawing (an overall length of about three thousand millimetres, several
@@ -71,7 +71,7 @@ Four views: the **Alpine wedge** (*cale Alpine*, "left/right wedge, symmetrical 
 **Détail D**; **Coupe B-B** and **Coupe C-C** (sections showing the Alpine supports on the RENAULT mounting
 blocks). The legends in the sections are French, in tiny type, and mostly illegible; they refer to the support and wedge of the Alpine, the RENAULT front and rear cross-member supports and the RENAULT combination repair/checking bench. Drawing number printed at the bottom: **05-11-02**.
 
-![Drawing 05-11-02, wedges and sections B-B, C-C, detail D — PDF p.463](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0463-tool-drawing-05-11-02-wedges-sections.png)
+![Drawing 05-11-02, wedges and sections B-B, C-C, detail D — PDF p.463](../diagrams/p0463-tool-drawing-05-11-02-wedges-sections.png)
 
 <!-- NEEDS REVIEW: the French legends are tiny and partly illegible; only their gist is given above and no
 part number from them is transcribed (a "Car.95" mounting block is named on p.454 and p.461). NO dimension is
@@ -97,7 +97,7 @@ printed at the bottom right: **05-11-03**. Legible entries:
 | Dimension | 45 ±0.2 |
 | For information | "240 pour information", "640 pour information", "550 pour information" |
 
-![Drawing 05-11-03, anti-roll-bar bearing-block holder — PDF p.464](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0464-tool-drawing-05-11-03-antiroll-holder.png)
+![Drawing 05-11-03, anti-roll-bar bearing-block holder — PDF p.464](../diagrams/p0464-tool-drawing-05-11-03-antiroll-holder.png)
 
 <!-- NEEDS REVIEW: the OCR draft mislabels this page "05-11-08"; the image shows "05-11-03" in the bottom
 margin (matches the table on p.461). The dimensions above were read at the limit of legibility — the figures
@@ -118,7 +118,7 @@ Title: **FAHRGESTELL DER ALPINE — Von unten gesehen** (chassis of the Alpine �
 plan view of the backbone chassis with the left (*LINKS*) and right (*RECHTS*) sides, the plumb disc and the
 measuring-point lines A, A1, B, B1, C, C1, D, D1, E, E1. Drawing number in the left margin: **05-11-04**.
 
-![Drawing 05-11-04, chassis of the Alpine — measuring points and gauge (Car.27) marks — PDF p.465](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0465-chassis-measuring-points-05-11-04.png)
+![Drawing 05-11-04, chassis of the Alpine — measuring points and gauge (Car.27) marks — PDF p.465](../diagrams/p0465-chassis-measuring-points-05-11-04.png)
 
 Measuring-point legends (as printed, translated):
 
@@ -165,7 +165,7 @@ Two views, rotated 90° on the page: a **side elevation** (left) and a **plan vi
 frame, with four numbered call-outs **1 to 4** (explained on the next page). Drawing number at the bottom:
 **05-11-07**.
 
-![Drawing 05-11-07, general chassis drawing, side and plan with dimensions — PDF p.466](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0466-chassis-general-05-11-07.png)
+![Drawing 05-11-07, general chassis drawing, side and plan with dimensions — PDF p.466](../diagrams/p0466-chassis-general-05-11-07.png)
 
 Dimensions printed on the drawing (as read):
 
@@ -200,7 +200,7 @@ A legend **"Nota"** lists the four call-outs of the preceding page:
 
 Drawing number at the bottom: **05-11-07**.
 
-![Drawing 05-11-07, front views of the chassis — engine-mount versions — PDF p.467](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-a110-reparaturhandbuch/p0467-chassis-front-views-05-11-07.png)
+![Drawing 05-11-07, front views of the chassis — engine-mount versions — PDF p.467](../diagrams/p0467-chassis-front-views-05-11-07.png)
 
 <!-- NEEDS REVIEW: SAFETY RELEVANT — chassis dimension. The scan of this page is heavily speckled
 (vertical streaks across the whole page). The only legible dimension is "1110" at the top; the lower view

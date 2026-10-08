@@ -101,6 +101,13 @@ def manual_files(mdir: Path) -> list[Path]:
         for f in sorted(data.rglob("*")):
             if f.is_file() and not any(part in SKIP_DIRS for part in f.parts):
                 add(f)
+    # Diagram images are committed (unlike the source PDF) precisely so a fetch-only reader
+    # can open them by raw URL, so they belong in this list.
+    diagrams = mdir / "diagrams"
+    if diagrams.is_dir():
+        for f in sorted(diagrams.iterdir()):
+            if f.is_file() and not f.name.startswith("."):
+                add(f)
     return ordered
 
 
