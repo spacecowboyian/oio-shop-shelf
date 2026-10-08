@@ -33,7 +33,12 @@ Two ways, with different tradeoffs:
   the DashCast receiver, so nothing has to be installed on the TV. Cast once and leave
   it: `--goto` and `--reload` drive the page from then on. Known limits: the
   Chromecast receiver swallows some remote keys — left/right page turns arrive, but OK
-  and the down arrow may not, which disables zoom and vertical panning.
+  and the down arrow may not, which disables zoom and vertical panning. And a *live*
+  receiver page ignores both `catt stop` and any new `cast_site`: catt reports success
+  and nothing happens. Casting only replaces a page that has already died (for example
+  because this machine changed address). Pressing Home on the TV remote is the only
+  reset from outside, so use `--reload` to refresh a page that is working, and keep the
+  remote handy for one that is not.
 - **Open the URL in a browser on the TV** (e.g. TV Bro on Google TV). A real browser
   passes the whole D-pad through, so every control below works.
 
