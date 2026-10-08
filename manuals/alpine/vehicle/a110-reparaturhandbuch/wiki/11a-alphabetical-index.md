@@ -903,6 +903,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Technical data (type 330) — [11-gearbox.md#p215](11-gearbox.md#p215) ([PDF p.215])
 - Thermostat — [09-cooling.md#p159](09-cooling.md#p159) ([PDF p.159])
 - Throttle opening — [08-fuel-system.md#p149](08-fuel-system.md#p149) ([PDF p.149])
+- Tightening procedure — [04-engine-807-843-844.md#p37](04-engine-807-843-844.md#p37) ([PDF p.37])
+- Tightening sequence — [04-engine-807-843-844.md#p37](04-engine-807-843-844.md#p37) ([PDF p.37])
 - Tightening sequence — [05-engine-810.md#p75](05-engine-810.md#p75) ([PDF p.75])
 - Tightening the cylinder head bolts — [04-engine-807-843-844.md#p37](04-engine-807-843-844.md#p37) ([PDF p.37])
 - Tightening torques — [16-brakes.md#p313](16-brakes.md#p313) ([PDF p.313])

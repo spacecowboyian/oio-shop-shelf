@@ -127,6 +127,23 @@ Where two printings DO agree (main-bearing and big-end torques, the B-2 valve ti
 1300 VC brake disc and pad sizes), the flags say so — that agreement is the strongest evidence
 this wiki has that a value is right.
 
+## Diagrams: use the text, not the image
+
+The delivered diagram images are hosted on a GitHub Release. **Many web-only assistants (ChatGPT's
+web reader among them) cannot fetch Release assets**, and the images are not in the repository
+tree, so a `raw.githubusercontent.com/.../diagrams/...` URL returns 404. Do not depend on opening
+an image.
+
+Wherever a figure carries information — a bolt tightening sequence, a torque callout, a setting —
+it is **transcribed as text** in the chapter next to the image. Answer from that text and cite the
+PDF page. The cylinder head bolt sequences, for example, are written out as numbered rows in
+`02-general-technical-data.md`, `04-engine-807-843-844.md`, `05-engine-810.md` and
+`06-engine-812.md`.
+
+If a user needs to SEE a figure, give them the PDF page number to open in the source PDF. If what
+they need exists only as a picture and you cannot load it, say so plainly and ask them to upload a
+screenshot of that PDF page.
+
 ## Known problems in this source
 
 - The scan carries a **"DerFranzose" watermark** across every page, which overlaps figures and
