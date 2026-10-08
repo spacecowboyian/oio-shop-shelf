@@ -5,29 +5,42 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>__TITLE__</title>
 <style>
-  :root { --bg:#0b0b0c; --fg:#e8e8ea; --dim:#8a8a93; --accent:#d8b24a; }
+  :root { --bg:#0b0b0c; --fg:#e8e8ea; --dim:#8a8a93; --accent:#d8b24a;
+    /* Sized against viewport height so the chrome stays legible from a 1080p
+       panel up to a 4K one, where a fixed 44px bar nearly disappears. */
+    --bar: clamp(44px, 6.1vh, 132px);
+    --fs:  clamp(15px, 2.05vh, 44px);
+    --fs-s: clamp(13px, 1.8vh, 38px);
+    --sel: clamp(5px, 0.7vh, 15px);
+    --gap: clamp(10px, 1.4vh, 30px); }
   * { box-sizing:border-box; }
   html,body { margin:0; height:100%; background:var(--bg); color:var(--fg);
     font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; overflow:hidden; }
-  #stage { position:absolute; inset:0 0 44px 0; display:flex; align-items:center;
-    justify-content:center; gap:10px; padding:10px; }
+  #stage { position:absolute; inset:0 0 var(--bar) 0; display:flex; align-items:center;
+    justify-content:center; gap:var(--gap); padding:var(--gap); }
   .pane { position:relative; height:100%; display:flex; align-items:center; justify-content:center; }
   .pane canvas, .pane img { background:#fff; box-shadow:0 0 0 1px #2a2a2e, 0 8px 30px #0008;
     max-height:100%; max-width:100%; object-fit:contain; }
   .pane.empty canvas, .pane.empty img { visibility:hidden; }
-  .pane.sel canvas, .pane.sel img { box-shadow:0 0 0 5px var(--accent), 0 8px 30px #0008; }
-  #zoomwrap { position:absolute; inset:0 0 44px 0; display:none; overflow:hidden;
+  .pane.sel canvas, .pane.sel img { box-shadow:0 0 0 var(--sel) var(--accent), 0 8px 30px #0008; }
+  #zoomwrap { position:absolute; inset:0 0 var(--bar) 0; display:none; overflow:hidden;
     background:var(--bg); }
   #zoomwrap.on { display:block; }
   #zoomcanvas, #zoomimg { position:absolute; transform-origin:0 0; background:#fff; }
   #zoomimg { display:none; }
-  #manual { color:var(--dim); }
-  #bar { position:absolute; left:0; right:0; bottom:0; height:44px; display:flex;
-    align-items:center; gap:18px; padding:0 18px; background:#141417;
-    border-top:1px solid #26262b; font-size:15px; }
-  #label { color:var(--accent); font-weight:600; }
-  #hint { color:var(--dim); margin-left:auto; font-size:13px; }
-  #busy { position:absolute; top:12px; right:16px; color:var(--dim); font-size:13px;
+  /* One unwrappable row. Anything that can reflow here visibly twitches on every
+     page turn, because the label's width changes with the page number. */
+  #bar { position:fixed; left:0; right:0; bottom:0; height:var(--bar); display:flex;
+    align-items:center; gap:calc(var(--gap) * 1.6); padding:0 calc(var(--gap) * 1.6);
+    background:#141417; border-top:1px solid #26262b; font-size:var(--fs);
+    white-space:nowrap; overflow:hidden; }
+  #label { color:var(--accent); font-weight:600; flex:0 0 auto;
+    font-variant-numeric:tabular-nums; }
+  #manual { color:var(--dim); flex:1 1 auto; min-width:0;
+    overflow:hidden; text-overflow:ellipsis; }
+  #hint { color:var(--dim); flex:0 0 auto; font-size:var(--fs-s); }
+  #busy { position:absolute; top:var(--gap); right:calc(var(--gap) * 1.6);
+    color:var(--dim); font-size:var(--fs-s);
     opacity:0; transition:opacity .15s; }
   #busy.on { opacity:1; }
 </style>
@@ -100,7 +113,7 @@ function enterZoomImage() {
   const u = imgUrl(Math.min(page + sel, total));
   if (!u) return;
   zoomimg.onload = () => {
-    const fitH = innerHeight - 44;
+    const fitH = innerHeight - barPx();
     const cssW = zoomimg.naturalWidth / zoomimg.naturalHeight * fitH;
     zoomimg.style.height = fitH + "px"; zoomimg.style.width = cssW + "px";
     zscale = 2;
@@ -115,6 +128,10 @@ function enterZoomImage() {
 function zoomcanvasHide() { zc.style.display = "none"; zoomimg.style.display = "block"; }
 const dpr = window.devicePixelRatio || 1;
 
+function barPx() {
+  return parseFloat(getComputedStyle(document.documentElement)
+    .getPropertyValue("--bar")) || 44;
+}
 function cssHeight() { return document.getElementById("stage").clientHeight - 20; }
 function renderPx()  { return Math.min(MAXPX, Math.round(cssHeight() * dpr * OVERSAMPLE)); }
 
@@ -195,7 +212,7 @@ async function enterZoom() {
   busy.classList.add("on");
   await pg.render({ canvasContext: zc.getContext("2d", { alpha:false }), viewport: vp }).promise;
   busy.classList.remove("on");
-  const fitH = innerHeight - 44;                               // CSS size = fit-to-screen
+  const fitH = innerHeight - barPx();                               // CSS size = fit-to-screen
   const cssW = zc.width / zc.height * fitH;
   zc.style.height = fitH + "px"; zc.style.width = cssW + "px";
   zscale = 2;                                                  // then 2x on top of fit
@@ -239,10 +256,30 @@ addEventListener("keydown", e => {
 
 addEventListener("resize", () => { cache.clear(); show(); });
 
-// Poll for a page pushed by `serve.py --goto N`. Only a change in rev moves the
-// view, so this never fights the remote while you are reading.
+// Poll for a page pushed by `serve.py --goto N`, and for a requested reload. Only a
+// change in rev moves the view, so this never fights the remote while you are reading.
 let lastRev = null, lastReload = null;
 setInterval(async () => {
+  try {
+    const st = await (await fetch("/state", { cache: "no-store" })).json();
+    // A reload is requested by bumping a counter: the sender cannot reliably push a
+    // fresh page to a cast receiver, so the page refreshes itself.
+    if (lastReload === null) lastReload = st.reload;
+    else if (st.reload !== lastReload) { location.reload(); return; }
+
+    if (lastRev === null) { lastRev = st.rev; return; }
+    if (st.rev !== lastRev) {
+      lastRev = st.rev;
+      if (!doc && !IMAGES) return;
+      if (zoom) exitZoom();
+      page = Math.min(Math.max(1, st.page), total);
+      sel = 0;
+      show();
+    }
+  } catch (e) { /* server gone; keep showing what we have */ }
+}, 1500);
+
+(async () => {
   label.textContent = "loading\u2026";
   let mode = { mode: "pdf", urls: [] };
   try { mode = await (await fetch("/pages.json", { cache: "no-store" })).json(); } catch (e) {}
@@ -261,6 +298,7 @@ setInterval(async () => {
   if (page > total) page = 1;
   show();
 })().catch(err => { label.textContent = "error: " + err.message; });
+
 </script>
 </body>
 </html>
