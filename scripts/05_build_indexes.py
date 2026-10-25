@@ -31,9 +31,9 @@ GENERATED_ALPHA_RE = re.compile(r"^11[a-z]?-alphabetical-index\.md$")
 HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
+SPEC_NUMBER = r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
 SPEC_RE = re.compile(
-    r"(?P<val>(?:\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
-    r"(?:\s*[–-]\s*(?:\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞]))?)\s*"
+    rf"(?P<val>{SPEC_NUMBER}(?:\s*[–-]\s*{SPEC_NUMBER})?)\s*"
     r"(?P<unit>N·m|N-m|Nm|kgf·cm|kgf-cm|ft[·-]?lbf?|in[·-]?lbf?|mm|cm|"
     r"V|kΩ|Ω|A|mA|kPa|psi|bar|°C|°F|°|″|\"|lb\.\s*ft\.?|rpm|L|cc|mL)(?=\W|$)"
 )

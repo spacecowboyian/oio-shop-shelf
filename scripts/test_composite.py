@@ -5,10 +5,17 @@ from tempfile import TemporaryDirectory
 
 from composite import UnresolvedSourceConflict, applicable, resolve
 from build_manual_index import harvest_file
+SPEC_RE = __import__("05_build_indexes").SPEC_RE
 from validate_composite_map import validate
 
 
 class CompositeRulesTest(unittest.TestCase):
+    def test_quick_reference_preserves_printed_fractions(self):
+        found = [(m.group("val"), m.group("unit")) for m in
+                 SPEC_RE.finditer("33½° and 3⁄32″ and ⅛″–⅜″")]
+        self.assertEqual(found, [("33½", "°"), ("3⁄32", "″"),
+                                 ("⅛", "″"), ("⅜", "″")])
+
     def test_committed_corvair_index_contains_only_1963_passenger_rows(self):
         index = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                  "corvair-1963/data/manual-index.jsonl")
@@ -19,6 +26,8 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(any("[PDF p." in row.get("text", "") for row in rows))
         quick = index.parent.parent / "wiki/09-quick-reference.md"
         self.assertNotIn('&lt;a id="p', quick.read_text())
+        self.assertFalse(any("steering arm to steering knuckle" in
+                             row.get("text", "").lower() for row in rows))
 
     def test_page_marker_is_not_harvested_as_a_specification(self):
         with TemporaryDirectory() as d:

@@ -19,6 +19,14 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 10 | °F | [02-lubrication.md](02-lubrication.md) | Below −10°F SAE 5W SAE 5W-20 |
 | 180 | ° | [02-lubrication.md](02-lubrication.md) | - **Distributor cam lubricator:** Rotate it **180° every 12,000 miles**; |
 | ¼ | ″ | [02-lubrication.md](02-lubrication.md) | Every **6,000 miles**, check fluid level and maintain it **¼″ below the |
+| .000 | ″ | [03-suspension.md](03-suspension.md) | ends to lock it. The base manual calls for **zero preload** and **.000″ to |
+| .004 | ″ | [03-suspension.md](03-suspension.md) | .004″ end play** when properly adjusted. |
+| ⅛ | ″ | [03-suspension.md](03-suspension.md) | The supplement changes **rear toe-in to ⅛″–⅜″ total**. For front alignment, |
+| ⅜ | ″ | [03-suspension.md](03-suspension.md) | The supplement changes **rear toe-in to ⅛″–⅜″ total**. For front alignment, |
+| 33½ | ° | [03-suspension.md](03-suspension.md) | turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship |
+| 30½ | ° | [03-suspension.md](03-suspension.md) | turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship |
+| 3⁄32 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
+| .09375 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
@@ -53,4 +61,3 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 25–35 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Front 25–35 lb. ft. |
 | 55–75 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Rear 55–75 lb. ft. |
 | 55–75 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Rear crossmember support to body 55–75 lb. ft. |
-| 29–43 | lb. ft. | [12-specifications.md](12-specifications.md) | Steering arm to steering knuckle — 29–43 lb. ft. |

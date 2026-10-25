@@ -68,7 +68,11 @@ excluded.
 | Crossmember to body | Front | 25–35 lb. ft. |
 | Crossmember to body | Rear | 55–75 lb. ft. |
 | Crossmember to body | Rear crossmember support to body | 55–75 lb. ft. |
-| Steering arm to steering knuckle | — | 29–43 lb. ft. |
+
+The steering-arm-to-knuckle torque is withheld because the supplement's
+Suspension installation procedure disagrees with this table. See
+[steering-knuckle service](03-suspension.md#passenger-car-steering-knuckle-service).
+<!-- NEEDS REVIEW: Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. -->
 
 Source: Chevrolet, *1962–63 Corvair Shop Manual Supplement*, Section 12. The
 opening page has no visible printed number (original file
