@@ -6,7 +6,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## 1
 
-- 1963 passenger wheels and tires — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- 1963 passenger wheels and tires — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 
 ## A
 
@@ -25,6 +25,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
+- Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 
 ## D
@@ -41,6 +42,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Factory figure 6E-2 callouts — [06e-automatic-transmission.md#p679](06e-automatic-transmission.md#p679) ([PDF p.679])
 - Factory gasoline selection — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Front alignment adjustments carried forward — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
+- Front hub, drum, and shock absorber service — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
 - Front pump gasket figure correction — [06e-automatic-transmission.md#p680](06e-automatic-transmission.md#p680) ([PDF p.680])
 - Front wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Front-wheel bearing adjustment — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
@@ -52,6 +54,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## I
 
 - Inspect lower spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- Inspect upper spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- Install the front hub and drum — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Install the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 
 ## L
@@ -77,8 +81,11 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Rear alignment adjustment carried forward — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
-- Remaining base procedures — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
+- Remaining base procedures — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
+- Remove and inspect the front hub and drum — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
+- Remove and install the front shock absorber — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 
 ## S
 

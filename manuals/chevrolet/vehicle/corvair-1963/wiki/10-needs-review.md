@@ -1,6 +1,6 @@
 # Needs Review
 
-_10 flag(s) across 5 chapter file(s)._
+_12 flag(s) across 5 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -11,6 +11,8 @@ _10 flag(s) across 5 chapter file(s)._
 | [01-general-information.md](01-general-information.md) | Reconcile the 1961 ratios, capacities, tire and oil guidance with the supplement's later sections before transcribing them into the 1963 lookup. |
 | [02-lubrication.md](02-lubrication.md) | Base Lubrication p. 2-7 prints 13–14 pints dry, while base Specifications p. 12-10 says approximately 13 pints; resolve the distinction before indexing a 1963 Powerglide dry-fill quantity. |
 | [03-suspension.md](03-suspension.md) | Supplement Suspension p. 3-2 prints 40–50 ft. lb. for steering-arm bolts/locknuts, but supplement Specifications p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both are passenger-car figures; no definitive 1963 torque is indexed. |
+| [03-suspension.md](03-suspension.md) | Base Suspension p. 3-8 lower ball-stud looseness diagnostic says less than 45 ft. lb. at the original nut position suggests looseness; supplement Suspension p. 3-2 specifies 30–40 ft. lb. for lower ball-stud installation. Both claim passenger-car applicability. Withhold the old diagnostic threshold for 1963 until reconciled. |
+| [03-suspension.md](03-suspension.md) | Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |

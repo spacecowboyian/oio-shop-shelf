@@ -42,7 +42,8 @@ REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # Prose spec statements — a value+unit stated in running text or a NOTE (e.g. a torque in a
 # procedure step), which the table-flattener misses. Torque especially is often prose-only.
 PROSE_UNIT_RE = re.compile(
-    r"\d[\d.,]*\s*(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?ft|ft\.?[\s/]?lbs?|"
+    r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d.,]*|[¼½¾⅛⅜⅝⅞])\s*"
+    r"(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?(?:ft|in)|(?:ft|in)\.?[\s/]?lbs?\.?|"
     r"kg/sq\.?cm|lbs?/sq|psi|°|ohms?|Ω|[\"″])", re.I)
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')

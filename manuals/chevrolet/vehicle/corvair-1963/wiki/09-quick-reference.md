@@ -27,6 +27,11 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 30½ | ° | [03-suspension.md](03-suspension.md) | turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship |
 | 3⁄32 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
 | .09375 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
+| 27 | ″ | [03-suspension.md](03-suspension.md) | point **27″ behind the front-wheel centerline**. The factory passenger-car |
+| 9⅜ | ″ | [03-suspension.md](03-suspension.md) | height is **9⅜″ ± ½″**. Repeat on the other side; side-to-side difference |
+| ½ | ″ | [03-suspension.md](03-suspension.md) | height is **9⅜″ ± ½″**. Repeat on the other side; side-to-side difference |
+| ½ | ″ | [03-suspension.md](03-suspension.md) | should be within **½″**. |
+| ½ | ″ | [03-suspension.md](03-suspension.md) | as well so overall trim stays within **½″**. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

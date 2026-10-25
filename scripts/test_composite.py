@@ -40,6 +40,29 @@ class CompositeRulesTest(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["text"], "Pressure: 26 psi")
 
+    def test_fractional_prose_spec_keeps_source(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "height.md"
+            path.write_text('# Height\n<a id="p153"></a> '
+                            '<!-- SOURCE id=base page=3-8 years=1961,1962,1963 scope=passenger -->\n'
+                            'Ride height is 9⅜″ ± ½″.\n')
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "base"}]})
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["text"], "Ride height is 9⅜″ ± ½″.")
+            self.assertEqual(rows[0]["_original_page"], "3-8")
+
+    def test_inch_pound_torque_is_searchable(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "bearings.md"
+            path.write_text('# Bearings\n<a id="p640"></a> '
+                            '<!-- SOURCE id=supplement page=3-1 years=1963 scope=passenger -->\n'
+                            'Tighten the adjusting nut to 100 in. lb. while turning the wheel.\n')
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "supplement"}]})
+            self.assertEqual(len(rows), 1)
+            self.assertIn("100 in. lb.", rows[0]["text"])
+
     def test_committed_composite_covers_every_source_page_once(self):
         manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                   "corvair-1963")
