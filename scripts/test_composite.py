@@ -16,6 +16,20 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertTrue(rows)
         self.assertTrue(all(1963 in row["_applicable_years"] and
                             row["_scope"] == "passenger" for row in rows))
+        self.assertFalse(any("[PDF p." in row.get("text", "") for row in rows))
+        quick = index.parent.parent / "wiki/09-quick-reference.md"
+        self.assertNotIn('&lt;a id="p', quick.read_text())
+
+    def test_page_marker_is_not_harvested_as_a_specification(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "spec.md"
+            path.write_text('# Specs\n<a id="p533"></a> **[PDF p.533](../p0533.png)** '
+                            '<!-- SOURCE id=supplement page=1-2 years=1963 scope=passenger -->\n'
+                            'Pressure: 26 psi\n')
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "supplement"}]})
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["text"], "Pressure: 26 psi")
 
     def test_committed_composite_covers_every_source_page_once(self):
         manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"

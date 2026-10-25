@@ -1,6 +1,6 @@
 # Needs Review
 
-_7 flag(s) across 3 chapter file(s)._
+_8 flag(s) across 4 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -9,14 +9,14 @@ _7 flag(s) across 3 chapter file(s)._
 | [01-general-information.md](01-general-information.md) | Confirm fig. 1-18 lift-contact geometry for 1963 passenger variants, especially convertible, before treating the 1961 diagram as a complete lifting specification. |
 | [01-general-information.md](01-general-information.md) | The scan's fifth machine-screw thread designation is ambiguous (#10-32 or #10-33); its torque row is intentionally withheld from the 1963 lookup until checked against another factory copy. |
 | [01-general-information.md](01-general-information.md) | Reconcile the 1961 ratios, capacities, tire and oil guidance with the supplement's later sections before transcribing them into the 1963 lookup. |
+| [02-lubrication.md](02-lubrication.md) | Base Lubrication p. 2-7 prints 13–14 pints dry, while base Specifications p. 12-10 says approximately 13 pints; resolve the distinction before indexing a 1963 Powerglide dry-fill quantity. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 
 ## Conversion coverage
 
-15 source section(s) pending cleanup; 3 partial.
+14 source section(s) pending cleanup; 3 partial.
 
-- Pending: Lubrication (combined PDF pp. 130–145, 637–639)
 - Pending: Suspension (combined PDF pp. 146–183, 640–644)
 - Pending: Steering (combined PDF pp. 184–209, 645–648)
 - Pending: Brakes (combined PDF pp. 210–231, 649–657)
