@@ -32,13 +32,15 @@ HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
 SPEC_RE = re.compile(
-    r"(?P<val>\d[\d,]*(?:\.\d+)?(?:\s*[–-]\s*\d[\d,]*(?:\.\d+)?)?)\s*"
+    r"(?P<val>(?:\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
+    r"(?:\s*[–-]\s*(?:\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞]))?)\s*"
     r"(?P<unit>N·m|N-m|Nm|kgf·cm|kgf-cm|ft[·-]?lbf?|in[·-]?lbf?|mm|cm|"
-    r"V|kΩ|Ω|A|mA|kPa|psi|bar|°C|°F|rpm|L|cc|mL)\b"
+    r"V|kΩ|Ω|A|mA|kPa|psi|bar|°C|°F|°|″|\"|lb\.\s*ft\.?|rpm|L|cc|mL)(?=\W|$)"
 )
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
 # subsection heading with the source page it lives on so 08 can bake a jump target.
 PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\]")
+SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=[\w-]+\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
 
 
 def slugify_anchor(heading: str) -> str:
@@ -52,7 +54,7 @@ def slugify_anchor(heading: str) -> str:
 def is_generated(name: str) -> bool:
     return (name in GENERATED
             or GENERATED_ALPHA_RE.match(name) is not None
-            or name == "llm-instructions.md")
+            or name in ("llm-instructions.md", "all-files.md"))
 
 
 def chapter_files(wdir: Path) -> list[Path]:
@@ -72,11 +74,22 @@ def main() -> int:
         sys.exit("No chapter .md files in wiki/ yet — run the AI cleanup step first.")
 
     specs, reviews, alpha = [], [], defaultdict(list)
+    composite = manifest.get("composite")
 
     for f in files:
         lines = f.read_text(encoding="utf-8").splitlines()
         cur_page = None  # source PDF page of the most recent "[PDF p.N]" marker
+        in_scope = not composite
+        seen_source = False
         for ln, line in enumerate(lines, 1):
+            source_marker = SOURCE_RE.search(line)
+            if source_marker and composite:
+                seen_source = True
+                if source_marker.group(1) not in {s["id"] for s in composite["sources"]}:
+                    sys.exit(f"{f}:{ln}: unknown composite SOURCE id")
+                years = {int(y) for y in source_marker.group(2).split(",")}
+                in_scope = (composite["target_year"] in years and
+                            source_marker.group(3) in (composite["scope"], "all"))
             pm = PDF_PAGE_RE.search(line)
             if pm:
                 cur_page = int(pm.group(1))
@@ -86,10 +99,14 @@ def main() -> int:
                 # H2/H3 subsections become alphabetical-index terms, tagged with the
                 # source page they sit under (skip any heading before the first marker
                 # and the boilerplate "In this chapter" TOC heading).
-                if level in (2, 3) and cur_page is not None \
+                if level in (2, 3) and cur_page is not None and in_scope \
                         and text.strip().lower() != "in this chapter":
                     alpha[text[0].upper() if text else "#"].append((text, f.name, cur_page))
             for sm in SPEC_RE.finditer(line):
+                if composite and not seen_source:
+                    sys.exit(f"{f}:{ln}: composite specification lacks SOURCE marker")
+                if not in_scope:
+                    continue
                 # nearest preceding heading anchor for context
                 specs.append((f.name, sm.group("val"), sm.group("unit"), line.strip()))
         for rm in REVIEW_RE.finditer("\n".join(lines)):
@@ -108,9 +125,12 @@ def main() -> int:
         fname = ch["file"]
         code = ch.get("section_code", "")
         title = ch.get("title", fname)
-        rng = f"{ch['page_start']}-{ch['page_end']}"
+        rng = ", ".join(f"{r['page_start']}-{r['page_end']}"
+                        for r in (ch.get("source_ranges") or [ch]))
         if fname in present:
-            filecell, status = f"[{fname}]({fname})", "✅ done"
+            filecell = f"[{fname}]({fname})"
+            status = ("⚠ partial" if "<!-- INCOMPLETE -->" in (wdir / fname).read_text(encoding="utf-8")
+                      else "✅ done")
         else:
             filecell, status = fname, "⬜ pending"
         idx.append(f"| {code} | {title} | {filecell} | {rng} | {status} |")
@@ -118,7 +138,7 @@ def main() -> int:
             "- [Quick Reference (specs)](09-quick-reference.md)",
             "- [Needs Review](10-needs-review.md)",
             "- [Alphabetical Index](11a-alphabetical-index.md)", ""]
-    (wdir / "00-index.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
+    (wdir / "00-index.md").write_text("\n".join(idx).rstrip() + "\n", encoding="utf-8")
 
     # 09-quick-reference.md
     qr = ["# Quick Reference — Specifications", "",
@@ -141,6 +161,18 @@ def main() -> int:
             nr.append(f"| [{name}]({name}) | {reason.replace(chr(10), ' ').replace('|', chr(92)+'|')} |")
     else:
         nr.append("No open review flags. 🎉")
+    if composite:
+        pending = [ch for ch in manifest["chapters"] if ch["file"] not in present]
+        partial = [ch for ch in manifest["chapters"] if ch["file"] in present and
+                   "<!-- INCOMPLETE -->" in (wdir / ch["file"]).read_text(encoding="utf-8")]
+        nr += ["", "## Conversion coverage", "",
+               f"{len(pending)} source section(s) pending cleanup; {len(partial)} partial.", ""]
+        for ch in pending:
+            ranges = ", ".join(f"{r['page_start']}–{r['page_end']}"
+                               for r in (ch.get("source_ranges") or [ch]))
+            nr.append(f"- Pending: {ch['title']} (combined PDF pp. {ranges})")
+        for ch in partial:
+            nr.append(f"- Partial: [{ch['title']}]({ch['file']})")
     (wdir / "10-needs-review.md").write_text("\n".join(nr) + "\n", encoding="utf-8")
 
     # 11a-alphabetical-index.md — entries in the shape 08 parses:
@@ -157,7 +189,7 @@ def main() -> int:
         for text, name, page in sorted(set(alpha[letter])):
             ai.append(f"- {text} — [{name}#p{page}]({name}#p{page}) ([PDF p.{page}])")
         ai.append("")
-    (wdir / "11a-alphabetical-index.md").write_text("\n".join(ai) + "\n", encoding="utf-8")
+    (wdir / "11a-alphabetical-index.md").write_text("\n".join(ai).rstrip() + "\n", encoding="utf-8")
 
     n_alpha = sum(len(v) for v in alpha.values())
     print(f"Generated indexes: {len(files)} cleaned chapter file(s), "

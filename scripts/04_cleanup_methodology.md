@@ -264,6 +264,28 @@ it is fenced:
   manual fails in both directions at once (bad glyphs AND bad word order). Read the page image
   before transcribing any table whose cells carry type codes or specs.
 
+## Rule 14 — Composite manuals with one target year
+
+When a manifest has `composite`, clean each logical chapter from all of its
+`source_ranges` together. Keep only material applicable to the manifest's target
+year and scope. A later supplement changes a base procedure only where the
+factory text says it does; preserve unchanged base steps with their original
+source citation. Where a table separates years, transcribe only the target-year
+column. Exclude procedures for other vehicle scopes and canceled variants.
+
+Before every spec or procedure block, place a provenance marker such as
+`<!-- SOURCE id=supplement-1962-63 page=12-2 years=1963 scope=passenger -->`.
+Use a comma-separated year list only when the source supports every listed
+year. The `page` is the printed source page, or an explicit label such as
+`12-opening` when the scan has no printed number; also keep the combined PDF
+page marker and original filename. The index builders reject untagged composite
+specifications and exclude blocks outside the target year and scope.
+
+If applicability, supersession, a printed page number, or a conflicting value
+cannot be established from the source image, add a `NEEDS REVIEW` flag and keep
+the uncertain value out of the target-year lookup. Do not use the publication
+year of the base book as proof that its every value still applies.
+
 ## Output checklist (self-verify before saving)
 
 - [ ] Every number matches the OCR/image; none silently changed.
@@ -303,3 +325,5 @@ per change: date · what changed · why (link the PR/issue).
   rule never to render below the scan's native resolution (300 dpi recommended for zoom). Bolt
   sequences must be transcribed as text too — an assistant that cannot load the image could not
   answer "what's the head-bolt sequence?" from an image-only figure.
+- 2026-10-25 · Added Rule 14 for a target-year manual assembled from factory base and
+  supplement sources; applies explicit year and vehicle scope at each audited block.

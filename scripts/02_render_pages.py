@@ -249,8 +249,9 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
 
     def chapter_of(page: int):
         for ch in chapters:
-            if ch["page_start"] <= page <= ch["page_end"]:
-                return ch
+            for source_range in ch.get("source_ranges") or [ch]:
+                if source_range["page_start"] <= page <= source_range["page_end"]:
+                    return ch
         return None
 
     # Resolve the public repo/branch so absolute URLs can be built.
@@ -337,7 +338,8 @@ def write_pages_json(mdir: Path, manifest: dict, dpi: int, threshold: int) -> No
         "chapters": [
             {"file": f"wiki/{c['file']}", "title": c.get("title"),
              "section_code": c.get("section_code"),
-             "page_start": c["page_start"], "page_end": c["page_end"]}
+             "page_start": c["page_start"], "page_end": c["page_end"],
+             "source_ranges": c.get("source_ranges")}
             for c in chapters
         ],
         "pages": pages,
