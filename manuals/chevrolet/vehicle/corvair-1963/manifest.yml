@@ -312,6 +312,30 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 2
+  file: diagrams/p0002-passenger-dimensions.png
+  kind: chart
+  depth: mono
+  caption: Passenger-car body dimensions from factory fig. 1-1
+  safety_relevant: false
+- page: 6
+  file: diagrams/p0006-lock-tumbler-diagram.png
+  kind: chart
+  depth: mono
+  caption: Factory side-bar lock tumbler requirement diagram (fig. 1-13)
+  safety_relevant: false
+- page: 7
+  file: diagrams/p0007-passenger-lift-points.png
+  kind: chart
+  depth: mono
+  caption: Passenger-car hoist and jack contact areas (fig. 1-18)
+  safety_relevant: true
+- page: 8
+  file: diagrams/p0008-general-steel-bolt-torque.png
+  kind: chart
+  depth: mono
+  caption: Factory general steel-bolt torque chart, for steel parts without specific torque
+  safety_relevant: true
 - page: 533
   file: diagrams/p0533-1963-model-identification.png
   kind: chart

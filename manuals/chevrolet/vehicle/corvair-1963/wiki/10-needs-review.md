@@ -1,10 +1,14 @@
 # Needs Review
 
-_3 flag(s) across 3 chapter file(s)._
+_7 flag(s) across 3 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
-| [01-general-information.md](01-general-information.md) | The composite source-page continuity report contains 39 printed-page/OCR anomaly pairs; review the page images before treating those OCR labels as verified printed page numbers. |
+| [01-general-information.md](01-general-information.md) | Fig. 1-1 predates the convertible; verify its 1963 loaded height and any body-specific dimensions before applying the base diagram to model 967. |
+| [01-general-information.md](01-general-information.md) | No factory weight is listed here for 1963 model 967 convertible; do not infer one from a coupe or sedan. |
+| [01-general-information.md](01-general-information.md) | Confirm fig. 1-18 lift-contact geometry for 1963 passenger variants, especially convertible, before treating the 1961 diagram as a complete lifting specification. |
+| [01-general-information.md](01-general-information.md) | The scan's fifth machine-screw thread designation is ambiguous (#10-32 or #10-33); its torque row is intentionally withheld from the 1963 lookup until checked against another factory copy. |
+| [01-general-information.md](01-general-information.md) | Reconcile the 1961 ratios, capacities, tire and oil guidance with the supplement's later sections before transcribing them into the 1963 lookup. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 
