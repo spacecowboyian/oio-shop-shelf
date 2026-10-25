@@ -5,6 +5,21 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | Value | Unit | Chapter | Context |
 | ----- | ---- | ------- | ------- |
 | 533 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p533">&lt;/a> **PDF p.533** &lt;!-- SOURCE id=supplement-1962-63 page=1-2 years= |
+| 2 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p2">&lt;/a> **PDF p.2** &lt;!-- SOURCE id=base-1961 page=1-1 years=1961,1962,196 |
+| 180 | ″ | [01-general-information.md](01-general-information.md) | Overall length 180″ A |
+| 108 | ″ | [01-general-information.md](01-general-information.md) | Wheelbase 108″ B |
+| 30.3 | ″ | [01-general-information.md](01-general-information.md) | Front overhang 30.3″ C |
+| 41.7 | ″ | [01-general-information.md](01-general-information.md) | Rear overhang 41.7″ D |
+| 6 | ″ | [01-general-information.md](01-general-information.md) | Minimum ground clearance 6″ E |
+| 51.5 | ″ | [01-general-information.md](01-general-information.md) | Overall loaded height, coupe and sedan 51.5″ F |
+| 54 | ″ | [01-general-information.md](01-general-information.md) | Tread width 54″ G |
+| 67.0 | ″ | [01-general-information.md](01-general-information.md) | Overall width 67.0″ H |
+| 3 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p3">&lt;/a> **PDF p.3** &lt;!-- SOURCE id=base-1961 page=1-2 years=1963 scope=pa |
+| 4 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p4">&lt;/a> **PDF p.4** &lt;!-- SOURCE id=base-1961 page=1-3 years=1963 scope=pa |
+| 5 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p5">&lt;/a> **PDF p.5** &lt;!-- SOURCE id=base-1961 page=1-4 years=1963 scope=pa |
+| 6 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p6">&lt;/a> **PDF p.6** &lt;!-- SOURCE id=base-1961 page=1-5 years=1963 scope=pa |
+| 7 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p7">&lt;/a> **PDF p.7** &lt;!-- SOURCE id=base-1961 page=1-6 years=1963 scope=pa |
+| 8 | " | [01-general-information.md](01-general-information.md) | &lt;a id="p8">&lt;/a> **PDF p.8** &lt;!-- SOURCE id=base-1961 page=1-7 years=1963 scope=pa |
 | 678 | " | [06e-automatic-transmission.md](06e-automatic-transmission.md) | &lt;a id="p678">&lt;/a> **PDF p.678** &lt;!-- SOURCE id=supplement-1962-63 page=6E-opening |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

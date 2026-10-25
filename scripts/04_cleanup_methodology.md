@@ -268,10 +268,12 @@ it is fenced:
 
 When a manifest has `composite`, clean each logical chapter from all of its
 `source_ranges` together. Keep only material applicable to the manifest's target
-year and scope. A later supplement changes a base procedure only where the
-factory text says it does; preserve unchanged base steps with their original
-source citation. Where a table separates years, transcribe only the target-year
-column. Exclude procedures for other vehicle scopes and canceled variants.
+year and scope. The base manual's information carries forward unless a later
+factory supplement changes it. A 1962 supplement update also carries into
+1963 unless a 1963 entry changes it. Preserve each unchanged base step and
+carryover update with its original source citation. Where a table explicitly
+separates years, transcribe the target-year column; do not promote the other
+column as a fallback. Exclude other vehicle scopes and canceled variants.
 
 Before every spec or procedure block, place a provenance marker such as
 `<!-- SOURCE id=supplement-1962-63 page=12-2 years=1963 scope=passenger -->`.
@@ -327,3 +329,5 @@ per change: date · what changed · why (link the PR/issue).
   answer "what's the head-bolt sequence?" from an image-only figure.
 - 2026-10-25 · Added Rule 14 for a target-year manual assembled from factory base and
   supplement sources; applies explicit year and vehicle scope at each audited block.
+- 2026-10-25 · Clarified Rule 14 carry-forward: base information and intermediate-year
+  updates remain applicable until explicitly changed; year-separated columns do not.
