@@ -22,6 +22,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from _common import load_manifest  # noqa: E402
+
 # generated / index / instruction files are not primary content
 SKIP_FILES = {
     "00-index.md", "09-quick-reference.md", "09-torque-specs.md", "10-needs-review.md",
@@ -40,10 +43,11 @@ REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # procedure step), which the table-flattener misses. Torque especially is often prose-only.
 PROSE_UNIT_RE = re.compile(
     r"\d[\d.,]*\s*(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?ft|ft\.?[\s/]?lbs?|"
-    r"kg/sq\.?cm|lbs?/sq|psi|°|ohms?|Ω)", re.I)
+    r"kg/sq\.?cm|lbs?/sq|psi|°|ohms?|Ω|[\"″])", re.I)
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
+SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=([\w-]+)\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
 
 
 def comment_tokens(comment: str) -> set[str]:
@@ -75,7 +79,7 @@ def page_of(line: str):
     return None
 
 
-def harvest_file(path: Path) -> list[dict]:
+def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
     comments = [c.strip().replace("\n", " ") for c in REVIEW_RE.findall(text)]
@@ -88,9 +92,28 @@ def harvest_file(path: Path) -> list[dict]:
     rows: list[dict] = []
     page = None
     section = None
+    provenance = None
+
+    def add_row(row: dict) -> None:
+        if composite is not None:
+            if provenance is None:
+                raise ValueError(f"{path}: spec row lacks a SOURCE marker")
+            source_id, original_page, years, scope = provenance
+            if source_id not in {s["id"] for s in composite["sources"]}:
+                raise ValueError(f"{path}: unknown SOURCE id {source_id}")
+            if int(composite["target_year"]) not in years or scope not in (composite["scope"], "all"):
+                return
+            row.update({"_source_id": source_id, "_original_page": original_page,
+                        "_applicable_years": years, "_scope": scope})
+        rows.append(row)
+
     i = 0
     while i < len(lines):
         line = lines[i]
+        marker = SOURCE_RE.search(line)
+        if marker:
+            provenance = (marker.group(1), marker.group(2),
+                          [int(y) for y in marker.group(3).split(",")], marker.group(4))
         pg = page_of(line)
         if pg:
             page = pg
@@ -105,8 +128,8 @@ def harvest_file(path: Path) -> list[dict]:
             if txt and len(txt) <= 240 and PROSE_UNIT_RE.search(txt):
                 fl = [c for c in comments
                       if any(t in txt and comment_tokens_count.get(t, 0) <= 3 for t in comment_tokens(c))]
-                rows.append({"_file": f"wiki/{path.name}", "_page": page,
-                             "_section": section, "_type": "spec", "text": txt, "_flags": fl})
+                add_row({"_file": f"wiki/{path.name}", "_page": page,
+                         "_section": section, "_type": "spec", "text": txt, "_flags": fl})
         # table = pipe header row followed by a separator row
         if line.strip().startswith("|") and i + 1 < len(lines) and SEP_RE.match(lines[i + 1].strip()):
             headers = split_row(line)
@@ -129,7 +152,7 @@ def harvest_file(path: Path) -> list[dict]:
                 label_parts = [c for c in cells if c and not re.fullmatch(r"[\d.,\s–-]+", c)][:3]
                 flags = [c for c in comments
                          if any(t in raw and tok_rowcount.get(t, 0) <= 2 for t in comment_tokens(c))]
-                rows.append({
+                add_row({
                     "_file": f"wiki/{path.name}", "_page": page, "_section": section,
                     "_label": " — ".join(label_parts), **obj, "_flags": flags,
                 })
@@ -148,7 +171,7 @@ def main() -> int:
     files = sorted(f for f in wiki.glob("*.md") if f.name not in SKIP_FILES)
     all_rows: list[dict] = []
     for f in files:
-        all_rows.extend(harvest_file(f))
+        all_rows.extend(harvest_file(f, load_manifest(mdir).get("composite")))
     out = mdir / "data" / "manual-index.jsonl"
     out.parent.mkdir(exist_ok=True)
     with out.open("w", encoding="utf-8") as fh:

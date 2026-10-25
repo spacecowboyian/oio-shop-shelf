@@ -47,6 +47,15 @@ page crosses the network at a time.
 
 So `publish-release.sh` moves **only the PDF**, and `no-pdf-guard` checks **only** `*.pdf`.
 
+For a composite manual, keep the original factory PDFs under ignored `_inbox/`.
+The manifest's `composite.source_staging_dir` and `composite.source_inventory`
+identify them. Before merge, stage only the combined, OCR'd/indexed PDF in the
+manual directory and run the same `publish-release.sh`. It verifies the SHA-256
+of every original against the inventory, uploads the originals as additional
+assets to the same manual Release, records their Release URLs in the inventory,
+then uploads and removes the combined PDF by the existing process. Re-run the
+staging script first if the maintainer machine lacks the ignored originals.
+
 ## What a manual PR looks like when it arrives
 
 The contributor ran the `convert-manual` pipeline and, for convenience, **committed the

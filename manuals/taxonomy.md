@@ -68,6 +68,27 @@ This is the discovery layer. An agent answering "1988 MR2, 4A-GE cam-cap torque"
 one manual matches many searches. Because it's generated from the manifest, it can never
 drift from the source of truth.
 
+### Composite, target-year manuals
+
+A manual assembled from a base factory book and later supplements still has one target
+year in `taxonomy.years` and one public title. Its manifest may add `composite` with
+`target_year`, `scope`, ordered source IDs and priorities, and a provenance page map.
+Chapter `page_start`/`page_end` keep the first physical range for older tools;
+`source_ranges` lists every base and supplement slice needed for one coherent
+chapter. Each slice names its `source_id`, original PDF filename, and combined
+physical page range. The map resolves a combined page to the original
+PDF, its physical page, its printed page when verified, URL, and SHA-256.
+
+Content authors must tag each applicable block before a specification with
+`<!-- SOURCE id=<source-id> page=<printed-page> years=1963 scope=passenger -->`.
+Use comma-separated years for truly shared information. A value whose year is
+unclear must remain in `needs-review`, not in the lookup index. The composite
+index builders reject an untagged specification and exclude rows that do not
+match the target year and scope. When sources disagree, cite both and resolve
+only from an explicit factory supersession or year-specific column; otherwise
+flag the conflict. `scripts/composite.py` implements the same fail-closed rule
+for machine lookups. Existing single-source manuals need no new fields.
+
 ## 3. `taxonomy.yml` — the controlled vocabulary
 
 `taxonomy.yml` fixes the canonical spelling of every make, model, chassis and engine, so

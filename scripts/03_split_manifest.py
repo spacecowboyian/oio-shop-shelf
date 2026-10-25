@@ -13,6 +13,7 @@ These drafts are the input to the AI cleanup step (04_cleanup_methodology.md).
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -47,21 +48,40 @@ def main() -> int:
     pages = load_pages(text_file)
     max_page = len(pages) - 1
     print(f"Loaded {max_page} pages of OCR text.")
+    provenance = {}
+    map_file = mdir / (manifest.get("composite") or {}).get("provenance_map", "")
+    if manifest.get("composite"):
+        if not map_file.is_file():
+            sys.exit(f"Composite provenance map missing: {map_file}")
+        for line in map_file.read_text().splitlines():
+            row = json.loads(line)
+            provenance[row["combined_page"]] = row
 
     for ch in manifest["chapters"]:
-        ps, pe = ch["page_start"], ch["page_end"]
-        if pe > max_page:
-            print(f"  WARNING: {ch['file']} page_end {pe} > pages in PDF ({max_page})")
-        chunk = "\n".join(pages[ps:pe + 1])
+        ranges = ch.get("source_ranges") or [ch]
+        for source_range in ranges:
+            if source_range["page_end"] > max_page:
+                print(f"  WARNING: {ch['file']} page_end {source_range['page_end']} > pages in PDF ({max_page})")
+        if provenance:
+            chunk = "\n".join(
+                f"\n<!-- ORIGINAL {provenance[n]['source_id']}/{provenance[n]['filename']}"
+                f" physical PDF page {provenance[n]['pdf_page']}; combined PDF page {n};"
+                f" printed page {provenance[n].get('original_page') or 'UNVERIFIED'} -->\n"
+                + pages[n] for source_range in ranges
+                for n in range(source_range["page_start"], min(source_range["page_end"], max_page) + 1))
+        else:
+            chunk = "\n".join(pages[n] for source_range in ranges
+                              for n in range(source_range["page_start"], min(source_range["page_end"], max_page) + 1))
+        ps, pe = ranges[0]["page_start"], ranges[-1]["page_end"]
         header = (
             f"# RAW DRAFT — {ch['title']}\n"
-            f"# source pages {ps}-{pe} | output file: wiki/{ch['file']}\n"
-            f"# Feed this + scripts/04_cleanup_methodology.md + pages/p{ps:04d}.png..p{pe:04d}.png\n"
+            f"# source ranges {[(r['page_start'], r['page_end']) for r in ranges]} | output file: wiki/{ch['file']}\n"
+            f"# Feed this + scripts/04_cleanup_methodology.md + images for the listed source ranges\n"
             f"# to your AI agent. Do NOT commit this draft.\n\n"
         )
         out = mdir / "raw-ocr" / (Path(ch["file"]).stem + ".draft.txt")
         out.write_text(header + chunk, encoding="utf-8")
-        print(f"  wrote {out.name}  (pages {ps}-{pe})")
+        print(f"  wrote {out.name}  ({len(ranges)} source range(s))")
 
     print("\nNext: run the AI cleanup step per CONTRIBUTING.md, then 05_build_indexes.py")
     return 0
