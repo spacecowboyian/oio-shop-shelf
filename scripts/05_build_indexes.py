@@ -41,6 +41,8 @@ SPEC_RE = re.compile(
 # subsection heading with the source page it lives on so 08 can bake a jump target.
 PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\]")
 SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=[\w-]+\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
+PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
+PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
 
 def slugify_anchor(heading: str) -> str:
@@ -102,13 +104,17 @@ def main() -> int:
                 if level in (2, 3) and cur_page is not None and in_scope \
                         and text.strip().lower() != "in this chapter":
                     alpha[text[0].upper() if text else "#"].append((text, f.name, cur_page))
-            for sm in SPEC_RE.finditer(line):
+            # Page markers contain id="p533", which looks like a 533-inch spec to
+            # the broad quote-unit matcher. Strip delivery markup before harvesting.
+            spec_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", line))
+            spec_line = re.sub(r"<!--.*?-->", "", spec_line)
+            for sm in SPEC_RE.finditer(spec_line):
                 if composite and not seen_source:
                     sys.exit(f"{f}:{ln}: composite specification lacks SOURCE marker")
                 if not in_scope:
                     continue
                 # nearest preceding heading anchor for context
-                specs.append((f.name, sm.group("val"), sm.group("unit"), line.strip()))
+                specs.append((f.name, sm.group("val"), sm.group("unit"), spec_line.strip()))
         for rm in REVIEW_RE.finditer("\n".join(lines)):
             reviews.append((f.name, rm.group(1).strip()))
 

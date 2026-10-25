@@ -6,11 +6,21 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## A
 
+- Air conditioning, if equipped — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Assemble an uncoded side-bar cylinder — [01-general-information.md#p6](01-general-information.md#p6) ([PDF p.6])
+
+## B
+
+- Body lubrication — [02-lubrication.md#p639](02-lubrication.md#p639) ([PDF p.639])
+- Body points serviced when accessible — [02-lubrication.md#p139](02-lubrication.md#p139) ([PDF p.139])
+- Brake master cylinder — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
 
 ## C
 
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
+- Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
+- Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
+- Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 
 ## D
 
@@ -18,6 +28,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## E
 
+- Electrical and fuel-system service — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Emergency towing — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 
 ## F
@@ -35,12 +46,17 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Lifting points — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 
+## M
+
+- Manual transmission and rear axle — [02-lubrication.md#p136](02-lubrication.md#p136) ([PDF p.136])
+
 ## P
 
 - Passenger-car dimensions carried from the base manual — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Passenger-car keys and locks — [01-general-information.md#p4](01-general-information.md#p4) ([PDF p.4])
 - Planet carrier removal and inspection — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Planet carrier repair — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
+- Powerglide fluid level — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Push-start with Powerglide — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Push-start with manual transmission — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 
@@ -50,13 +66,16 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## S
 
+- Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Suspension bolt torque — [12-specifications.md#p625](12-specifications.md#p625) ([PDF p.625])
 
 ## T
 
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
+- Transmission, rear axle, and controls — [02-lubrication.md#p135](02-lubrication.md#p135) ([PDF p.135])
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
+- Twice-yearly body points — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
 
 ## U
 

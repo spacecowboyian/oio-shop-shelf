@@ -48,6 +48,8 @@ NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
 SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=([\w-]+)\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
+PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
+PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
 
 def comment_tokens(comment: str) -> set[str]:
@@ -123,7 +125,8 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
         # prose spec statement (value+unit in running text / a NOTE) — the table-flattener
         # misses these, and torque is often prose-only. Strip list/quote/emphasis markers.
         if not line.strip().startswith("|"):
-            txt = re.sub(r"^[\s>*\-\d.)]+", "", line).strip().replace("**", "")
+            prose_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", line))
+            txt = re.sub(r"^[\s>*\-\d.)]+", "", prose_line).strip().replace("**", "")
             txt = re.sub(r"<!--.*?-->", "", txt).strip()
             if txt and len(txt) <= 240 and PROSE_UNIT_RE.search(txt):
                 fl = [c for c in comments

@@ -336,6 +336,24 @@ diagrams:
   depth: mono
   caption: Factory general steel-bolt torque chart, for steel parts without specific torque
   safety_relevant: true
+- page: 137
+  file: diagrams/p0137-clutch-parking-brake-pulleys.png
+  kind: chart
+  depth: mono
+  caption: Clutch and parking-brake cable pulley lubrication points (figs. 2-12 and 2-13)
+  safety_relevant: false
+- page: 138
+  file: diagrams/p0138-body-lubrication.png
+  kind: chart
+  depth: mono
+  caption: Door-striker, drain strip, and front-compartment lubrication points
+  safety_relevant: false
+- page: 140
+  file: diagrams/p0140-door-window-regulator.png
+  kind: chart
+  depth: mono
+  caption: Door-window regulator and linkage lubrication points (fig. 2-23)
+  safety_relevant: false
 - page: 533
   file: diagrams/p0533-1963-model-identification.png
   kind: chart
@@ -372,3 +390,9 @@ diagrams:
   depth: gray
   caption: Factory pinion installation and staking operations
   safety_relevant: true
+- page: 639
+  file: diagrams/p0639-rear-quarter-regulator.png
+  kind: chart
+  depth: mono
+  caption: Rear-quarter window regulator and guide lubrication points (fig. 2-1)
+  safety_relevant: false
