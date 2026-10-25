@@ -312,6 +312,24 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 151
+  file: diagrams/p0151-front-hub-bearing-tools.png
+  kind: chart
+  depth: gray
+  caption: Front hub bearing-cup tool drawings and press setup (figs. 3-6 to 3-8)
+  safety_relevant: true
+- page: 152
+  file: diagrams/p0152-front-shock-installation.png
+  kind: exploded
+  depth: gray
+  caption: Front shock absorber installation (fig. 3-9)
+  safety_relevant: true
+- page: 153
+  file: diagrams/p0153-front-riding-height.png
+  kind: chart
+  depth: gray
+  caption: Passenger-car front riding-height measurement (fig. 3-10)
+  safety_relevant: true
 - page: 641
   file: diagrams/p0641-lower-spherical-joint-inspection.png
   kind: chart
