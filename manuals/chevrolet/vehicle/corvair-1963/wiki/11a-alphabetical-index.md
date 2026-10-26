@@ -6,7 +6,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## 1
 
-- 1963 passenger wheels and tires — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
+- 1963 passenger wheels and tires — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 
 ## A
 
@@ -81,10 +81,15 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Rear alignment adjustment carried forward — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
+- Refit the front coil spring and arm — [03-suspension.md#p155](03-suspension.md#p155) ([PDF p.155])
 - Remaining base procedures — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Remove and inspect the front hub and drum — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
+- Remove and install a front strut rod — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
 - Remove and install the front shock absorber — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
+- Remove and install the front suspension crossmember — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
+- Remove the front coil spring and lower arm — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- Renew the lower joint and arm bushing — [03-suspension.md#p154](03-suspension.md#p154) ([PDF p.154])
 - Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 
 ## S
@@ -103,3 +108,4 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## U
 
 - Unit and serial number locations — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
+- Upper control arm, joint, cross shaft, and bushings — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])

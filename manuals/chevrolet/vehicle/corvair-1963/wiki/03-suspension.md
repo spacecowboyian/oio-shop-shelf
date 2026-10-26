@@ -233,6 +233,197 @@ that check until the factory conflict is resolved.
 
 ![Factory passenger-car riding-height reference, fig. 3-10](../diagrams/p0153-front-riding-height.png)
 
+### Remove the front coil spring and lower arm
+
+<a id="p153-spring"></a> **[PDF p.153](../page-images/p0153.png)** <!-- SOURCE id=base-1961 page=3-8 years=1961,1962,1963 scope=passenger -->
+
+1. Put the car on a suitable hoist or stands so the front control arms can
+   swing freely while being raised and lowered under control. Remove the
+   [front shock absorber](#remove-and-install-the-front-shock-absorber).
+2. Remove the two nuts and lockwashers fastening the strut rod to the lower
+   arm. Its studs are pressed into the rod; the rear rubber grommet leaves
+   slight tension in the rod.
+3. Loosen the lower-arm inner pivot nut, **but do not remove its bolt yet**.
+
+<a id="p154"></a> **[PDF p.154](../page-images/p0154.png)** <!-- SOURCE id=base-1961 page=3-9 years=1961,1962,1963 scope=passenger -->
+
+4. Put a jackstand or hoist post beneath the inner end of the arm, at the
+   bushing, and take up slight spring compression.
+5. Remove the inner pivot nut and lockwasher, then tap out the pivot pin.
+6. **Lower the support slowly until spring compression is fully released.**
+   Withdraw the spring. The factory suggests a bar through the control arm
+   into the spring tower to retain it until free; otherwise keep clear of the
+   suspension while it unloads.
+7. To remove the lower arm, remove the lower ball-stud cotter pin and nut,
+   then tap the arm free of the steering knuckle.
+
+![Factory strut-rod attachment, support position, and lower-arm removal](../diagrams/p0154-front-spring-lower-arm-removal.png)
+
+### Renew the lower joint and arm bushing
+
+<a id="p154-joint"></a> **[PDF p.154](../page-images/p0154.png)** <!-- SOURCE id=base-1961 page=3-9 years=1961,1962,1963 scope=passenger -->
+
+With the arm on the press bed and **J-7081** beneath the joint area, use
+**J-6356-6** over the old spherical joint to press it out. Support the arm
+again on **J-7081** and press the new joint into its hole, loading the full
+outside diameter of the joint. If the press ram is narrower, interpose a
+steel block large enough to cover the joint and withstand the press load.
+
+<a id="p155"></a> **[PDF p.155](../page-images/p0155.png)** <!-- SOURCE id=base-1961 page=3-10 years=1961,1962,1963 scope=passenger -->
+
+Press until the joint shoulder contacts the arm flange. Put the arm back
+with the ball stud through the steering knuckle and fit its nut.
+
+<a id="p641-lower-arm"></a> **[PDF p.641](../page-images/p0641.png)** <!-- SOURCE id=supplement-1962-63 page=3-2 years=1962,1963 scope=passenger -->
+
+Tighten the lower ball-stud nut to **30–40 ft. lb.** and fit a new cotter pin.
+
+<a id="p155-bushing"></a> **[PDF p.155](../page-images/p0155.png)** <!-- SOURCE id=base-1961 page=3-10 years=1961,1962,1963 scope=passenger -->
+
+For bushing replacement, the base manual shows the press-tool arrangement
+in fig. 3-16. Press or drive the old bushing from the end **without** the
+large collar on its outer shell. The new lower-arm bushing enters from the
+**front side** of the arm.
+
+![Factory lower-joint and lower-arm bushing press arrangements](../diagrams/p0155-lower-arm-bushing-press.png)
+
+### Refit the front coil spring and arm
+
+<a id="p155-spring"></a> **[PDF p.155](../page-images/p0155.png)** <!-- SOURCE id=base-1961 page=3-10 years=1961,1962,1963 scope=passenger -->
+
+Put the spring on the lower arm and rotate it until its upper end contacts
+its seat. Raise the supported arm slowly, align it with the inner bracket,
+and insert the pivot bolt from the front with its lockwasher and nut. **Do
+not tighten the pivot yet.** A retaining bar through the arm into the spring
+tower keeps the spring positioned until the bolt is in place.
+
+![Factory jackstand support for front coil-spring installation, fig. 3-18](../diagrams/p0156-front-spring-installation.png)
+
+<a id="p156"></a> **[PDF p.156](../page-images/p0156.png)** <!-- SOURCE id=base-1961 page=3-11 years=1961,1962,1963 scope=passenger -->
+
+Fasten the strut rod to the lower arm with its two nuts and lockwashers.
+Leave the large nuts at the rod's grommet end alone; those set caster.
+Install the shock, lower the car, bounce the front suspension several times
+to settle it, then tighten the lower pivot.
+
+<a id="p625"></a> **[PDF p.625](../page-images/p0625.png)** <!-- SOURCE id=supplement-1962-63 page=12-2 years=1962,1963 scope=passenger -->
+
+The passenger-car lower-arm pivot-bolt torque is **90–120 ft. lb.**
+
+### Upper control arm, joint, cross shaft, and bushings
+
+<a id="p156-upper"></a> **[PDF p.156](../page-images/p0156.png)** <!-- SOURCE id=base-1961 page=3-11 years=1961,1962,1963 scope=passenger -->
+
+**Remove the arm:** Support vehicle weight at the outer end of the lower
+arm and remove the wheel. Remove the upper ball-stud cotter pin and nut;
+separate the stud from the knuckle with **J-6627**. Remove the two nuts
+holding the upper-arm cross shaft to the front crossmember. **Record the
+number of alignment shims at each attachment** so they can be restored.
+
+For **joint replacement**, center-punch and drill the heads of its four
+rivets. Cut off the rivets with a sharp chisel without enlarging the arm
+holes, punch them out, and remove the old joint. For **cross-shaft or
+bushing replacement**, remove the bolts, lockwashers, and collars at both
+shaft ends and the rubber spacer at the rear. The factory uses the longer
+bolt supplied with **J-8345**, support **J-5888-3**, driver **J-7079-2**,
+and **J-8345-3** to press out the bushings in sequence (fig. 3-19).
+
+<a id="p157"></a> **[PDF p.157](../page-images/p0157.png)** <!-- SOURCE id=base-1961 page=3-12 years=1961,1962,1963 scope=passenger -->
+
+**Install bushings and shaft:** Support the arm on **J-5888-3**. Use
+**J-7079-2** and **J-8345-2** to press in the bushing that enters from the
+**inside** first. Insert the cross shaft; invert the arm and press in the
+second bushing from the **outside**, with **J-8345-1** supporting the arm
+against flexing. The shaft should turn by hand. Replace the rear rubber
+spacer, collars, lockwashers, and end bolts, but leave those bolts loose
+until the suspension is settled.
+
+**Install a replacement joint:** Put it against the upper face of the arm
+and fasten it with the four **special alloy bolts and nuts supplied with the
+replacement part**. The factory warns to use only those supplied alloy
+bolts. Tighten the nuts to **20–25 ft. lb.**
+
+**Refit the arm:** Check that its attaching studs are in place. Put back
+the same shim count at each crossmember attachment and fit its nuts and
+lockwashers. Fit a new rubber seal to the joint stud, insert the stud in
+the knuckle, fasten it, and install a new cotter pin. Refit the wheel,
+lower the car, and bounce the front end to center the bushings. Tighten
+the cross-shaft **end bolts** to **35–40 ft. lb.** If the joint changed or
+the shim counts could not be preserved, recheck caster and camber.
+
+<a id="p625-upper"></a> **[PDF p.625](../page-images/p0625.png)** <!-- SOURCE id=supplement-1962-63 page=12-2 years=1962,1963 scope=passenger -->
+
+The separate **cross-shaft-to-crossmember nuts** take **38–50 ft. lb.**,
+and the upper ball-stud-to-knuckle nut takes **30–40 ft. lb.**, followed by
+a new cotter pin. These passenger-car supplement torques govern the refit.
+
+![Factory upper-arm bushing removal and installation press setup](../diagrams/p0157-upper-arm-bushing-press.png)
+
+### Remove and install a front strut rod
+
+<a id="p157-strut"></a> **[PDF p.157](../page-images/p0157.png)** <!-- SOURCE id=base-1961 page=3-12 years=1961,1962,1963 scope=passenger -->
+
+The car may remain on the ground if there is sufficient working room. Remove
+the two front-end nuts and lockwashers where the strut rod meets the lower
+arm. The rod remains under slight tension from its rear rubber grommets.
+
+<a id="p158"></a> **[PDF p.158](../page-images/p0158.png)** <!-- SOURCE id=base-1961 page=3-13 years=1961,1962,1963 scope=passenger -->
+
+Remove the nut, washer, spacer, and grommet at the rod's rear end. Withdraw
+the rod from the crossmember bracket, then remove the other grommet, spacer,
+washer, and nut. The factory says the rod's pressed-in studs can be replaced
+by driving them out and in.
+
+To install, put the forward nut about **1″ from the front end of the
+threads**, followed by its washer, spacer, and grommet. Pass the rod through
+the crossmember bracket; fit the remaining grommet, spacer, washer, and nut
+and snug the rear nut. Reattach the rod to the lower arm with both lockwashers
+and nuts. Lower the car if raised, then [reset caster](#front-alignment-adjustments-carried-forward)
+and bend the locking washer over two sides of its nut.
+
+<a id="p625-strut"></a> **[PDF p.625](../page-images/p0625.png)** <!-- SOURCE id=supplement-1962-63 page=12-2 years=1962,1963 scope=passenger -->
+
+The passenger-car torque chart specifies **38–50 ft. lb.** for the front
+studs and **50–70 ft. lb.** for the rear nut. Recheck the final caster value
+against the [1963 alignment table](12-specifications.md#front-wheel-alignment-at-curb-weight).
+
+### Remove and install the front suspension crossmember
+
+<a id="p158-crossmember"></a> **[PDF p.158](../page-images/p0158.png)** <!-- SOURCE id=base-1961 page=3-13 years=1961,1962,1963 scope=passenger -->
+
+The crossmember can be taken out with the front suspension, wheels, and
+brakes attached or after those components are removed. On a bench, spring
+removal needs controlled compression and slow release; the factory mentions
+large C-clamps or other suitable means.
+
+1. Raise and support the car so the front suspension hangs free.
+2. Disconnect both brake pipes from their hoses and remove the hoses from
+   the body brackets. Remove the cotter pins and nuts connecting the inner
+   tie-rod ends to the relay rod.
+3. Support the crossmember from below with a hoist post or another device
+   that controls its lowering. Remove its **six body attachment bolts, three
+   on each side**; one on each side passes through a strut-rod bracket.
+
+![Factory front crossmember and strut-rod attachment points, fig. 3-22](../diagrams/p0158-front-crossmember-points.png)
+
+<a id="p159"></a> **[PDF p.159](../page-images/p0159.png)** <!-- SOURCE id=base-1961 page=3-14 years=1961,1962,1963 scope=passenger -->
+
+4. Restrain the crossmember against slipping from its support and lower it
+   to the floor. If a captive body nut is damaged, use the body-repair
+   procedure in Section 10.
+5. To reinstall, raise it into place. Align holes with a tapered punch and
+   start all six bolts **before tightening any one of them**.
+6. Remove the lifting support. Reconnect the tie-rod studs to the relay rod
+   with their nuts and cotter pins. Attach the brake hoses to the body
+   brackets and brake pipes to the hoses. **Bleed the brakes** and route the
+   hoses as directed in factory Section 5, Brakes.
+   Lower the car.
+
+Use the passenger-car front and rear crossmember-bolt torque rows in
+[Specifications](12-specifications.md#suspension-bolt-torque). The factory
+diagram identifies the fastening points; the torque table separates front
+from rear bolts.
+
 ## 1963 passenger wheels and tires
 
 <a id="p643"></a> **[PDF p.643](../page-images/p0643.png)** <!-- SOURCE id=supplement-1962-63 page=3-4 years=1963 scope=passenger -->

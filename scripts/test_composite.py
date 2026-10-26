@@ -16,6 +16,11 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertEqual(found, [("33½", "°"), ("3⁄32", "″"),
                                  ("⅛", "″"), ("⅜", "″")])
 
+    def test_quick_reference_harvests_factory_torque_units(self):
+        found = [(m.group("val"), m.group("unit")) for m in
+                 SPEC_RE.finditer("100 in. lb.; 38–50 ft. lb.")]
+        self.assertEqual(found, [("100", "in. lb."), ("38–50", "ft. lb.")])
+
     def test_committed_corvair_index_contains_only_1963_passenger_rows(self):
         index = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                  "corvair-1963/data/manual-index.jsonl")
