@@ -222,6 +222,26 @@ class CompositeRulesTest(unittest.TestCase):
                             r.get("_original_page") == "6D-2" for r in transmission))
         self.assertFalse(any(r.get("_page") == "p373" for r in transmission))
 
+    def test_1963_powerglide_keeps_base_pressures_and_supplement_planet_service(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/06e-automatic-transmission.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(375, 405), 678, 679, 680):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        self.assertIn("scope=commercial; excluded=passenger", chapter)
+        self.assertIn("front-pump body and transmission case", chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        powerglide = [r for r in rows if r["_file"] == "wiki/06e-automatic-transmission.md"]
+        self.assertTrue(any(r.get("_page") == "p400" and
+                            r.get("_original_page") == "6E-26" and
+                            r.get("reverse") == "81–98" for r in powerglide))
+        self.assertTrue(any(r.get("_page") == "p126" and
+                            r.get("_original_page") == "12-10" and
+                            r.get("factory-value") == "1.82:1" for r in powerglide))
+        self.assertFalse(any(r.get("_page") == "p402" for r in powerglide))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

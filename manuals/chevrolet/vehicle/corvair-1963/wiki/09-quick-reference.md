@@ -143,6 +143,17 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | reach **50 ft. lb. minimum**. Reinstall the unit in its carrier using the |
 | 15–20 | ft-lb | [06d-manual-transmission.md](06d-manual-transmission.md) | new gasket and seven bolts at **15–20 ft-lb**; install the side cover |
 | 3–4 | ft-lb | [06d-manual-transmission.md](06d-manual-transmission.md) | with a new gasket and eight bolts at **3–4 ft-lb**. |
+| 5 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the base setting is **40 ±5 in-lb**, then back off **exactly four full |
+| 90 | ° | [06e-automatic-transmission.md](06e-automatic-transmission.md) | a new pin hole **90° from the original**, fitting the gear and pin, |
+| 38–50 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | clutch-head screws to **38–50 in-lb**. Refit low-drive, throttle, detent, |
+| 3–4 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | evenly to **3–4 ft-lb**; refill. Readjust the low band if its screw was |
+| 9–11 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Secure five rear-pump bolts to **9–11 ft-lb**. Stack reverse clutch |
+| 18–20 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | sequence first**, then the five inner bolts, all at **18–20 ft-lb**. |
+| 5 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | For a serviced low band, tighten adjusting screw to **40 ±5 in-lb**, |
+| 20 | mph | [06e-automatic-transmission.md](06e-automatic-transmission.md) | At approximately **20 mph** with rear wheels raised in Drive, front- |
+| 0–5 | psi | [06e-automatic-transmission.md](06e-automatic-transmission.md) | pump pressure should fall to about **0–5 psi** as rear-pump flow takes |
+| 3 | psi | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 3 psi**, and tightening it lowers about 3 psi; hold the Allen-ended |
+| 3 | psi | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 3 psi**, and tightening it lowers about 3 psi; hold the Allen-ended |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

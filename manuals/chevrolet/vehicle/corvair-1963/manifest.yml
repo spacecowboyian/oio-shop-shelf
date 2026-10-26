@@ -312,6 +312,12 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 376
+  file: diagrams/p0376-powerglide-cross-section.png
+  kind: exploded
+  depth: gray
+  caption: Passenger Powerglide transaxle cross-section (fig. 6E-1)
+  safety_relevant: true
 - page: 362
   file: diagrams/p0362-four-speed-cross-section.png
   kind: exploded

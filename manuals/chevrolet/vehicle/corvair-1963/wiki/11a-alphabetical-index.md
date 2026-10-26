@@ -42,10 +42,12 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
+- Case, reverse clutch and front pump inspection — [06e-automatic-transmission.md#p386](06e-automatic-transmission.md#p386) ([PDF p.386])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
 - Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
+- Clutch drum and rear pump — [06e-automatic-transmission.md#p392](06e-automatic-transmission.md#p392) ([PDF p.392])
 - Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 - Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
@@ -78,6 +80,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Front alignment adjustments carried forward — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
 - Front hub, drum, and shock absorber service — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Front pump gasket figure correction — [06e-automatic-transmission.md#p680](06e-automatic-transmission.md#p680) ([PDF p.680])
+- Front pump installation and hydraulic diagnosis — [06e-automatic-transmission.md#p398](06e-automatic-transmission.md#p398) ([PDF p.398])
 - Front wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Front-wheel bearing adjustment — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
 
@@ -110,6 +113,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Manual transmission and rear axle — [02-lubrication.md#p136](02-lubrication.md#p136) ([PDF p.136])
 - Mast jacket and steering linkage carried forward — [04-steering.md#p193](04-steering.md#p193) ([PDF p.193])
 - Metallic-lining option — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
+- Modulator, governor, valve body and low servo — [06e-automatic-transmission.md#p380](06e-automatic-transmission.md#p380) ([PDF p.380])
 
 ## O
 
@@ -117,6 +121,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Oil pump, rear housing, and crankcase inspection — [06a-engine.md#p285](06a-engine.md#p285) ([PDF p.285])
 - Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
+- Operation, fluid and controls — [06e-automatic-transmission.md#p126](06e-automatic-transmission.md#p126) ([PDF p.126])
 
 ## P
 
