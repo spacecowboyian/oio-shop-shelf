@@ -22,6 +22,7 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/08-electrical-systems.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/08-electrical-systems.md)
 - [wiki/09-fuel-and-exhaust.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/09-fuel-and-exhaust.md)
 - [wiki/09-quick-reference.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/09-quick-reference.md)
+- [wiki/10-body.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/10-body.md)
 - [wiki/10-needs-review.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/10-needs-review.md)
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/11a-alphabetical-index.md)
 - [wiki/12-specifications.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/12-specifications.md)

@@ -1,6 +1,6 @@
 # Needs Review
 
-_28 flag(s) across 14 chapter file(s)._
+_29 flag(s) across 15 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -30,15 +30,15 @@ _28 flag(s) across 14 chapter file(s)._
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [08-electrical-systems.md](08-electrical-systems.md) | Supplement Section 8 p. 8-9 describes a four-lobe washer drive cam, while its diagnostic sequence on p. 8-14 calls for turning a three-lobe cam. Determine whether these describe different cam components or a factory error before using lobe count to identify a part. |
 | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Carter YH automatic-choke on-car setting p726 says one notch lean; assembly p733 says one notch rich. Do not publish an unconditional choke-notch value. |
+| [10-body.md](10-body.md) | 10-body-2d-61.pdf duplicates printed p.10-51 at physical pp.1–2; printed p.10-52 is absent. Do not infer the missing front-window procedure. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
 
 ## Conversion coverage
 
-4 source section(s) pending cleanup; 2 partial.
+3 source section(s) pending cleanup; 2 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Body (combined PDF pp. 12–31, 32–81, 534–580)
 - Pending: Accessories (combined PDF pp. 82–116, 581–623)
 - Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)
