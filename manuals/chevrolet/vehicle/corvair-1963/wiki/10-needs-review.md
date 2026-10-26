@@ -1,6 +1,6 @@
 # Needs Review
 
-_16 flag(s) across 6 chapter file(s)._
+_16 flag(s) across 7 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -23,9 +23,8 @@ _16 flag(s) across 6 chapter file(s)._
 
 ## Conversion coverage
 
-12 source section(s) pending cleanup; 3 partial.
+11 source section(s) pending cleanup; 3 partial.
 
-- Pending: Brakes (combined PDF pp. 210–231, 649–657)
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
 - Pending: Engine (combined PDF pp. 246–306, 659–667)
 - Pending: Clutch (combined PDF pp. 307–320, 668–668)

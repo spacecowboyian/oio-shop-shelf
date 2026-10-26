@@ -115,6 +115,26 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(any("steering-arm" in r.get("text", "").lower() and
                              "40–50" in r.get("text", "") for r in steering))
 
+    def test_1963_brake_index_uses_self_adjuster_and_excludes_old_shoe_setting(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/05-brakes.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE -->", chapter)
+        for n in (*range(211, 218), *range(220, 224), 230, 231,
+                  *range(649, 657)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        for n in (*range(224, 230), 657):
+            self.assertNotIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        brakes = [r for r in rows if r["_file"] == "wiki/05-brakes.md"]
+        self.assertTrue(any(r.get("initial-1963-shoe-setting-drum-used-as-gauge") ==
+                            "Retract after slight drum drag" and
+                            r.get("factory-value") == "1¼ star-wheel turns"
+                            for r in brakes))
+        self.assertFalse(any("12 notches" in r.get("text", "") or
+                             "15 notches" in r.get("text", "") for r in brakes))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

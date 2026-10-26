@@ -312,6 +312,30 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 649
+  file: diagrams/p0649-1963-self-adjusting-brake.png
+  kind: exploded
+  depth: gray
+  caption: 1963 passenger self-adjusting brake hardware (fig. 5-1)
+  safety_relevant: true
+- page: 651
+  file: diagrams/p0651-brake-main-cylinder.png
+  kind: exploded
+  depth: gray
+  caption: 1963 brake main cylinder and pedal free-movement service (fig. 5-5)
+  safety_relevant: true
+- page: 654
+  file: diagrams/p0654-brake-shoe-assembly.png
+  kind: sequence
+  depth: gray
+  caption: 1963 brake-shoe assembly and lubrication contact points
+  safety_relevant: true
+- page: 655
+  file: diagrams/p0655-brake-clearance-gauge.png
+  kind: sequence
+  depth: gray
+  caption: Drum-to-shoe clearance gauge and self-adjuster checks (figs. 5-11 to 5-13)
+  safety_relevant: true
 - page: 185
   file: diagrams/p0185-steering-linkage-and-gear.png
   kind: exploded

@@ -106,6 +106,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 29–43 | ft. lb. | [04-steering.md](04-steering.md) | castellated nut to **29–43 ft. lb.** Continue tightening to the next cotter |
 | 22–27 | ft. lb. | [04-steering.md](04-steering.md) | **22–27 ft. lb.** Tighten the frame bolts. Recheck shaft/coupling marks and |
 | 2927 | A | [04-steering.md](04-steering.md) | **J-5178** steering-wheel pull scale, **J-2927A** steering-wheel puller, |
+| 30 | mph | [05-brakes.md](05-brakes.md) | 30 mph** at moderate pedal effort, then **six to eight full stops from the |
+| 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | thread into the spindle support, and tighten to **60–85 ft. lb.**, then |
+| 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | Front anchor-pin torque 60–85 ft. lb. |
+| 100–125 | ft. lb. | [05-brakes.md](05-brakes.md) | Rear anchor-pin torque 100–125 ft. lb. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
