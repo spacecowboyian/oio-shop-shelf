@@ -14,6 +14,95 @@ The original source filenames and hashes are in the
 [source inventory](../data/source-inventory.json). The base engine section
 occupies combined PDF pp. 246–306; the supplement occupies pp. 659–667.
 
+## Engine design and service orientation carried forward
+
+<a id="p247"></a> **[PDF p.247](../page-images/p0247.png)** <!-- SOURCE id=base-1961 page=6A-2 years=1961,1962,1963 scope=passenger -->
+
+The Turbo-Air is an air-cooled, horizontally opposed **six-cylinder** engine
+with a vertically split aluminum crankcase and individual cast-iron
+cylinders. Long studs pass through each cylinder and head into the
+crankcase. Opposed aluminum heads carry integral intake passages. The
+camshaft sits below the crankshaft and operates the valves through hydraulic
+lifters, push rods, and rocker arms. For 1963, use the supplement and
+year-specific specification table for compression ratio and internal
+dimensions of each engine variant; the base introduction predates the
+1963 engine lineup.
+
+<a id="p248"></a> **[PDF p.248](../page-images/p0248.png)** <!-- SOURCE id=base-1961 page=6A-3 years=1961,1962,1963 scope=passenger -->
+
+Steel push-rod tubes protect the rods between crankcase and heads and drain
+oil from the heads back to the sump. Hydraulic lifters follow cam lobes
+within the crankcase; the base cross-section shows the opposed-cylinder,
+head, and shroud layout.
+
+<a id="p249"></a> **[PDF p.249](../page-images/p0249.png)** <!-- SOURCE id=base-1961 page=6A-4 years=1961,1962,1963 scope=passenger -->
+
+The camshaft journals run in machined crankcase bores and its thrust is
+controlled at the gear end. The forged crankshaft has paired throws and
+four main bearings supported by the crankcase halves. Timing gears connect
+the crankshaft and camshaft. Each aluminum piston has two compression rings
+and an oil-control assembly. Refer to the original cross-sections for
+component orientation before teardown.
+
+<a id="p250"></a> **[PDF p.250](../page-images/p0250.png)** <!-- SOURCE id=base-1961 page=6A-5 years=1961,1962,1963 scope=passenger -->
+
+The powertrain uses two front transmission mounts at the rear crossmember
+and one centered engine rear mount. In installed orientation, the flywheel
+is at the **front** of the engine and cylinders are numbered from the rear:
+**right bank 1-3-5, left bank 2-4-6**. Firing order is **1-4-5-2-3-6**.
+
+The rear engine housing contains the gear-driven oil pump, regulator,
+crankshaft seal, and main oil passages. Oil flows from sump pickup through
+pump, full-flow filter, air-cooled cooler, crankcase galleries, bearings,
+and hydraulic lifters. The 1963 oil-pressure switch is at the location
+given in [the supplement](#oil-filter-cylinder-heads-and-senders).
+
+<a id="p251"></a> **[PDF p.251](../page-images/p0251.png)** <!-- SOURCE id=base-1961 page=6A-6 years=1961,1962,1963 scope=passenger -->
+
+The factory lubrication diagram traces the distinct passages through the
+rear housing, filter, cooler, and crankcase. Its filler location marked
+for the coupe and sedan is the passenger-car arrangement in this manual.
+The station-wagon and Corvair 95 filler routing in the diagram does not
+apply to this reference.
+
+<a id="p252"></a> **[PDF p.252](../page-images/p0252.png)** <!-- SOURCE id=base-1961 page=6A-7 years=1961,1962,1963 scope=passenger -->
+
+Right and left main galleries feed crankshaft and camshaft bearings and
+hydraulic lifters. Oil passes through the crankshaft to connecting-rod
+bearings and through hollow push rods to rocker arms, valve springs, and
+stems. Keep the push-rod **side oil hole toward the rocker arm**, as the
+supplement emphasizes. A louvered crankcase-vent plate and separation
+chamber fit between gaskets beneath the crankcase cover. Cooling air from
+the centrifugal blower moves through the engine shrouding over cylinder
+and head fins.
+
+<a id="p253"></a> **[PDF p.253](../page-images/p0253.png)** <!-- SOURCE id=base-1961 page=6A-8 years=1961,1962,1963 scope=passenger -->
+
+Keep engine oil between dipstick **ADD** and **FULL** marks; do not overfill.
+The base engine-oil, belt, ignition-timing, compression-check, and tune-up
+instructions refer to their other factory sections. For running valve lash,
+the supplement's [one-turn-from-zero procedure](#running-valve-lash-adjustment)
+supersedes the different base preload turns. The base diagnostic method
+for locating a noisy hydraulic lifter uses a listening tube or a finger
+on the valve-spring retainer to distinguish its shock from other noises.
+
+<a id="p254"></a> **[PDF p.254](../page-images/p0254.png)** <!-- SOURCE id=base-1961 page=6A-9 years=1961,1962,1963 scope=passenger -->
+
+Hard lifter rapping can indicate a varnished or galled plunger; moderate
+rapping can indicate excessive leakdown, check-valve leakage, or wrong lash.
+General valve-train noise can indicate low oil supply or lash error.
+Intermittent clicking may come from check-ball contamination. Keep lifter
+plungers with their matched bodies; replace a damaged pair as a complete
+unit. Check that each clean plunger falls freely by its own weight and that
+the check valve seals.
+
+Keep oil off engine shrouding so fumes are not carried into the passenger
+compartment. Investigate push-rod-tube, oil-cooler, filter-adapter, valve-
+cover, crankcase-cover, distributor, housing, and exhaust-sleeve seals for
+leaks. Clean cylinder/head fins and clear the oil-cooler air passages of
+leaves, chaff, and other debris. Use the 1963 lubrication schedule for
+maintenance intervals.
+
 ## 1963 engine changes and carburetor access
 
 <a id="p659"></a> **[PDF p.659](../page-images/p0659.png)** <!-- SOURCE id=supplement-1962-63 page=6A-1 years=1963 scope=passenger -->

@@ -7,6 +7,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## 1
 
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
+- 1963 engine changes and carburetor access — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
