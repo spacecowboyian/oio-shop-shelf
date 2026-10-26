@@ -110,6 +110,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | thread into the spindle support, and tighten to **60–85 ft. lb.**, then |
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | Front anchor-pin torque 60–85 ft. lb. |
 | 100–125 | ft. lb. | [05-brakes.md](05-brakes.md) | Rear anchor-pin torque 100–125 ft. lb. |
+| 8–12 | ft. lb. | [06a-engine.md](06a-engine.md) | engine. The oil-cooler attaching bolt is **8–12 ft. lb.** The **rear right |
+| 7–13 | ft. lb. | [06a-engine.md](06a-engine.md) | bolts to **7–13 ft. lb.** Restore generator, fuel lines, and belt and check |
 | 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
 | 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |

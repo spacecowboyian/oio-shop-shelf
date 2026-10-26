@@ -103,6 +103,127 @@ leaks. Clean cylinder/head fins and clear the oil-cooler air passages of
 leaves, chaff, and other debris. Use the 1963 lubrication schedule for
 maintenance intervals.
 
+## Oil-cooler cleaning and exhaust-damper setting
+
+<a id="p255"></a> **[PDF p.255](../page-images/p0255.png)** <!-- SOURCE id=base-1961 page=6A-10 years=1961,1962,1963 scope=passenger -->
+
+The factory service-reference matrix identifies parts to remove before
+servicing a selected engine component. Its **1961 sheet-metal access paths
+must be read with the supplement's revised 1963 shrouds**; the original
+[matrix page](../page-images/p0255.png) is preserved for that purpose.
+
+<a id="p256"></a> **[PDF p.256](../page-images/p0256.png)** <!-- SOURCE id=base-1961 page=6A-11 years=1961,1962,1963 scope=passenger -->
+
+The service-reference matrix continues across this landscape page. It
+distinguishes parts removed for easy access from the component actually
+being serviced. The 1963 lower-shroud and choke changes override its older
+shroud-removal cells.
+
+<a id="p257"></a> **[PDF p.257](../page-images/p0257.png)** <!-- SOURCE id=base-1961 page=6A-12 years=1961,1962,1963 scope=passenger -->
+
+To clear debris from the oil cooler, remove its upper-shroud access cover,
+brush off loose material, and blow air **upward through the cooler fins**
+from below while the exhaust damper door is held open with a wood block.
+Reinstall the access cover. The thermostat bellows is designed so that a
+failure leaves its exhaust damper **open** for maximum cooling airflow.
+
+<a id="p258"></a> **[PDF p.258](../page-images/p0258.png)** <!-- SOURCE id=base-1961 page=6A-13 years=1961,1962,1963 scope=passenger -->
+
+After replacing a damper thermostat, adjust the damper with its exhaust
+duct **installed on the engine**. With door fully open, pull the actuating
+rod to maximum travel so the thermostat bears against its bracket stop.
+The rod threads into the bellows; use its wrench flats when tightening it.
+
+<a id="p259"></a> **[PDF p.259](../page-images/p0259.png)** <!-- SOURCE id=base-1961 page=6A-14 years=1961,1962,1963 scope=passenger -->
+
+Adjust the swivel to enter the damper door and secure its clip. With the
+thermostat at the stop, measure from the flat damper-door edge to the upper
+exhaust-duct edge. Set **both doors** to approximately **2 11⁄32 in.**
+opening. The base page's upper-shroud removal steps use the older choke
+arrangement; use the 1963 supplement's [revised procedure](#revised-engine-sheet-metal)
+instead. The base instruction to protect sheet metal from distortion and
+use anti-seize compound on fasteners threaded into aluminum remains
+applicable.
+
+| Exhaust-damper setting, both sides | Factory value |
+|---|---|
+| Open-door gap, thermostat at bracket stop | Approximately 2 11⁄32 in. |
+
+## In-vehicle shields and engine mounts carried forward
+
+<a id="p260"></a> **[PDF p.260](../page-images/p0260.png)** <!-- SOURCE id=base-1961 page=6A-15 years=1961,1962,1963 scope=passenger -->
+
+The upper- and front-shield removal operations on this base page use the
+old choke linkage and are replaced by the supplement's 1963 instructions.
+The **left side shield** still slides out from under the upper shroud.
+Remove left air-cleaner support, loosen upper-shroud-to-head screws, and
+remove the screw beneath the left carburetor. Remove side-shield screws at
+the lower shroud and duct, oil cooler, and rear-shield seal; disconnect
+radio ground and remove the side seal retainer. Slide shield outward.
+Refit under the upper shroud, restore oil-cooler, lower-shroud, rear-seal,
+radio-ground and air-cleaner attachments, then tighten all screws. Work
+around the revised 1963 lower-shroud arrangement described above.
+
+<a id="p261"></a> **[PDF p.261](../page-images/p0261.png)** <!-- SOURCE id=base-1961 page=6A-16 years=1961,1962,1963 scope=passenger -->
+
+For the **right side shield**, remove spare tire, coil/bracket, muffler
+support/shield, side seal retainer, and right air-cleaner support. Remove
+the beneath-carburetor screw, loosen upper-shroud-to-head fasteners,
+disconnect radio ground, remove attachments at lower shroud/duct and rear
+shield, then slide the side shield from under the upper shroud. Reverse
+the operation and restore the coil and muffler supports. The base page's
+one-piece lower-shroud/exhaust-duct procedure is **superseded** by the
+separate 1963 shroud and duct procedures.
+
+<a id="p262"></a> **[PDF p.262](../page-images/p0262.png)** <!-- SOURCE id=base-1961 page=6A-17 years=1961,1962,1963 scope=passenger -->
+
+The base **rear left shroud** removal starts by freeing oil-cooler
+attachments and seals, then lower-shroud/duct and head/shroud screws.
+Refit the shield on crankcase lips, replace both oil-cooler seals, restore
+cooler and shroud fasteners, and check for cooler leaks after starting the
+engine. The oil-cooler attaching bolt is **8–12 ft. lb.** The **rear right
+shroud** requires removal of muffler support/shield, spare tire, coil
+bracket, lower shroud/duct, and temperature/oil-pressure sender leads.
+Restore leads and all removed parts during installation, using the **1963
+oil-pressure switch location** given above.
+
+The front and rear powertrain mounts are not adjustable. Replace broken or
+deteriorated mounts before they strain adjacent mounts and driveline parts.
+
+<a id="p263"></a> **[PDF p.263](../page-images/p0263.png)** <!-- SOURCE id=base-1961 page=6A-18 years=1961,1962,1963 scope=passenger -->
+
+For front-mount replacement, support the powertrain with the factory
+jack adapter. Disconnect the clutch cross-shaft ball stud and shift
+coupling on a manual-transmission car, or control cable on an automatic
+car. Disconnect the parking-brake return spring, remove mount stud nuts,
+lower powertrain enough to free the bracket, and remove bracket and
+mounts. **Preserve and return the bracket shims to their original sides
+and thicknesses.** Fit replacement mounts, bracket, and coupling, raise
+powertrain into place, and restore cable/linkage settings and cotter pins.
+
+The rear mount is accessed after removing the engine rear-center shield.
+Support the engine, remove the mount's castellated nut and washers, lower
+engine enough to unload the mount, then remove its two mounting bolts.
+Install the new mount, raise engine into position, install nut and cotter
+pin, and restore center shield.
+
+<a id="p264"></a> **[PDF p.264](../page-images/p0264.png)** <!-- SOURCE id=base-1961 page=6A-19 years=1961,1962,1963 scope=passenger -->
+
+The **oil-filter and generator adapter** is removed after taking off blower
+belt and generator, disconnecting battery ground and generator harness, and
+disconnecting fuel lines at pump. Remove adapter bolts, including those
+around filler tube, and lift adapter with pump, filter and idler as a unit.
+Discard its gasket. Inspect rear housing and adapter surfaces, fit a new
+gasket and pump push rod/return spring, attach adapter, and tighten its
+bolts to **7–13 ft. lb.** Restore generator, fuel lines, and belt and check
+for oil leaks after starting.
+
+This base page begins the blower-bearing service. Use its removal and
+press method with the **supplement's 4.475 ± .015-in. hub-height dimension**;
+the base page's earlier height is superseded.
+
+<!-- NEEDS REVIEW: Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. -->
+
 ## 1963 engine changes and carburetor access
 
 <a id="p659"></a> **[PDF p.659](../page-images/p0659.png)** <!-- SOURCE id=supplement-1962-63 page=6A-1 years=1963 scope=passenger -->
