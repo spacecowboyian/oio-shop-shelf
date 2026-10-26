@@ -312,6 +312,36 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 185
+  file: diagrams/p0185-steering-linkage-and-gear.png
+  kind: exploded
+  depth: gray
+  caption: Passenger steering linkage, tie-rod end and recirculating gear
+  safety_relevant: true
+- page: 188
+  file: diagrams/p0188-steering-gear-exploded.png
+  kind: exploded
+  depth: gray
+  caption: Passenger steering gear exploded view and numbered parts (fig. 4-11)
+  safety_relevant: true
+- page: 191
+  file: diagrams/p0191-ball-nut-assembly.png
+  kind: sequence
+  depth: gray
+  caption: Ball-guide filling and insertion into steering ball nut (figs. 4-17 to 4-18)
+  safety_relevant: true
+- page: 196
+  file: diagrams/p0196-steering-linkage-alignment.png
+  kind: chart
+  depth: gray
+  caption: Passenger steering-linkage alignment (fig. 4-31)
+  safety_relevant: true
+- page: 645
+  file: diagrams/p0645-steering-pull-scale.png
+  kind: sequence
+  depth: gray
+  caption: Checking steering adjustment at wheel rim with pull scale J-5178
+  safety_relevant: true
 - page: 151
   file: diagrams/p0151-front-hub-bearing-tools.png
   kind: chart
