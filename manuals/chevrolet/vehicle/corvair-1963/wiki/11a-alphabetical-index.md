@@ -7,7 +7,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## 1
 
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
-- 1963 engine changes and carburetor access — [06a-engine.md#p277](06a-engine.md#p277) ([PDF p.277])
+- 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
@@ -23,6 +23,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## B
 
 - Balance and check wheel runout — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
+- Bearings, hydraulic lifters, and crankcase assembly — [06a-engine.md#p288](06a-engine.md#p288) ([PDF p.288])
 - Blower, oil pan, cooler, and crankcase vent in the vehicle — [06a-engine.md#p264](06a-engine.md#p264) ([PDF p.264])
 - Blower-bearing hub height — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
 - Body lubrication — [02-lubrication.md#p639](02-lubrication.md#p639) ([PDF p.639])
@@ -41,6 +42,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 - Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
+- Cylinder-head repair and valve assembly — [06a-engine.md#p277](06a-engine.md#p277) ([PDF p.277])
 
 ## D
 
@@ -54,6 +56,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Electrical and fuel-system service — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Emergency towing — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
+- Engine fault diagnosis carried forward — [06a-engine.md#p299](06a-engine.md#p299) ([PDF p.299])
 - Exhaust valves, guides, push rods, and hydraulic lifters — [06a-engine.md#p663](06a-engine.md#p663) ([PDF p.663])
 
 ## F
@@ -101,6 +104,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## O
 
 - Oil filter, cylinder heads, and senders — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
+- Oil pump, rear housing, and crankcase inspection — [06a-engine.md#p285](06a-engine.md#p285) ([PDF p.285])
 - Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 

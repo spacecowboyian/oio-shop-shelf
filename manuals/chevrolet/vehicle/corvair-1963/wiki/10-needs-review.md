@@ -1,6 +1,6 @@
 # Needs Review
 
-_17 flag(s) across 8 chapter file(s)._
+_18 flag(s) across 8 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -17,6 +17,7 @@ _17 flag(s) across 8 chapter file(s)._
 | [03-suspension.md](03-suspension.md) | Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. |
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-2 prints 40–50 ft. lb. for steering-arm retaining nuts; supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to knuckle. Base Section 3 and supplement Section 3 have further figures. Do not index a 1963 arm-fastener torque until reconciled. |
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-3 says 1962 for the 20°/18° cornering relationship, while Section 12 p. 12-3 has the same figures without year labeling. Base Section 3 p. 3-5 has 33½°/30½°. Do not assign any set to 1963 silently. |
+| [06a-engine.md](06a-engine.md) | Base Section 6A p. 6A-54 prints oil-pan torque 40–60 ft-lb, while supplement Section 12 p. 12-6 specifies 40–60 in-lb for the same ¼-20 attachment. Treat the base unit as a source error; the 1963 supplement supersedes it. Do not index the base value. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |

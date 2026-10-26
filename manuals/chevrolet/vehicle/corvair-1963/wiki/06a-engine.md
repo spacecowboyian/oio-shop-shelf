@@ -1,7 +1,5 @@
 # Engine Mechanical — 1963 Passenger Cars
 
-<!-- INCOMPLETE: The 1962–63 supplement's engine changes are being integrated here. Base 1961 Section 6A procedures across 61 physical pages remain to be reconstructed and filtered for 1963 passenger variants. Do not treat this chapter as complete. -->
-
 The supplement says the 1963 Corvair engine keeps the 1961 basic design.
 Its 1963 changes include automatic choke controls, revised shrouding,
 late-style Monza combustion chambers where equipped, and an updated
@@ -423,6 +421,308 @@ crankshaft straight up to protect the rear bearing. Use the indicated
 pullers/press tools for cam, distributor-drive, and crankshaft gears;
 do not pry them off. Identify each main-bearing insert by location before
 removal.
+
+## Cylinder-head repair and valve assembly
+
+<a id="p278"></a> **[PDF p.278](../page-images/p0278.png)** <!-- SOURCE id=base-1961 page=6A-33 years=1961,1962,1963 scope=passenger -->
+
+Handle the aluminum head without damaging cooling fins. On a bench,
+compress each valve spring with **J-8062**, remove locks, cap, spring,
+shim, and valve; keep components identified by position. Clean combustion
+chambers/ports with a fine wire brush without damaging the cylinder
+sealing face, then clean valve-guide bores with **J-8101**.
+
+<a id="p279"></a> **[PDF p.279](../page-images/p0279.png)** <!-- SOURCE id=base-1961 page=6A-34 years=1961,1962,1963 scope=passenger -->
+
+Clean valve stems and faces, wash and dry parts, then inspect head,
+exhaust sleeves, valves, inserts, and guides for cracks, burning, scuffing,
+and wear. Replace a head whose seat insert or guide is beyond repair.
+Check stem-to-guide clearance with micrometer/telescoping gauge or dial
+indicator. **Use the supplement's 1963 intake and exhaust limits above**;
+the older exhaust clearance numbers printed on this base page are
+superseded.
+
+<a id="p280"></a> **[PDF p.280](../page-images/p0280.png)** <!-- SOURCE id=base-1961 page=6A-35 years=1961,1962,1963 scope=passenger -->
+
+For an indicator check, measure stem side movement above the guide with
+the valve head slightly off its seat. A new valve tried in a worn guide
+helps identify whether valve replacement or guide reaming for an oversize
+stem is needed. The supplement adds the later **.020-in. service oversize**
+to the base page's older available sizes. Check valve-spring pressure
+with the factory spring tester, choosing the **1963 engine variant's
+spring specification**; the old regular/high-output table must not be
+applied to the Spyder. Clean and inspect the guide before centering any
+valve-seat grinder pilot in it.
+
+<a id="p281"></a> **[PDF p.281](../page-images/p0281.png)** <!-- SOURCE id=base-1961 page=6A-36 years=1961,1962,1963 scope=passenger -->
+
+After machining, seat contact must be concentric and wide enough to carry
+heat away from the valve head. Reface a pitted valve only if its edge
+will retain the specified thickness; replace a badly worn, warped, or
+burned valve instead of leaving a knife-edge face. If a valve guide or
+seat insert cannot be restored, replace the head as an assembly.
+
+Do not remove an exhaust-manifold sleeve unless necessary. For removal,
+warm the head uniformly and turn the sleeve out with a suitable wrench;
+never pry or hammer it from the head. Inspect its bore. Chill the new
+oversize press-fit sleeve and warm the head without an open flame, then
+start it square and install with a soft tool, with its flat side parallel
+to the exhaust push-rod tube opening.
+
+<a id="p282"></a> **[PDF p.282](../page-images/p0282.png)** <!-- SOURCE id=base-1961 page=6A-37 years=1961,1962,1963 scope=passenger -->
+
+When assembling a head, orient its vacuum balance-tube fitting for the
+correct bank and refit needed carburetor/exhaust studs with anti-seize.
+Oil each valve and return it to its original or newly fitted guide. Fit
+a hardened spring-seat shim, spring, and cap; compress with J-8062 and
+install the locks. For **1963 exhaust valves, use the four-bead locks**.
+Check that locks seat in their grooves before releasing the compressor.
+The high-output engine has valve-spring dampers; select springs and
+installed-height limits by engine variant.
+
+<a id="p283"></a> **[PDF p.283](../page-images/p0283.png)** <!-- SOURCE id=base-1961 page=6A-38 years=1961,1962,1963 scope=passenger -->
+
+Valve-seat refacing changes the spring's installed height. Measure it
+after assembly and use a suitable hardened shim only if needed and within
+the applicable 1963 spring-height limit. Fit new head gaskets with a light
+petrolatum film at the cylinder counterbore to hold them in place.
+
+For piston/rod disassembly, expand and remove rings with **J-8014**;
+support the piston and press the pin out of the rod with the specified
+arbor-press adapters. A lightly oiled pin at room temperature should
+support its own weight in either piston pin boss. Pistons, pins, and
+cylinders are serviced as matched assemblies.
+
+<a id="p284"></a> **[PDF p.284](../page-images/p0284.png)** <!-- SOURCE id=base-1961 page=6A-39 years=1961,1962,1963 scope=passenger -->
+
+Support each cylinder without bruising its sealing edges, remove the
+upper-bore ridge, and measure taper and out-of-round at several bore
+depths/directions. The base manual replaces the **matched cylinder and
+piston together** when taper or wear exceeds **.005 in.** Square a new
+ring in the cylinder with a piston, then measure its end gap; the base
+service range is **.010–.020 in.** Clean ring grooves and test each ring
+around the full groove to detect binding. Keep the ring-face markings
+up and bevel away from the piston top. The Spyder has variant-specific
+rings; check its 1963 ring dimensions before selecting replacements.
+
+<a id="p285"></a> **[PDF p.285](../page-images/p0285.png)** <!-- SOURCE id=base-1961 page=6A-40 years=1961,1962,1963 scope=passenger -->
+
+Check ring side clearance and freedom in the grooves. Install oil-ring
+expander with gap aligned to the piston-pin hole and the oil ring with
+gap toward engine top. For piston/rod assembly, oil pin bores, align rod
+with its matched piston, and press the pin in with the factory support,
+pilot, and installer; verify free movement in the piston bores afterward.
+The oil pump in the rear housing has distributor-driven gears and a
+spring-loaded regulator. Remove its cover/gasket and gears for inspection,
+then remove plug, nylon gasket, spring, and regulator valve as needed.
+
+## Oil pump, rear housing, and crankcase inspection
+
+<a id="p286"></a> **[PDF p.286](../page-images/p0286.png)** <!-- SOURCE id=base-1961 page=6A-41 years=1961,1962,1963 scope=passenger -->
+
+Wash the oil-pump parts and inspect the gears and housing. Install the idler
+gear so its shaft sits **.010–.020 in. below** the gasket surface; install
+the drive gear and check gear projection **.0025–.0045 in.**, gear-to-housing
+clearance **.002–.005 in.**, and backlash **.002–.008 in.** Chevrolet offered
+gears .001 in. thicker to restore the end clearance needed for pump priming.
+
+| Oil-pump fit, carried procedure | Factory value |
+|---|---|
+| Idler shaft below gasket surface | .010–.020 in. |
+| Gear projection above gasket surface | .0025–.0045 in. |
+| Gear-to-housing clearance | .002–.005 in. |
+| Gear backlash | .002–.008 in. |
+
+Oil the gears, install cover and gasket, then confirm the pump turns freely
+through the distributor opening before fitting the regulator valve, spring,
+nylon gasket, and plug. For a rear-housing seal, remove it with a wood or
+fiber drift, inspect the bore, lubricate the seal's outside bead, and install
+it squarely; retain the specified high-melting grease between its lips.
+
+<a id="p287"></a> **[PDF p.287](../page-images/p0287.png)** <!-- SOURCE id=base-1961 page=6A-42 years=1961,1962,1963 scope=passenger -->
+
+Fit the oil-cooler bypass valve with its **spring down** and the oil-filter
+bypass valve with its **spring up**; discard each removed valve. To clean the
+crankcase, remove both gallery plugs at the flywheel end and flush the
+passages. Inspect cylinder pilot bores, bearing seats, and gasket surfaces
+for damage. Dissolve old gasket material with solvent instead of scraping
+the aluminum. Use the factory stud-length drawing when replacing studs and
+anti-seize compound on threads entering aluminum.
+
+<a id="p288"></a> **[PDF p.288](../page-images/p0288.png)** <!-- SOURCE id=base-1961 page=6A-43 years=1961,1962,1963 scope=passenger -->
+
+Cylinder studs adjacent to main-bearing webs enter blind holes; the others
+do not. Replace a damaged oil-level-gauge tube by withdrawing it with pliers,
+applying anti-seize to the new tube's leading surface, and driving it with a
+wood block until its rolled ring seats. Whenever the case is split, inspect
+both halves of each main bearing and its crankshaft journal. Replace bearing
+halves as a **pair**, measure a worn journal for taper, out-of-round, and
+undersize, and use the 1963 bearing specifications to select replacements.
+
+## Bearings, hydraulic lifters, and crankcase assembly
+
+<a id="p289"></a> **[PDF p.289](../page-images/p0289.png)** <!-- SOURCE id=base-1961 page=6A-44 years=1961,1962,1963 scope=passenger -->
+
+To check main-bearing clearance with Plastigage, clean and dry the journal
+and insert, lay a strip along the journal for its full width, assemble the
+other case half, and torque the case fasteners in the printed sequence.
+**Do not rotate the crankshaft** while the strip is compressed. Separate the
+halves and compare its widest flattened part with the package scale. A
+change of more than .001 in. across the strip calls for micrometer checks
+of the journal and bearing. Keep the distinct No. 4 bearing in its assigned
+location; its shell geometry differs from Nos. 2 and 3.
+
+<a id="p290"></a> **[PDF p.290](../page-images/p0290.png)** <!-- SOURCE id=base-1961 page=6A-45 years=1961,1962,1963 scope=passenger -->
+
+After each main-bearing fit, turn the crankshaft to feel for drag and check
+end play with a dial indicator. For rod-bearing clearance, protect the rod
+bolts with hose, clean the journal and insert, lay Plastigage lengthwise,
+fit and torque the cap, then remove it without turning the crankshaft.
+Compare the compressed strip to the scale and check taper with a micrometer
+when width varies more than .001 in. Do not file a rod or cap to adjust an
+insert bearing.
+
+<a id="p291"></a> **[PDF p.291](../page-images/p0291.png)** <!-- SOURCE id=base-1961 page=6A-46 years=1961,1962,1963 scope=passenger -->
+
+After rod-bearing work, rotate the crankshaft and check rod side clearance
+at each crankpin. The factory hydraulic-lifter drawing shows the body,
+plunger/spring, ball/check spring, retainer, and push-rod seat. Disassemble
+with the plunger depressed; clean and inspect every part, replacing a
+damaged lifter as an assembly. Refit the check ball and spring beneath the
+retainer, plunger spring and plunger, then push-rod seat and top retainer.
+Prime the assembled lifter with oil as the factory directs. Replace the
+flywheel-housing seal using a wood or fiber drift and square installation;
+retain the specified high-melting grease between sealing lips.
+
+<a id="p292"></a> **[PDF p.292](../page-images/p0292.png)** <!-- SOURCE id=base-1961 page=6A-47 years=1961,1962,1963 scope=passenger -->
+
+For engine assembly, support the crankshaft correctly in a hydraulic press
+when fitting its drive gear. Install the keys, fuel-pump eccentric, spacer,
+distributor drive gear, and oil slinger in the order shown in Figure 6A-90/91.
+Clean both case bearing bores and inserts; fit the **1962–63 left flanged
+and right unflanged rear main bearing halves** as specified on supplement
+page 6A-8. Oil the inserts and lower the crankshaft into the supported left
+case half without striking the bearing edges. Inspect camshaft journals for
+out-of-round and shaft alignment before installation.
+
+<a id="p293"></a> **[PDF p.293](../page-images/p0293.png)** <!-- SOURCE id=base-1961 page=6A-48 years=1961,1962,1963 scope=passenger -->
+
+Press the camshaft gear over its key and thrust washer with the gear
+supported. Install the camshaft with its thrust washer in the case groove;
+**align the cam and crank timing marks with No. 1 piston at top dead center**
+as Figure 6A-94 shows. Oil the bearings/gears, seal the case parting-line
+ends, fit the other case half, and tighten case bolts in Figure 6A-82 order.
+
+<a id="p294"></a> **[PDF p.294](../page-images/p0294.png)** <!-- SOURCE id=base-1961 page=6A-49 years=1961,1962,1963 scope=passenger -->
+
+Check camshaft end play with a dial indicator and timing-gear backlash at
+the gear teeth. Install the oil-gallery plugs with sealant. Fit a new
+flywheel/clutch housing gasket and housing, then seal both the flywheel
+flange joint and bolt threads before fitting the flywheel or automatic
+transmission flexplate. Oil and install the correct rings for the engine
+variant; ring marks and inside bevel face **away from the piston top**.
+See the [camshaft end-play and gear-backlash illustrations](../diagrams/p0294-camshaft-timing.png).
+Compress the rings, insert each piston into its matched cylinder with the
+notch toward the **flywheel end**, protect rod bolts with hose, and use a
+new copper cylinder gasket at the case pilot.
+
+<a id="p295"></a> **[PDF p.295](../page-images/p0295.png)** <!-- SOURCE id=base-1961 page=6A-50 years=1961,1962,1963 scope=passenger -->
+
+Hold installed cylinders with the factory fixture tubes until the heads
+are fitted. Check rod side clearance at each crankpin. Fit the distinct
+right and left cylinder air baffles in their own positions; the right baffle
+has the crankcase-vent-tube opening. Place gaskets around the crankcase vent
+and cover, then fit the blower-bearing/cover assembly. The **1963 blower hub
+height** is given on supplement page 6A-6 above.
+
+<a id="p296"></a> **[PDF p.296](../page-images/p0296.png)** <!-- SOURCE id=base-1961 page=6A-51 years=1961,1962,1963 scope=passenger -->
+
+Fit the oil-pump pickup and screen with Tool J-8369 so the screen lies
+parallel to the oil-pan rails; clamp the tube to the crankcase. Fit the
+temperature sender to the head. For the oil-pressure switch, follow the
+**1963 location at the top of the oil-filter adapter** on supplement page
+6A-7 instead of using the base illustration. Seat all three cylinder-head
+gaskets in their combustion-chamber recesses; remove the temporary cylinder
+retainers and lower the head over the studs. Oil and install the lifters,
+then fit push-rod drain tubes with fresh O-rings at both ends and the long
+end toward the head.
+
+<a id="p297"></a> **[PDF p.297](../page-images/p0297.png)** <!-- SOURCE id=base-1961 page=6A-52 years=1961,1962,1963 scope=passenger -->
+
+Install the head nuts, push-rod guides, and rocker studs; tighten head nuts
+and studs in Figure 6A-104 sequence. Fit push rods with the **marked side
+oil hole toward the rocker arm**, as confirmed by the supplement. Loosely
+install rockers, balls, and nuts. Fit the rear housing with a new gasket;
+draw the crank pulley on with its retaining bolt, **never hammer it on**
+against the thrust bearing. Install fresh cooler seals, its adapter and
+cooler.
+See the [head-tightening and push-rod illustrations](../diagrams/p0297-head-tightening.png).
+
+<a id="p298"></a> **[PDF p.298](../page-images/p0298.png)** <!-- SOURCE id=base-1961 page=6A-53 years=1961,1962,1963 scope=passenger -->
+
+Install exhaust-manifold gaskets with each steel flange toward the exhaust
+port tube and lock the retaining nuts as shown. Use the **1963 running
+hydraulic-lifter setting** on supplement page 6A-6 above; the base page's
+engine-dependent static preload amounts are superseded. Fit the valve
+covers and gaskets, filter/generator adapter and new filter, blower,
+shrouds, seals, fuel lines, generator, and belt. Check blower clearance
+while tightening its upper shroud.
+
+<a id="p299"></a> **[PDF p.299](../page-images/p0299.png)** <!-- SOURCE id=base-1961 page=6A-54 years=1961,1962,1963 scope=passenger -->
+
+Install the specified long-reach spark plugs for aluminum heads, the oil
+pan with a new gasket, and the fuel pump with a new O-ring. Connect the
+fuel lines, carburetor linkage and air cleaner; adjust cooling-air dampers
+as directed above. Fill a rebuilt dry engine according to the **1963
+capacity** in Section 12 and check for leaks after starting. The base page
+prints a conflicting oil-pan torque unit; the year-specific supplement
+governs.
+
+<a id="p629"></a> **[1963 specification, PDF p.629](../page-images/p0629.png)** <!-- SOURCE id=supplement-1962-63 page=12-6 years=1963 scope=passenger -->
+
+| 1963 oil-pan attachment | Torque |
+|---|---|
+| ¼-20 bolts | 40–60 in. lb. |
+<!-- NEEDS REVIEW: Base Section 6A p. 6A-54 prints oil-pan torque 40–60 ft-lb, while supplement Section 12 p. 12-6 specifies 40–60 in-lb for the same ¼-20 attachment. Treat the base unit as a source error; the 1963 supplement supersedes it. Do not index the base value. -->
+
+The following base pages 6A-55–6A-57 describe **Corvair 95 commercial
+vehicles** and are excluded from this passenger-car procedure.
+
+## Engine fault diagnosis carried forward
+
+<a id="p303"></a> **[PDF p.303](../page-images/p0303.png)** <!-- SOURCE id=base-1961 page=6A-58 years=1961,1962,1963 scope=passenger -->
+
+For lack of power, first separate compression faults (valves, head seals,
+rings, valve timing) from ignition, fuel delivery, or intake restriction.
+Overheating checks include cooler cleanliness, blower belt, thermostat and
+damper operation, cooling fins and sheet-metal seals, mixture, timing, and
+dragging brakes. Apply 1963-specific tune-up settings when correcting these.
+
+<a id="p304"></a> **[PDF p.304](../page-images/p0304.png)** <!-- SOURCE id=base-1961 page=6A-59 years=1961,1962,1963 scope=passenger -->
+
+For oil loss, inspect pan, housing, cover and pump seals, fasteners, and
+crankcase-vent drains before condemning pistons or rings. For oil burning,
+check rings, their oil-return passages, piston/cylinder fit, scoring, taper,
+and out-of-round. For hard starting, check cranking speed, battery/cables,
+starter, ignition wiring and points, then fuel and choke. The printed
+ignition gaps here are base-year values; use the applicable 1963 tune-up
+specifications instead.
+
+<a id="p305"></a> **[PDF p.305](../page-images/p0305.png)** <!-- SOURCE id=base-1961 page=6A-60 years=1961,1962,1963 scope=passenger -->
+
+For detonation or intake/exhaust popping, inspect wiring, plugs, ignition
+timing, mixture, fuel supply, vacuum leaks, valves and valve timing,
+combustion-chamber deposits, head seals, and exhaust-port restrictions.
+The printed timing/fuel-octane examples are base-year values and are
+excluded from this 1963 reference; diagnose using 1963 engine-variant
+settings.
+
+<a id="p306"></a> **[PDF p.306](../page-images/p0306.png)** <!-- SOURCE id=base-1961 page=6A-61 years=1961,1962,1963 scope=passenger -->
+
+The factory special-tools plate identifies the equipment for ring fitting,
+gear pressing, valve and bearing service, oil pickup installation, and
+engine support. Engine specifications are deferred by the base manual to
+Section 12; the 1963 Section 12 supplement governs year-specific values.
 
 <!-- NEEDS REVIEW: Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. -->
 

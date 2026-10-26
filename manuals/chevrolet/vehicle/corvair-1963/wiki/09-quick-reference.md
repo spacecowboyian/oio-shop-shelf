@@ -119,6 +119,17 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 20–26 | ft. lb. | [06a-engine.md](06a-engine.md) | **20–26 ft. lb.** Clean crankcase-cover and vent-gasket surfaces without |
 | 60–80 | ft. lb. | [06a-engine.md](06a-engine.md) | then back the bolt off before final tightening to **60–80 ft. lb.** Restore |
 | 45 | ° | [06a-engine.md](06a-engine.md) | engine top** and compression-ring gaps **45° away** from it. Install |
+| 6 | A | [06a-engine.md](06a-engine.md) | distributor drive gear, and oil slinger in the order shown in Figure 6A-90/91. |
+| 6 | A | [06a-engine.md](06a-engine.md) | page 6A-8. Oil the inserts and lower the crankshaft into the supported left |
+| 6 | A | [06a-engine.md](06a-engine.md) | as Figure 6A-94 shows. Oil the bearings/gears, seal the case parting-line |
+| 6 | A | [06a-engine.md](06a-engine.md) | ends, fit the other case half, and tighten case bolts in Figure 6A-82 order. |
+| 6 | A | [06a-engine.md](06a-engine.md) | height** is given on supplement page 6A-6 above. |
+| 6 | A | [06a-engine.md](06a-engine.md) | 6A-7 instead of using the base illustration. Seat all three cylinder-head |
+| 6 | A | [06a-engine.md](06a-engine.md) | and studs in Figure 6A-104 sequence. Fit push rods with the **marked side |
+| 6 | A | [06a-engine.md](06a-engine.md) | hydraulic-lifter setting** on supplement page 6A-6 above; the base page's |
+| 40–60 | in. lb. | [06a-engine.md](06a-engine.md) | ¼-20 bolts 40–60 in. lb. |
+| 6 | A | [06a-engine.md](06a-engine.md) | The following base pages 6A-55–6A-57 describe **Corvair 95 commercial |
+| 55–6 | A | [06a-engine.md](06a-engine.md) | The following base pages 6A-55–6A-57 describe **Corvair 95 commercial |
 | 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
 | 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
