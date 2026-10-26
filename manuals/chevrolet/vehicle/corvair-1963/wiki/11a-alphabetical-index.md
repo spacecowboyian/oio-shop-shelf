@@ -8,7 +8,9 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
+- 1963 distributor, belt and carburetor setup — [07-engine-tune-up.md#p417](07-engine-tune-up.md#p417) ([PDF p.417])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
+- 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
 - 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 lubricant capacity — [06c-rear-axle.md#p345](06c-rear-axle.md#p345) ([PDF p.345])

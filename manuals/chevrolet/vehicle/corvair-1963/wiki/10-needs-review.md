@@ -1,6 +1,6 @@
 # Needs Review
 
-_26 flag(s) across 11 chapter file(s)._
+_26 flag(s) across 12 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -33,10 +33,9 @@ _26 flag(s) across 11 chapter file(s)._
 
 ## Conversion coverage
 
-7 source section(s) pending cleanup; 2 partial.
+6 source section(s) pending cleanup; 2 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Engine Tune-Up (combined PDF pp. 405–417, 681–686)
 - Pending: Electrical Systems (combined PDF pp. 418–500, 687–712)
 - Pending: Fuel and Exhaust Systems (combined PDF pp. 501–528, 713–742)
 - Pending: Body (combined PDF pp. 12–31, 32–81, 534–580)
