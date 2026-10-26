@@ -330,6 +330,36 @@ diagrams:
   depth: gray
   caption: Passenger-car front riding-height measurement (fig. 3-10)
   safety_relevant: true
+- page: 154
+  file: diagrams/p0154-front-spring-lower-arm-removal.png
+  kind: sequence
+  depth: gray
+  caption: Strut-rod attachment, front spring support, lower-arm and joint removal
+  safety_relevant: true
+- page: 155
+  file: diagrams/p0155-lower-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Lower-joint and lower-arm bushing press arrangement
+  safety_relevant: true
+- page: 156
+  file: diagrams/p0156-front-spring-installation.png
+  kind: sequence
+  depth: gray
+  caption: Front coil-spring installation using jackstand (fig. 3-18)
+  safety_relevant: true
+- page: 157
+  file: diagrams/p0157-upper-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Upper control-arm bushing installation press setup (fig. 3-20)
+  safety_relevant: true
+- page: 158
+  file: diagrams/p0158-front-crossmember-points.png
+  kind: chart
+  depth: gray
+  caption: Front crossmember and strut-rod attachment points (fig. 3-22)
+  safety_relevant: true
 - page: 641
   file: diagrams/p0641-lower-spherical-joint-inspection.png
   kind: chart

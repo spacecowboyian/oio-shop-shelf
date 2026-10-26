@@ -34,7 +34,7 @@ REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 SPEC_NUMBER = r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
 SPEC_RE = re.compile(
     rf"(?P<val>{SPEC_NUMBER}(?:\s*[–-]\s*{SPEC_NUMBER})?)\s*"
-    r"(?P<unit>N·m|N-m|Nm|kgf·cm|kgf-cm|ft[·-]?lbf?|in[·-]?lbf?|mm|cm|"
+    r"(?P<unit>N·m|N-m|Nm|kgf·cm|kgf-cm|ft\.?\s*lb\.?|in\.?\s*lb\.?|ft[·-]?lbf?|in[·-]?lbf?|mm|cm|"
     r"V|kΩ|Ω|A|mA|kPa|psi|bar|°C|°F|°|″|\"|lb\.\s*ft\.?|rpm|L|cc|mL)(?=\W|$)"
 )
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
