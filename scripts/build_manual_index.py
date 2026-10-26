@@ -24,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _common import load_manifest  # noqa: E402
+from composite import parse_source_marker  # noqa: E402
 
 # generated / index / instruction files are not primary content
 SKIP_FILES = {
@@ -48,7 +49,6 @@ PROSE_UNIT_RE = re.compile(
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
-SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=([\w-]+)\s+years=([\d,]+)\s+scope=([\w-]+)(?:\s+variant=([\w-]+))?\s*-->")
 PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
@@ -115,11 +115,9 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
     i = 0
     while i < len(lines):
         line = lines[i]
-        marker = SOURCE_RE.search(line)
+        marker = parse_source_marker(line)
         if marker:
-            provenance = (marker.group(1), marker.group(2),
-                          [int(y) for y in marker.group(3).split(",")], marker.group(4),
-                          marker.group(5))
+            provenance = marker
         pg = page_of(line)
         if pg:
             page = pg

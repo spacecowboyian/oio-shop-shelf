@@ -212,9 +212,12 @@ disconnected**.
 | Hydraulic valve-lash adjustment | 1 turn to center lifter plunger |
 | Fuel-pump pressure | 4–5 lb at idle–1000 rpm |
 | Fuel-pump volume | 1 pint in 30–45 sec. |
-| Air-cleaner service | Clean and reoil oil-wetted polyurethane, approx. 6000 miles |
 | Blower-belt strand tension | 75 ±5 lb |
 | Exhaust damper door opening | Approx. 2⅜ in. from door top to opening top, rod against bellows stop |
+
+The [1963 lubrication schedule](02-lubrication.md#p637-cooling) sets
+air-cleaner service at **6,000 miles** for regular and turbocharged
+engines. It supersedes the Spyder section's earlier interval.
 
 The paired standard carburetors are Rochester Model H; the turbocharged
 engine uses a Carter YH side-draft carburetor. The crankcase-vent valve

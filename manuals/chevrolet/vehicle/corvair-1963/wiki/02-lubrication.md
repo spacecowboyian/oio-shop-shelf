@@ -96,6 +96,14 @@ The **1963 interval above** replaces the base manual's earlier filter interval.
   to the left of the air cleaner is replaced every **12,000 miles**. Clean
   the carburetor-inlet screen at the same interval.
 
+| 1963 passenger fuel-filter application | Factory service interval |
+|---|---|
+| Regular-engine carburetor inlet elements | Replace only if flooding occurs |
+| Spyder separate fuel filter and carburetor-inlet screen | Replace filter and clean screen every 12,000 miles |
+
+These 1963-specific instructions supersede the earlier fixed replacement
+intervals in the base manual and the supplement's Spyder fuel-system section.
+
 <a id="p134"></a> **[PDF p.134](../page-images/p0134.png)** <!-- SOURCE id=base-1961 page=2-5 years=1961,1962,1963 scope=passenger -->
 
 For a distributor equipped with the base-style hinge-cap oiler, fill that

@@ -8,7 +8,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
-- 1963 distributor, belt and carburetor setup — [07-engine-tune-up.md#p417](07-engine-tune-up.md#p417) ([PDF p.417])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
 - 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
@@ -23,6 +22,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## A
 
+- Air cleaner — [09-fuel-and-exhaust.md#p520](09-fuel-and-exhaust.md#p520) ([PDF p.520])
 - Air conditioning, if equipped — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Alignment preparation and rear toe-in — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
 - Assemble an uncoded side-bar cylinder — [01-general-information.md#p6](01-general-information.md#p6) ([PDF p.6])
@@ -33,7 +33,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## B
 
 - Balance and check wheel runout — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
-- Battery and redesigned distributor — [08-electrical-systems.md#p500](08-electrical-systems.md#p500) ([PDF p.500])
 - Bearings, hydraulic lifters, and crankcase assembly — [06a-engine.md#p288](06a-engine.md#p288) ([PDF p.288])
 - Blower, oil pan, cooler, and crankcase vent in the vehicle — [06a-engine.md#p264](06a-engine.md#p264) ([PDF p.264])
 - Blower-bearing hub height — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
@@ -120,6 +119,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Metallic-lining option — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
 - Modulator, governor, valve body and low servo — [06e-automatic-transmission.md#p380](06e-automatic-transmission.md#p380) ([PDF p.380])
 - Monza Spyder warning instruments — [08-electrical-systems.md#p701](08-electrical-systems.md#p701) ([PDF p.701])
+- Monza Spyder: Carter YH and turbo-supercharger — [09-fuel-and-exhaust.md#p722](09-fuel-and-exhaust.md#p722) ([PDF p.722])
 
 ## O
 
@@ -132,7 +132,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## P
 
 - Parking-brake adjustment and cable service — [05-brakes.md#p215](05-brakes.md#p215) ([PDF p.215])
-- Passenger chassis electrical: lighting and instruments — [08-electrical-systems.md#p462](08-electrical-systems.md#p462) ([PDF p.462])
+- Passenger fuel tank and lines — [09-fuel-and-exhaust.md#p522](09-fuel-and-exhaust.md#p522) ([PDF p.522])
 - Passenger-car dimensions carried from the base manual — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Passenger-car keys and locks — [01-general-information.md#p4](01-general-information.md#p4) ([PDF p.4])
 - Passenger-car steering-knuckle service — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
@@ -153,6 +153,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Reassemble the rear lower arm — [03-suspension.md#p161](03-suspension.md#p161) ([PDF p.161])
 - Refit the front coil spring and arm — [03-suspension.md#p155](03-suspension.md#p155) ([PDF p.155])
+- Regular-engine automatic-choke Rochester H carburetors — [09-fuel-and-exhaust.md#p528](09-fuel-and-exhaust.md#p528) ([PDF p.528])
 - Regulator contact service and starting motor — [08-electrical-systems.md#p433](08-electrical-systems.md#p433) ([PDF p.433])
 - Relay rod and idler — [04-steering.md#p195](04-steering.md#p195) ([PDF p.195])
 - Remove and dismantle the steering gear — [04-steering.md#p189](04-steering.md#p189) ([PDF p.189])
@@ -178,7 +179,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Seals, carrier removal, and pinion setup — [06c-rear-axle.md#p327](06c-rear-axle.md#p327) ([PDF p.327])
 - Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
-- Spark plugs, ignition switch and wiring-year filter — [08-electrical-systems.md#p449](08-electrical-systems.md#p449) ([PDF p.449])
 - Starter solenoid and ignition circuit — [08-electrical-systems.md#p441](08-electrical-systems.md#p441) ([PDF p.441])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])

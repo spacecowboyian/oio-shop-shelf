@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from composite import UnresolvedSourceConflict, applicable, resolve
+from composite import UnresolvedSourceConflict, applicable, parse_source_marker, resolve
 from build_manual_index import harvest_file
 SPEC_RE = __import__("05_build_indexes").SPEC_RE
 from validate_composite_map import validate
@@ -278,6 +278,40 @@ class CompositeRulesTest(unittest.TestCase):
                               *(f"p{n}" for n in range(710, 713))}
                              for r in electrical))
 
+    def test_1963_fuel_index_uses_year_specific_service_schedule(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/09-fuel-and-exhaust.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(501, 529), *range(713, 743)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        fuel = [r for r in rows if r["_file"] == "wiki/09-fuel-and-exhaust.md"]
+        self.assertFalse(any(any(old in json.dumps(r) for old in
+                                 ("15,000 miles", "10,000 miles", "4,000 miles"))
+                             for r in fuel))
+        schedule = [r for r in rows if r["_file"] == "wiki/02-lubrication.md"]
+        self.assertTrue(any("12,000 miles" in json.dumps(r) and
+                            r.get("_page") == "p638" and
+                            r.get("_source_id") == "supplement-1962-63"
+                            for r in schedule))
+        self.assertTrue(any("only if flooding occurs" in json.dumps(r) and
+                            r.get("_page") == "p638" for r in schedule))
+        self.assertTrue(any("6,000 miles" in json.dumps(r) and
+                            r.get("_page") == "p637" for r in schedule))
+        tune = [r for r in rows if r["_file"] == "wiki/07-engine-tune-up.md"]
+        self.assertTrue(any(r.get("_page") == "p685" and
+                            r.get("all-applicable-1963-passenger-engines") ==
+                            "Fuel-pump volume" and
+                            r.get("factory-value") == "1 pint in 30–45 sec."
+                            for r in tune))
+        self.assertFalse(any(r.get("all-applicable-1963-passenger-engines") ==
+                             "Air-cleaner service" for r in tune))
+        self.assertFalse(any(r.get("_page") in
+                             {*(f"p{n}" for n in range(504, 517)), "p526"}
+                             for r in fuel))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))
@@ -326,6 +360,26 @@ class CompositeRulesTest(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["value"], "12 psi")
             self.assertEqual(rows[0]["_original_page"], "12-2")
+
+    def test_source_annotations_and_exclusions_reset_index_provenance(self):
+        self.assertEqual(
+            parse_source_marker("<!-- SOURCE id=base page=9-2 years=1961,1962,1963 "
+                                "scope=passenger variant=regular-engine "
+                                "applicability=inlet-filter -->"),
+            ("base", "9-2", [1961, 1962, 1963], "passenger", "regular-engine"))
+        with TemporaryDirectory() as d:
+            path = Path(d) / "fuel.md"
+            path.write_text(
+                '# Fuel\n<a id="p1"></a> <!-- SOURCE id=base page=9-1 '
+                'years=1963 scope=passenger -->\n'
+                '| Item | Value |\n|---|---|\n| Good | 10 psi |\n'
+                '<a id="p2"></a> <!-- SOURCE id=base page=9-2 '
+                'scope=commercial; excluded=passenger -->\n'
+                '| Item | Value |\n|---|---|\n| Commercial | 99 psi |\n')
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "base"}]})
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["value"], "10 psi")
 
     def test_composite_index_preserves_variant_applicability(self):
         with TemporaryDirectory() as d:
