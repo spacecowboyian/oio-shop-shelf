@@ -16,7 +16,7 @@
 | 6D | Manual Transmission | [06d-manual-transmission.md](06d-manual-transmission.md) | 347-360, 361-374, 676-677 | ✅ done |
 | 6E | Automatic Transmission | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 375-404, 678-680 | ✅ done |
 | 7 | Engine Tune-Up | [07-engine-tune-up.md](07-engine-tune-up.md) | 405-417, 681-686 | ✅ done |
-| 8 | Electrical Systems | 08-electrical-systems.md | 418-500, 687-712 | ⬜ pending |
+| 8 | Electrical Systems | [08-electrical-systems.md](08-electrical-systems.md) | 418-500, 687-712 | ✅ done |
 | 9 | Fuel and Exhaust Systems | 09-fuel-and-exhaust.md | 501-528, 713-742 | ⬜ pending |
 | 10 | Body | 10-body.md | 12-31, 32-81, 534-580 | ⬜ pending |
 | 11 | Accessories | 11-accessories.md | 82-116, 581-623 | ⬜ pending |

@@ -312,6 +312,30 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 703
+  file: diagrams/p0703-spyder-warning-circuit.png
+  kind: wiring
+  depth: gray
+  caption: Monza Spyder oil-pressure and temperature warning circuit (fig. 27)
+  safety_relevant: true
+- page: 707
+  file: diagrams/p0707-1963-front-dash-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger front and dash harness (fig. 8-32)
+  safety_relevant: true
+- page: 708
+  file: diagrams/p0708-1963-instrument-body-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger instrument-panel and body harness (fig. 8-33)
+  safety_relevant: true
+- page: 709
+  file: diagrams/p0709-1963-engine-tail-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger engine and tail-lamp harness (fig. 8-34)
+  safety_relevant: true
 - page: 683
   file: diagrams/p0683-carburetor-linkage.png
   kind: sequence
