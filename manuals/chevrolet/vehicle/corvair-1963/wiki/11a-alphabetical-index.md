@@ -9,7 +9,9 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
+- 1963 passenger clutch specifications — [06b-clutch.md#p668](06b-clutch.md#p668) ([PDF p.668])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
+- 1963 pedal and high-performance clutch changes — [06b-clutch.md#p318](06b-clutch.md#p318) ([PDF p.318])
 
 ## A
 
@@ -40,6 +42,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
 - Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
+- Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 - Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
 - Cylinder-head repair and valve assembly — [06a-engine.md#p277](06a-engine.md#p277) ([PDF p.277])
@@ -166,6 +169,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Transmission, rear axle, and controls — [02-lubrication.md#p135](02-lubrication.md#p135) ([PDF p.135])
 - Troubleshooting and special tools — [05-brakes.md#p223](05-brakes.md#p223) ([PDF p.223])
+- Troubleshooting and special tools — [06b-clutch.md#p312](06b-clutch.md#p312) ([PDF p.312])
 - Troubleshooting and tools — [04-steering.md#p196](04-steering.md#p196) ([PDF p.196])
 - Troubleshooting carried forward — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])

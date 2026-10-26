@@ -312,6 +312,18 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 308
+  file: diagrams/p0308-clutch-linkage-adjustment.png
+  kind: sequence
+  depth: gray
+  caption: Passenger clutch cable and fork-rod adjustment (figs. 6B-2–3)
+  safety_relevant: true
+- page: 668
+  file: diagrams/p0668-spyder-clutch.png
+  kind: exploded
+  depth: gray
+  caption: 1963 pedal bracket and high-performance clutch identification (figs. 6B-2–3)
+  safety_relevant: true
 - page: 294
   file: diagrams/p0294-camshaft-timing.png
   kind: chart

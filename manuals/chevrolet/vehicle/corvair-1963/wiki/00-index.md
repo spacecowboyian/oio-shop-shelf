@@ -11,7 +11,7 @@
 | 5 | Brakes | [05-brakes.md](05-brakes.md) | 210-231, 649-657 | ✅ done |
 | 6 | Power Train | 06-power-train.md | 232-245, 658-658 | ⬜ pending |
 | 6A | Engine | [06a-engine.md](06a-engine.md) | 246-306, 659-667 | ✅ done |
-| 6B | Clutch | 06b-clutch.md | 307-320, 668-668 | ⬜ pending |
+| 6B | Clutch | [06b-clutch.md](06b-clutch.md) | 307-320, 668-668 | ✅ done |
 | 6C | Rear Axle | 06c-rear-axle.md | 321-346, 669-675 | ⬜ pending |
 | 6D | Manual Transmission | 06d-manual-transmission.md | 347-360, 361-374, 676-677 | ⬜ pending |
 | 6E | Automatic Transmission | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 375-404, 678-680 | ⚠ partial |

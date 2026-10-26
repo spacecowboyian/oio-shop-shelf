@@ -132,6 +132,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 55–6 | A | [06a-engine.md](06a-engine.md) | The following base pages 6A-55–6A-57 describe **Corvair 95 commercial |
 | 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
 | 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
+| 15–20 | ft. lb. | [06b-clutch.md](06b-clutch.md) | drive straps, and tighten strap bolts to **15–20 ft. lb.** Position the |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
