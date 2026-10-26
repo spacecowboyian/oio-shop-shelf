@@ -149,6 +149,25 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(any("4.520" in json.dumps(r) or "4.530" in json.dumps(r)
                              for r in engine))
 
+    def test_completed_engine_uses_supplement_oil_pan_torque_and_omits_commercial_pages(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/06a-engine.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(247, 300), *range(303, 307), *range(659, 668)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        for n in range(300, 303):
+            self.assertNotIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        engine = [r for r in rows if r["_file"] == "wiki/06a-engine.md"]
+        self.assertTrue(any(r.get("1963-oil-pan-attachment") == "¼-20 bolts" and
+                            r.get("torque") == "40–60 in. lb." and
+                            r.get("_page") == "p629" and
+                            r.get("_source_id") == "supplement-1962-63" and
+                            r.get("_original_page") == "12-6" for r in engine))
+        self.assertFalse(any("40–60 ft-lb" in json.dumps(r) for r in engine))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

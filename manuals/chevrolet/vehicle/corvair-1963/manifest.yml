@@ -312,6 +312,18 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 294
+  file: diagrams/p0294-camshaft-timing.png
+  kind: chart
+  depth: gray
+  caption: Camshaft end play and timing-gear backlash checks (figs. 6A-95–96)
+  safety_relevant: true
+- page: 297
+  file: diagrams/p0297-head-tightening.png
+  kind: sequence
+  depth: gray
+  caption: Cylinder-head tightening sequence and push-rod placement (figs. 6A-104–106)
+  safety_relevant: true
 - page: 661
   file: diagrams/p0661-engine-shrouding.png
   kind: exploded

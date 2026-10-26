@@ -52,6 +52,8 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [diagrams/p0188-steering-gear-exploded.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0188-steering-gear-exploded.png)
 - [diagrams/p0191-ball-nut-assembly.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0191-ball-nut-assembly.png)
 - [diagrams/p0196-steering-linkage-alignment.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0196-steering-linkage-alignment.png)
+- [diagrams/p0294-camshaft-timing.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0294-camshaft-timing.png)
+- [diagrams/p0297-head-tightening.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0297-head-tightening.png)
 - [diagrams/p0533-1963-model-identification.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0533-1963-model-identification.png)
 - [diagrams/p0624-1963-wheel-alignment.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0624-1963-wheel-alignment.png)
 - [diagrams/p0625-suspension-torque.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0625-suspension-torque.png)
