@@ -94,6 +94,27 @@ class CompositeRulesTest(unittest.TestCase):
         for n in (*range(174, 181), 642, 644):
             self.assertNotIn(f'<a id="p{n}"></a>', chapter)
 
+    def test_completed_steering_covers_passenger_pages_and_indexes_1963_adjustment(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/04-steering.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE -->", chapter)
+        for n in (*range(184, 197), 208, 209, 645, 646, 647):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        for n in (*range(197, 208), 648):
+            self.assertNotIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        steering = [r for r in rows if r["_file"] == "wiki/04-steering.md"]
+        self.assertTrue(any(r.get("steering-gear-adjustment-passenger-car") ==
+                            "Worm-bearing preload" and r.get("_page") == "p646"
+                            for r in steering))
+        self.assertFalse(any("20°" in r.get("text", "") or "18°" in
+                             r.get("text", "") or "33½°" in r.get("text", "")
+                             for r in steering))
+        self.assertFalse(any("steering-arm" in r.get("text", "").lower() and
+                             "40–50" in r.get("text", "") for r in steering))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

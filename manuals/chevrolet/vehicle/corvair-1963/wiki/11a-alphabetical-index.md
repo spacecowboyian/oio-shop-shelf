@@ -6,6 +6,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## 1
 
+- 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
 ## A
@@ -13,6 +14,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Air conditioning, if equipped — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Alignment preparation and rear toe-in — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
 - Assemble an uncoded side-bar cylinder — [01-general-information.md#p6](01-general-information.md#p6) ([PDF p.6])
+- Assemble the 48-ball recirculating nut — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
+- Assemble the housing and adjust in the car — [04-steering.md#p191](04-steering.md#p191) ([PDF p.191])
 
 ## B
 
@@ -59,6 +62,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## I
 
+- Inspect and repair the gear — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
 - Inspect lower spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Inspect upper spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Install the front hub and drum — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
@@ -71,6 +75,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## M
 
 - Manual transmission and rear axle — [02-lubrication.md#p136](02-lubrication.md#p136) ([PDF p.136])
+- Mast jacket and steering linkage carried forward — [04-steering.md#p193](04-steering.md#p193) ([PDF p.193])
 
 ## P
 
@@ -91,6 +96,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Reassemble the rear lower arm — [03-suspension.md#p161](03-suspension.md#p161) ([PDF p.161])
 - Refit the front coil spring and arm — [03-suspension.md#p155](03-suspension.md#p155) ([PDF p.155])
+- Relay rod and idler — [04-steering.md#p195](04-steering.md#p195) ([PDF p.195])
+- Remove and dismantle the steering gear — [04-steering.md#p189](04-steering.md#p189) ([PDF p.189])
 - Remove and inspect the front hub and drum — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Remove and install a front strut rod — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
 - Remove and install a rear coil spring — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
@@ -109,13 +116,20 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
+- Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])
+- Steering gear removal and overhaul carried forward — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
+- Steering wheel and column alignment — [04-steering.md#p646](04-steering.md#p646) ([PDF p.646])
+- Steering-arm replacement — [04-steering.md#p646](04-steering.md#p646) ([PDF p.646])
+- Steering-gear lubrication and adjustment — [04-steering.md#p645](04-steering.md#p645) ([PDF p.645])
 - Suspension bolt torque — [12-specifications.md#p625](12-specifications.md#p625) ([PDF p.625])
 
 ## T
 
+- Tie rods — [04-steering.md#p194](04-steering.md#p194) ([PDF p.194])
 - Tire pressures, puncture checks, and wheel changes — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Transmission, rear axle, and controls — [02-lubrication.md#p135](02-lubrication.md#p135) ([PDF p.135])
+- Troubleshooting and tools — [04-steering.md#p196](04-steering.md#p196) ([PDF p.196])
 - Troubleshooting carried forward — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Twice-yearly body points — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
@@ -123,4 +137,5 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## U
 
 - Unit and serial number locations — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
+- Unresolved 1963 values — [04-steering.md#p209](04-steering.md#p209) ([PDF p.209])
 - Upper control arm, joint, cross shaft, and bushings — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])

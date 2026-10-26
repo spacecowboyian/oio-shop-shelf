@@ -129,9 +129,8 @@ The base bearing method removes the wheel and hub and cleans **all old
 lubricant** from bearings and hub before repacking. Do not mix bearing
 lubricants, pack the cavity between inner and outer bearings, or pack the hub
 cap: excess can reach the brake drums and linings. Use a high-melting-point,
-water-resistant front-wheel-bearing lubricant. See the [suspension source
-section](../page-images/p0146.png) for bearing adjustment; that chapter is
-still awaiting cleanup.
+water-resistant front-wheel-bearing lubricant. Use the
+[1963 bearing adjustment](03-suspension.md#front-wheel-bearing-adjustment).
 
 ## Transmission, rear axle, and controls
 

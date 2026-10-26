@@ -51,8 +51,6 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | .004 | ″ | [03-suspension.md](03-suspension.md) | .004″ end play** when properly adjusted. |
 | ⅛ | ″ | [03-suspension.md](03-suspension.md) | The supplement changes **rear toe-in to ⅛″–⅜″ total**. For front alignment, |
 | ⅜ | ″ | [03-suspension.md](03-suspension.md) | The supplement changes **rear toe-in to ⅛″–⅜″ total**. For front alignment, |
-| 33½ | ° | [03-suspension.md](03-suspension.md) | turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship |
-| 30½ | ° | [03-suspension.md](03-suspension.md) | turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship |
 | 30–40 | ft. lb. | [03-suspension.md](03-suspension.md) | 1. Set the knuckle on the lower ball stud. Tighten its nut to **30–40 ft. lb.** |
 | 30–40 | ft. lb. | [03-suspension.md](03-suspension.md) | 2. Insert the upper ball stud. Tighten its nut to **30–40 ft. lb.** and |
 | 60–85 | ft. lb. | [03-suspension.md](03-suspension.md) | 5. Tighten the brake anchor bolt to **60–85 ft. lb.** |
@@ -102,6 +100,12 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1⁄16 | ″ | [03-suspension.md](03-suspension.md) | radial eccentricity at the exposed bead seat to **1⁄16″**. Excess calls for |
 | 20–30 | mph | [03-suspension.md](03-suspension.md) | under those changes and may be clearest around **20–30 mph**. Its factory |
 | 50 | psi | [03-suspension.md](03-suspension.md) | and at a temporary **50 psi** test pressure, then restores each tire to its |
+| 35–40 | ft. lb. | [04-steering.md](04-steering.md) | torque is **35–40 ft. lb.** |
+| 15–22 | ft. lb. | [04-steering.md](04-steering.md) | tighten nuts at the bracket and relay rod to **15–22 ft. lb.** |
+| 15–22 | ft. lb. | [04-steering.md](04-steering.md) | the lower bolt and spacer; tighten frame bolts to **15–22 ft. lb.** Place |
+| 29–43 | ft. lb. | [04-steering.md](04-steering.md) | castellated nut to **29–43 ft. lb.** Continue tightening to the next cotter |
+| 22–27 | ft. lb. | [04-steering.md](04-steering.md) | **22–27 ft. lb.** Tighten the frame bolts. Recheck shaft/coupling marks and |
+| 2927 | A | [04-steering.md](04-steering.md) | **J-5178** steering-wheel pull scale, **J-2927A** steering-wheel puller, |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

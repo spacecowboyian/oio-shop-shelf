@@ -101,11 +101,15 @@ the source scan's 1963 front toe-in fraction remains under review there.
 
 <a id="p150"></a> **[PDF p.150](../page-images/p0150.png)** <!-- SOURCE id=base-1961 page=3-5 years=1961,1962,1963 scope=passenger -->
 
-The base manual checks cornering-wheel relationship with the inner wheel
-turned **33½°** and the outer wheel at **30½°**. An out-of-range relationship
-calls for replacement of the steering arm on the affected side. Keep only
+The base manual checks cornering-wheel relationship and calls for replacement
+of the affected steering arm when the relationship is out of range. The 1961
+angles are withheld here: the supplement's specification table lists changed
+angles, but its steering procedure expressly calls those angles **1962**.
+The 1963 angles require source reconciliation. Keep only
 standard equipment and the spare in the front compartment and fill the fuel
 tank before final alignment.
+
+<!-- NEEDS REVIEW: Base Section 3 p. 3-5 prints 33½°/30½°. Supplement Section 12 p. 12-3 prints 20° ±1°/18° ±1° without a year qualifier, while supplement Section 4 p. 4-3 expressly identifies 20° ±1°/18° ±1° as the 1962 relationship. Do not index either set as a 1963 specification until reconciled. -->
 
 ### Rear alignment adjustment carried forward
 
