@@ -312,6 +312,24 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 342
+  file: diagrams/p0342-gear-contact-patterns.png
+  kind: chart
+  depth: gray
+  caption: Ring-and-pinion heel, toe, face and flank contact patterns (fig. 6C-54)
+  safety_relevant: true
+- page: 672
+  file: diagrams/p0672-positraction.png
+  kind: exploded
+  depth: gray
+  caption: Positraction differential clutch-pack arrangement (fig. 6C-10)
+  safety_relevant: true
+- page: 673
+  file: diagrams/p0673-positraction-clutch-pack.png
+  kind: sequence
+  depth: gray
+  caption: Positraction clutch-pack stack and case alignment (figs. 6C-11–13)
+  safety_relevant: true
 - page: 308
   file: diagrams/p0308-clutch-linkage-adjustment.png
   kind: sequence

@@ -6,9 +6,11 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## 1
 
+- 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
+- 1963 lubricant capacity — [06c-rear-axle.md#p345](06c-rear-axle.md#p345) ([PDF p.345])
 - 1963 passenger clutch specifications — [06b-clutch.md#p668](06b-clutch.md#p668) ([PDF p.668])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 - 1963 pedal and high-performance clutch changes — [06b-clutch.md#p318](06b-clutch.md#p318) ([PDF p.318])
@@ -51,6 +53,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Deferred general specifications — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Diagnose unusual tread wear — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
+- Differential case, seals, and bearing service — [06c-rear-axle.md#p333](06c-rear-axle.md#p333) ([PDF p.333])
 - Dismount and mount a tubeless tire — [03-suspension.md#p167](03-suspension.md#p167) ([PDF p.167])
 - Distinguish tire noise from axle noise — [03-suspension.md#p172](03-suspension.md#p172) ([PDF p.172])
 - Drum inspection and reconditioning — [05-brakes.md#p222](05-brakes.md#p222) ([PDF p.222])
@@ -117,8 +120,10 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Passenger-car dimensions carried from the base manual — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Passenger-car keys and locks — [01-general-information.md#p4](01-general-information.md#p4) ([PDF p.4])
 - Passenger-car steering-knuckle service — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
+- Pinion service gear sets and Positraction arrangement — [06c-rear-axle.md#p670](06c-rear-axle.md#p670) ([PDF p.670])
 - Planet carrier removal and inspection — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Planet carrier repair — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
+- Positraction clutch-pack service — [06c-rear-axle.md#p672](06c-rear-axle.md#p672) ([PDF p.672])
 - Powerglide fluid level — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Push-start with Powerglide — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Push-start with manual transmission — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
@@ -148,11 +153,13 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 - Revised engine sheet metal — [06a-engine.md#p659](06a-engine.md#p659) ([PDF p.659])
 - Rim and valve service — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
+- Ring-and-pinion bearing preload and backlash — [06c-rear-axle.md#p339](06c-rear-axle.md#p339) ([PDF p.339])
 - Rotate tires and clean whitewalls — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
 - Running valve-lash adjustment — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
 
 ## S
 
+- Seals, carrier removal, and pinion setup — [06c-rear-axle.md#p327](06c-rear-axle.md#p327) ([PDF p.327])
 - Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])
