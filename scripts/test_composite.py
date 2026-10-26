@@ -242,6 +242,21 @@ class CompositeRulesTest(unittest.TestCase):
                             r.get("factory-value") == "1.82:1" for r in powerglide))
         self.assertFalse(any(r.get("_page") == "p402" for r in powerglide))
 
+    def test_1963_tune_up_uses_variant_table_not_1961_values(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/07-engine-tune-up.md").read_text()
+        for n in (*range(405, 418), *range(681, 687)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        self.assertIn("years=1961; excluded=1963", chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        tune = [r for r in rows if r["_file"] == "wiki/07-engine-tune-up.md"]
+        self.assertTrue(any(r.get("variant") == "Turbo-charged, manual" and
+                            r.get("timing-btdc") == "24°" and
+                            r.get("_original_page") == "7-5" for r in tune))
+        self.assertFalse(any(r.get("_page") in {"p416", "p417"} for r in tune))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

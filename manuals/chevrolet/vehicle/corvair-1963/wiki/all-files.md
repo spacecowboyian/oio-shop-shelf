@@ -18,6 +18,7 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/06c-rear-axle.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/06c-rear-axle.md)
 - [wiki/06d-manual-transmission.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/06d-manual-transmission.md)
 - [wiki/06e-automatic-transmission.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/06e-automatic-transmission.md)
+- [wiki/07-engine-tune-up.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/07-engine-tune-up.md)
 - [wiki/09-quick-reference.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/09-quick-reference.md)
 - [wiki/10-needs-review.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/10-needs-review.md)
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/11a-alphabetical-index.md)
@@ -82,3 +83,5 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [diagrams/p0678-planet-gear-clearance.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0678-planet-gear-clearance.png)
 - [diagrams/p0679-planet-carrier.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0679-planet-carrier.png)
 - [diagrams/p0680-pinion-installation.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0680-pinion-installation.png)
+- [diagrams/p0683-carburetor-linkage.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0683-carburetor-linkage.png)
+- [diagrams/p0686-crankcase-ventilation.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0686-crankcase-ventilation.png)

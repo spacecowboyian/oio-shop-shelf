@@ -159,6 +159,29 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 19. Check planet-gear end clearance: **.005″–.035″** (fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 19. Check planet-gear end clearance: **.005″–.035″** (fig. 6E-1). |
+| 130 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | **130 psi** with **no more than 20 psi variation** between cylinders. |
+| 20 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | **130 psi** with **no more than 20 psi variation** between cylinders. |
+| 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | but use the supplement's **31°–34°** target. Dwell changing more than |
+| 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | but use the supplement's **31°–34°** target. Dwell changing more than |
+| 3 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | **3°** as speed rises to 1500 rpm points to distributor shaft, bushing |
+| 1500 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **3°** as speed rises to 1500 rpm points to distributor shaft, bushing |
+| 1500 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | 1500 rpm with the other plugs grounded. More than **1 in. Hg** or |
+| 40 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **40 rpm** difference between pairs suggests an unbalanced cylinder |
+| 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **4–5 lb pressure** from idle to 1000 rpm. Reconnect and leak-check |
+| 4 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-Air, manual AC-46FF 4° 500 Neutral |
+| 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-Air, automatic AC-46FF 13° 500 Drive |
+| 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Monza Powerglide AC-44FF 13° 500 Drive |
+| 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Super Turbo-Air, manual AC-44FF 13° 600 Neutral |
+| 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Super Turbo-Air, automatic AC-44FF 13° 500 Drive |
+| 24 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-charged, manual AC-44FF standard; AC-42FF competition 24° 850 Neutral |
+| 130 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
+| 20 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
+| 15–20 | ft-lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug gap and torque .035 in.; 15–20 ft-lb |
+| 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
+| 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
+| 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
+| 6000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | Air-cleaner service Clean and reoil oil-wetted polyurethane, approx. 6000 miles |
+| 50 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | block the valve opening and note rpm change. **Less than 50 rpm change** |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |

@@ -312,6 +312,18 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 683
+  file: diagrams/p0683-carburetor-linkage.png
+  kind: sequence
+  depth: gray
+  caption: 1963 paired-carburetor cross-shaft and rod linkage (fig. 7-4)
+  safety_relevant: true
+- page: 686
+  file: diagrams/p0686-crankcase-ventilation.png
+  kind: sequence
+  depth: gray
+  caption: 1963 positive crankcase ventilation routing (fig. 9)
+  safety_relevant: true
 - page: 376
   file: diagrams/p0376-powerglide-cross-section.png
   kind: exploded
