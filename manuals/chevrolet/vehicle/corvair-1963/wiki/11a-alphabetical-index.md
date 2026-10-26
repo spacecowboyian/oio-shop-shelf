@@ -7,7 +7,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## 1
 
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
-- 1963 engine changes and carburetor access — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
+- 1963 engine changes and carburetor access — [06a-engine.md#p264](06a-engine.md#p264) ([PDF p.264])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
@@ -76,6 +76,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## I
 
+- In-vehicle shields and engine mounts carried forward — [06a-engine.md#p259](06a-engine.md#p259) ([PDF p.259])
 - Initial shoe setting and automatic final adjustment — [05-brakes.md#p654](05-brakes.md#p654) ([PDF p.654])
 - Inspect and repair the gear — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
 - Inspect lower spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
@@ -97,6 +98,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## O
 
 - Oil filter, cylinder heads, and senders — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
+- Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 
 ## P
 
