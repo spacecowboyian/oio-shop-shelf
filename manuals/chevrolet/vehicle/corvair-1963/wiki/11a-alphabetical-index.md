@@ -9,11 +9,13 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
+- 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 lubricant capacity — [06c-rear-axle.md#p345](06c-rear-axle.md#p345) ([PDF p.345])
 - 1963 passenger clutch specifications — [06b-clutch.md#p668](06b-clutch.md#p668) ([PDF p.668])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 - 1963 pedal and high-performance clutch changes — [06b-clutch.md#p318](06b-clutch.md#p318) ([PDF p.318])
+- 1963 three-speed linkage and support — [06d-manual-transmission.md#p374](06d-manual-transmission.md#p374) ([PDF p.374])
 
 ## A
 
@@ -71,6 +73,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Factory gasoline selection — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Factory tire-puncture repair methods — [03-suspension.md#p168](03-suspension.md#p168) ([PDF p.168])
 - Forward cable — [05-brakes.md#p217](05-brakes.md#p217) ([PDF p.217])
+- Four-speed inspection and reassembly — [06d-manual-transmission.md#p365](06d-manual-transmission.md#p365) ([PDF p.365])
+- Four-speed layout and removal — [06d-manual-transmission.md#p360](06d-manual-transmission.md#p360) ([PDF p.360])
 - Front alignment adjustments carried forward — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
 - Front hub, drum, and shock absorber service — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Front pump gasket figure correction — [06e-automatic-transmission.md#p680](06e-automatic-transmission.md#p680) ([PDF p.680])
@@ -171,6 +175,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## T
 
+- Three-speed synchronizer and reassembly — [06d-manual-transmission.md#p353](06d-manual-transmission.md#p353) ([PDF p.353])
 - Tie rods — [04-steering.md#p194](04-steering.md#p194) ([PDF p.194])
 - Tire pressures, puncture checks, and wheel changes — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])

@@ -312,6 +312,18 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 362
+  file: diagrams/p0362-four-speed-cross-section.png
+  kind: exploded
+  depth: gray
+  caption: Four-speed transmission cross-section (fig. 6D-29)
+  safety_relevant: true
+- page: 676
+  file: diagrams/p0676-gearshift-support.png
+  kind: sequence
+  depth: gray
+  caption: Three-speed gearshift support bracket and linkage (fig. 6D-1)
+  safety_relevant: true
 - page: 342
   file: diagrams/p0342-gear-contact-patterns.png
   kind: chart

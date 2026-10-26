@@ -1,6 +1,6 @@
 # Needs Review
 
-_20 flag(s) across 10 chapter file(s)._
+_21 flag(s) across 11 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -21,16 +21,16 @@ _20 flag(s) across 10 chapter file(s)._
 | [06a-engine.md](06a-engine.md) | Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. |
 | [06b-clutch.md](06b-clutch.md) | Supplement Section 12 p. 12-7 labels clutch diaphragm total pressure 900–1050 and 1500 as "ft. lbs.". Confirm intended unit before indexing or applying these pressure figures; do not silently change to pounds-force. |
 | [06c-rear-axle.md](06c-rear-axle.md) | Supplement Section 6C p. 6C-1 step 1 prints J-8916-1, while the note/figure on the same page and special-tools list p. 6C-7 say J-8619-1 for the axle-bearing press plate. The latter is used in this chapter, but verify the tool number against another factory copy before obtaining a tool. |
+| [06d-manual-transmission.md](06d-manual-transmission.md) | Base four-speed Section 6D p. 6D-22 calls for 33 inner and 37 outer clutch-gear rollers. The 1962–63 supplement specifies a revised clutch gear and needle-bearing set with the revised mainshaft, but gives no roller count. Verify the installed gear and matching service parts before using the base count. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
 
 ## Conversion coverage
 
-8 source section(s) pending cleanup; 3 partial.
+7 source section(s) pending cleanup; 3 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Manual Transmission (combined PDF pp. 347–360, 361–374, 676–677)
 - Pending: Engine Tune-Up (combined PDF pp. 405–417, 681–686)
 - Pending: Electrical Systems (combined PDF pp. 418–500, 687–712)
 - Pending: Fuel and Exhaust Systems (combined PDF pp. 501–528, 713–742)

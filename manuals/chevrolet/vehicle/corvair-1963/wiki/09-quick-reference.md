@@ -141,6 +141,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | using a torque wrench. The factory requires **at least 50 ft. lb.** to |
 | 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | Axle rotation, opposite wheel held, brake drag accounted for 50 ft. lb. |
 | 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | reach **50 ft. lb. minimum**. Reinstall the unit in its carrier using the |
+| 15–20 | ft-lb | [06d-manual-transmission.md](06d-manual-transmission.md) | new gasket and seven bolts at **15–20 ft-lb**; install the side cover |
+| 3–4 | ft-lb | [06d-manual-transmission.md](06d-manual-transmission.md) | with a new gasket and eight bolts at **3–4 ft-lb**. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

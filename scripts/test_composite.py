@@ -205,6 +205,23 @@ class CompositeRulesTest(unittest.TestCase):
                             for r in axle))
         self.assertFalse(any("3 pints" in json.dumps(r) for r in axle))
 
+    def test_1963_manual_transmission_uses_passenger_linkage(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/06d-manual-transmission.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(347, 375), 676, 677):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        self.assertIn("scope=commercial; excluded=passenger", chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        transmission = [r for r in rows if r["_file"] == "wiki/06d-manual-transmission.md"]
+        self.assertTrue(any(r.get("1963-four-speed-passenger-linkage") == "900" and
+                            r.get("lever-setting") ==
+                            "Knob center 3¼ in. rearward of housing center" and
+                            r.get("_original_page") == "6D-2" for r in transmission))
+        self.assertFalse(any(r.get("_page") == "p373" for r in transmission))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))
