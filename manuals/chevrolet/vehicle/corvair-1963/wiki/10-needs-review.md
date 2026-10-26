@@ -1,6 +1,6 @@
 # Needs Review
 
-_16 flag(s) across 7 chapter file(s)._
+_16 flag(s) across 8 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -23,10 +23,9 @@ _16 flag(s) across 7 chapter file(s)._
 
 ## Conversion coverage
 
-11 source section(s) pending cleanup; 3 partial.
+10 source section(s) pending cleanup; 3 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Engine (combined PDF pp. 246–306, 659–667)
 - Pending: Clutch (combined PDF pp. 307–320, 668–668)
 - Pending: Rear Axle (combined PDF pp. 321–346, 669–675)
 - Pending: Manual Transmission (combined PDF pp. 347–360, 361–374, 676–677)

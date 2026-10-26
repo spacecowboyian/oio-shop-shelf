@@ -48,7 +48,7 @@ PROSE_UNIT_RE = re.compile(
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
-SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=([\w-]+)\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
+SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=([\w-]+)\s+years=([\d,]+)\s+scope=([\w-]+)(?:\s+variant=([\w-]+))?\s*-->")
 PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
@@ -101,13 +101,15 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
         if composite is not None:
             if provenance is None:
                 raise ValueError(f"{path}: spec row lacks a SOURCE marker")
-            source_id, original_page, years, scope = provenance
+            source_id, original_page, years, scope, variant = provenance
             if source_id not in {s["id"] for s in composite["sources"]}:
                 raise ValueError(f"{path}: unknown SOURCE id {source_id}")
             if int(composite["target_year"]) not in years or scope not in (composite["scope"], "all"):
                 return
             row.update({"_source_id": source_id, "_original_page": original_page,
                         "_applicable_years": years, "_scope": scope})
+            if variant:
+                row["_variant"] = variant
         rows.append(row)
 
     i = 0
@@ -116,7 +118,8 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
         marker = SOURCE_RE.search(line)
         if marker:
             provenance = (marker.group(1), marker.group(2),
-                          [int(y) for y in marker.group(3).split(",")], marker.group(4))
+                          [int(y) for y in marker.group(3).split(",")], marker.group(4),
+                          marker.group(5))
         pg = page_of(line)
         if pg:
             page = pg

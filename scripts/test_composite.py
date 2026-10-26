@@ -184,6 +184,19 @@ class CompositeRulesTest(unittest.TestCase):
             self.assertEqual(rows[0]["value"], "12 psi")
             self.assertEqual(rows[0]["_original_page"], "12-2")
 
+    def test_composite_index_preserves_variant_applicability(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "engine.md"
+            path.write_text("# Engine\n<a id=\"p667\"></a> "
+                            "<!-- SOURCE id=supplement page=6A-9 years=1963 "
+                            "scope=passenger variant=spyder -->\n"
+                            "| Engine | Compression |\n|---|---|\n| Spyder | 8:1 |\n")
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "supplement"}]})
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["_variant"], "spyder")
+            self.assertEqual(rows[0]["_original_page"], "6A-9")
+
     def test_index_rejects_untagged_composite_spec(self):
         with TemporaryDirectory() as d:
             path = Path(d) / "spec.md"

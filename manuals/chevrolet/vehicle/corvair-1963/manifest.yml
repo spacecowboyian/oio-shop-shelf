@@ -312,6 +312,30 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 661
+  file: diagrams/p0661-engine-shrouding.png
+  kind: exploded
+  depth: gray
+  caption: Revised 1963 engine sheet metal exploded view (fig. 6A-3)
+  safety_relevant: true
+- page: 663
+  file: diagrams/p0663-exhaust-valve-locks.png
+  kind: chart
+  depth: gray
+  caption: 1963 four-bead exhaust-valve locks and shroud access
+  safety_relevant: true
+- page: 666
+  file: diagrams/p0666-rear-main-bearing.png
+  kind: sequence
+  depth: gray
+  caption: Left flanged and right unflanged rear main-bearing halves (fig. 6A-11)
+  safety_relevant: true
+- page: 667
+  file: diagrams/p0667-monza-spyder-engine.png
+  kind: exploded
+  depth: gray
+  caption: Turbocharged Monza Spyder engine equipment (fig. 6A-12)
+  safety_relevant: true
 - page: 649
   file: diagrams/p0649-1963-self-adjusting-brake.png
   kind: exploded
