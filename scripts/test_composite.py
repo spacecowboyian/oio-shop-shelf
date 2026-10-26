@@ -257,6 +257,27 @@ class CompositeRulesTest(unittest.TestCase):
                             r.get("_original_page") == "7-5" for r in tune))
         self.assertFalse(any(r.get("_page") in {"p416", "p417"} for r in tune))
 
+    def test_1963_electrical_uses_revised_wiper_and_wiring(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/08-electrical-systems.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(418, 501), *range(687, 713)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        electrical = [r for r in rows if r["_file"] == "wiki/08-electrical-systems.md"]
+        self.assertTrue(any(r.get("_page") == "p687" and
+                            r.get("1963-standard-battery") == "Capacity" and
+                            r.get("factory-value") == "42 Ah" for r in electrical))
+        self.assertFalse(any(r.get("_page") in
+                             {*(f"p{n}" for n in range(456, 463)),
+                              *(f"p{n}" for n in range(480, 493)),
+                              *(f"p{n}" for n in range(495, 501)),
+                              *(f"p{n}" for n in range(704, 707)),
+                              *(f"p{n}" for n in range(710, 713))}
+                             for r in electrical))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

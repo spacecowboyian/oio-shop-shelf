@@ -182,6 +182,47 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
 | 6000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | Air-cleaner service Clean and reoil oil-wetted polyurethane, approx. 6000 miles |
 | 50 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | block the valve opening and note rpm change. **Less than 50 rpm change** |
+| .05 | V | [08-electrical-systems.md](08-electrical-systems.md) | fine-scale voltmeter after one minute. A difference of **.05 V or |
+| 1.95 | V | [08-electrical-systems.md](08-electrical-systems.md) | **1.95 V** indicates a defective battery under the factory test. |
+| 9.0 | V | [08-electrical-systems.md](08-electrical-systems.md) | Cranking battery voltage below **9.0 V** at about **80 ±20°F** warrants |
+| 20 | °F | [08-electrical-systems.md](08-electrical-systems.md) | Cranking battery voltage below **9.0 V** at about **80 ±20°F** warrants |
+| 20 | A | [08-electrical-systems.md](08-electrical-systems.md) | drop check at approximately **20 A** permits **V1 + V2 ≤.5 V** and |
+| .5 | V | [08-electrical-systems.md](08-electrical-systems.md) | drop check at approximately **20 A** permits **V1 + V2 ≤.5 V** and |
+| .03 | V | [08-electrical-systems.md](08-electrical-systems.md) | **V3 ≤.03 V** in its illustrated wiring test. Correct poor grounds, |
+| 1600 | rpm | [08-electrical-systems.md](08-electrical-systems.md) | **1600 rpm for at least 15 minutes**, cycles generator, and records |
+| 45–165 | °F | [08-electrical-systems.md](08-electrical-systems.md) | temperature (about **45–165°F**) and refers the published normal range |
+| 125 | °F | [08-electrical-systems.md](08-electrical-systems.md) | to **125°F**. Evaluate battery charge and water use over service |
+| 14.8 | V | [08-electrical-systems.md](08-electrical-systems.md) | avoid corrected settings over **14.8 V** because lights and other |
+| 13.5 | V | [08-electrical-systems.md](08-electrical-systems.md) | **11.8 and 13.5 V** and at least **.5 V below** the regulator setting; |
+| .5 | V | [08-electrical-systems.md](08-electrical-systems.md) | **11.8 and 13.5 V** and at least **.5 V below** the regulator setting; |
+| 12.5–13.0 | V | [08-electrical-systems.md](08-electrical-systems.md) | **12.5–13.0 V**, warm regulator covered at **1600 rpm for at least 15 |
+| 1600 | rpm | [08-electrical-systems.md](08-electrical-systems.md) | **12.5–13.0 V**, warm regulator covered at **1600 rpm for at least 15 |
+| 5 | A | [08-electrical-systems.md](08-electrical-systems.md) | about **5 A**, grounding regulator field should increase generator |
+| 2 | A | [08-electrical-systems.md](08-electrical-systems.md) | output by no more than **2 A**; a larger rise calls for contact |
+| 50–60 | ft-lb | [08-electrical-systems.md](08-electrical-systems.md) | are not brinelled. Torque the **left-hand pulley nut to 50–60 ft-lb**. |
+| 15–22 | ft-lb | [08-electrical-systems.md](08-electrical-systems.md) | drive-end adapter and rear/front bracket bolts to **15–22 ft-lb** and |
+| 8–11 | ft-lb | [08-electrical-systems.md](08-electrical-systems.md) | commutator-end bracket nut to **8–11 ft-lb**. Connect brown lead to |
+| .2 | V | [08-electrical-systems.md](08-electrical-systems.md) | Any of those starting-circuit drops above **.2 V** indicates excessive |
+| 7.7 | V | [08-electrical-systems.md](08-electrical-systems.md) | **7.7 V or more** at its switch terminal. For removal, disconnect |
+| 10 | V | [08-electrical-systems.md](08-electrical-systems.md) | tests hold-in and combined winding currents at **10 V**, but verify |
+| 1 | V | [08-electrical-systems.md](08-electrical-systems.md) | states, the base table calls for **V1 ≤1 V while cranking**, **V2 |
+| 4½–6½ | V | [08-electrical-systems.md](08-electrical-systems.md) | approximately battery voltage with points open**, **V2 4½–6½ V with |
+| .2 | V | [08-electrical-systems.md](08-electrical-systems.md) | points closed**, **V3 ≤.2 V** and **V4 ≤.7 V**. It identifies |
+| .7 | V | [08-electrical-systems.md](08-electrical-systems.md) | points closed**, **V3 ≤.2 V** and **V4 ≤.7 V**. It identifies |
+| 20–25 | ft-lb | [08-electrical-systems.md](08-electrical-systems.md) | **20–25 ft-lb** installation torque is **superseded by the 1963 |
+| 15–20 | ft-lb | [08-electrical-systems.md](08-electrical-systems.md) | 15–20 ft-lb** table on p.685; do not index the former for 1963. |
+| 7.0–11.0 | A | [08-electrical-systems.md](08-electrical-systems.md) | Each horn should draw **7.0–11.0 A at 12.0 V**. Adjust current in |
+| 12.0 | V | [08-electrical-systems.md](08-electrical-systems.md) | Each horn should draw **7.0–11.0 A at 12.0 V**. Adjust current in |
+| 5 | A | [08-electrical-systems.md](08-electrical-systems.md) | water and charge at **5 A for at least 10 hours**. Three hourly |
+| 90 | ° | [08-electrical-systems.md](08-electrical-systems.md) | Rotate the cam lubricator **90°**, reinstall rotor/cap and set timing |
+| 90 | ° | [08-electrical-systems.md](08-electrical-systems.md) | plunger arm, press/twist bellows **90°** and lift it with spring. Reverse |
+| 12 | V | [08-electrical-systems.md](08-electrical-systems.md) | looks for **12 V at the harness terminal feeding wiper terminal 2**. |
+| 0 | A | [08-electrical-systems.md](08-electrical-systems.md) | binding, then bench-test the motor. A detached motor drawing **0 A** |
+| 2–3 | A | [08-electrical-systems.md](08-electrical-systems.md) | points to an open connection; **2–3 A** to armature/brush/splice faults; |
+| 10–12 | A | [08-electrical-systems.md](08-electrical-systems.md) | **10–12 A** to a shunt-field or gear fault as the factory table lists. |
+| 7–9 | A | [08-electrical-systems.md](08-electrical-systems.md) | switch contacts. Slow running at **7–9 A** may indicate gearbox bind, |
+| 30 | A | [08-electrical-systems.md](08-electrical-systems.md) | two-speed unit use an ammeter rated **at least 30 A** and check both |
+| 12 | V | [08-electrical-systems.md](08-electrical-systems.md) | for relay click. If absent, check **12 V at washer terminal 2**. If |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |
