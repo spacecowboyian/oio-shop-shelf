@@ -6,7 +6,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## 1
 
-- 1963 passenger wheels and tires — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
+- 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
 ## A
 
@@ -16,6 +16,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## B
 
+- Balance and check wheel runout — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
 - Body lubrication — [02-lubrication.md#p639](02-lubrication.md#p639) ([PDF p.639])
 - Body points serviced when accessible — [02-lubrication.md#p139](02-lubrication.md#p139) ([PDF p.139])
 - Brake master cylinder — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
@@ -26,11 +27,15 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
 - Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
+- Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 
 ## D
 
 - Deferred general specifications — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
+- Diagnose unusual tread wear — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
+- Dismount and mount a tubeless tire — [03-suspension.md#p167](03-suspension.md#p167) ([PDF p.167])
+- Distinguish tire noise from axle noise — [03-suspension.md#p172](03-suspension.md#p172) ([PDF p.172])
 
 ## E
 
@@ -41,8 +46,9 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Factory figure 6E-2 callouts — [06e-automatic-transmission.md#p679](06e-automatic-transmission.md#p679) ([PDF p.679])
 - Factory gasoline selection — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
+- Factory tire-puncture repair methods — [03-suspension.md#p168](03-suspension.md#p168) ([PDF p.168])
 - Front alignment adjustments carried forward — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
-- Front hub, drum, and shock absorber service — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
+- Front hub, drum, and shock absorber service — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Front pump gasket figure correction — [06e-automatic-transmission.md#p680](06e-automatic-transmission.md#p680) ([PDF p.680])
 - Front wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Front-wheel bearing adjustment — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
@@ -80,17 +86,24 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## R
 
 - Rear alignment adjustment carried forward — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
+- Rear shock absorber and spring-load support — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
+- Rear suspension service — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
+- Reassemble the rear lower arm — [03-suspension.md#p161](03-suspension.md#p161) ([PDF p.161])
 - Refit the front coil spring and arm — [03-suspension.md#p155](03-suspension.md#p155) ([PDF p.155])
-- Remaining base procedures — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
-- Remove and inspect the front hub and drum — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
+- Remove and inspect the front hub and drum — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Remove and install a front strut rod — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
+- Remove and install a rear coil spring — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Remove and install the front shock absorber — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Remove and install the front suspension crossmember — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
+- Remove and install the rear crossmember — [03-suspension.md#p163](03-suspension.md#p163) ([PDF p.163])
 - Remove the front coil spring and lower arm — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
+- Remove the rear lower control arm and cross shaft — [03-suspension.md#p160](03-suspension.md#p160) ([PDF p.160])
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Renew the lower joint and arm bushing — [03-suspension.md#p154](03-suspension.md#p154) ([PDF p.154])
 - Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
+- Rim and valve service — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
+- Rotate tires and clean whitewalls — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
 
 ## S
 
@@ -100,8 +113,10 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## T
 
+- Tire pressures, puncture checks, and wheel changes — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Transmission, rear axle, and controls — [02-lubrication.md#p135](02-lubrication.md#p135) ([PDF p.135])
+- Troubleshooting carried forward — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Twice-yearly body points — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
 

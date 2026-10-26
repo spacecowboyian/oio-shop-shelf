@@ -61,7 +61,6 @@ excluded.
 | Front upper control arm | Replacement ball joints | 20–25 lb. ft. |
 | Front lower control arm | Pivot bolt | 90–120 lb. ft. |
 | Front lower control arm | Ball stud to steering knuckle | 30–40 lb. ft. |
-| Rear lower control arm | Cross shaft to crossmember | 45–55 lb. ft. |
 | Rear lower control arm | Pivot bushing | 45–55 lb. ft. |
 | Strut rod | Rear nut | 50–70 lb. ft. |
 | Strut rod | Front studs | 38–50 lb. ft. |
@@ -73,6 +72,10 @@ The steering-arm-to-knuckle torque is withheld because the supplement's
 Suspension installation procedure disagrees with this table. See
 [steering-knuckle service](03-suspension.md#passenger-car-steering-knuckle-service).
 <!-- NEEDS REVIEW: Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. -->
+
+The rear lower-arm cross-shaft-to-crossmember torque is also withheld:
+the base installation procedure and supplement table disagree. See
+[rear lower-arm service](03-suspension.md#remove-the-rear-lower-control-arm-and-cross-shaft).
 
 Source: Chevrolet, *1962–63 Corvair Shop Manual Supplement*, Section 12. The
 opening page has no visible printed number (original file

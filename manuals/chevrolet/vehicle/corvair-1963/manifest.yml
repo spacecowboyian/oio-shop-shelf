@@ -360,6 +360,60 @@ diagrams:
   depth: gray
   caption: Front crossmember and strut-rod attachment points (fig. 3-22)
   safety_relevant: true
+- page: 159
+  file: diagrams/p0159-rear-riding-height.png
+  kind: chart
+  depth: gray
+  caption: Rear passenger-car riding-height measurement (fig. 3-23)
+  safety_relevant: true
+- page: 160
+  file: diagrams/p0160-rear-spring-service.png
+  kind: sequence
+  depth: gray
+  caption: Rear axle yoke position, spring release, and shock installation
+  safety_relevant: true
+- page: 161
+  file: diagrams/p0161-rear-control-arm-removal.png
+  kind: sequence
+  depth: gray
+  caption: Rear brake-shoe, backing-plate, and control-arm removal
+  safety_relevant: true
+- page: 162
+  file: diagrams/p0162-rear-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Rear control-arm bushing press setup and splash-shield orientation
+  safety_relevant: true
+- page: 163
+  file: diagrams/p0163-rear-crossmember-mounting.png
+  kind: exploded
+  depth: gray
+  caption: Rear crossmember mounts and power-plant brace (figs. 3-33 and 3-34)
+  safety_relevant: true
+- page: 164
+  file: diagrams/p0164-power-plant-brace.png
+  kind: exploded
+  depth: gray
+  caption: Power-plant brace and rear crossmember mounting geometry (fig. 3-35)
+  safety_relevant: true
+- page: 166
+  file: diagrams/p0166-jack-and-tire-rotation.png
+  kind: chart
+  depth: gray
+  caption: Passenger-car jacking points and five-tire rotation plan (figs. 3-36 and 3-37)
+  safety_relevant: true
+- page: 170
+  file: diagrams/p0170-outside-plug-repair.png
+  kind: sequence
+  depth: gray
+  caption: Factory self-vulcanizing outside-plug repair sequence (figs. 3-44 to 3-48)
+  safety_relevant: true
+- page: 171
+  file: diagrams/p0171-self-vulcanizing-patch.png
+  kind: sequence
+  depth: gray
+  caption: Factory self-vulcanizing patch filler and stitching sequence (figs. 3-49 and 3-50)
+  safety_relevant: true
 - page: 641
   file: diagrams/p0641-lower-spherical-joint-inspection.png
   kind: chart

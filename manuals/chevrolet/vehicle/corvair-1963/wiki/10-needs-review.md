@@ -1,6 +1,6 @@
 # Needs Review
 
-_12 flag(s) across 5 chapter file(s)._
+_13 flag(s) across 5 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -12,6 +12,7 @@ _12 flag(s) across 5 chapter file(s)._
 | [02-lubrication.md](02-lubrication.md) | Base Lubrication p. 2-7 prints 13–14 pints dry, while base Specifications p. 12-10 says approximately 13 pints; resolve the distinction before indexing a 1963 Powerglide dry-fill quantity. |
 | [03-suspension.md](03-suspension.md) | Supplement Suspension p. 3-2 prints 40–50 ft. lb. for steering-arm bolts/locknuts, but supplement Specifications p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both are passenger-car figures; no definitive 1963 torque is indexed. |
 | [03-suspension.md](03-suspension.md) | Base Suspension p. 3-8 lower ball-stud looseness diagnostic says less than 45 ft. lb. at the original nut position suggests looseness; supplement Suspension p. 3-2 specifies 30–40 ft. lb. for lower ball-stud installation. Both claim passenger-car applicability. Withhold the old diagnostic threshold for 1963 until reconciled. |
+| [03-suspension.md](03-suspension.md) | Base Suspension p. 3-19 gives 40–50 ft. lb. for the four rear control-arm-to-crossmember attaching bolts; supplement Specifications p. 12-2 gives 45–55 ft. lb. for rear lower control arm cross shaft to crossmember. Confirm whether these are the same fasteners and which torque governs 1963 before indexing or tightening. |
 | [03-suspension.md](03-suspension.md) | Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
@@ -19,7 +20,7 @@ _12 flag(s) across 5 chapter file(s)._
 
 ## Conversion coverage
 
-13 source section(s) pending cleanup; 4 partial.
+13 source section(s) pending cleanup; 3 partial.
 
 - Pending: Steering (combined PDF pp. 184–209, 645–648)
 - Pending: Brakes (combined PDF pp. 210–231, 649–657)
@@ -35,6 +36,5 @@ _12 flag(s) across 5 chapter file(s)._
 - Pending: Accessories (combined PDF pp. 82–116, 581–623)
 - Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)
-- Partial: [Suspension](03-suspension.md)
 - Partial: [Automatic Transmission](06e-automatic-transmission.md)
 - Partial: [Specifications](12-specifications.md)
