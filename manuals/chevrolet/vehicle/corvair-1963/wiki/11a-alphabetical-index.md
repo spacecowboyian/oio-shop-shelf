@@ -7,7 +7,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## 1
 
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
-- 1963 engine changes and carburetor access — [06a-engine.md#p264](06a-engine.md#p264) ([PDF p.264])
+- 1963 engine changes and carburetor access — [06a-engine.md#p277](06a-engine.md#p277) ([PDF p.277])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 
@@ -23,6 +23,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## B
 
 - Balance and check wheel runout — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
+- Blower, oil pan, cooler, and crankcase vent in the vehicle — [06a-engine.md#p264](06a-engine.md#p264) ([PDF p.264])
 - Blower-bearing hub height — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
 - Body lubrication — [02-lubrication.md#p639](02-lubrication.md#p639) ([PDF p.639])
 - Body points serviced when accessible — [02-lubrication.md#p139](02-lubrication.md#p139) ([PDF p.139])
@@ -32,12 +33,14 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## C
 
+- Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
 - Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
+- Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
 
 ## D
 
@@ -98,6 +101,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## O
 
 - Oil filter, cylinder heads, and senders — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
+- Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 
 ## P

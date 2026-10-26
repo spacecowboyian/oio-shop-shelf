@@ -222,6 +222,208 @@ This base page begins the blower-bearing service. Use its removal and
 press method with the **supplement's 4.475 ± .015-in. hub-height dimension**;
 the base page's earlier height is superseded.
 
+## Blower, oil pan, cooler, and crankcase vent in the vehicle
+
+<a id="p265"></a> **[PDF p.265](../page-images/p0265.png)** <!-- SOURCE id=base-1961 page=6A-20 years=1961,1962,1963 scope=passenger -->
+
+To replace the blower bearing, support the crankcase cover while pressing
+the bearing shaft out. Press against the **bearing outer race** when
+separating bearing and hub; do not load the inner race. Lubricate the
+shaft for pressing, then install the replacement at the **1963 hub-height
+dimension above**, not the old dimension in this base page. Fit new cover
+gaskets above and below the crankcase vent plate, install cover and blower,
+and turn the blower during upper-shroud installation to confirm it clears
+the shroud. The blower pulley bolts are **20–25 ft. lb.**
+
+For oil-pan service, drain oil, remove pan bolts, discard gasket, and clean
+both rails without gouging them. Hold a new gasket with a little petrolatum,
+fit the pan, and tighten its bolts to **40–60 in. lb.** Refill according to
+the [1963 lubrication specification](02-lubrication.md). For crankcase
+vent-tube service, remove upper shroud and blower pulley, detach its clamp,
+withdraw the tube, and replace its cork gasket before refitting.
+
+For oil-cooler removal, undo shroud/cylinder-head screws and long cooler
+bolt, lift out the cooler, discard seals, and drain it inverted. Clean its
+fins with air and suitable solvent. Fit **new cooler seals**, reinstall
+cooler, tighten the long retaining bolt to **8–12 ft. lb.**, restore shroud
+fasteners, and check for leaks with the engine running.
+
+## Cylinder head, valve gear, and lifters in the vehicle
+
+<a id="p266"></a> **[PDF p.266](../page-images/p0266.png)** <!-- SOURCE id=base-1961 page=6A-21 years=1961,1962,1963 scope=passenger -->
+
+For a left-head removal, protect the vehicle, drain engine oil, disconnect
+battery and generator ground, and remove air cleaner/support and accelerator
+linkage. On a **1963 regular engine**, first disconnect the automatic-choke
+control rod that passes through the head. Remove the two-carburetor and
+cross-shaft assembly by the supplement's procedure, along with fuel line,
+vacuum balance tube, spark-plug wires/plugs, generator brace, side shield,
+and oil cooler. Support the powertrain with the specified jack adapter.
+Remove side/rear seals, center shield, **separate 1963 lower shroud and
+exhaust duct**, exhaust pipe/manifold, and rear-mount nut. Remove valve
+cover, rockers/balls/nuts, push rods, studs and guides, and upper push-
+rod-tube O-rings. This sequence gives access to the head retaining nuts.
+
+<a id="p267"></a> **[PDF p.267](../page-images/p0267.png)** <!-- SOURCE id=base-1961 page=6A-22 years=1961,1962,1963 scope=passenger -->
+
+Remove the lower push-rod-tube O-rings and head nuts/flat washers. Lower
+the supported engine just enough to clear the carburetor flange, slide the
+head from its crankcase studs, and discard the old head gaskets. For
+installation, fit **new head gaskets** and lubricated O-rings, slide the
+head over its studs, and fit push-rod drain tubes **before** push-rod
+guides. Install each tube's crankcase-end O-ring **after passing the tube
+through the head**, avoiding shear at the bore. Refit guides chamfered
+side up, rocker studs with anti-seize, head washers/nuts, and tighten in
+the factory head-nut sequence. Insert push rods with **blue-band/side
+oil-hole end toward the rocker**, seated correctly in lifters. Install
+rockers and new valve-cover gasket; set lash by the 1963 procedure.
+
+<a id="p268"></a> **[PDF p.268](../page-images/p0268.png)** <!-- SOURCE id=base-1961 page=6A-23 years=1961,1962,1963 scope=passenger -->
+
+Restore oil cooler with new seals, side and center shields/seals, exhaust
+manifold with new gaskets, revised lower shroud/duct, rear mount, spark
+plugs, wiring, two-carburetor/cross-shaft assembly, generator bracket,
+vacuum balance tube and air cleaner. Check carburetor synchronization and
+leaks. The right-head operation follows the same mechanical sequence, plus
+disconnection/reconnection of coil and sending-unit leads. On 1963 cars,
+use the **relocated oil-pressure switch** position.
+
+For rocker-arm replacement, remove valve cover, nuts, balls and arms; fit
+replacements, adjust lash, and refit the cover. For a valve spring, remove
+spark plug and use compressed air to hold valves closed, compress the spring
+with factory tool **J-5892-1**, remove locks/cap/spring, and refit the
+replacement. Match the **1963 four-bead exhaust-valve locks** to the valve.
+
+For a push rod, remove valve cover and rocker parts for that cylinder,
+replace the rod **oil-hole/paint-marked end up toward the rocker**, then
+restore lash and cover. For a lifter, remove lower shroud using the 1963
+procedure, then rocker gear, rod, guide, and tube. Pull the lifter with a
+magnet or grip its snap-ring groove. Clean varnish before forcing out a
+stuck lifter. Oil a replacement lifter as the supplement specifies,
+restore tube/O-rings and valve gear, set lash, and refit shroud.
+
+## Oil pump, rod bearings, rear seal, and piston rings
+
+<a id="p269"></a> **[PDF p.269](../page-images/p0269.png)** <!-- SOURCE id=base-1961 page=6A-24 years=1961,1962,1963 scope=passenger -->
+
+The oil-pump cover and gears can be reached by draining oil, supporting
+the powertrain, removing rear center shield and revised left lower
+shroud/duct, lowering the engine slightly, and removing rear bracket and
+skid plate. Remove cover/gasket and inspect the pump by the base overhaul
+procedure. Reassemble gears, new gasket and cover; tighten cover bolts to
+**60–80 in. lb.** Refit bracket/shields and refill oil. The regulator is
+accessed after removing the left lower shroud: remove plug, nylon gasket,
+spring and valve, inspect by the base procedure, reinstall, and check
+for leaks and proper regulated oil pressure.
+
+For an in-vehicle **connecting-rod bearing**, remove upper shroud by the
+1963 procedure, crankcase cover and vent, and position the rod for access.
+Remove cap nuts, cap and bearing halves. Fit protective plastic hose over
+rod studs to keep them from scoring the crankshaft. The base bearing-
+clearance procedure applies to selection and inspection. The **Spyder**
+uses heavy-duty bearings specified for its engine; select inserts for
+that variant rather than assuming a regular-engine part.
+
+<a id="p270"></a> **[PDF p.270](../page-images/p0270.png)** <!-- SOURCE id=base-1961 page=6A-25 years=1961,1962,1963 scope=passenger -->
+
+Fit selected bearing inserts and cap, and tighten connecting-rod nuts to
+**20–26 ft. lb.** Clean crankcase-cover and vent-gasket surfaces without
+scraping aluminum; fit new gaskets and cover, then restore the 1963 upper
+shroud, carburetors, and linkages. Start and inspect for oil leaks.
+
+The rear-housing crankshaft seal can be replaced in the vehicle. Drain oil,
+disconnect battery ground, remove rear seals/shields and rear body grille,
+support the engine, and unload/remove rear mount bracket. Lower engine
+enough to access crankshaft pulley. Use the factory pulley puller with
+its bolts inserted **only to the specified shallow depth** so they do not
+damage the rear housing seal; pry the old seal out by its outer edge.
+
+<a id="p271"></a> **[PDF p.271](../page-images/p0271.png)** <!-- SOURCE id=base-1961 page=6A-26 years=1961,1962,1963 scope=passenger -->
+
+Lubricate the new seal lips as specified on the base page, tap it into
+place with a wood drift, draw the pulley on using its retaining bolt,
+then back the bolt off before final tightening to **60–80 ft. lb.** Restore
+filter, rear mount, shields, front mount and clutch linkage as applicable;
+refill and check leaks. Engine-mount fastener torques remain under review
+as noted above.
+
+For ring replacement on a cylinder in one bank, drain oil and remove its
+head and cylinder. Replace rings with the **oil-control-ring gap at the
+engine top** and compression-ring gaps **45° away** from it. Install
+compression rings with bevel away from piston top and face markings
+toward the top. Oil the rings, compress gently with **J-8356**, put a
+**new cylinder-base gasket** on its pilot, slide the cylinder over piston
+and rings, and release the compressor without scoring the assembly. For
+complete piston/cylinder overhaul, use the base off-vehicle procedure.
+
+## Camshaft-lobe inspection and off-vehicle teardown
+
+<a id="p272"></a> **[PDF p.272](../page-images/p0272.png)** <!-- SOURCE id=base-1961 page=6A-27 years=1961,1962,1963 scope=passenger -->
+
+For an in-vehicle camshaft-lobe check, drain oil and remove valve covers,
+rockers, balls, and nuts. Attach dial-indicator fixture **J-8520** to the
+rocker stud **opposite** the lobe being checked. Seat the push rod in its
+lifter and fixture socket. Use a remote starter switch to put lifter on
+the cam's base circle, zero the indicator, then advance to full lift and
+record travel. Continue around until it returns to zero as a check.
+Repeat for every lobe. Replace camshaft and lifters if any measured lobe
+falls below its **applicable 1963 engine-variant limit**; the base page's
+1961 Turbo-Air/Super Turbo-Air comparison table is not treated as a
+universal 1963 limit. Refit rocker parts and set lash by the supplement.
+
+For engine-off service, remove the powertrain, separate transmission and
+differential by their respective factory procedures, and remove clutch
+if equipped. Use the illustrated balanced lifting adapter to support the
+offset rear mounting point. The turbocharged Spyder must first have its
+variant-specific turbo plumbing and equipment disconnected.
+
+<a id="p273"></a> **[PDF p.273](../page-images/p0273.png)** <!-- SOURCE id=base-1961 page=6A-28 years=1961,1962,1963 scope=passenger -->
+
+With engine lifted onto the factory stand, drain oil. Remove air cleaners,
+carburetors and linkage using the **1963 automatic-choke arrangement**,
+blower belt, fuel pump and rod spring, generator, vacuum tube, front
+shield, flywheel or drive plate, distributor, coil, upper/side shrouds,
+spark plugs, and engine filter/generator adapter. Preserve identifying
+marks and small hardware for reassembly.
+
+<a id="p274"></a> **[PDF p.274](../page-images/p0274.png)** <!-- SOURCE id=base-1961 page=6A-29 years=1961,1962,1963 scope=passenger -->
+
+Take off blower/pulley, crankcase vent tube, cover/bearing, vent plate,
+and both cover gaskets. Remove rear and **separate 1963 lower** shrouds
+and exhaust ducts, muffler bracket/shield, and oil pan. Bend back exhaust-
+manifold lock tabs, remove clamps and manifolds, and discard manifold
+gaskets. Remove front shrouds. If a pressed exhaust sleeve must come out,
+the base manual calls for the next oversize replacement sleeve.
+
+<a id="p275"></a> **[PDF p.275](../page-images/p0275.png)** <!-- SOURCE id=base-1961 page=6A-30 years=1961,1962,1963 scope=passenger -->
+
+Remove rear mounting bracket/skid plate, then valve covers and gear.
+**Identify each push rod** for return to its original location; its side
+oil hole belongs toward the rocker on assembly. Remove rocker studs and
+guides, replace their O-rings, then remove head nuts, lower tube O-rings,
+tubes and both heads. Fit temporary cylinder-holding tubes on crankcase
+studs before turning the crankshaft so cylinders cannot lift and damage
+their seals. Remove lifters with magnet/hook and identify each location.
+
+<a id="p276"></a> **[PDF p.276](../page-images/p0276.png)** <!-- SOURCE id=base-1961 page=6A-31 years=1961,1962,1963 scope=passenger -->
+
+Mark every cylinder, piston, and rod with its cylinder number before
+separation. Remove the holding tubes **one cylinder at a time**, detach
+air baffles, and withdraw each cylinder/piston/rod assembly. Push piston
+from its cylinder with a wooden handle and remove upper-bore ridge or
+deposits without scoring the bore. Pull crankshaft pulley and rear
+housing, discard housing gasket, and remove flywheel housing.
+
+<a id="p277"></a> **[PDF p.277](../page-images/p0277.png)** <!-- SOURCE id=base-1961 page=6A-32 years=1961,1962,1963 scope=passenger -->
+
+Loosen the crankcase through-bolts. Prop the case at a slight angle so
+crankshaft and camshaft remain supported when the left half is lifted.
+Turn and lift the camshaft without scraping its journals, then lift the
+crankshaft straight up to protect the rear bearing. Use the indicated
+pullers/press tools for cam, distributor-drive, and crankshaft gears;
+do not pry them off. Identify each main-bearing insert by location before
+removal.
+
 <!-- NEEDS REVIEW: Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. -->
 
 ## 1963 engine changes and carburetor access

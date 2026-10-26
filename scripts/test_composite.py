@@ -135,6 +135,20 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(any("12 notches" in r.get("text", "") or
                              "15 notches" in r.get("text", "") for r in brakes))
 
+    def test_1963_engine_index_preserves_spyder_and_revised_blower_height(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        engine = [r for r in rows if r["_file"] == "wiki/06a-engine.md"]
+        self.assertTrue(any(r.get("compression-ratio") == "8:1" and
+                            r.get("_variant") == "spyder" and
+                            r.get("_original_page") == "6A-9" for r in engine))
+        self.assertTrue(any("4.475 ± .015 in." in r.get("factory-value", "")
+                            for r in engine))
+        self.assertFalse(any("4.520" in json.dumps(r) or "4.530" in json.dumps(r)
+                             for r in engine))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))
