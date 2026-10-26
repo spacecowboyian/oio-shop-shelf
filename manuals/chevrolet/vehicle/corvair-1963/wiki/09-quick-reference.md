@@ -112,6 +112,13 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 100–125 | ft. lb. | [05-brakes.md](05-brakes.md) | Rear anchor-pin torque 100–125 ft. lb. |
 | 8–12 | ft. lb. | [06a-engine.md](06a-engine.md) | engine. The oil-cooler attaching bolt is **8–12 ft. lb.** The **rear right |
 | 7–13 | ft. lb. | [06a-engine.md](06a-engine.md) | bolts to **7–13 ft. lb.** Restore generator, fuel lines, and belt and check |
+| 20–25 | ft. lb. | [06a-engine.md](06a-engine.md) | the shroud. The blower pulley bolts are **20–25 ft. lb.** |
+| 40–60 | in. lb. | [06a-engine.md](06a-engine.md) | fit the pan, and tighten its bolts to **40–60 in. lb.** Refill according to |
+| 8–12 | ft. lb. | [06a-engine.md](06a-engine.md) | cooler, tighten the long retaining bolt to **8–12 ft. lb.**, restore shroud |
+| 60–80 | in. lb. | [06a-engine.md](06a-engine.md) | **60–80 in. lb.** Refit bracket/shields and refill oil. The regulator is |
+| 20–26 | ft. lb. | [06a-engine.md](06a-engine.md) | **20–26 ft. lb.** Clean crankcase-cover and vent-gasket surfaces without |
+| 60–80 | ft. lb. | [06a-engine.md](06a-engine.md) | then back the bolt off before final tightening to **60–80 ft. lb.** Restore |
+| 45 | ° | [06a-engine.md](06a-engine.md) | engine top** and compression-ring gaps **45° away** from it. Install |
 | 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
 | 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
