@@ -187,6 +187,24 @@ class CompositeRulesTest(unittest.TestCase):
                              {*(f"p{n}" for n in range(313, 317)), "p319", "p320"}
                              for r in clutch))
 
+    def test_1963_rear_axle_uses_1963_capacity_and_nominal_14_chart(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/06c-rear-axle.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(321, 346), *range(669, 676), 630):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        self.assertNotIn('<a id="p346"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        axle = [r for r in rows if r["_file"] == "wiki/06c-rear-axle.md"]
+        self.assertTrue(any(r.get("lubricant-capacity") == "4½ pints" and
+                            r.get("_page") == "p630" and
+                            r.get("_original_page") == "12-7" for r in axle))
+        self.assertTrue(any(r.get("nominal-14-chart-indication") == "15+6"
+                            for r in axle))
+        self.assertFalse(any("3 pints" in json.dumps(r) for r in axle))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

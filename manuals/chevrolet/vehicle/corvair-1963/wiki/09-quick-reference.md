@@ -133,6 +133,14 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
 | 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
 | 15–20 | ft. lb. | [06b-clutch.md](06b-clutch.md) | drive straps, and tighten strap bolts to **15–20 ft. lb.** Position the |
+| 40–60 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | **40–60 ft. lb.** On a manual-transmission carrier, remove the split ring |
+| 4–6 | in. lb. | [06c-rear-axle.md](06c-rear-axle.md) | **4–6 in. lb. with used pinion bearings**, or **9–11 in. lb. with new |
+| 9–11 | in. lb. | [06c-rear-axle.md](06c-rear-axle.md) | **4–6 in. lb. with used pinion bearings**, or **9–11 in. lb. with new |
+| 4–6 | in. lb. | [06c-rear-axle.md](06c-rear-axle.md) | Used pinion bearings 4–6 in. lb. |
+| 9–11 | in. lb. | [06c-rear-axle.md](06c-rear-axle.md) | New pinion bearings 9–11 in. lb. |
+| 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | using a torque wrench. The factory requires **at least 50 ft. lb.** to |
+| 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | Axle rotation, opposite wheel held, brake drag accounted for 50 ft. lb. |
+| 50 | ft. lb. | [06c-rear-axle.md](06c-rear-axle.md) | reach **50 ft. lb. minimum**. Reinstall the unit in its carrier using the |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
