@@ -168,6 +168,25 @@ class CompositeRulesTest(unittest.TestCase):
                             r.get("_original_page") == "12-6" for r in engine))
         self.assertFalse(any("40–60 ft-lb" in json.dumps(r) for r in engine))
 
+    def test_1963_clutch_omits_commercial_linkage_and_old_pedal_spring(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/06b-clutch.md").read_text()
+        for n in (*range(307, 313), 317, 318, 668, 630):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        for n in (*range(313, 317), 319, 320):
+            self.assertNotIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        clutch = [r for r in rows if r["_file"] == "wiki/06b-clutch.md"]
+        self.assertTrue(any(r.get("1963-passenger-clutch-application") ==
+                            "RPO 649/651 high performance, including Spyder" and
+                            r.get("disc-diameter") == "8 in." and
+                            r.get("_original_page") == "12-7" for r in clutch))
+        self.assertFalse(any(r.get("_page") in
+                             {*(f"p{n}" for n in range(313, 317)), "p319", "p320"}
+                             for r in clutch))
+
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
         self.assertIsNone(resolve([old], 1963, "passenger"))

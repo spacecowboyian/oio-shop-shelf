@@ -1,6 +1,6 @@
 # Needs Review
 
-_18 flag(s) across 8 chapter file(s)._
+_19 flag(s) across 9 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -19,16 +19,16 @@ _18 flag(s) across 8 chapter file(s)._
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-3 says 1962 for the 20°/18° cornering relationship, while Section 12 p. 12-3 has the same figures without year labeling. Base Section 3 p. 3-5 has 33½°/30½°. Do not assign any set to 1963 silently. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A p. 6A-54 prints oil-pan torque 40–60 ft-lb, while supplement Section 12 p. 12-6 specifies 40–60 in-lb for the same ¼-20 attachment. Treat the base unit as a source error; the 1963 supplement supersedes it. Do not index the base value. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. |
+| [06b-clutch.md](06b-clutch.md) | Supplement Section 12 p. 12-7 labels clutch diaphragm total pressure 900–1050 and 1500 as "ft. lbs.". Confirm intended unit before indexing or applying these pressure figures; do not silently change to pounds-force. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
 
 ## Conversion coverage
 
-10 source section(s) pending cleanup; 3 partial.
+9 source section(s) pending cleanup; 3 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Clutch (combined PDF pp. 307–320, 668–668)
 - Pending: Rear Axle (combined PDF pp. 321–346, 669–675)
 - Pending: Manual Transmission (combined PDF pp. 347–360, 361–374, 676–677)
 - Pending: Engine Tune-Up (combined PDF pp. 405–417, 681–686)
