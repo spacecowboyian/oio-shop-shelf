@@ -60,6 +60,7 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [diagrams/p0308-clutch-linkage-adjustment.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0308-clutch-linkage-adjustment.png)
 - [diagrams/p0342-gear-contact-patterns.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0342-gear-contact-patterns.png)
 - [diagrams/p0362-four-speed-cross-section.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0362-four-speed-cross-section.png)
+- [diagrams/p0376-powerglide-cross-section.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0376-powerglide-cross-section.png)
 - [diagrams/p0533-1963-model-identification.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0533-1963-model-identification.png)
 - [diagrams/p0624-1963-wheel-alignment.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0624-1963-wheel-alignment.png)
 - [diagrams/p0625-suspension-torque.png](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/diagrams/p0625-suspension-torque.png)

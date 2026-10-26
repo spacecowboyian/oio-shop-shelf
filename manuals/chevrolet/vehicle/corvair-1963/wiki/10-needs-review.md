@@ -1,6 +1,6 @@
 # Needs Review
 
-_21 flag(s) across 11 chapter file(s)._
+_26 flag(s) across 11 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -22,13 +22,18 @@ _21 flag(s) across 11 chapter file(s)._
 | [06b-clutch.md](06b-clutch.md) | Supplement Section 12 p. 12-7 labels clutch diaphragm total pressure 900–1050 and 1500 as "ft. lbs.". Confirm intended unit before indexing or applying these pressure figures; do not silently change to pounds-force. |
 | [06c-rear-axle.md](06c-rear-axle.md) | Supplement Section 6C p. 6C-1 step 1 prints J-8916-1, while the note/figure on the same page and special-tools list p. 6C-7 say J-8619-1 for the axle-bearing press plate. The latter is used in this chapter, but verify the tool number against another factory copy before obtaining a tool. |
 | [06d-manual-transmission.md](06d-manual-transmission.md) | Base four-speed Section 6D p. 6D-22 calls for 33 inner and 37 outer clutch-gear rollers. The 1962–63 supplement specifies a revised clutch gear and needle-bearing set with the revised mainshaft, but gives no roller count. Verify the installed gear and matching service parts before using the base count. |
+| [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p. 6E-1 lists selector positions top-to-bottom R-N-D-L; base Section 12 p. 12-10 lists L-D-N-R. Verify the actual 1963 passenger quadrant orientation before documenting its physical order. |
+| [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Powerglide Section 6E p. 6E-3 prints 12 pints dry, while base Section 2 p. 2-7 prints 13–14 pints and base Section 12 p. 12-10 says approximately 13 pints. Resolve these factory figures before assigning a 1963 dry-fill value. |
+| [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Powerglide Section 6E p. 6E-11 prints "9–11 lbs. torque" for 20 valve-body bolts without an inch- or foot-pound unit. Do not apply a guessed unit; verify against an original specification or service bulletin. |
+| [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p. 6E-13 and its cross-section identify three reverse-clutch faced plates, while base Section 12 p. 12-10 specifies four driving and four driven plates. The 1962–63 supplement says automatic-transmission specifications are unchanged. Verify 1963 passenger reverse-clutch plate counts before ordering or assembly. |
+| [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p. 6E-27 lists a defective line-pressure limit valve as a no-drive cause, but p. 6E-1 says that valve was deleted in the 1961 design. Confirm whether any 1963 passenger variant retained it before using that diagnosis. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
 
 ## Conversion coverage
 
-7 source section(s) pending cleanup; 3 partial.
+7 source section(s) pending cleanup; 2 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
 - Pending: Engine Tune-Up (combined PDF pp. 405–417, 681–686)
@@ -38,5 +43,4 @@ _21 flag(s) across 11 chapter file(s)._
 - Pending: Accessories (combined PDF pp. 82–116, 581–623)
 - Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)
-- Partial: [Automatic Transmission](06e-automatic-transmission.md)
 - Partial: [Specifications](12-specifications.md)
