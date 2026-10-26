@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _common import load_manifest, manual_dir, wiki_dir  # noqa: E402
+from composite import parse_source_marker  # noqa: E402
 
 GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md"}
 # generated alphabetical-index files are "11a-…"/"11b-…" etc. Match that exact shape,
@@ -40,7 +41,6 @@ SPEC_RE = re.compile(
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
 # subsection heading with the source page it lives on so 08 can bake a jump target.
 PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\]")
-SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=[\w-]+\s+years=([\d,]+)\s+scope=([\w-]+)(?:\s+variant=[\w-]+)?\s*-->")
 PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
@@ -84,14 +84,13 @@ def main() -> int:
         in_scope = not composite
         seen_source = False
         for ln, line in enumerate(lines, 1):
-            source_marker = SOURCE_RE.search(line)
+            source_marker = parse_source_marker(line)
             if source_marker and composite:
                 seen_source = True
-                if source_marker.group(1) not in {s["id"] for s in composite["sources"]}:
+                if source_marker[0] not in {s["id"] for s in composite["sources"]}:
                     sys.exit(f"{f}:{ln}: unknown composite SOURCE id")
-                years = {int(y) for y in source_marker.group(2).split(",")}
-                in_scope = (composite["target_year"] in years and
-                            source_marker.group(3) in (composite["scope"], "all"))
+                in_scope = (composite["target_year"] in source_marker[2] and
+                            source_marker[3] in (composite["scope"], "all"))
             pm = PDF_PAGE_RE.search(line)
             if pm:
                 cur_page = int(pm.group(1))

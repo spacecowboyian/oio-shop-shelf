@@ -31,6 +31,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 12,000 | miles | [02-lubrication.md](02-lubrication.md) | - **Distributor cam lubricator:** Rotate it **180° every 12,000 miles**; |
 | 24,000 | miles | [02-lubrication.md](02-lubrication.md) | replace it every **24,000 miles**. |
 | 12,000 | miles | [02-lubrication.md](02-lubrication.md) | to the left of the air cleaner is replaced every **12,000 miles**. Clean |
+| 12,000 | miles | [02-lubrication.md](02-lubrication.md) | Spyder separate fuel filter and carburetor-inlet screen Replace filter and clean screen ev |
 | 1,000 | miles | [02-lubrication.md](02-lubrication.md) | oiler with light engine oil every **1,000 miles** (fig. 2-6). Add a few drops |
 | 6,000 | miles | [02-lubrication.md](02-lubrication.md) | Every **6,000 miles or six months**, lubricate passenger-car chassis points |
 | 6,000 | miles | [02-lubrication.md](02-lubrication.md) | - **Steering gear:** Every **6,000 miles or six months**, remove the filler |
@@ -180,7 +181,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
-| 6000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | Air-cleaner service Clean and reoil oil-wetted polyurethane, approx. 6000 miles |
+| 6,000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | air-cleaner service at **6,000 miles** for regular and turbocharged |
 | 50 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | block the valve opening and note rpm change. **Less than 50 rpm change** |
 | .05 | V | [08-electrical-systems.md](08-electrical-systems.md) | fine-scale voltmeter after one minute. A difference of **.05 V or |
 | 1.95 | V | [08-electrical-systems.md](08-electrical-systems.md) | **1.95 V** indicates a defective battery under the factory test. |
@@ -223,6 +224,28 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 7–9 | A | [08-electrical-systems.md](08-electrical-systems.md) | switch contacts. Slow running at **7–9 A** may indicate gearbox bind, |
 | 30 | A | [08-electrical-systems.md](08-electrical-systems.md) | two-speed unit use an ammeter rated **at least 30 A** and check both |
 | 12 | V | [08-electrical-systems.md](08-electrical-systems.md) | for relay click. If absent, check **12 V at washer terminal 2**. If |
+| 4–5 | psi | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | **4–5 psi** at roughly **500–1,000 rpm**, constant through that |
+| 500–1,000 | rpm | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | **4–5 psi** at roughly **500–1,000 rpm**, constant through that |
+| 1,000 | rpm | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Pressure, idle to 1,000 rpm 4–5 psi |
+| 4–5 | psi | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Pressure, idle to 1,000 rpm 4–5 psi |
+| 9–15 | ft-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | tighten the set screw to **9–15 ft-lb** and its locknut to the same |
+| 6,000 | miles | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | sets **6,000 miles** or sooner in dusty conditions. That schedule |
+| 15–20 | ft-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | then tighten the four manifold nuts to **15–20 ft-lb** and engine |
+| 8–10 | ft-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | bracket bolt to **8–10 ft-lb**. A service muffler joins to the cut |
+| 126 | ° | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | cross-shaft linkage angle to approximately **126°** with its |
+| 850 | rpm | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | steady vacuum at **850 rpm**. Restore distributor hose. If fitted, |
+| 850 | rpm | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | At operating temperature and **850 rpm**, set ignition timing to |
+| 24 | ° | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | **24° advance maximum**. The source says not to disconnect and plug |
+| 850 | rpm | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Warm idle 850 rpm |
+| 24 | ° | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Ignition timing, maximum 24° advance |
+| 90 | ° | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Check radial shaft play at the impeller nut in two directions 90° |
+| 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | and tighten six bolts to **80 in-lb**. To remove the Carter YH |
+| 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | housing bolts to **80 in-lb**. Lift impeller and read movement with |
+| 300 | °F | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | fully onto shaft, or heat it to **no more than 300°F** for hand |
+| 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Torque impeller nut to **80 in-lb** and six compressor-housing bolts |
+| 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | to **80 in-lb**. Before installation, pour oil into inlet until it |
+| 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | them to **80 in-lb**. |
+| 30–40 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | oil lines, then torque V-clamp nut to **30–40 in-lb**. Reconnect |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |

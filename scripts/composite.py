@@ -5,6 +5,35 @@ Single-source manuals do not need to use this module.
 """
 from __future__ import annotations
 
+import re
+
+
+SOURCE_COMMENT_RE = re.compile(r"<!--\s*SOURCE\b(.*?)-->", re.DOTALL)
+
+
+def parse_source_marker(line: str) -> tuple[str, str, list[int], str | None, str | None] | None:
+    """Read source provenance, including annotations on excluded pages.
+
+    A missing year or scope makes the page inapplicable to a target lookup.
+    Additional annotations (for example applicability or excluded) may follow
+    the core fields without preventing the marker from resetting provenance.
+    """
+    match = SOURCE_COMMENT_RE.search(line)
+    if not match:
+        return None
+    body = match.group(1)
+
+    def field(name: str) -> str | None:
+        found = re.search(rf"\b{name}=([^\s;]+)", body)
+        return found.group(1) if found else None
+
+    source_id, page = field("id"), field("page")
+    if not source_id or not page:
+        raise ValueError(f"Malformed SOURCE marker: {line}")
+    year_text = field("years")
+    years = [int(y) for y in year_text.split(",")] if year_text else []
+    return source_id, page, years, field("scope"), field("variant")
+
 
 class UnresolvedSourceConflict(ValueError):
     pass

@@ -312,6 +312,30 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 716
+  file: diagrams/p0716-rochester-h-float-setting.png
+  kind: sequence
+  depth: gray
+  caption: Rochester H automatic-choke carburetor float level and drop (figs. 9-10 and 9-11)
+  safety_relevant: true
+- page: 723
+  file: diagrams/p0723-spyder-turbo-flow.png
+  kind: sequence
+  depth: gray
+  caption: Spyder turbo-supercharger air-fuel, exhaust and oil flow (fig. 9-23)
+  safety_relevant: true
+- page: 735
+  file: diagrams/p0735-spyder-turbo-exploded.png
+  kind: exploded
+  depth: gray
+  caption: Spyder turbo-supercharger exploded components (fig. 9-47)
+  safety_relevant: true
+- page: 741
+  file: diagrams/p0741-spyder-exhaust-components.png
+  kind: sequence
+  depth: gray
+  caption: Spyder exhaust system and turbine pipe components (fig. 9-61)
+  safety_relevant: true
 - page: 703
   file: diagrams/p0703-spyder-warning-circuit.png
   kind: wiring
