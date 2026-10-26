@@ -6,7 +6,7 @@
 |---|---|---|---|---|
 | 1 | General Information | [01-general-information.md](01-general-information.md) | 1-11, 532-533 | ⚠ partial |
 | 2 | Lubrication | [02-lubrication.md](02-lubrication.md) | 130-145, 637-639 | ✅ done |
-| 3 | Suspension | [03-suspension.md](03-suspension.md) | 146-183, 640-644 | ⚠ partial |
+| 3 | Suspension | [03-suspension.md](03-suspension.md) | 146-183, 640-644 | ✅ done |
 | 4 | Steering | 04-steering.md | 184-209, 645-648 | ⬜ pending |
 | 5 | Brakes | 05-brakes.md | 210-231, 649-657 | ⬜ pending |
 | 6 | Power Train | 06-power-train.md | 232-245, 658-658 | ⬜ pending |

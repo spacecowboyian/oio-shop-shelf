@@ -1,14 +1,12 @@
 # Suspension — 1963 Passenger Cars
 
-<!-- INCOMPLETE -->
-
 The 1962–63 supplement explicitly carries forward the passenger-car design
 and service operations in the 1961 manual except where it revises rear
 alignment, steering-knuckle service, ball-joint lubrication, and front-wheel
-bearing service. This chapter currently transcribes those updates and the
-base bearing and alignment checks; the remaining base removal and installation
-procedures are still being reconstructed. Corvair 95 procedures on supplement
-pp. 3-3 and 3-5 and base pp. 3-29 onward are excluded.
+bearings. This chapter integrates those updates with the base passenger-car
+procedures. Corvair 95 procedures on supplement pp. 3-3 and 3-5 and in the
+base manual's commercial suspension and wheel sections are excluded; the
+base manual's general troubleshooting table is retained.
 
 Source files: `3-suspen-61.pdf` (base, physical pp. 1–38, combined pp.
 146–183) and `3-suspen-62-63.pdf` (supplement, physical pp. 1–5,
@@ -424,6 +422,215 @@ Use the passenger-car front and rear crossmember-bolt torque rows in
 diagram identifies the fastening points; the torque table separates front
 from rear bolts.
 
+## Rear suspension service
+
+### Rear shock absorber and spring-load support
+
+<a id="p159-rear"></a> **[PDF p.159](../page-images/p0159.png)** <!-- SOURCE id=base-1961 page=3-14 years=1961,1962,1963 scope=passenger -->
+
+The rear shock is mounted like the front shock, but it **restrains the rear
+spring's extension**. Do not remove it while the rear arm and wheel are
+unsupported: the spring can drive the arm down and inward and shift a car
+resting on supports. Use a drive-on hoist or support the body at the side
+rails just ahead of the rear wheel openings. If the wheels hang free, put a
+floor jack under the tire and raise the wheel back to its normal position
+before removing the shock. Then follow the [front shock removal steps](#remove-and-install-the-front-shock-absorber).
+For installation, follow the [front shock installation steps](#remove-and-install-the-front-shock-absorber)
+while controlling rear-arm and spring load.
+
+### Check rear riding height
+
+<a id="p159-height"></a> **[PDF p.159](../page-images/p0159.png)** <!-- SOURCE id=base-1961 page=3-14 years=1961,1962,1963 scope=passenger -->
+
+At curb weight on a smooth, level floor, with full fuel and only the spare
+in the front compartment, bounce the rear of the car and let it settle.
+Measure from the floor to the bottom of the rocker panel **29″ ahead of the
+rear-wheel centerline** (fig. 3-23). Factory rear height is **9″ ± ½″**;
+the sides must agree within **½″**. Correct sag with replacement springs,
+**not shims**. Check front and rear trim together; the base manual specifies
+overall sag within **½″**.
+
+![Factory front and rear rocker-panel riding-height locations, fig. 3-23](../diagrams/p0159-rear-riding-height.png)
+
+### Remove and install a rear coil spring
+
+<a id="p159-spring"></a> **[PDF p.159](../page-images/p0159.png)** <!-- SOURCE id=base-1961 page=3-14 years=1961,1962,1963 scope=passenger -->
+
+1. Support the car by its body side rails high enough for the rear arms to
+   swing freely and a rolling floor jack to fit under the drum.
+2. Loosen the end bolts of the rear control-arm cross shaft. Detach the
+   brake-hose bracket from the underbody. On the left, disconnect and plug
+   the fuel and heater-fuel supply lines if they obstruct travel.
+
+<a id="p160"></a> **[PDF p.160](../page-images/p0160.png)** <!-- SOURCE id=base-1961 page=3-15 years=1961,1962,1963 scope=passenger -->
+
+3. Remove the wheel and tire, but put nuts back on the studs to retain the
+   drum. Rotate the axle shaft until the yoke's side face sits **45° to the
+   axle-case centerline** (fig. 3-24). This gives the arm enough downward
+   travel without the yoke hitting the case or side-bearing adjuster.
+4. Put a rolling floor jack beneath the drum and brake flange; raise it
+   slightly to load the spring. Remove the shock's two lower bolts and
+   lockwashers and its upper nut, washer, and grommet. Withdraw the shock.
+5. **Lower the jack slowly** only until the spring is free (fig. 3-25).
+   Do not lower farther; that strains the axle shaft or brake hose.
+6. For installation, seat the spring on the lower arm and rotate it against
+   the step in the crossmember. Extend the shock shaft, pass it through
+   arm and spring, and secure its lower end with the two bolts and
+   lockwashers. The factory installs the shock early to help restrain the
+   assembly if the jack shifts.
+7. Raise the arm until the shock's upper grommet, washer, and nut can be
+   installed. Reconnect any fuel lines and the brake-hose bracket, remove
+   the jack, and fit the wheel and tire.
+8. Lower the car, bounce the rear end several times, and tighten the
+   cross-shaft **end bolts** with full weight on the suspension to
+   **45–55 ft. lb.**
+
+![Factory rear axle yoke position, spring release, and shock installation](../diagrams/p0160-rear-spring-service.png)
+
+### Remove the rear lower control arm and cross shaft
+
+<a id="p160-arm"></a> **[PDF p.160](../page-images/p0160.png)** <!-- SOURCE id=base-1961 page=3-15 years=1961,1962,1963 scope=passenger -->
+
+First remove the rear coil spring as above.
+
+<a id="p161"></a> **[PDF p.161](../page-images/p0161.png)** <!-- SOURCE id=base-1961 page=3-16 years=1961,1962,1963 scope=passenger -->
+
+1. Before withdrawing the floor jack under the drum, put a suitable stand
+   under the control arm. **Do not load or stretch the brake hose.** Remove
+   the retaining wheel nuts and brake drum.
+2. Move the upper end of the still-assembled brake shoe onto the brake
+   anchor, as fig. 3-27 shows, so the axle flange and shaft can pass the
+   parking-brake strut.
+3. Through the hole in the axle-shaft flange, remove the four nuts and
+   lockwashers retaining the brake backing plate to the arm. Pry between
+   axle flange and backing plate until the axle shaft and universal joint
+   can be pulled from the axle case.
+4. Remove the four nuts, lockwashers, and U-bolts retaining the universal
+   joint. Remove the bolt, lockwasher, and flat spacer from the axle-shaft
+   end. Pull off the universal-joint yoke with factory tool **J-5504** and
+   withdraw the axle shaft.
+5. Lift the backing plate off the arm studs and wire it to the crossmember.
+   Remove the four arm-to-crossmember bolts, nuts, and lockwashers. The
+   parking-brake cable bracket shares two of those bolts; retain its position
+   for reassembly. Withdraw the arm.
+
+![Factory rear brake-shoe, backing-plate, and control-arm removal](../diagrams/p0161-rear-control-arm-removal.png)
+
+**If renewing the cross-shaft bushings**, remove the arm's splash shields
+and the end bolts, lockwashers, and collars. Thread the long bolt supplied
+with **J-8347** fully into one shaft end. Support the arm on **J-5888-3**
+with the bushing flange clear of the support. Press on the bolt until the
+first bushing leaves the arm and discard it. Move the bolt to the other
+end, invert the arm, and press out the second bushing. Remove the shaft.
+
+### Reassemble the rear lower arm
+
+<a id="p162"></a> **[PDF p.162](../page-images/p0162.png)** <!-- SOURCE id=base-1961 page=3-17 years=1961,1962,1963 scope=passenger -->
+
+1. Place the cross shaft inside the arm with **J-8347** in position and
+   support it on **J-5888-3**. Start a new bushing by hand over the shaft
+   end. Set **J-5052-5** over it; ensure the three-piece spacer does not
+   overlap the arm's bushing hole. Press until the bushing flange contacts
+   the arm. Repeat for the other side, supporting the arm correctly. The
+   shaft must still turn by hand.
+2. Fit the collars, lockwashers, and end bolts, but leave those bolts loose
+   until the suspension bears full vehicle weight.
+3. Restore the splash shields and raise the arm to the crossmember. Insert
+   the four attaching bolts **from above**. Capture the parking-brake cable
+   bracket beneath the **front two** bolts, then fit lockwashers and nuts.
+   Support the arm with a stand.
+4. Remove the wire supporting the brake backing plate. Fit the axle-shaft
+   oil slinger with its **small drain hole at the bottom** and place the
+   backing plate on the arm studs. Temporarily retain it with two nuts.
+5. Pass the axle shaft through backing plate and arm. Fit the yoke, flat
+   spacer, lockwasher, and retaining bolt; the axle-shaft service details
+   are in factory Section 6C. Reassemble the universal joint with its
+   U-bolts, nuts, and lockwashers.
+6. Remove the temporary backing-plate nuts. Protect the axle-case seal while
+   inserting the universal-joint spline; move the brake shoe as in fig.
+   3-27. Align axle-bearing flange holes with the arm studs and install
+   their lockwashers and nuts through the axle-flange access hole.
+
+![Factory rear arm bushing press arrangements and splash-shield orientation](../diagrams/p0162-rear-arm-bushing-press.png)
+
+<a id="p163"></a> **[PDF p.163](../page-images/p0163.png)** <!-- SOURCE id=base-1961 page=3-18 years=1961,1962,1963 scope=passenger -->
+
+7. Fit the brake drum so its **machined holes do not align** with the axle
+   flange access hole; the factory warns that alignment would admit dirt
+   into the brake assembly. Temporarily retain the drum with wheel nuts.
+8. Install the rear coil spring and shock as above. Lower the car, settle
+   the suspension, then tighten the cross-shaft end bolts to the applicable
+   **45–55 ft. lb.** figure from the spring-installation procedure.
+
+The base rear-crossmember installation later gives a different arm-mount
+torque than the supplement's passenger-car table. The arm-to-crossmember
+fastener torque is withheld pending resolution.
+<!-- NEEDS REVIEW: Base Suspension p. 3-19 gives 40–50 ft. lb. for the four rear control-arm-to-crossmember attaching bolts; supplement Specifications p. 12-2 gives 45–55 ft. lb. for rear lower control arm cross shaft to crossmember. Confirm whether these are the same fasteners and which torque governs 1963 before indexing or tightening. -->
+
+### Remove and install the rear crossmember
+
+<a id="p163-crossmember"></a> **[PDF p.163](../page-images/p0163.png)** <!-- SOURCE id=base-1961 page=3-18 years=1961,1962,1963 scope=passenger -->
+
+**Removal**
+
+1. Remove both rear shocks and springs as above, leaving stands under the
+   control arms. Disconnect the parking-brake cable at its rear equalizer.
+   Disconnect the applicable manual-transmission linkage or clutch cross
+   shaft, or the Powerglide linkage, as directed in factory Sections 6B,
+   6D, and 6E. Disconnect the brake pipe from each rear hose and detach the
+   speedometer-cable bracket from the underbody.
+2. Remove the four bolts attaching one control arm to the crossmember and
+   let its parking-brake cable bracket hang free. Remove its stand while
+   **supporting the arm by hand**, then pull the arm, axle shaft, and brake
+   assembly outward together until the axle clears the case. Repeat on
+   the other side.
+3. Support the power plant under the axle housing with a hydraulic floor
+   jack before removing its forward mounting. Remove the two forward
+   crossmember-to-body bolts with their thick washers and lower cushions.
+   Loosen the two nuts between power-plant mounting bracket and crossmember.
+4. Remove the four bracket-to-transmission bolts. **Record the shim count
+   at every point.** Remove the bracket's two nuts and lockwashers at the
+   crossmember and withdraw the bracket.
+5. Remove the bolt, lockwasher, dished washer, and rubber spacer from each
+   outer crossmember mounting (fig. 3-34). Lower the crossmember by rolling
+   it slightly forward. Move, **without bending**, the transmission
+   accelerator control rod if the car has one. Remove damaged mount pieces.
+
+![Factory rear crossmember mounts and power-plant brace](../diagrams/p0163-rear-crossmember-mounting.png)
+
+**Installation**
+
+6. Replace defective mount parts. Raise the crossmember and loosely fit
+   its two outer body mounts. Loosely attach the power-plant brace to the
+   crossmember.
+7. Refit all four brace-to-transmission bolts with washers and the **same
+   shim count at each point**. Coat bolt threads with anti-seize compound;
+   protect the aluminum transmission casting's threads. Tighten these
+   four bolts to **20–30 ft. lb.**
+8. Tighten the outer crossmember mount bolts, then install and tighten the
+   two inner mounts and brace-to-crossmember bolts. Remove the jack under
+   the axle housing. Restore the applicable transmission/clutch linkage
+   and the speedometer-cable bracket.
+
+<a id="p164"></a> **[PDF p.164](../page-images/p0164.png)** <!-- SOURCE id=base-1961 page=3-19 years=1961,1962,1963 scope=passenger -->
+
+9. Bring both rear-arm assemblies back beneath the car. Guide one
+   universal-joint spline into the axle case without damaging the seal;
+   support its arm with a stand. Refit the four attaching bolts,
+   lockwashers, and nuts, capturing the parking-brake bracket. **Withhold
+   final arm-mount torque pending the flagged source conflict above.**
+   Route and reconnect that parking-brake cable as the base procedure
+   directs. Repeat for the other side.
+10. Restore remaining linkage and brake pipes; position rear hoses and
+    **bleed the brakes** per factory Section 5. Refit rear springs and
+    shocks. Check and adjust rear toe to the **1962–63 overall range**
+    stated earlier in this chapter.
+
+The base manual sends suspension-to-body alignment and damaged captive-nut
+repair to Section 10, Body. Those body procedures remain to be cleaned.
+
+![Factory power-plant brace and rear crossmember mounting geometry, fig. 3-35](../diagrams/p0164-power-plant-brace.png)
+
 ## 1963 passenger wheels and tires
 
 <a id="p643"></a> **[PDF p.643](../page-images/p0643.png)** <!-- SOURCE id=supplement-1962-63 page=3-4 years=1963 scope=passenger -->
@@ -434,6 +641,193 @@ whitewall. Front and rear wheels locate on redesigned, strengthened **hub
 pilot diameters** rather than on wheel-stud diameters. The supplement carries
 forward the base manual's wheel and tire service operations. Its station-wagon
 entry is explicitly 1962-only and is excluded here.
+
+### Tire pressures, puncture checks, and wheel changes
+
+<a id="p165"></a> **[PDF p.165](../page-images/p0165.png)** <!-- SOURCE id=base-1961 page=3-20 years=1961,1962,1963 scope=passenger -->
+
+The passenger car has four wheel studs and nuts at each front hub and rear
+axle flange. The spare tire and scissors jack are in the front compartment.
+Check inflation regularly and at lubrication service, replace valve caps
+after checking, and inspect tread for puncturing objects. Use the verified
+**1963 cold and hot pressures** in [Specifications](12-specifications.md#tire-size-and-inflation-pressure).
+Do not release air solely because a tire's pressure has risen during driving.
+
+For a road-wheel change, set the parking brake and block the front wheels
+when changing a rear wheel. Remove the hubcap or wheel disc and loosen the
+wheel nuts before lifting.
+
+<a id="p166"></a> **[PDF p.166](../page-images/p0166.png)** <!-- SOURCE id=base-1961 page=3-21 years=1961,1962,1963 scope=passenger -->
+
+Put the supplied jack directly beneath the body side edge at the factory
+point: approximately **10″ inward from the forward edge of the rear fender
+opening** for a rear wheel, or **4″ behind the front sill seam** for a front
+wheel (fig. 3-36). Raise only until the wheel clears the ground. Remove
+the nuts and wheel; reverse for installation. Tighten wheel nuts to the
+base manual's **45–65 ft. lb.** passenger-car torque. If balance weights
+must be removed to take off a trim ring, restore them to the same locations.
+
+![Factory passenger-car jacking points and five-tire rotation plan](../diagrams/p0166-jack-and-tire-rotation.png)
+
+### Rotate tires and clean whitewalls
+
+<a id="p166-rotation"></a> **[PDF p.166](../page-images/p0166.png)** <!-- SOURCE id=base-1961 page=3-21 years=1961,1962,1963 scope=passenger -->
+
+The base manual recommends tire interchange every **4,000–5,000 miles**.
+Its five-tire pattern is left front → right rear → right front → left rear
+→ spare → left front (fig. 3-37). If the spare is not included, cross the
+four road tires front-to-rear. **Reset front and rear pressures** after
+rotation. Wash whitewalls with water or mild soap, or the factory
+whitewall cleaner. The manual forbids gasoline, kerosene, and other
+oil-derived solvents on whitewall rubber.
+
+### Diagnose unusual tread wear
+
+<a id="p167"></a> **[PDF p.167](../page-images/p0167.png)** <!-- SOURCE id=base-1961 page=3-22 years=1961,1962,1963 scope=passenger -->
+
+| Pattern | Factory diagnostic direction |
+| --- | --- |
+| Saw-toothed heel-and-toe blocks | Some is normal, especially at the front. Excess calls for regular tire interchange and checking driving/braking conditions. |
+| One-sided tread wear | Check camber; compare with wear on **both** tread shoulders, which suggests underinflation. Also consider crowned roads and fast cornering. |
+| Feathered tread edge | Check front or rear toe-in and the rest of the alignment before returning the tires to service. |
+| Spotty or uneven wear | Find the mechanical cause: unequal caster/camber, bent suspension parts, imbalance, out-of-round drums, or maladjusted brakes. |
+| Rounded outer shoulder and roughened tread | The base manual attributes this pattern to fast cornering; rotate tires and review driving conditions. |
+
+### Dismount and mount a tubeless tire
+
+<a id="p167-tire"></a> **[PDF p.167](../page-images/p0167.png)** <!-- SOURCE id=base-1961 page=3-22 years=1961,1962,1963 scope=passenger -->
+
+Remove the valve cap and core and release all air. Press the inner bead into
+the rim well, then lightly lubricate **both beads and the rim** with
+vegetable-oil soap. Free the bead with a bead tool or smooth-edged tire
+irons, working in small increments so the sealing ribs and wire bundle are
+not damaged. The factory expressly forbids sharp-edged tire irons. Lift
+the outer bead in small increments, turn the assembly over, and lift the
+inner bead off with two irons. The 13-inch bead stretches less than a
+larger tire bead, so its sealing surfaces need particular care.
+
+<a id="p168"></a> **[PDF p.168](../page-images/p0168.png)** <!-- SOURCE id=base-1961 page=3-23 years=1961,1962,1963 scope=passenger -->
+
+For installation, use a **light film** of vegetable-oil soap on both beads
+and rim. Too much lubricant can let the tire slip on the rim and break its
+air seal. Work the inner, then outer bead over the rim in small increments
+without striking the bead with a hammer. Ensure the tire passes over the
+rim's extra bead and seats properly. The factory describes a mounting band
+or heavy cord to help seat a bead when an initial air rush does not do so;
+a mounting machine instead lifts the tire against the upper flange.
+
+### Factory tire-puncture repair methods
+
+The base manual describes three historical methods below. Its outside-plug
+and self-vulcanizing-patch procedures are **different kit-specific workflows**;
+follow the original sequence and limits for the method selected. A cut or
+ragged laceration is outside the base manual's simple puncture-repair scope.
+
+<a id="p168-hot-patch"></a> **[PDF p.168](../page-images/p0168.png)** <!-- SOURCE id=base-1961 page=3-23 years=1961,1962,1963 scope=passenger -->
+
+**Fuel-bearing hot patch, tire dismounted:** The factory limits this
+method to punctures no larger than **3⁄16″**. Clear the hole with the kit
+awl or rasp and fill it from outside with the sealing gun. Clean the inner
+surface with the specified nonflammable cleaner and let it dry. Roughen
+the repair area with a hand buffer or wire brush. Spread rubber cement
+over an area larger than the patch and let it dry **5 minutes**. Prepare
+the patch's ignition material, center the patch, and hold it with the
+special clamp no tighter than finger-tight. Ignite the material, let the
+patch cool **15 minutes** or until touch-safe, remove its cup, and blow
+remaining ash out of the tire (figs. 3-38 to 3-40).
+
+<a id="p169"></a> **[PDF p.169](../page-images/p0169.png)** <!-- SOURCE id=base-1961 page=3-24 years=1961,1962,1963 scope=passenger -->
+
+**Self-vulcanizing outside plug, tire mounted:** The factory rules out
+punctures over **3⁄16″** and leaks from cuts or ragged lacerations. It
+allows this kit on passenger tubeless tires, including tires with soft
+puncture-sealing material. Inflate the tire to roughly **10 psi** to support
+it, mark the injury and its channel angle, and remove the puncturing object.
+Use the kit's reamer to make a circular cut about **¼″ deep**, then clean
+the channel with the screw needle, turning clockwise through the injury
+and retracting clockwise; repeat twice and remove rubber debris. Keep the
+needle in the channel temporarily to limit air loss.
+
+Pull the plug's white stem through its metal tube until its head seats,
+then cut the protruding stem. Put the rubber-cement cartridge in the
+insertion tool, fit its plunger, pierce the cartridge through the nozzle,
+and deposit cement in the hole until the tool's spring stop intervenes.
+
+<a id="p170"></a> **[PDF p.170](../page-images/p0170.png)** <!-- SOURCE id=base-1961 page=3-25 years=1961,1962,1963 scope=passenger -->
+
+Lock the plug tube into the nozzle, lubricate the head with cement, and
+guide the tube straight into the channel to the nozzle base. Release the
+spring stop, inject the remaining cement, and withdraw the tube while
+turning it clockwise. **Trim** the protruding plug; do not pull it.
+Remove hardened cement from the tools. If an irregular cut will not seal,
+the factory calls for a patch repair instead.
+
+![Factory outside-plug preparation, insertion, and sealing sequence](../diagrams/p0170-outside-plug-repair.png)
+
+<a id="p171"></a> **[PDF p.171](../page-images/p0171.png)** <!-- SOURCE id=base-1961 page=3-26 years=1961,1962,1963 scope=passenger -->
+
+**Self-vulcanizing patch, tire dismounted:** The base manual limits this
+method to a hole no larger than **3⁄16″** and to a tire **without** soft
+puncture-sealing material. Clear foreign matter, clean and dry the inside
+surface, and fill the channel with the kit's filler rubber. Its illustrated
+awl method passes a needle from inside to outside, loads a **⅛″ × 1″**
+strip, pulls it back through, and trims the inside flush; the source also
+describes a sealant gun. Roughen an area slightly larger than the patch;
+do not apply more solvent after buffing. Spread the kit fluid and let it
+dry **5 minutes until no longer tacky**. Remove foil backing and roll the
+patch firmly from center to edges (figs. 3-49 to 3-51).
+
+![Factory filler-rubber insertion and patch-stitching sequence](../diagrams/p0171-self-vulcanizing-patch.png)
+
+### Rim and valve service
+
+<a id="p171-rim"></a> **[PDF p.171](../page-images/p0171.png)** <!-- SOURCE id=base-1961 page=3-26 years=1961,1962,1963 scope=passenger -->
+
+Straighten a bent rim, clean its flange with steel wool or sandpaper,
+and smooth any groove or high spot at the butt weld. If air escapes at the
+valve, renew the core or complete valve. To replace the valve, remove the
+old assembly, clean the hole and inner flange, coat the new valve's outside
+diameter with mounting compound, insert it from inside, and snap it into
+place with slip-joint pliers against the rim and valve base.
+
+### Balance and check wheel runout
+
+<a id="p172"></a> **[PDF p.172](../page-images/p0172.png)** <!-- SOURCE id=base-1961 page=3-27 years=1961,1962,1963 scope=passenger -->
+
+Check balance after tire removal, repair, wheel/drum replacement, or when
+front-end instability develops. Clear mud and other material from wheel
+ventilation slots first. The factory gives maximum original assembly
+unbalance of **11 inch-ounces overall**, comprising **6 inch-ounces** for
+hub/drum and **5 inch-ounces** for wheel/tire.
+
+For a static check, remove wheel and hub together, clean grease from
+bearings and races, and mount on a clean bench spindle (or clean the car's
+spindle). Adjust bearings temporarily so the assembly turns almost
+frictionlessly, inflate the tire correctly, and spin it. Mark its low,
+heavy point. Place two weights on opposite rim edges, initially opposite
+the heavy point, then move them equally toward it until balanced. Repack
+the bearings and finish with the **1963 front-bearing adjustment** above.
+For dynamic balance, use the balancing machine's placement directions;
+the base manual explains that equal weights on inner and outer rim edges
+retain static balance, while paired weights 180° apart on opposite rim
+sides correct dynamic imbalance.
+
+The factory limits side runout at the rim by the tire base to **1⁄16″** and
+radial eccentricity at the exposed bead seat to **1⁄16″**. Excess calls for
+checking the wheel, mounting, joints, and steering connections.
+
+### Distinguish tire noise from axle noise
+
+<a id="p173"></a> **[PDF p.173](../page-images/p0173.png)** <!-- SOURCE id=base-1961 page=3-28 years=1961,1962,1963 scope=passenger -->
+
+The base manual notes that axle or exhaust noise varies with throttle,
+acceleration, or deceleration, while tread noise tends to stay constant
+under those changes and may be clearest around **20–30 mph**. Its factory
+diagnostic compares sound over the same smooth pavement at normal pressure
+and at a temporary **50 psi** test pressure, then restores each tire to its
+normal pressure immediately. A drop in noise at the elevated test pressure
+points toward tires; axle noise should not change in volume. Check front
+alignment, inflation, and uneven wear if the front tires are the source.
 
 ## Front hub, drum, and shock absorber service
 
@@ -524,10 +918,36 @@ Use the passenger-car shock-mount torque rows in
 [Specifications](12-specifications.md#suspension-bolt-torque); the adjacent
 commercial column does not apply.
 
-## Remaining base procedures
+## Troubleshooting carried forward
 
-The source retains the 1961 control-arm, spring, strut-rod, crossmember,
-rear-shock, tire-service, and wheel-balancing procedures. Those original
-passenger-car pages still need step-by-step reconstruction and diagram
-extraction before this chapter is complete. The 1961 commercial section and
-its distinct wheel-bearing adjustment do not apply.
+The base manual's general troubles-and-remedies table follows its separate
+commercial section, but its diagnoses are not limited to Corvair 95. The
+passenger-car checks below retain those general diagnostic categories; use
+the **1963 values** elsewhere in this chapter when a remedy calls for a
+specification.
+
+<a id="p181"></a> **[PDF p.181](../page-images/p0181.png)** <!-- SOURCE id=base-1961 page=3-36 years=1961,1962,1963 scope=passenger -->
+
+| Symptom | First factory checks |
+| --- | --- |
+| Hard steering | Lubrication, tire pressure, alignment, spring sag, wheel/spindle damage, bearings, tight joints, steering-gear adjustment, tie-rod-end position. |
+
+<a id="p182"></a> **[PDF p.182](../page-images/p0182.png)** <!-- SOURCE id=base-1961 page=3-37 years=1961,1962,1963 scope=passenger -->
+
+| Symptom | First factory checks |
+| --- | --- |
+| Front-wheel shimmy | Inflation, wheel bearings, spherical joints, caster, wheel balance or bend, steering-gear looseness, tie rods, lug nuts, and alignment. |
+| Uneven tire wear | Balance, tire pressure and rotation, cornering/braking conditions, brake function, and alignment. |
+| Excessively flexible ride or harsh ride | Test shock resistance and inspect for seizure; check tire pressure for harshness. |
+| Road wander | Inflation, chassis and gear lubrication, steering-gear adjustment, toe, caster, camber, tie rods, and relay rod. |
+| Wheel noise or tramp | Lug nuts, brake return springs and drums, bearings and lubricant, wheel balance, tire defects, and shocks. |
+
+<a id="p183"></a> **[PDF p.183](../page-images/p0183.png)** <!-- SOURCE id=base-1961 page=3-38 years=1961,1962,1963 scope=passenger -->
+
+| Symptom | First factory checks |
+| --- | --- |
+| Noisy or leaking shock | Faulty shock, grommet position, or loose retaining nuts; replace a leaking faulty unit. |
+| Tire loses air | Puncture, valve/core, or rim defect. |
+
+The base table refers passenger-car suspension specifications to Section 12;
+use the [1963 passenger-car specifications](12-specifications.md) here.

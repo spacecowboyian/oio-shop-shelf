@@ -21,6 +21,12 @@ class CompositeRulesTest(unittest.TestCase):
                  SPEC_RE.finditer("100 in. lb.; 38–50 ft. lb.")]
         self.assertEqual(found, [("100", "in. lb."), ("38–50", "ft. lb.")])
 
+    def test_quick_reference_harvests_service_intervals_and_balance(self):
+        found = [(m.group("val"), m.group("unit")) for m in
+                 SPEC_RE.finditer("4,000–5,000 miles; 11 inch-ounces")]
+        self.assertEqual(found, [("4,000–5,000", "miles"),
+                                 ("11", "inch-ounces")])
+
     def test_committed_corvair_index_contains_only_1963_passenger_rows(self):
         index = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                  "corvair-1963/data/manual-index.jsonl")
@@ -33,6 +39,12 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertNotIn('&lt;a id="p', quick.read_text())
         self.assertFalse(any("steering arm to steering knuckle" in
                              row.get("text", "").lower() for row in rows))
+        self.assertFalse(any(row.get("assembly") == "Rear lower control arm" and
+                             row.get("fastener") == "Cross shaft to crossmember"
+                             for row in rows))
+        self.assertFalse(any(row.get("_page") in
+                             {*(f"p{n}" for n in range(174, 181)), "p642", "p644"}
+                             for row in rows))
 
     def test_page_marker_is_not_harvested_as_a_specification(self):
         with TemporaryDirectory() as d:
@@ -72,6 +84,15 @@ class CompositeRulesTest(unittest.TestCase):
         manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                   "corvair-1963")
         self.assertEqual(validate(manual), [])
+
+    def test_completed_suspension_covers_passenger_source_pages(self):
+        chapter = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                   "corvair-1963/wiki/03-suspension.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE -->", chapter)
+        for n in (*range(146, 174), 181, 182, 183, 640, 641, 643):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        for n in (*range(174, 181), 642, 644):
+            self.assertNotIn(f'<a id="p{n}"></a>', chapter)
 
     def test_1962_only_value_cannot_answer_1963_query(self):
         old = {"id": "old", "value": "1962 value", "years": [1962], "scope": "passenger"}
