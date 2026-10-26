@@ -110,6 +110,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | thread into the spindle support, and tighten to **60–85 ft. lb.**, then |
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | Front anchor-pin torque 60–85 ft. lb. |
 | 100–125 | ft. lb. | [05-brakes.md](05-brakes.md) | Rear anchor-pin torque 100–125 ft. lb. |
+| 30–40 | in. lb. | [06a-engine.md](06a-engine.md) | blower-to-shroud clearance. Tighten upper-shroud screws to **30–40 in. lb.**, |
+| 6 | A | [06a-engine.md](06a-engine.md) | Figure 6A-11. |
 | 16 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | mainline pressure. Obtain it with the engine at idle (16″ Hg. as printed in the |
 | .005 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |
 | .035 | ″ | [06e-automatic-transmission.md](06e-automatic-transmission.md) | 4. Check planet-gear end clearance: **.005″–.035″** (factory fig. 6E-1). |

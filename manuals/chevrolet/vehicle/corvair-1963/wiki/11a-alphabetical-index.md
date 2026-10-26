@@ -22,6 +22,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## B
 
 - Balance and check wheel runout — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
+- Blower-bearing hub height — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
 - Body lubrication — [02-lubrication.md#p639](02-lubrication.md#p639) ([PDF p.639])
 - Body points serviced when accessible — [02-lubrication.md#p139](02-lubrication.md#p139) ([PDF p.139])
 - Brake master cylinder — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
@@ -49,6 +50,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Electrical and fuel-system service — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Emergency towing — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
+- Exhaust valves, guides, push rods, and hydraulic lifters — [06a-engine.md#p663](06a-engine.md#p663) ([PDF p.663])
 
 ## F
 
@@ -91,6 +93,10 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Mast jacket and steering linkage carried forward — [04-steering.md#p193](04-steering.md#p193) ([PDF p.193])
 - Metallic-lining option — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
 
+## O
+
+- Oil filter, cylinder heads, and senders — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
+
 ## P
 
 - Parking-brake adjustment and cable service — [05-brakes.md#p215](05-brakes.md#p215) ([PDF p.215])
@@ -126,8 +132,10 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Renew the lower joint and arm bushing — [03-suspension.md#p154](03-suspension.md#p154) ([PDF p.154])
 - Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
+- Revised engine sheet metal — [06a-engine.md#p659](06a-engine.md#p659) ([PDF p.659])
 - Rim and valve service — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
 - Rotate tires and clean whitewalls — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
+- Running valve-lash adjustment — [06a-engine.md#p664](06a-engine.md#p664) ([PDF p.664])
 
 ## S
 
@@ -150,6 +158,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Troubleshooting and tools — [04-steering.md#p196](04-steering.md#p196) ([PDF p.196])
 - Troubleshooting carried forward — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
+- Turbocharged Monza Spyder variant — [06a-engine.md#p666](06a-engine.md#p666) ([PDF p.666])
 - Twice-yearly body points — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
 
 ## U

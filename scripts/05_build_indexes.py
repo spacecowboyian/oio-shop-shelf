@@ -40,7 +40,7 @@ SPEC_RE = re.compile(
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
 # subsection heading with the source page it lives on so 08 can bake a jump target.
 PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\]")
-SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=[\w-]+\s+years=([\d,]+)\s+scope=([\w-]+)\s*-->")
+SOURCE_RE = re.compile(r"<!--\s*SOURCE\s+id=([\w-]+)\s+page=[\w-]+\s+years=([\d,]+)\s+scope=([\w-]+)(?:\s+variant=[\w-]+)?\s*-->")
 PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 

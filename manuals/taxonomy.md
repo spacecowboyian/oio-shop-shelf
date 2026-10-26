@@ -88,6 +88,9 @@ match the target year and scope. When sources disagree, cite both and resolve
 only from an explicit factory supersession or year-specific column; otherwise
 flag the conflict. `scripts/composite.py` implements the same fail-closed rule
 for machine lookups. Existing single-source manuals need no new fields.
+For a passenger-car option or variant, append `variant=<name>` to the SOURCE
+marker (for example, `variant=spyder`). The fast index preserves it as
+`_variant`, so a variant-specific value is not mistaken for a universal one.
 
 ## 3. `taxonomy.yml` — the controlled vocabulary
 
