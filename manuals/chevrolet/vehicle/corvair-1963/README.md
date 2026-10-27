@@ -6,11 +6,14 @@ make: "Chevrolet"
 category: "vehicle"
 models: ["Corvair"]
 years: "1963"
+source_pdf: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf"
 ---
+
+> 📄 **Source PDF** (hosted on GitHub Releases, not committed): [corvair-1963.pdf](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf)
 
 # 1963 Chevrolet Corvair Shop Manual
 
-This is the working composite for **1963 Corvair passenger cars**. The factory
+This is the composite for **1963 Corvair passenger cars**. The factory
 1961 Corvair and Corvair 95 shop manual supplies base procedures; the 1962–63
 supplement supplies later changes. The 1963 model identification table lists the
 500 coupe, 700 coupe and sedan, and 900 (Monza) coupe, convertible, and sedan;
@@ -18,13 +21,12 @@ Monza Spyder is identified as an option. The 1200-series Corvair 95 vehicles are
 outside this manual's passenger-car scope. The factory supplement explicitly
 states that the 700 and Monza station wagons were canceled for 1963.
 
-**Conversion status: in progress.** All 18 chapters have been reconstructed,
-but [source conflicts and missing coverage](wiki/10-needs-review.md) still
-need review before publication. Do not use a flagged value as a service
-specification.
+**Conversion status: complete with review flags.** All 18 chapters have been
+reconstructed. The [six open flags](wiki/10-needs-review.md) remain visible;
+do not use a flagged value as a service specification.
 
-The [release-readiness record](RELEASE-READINESS.md) lists the verified package
-checks and the remaining source and publication gates.
+The [release-readiness record](RELEASE-READINESS.md) lists the package checks,
+the PDF's searchable index, and the source gaps retained at publication.
 
 The [source inventory](data/source-inventory.json) records each original PDF,
 its download URL, size, SHA-256, and physical page count. The

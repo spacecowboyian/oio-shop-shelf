@@ -1,32 +1,41 @@
 # 1963 Corvair release readiness
 
-Status: **hold for source review**. The composite covers 1963 passenger cars,
-including the Monza convertible and Spyder option; Corvair 95 commercial
-vehicles are outside its scope. Keep `conversion_status: in-progress` until
-the release gates below are settled.
+Status: **published as a PDF Release with six documented review flags**. The composite
+covers 1963 passenger cars, including the Monza convertible and Spyder option;
+Corvair 95 commercial vehicles are outside its scope. Open flags remain
+qualified in the wiki rather than being treated as release blockers.
 
 ## Verified package
 
-- All 18 chapters are reconstructed. The 742-page combined PDF has a complete
-  physical-page source map, 742 rendered page images, and a 742-entry page index.
+- All 18 chapters are reconstructed. The 742 factory-source pages have a
+  complete physical-page source map, 742 rendered page images, and a 742-entry
+  page index. The release PDF adds four clickable index pages, for 746 pages
+  total: 18 chapter links and 209 alphabetical entries. All 228 index links
+  target valid source pages.
 - All 37 staged original factory PDFs match their committed SHA-256 hashes.
-  The ignored local combined PDF `prepared.pdf` is 742 pages; its SHA-256 is
-  `ef790e2cfa619f643846ea5489071b39be8947ddaf7b9730b62b33e84de1a3fe`.
+  The ignored local `prepared.pdf` is the 742-page OCR working copy; its
+  SHA-256 is `ef790e2cfa619f643846ea5489071b39be8947ddaf7b9730b62b33e84de1a3fe`.
+  Text extraction succeeds on 741 source pages. Page 141, a Corvair 95
+  commercial-only lubrication page outside this wiki's scope, remains image-only.
+  The [746-page indexed release PDF](https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf)'s SHA-256 is
+  `85cf7842ed395f25bb56733f5e72af8e4e8f4f2acb65a3b7f0bfb285d78db067`.
+  The downloaded GitHub Release asset matches that hash and page count.
 - Manifest validation, composite-map validation, repository-wide internal-link
   checks, and 41 composite tests pass.
 - The [needs-review list](wiki/10-needs-review.md) carries six open flags.
   Flagged material is kept out of authoritative service settings where its
   applicability or value is unverified.
 
-## Source review needed before release
+## Source gaps retained at publication
 
-The first three items were designated essential for this release:
+The first three items were prioritized as essential research questions. They
+remain open with explicit limits in the wiki:
 
 1. **Convertible hoist contacts.** The [1963 owner's guide, p. 36](https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf#page=20)
    establishes the vehicle-jack placement, but the inherited 1961 hoist
    diagram predates the convertible. Find a Chevrolet instruction that
-   explicitly covers hoist contact on a 1962–64 convertible, or keep the
-   hoist diagram qualified and decide whether that gap is acceptable at release.
+   explicitly covers hoist contact on a 1962–64 convertible. The wiki keeps
+   the inherited hoist diagram qualified until then.
 2. **Corrected Powerglide fig. 6E-6.** The recovered 1962–63 Section 6E scan
    ends on printed p. 6E-3 after referring to fig. 6E-6. Obtain a complete
    bound supplement or an independently scanned continuation showing the
@@ -47,14 +56,13 @@ The [continuity report](data/page-continuity-report.txt) records 39
 printed-page-number/OCR anomaly pairs. The physical 742-page source map is
 complete; review those image labels before claiming printed-page continuity.
 
-## Publication gate
+## Publication
 
 The source scans' redistribution rights have not been established, as the
-[manifest](manifest.yml) states. Confirm the repository owner's publication
-decision before making the manual and original PDFs public. The combined
-`prepared.pdf` is ignored locally, and no `manuals-corvair-1963` GitHub Release
-exists. The release workflow in [MAINTAINERS.md](../../../../MAINTAINERS.md)
-needs the combined PDF temporarily tracked on the release branch, then uploads
-it and the 37 verified originals as Release assets, removes the tracked PDF,
-and updates the manifest and page index. Verify the resulting links and CI
-before a squash merge.
+[manifest](manifest.yml) states. The repository owner has directed publication
+of this PDF on a GitHub Release, consistent with [CONTRIBUTING.md](../../../../CONTRIBUTING.md).
+The [manual Release](https://github.com/spacecowboyian/oio-shop-shelf/releases/tag/manuals-corvair-1963)
+contains the OCR-indexed combined PDF and all 37 original source PDFs. Their
+uploaded sizes match the source inventory, and the manifest and page index
+point to the Release. The PDF has been removed from the Git tree as required by
+[MAINTAINERS.md](../../../../MAINTAINERS.md). Verify PR CI before a squash merge.

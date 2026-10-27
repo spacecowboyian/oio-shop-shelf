@@ -15,7 +15,7 @@
   "used": "raw",
   "note": "`url` on each page is already absolute \u2014 prefer it. `cdn` is jsDelivr: use it for anything that has to RENDER in a chat client, which commonly refuses raw.githubusercontent.com as an image source. `raw` is GitHub itself and is the freshest, but is better for fetching a file than for displaying one. jsDelivr edge-caches a changed file ~12 h; purge.jsdelivr.net forces it."
  },
- "source_pdf": "chevrolet-corvair-1963-composite.pdf",
+ "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf",
  "chapters": [
   {
    "file": "wiki/01-general-information.md",
