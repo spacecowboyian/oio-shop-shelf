@@ -158,6 +158,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Modulator, governor, valve body and low servo — [06e-automatic-transmission.md#p380](06e-automatic-transmission.md#p380) ([PDF p.380])
 - Monza Spyder warning instruments — [08-electrical-systems.md#p701](08-electrical-systems.md#p701) ([PDF p.701])
 - Monza Spyder: Carter YH and turbo-supercharger — [09-fuel-and-exhaust.md#p722](09-fuel-and-exhaust.md#p722) ([PDF p.722])
+- Mount-fastener identification and torque — [06a-engine.md#p263](06a-engine.md#p263) ([PDF p.263])
 
 ## N
 
