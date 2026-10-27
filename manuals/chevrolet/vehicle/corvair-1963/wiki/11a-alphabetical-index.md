@@ -120,7 +120,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Gasoline-heater component service — [11-accessories.md#p95](11-accessories.md#p95) ([PDF p.95])
 - Gauge thicknesses — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
-- General steel-bolt torque chart — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 
 ## H
 

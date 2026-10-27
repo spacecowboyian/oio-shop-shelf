@@ -33,6 +33,20 @@ composite:
     sha256: af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe
     pages: 99
     external: true
+  - id: chevrolet-finger-tip-facts-1963
+    title: 1963 Chevrolet Finger Tip Facts
+    priority: 3
+    url: https://northern-california-corvairs.com/63FTF.pdf
+    sha256: eb3a5704360ddef56191e823815d26e1fcb1835fbb59a17d142d0944ddc6e541
+    pages: 45
+    external: true
+  - id: chevrolet-owners-guide-1963-e3
+    title: 1963 Chevrolet Corvair Owners Guide, third edition
+    priority: 3
+    url: https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf
+    sha256: 10431718be04260ae318d322acb0720f3c9e1cd10b9900c5b0363ecfa6e8c19d
+    pages: 31
+    external: true
   - id: chevrolet-service-news-34-9
     title: Chevrolet Service News, volume 34 number 9, October 1962
     priority: 3

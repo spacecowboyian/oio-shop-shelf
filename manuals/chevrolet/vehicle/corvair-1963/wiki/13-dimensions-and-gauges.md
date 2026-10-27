@@ -217,9 +217,13 @@ Table 1](https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular391.pdf#page=9
 matches the Chevrolet column's inch values to its **steel and
 open-hearth iron approximate thickness** column. This confirms the
 column's numerical basis, but does not reveal what Chevrolet's missing
-asterisk was intended to say. Neither table should be treated as a
+asterisk was intended to say. Chevrolet's later
+[1974 Passenger Car and Light Truck Overhaul Manual, “Gages” appendix](https://www.73-87chevytrucks.com/techinfo/7387CKMans/Unit_Repair/ST_333_74_1974_Chevrolet_Passenger_Car_and_Light_Truck_Overhaul_Manual.pdf#page=545)
+reprints the same table and asterisk with no footnote on that page or the
+following page. That supports a long-standing omitted note, but cannot
+recover its wording. Neither table should be treated as a
 material tolerance for a specific body panel.
-<!-- NEEDS REVIEW: Source appendix gauge page marks U.S. Standard Gage with an asterisk but provides no visible footnote. Verify against a complete original before interpreting the asterisk. -->
+<!-- NEEDS REVIEW: The 1961 and 1974 Chevrolet appendix pages both mark U.S. Standard Gage with an asterisk but provide no visible footnote. Find an edition that prints the note before interpreting it. -->
 
 | Gauge number | U.S. Standard Gage approximate thickness (in.) | American Wire/B & S Gage thickness (in.) |
 | --- | ---: | ---: |

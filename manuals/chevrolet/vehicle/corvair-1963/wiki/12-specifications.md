@@ -290,8 +290,8 @@ wide, with a **40°** V angle. The exhaust thermostat starts opening at
 | Standard single dry disc | 9⅛ in. diameter |
 | RPO 649 or 651 disc | 8 in. diameter |
 | Diaphragm pressure-spring diameter | 9⅛ in. |
-| Standard 500/700/900 total spring pressure | 900–1050 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
-| Supercharged clutch total spring pressure | 1500 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
+| Standard 500/700/900 total spring pressure, conflicting supplement printing | 900–1050 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
+| Supercharged clutch total spring pressure, conflicting supplement printing | 1500 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
 | Clutch-housing pilot runout | .015 in. TIR |
 | Flywheel face / OD runout | .020 / .010 in. TIR |
 
@@ -299,24 +299,33 @@ wide, with a **40°** V angle. The exhaust thermostat starts opening at
 
 <!-- SOURCE id=gm-ama-1963 page=Power-Trains-13 years=1963 scope=passenger pdf_page=50 -->
 <!-- SOURCE id=gm-ama-1963 page=AMA-15 years=1963 scope=passenger pdf_page=74 -->
+<!-- SOURCE id=chevrolet-finger-tip-facts-1963 page=Corvair-31 years=1963 scope=passenger pdf_page=31 -->
+
+| 1963 manual-transmission clutch | Effective plate load |
+| --- | ---: |
+| 80 hp | 900–1075 lb |
+| 102 hp | 900–1075 lb |
+| 150 hp turbocharged | 1250–1450 lb |
 
 GM's *1963 Chevrolet Corvair Vehicle Information Kit* calls this an
 **effective plate load/pressure** and prints **lb.**, confirming that the
 supplement's “ft. lbs.” is not a usable unit for the clutch load. The
-[Power Trains chart, p. 13](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=50)
-prints 900–1075 across its 80, 102, and 150 hp columns. The
 [AMA specifications, p. 15](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=74)
-print 900–1075 with a 1250–1450 footnote for the turbocharged engine.
-The shop supplement, printed p. 12-7 ([PDF p.630](../page-images/p0630.png)),
-instead prints 900–1050 and 1500 with “ft. lbs.”. These are distinct factory
-statements; no 1963 application-specific load is selected from them.
-The [1963 Chevrolet *Finger Tip Facts*, printed p. Corvair-31](https://northern-california-corvairs.com/63FTF.pdf#page=31)
-adds engine-specific loads. Its standard-engine entry differs from the AMA
-chart's broader entry, so these remain source comparisons rather than a
-selected service setting until the applicable pressure-plate assembly is
-identified.
-<!-- FINGER TIP FACTS DETAIL, withheld from quick reference: printed Corvair-31 gives 900–1015 lb for 80 hp, 900–1075 lb for 102 hp, and 1250–1450 lb for 150-hp turbocharged. The 80-hp entry differs from the AMA's broad 900–1075 lb standard-engine figure. -->
-<!-- NEEDS REVIEW: The unit is force (lb.) in GM's 1963 Power Trains p.13 and AMA p.15, but pressure values conflict: supplement Section 12 p.12-7 prints 900–1050 and 1500 (mislabelled “ft. lbs.”); Power Trains p.13 prints 900–1075 lb across 80/102/150 hp; AMA p.15 prints 900–1075 lb with a 1250–1450 lb turbocharged footnote. Find a controlling factory correction before indexing a load. -->
+print **900–1075 lb** and footnote **1250–1450 lb for the turbocharged
+engine**. Chevrolet's [1963 *Finger Tip Facts*, printed p. Corvair-31](https://northern-california-corvairs.com/63FTF.pdf#page=31)
+independently prints **900–1075 lb** for both 80 and 102 hp engines and
+**1250–1450 lb** for the 150 hp turbocharged engine. The figures on that
+page were checked against the page image; OCR of the 80 hp cell can read
+“1015” in error. These two 1963 application-specific sources govern the
+values above.
+
+For comparison, the [Power Trains chart, p. 13](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=50)
+prints 900–1075 across all three horsepower columns without the AMA's
+turbocharged footnote. The shop supplement, printed p. 12-7
+([PDF p.630](../page-images/p0630.png)), prints 900–1050 and 1500 with the
+incorrect force unit “ft. lbs.”. Retain these as conflicting printings,
+not 1963 effective plate load specifications.
+<!-- RESOLVED SOURCE CONFLICT: Visual inspection of Chevrolet 1963 Finger Tip Facts p. Corvair-31 shows 900–1075 lb in both 80 and 102 hp cells and 1250–1450 lb in the 150 hp turbocharged cell. GM 1963 AMA p.15 confirms 900–1075 lb plus the turbocharged 1250–1450 lb footnote. The previously transcribed 80 hp value of 900–1015 was OCR error. -->
 
 The rear axle is an integral differential with independent U-jointed axle
 shafts. For **1963**, lubricant capacity is **4½ pints**; the printed 1962
