@@ -8,6 +8,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
+- 1963 clutch pressure comparison — [12-specifications.md#p630](12-specifications.md#p630) ([PDF p.630])
 - 1963 distributor settings — [12-specifications.md#p633](12-specifications.md#p633) ([PDF p.633])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
@@ -70,6 +71,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## D
 
+- Dated 1963 Powerglide specifications — [06e-automatic-transmission.md#p126](06e-automatic-transmission.md#p126) ([PDF p.126])
 - Diagnose the gasoline heater — [11-accessories.md#p86](11-accessories.md#p86) ([PDF p.86])
 - Diagnose unusual tread wear — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
 - Differential case, seals, and bearing service — [06c-rear-axle.md#p333](06c-rear-axle.md#p333) ([PDF p.333])
@@ -150,7 +152,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Main-cylinder overhaul carried forward — [05-brakes.md#p217](05-brakes.md#p217) ([PDF p.217])
 - Manual bucket seats — [10-body.md#p548](10-body.md#p548) ([PDF p.548])
-- Manual transmission and rear axle — [02-lubrication.md#p136](02-lubrication.md#p136) ([PDF p.136])
 - Mast jacket and steering linkage carried forward — [04-steering.md#p193](04-steering.md#p193) ([PDF p.193])
 - Metallic-lining option — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
 - Model 967 convertible — doors, quarters, and folding top — [10-body.md#p553](10-body.md#p553) ([PDF p.553])
@@ -169,7 +170,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 - Operation and components — [11-accessories.md#p83](11-accessories.md#p83) ([PDF p.83])
-- Operation, fluid and controls — [06e-automatic-transmission.md#p126](06e-automatic-transmission.md#p126) ([PDF p.126])
 - Optional hydraulic folding top — [10-body.md#p568](10-body.md#p568) ([PDF p.568])
 
 ## P

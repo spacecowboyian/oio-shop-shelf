@@ -59,10 +59,12 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(gap[0]["_flags"])
         plug_torque = [row for row in rows if row.get("component") == "Spark-plug torque"]
         self.assertTrue(plug_torque)
-        self.assertTrue(all(row["_flags"] for row in plug_torque))
+        self.assertTrue(all(not row["_flags"] for row in plug_torque))
+        self.assertTrue(all("25 ft. lb." in row["1963-passenger-specification"]
+                            for row in plug_torque))
         self.assertNotIn(".023–.028", quick.read_text())
         self.assertIn("Spark-plug gap .035″", quick.read_text())
-        self.assertNotIn("Spark-plug torque", quick.read_text())
+        self.assertIn("Spark-plug torque 25 ft. lb.", quick.read_text())
         self.assertFalse(any(row.get("assembly") == "Rear lower control arm" and
                              row.get("fastener") == "Cross shaft to crossmember"
                              for row in rows))

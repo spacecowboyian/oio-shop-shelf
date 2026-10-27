@@ -153,11 +153,13 @@ the high-performance RPO 649/651 application. The source also includes
 | 500/700/900 regular | 9⅛ in. |
 | RPO 649/651 high performance, including Spyder | 8 in. |
 
-The factory's *total pressure* entries use the printed unit “ft. lbs.”;
-because that is ambiguous for diaphragm load, those values are withheld
-from the 1963 specification lookup pending confirmation from another
-factory source.
-<!-- NEEDS REVIEW: Supplement Section 12 p. 12-7 labels clutch diaphragm total pressure 900–1050 and 1500 as "ft. lbs.". Confirm intended unit before indexing or applying these pressure figures; do not silently change to pounds-force. -->
+The supplement prints *total pressure* with the unit “ft. lbs.”.
+GM's 1963 vehicle information kit instead labels the clutch's **effective
+plate pressure** in **lb.**: see its [Power Trains p. 13](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=50)
+and [AMA p. 15](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=74).
+That resolves the dimension as force, but the three factory tables give
+different pressure ranges. The [source comparison](12-specifications.md#1963-clutch-pressure-comparison)
+keeps the values separate; no single pressure is indexed.
 
 The release bearing is a sealed ball bearing and the crankshaft pilot is
 an oil-impregnated bushing. The clutch-housing pilot runout limit is

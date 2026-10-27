@@ -205,7 +205,7 @@ disconnected**.
 |---|---|
 | Compression pressure | 130 psi, variation 20 psi maximum |
 | Spark-plug gap | .035″ |
-| Spark-plug torque | Unresolved; tune-up table prints 15–20 ft. lb., Section 12 and Service News print 20–25 ft. lb. <!-- NEEDS REVIEW: Supplement tune-up p.7-5 prints 15–20 ft. lb. spark-plug torque, while supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. Verify controlling factory correction. --> |
+| Spark-plug torque | 25 ft. lb. |
 | Distributor cam angle | 31°–34° |
 | New / used contact-point gap | .019 / .016 in. |
 | Breaker-arm spring tension | 19–23 oz. |
@@ -217,9 +217,12 @@ disconnected**.
 | Exhaust damper door opening | Approx. 2⅜ in. from door top to opening top, rod against bellows stop |
 
 The GM [1963 vehicle information kit, Power Trains p. 11](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=48),
-marked **revised November 1962**, and Chevrolet's October 1962 Service News
-confirm this gap for the 1963 passenger engines. The supplement's Section 12
-electrical chart prints a different range; see the
+marked **revised November 1962**, confirms both the gap and the 25 ft. lb.
+torque for the 1963 passenger engines. Chevrolet's October 1962 Service News
+also gives the gap and a 20–25 ft. lb. torque range. The supplement's Section 7
+tune-up table prints 15–20 ft. lb. torque, while both Section 12 charts print
+20–25 ft. lb.; use the later, 1963-specific GM chart for the stated value.
+The supplement's Section 12 electrical chart prints a different gap range; see the
 [source comparison](12-specifications.md#1963-spark-plug-gap).
 
 The [1963 lubrication schedule](02-lubrication.md#p637-cooling) sets
