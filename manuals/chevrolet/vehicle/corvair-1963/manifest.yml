@@ -54,6 +54,20 @@ composite:
     sha256: 5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e
     pages: 2
     external: true
+  - id: chevrolet-tsb-dr594
+    title: Chevrolet Technical Service Bulletin DR 594, May 13 1963
+    priority: 4
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR594.pdf
+    sha256: 7baa76c8882f059a0f01cf4038f2c911257bc128223aef9b3fb9264770d48d84
+    pages: 5
+    external: true
+  - id: delco-remy-1r-186
+    title: Delco-Remy Service Bulletin 1R-186, March 1 1968
+    priority: 3
+    url: https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf
+    sha256: 272007e0b95fa2182fbb74b4c2cccbc21adc9ba7bdae290f6454c36d8718957c
+    pages: 8
+    external: true
   - id: chevrolet-parts-catalog-1969
     title: Chevrolet Corvair Parts & Accessories Catalog, revised October 1969
     priority: 3

@@ -9,7 +9,7 @@ _7 flag(s) across 18 chapter file(s)._
 | [10-body.md](10-body.md) | 10-body-2d-61.pdf duplicates printed p.10-51 at physical pp.1–2; printed p.10-52 is absent. Do not infer the missing front-window procedure. |
 | [10-body.md](10-body.md) | Supplement body alignment pp.10-16–10-19 identifies coupe/sedan versus station-wagon rear dimensions but gives no explicit 967 convertible chart. Verify convertible applicability before using these body-tram values on model 967. |
 | [12-specifications.md](12-specifications.md) | The unit is force (lb.) in GM's 1963 Power Trains p.13 and AMA p.15, but pressure values conflict: supplement Section 12 p.12-7 prints 900–1050 and 1500 (mislabelled “ft. lbs.”); Power Trains p.13 prints 900–1075 lb across 80/102/150 hp; AMA p.15 prints 900–1075 lb with a 1250–1450 lb turbocharged footnote. Find a controlling factory correction before indexing a load. |
-| [12-specifications.md](12-specifications.md) | DR 564 identifies 1963 passenger regulator 1119261 for generator 1102226 and Delcotron regulator pairings, while supplement Section 12 p.12-9 gives adjustment settings for different regulator numbers. Verify 1963 regulator settings before adjustment. |
+| [12-specifications.md](12-specifications.md) | DR 564 pairs the optional 62 A Delcotron with transistorized regulator 9000595. Locate its model-specific factory service test or replacement instruction before advising an adjustment; do not apply the 1119261 or DR 594 two-unit settings. |
 | [13-dimensions-and-gauges.md](13-dimensions-and-gauges.md) | Source appendix gauge page marks U.S. Standard Gage with an asterisk but provides no visible footnote. Verify against a complete original before interpreting the asterisk. |
 
 ## Conversion coverage

@@ -531,6 +531,20 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 5–52 | A | [12-specifications.md](12-specifications.md) | Optional Delcotron 1100633, 5–52 A 1119512 |
 | 23–62 | A | [12-specifications.md](12-specifications.md) | Optional Delcotron 1117765, 23–62 A 9000595 |
 | 5–52 | A | [12-specifications.md](12-specifications.md) | Delcotron with factory A/C 1100633, 5–52 A 1119512 |
+| 125 | °F | [12-specifications.md](12-specifications.md) | the 1963 production calibration. At **125°F regulator ambient temperature**, |
+| 11.5–13.1 | V | [12-specifications.md](12-specifications.md) | the listed ranges are cutout closing **11.5–13.1 V**, voltage setting |
+| 13.8–14.7 | V | [12-specifications.md](12-specifications.md) | **13.8–14.7 V**, and current setting **27–31 A**. At **85°F**, the respective |
+| 27–31 | A | [12-specifications.md](12-specifications.md) | **13.8–14.7 V**, and current setting **27–31 A**. At **85°F**, the respective |
+| 85 | °F | [12-specifications.md](12-specifications.md) | **13.8–14.7 V**, and current setting **27–31 A**. At **85°F**, the respective |
+| 12.1–13.7 | V | [12-specifications.md](12-specifications.md) | ranges are **12.1–13.7 V**, **14.2–15.2 V**, and **29–34 A**. Consult the |
+| 14.2–15.2 | V | [12-specifications.md](12-specifications.md) | ranges are **12.1–13.7 V**, **14.2–15.2 V**, and **29–34 A**. Consult the |
+| 29–34 | A | [12-specifications.md](12-specifications.md) | ranges are **12.1–13.7 V**, **14.2–15.2 V**, and **29–34 A**. Consult the |
+| 13.5–15.2 | V | [12-specifications.md](12-specifications.md) | **1500 engine rpm**, **13.5–15.2 V** is the acceptable covered-regulator |
+| 14.2–14.6 | V | [12-specifications.md](12-specifications.md) | reading. If adjustment is needed, its uncovered setting is **14.2–14.6 V**; |
+| 42 | A | [12-specifications.md](12-specifications.md) | cover. DR 564 pairs the two-unit **1119512** with the 42 A and 52 A |
+| 52 | A | [12-specifications.md](12-specifications.md) | cover. DR 564 pairs the two-unit **1119512** with the 42 A and 52 A |
+| 62 | A | [12-specifications.md](12-specifications.md) | distinguishes this two-unit type from the 62 A system's transistorized unit. |
+| 62 | A | [12-specifications.md](12-specifications.md) | The **9000595** paired with the 62 A Delcotron is a different transistorized |
 | 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
 | 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
 | 10.6 | V | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |

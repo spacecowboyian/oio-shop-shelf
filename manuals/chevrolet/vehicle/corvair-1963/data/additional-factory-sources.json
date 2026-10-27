@@ -41,6 +41,26 @@
       "combined_pdf": false
     },
     {
+      "source_id": "chevrolet-tsb-dr594",
+      "filename": "DR594.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR594.pdf",
+      "sha256": "7baa76c8882f059a0f01cf4038f2c911257bc128223aef9b3fb9264770d48d84",
+      "bytes": 969378,
+      "pages": 5,
+      "role": "May 1963 Chevrolet revised diagnosis and adjustment procedure for two-unit Delcotron voltage regulators",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "delco-remy-1r-186",
+      "filename": "Delco-Remy-1R-186.pdf",
+      "url": "https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf",
+      "sha256": "272007e0b95fa2182fbb74b4c2cccbc21adc9ba7bdae290f6454c36d8718957c",
+      "bytes": 5429653,
+      "pages": 8,
+      "role": "Delco-Remy model-specific service test specifications for 1119261 and temperature charts; downloadable copy contains printed pp. 1-8 of 12",
+      "combined_pdf": false
+    },
+    {
       "source_id": "chevrolet-tsb-dr585",
       "filename": "DR585.pdf",
       "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR585.pdf",
