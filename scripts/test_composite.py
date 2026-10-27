@@ -27,6 +27,12 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertEqual(found, [("4,000–5,000", "miles"),
                                  ("11", "inch-ounces")])
 
+    def test_quick_reference_harvests_refrigerant_and_oil_capacity(self):
+        found = [(m.group("val"), m.group("unit")) for m in
+                 SPEC_RE.finditer("5 lbs.; 10 fluid oz; 4 oz; 15 lb")]
+        self.assertEqual(found, [("5", "lbs."), ("10", "fluid oz"),
+                                 ("4", "oz"), ("15", "lb")])
+
     def test_committed_corvair_index_contains_only_1963_passenger_rows(self):
         index = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                  "corvair-1963/data/manual-index.jsonl")
@@ -402,6 +408,21 @@ class CompositeRulesTest(unittest.TestCase):
                 harvest_file(path, {"target_year": 1963, "scope": "passenger",
                                     "sources": [{"id": "supplement"}]})
 
+    def test_inline_review_flags_survive_prose_and_table_harvest(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "spec.md"
+            path.write_text(
+                '# Specs\n<a id="p1"></a> '
+                '<!-- SOURCE id=supplement page=11-1 years=1963 scope=passenger -->\n'
+                'Limit: 275 psi <!-- NEEDS REVIEW: conflicting pressure -->\n'
+                '| Item | Value |\n|---|---|\n'
+                '| Charge | 5 lb | <!-- NEEDS REVIEW: conflicting charge -->\n')
+            rows = harvest_file(path, {"target_year": 1963, "scope": "passenger",
+                                       "sources": [{"id": "supplement"}]})
+            self.assertEqual([r["_flags"] for r in rows],
+                             [["conflicting pressure"], ["conflicting charge"]])
+            self.assertEqual(rows[1]["value"], "5 lb")
+
     def test_1963_body_index_uses_revised_alignment_and_excludes_other_bodies(self):
         manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
                   "corvair-1963")
@@ -422,6 +443,28 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertFalse(any(r["_page"] in excluded for r in body))
         self.assertTrue(all(1963 in r["_applicable_years"] and
                             r["_scope"] == "passenger" for r in body))
+
+    def test_1963_accessory_index_keeps_year_specific_heater_setting(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/11-accessories.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(82, 117), *range(581, 624)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        accessory = [r for r in rows if r["_file"] == "wiki/11-accessories.md"]
+        self.assertTrue(any(r.get("1963-direct-air-setting") ==
+                            "Cable-sheath pull before tightening clamp" and
+                            r.get("factory-value") == "5–10 lb" and
+                            r.get("_applicable_years") == [1963]
+                            for r in accessory))
+        self.assertFalse(any(r["_page"] in
+                             {*(f"p{n}" for n in range(106, 109)),
+                              *(f"p{n}" for n in range(113, 116))}
+                             for r in accessory))
+        self.assertTrue(all(1963 in r["_applicable_years"] and
+                            r["_scope"] == "passenger" for r in accessory))
 
 
 if __name__ == "__main__":

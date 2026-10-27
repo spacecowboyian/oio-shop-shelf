@@ -45,7 +45,7 @@ REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 PROSE_UNIT_RE = re.compile(
     r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d.,]*|[¼½¾⅛⅜⅝⅞])\s*"
     r"(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?(?:ft|in)|(?:ft|in)\.?[\s/]?lbs?\.?|"
-    r"kg/sq\.?cm|lbs?/sq|psi|mph|miles?|months?|inch[- ]ounces?|°|ohms?|Ω|[\"″])", re.I)
+    r"kg/sq\.?cm|lbs?/sq|psi|mph|miles?|months?|inch[- ]ounces?|fluid\s+oz\.?|oz\.?|lbs?\.?|°|ohms?|Ω|[\"″])", re.I)
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
@@ -66,7 +66,7 @@ def slug(header: str) -> str:
 
 
 def split_row(line: str) -> list[str]:
-    line = line.strip()
+    line = REVIEW_RE.sub("", line).strip()
     if line.startswith("|"):
         line = line[1:]
     if line.endswith("|"):
@@ -133,6 +133,7 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
             if txt and len(txt) <= 240 and PROSE_UNIT_RE.search(txt):
                 fl = [c for c in comments
                       if any(t in txt and comment_tokens_count.get(t, 0) <= 3 for t in comment_tokens(c))]
+                fl.extend(c.strip() for c in REVIEW_RE.findall(line) if c.strip() not in fl)
                 add_row({"_file": f"wiki/{path.name}", "_page": page,
                          "_section": section, "_type": "spec", "text": txt, "_flags": fl})
         # table = pipe header row followed by a separator row
@@ -143,20 +144,23 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
             block_rows = []
             while i < len(lines) and lines[i].strip().startswith("|"):
                 if not SEP_RE.match(lines[i].strip()):
-                    block_rows.append(split_row(lines[i]))
+                    block_rows.append((split_row(lines[i]),
+                                       [c.strip() for c in REVIEW_RE.findall(lines[i])]))
                 i += 1
-            raws = [" | ".join((cs + [""] * len(keys))[: len(keys)]) for cs in block_rows]
+            raws = [" | ".join((cs + [""] * len(keys))[: len(keys)])
+                    for cs, _ in block_rows]
             tok_rowcount: dict[str, int] = {}
             for c in comments:
                 for t in comment_tokens(c):
                     tok_rowcount.setdefault(t, sum(1 for r in raws if t in r))
-            for cells in block_rows:
+            for cells, inline_flags in block_rows:
                 cells = (cells + [""] * len(keys))[: len(keys)]
                 obj = {k: v for k, v in zip(keys, cells)}
                 raw = " | ".join(cells)
                 label_parts = [c for c in cells if c and not re.fullmatch(r"[\d.,\s–-]+", c)][:3]
                 flags = [c for c in comments
                          if any(t in raw and tok_rowcount.get(t, 0) <= 2 for t in comment_tokens(c))]
+                flags.extend(c for c in inline_flags if c not in flags)
                 add_row({
                     "_file": f"wiki/{path.name}", "_page": page, "_section": section,
                     "_label": " — ".join(label_parts), **obj, "_flags": flags,
