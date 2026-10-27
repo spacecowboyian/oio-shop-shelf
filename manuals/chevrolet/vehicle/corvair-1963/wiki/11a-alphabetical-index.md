@@ -31,6 +31,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Assemble shoes and adjusters — [05-brakes.md#p654](05-brakes.md#p654) ([PDF p.654])
 - Assemble the 48-ball recirculating nut — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
 - Assemble the housing and adjust in the car — [04-steering.md#p191](04-steering.md#p191) ([PDF p.191])
+- Assemble the transaxle and engine — [06-power-train.md#p239](06-power-train.md#p239) ([PDF p.239])
 
 ## B
 
@@ -210,6 +211,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Remove and install the front shock absorber — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Remove and install the front suspension crossmember — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
 - Remove and install the rear crossmember — [03-suspension.md#p163](03-suspension.md#p163) ([PDF p.163])
+- Remove the complete power train — [06-power-train.md#p234](06-power-train.md#p234) ([PDF p.234])
 - Remove the front coil spring and lower arm — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Remove the rear lower control arm and cross shaft — [03-suspension.md#p160](03-suspension.md#p160) ([PDF p.160])
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
@@ -228,6 +230,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Sedan and coupe headlining — [10-body.md#p69](10-body.md#p69) ([PDF p.69])
 - Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Soft trim and upholstery — 1962–63 update — [10-body.md#p40](10-body.md#p40) ([PDF p.40])
+- Source issues to check — [06-power-train.md#p245](06-power-train.md#p245) ([PDF p.245])
 - Starter solenoid and ignition circuit — [08-electrical-systems.md#p441](08-electrical-systems.md#p441) ([PDF p.441])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])
