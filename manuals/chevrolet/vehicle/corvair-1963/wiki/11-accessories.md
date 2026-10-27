@@ -511,15 +511,19 @@ cycles, replace cover and reconfirm cable travel.
 
 The 1962–63 factory system specifies a **5 lb Freon-12 charge by mass**.
 Section 12 repeats that mass, while the can-count shorthand in this
-section conflicts with the printed can size. The oil quantity printed
-here also differs from Section 12; it is withheld below.
+section conflicts with the printed can size. For the 1962–63 Cool Pack,
+the Section 11 capacity box gives **10 oz of 525-viscosity oil**; its
+compressor service procedure repeats that the compressor was originally
+fully charged with **10 oz**. The Section 12 summary table prints a
+different oil quantity, retained below as a source conflict.
 
 | Factory capacity item | Printed value | Applicability |
 | --- | --- | --- |
 | Freon-12 charge | **5 lb by mass** | 1962–63 factory A/C; printed can count is inexact |
-| Compressor oil charge | Conflicting printed quantities; withheld | Verify the installed system before filling <!-- NEEDS REVIEW: Supplement Section 11 p.11-15 prints 10 oz 525-viscosity oil; Section 12 p.12-13 prints 11 oz for the same 1962–63 Cool Pack system. Find a controlling 1963 factory correction before selecting an oil quantity. --> |
+| Compressor oil charge | **10 oz of 525-viscosity oil** | 1962–63 factory A/C; follow Section 11's capacity and compressor service procedure |
 
 <!-- RESOLVED CAPACITY INTERPRETATION: Supplement Section 11 p.11-15 and Section 12 p.12-13 independently specify 5 lb Freon-12. Section 11 p.11-9 says each disposable can contains 15 oz, so its five-can shorthand is 75 oz, not the specified 80 oz. Retain the printed can statement as a source inconsistency; use the repeated mass specification. -->
+<!-- RESOLVED OIL-CAPACITY CONFLICT: Supplement Section 11 p.11-15 prints 10 oz for the 1962–63 system, and its detailed compressor-oil procedure p.11-21 says compressors are originally fully charged with 10 oz. Section 12 p.12-13 prints 11 oz in a summary table. Use the consistent, system-specific Section 11 capacity and procedure; retain the contradictory Section 12 print below. -->
 
 | Expansion-valve condition | Factory indications |
 | --- | --- |

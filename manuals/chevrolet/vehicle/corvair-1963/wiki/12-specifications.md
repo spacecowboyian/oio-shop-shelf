@@ -73,6 +73,7 @@ excluded.
 | Front upper control arm | Replacement ball joints | 20–25 lb. ft. |
 | Front lower control arm | Pivot bolt | 90–120 lb. ft. |
 | Front lower control arm | Ball stud to steering knuckle | 30–40 lb. ft. |
+| Steering arm to knuckle | Two retaining special locknuts | 40–50 lb. ft. |
 | Rear lower control arm | Pivot bushing | 45–55 lb. ft. |
 | Rear lower control arm | Cross shaft to crossmember, four attaching bolts | 45–55 lb. ft. |
 | Strut rod | Rear nut | 50–70 lb. ft. |
@@ -81,10 +82,10 @@ excluded.
 | Crossmember to body | Rear | 55–75 lb. ft. |
 | Crossmember to body | Rear crossmember support to body | 55–75 lb. ft. |
 
-The steering-arm-to-knuckle torque is withheld because the supplement's
-Suspension installation procedure disagrees with this table. See
+The steering-arm row follows the supplement's two detailed installation
+procedures; its Section 12 summary table prints a different figure. See
 [steering-knuckle service](03-suspension.md#passenger-car-steering-knuckle-service).
-<!-- NEEDS REVIEW: Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. -->
+<!-- RESOLVED PROCEDURE/TABLE CONFLICT: Supplement Section 3 p.3-2 step 4 and Section 4 p.4-2 step 2 independently specify 40–50 ft. lb. for the passenger steering-arm retaining locknuts. Section 12 p.12-2 instead prints 29–43 ft. lb.; the two fastener-specific installation procedures govern. Section 4 p.4-3 uses 29–43 ft. lb. for a different idler-arm castellated stud nut. -->
 
 The cross-shaft-to-crossmember row applies to the four arm-mount bolts in
 [rear lower-arm service](03-suspension.md#remove-the-rear-lower-control-arm-and-cross-shaft).
@@ -574,7 +575,7 @@ turbocharger inlet / outlet pipe OD is **1.875 / 2.50 in.**
 | Clutch-coil resistance / draw at 80°F | 3.85 Ω / 3.2 A at 12 V |
 | Refrigerant / compressor oil | Freon-12 / Frigidaire 525 viscosity |
 | Freon-12 charge | **5 lb by mass** |
-| Compressor oil capacity | Conflicting printed quantities; withheld |
+| Compressor oil capacity | **10 oz of 525-viscosity oil**; follows Section 11 service procedure |
 | Compressor suction/discharge connector bolt | 17–23 ft. lb. |
 | Rear-head-to-shell stud nuts | 19–23 ft. lb. |
 | Shaft mounting nut | 14–16 ft. lb. |
@@ -582,9 +583,12 @@ turbocharger inlet / outlet pipe OD is **1.875 / 2.50 in.**
 
 The refrigerant mass specification here agrees with
 [accessories p.11-15](11-accessories.md#p595). Its can-count shorthand
-is not an exact equivalent to the printed package size. The oil-capacity
-entries on these same pages remain inconsistent.
+is not an exact equivalent to the printed package size. For oil, this
+Section 12 summary page differs from Section 11's matching system-capacity
+box and compressor-oil procedure. The detailed Section 11 directions
+govern the indexed oil capacity.
 <!-- RESOLVED CAPACITY INTERPRETATION: Supplement Section 12 p.12-13 and Section 11 p.11-15 both specify 5 lb Freon-12. Section 11 p.11-9 defines the disposable cans as 15 oz each; five cans total 75 oz rather than 80 oz. Use the repeated mass specification and retain the faulty can equivalence as source context. -->
+<!-- RESOLVED OIL-CAPACITY CONFLICT: Section 12 p.12-13 summary prints 11 oz, while supplement Section 11 p.11-15 system capacity and p.11-21 compressor service procedure both print 10 oz 525-viscosity oil. Use the detailed Section 11 instruction. -->
 
 ## Inherited base-manual specifications
 
@@ -749,18 +753,26 @@ GM, *1963 Chevrolet Corvair Vehicle Information Kit*, [Power Trains p. 7](https:
 revised November 1962, gives the following valve timing. “Excluding ramps”
 and “including ramps” are distinct measurement conventions in that chart.
 The source abbreviates before top center as BTC and before bottom center as
-BBC; those are expanded below.
+BBC; those are expanded below. Its inlet-closing row is printed “ATC,”
+but each listed inlet duration equals opening before top center plus
+closing **after bottom center** plus half a revolution. For example,
+the production cam including ramps gives 43° + 93° + 180° = 316°.
+The same GM kit's [1963 AMA Specifications p. 6](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=61)
+labels the matching production, high-performance, and turbocharged
+inlet-closing angles “ABC.” That year-specific chart confirms the
+directional label below; the Power Trains page retains its printed error.
 
 | Valve event | Production, excluding / including ramps | High performance, excluding / including ramps | Turbocharged, excluding / including ramps |
 | --- | --- | --- | --- |
 | Inlet opens, ° BTDC | 15 / 43 | 36 / 54 | 58 / 70 |
-| Inlet closes, source says “ATC” | 27 / 93 | 62 / 118 | 86 / 110 <!-- NEEDS REVIEW: Revised 1963 GM Power Trains p.7 labels inlet closing “ATC,” but its opening angles and durations imply closing after bottom center. Preserve the printed angles and withhold a definitive directional label until another factory source confirms it. --> |
+| Inlet closes, ° ABDC (Power Trains prints “ATC”) | 27 / 93 | 62 / 118 | 86 / 110 |
 | Inlet duration, ° | 222 / 316 | 278 / 352 | 324 / 360 |
 | Exhaust opens, ° BBDC | 59 / 87 | 77 / 95 | 98 / 110 |
 | Exhaust closes, ° ATDC | 13 / 69 | 22 / 78 | 46 / 70 |
 | Exhaust duration, ° | 252 / 336 | 279 / 353 | 324 / 360 |
 
 <!-- RESOLVED APPLICABILITY: The 1963 GM Power Trains p.7 chart (PDF p.44) explicitly separates production, high-performance, and turbocharged valve timing, superseding any universal reading of the inherited base Section 12 theoretical chart. -->
+<!-- RESOLVED DIRECTIONAL LABEL: Revised November 1962 GM 1963 Power Trains p.7 prints “ATC” for inlet closing, but its six opening/closing/duration triples each satisfy duration = BTDC opening + 180° + ABDC closing. For production including ramps, 43+180+93=316. The same 1963 GM kit's AMA Specifications p.6 (PDF p.61) explicitly labels the matching production, high-performance, and turbocharged inlet-closing angles “ABC.” This year-specific GM chart confirms the direction; retain the erroneous Power Trains print as source context. -->
 
 <a id="p123"></a> **[PDF p.123](../page-images/p0123.png)** <!-- SOURCE id=base-1961 page=12-7 years=1961,1962,1963 scope=passenger applicability=inherited-lubrication-and-cooling -->
 
