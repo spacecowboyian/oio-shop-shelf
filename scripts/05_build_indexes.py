@@ -32,11 +32,11 @@ GENERATED_ALPHA_RE = re.compile(r"^11[a-z]?-alphabetical-index\.md$")
 HEADING_RE = re.compile(r"^(#{1,3})\s+(.*?)\s*#*$")
 REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # number + unit; covers torque, clearance, voltage, resistance, capacity, etc.
-SPEC_NUMBER = r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
+SPEC_NUMBER = r"(?:\d+\s+\d+\s*[⁄/]\s*\d+|\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d,]*(?:\.\d+)?|\.\d+|[¼½¾⅛⅜⅝⅞])"
 SPEC_RE = re.compile(
     rf"(?P<val>{SPEC_NUMBER}(?:\s*[–-]\s*{SPEC_NUMBER})?)\s*"
     r"(?P<unit>N·m|N-m|Nm|kgf·cm|kgf-cm|inch[- ]ounces?|ft\.?\s*lb\.?|in\.?\s*lb\.?|ft[·-]?lbf?|in[·-]?lbf?|mm|cm|"
-    r"V|kΩ|Ω|A|mA|kPa|psi|bar|mph|miles?|months?|°C|°F|°|″|\"|lb\.\s*ft\.?|fluid\s+oz\.?|oz\.?|lbs?\.?|rpm|L|cc|mL)(?=\W|$)"
+    r"V|kΩ|Ω|A|mA|kPa|psi|bar|mph|miles?|months?|°C|°F|°|″|\"|lb\.\s*ft\.?|fluid\s+oz\.?|oz\.?|lbs?\.?|pts?\.?|qts?\.?|gals?\.?|rpm|L|cc|mL)(?=\W|$)"
 )
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
 # subsection heading with the source page it lives on so 08 can bake a jump target.

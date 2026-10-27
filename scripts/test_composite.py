@@ -16,6 +16,11 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertEqual(found, [("33½", "°"), ("3⁄32", "″"),
                                  ("⅛", "″"), ("⅜", "″")])
 
+    def test_quick_reference_preserves_mixed_fraction_ranges(self):
+        found = [(m.group("val"), m.group("unit")) for m in
+                 SPEC_RE.finditer("7⁄16–1 1⁄16 lb; 1 13⁄64 in. and 4½ pt.")]
+        self.assertEqual(found, [("7⁄16–1 1⁄16", "lb"), ("4½", "pt.")])
+
     def test_quick_reference_harvests_factory_torque_units(self):
         found = [(m.group("val"), m.group("unit")) for m in
                  SPEC_RE.finditer("100 in. lb.; 38–50 ft. lb.")]
@@ -29,9 +34,10 @@ class CompositeRulesTest(unittest.TestCase):
 
     def test_quick_reference_harvests_refrigerant_and_oil_capacity(self):
         found = [(m.group("val"), m.group("unit")) for m in
-                 SPEC_RE.finditer("5 lbs.; 10 fluid oz; 4 oz; 15 lb")]
+                 SPEC_RE.finditer("5 lbs.; 10 fluid oz; 4 oz; 15 lb; 4½ pt.; 14 gal.")]
         self.assertEqual(found, [("5", "lbs."), ("10", "fluid oz"),
-                                 ("4", "oz"), ("15", "lb")])
+                                 ("4", "oz"), ("15", "lb"),
+                                 ("4½", "pt."), ("14", "gal.")])
 
     def test_committed_corvair_index_contains_only_1963_passenger_rows(self):
         index = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
@@ -465,6 +471,32 @@ class CompositeRulesTest(unittest.TestCase):
                              for r in accessory))
         self.assertTrue(all(1963 in r["_applicable_years"] and
                             r["_scope"] == "passenger" for r in accessory))
+
+    def test_1963_specifications_exclude_superseded_1962_axle_capacity(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/12-specifications.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(117, 130), *range(624, 637)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        specs = [r for r in rows if r["_file"] == "wiki/12-specifications.md"]
+        self.assertTrue(any(r.get("1963-rear-axle-capacity") ==
+                            "Lubricant refill capacity" and
+                            r.get("factory-value") == "4½ pt."
+                            for r in specs))
+        self.assertFalse(any("3.1 pt" in str(r) for r in specs))
+        self.assertTrue(all(1963 in r["_applicable_years"] and
+                            r["_scope"] == "passenger" for r in specs))
+
+    def test_steering_preload_matches_supplement_procedure_and_spec_table(self):
+        wiki = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                "corvair-1963/wiki")
+        for filename in ("04-steering.md", "12-specifications.md"):
+            chapter = (wiki / filename).read_text()
+            self.assertIn("7⁄16–1 1⁄16 lb", chapter)
+            self.assertNotIn("7⁄16–11⁄16 lb", chapter)
 
 
 if __name__ == "__main__":
