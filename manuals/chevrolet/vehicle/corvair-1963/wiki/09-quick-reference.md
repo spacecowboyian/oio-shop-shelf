@@ -141,6 +141,11 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | thread into the spindle support, and tighten to **60–85 ft. lb.**, then |
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | Front anchor-pin torque 60–85 ft. lb. |
 | 100–125 | ft. lb. | [05-brakes.md](05-brakes.md) | Rear anchor-pin torque 100–125 ft. lb. |
+| 460 | lb | [06-power-train.md](06-power-train.md) | **Support warning:** The assembly weighs approximately **460 lb**. Use engine support fixt |
+| 24–32 | ft-lb | [06-power-train.md](06-power-train.md) | **Manual transmission and differential:** Apply a new gasket with petroleum jelly. Engage  |
+| 24–32 | ft-lb | [06-power-train.md](06-power-train.md) | For Powerglide-to-carrier assembly, fit a new gasket with petroleum jelly. Guide the pump  |
+| 60–80 | ft-lb | [06-power-train.md](06-power-train.md) | Finish Powerglide engine attachment with remaining housing bolts, starter, two remaining c |
+| 50–60 | ft-lb | [06-power-train.md](06-power-train.md) | Finish Powerglide engine attachment with remaining housing bolts, starter, two remaining c |
 | 8–12 | ft. lb. | [06a-engine.md](06a-engine.md) | engine. The oil-cooler attaching bolt is **8–12 ft. lb.** The **rear right |
 | 7–13 | ft. lb. | [06a-engine.md](06a-engine.md) | bolts to **7–13 ft. lb.** Restore generator, fuel lines, and belt and check |
 | 20–25 | ft. lb. | [06a-engine.md](06a-engine.md) | the shroud. The blower pulley bolts are **20–25 ft. lb.** |

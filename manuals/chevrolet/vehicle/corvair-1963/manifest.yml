@@ -312,6 +312,36 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 233
+  file: diagrams/p0233-power-train-engine-section.png
+  kind: exploded
+  depth: gray
+  caption: Engine side of the passenger power train sectional view, Figure 6-1
+  safety_relevant: false
+- page: 234
+  file: diagrams/p0234-power-train-sectional-view.png
+  kind: exploded
+  depth: gray
+  caption: Passenger power train sectional arrangement, Figure 6-1
+  safety_relevant: false
+- page: 236
+  file: diagrams/p0236-engine-electrical-connections.png
+  kind: wiring
+  depth: gray
+  caption: Engine electrical disconnections for power train removal, Figure 6-3
+  safety_relevant: true
+- page: 237
+  file: diagrams/p0237-power-train-removal-connections.png
+  kind: sequence
+  depth: gray
+  caption: Clutch and Powerglide control connections and engine support fixture
+  safety_relevant: true
+- page: 241
+  file: diagrams/p0241-powerglide-thrust-selection.png
+  kind: chart
+  depth: gray
+  caption: Rear Powerglide thrust-washer dial gauge and selection chart
+  safety_relevant: true
 - page: 85
   file: diagrams/p0085-gasoline-heater-circuit.png
   kind: wiring

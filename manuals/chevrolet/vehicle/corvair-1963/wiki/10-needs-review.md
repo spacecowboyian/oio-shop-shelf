@@ -1,6 +1,6 @@
 # Needs Review
 
-_45 flag(s) across 17 chapter file(s)._
+_46 flag(s) across 18 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -17,6 +17,7 @@ _45 flag(s) across 17 chapter file(s)._
 | [03-suspension.md](03-suspension.md) | Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. |
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-2 prints 40–50 ft. lb. for steering-arm retaining nuts; supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to knuckle. Base Section 3 and supplement Section 3 have further figures. Do not index a 1963 arm-fastener torque until reconciled. |
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-3 says 1962 for the 20°/18° cornering relationship, while Section 12 p. 12-3 has the same figures without year labeling. Base Section 3 p. 3-5 has 33½°/30½°. Do not assign any set to 1963 silently. |
+| [06-power-train.md](06-power-train.md) | Factory Section 6 installation says two fork-rod swivel turns; detailed Section 6B adjustment says three. Confirm for 1963 before relying on the count. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A p. 6A-54 prints oil-pan torque 40–60 ft-lb, while supplement Section 12 p. 12-6 specifies 40–60 in-lb for the same ¼-20 attachment. Treat the base unit as a source error; the 1963 supplement supersedes it. Do not index the base value. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. |
 | [06b-clutch.md](06b-clutch.md) | Supplement Section 12 p. 12-7 labels clutch diaphragm total pressure 900–1050 and 1500 as "ft. lbs.". Confirm intended unit before indexing or applying these pressure figures; do not silently change to pounds-force. |
@@ -52,7 +53,6 @@ _45 flag(s) across 17 chapter file(s)._
 
 ## Conversion coverage
 
-1 source section(s) pending cleanup; 1 partial.
+0 source section(s) pending cleanup; 1 partial.
 
-- Pending: Power Train (combined PDF pp. 232–245, 658–658)
 - Partial: [General Information](01-general-information.md)

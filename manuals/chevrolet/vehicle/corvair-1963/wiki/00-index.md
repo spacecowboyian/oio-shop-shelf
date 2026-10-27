@@ -9,7 +9,7 @@
 | 3 | Suspension | [03-suspension.md](03-suspension.md) | 146-183, 640-644 | ✅ done |
 | 4 | Steering | [04-steering.md](04-steering.md) | 184-209, 645-648 | ✅ done |
 | 5 | Brakes | [05-brakes.md](05-brakes.md) | 210-231, 649-657 | ✅ done |
-| 6 | Power Train | 06-power-train.md | 232-245, 658-658 | ⬜ pending |
+| 6 | Power Train | [06-power-train.md](06-power-train.md) | 232-245, 658-658 | ✅ done |
 | 6A | Engine | [06a-engine.md](06a-engine.md) | 246-306, 659-667 | ✅ done |
 | 6B | Clutch | [06b-clutch.md](06b-clutch.md) | 307-320, 668-668 | ✅ done |
 | 6C | Rear Axle | [06c-rear-axle.md](06c-rear-axle.md) | 321-346, 669-675 | ✅ done |
