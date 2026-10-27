@@ -312,6 +312,60 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 85
+  file: diagrams/p0085-gasoline-heater-circuit.png
+  kind: wiring
+  depth: gray
+  caption: Passenger gasoline-heater wiring and fuse circuit
+  safety_relevant: true
+- page: 582
+  file: diagrams/p0582-1963-heater-control-lock.png
+  kind: chart
+  depth: gray
+  caption: 1963 direct-air heater cable setting and spring lock
+  safety_relevant: true
+- page: 585
+  file: diagrams/p0585-air-conditioning-cycle.png
+  kind: chart
+  depth: gray
+  caption: Factory air-conditioning refrigerant cycle
+  safety_relevant: false
+- page: 586
+  file: diagrams/p0586-refrigerant-pressure-temperature.png
+  kind: chart
+  depth: gray
+  caption: Freon-12 pressure–temperature chart as printed
+  safety_relevant: true
+- page: 598
+  file: diagrams/p0598-air-conditioning-service-connections.png
+  kind: chart
+  depth: gray
+  caption: Compressor gauge and charging connections
+  safety_relevant: true
+- page: 600
+  file: diagrams/p0600-j8393-charging-station.png
+  kind: chart
+  depth: gray
+  caption: J-8393 charging station and numbered control valves
+  safety_relevant: true
+- page: 610
+  file: diagrams/p0610-six-cylinder-compressor.png
+  kind: exploded
+  depth: gray
+  caption: Reverse-rotation six-cylinder compressor sectional parts
+  safety_relevant: true
+- page: 616
+  file: diagrams/p0616-compressor-shoe-gauging.png
+  kind: sequence
+  depth: gray
+  caption: Compressor shoe and thrust-race gauging setup
+  safety_relevant: true
+- page: 622
+  file: diagrams/p0622-air-conditioning-wiring.png
+  kind: wiring
+  depth: gray
+  caption: Passenger air-conditioning controls and electrical circuit
+  safety_relevant: true
 - page: 539
   file: diagrams/p0539-coupe-vinyl-door-weatherstrip.png
   kind: sequence

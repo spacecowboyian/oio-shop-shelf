@@ -11,6 +11,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
 - 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
+- 1963 heater door and cable adjustment — [11-accessories.md#p582](11-accessories.md#p582) ([PDF p.582])
 - 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 lubricant capacity — [06c-rear-axle.md#p345](06c-rear-axle.md#p345) ([PDF p.345])
 - 1963 passenger clutch specifications — [06b-clutch.md#p668](06b-clutch.md#p668) ([PDF p.668])
@@ -45,6 +46,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## C
 
 - Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
+- Capacity, expansion valve and line connections — [11-accessories.md#p595](11-accessories.md#p595) ([PDF p.595])
 - Carpet and specific stains — [10-body.md#p537](10-body.md#p537) ([PDF p.537])
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - Case, reverse clutch and front pump inspection — [06e-automatic-transmission.md#p386](06e-automatic-transmission.md#p386) ([PDF p.386])
@@ -54,6 +56,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Clutch drum and rear pump — [06e-automatic-transmission.md#p392](06e-automatic-transmission.md#p392) ([PDF p.392])
 - Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
+- Compressor clutch and external service — [11-accessories.md#p606](11-accessories.md#p606) ([PDF p.606])
+- Compressor seal and internal mechanism — [11-accessories.md#p610](11-accessories.md#p610) ([PDF p.610])
 - Convertible top fabric — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 - Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
@@ -62,6 +66,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## D
 
 - Deferred general specifications — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
+- Diagnose the gasoline heater — [11-accessories.md#p86](11-accessories.md#p86) ([PDF p.86])
 - Diagnose unusual tread wear — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
 - Differential case, seals, and bearing service — [06c-rear-axle.md#p333](06c-rear-axle.md#p333) ([PDF p.333])
 - Dismount and mount a tubeless tire — [03-suspension.md#p167](03-suspension.md#p167) ([PDF p.167])
@@ -75,12 +80,15 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Electrical and fuel-system service — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Emergency towing — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Engine fault diagnosis carried forward — [06a-engine.md#p299](06a-engine.md#p299) ([PDF p.299])
+- Evacuating and charging — [11-accessories.md#p597](11-accessories.md#p597) ([PDF p.597])
+- Evaporator, controls and compressor removal — [11-accessories.md#p602](11-accessories.md#p602) ([PDF p.602])
 - Exhaust valves, guides, push rods, and hydraulic lifters — [06a-engine.md#p663](06a-engine.md#p663) ([PDF p.663])
 
 ## F
 
 - Fabric with synthetic detergent — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
 - Fabric with volatile upholstery cleaner — [10-body.md#p535](10-body.md#p535) ([PDF p.535])
+- Factory air conditioning — 1962–63 design — [11-accessories.md#p116](11-accessories.md#p116) ([PDF p.116])
 - Factory figure 6E-2 callouts — [06e-automatic-transmission.md#p679](06e-automatic-transmission.md#p679) ([PDF p.679])
 - Factory gasoline selection — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Factory tire-puncture repair methods — [03-suspension.md#p168](03-suspension.md#p168) ([PDF p.168])
@@ -99,6 +107,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## G
 
+- Gasoline-heater component service — [11-accessories.md#p95](11-accessories.md#p95) ([PDF p.95])
 - General steel-bolt torque chart — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 
 ## H
@@ -114,6 +123,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Inspect and repair the gear — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
 - Inspect lower spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Inspect upper spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
+- Inspection and performance — [11-accessories.md#p590](11-accessories.md#p590) ([PDF p.590])
 - Install the front hub and drum — [03-suspension.md#p152](03-suspension.md#p152) ([PDF p.152])
 - Install the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 
@@ -140,11 +150,13 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Oil pump, rear housing, and crankcase inspection — [06a-engine.md#p285](06a-engine.md#p285) ([PDF p.285])
 - Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
+- Operation and components — [11-accessories.md#p83](11-accessories.md#p83) ([PDF p.83])
 - Operation, fluid and controls — [06e-automatic-transmission.md#p126](06e-automatic-transmission.md#p126) ([PDF p.126])
 - Optional hydraulic folding top — [10-body.md#p568](10-body.md#p568) ([PDF p.568])
 
 ## P
 
+- Padded instrument-panel cover — [11-accessories.md#p582](11-accessories.md#p582) ([PDF p.582])
 - Parking-brake adjustment and cable service — [05-brakes.md#p215](05-brakes.md#p215) ([PDF p.215])
 - Passenger fuel tank and lines — [09-fuel-and-exhaust.md#p522](09-fuel-and-exhaust.md#p522) ([PDF p.522])
 - Passenger-car dimensions carried from the base manual — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
@@ -205,6 +217,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Steering-arm replacement — [04-steering.md#p646](04-steering.md#p646) ([PDF p.646])
 - Steering-gear lubrication and adjustment — [04-steering.md#p645](04-steering.md#p645) ([PDF p.645])
 - Suspension bolt torque — [12-specifications.md#p625](12-specifications.md#p625) ([PDF p.625])
+- System diagnosis — [11-accessories.md#p591](11-accessories.md#p591) ([PDF p.591])
 
 ## T
 

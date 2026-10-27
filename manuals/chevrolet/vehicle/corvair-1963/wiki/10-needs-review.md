@@ -1,6 +1,6 @@
 # Needs Review
 
-_30 flag(s) across 15 chapter file(s)._
+_32 flag(s) across 16 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -32,15 +32,16 @@ _30 flag(s) across 15 chapter file(s)._
 | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Carter YH automatic-choke on-car setting p726 says one notch lean; assembly p733 says one notch rich. Do not publish an unconditional choke-notch value. |
 | [10-body.md](10-body.md) | 10-body-2d-61.pdf duplicates printed p.10-51 at physical pp.1–2; printed p.10-52 is absent. Do not infer the missing front-window procedure. |
 | [10-body.md](10-body.md) | Supplement body alignment pp.10-16–10-19 identifies coupe/sedan versus station-wagon rear dimensions but gives no explicit 967 convertible chart. Verify convertible applicability before using these body-tram values on model 967. |
+| [11-accessories.md](11-accessories.md) | Source inconsistency, not OCR: supplement p.11-15 prints 5 lbs. or 5 Cans but p.11-9 says cans are 15 oz; 5 cans are 75 oz, not 80 oz. Confirm factory correction before selecting a single refrigerant charge. |
+| [11-accessories.md](11-accessories.md) | Source pressure conflict, not OCR: charging text p.11-17 says head pressure should not exceed 275 psi, while performance chart p.11-10 lists 300–310 psi at 120°F and fast-idle instruction p.11-41 expects 300 psi. Verify factory service bulletin or conditional meaning before treating 275 psi as universal. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
 
 ## Conversion coverage
 
-3 source section(s) pending cleanup; 2 partial.
+2 source section(s) pending cleanup; 2 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Accessories (combined PDF pp. 82–116, 581–623)
 - Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)
 - Partial: [Specifications](12-specifications.md)

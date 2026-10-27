@@ -12,6 +12,27 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 51.5 | ″ | [01-general-information.md](01-general-information.md) | Overall loaded height, coupe and sedan 51.5″ F |
 | 54 | ″ | [01-general-information.md](01-general-information.md) | Tread width 54″ G |
 | 67.0 | ″ | [01-general-information.md](01-general-information.md) | Overall width 67.0″ H |
+| 2312 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
+| 2428 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
+| 2348 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door coupe 2348 lb. 2434 lb. |
+| 2434 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door coupe 2348 lb. 2434 lb. |
+| 2369 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2369 lb. 2455 lb. |
+| 2455 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2369 lb. 2455 lb. |
+| 2398 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door coupe 2398 lb. 2484 lb. |
+| 2484 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door coupe 2398 lb. 2484 lb. |
+| 2417 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2417 lb. 2503 lb. |
+| 2503 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2417 lb. 2503 lb. |
+| 348 | lb. | [01-general-information.md](01-general-information.md) | The same page gives **348 lb.** for the six-cylinder engine, **43.5 lb.** for |
+| 43.5 | lb. | [01-general-information.md](01-general-information.md) | The same page gives **348 lb.** for the six-cylinder engine, **43.5 lb.** for |
+| 61.5 | lb. | [01-general-information.md](01-general-information.md) | the three-speed transmission, and **61.5 lb.** for the differential. Its |
+| 42 | lb. | [01-general-information.md](01-general-information.md) | Direct-air heater 42 lb. |
+| 9 | lb. | [01-general-information.md](01-general-information.md) | Manual radio 9 lb. |
+| 6 | lb. | [01-general-information.md](01-general-information.md) | Automatic transmission 6 lb. |
+| 8 | lb. | [01-general-information.md](01-general-information.md) | Four-speed transmission 8 lb. |
+| 5 | lb. | [01-general-information.md](01-general-information.md) | Comfort and convenience group 5 lb. |
+| 2 | lb. | [01-general-information.md](01-general-information.md) | Wheel trim cover 2 lb. |
+| 3 | lb. | [01-general-information.md](01-general-information.md) | Deluxe body equipment 3 lb. |
+| 2 | lb. | [01-general-information.md](01-general-information.md) | Padded instrument panel 2 lb. |
 | 25 | mph | [01-general-information.md](01-general-information.md) | the selector in **N** until the car reaches **25 mph**. |
 | 15 | mph | [01-general-information.md](01-general-information.md) | 2. At **15 mph**, slowly release the clutch pedal. |
 | 30 | mph | [01-general-information.md](01-general-information.md) | **30 mph**. Tow both manual and Powerglide cars in **Neutral** with the parking |
@@ -101,12 +122,18 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1⁄16 | ″ | [03-suspension.md](03-suspension.md) | radial eccentricity at the exposed bead seat to **1⁄16″**. Excess calls for |
 | 20–30 | mph | [03-suspension.md](03-suspension.md) | under those changes and may be clearest around **20–30 mph**. Its factory |
 | 50 | psi | [03-suspension.md](03-suspension.md) | and at a temporary **50 psi** test pressure, then restores each tire to its |
+| 7⁄16–11⁄16 | lb | [04-steering.md](04-steering.md) | **7⁄16–11⁄16 lb pull**. Loosen the worm-bearing adjuster locknut, adjust |
+| 1⅛–1½ | lb | [04-steering.md](04-steering.md) | screw **clockwise** until J-5178 reads **1⅛–1½ lb pull** while the wheel |
+| 7⁄16–11⁄16 | lb. | [04-steering.md](04-steering.md) | Worm-bearing preload 7⁄16–11⁄16 lb. |
+| 1⅛–1½ | lb. | [04-steering.md](04-steering.md) | Sector lash at high point 1⅛–1½ lb. |
 | 35–40 | ft. lb. | [04-steering.md](04-steering.md) | torque is **35–40 ft. lb.** |
 | 15–22 | ft. lb. | [04-steering.md](04-steering.md) | tighten nuts at the bracket and relay rod to **15–22 ft. lb.** |
 | 15–22 | ft. lb. | [04-steering.md](04-steering.md) | the lower bolt and spacer; tighten frame bolts to **15–22 ft. lb.** Place |
 | 29–43 | ft. lb. | [04-steering.md](04-steering.md) | castellated nut to **29–43 ft. lb.** Continue tightening to the next cotter |
 | 22–27 | ft. lb. | [04-steering.md](04-steering.md) | **22–27 ft. lb.** Tighten the frame bolts. Recheck shaft/coupling marks and |
 | 2927 | A | [04-steering.md](04-steering.md) | **J-5178** steering-wheel pull scale, **J-2927A** steering-wheel puller, |
+| 30–50 | lb. | [05-brakes.md](05-brakes.md) | **30–50 lb. hydraulic pressure**. Attach hose and tool **J-7647** to a wheel |
+| 30–50 | lb. | [05-brakes.md](05-brakes.md) | Bleeder-equipment hydraulic pressure 30–50 lb. |
 | 30 | mph | [05-brakes.md](05-brakes.md) | 30 mph** at moderate pedal effort, then **six to eight full stops from the |
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | thread into the spindle support, and tighten to **60–85 ft. lb.**, then |
 | 60–85 | ft. lb. | [05-brakes.md](05-brakes.md) | Front anchor-pin torque 60–85 ft. lb. |
@@ -147,6 +174,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 5 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the base setting is **40 ±5 in-lb**, then back off **exactly four full |
 | 90 | ° | [06e-automatic-transmission.md](06e-automatic-transmission.md) | a new pin hole **90° from the original**, fitting the gear and pin, |
 | 38–50 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | clutch-head screws to **38–50 in-lb**. Refit low-drive, throttle, detent, |
+| 9–11 | lbs. | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the 20 valve-body bolts. The base page says **“9–11 lbs. torque”** without |
 | 3–4 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | evenly to **3–4 ft-lb**; refill. Readjust the low band if its screw was |
 | 9–11 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Secure five rear-pump bolts to **9–11 ft-lb**. Stack reverse clutch |
 | 18–20 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | sequence first**, then the five inner bolts, all at **18–20 ft-lb**. |
@@ -168,7 +196,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1500 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **3°** as speed rises to 1500 rpm points to distributor shaft, bushing |
 | 1500 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | 1500 rpm with the other plugs grounded. More than **1 in. Hg** or |
 | 40 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **40 rpm** difference between pairs suggests an unbalanced cylinder |
+| 4–5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | **4–5 lb pressure** from idle to 1000 rpm. Reconnect and leak-check |
 | 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | **4–5 lb pressure** from idle to 1000 rpm. Reconnect and leak-check |
+| 5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | idler using a **strand tension gauge to 75 ±5 lb**. |
 | 4 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-Air, manual AC-46FF 4° 500 Neutral |
 | 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-Air, automatic AC-46FF 13° 500 Drive |
 | 13 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Monza Powerglide AC-44FF 13° 500 Drive |
@@ -180,7 +210,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 15–20 | ft-lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug gap and torque .035 in.; 15–20 ft-lb |
 | 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
+| 19–23 | oz. | [07-engine-tune-up.md](07-engine-tune-up.md) | Breaker-arm spring tension 19–23 oz. |
+| 4–5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
 | 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
+| 5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Blower-belt strand tension 75 ±5 lb |
 | 6,000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | air-cleaner service at **6,000 miles** for regular and turbocharged |
 | 50 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | block the valve opening and note rpm change. **Less than 50 rpm change** |
 | .05 | V | [08-electrical-systems.md](08-electrical-systems.md) | fine-scale voltmeter after one minute. A difference of **.05 V or |
@@ -246,6 +279,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | to **80 in-lb**. Before installation, pour oil into inlet until it |
 | 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | them to **80 in-lb**. |
 | 30–40 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | oil lines, then torque V-clamp nut to **30–40 in-lb**. Reconnect |
+| 2 | oz. | [10-body.md](10-body.md) | For polyurethane foam, mix approximately **2 oz.** of white detergent |
 | 30⅝ | ″ | [10-body.md](10-body.md) | C 30⅝″ Idler-support lower inner surface to steering-gear plate lower edge |
 | 44⅝ | ″ | [10-body.md](10-body.md) | I 44⅝″ Front tie-down slot front edge to front side-rail inner lower corner at bumper supp |
 | 107¼ | ″ | [10-body.md](10-body.md) | M 107¼″ Front crossmember front bolt to rear crossmember rear mounting bolt |
@@ -276,6 +310,84 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 9.5–11.0 | V | [10-body.md](10-body.md) | at **9.5–11.0 V**. Each port must read **340–380 psi**; differences |
 | 340–380 | psi | [10-body.md](10-body.md) | at **9.5–11.0 V**. Each port must read **340–380 psi**; differences |
 | ¼ | ″ | [10-body.md](10-body.md) | at **¼″ below** the lower edge of filler hole, then fit original plug. |
+| 4½–5½ | psi | [11-accessories.md](11-accessories.md) | pressure is 4½–5½ psi**; the regulator-cleaning procedure separately |
+| 4–5 | psi | [11-accessories.md](11-accessories.md) | instructs adjusting its screw to **4–5 psi**. Both numbers are retained |
+| 100 | in. lb. | [11-accessories.md](11-accessories.md) | **100 in. lb.** The solenoid coil and washer are replaced under its cover. |
+| 5–10 | lb | [11-accessories.md](11-accessories.md) | door lever, pull the cable sheath **5–10 lb** and tighten the clamp. |
+| 5–10 | lb | [11-accessories.md](11-accessories.md) | Cable-sheath pull before tightening clamp 5–10 lb |
+| 125 | °F | [11-accessories.md](11-accessories.md) | containers to **125°F** and warns against sun or flame heating. |
+| 0.6 | lb | [11-accessories.md](11-accessories.md) | −20 0.6 lb 70 70.1 |
+| 2.4 | lb | [11-accessories.md](11-accessories.md) | −15 2.4 lb 75 76.9 |
+| 4.5 | lb | [11-accessories.md](11-accessories.md) | −10 4.5 lb 80 84.1 |
+| 6.8 | lb | [11-accessories.md](11-accessories.md) | −5 6.8 lb 85 91.7 |
+| 9.2 | lb | [11-accessories.md](11-accessories.md) | 0 9.2 lb 90 99.6 |
+| 11.8 | lb | [11-accessories.md](11-accessories.md) | 5 11.8 lb 95 108.1 |
+| 14.7 | lb | [11-accessories.md](11-accessories.md) | 10 14.7 lb 100 116.9 |
+| 17.7 | lb | [11-accessories.md](11-accessories.md) | 15 17.7 lb 105 126.2 |
+| 21.1 | lb | [11-accessories.md](11-accessories.md) | 20 21.1 lb 110 136.0 |
+| 24.6 | lb | [11-accessories.md](11-accessories.md) | 25 24.6 lb 115 146.5 |
+| 28.5 | lb | [11-accessories.md](11-accessories.md) | 30 28.5 lb 120 157.1 |
+| 30.1 | lb | [11-accessories.md](11-accessories.md) | 32 30.1 lb 125 167.5 |
+| 32.6 | lb | [11-accessories.md](11-accessories.md) | 35 32.6 lb 130 179.0 |
+| 37.0 | lb | [11-accessories.md](11-accessories.md) | 40 37.0 lb 140 204.5 |
+| 41.7 | lb | [11-accessories.md](11-accessories.md) | 45 41.7 lb 150 232.0 |
+| 25 | lb | [11-accessories.md](11-accessories.md) | **25 lb drums** or **15 oz cans**. Tool J-6272 holds three cans, **45 oz** |
+| 15 | oz | [11-accessories.md](11-accessories.md) | **25 lb drums** or **15 oz cans**. Tool J-6272 holds three cans, **45 oz** |
+| 45 | oz | [11-accessories.md](11-accessories.md) | **25 lb drums** or **15 oz cans**. Tool J-6272 holds three cans, **45 oz** |
+| 45 | oz | [11-accessories.md](11-accessories.md) | total; J-6271 pierces one can. That 45 oz is a tool quantity, **not** |
+| 1500 | rpm | [11-accessories.md](11-accessories.md) | 1500 rpm**, sight glass, leaks, oil-loss evidence and controls. At |
+| 1,000 | miles | [11-accessories.md](11-accessories.md) | **1,000 miles**, inspect leaks, clamps, brace and belt. Check condenser |
+| 6,000 | miles | [11-accessories.md](11-accessories.md) | and drains periodically, sight glass every **6,000 miles**, hoses and |
+| 1500 | rpm | [11-accessories.md](11-accessories.md) | at **1500 rpm**, maximum cooling/high blower, heater off, gauges fitted, |
+| 5 | lb | [11-accessories.md](11-accessories.md) | The printed capacity box specifies **5 lb Freon-12 or 5 cans** and |
+| 10 | oz | [11-accessories.md](11-accessories.md) | **10 oz 525-viscosity oil**. Five of the source's 15 oz cans total |
+| 15 | oz | [11-accessories.md](11-accessories.md) | **10 oz 525-viscosity oil**. Five of the source's 15 oz cans total |
+| 75 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
+| 5 | lb | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
+| 80 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
+| 5 | lbs. | [11-accessories.md](11-accessories.md) | Freon-12 charge 5 lbs. or 5 Cans Unresolved source conflict; 1962–63 factory A/C |
+| 10 | oz | [11-accessories.md](11-accessories.md) | Compressor oil charge 10 oz of 525-viscosity oil 1962–63 factory A/C |
+| 40 | in. lb. | [11-accessories.md](11-accessories.md) | figure's slot relationship, then tighten to **40 in. lb.** Use approved |
+| 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. During |
+| 275 | psi | [11-accessories.md](11-accessories.md) | not exceed **275 psi** and container pressure should remain between |
+| 90–100 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
+| 300–310 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
+| 120 | °F | [11-accessories.md](11-accessories.md) | at 120°F and the fast-idle instruction expects **300 psi** under its |
+| 300 | psi | [11-accessories.md](11-accessories.md) | at 120°F and the fast-idle instruction expects **300 psi** under its |
+| 100 | psi | [11-accessories.md](11-accessories.md) | and bleed high side slowly through center port. Below **100 psi** high |
+| 5 | psi | [11-accessories.md](11-accessories.md) | side, open low side and continue until remaining pressure ≤**5 psi**; |
+| 1,000 | rpm | [11-accessories.md](11-accessories.md) | running for final charge, use at least **1,000 rpm**; check pressure, |
+| 1500 | rpm | [11-accessories.md](11-accessories.md) | sight glass and performance at **1500 rpm** afterward. |
+| 5 | lb | [11-accessories.md](11-accessories.md) | **5 lb** graduated cylinder. To fill it, open drum supply and bottom |
+| ½ | lb | [11-accessories.md](11-accessories.md) | admit **½ lb** through Freon control **(4)**, repair leaks and retry. |
+| ½ | lb | [11-accessories.md](11-accessories.md) | 3. After initial evacuation, admit another **½ lb**, purge it and |
+| 50 | psi | [11-accessories.md](11-accessories.md) | Regulate (4) so low-side gauge remains **below 50 psi**, preventing |
+| 10 | oz | [11-accessories.md](11-accessories.md) | The compressor originally holds **10 oz** of Frigidaire 525-viscosity oil. |
+| 1,000–1,500 | rpm | [11-accessories.md](11-accessories.md) | 1,000–1,500 rpm**, drain and measure compressor oil: |
+| 4 | fluid oz | [11-accessories.md](11-accessories.md) | At least 4 fluid oz Same measured amount |
+| 4 | fluid oz | [11-accessories.md](11-accessories.md) | Less than 4 fluid oz 6 fluid oz |
+| 6 | fluid oz | [11-accessories.md](11-accessories.md) | Less than 4 fluid oz 6 fluid oz |
+| 1 | fluid oz | [11-accessories.md](11-accessories.md) | For a field-repaired compressor, add **1 fluid oz** more. Drain a new |
+| 6 | fluid oz | [11-accessories.md](11-accessories.md) | amount; below it after major loss, add **6 fluid oz** to a replacement |
+| 7 | fluid oz | [11-accessories.md](11-accessories.md) | or **7 fluid oz** to a repaired unit. For chips or foreign matter, |
+| 10 | fluid oz | [11-accessories.md](11-accessories.md) | **10 fluid oz** of new oil. |
+| 3 | fluid oz | [11-accessories.md](11-accessories.md) | Evaporator 3 fluid oz |
+| 1 | fluid oz | [11-accessories.md](11-accessories.md) | Condenser 1 fluid oz |
+| 1 | fluid oz | [11-accessories.md](11-accessories.md) | Receiver-dehydrator 1 fluid oz |
+| 17–23 | ft-lb | [11-accessories.md](11-accessories.md) | **17–23 ft-lb**; restore bracket, belt, wiring and belt tension. |
+| 14–16 | ft-lb | [11-accessories.md](11-accessories.md) | **14–16 ft-lb** and verify clutch air gap **.022 in.** Cycle clutch |
+| 12 | V | [11-accessories.md](11-accessories.md) | at 12 V DC** at room temperature. Refit housing at its marks with the |
+| 19–23 | ft-lb | [11-accessories.md](11-accessories.md) | **19–23 ft-lb**. |
+| 15 | ft-lb | [11-accessories.md](11-accessories.md) | With checking cage **J-9397**, tighten cage nuts **15 ft-lb** and |
+| 360 | ° | [11-accessories.md](11-accessories.md) | tightest point over **360°** of wobble-plate rotation. Target shaft |
+| 120 | ° | [11-accessories.md](11-accessories.md) | The gauging procedure turns the shaft approximately **120°** between |
+| 4–8 | oz | [11-accessories.md](11-accessories.md) | and spring scale so the leaf takes **4–8 oz** to withdraw; select the |
+| 19–23 | ft-lb | [11-accessories.md](11-accessories.md) | Tighten gauging-cage nuts evenly to **19–23 ft-lb** with front shaft |
+| 4–8 | oz | [11-accessories.md](11-accessories.md) | ZERO race with the same **4–8 oz** feeler drag; select matching |
+| 15 | lb | [11-accessories.md](11-accessories.md) | to **½–¾ in. deflection under 15 lb** midway between compressor and |
+| 125 | psi | [11-accessories.md](11-accessories.md) | allows dry nitrogen flushing with drum pressure ≤**125 psi**. |
+| 550 | rpm | [11-accessories.md](11-accessories.md) | for 1963, sets **550 rpm** with A/C on, automatic transmission in DRIVE |
+| 300 | psi | [11-accessories.md](11-accessories.md) | or manual gearbox in NEUTRAL, and expects **300 psi** head pressure |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |
