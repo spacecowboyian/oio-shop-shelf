@@ -157,11 +157,13 @@ it every **12,000 miles** through the battery access door.
 
 <a id="p136"></a> **[PDF p.136](../page-images/p0136.png)** <!-- SOURCE id=base-1961 page=2-7 years=1961,1962,1963 scope=passenger -->
 
-The base lubrication prose gives a dry fill range that differs from the
-base Section 12 approximate figure. This chapter does not promote either
-to a precise 1963 dry-fill quantity; establish the final level by the
-supplement's dipstick procedure.
-<!-- NEEDS REVIEW: Base Lubrication p. 2-7 prints 13–14 pints dry, while base Specifications p. 12-10 says approximately 13 pints; resolve the distinction before indexing a 1963 Powerglide dry-fill quantity. -->
+The base lubrication prose prints **13–14 pints dry**, while base Section
+12 says approximately **13 pints**. GM's dated October 1962 specification
+for the 1963 passenger Powerglide, [Power Trains p. 16](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=53),
+confirms **approximately 13 pints dry**. Establish
+the final level by the supplement's dipstick procedure.
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-16 years=1963 scope=passenger pdf_page=53 -->
+<!-- RESOLVED SOURCE CONFLICT: Base Section 2 p.2-7 prints 13–14 pints dry; base Section 12 p.12-10 prints approximately 13. Dated October 1962 GM 1963 Power Trains p.16 (PDF p.53) independently prints approximately 13 pints. -->
 
 ### Manual transmission and rear axle
 

@@ -17,9 +17,8 @@ below.
 
 The inherited factory table identifies **Type A, suffix A** fluid and
 the planetary ratios. Its **approximately six-pint refill** agrees
-with the service procedure. Its dry-fill capacity and reverse-clutch
-plate counts conflict with other factory pages and are withheld pending
-verification.
+with the service procedure. The dated 1963 GM specifications below
+resolve the conflicting dry-fill and reverse-clutch plate figures.
 
 | 1963 passenger Powerglide | Factory value |
 |---|---|
@@ -27,6 +26,27 @@ verification.
 | Low and reverse planetary ratio | 1.82:1 |
 | Fluid | Type A, suffix A |
 | Approximate refill, converter not drained | 6 pints |
+
+### Dated 1963 Powerglide specifications
+
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-16 years=1963 scope=passenger pdf_page=53 -->
+
+GM's *1963 Chevrolet Corvair Vehicle Information Kit*, [Power Trains p. 16](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=53),
+dated **October 1962**, gives these 1963 passenger specifications:
+
+| Powerglide specification | 1963 factory value |
+| --- | --- |
+| Dry fluid capacity | Approximately 13 pints |
+| Reverse-clutch driving discs | Four, non-metallic faced |
+| Reverse-clutch driven discs | Four steel plates and one cast-iron pressure plate |
+
+The base Section 6E service prose prints **12 pints dry** and describes
+**three** faced reverse-clutch plates; base Section 2 prints **13–14 pints
+dry**. The later, year-specific GM sheet agrees with base Section 12's
+approximately 13 pints and four driving/four driven plates. For a fill,
+use the dipstick procedure after adding fluid; for clutch service, verify
+the installed assembly and matching replacement parts.
+<!-- RESOLVED SOURCE CONFLICT: Base 6E pp.6E-3 and 6E-13 differ from base Sections 2 and 12. Dated October 1962 GM 1963 Power Trains p.16 (PDF p.53) explicitly lists approximately 13 pints dry, four reverse driving discs, four steel driven plates, and a cast-iron pressure plate. -->
 
 ## Operation, fluid and controls
 
@@ -36,9 +56,10 @@ Powerglide joins a two-speed planetary transmission and air-cooled torque
 converter to the differential carrier. The converter sits at the engine;
 the pump and turbine shafts pass through the carrier to the transmission.
 The selector has **Reverse, Neutral, Drive and Low**, with no Park detent.
-The base service description and Section 12 list opposite top-to-bottom
-orders, so verify the physical quadrant before using either order.
-<!-- NEEDS REVIEW: Base Section 6E p. 6E-1 lists selector positions top-to-bottom R-N-D-L; base Section 12 p. 12-10 lists L-D-N-R. Verify the actual 1963 passenger quadrant orientation before documenting its physical order. -->
+The base service description lists R-N-D-L top-to-bottom, while Section 12
+and the October 1962 GM kit, Power Trains p. 16, list L-D-N-R. Verify the
+physical quadrant before using either order.
+<!-- NEEDS REVIEW: Base Section 6E p.6E-1 lists selector positions top-to-bottom R-N-D-L; base Section 12 p.12-10 and the October 1962 GM 1963 Power Trains p.16 list L-D-N-R. Verify the actual 1963 passenger instrument-panel quadrant before documenting its physical order. -->
 The manual-low inhibitor prevents an unsafe downshift at high road speed.
 The opening page also lists changes already built into the 1961 unit;
 do not treat those as additional 1963 modifications. The inherited
@@ -65,9 +86,9 @@ engine. No periodic fluid drain is prescribed by this source. For a
 repair refill, open the filler-tube nut at the pan to drain, reinstall,
 add **four pints**, idle in Neutral for **3–5 minutes**, then add only to
 FULL; the source estimates approximately **six pints** when the welded
-converter was not drained. The base manual and its specifications section
-disagree on dry capacity, so no 1963 dry-fill value is indexed.
-<!-- NEEDS REVIEW: Base Powerglide Section 6E p. 6E-3 prints 12 pints dry, while base Section 2 p. 2-7 prints 13–14 pints and base Section 12 p. 12-10 says approximately 13 pints. Resolve these factory figures before assigning a 1963 dry-fill value. -->
+converter was not drained. The dated 1963 GM specification above gives an
+**approximately 13-pint dry capacity**; final
+level still follows the dipstick.
 
 <a id="p378"></a> **[PDF p.378](../page-images/p0378.png)** <!-- SOURCE id=base-1961 page=6E-4 years=1961,1962,1963 scope=passenger -->
 
@@ -203,15 +224,17 @@ the transmission from the power train.
 
 With the transmission separated from the carrier, lift out ring gear.
 Remove the reverse-clutch snap-ring clip and ring, then the thick front
-reaction plate and alternating faced/steel plates. The source pages
-disagree on plate counts; retain the installed stack for comparison
-until parts applicability is verified.
+reaction plate and alternating faced/steel plates. This inherited 1961
+procedure depicts three faced plates; the dated 1963 GM specification
+above lists four faced driving discs and four steel driven plates plus
+a cast-iron pressure plate. Retain the installed stack for comparison
+and verify replacement-part applicability before assembly.
 Unbolt the rear pump/reverse piston from the carrier side, twist and pull
 the assembly out, and remove its wear plate. Clean parts and passages;
 protect finished case surfaces and inspect mating faces and the manual-
 cable bore for cracks or wear. An overtightened cable nut can crack the
 case at that bore.
-<!-- NEEDS REVIEW: Base Section 6E p. 6E-13 and its cross-section identify three reverse-clutch faced plates, while base Section 12 p. 12-10 specifies four driving and four driven plates. The 1962–63 supplement says automatic-transmission specifications are unchanged. Verify 1963 passenger reverse-clutch plate counts before ordering or assembly. -->
+<!-- RESOLVED SOURCE CONFLICT: Base Section 6E p.6E-13 and cross-section identify three faced reverse-clutch plates; base Section 12 p.12-10 specifies four driving and four driven. GM's October 1962 1963 Power Trains p.16 (PDF p.53) confirms four driving discs and four steel driven plates plus the pressure plate for 1963. -->
 
 <a id="p388"></a> **[PDF p.388](../page-images/p0388.png)** <!-- SOURCE id=base-1961 page=6E-14 years=1961,1962,1963 scope=passenger -->
 

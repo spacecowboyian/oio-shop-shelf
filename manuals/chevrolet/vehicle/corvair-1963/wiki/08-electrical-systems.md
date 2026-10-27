@@ -775,10 +775,15 @@ present, ground terminal 1 as factory figure 8-25 shows to isolate
 switch wiring from relay coil. Relay click without pump action points
 to ratchet/cam/valve mechanism. The detached-pump test checks pawl
 engagement, holding contacts and lockout after a full ratchet cycle.
-This diagnostic page calls its rotating test cam **three-lobe** while
-the assembly description p.695 calls the drive cam **four-lobe**;
-identify the actual pump/cam before service.
-<!-- NEEDS REVIEW: Supplement Section 8 p. 8-9 describes a four-lobe washer drive cam, while its diagnostic sequence on p. 8-14 calls for turning a three-lobe cam. Determine whether these describe different cam components or a factory error before using lobe count to identify a part. -->
+This diagnostic page twice calls its rotating test cam **three-lobe**.
+The assembly description (printed p. 8-9, [PDF p.695](../page-images/p0695.png))
+and labeled fig. 8-18 ([PDF p.696](../page-images/p0696.png)) identify
+the washer drive as **four-lobe**. Chevrolet's October 1962 *Service News*,
+[p. 14](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf#page=14),
+independently specifies a four-lobe direct drive for **all 1963 wiper motors**.
+Treat “three-lobe” on this diagnostic page as the inconsistent factory wording;
+identify the installed pump before applying the procedure.
+<!-- RESOLVED SOURCE CONFLICT: Supplement Section 8 p.8-14 twice says three-lobe, but p.8-9 and fig.8-18 on p.8-10 identify the washer drive as four-lobe. October 1962 Chevrolet Service News p.14 explicitly specifies four-lobe direct drive for all 1963 wiper motors. -->
 
 <a id="p701"></a> **[PDF p.701](../page-images/p0701.png)** <!-- SOURCE id=supplement-1962-63 page=8-15 years=1963 scope=passenger -->
 

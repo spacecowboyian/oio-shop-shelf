@@ -193,9 +193,19 @@ rear to front, is left bank **2-4-6**, right bank **1-3-5**.
 Piston pins are press-fit in the connecting rods; crankshaft end thrust is
 at No. 1 main bearing. The supplement's No. 3–4 main-journal diameter is
 printed **2.0983–2.0983 in.**, while the base says **2.0983–2.0993 in.**
-The apparent factory misprint is unresolved; neither range is entered as
-an applicable 1963 lookup value.
-<!-- NEEDS REVIEW: Source misprint, not OCR: supplement Section 12 p.12-5 visually prints main journals 3–4 as 2.0983–2.0983 in.; base Section 12 p.12-6 prints 2.0983–2.0993 in. Verify a factory correction before using either 1963 range. -->
+GM's revised 1963 crankshaft drawing confirms the latter endpoints.
+
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-6 years=1963 scope=passenger pdf_page=43 -->
+
+The *1963 Chevrolet Corvair Vehicle Information Kit*, [Power Trains p. 6](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=43),
+marked **revised November 1962**, labels the No. 3 and 4 main bearing
+journal endpoints **2.0993** and **2.0983 in.** on the crankshaft drawing.
+
+| 1963 passenger crankshaft journal | Diameter |
+| --- | --- |
+| Main journals Nos. 3 and 4 | 2.0983–2.0993 in. |
+
+<!-- RESOLVED SOURCE CONFLICT: Supplement Section 12 p.12-5 prints 2.0983–2.0983 in. for Nos. 3–4; base Section 12 p.12-6 prints 2.0983–2.0993 in. The revised November 1962 GM 1963 Power Trains p.6 crankshaft drawing (PDF p.43) confirms 2.0983–2.0993 in. -->
 
 | Camshaft lobe lift at pushrod | Turbo-Air / Monza Powerglide | Super Turbo-Air / Spyder |
 | --- | --- | --- |
@@ -252,7 +262,7 @@ scan is ambiguous; identify the fastener by its factory description.
 | Rocker-arm-ball stud | 27–33 ft. lb. |
 | Rocker-arm-ball-stud nut | 55–125 in. lb. |
 | Oil-pressure switch, pipe thread | 10–15 ft. lb. |
-| Spark plug | Unresolved; this chart prints 20–25 ft. lb., tune-up p.7-5 prints 15–20 ft. lb. <!-- NEEDS REVIEW: Supplement Section 12 p.12-6 engine torque chart prints 20–25 ft. lb. for spark plugs, while its tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. --> |
+| Spark plug | 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see [source comparison](#1963-spark-plug-gap)) |
 
 The air-cooling system uses a V-belt **55.7 in.** long and **.380 ± .005 in.**
 wide, with a **40°** V angle. The exhaust thermostat starts opening at
@@ -268,10 +278,27 @@ wide, with a **40°** V angle. The exhaust thermostat starts opening at
 | Standard single dry disc | 9⅛ in. diameter |
 | RPO 649 or 651 disc | 8 in. diameter |
 | Diaphragm pressure-spring diameter | 9⅛ in. |
-| Standard 500/700/900 total spring pressure | 900–1050 ft. lbs. as printed <!-- NEEDS REVIEW: Source Section 12 p.12-7 prints clutch spring pressure in “ft. lbs.”; physical meaning/unit appears questionable. Preserve print and verify before use. --> |
-| Supercharged clutch total spring pressure | 1500 ft. lbs. as printed <!-- NEEDS REVIEW: Same source unit issue as standard clutch spring pressure; verify factory unit. --> |
+| Standard 500/700/900 total spring pressure | 900–1050 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
+| Supercharged clutch total spring pressure | 1500 “ft. lbs.” as printed; see [source comparison](#1963-clutch-pressure-comparison) |
 | Clutch-housing pilot runout | .015 in. TIR |
 | Flywheel face / OD runout | .020 / .010 in. TIR |
+
+### 1963 clutch pressure comparison
+
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-13 years=1963 scope=passenger pdf_page=50 -->
+<!-- SOURCE id=gm-ama-1963 page=AMA-15 years=1963 scope=passenger pdf_page=74 -->
+
+GM's *1963 Chevrolet Corvair Vehicle Information Kit* calls this an
+**effective plate load/pressure** and prints **lb.**, confirming that the
+supplement's “ft. lbs.” is not a usable unit for the clutch load. The
+[Power Trains chart, p. 13](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=50)
+prints 900–1075 across its 80, 102, and 150 hp columns. The
+[AMA specifications, p. 15](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=74)
+print 900–1075 with a 1250–1450 footnote for the turbocharged engine.
+The shop supplement, printed p. 12-7 ([PDF p.630](../page-images/p0630.png)),
+instead prints 900–1050 and 1500 with “ft. lbs.”. These are distinct factory
+statements; no 1963 application-specific load is selected from them.
+<!-- NEEDS REVIEW: The unit is force (lb.) in GM's 1963 Power Trains p.13 and AMA p.15, but pressure values conflict: supplement Section 12 p.12-7 prints 900–1050 and 1500 (mislabelled “ft. lbs.”); Power Trains p.13 prints 900–1075 lb across 80/102/150 hp; AMA p.15 prints 900–1075 lb with a 1250–1450 lb turbocharged footnote. Find a controlling factory correction before indexing a load. -->
 
 The rear axle is an integral differential with independent U-jointed axle
 shafts. For **1963**, lubricant capacity is **4½ pints**; the printed 1962
@@ -295,9 +322,13 @@ The source's 1963 footnote makes **3.55:1** standard for air-conditioned
 vehicles. Station-wagon, Greenbrier, Rampside and Corvan rows are omitted.
 The Super Turbo-Air three-speed standard-ratio entry is expressly labeled
 1962 and is also omitted.
-The table's Positraction entries have merged cells and require verification
-before assigning a ratio to an exact engine/transmission pairing.
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-7 Positraction ratios are in vertically merged cells; verify alignment to each 1963 passenger engine/transmission row before indexing a ratio. -->
+The [source image](../page-images/p0630.png) shows the Positraction column
+as **one unruled cell spanning the engine/transmission rows**. It lists
+3.08:1 (1963), 3.27:1, 3.55:1, and 3.89:1, but does not assign each to a
+particular row. Those are available-ratio entries, not row-specific
+specifications; confirm the installed axle and applicable option before
+selecting a ratio.
+<!-- RESOLVED LAYOUT QUESTION: Supplement Section 12 p.12-7 has no horizontal row rules in the Positraction column; its ratio list spans the engine/transmission rows and cannot be mapped one-for-one to them. -->
 
 <a id="p631"></a> **[PDF p.631](../page-images/p0631.png)** <!-- SOURCE id=supplement-1962-63 page=12-8 years=1962,1963 scope=passenger -->
 
@@ -330,7 +361,7 @@ at [base p.12-10](#p126). Tune-up values are in [Section 7](07-engine-tune-up.md
 | Standard Turbo-Air spark plug | AC-46FF |
 | Monza Powerglide spark plug | AC-44FF |
 | Spark-plug size | 14 mm |
-| Spark-plug torque | Unresolved; Section 12 prints 20–25 ft. lb., Section 7 prints 15–20 ft. lb. | <!-- NEEDS REVIEW: Supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. spark-plug torque, while supplement tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. --> |
+| Spark-plug torque | 25 ft. lb. in the revised 1963 GM chart (see [source comparison](#1963-spark-plug-gap)) | |
 
 The supplement groups Super Turbo-Air and turbocharged spark-plug applications
 without a legible type entry. Chevrolet Service News supplies the 1963 types
@@ -351,20 +382,26 @@ SHA-256 `a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e`.
 | Super Turbo-Air 102 hp | AC-44FF |
 | Turbocharged Monza Spyder 150 hp | AC-44FF |
 
-### 1963 spark-plug gap
+<a id="1963-spark-plug-gap"></a>
+### 1963 spark-plug gap and torque
 
 <!-- SOURCE id=gm-ama-1963 page=Power-Trains-11 years=1963 scope=passenger pdf_page=48 -->
 
 GM, *1963 Chevrolet Corvair Vehicle Information Kit*, Power Trains p. 11
 ([PDF p. 48](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=48)),
-marked **revised November 1962**, lists the following gap for its 80, 84,
-102, and 150 hp passenger engines. This agrees with the supplement's tune-up
-table and October 1962 Chevrolet Service News. The conflicting Section 12
-electrical entry remains in the linked original scan above for audit.
+marked **revised November 1962**, lists the following gap and torque for its
+80, 84, 102, and 150 hp passenger engines. Its 25 ft. lb. torque falls within
+the 20–25 ft. lb. range in both supplement Section 12 charts and the October
+1962 Chevrolet Service News. Supplement tune-up p. 7-5 instead prints
+15–20 ft. lb. The revised, year-specific GM chart governs the 1963 lookup.
+The conflicting Section 12 gap entry remains in the linked original scan
+above for audit. The GM chart prints the torque unit as “lb ft”; the table
+below expresses that same unit as “ft. lb.”.
+<!-- RESOLVED SOURCE CONFLICT: Supplement Section 7 p.7-5 prints 15–20 ft. lb. spark-plug torque; Section 12 pp.12-6 and 12-9 and October 1962 Service News p.23 print 20–25 ft. lb. The revised November 1962 GM 1963 vehicle information kit, Power Trains p.11 (PDF p.48), specifies 25 ft. lb. Index that later, year-specific value. -->
 
-| Application | Spark-plug gap |
-| --- | --- |
-| All listed 1963 passenger engines, factory ignition | .035″ |
+| Application | Spark-plug gap | Spark-plug torque |
+| --- | --- | --- |
+| All listed 1963 passenger engines, factory ignition | .035″ | 25 ft. lb. |
 
 <a id="p632-generator"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->
 
@@ -562,10 +599,21 @@ replaces a base value, use the supplement table above.
 | Front jounce / rebound travel, metal to metal | 4.00 / 3.12 in. |
 | Front wheel-to-spring ratio | 1.63:1 |
 | Front shock-piston diameter / travel | 1.00 / 4.75 in. |
-| Front ball-stud spherical diameter, upper and lower | 1.000–.996 in. as printed <!-- NEEDS REVIEW: Base Section 12 opening page prints this diameter interval in descending order. Verify the original ball-stud limits before use. --> |
 | Rear jounce / rebound travel, metal to metal | 3.62 / 4.64 in. |
 | Rear wheel-to-spring ratio | 1.72:1 |
 | Rear shock-piston diameter / travel | 1.00 / 5.00 in. |
+
+<!-- SOURCE id=gm-ama-1963 page=Chassis-2 years=1963 scope=passenger pdf_page=31 -->
+
+The base shop table prints the ball-stud interval in descending order.
+GM's [January 1963 revised Chassis p. 2](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=31)
+prints the 1963 upper and lower spherical diameter in ascending order:
+
+| 1963 passenger spherical joint | Diameter |
+| --- | --- |
+| Upper and lower ball studs | .996–1.000 in. |
+
+<!-- RESOLVED SOURCE CONFLICT: Base Section 12 opening page has 1.000–.996 in. in descending order. GM's revised January 1963 Chassis p.2 (PDF p.31) explicitly prints .996–1.000 in. for both upper and lower ball studs. -->
 
 The January 1963 revised GM chassis sheets list different front and rear
 spring assemblies. Do not use the base spring dimensions as universal 1963
@@ -587,10 +635,27 @@ model 967 convertible. The table excludes unoffered engine/body combinations.
 <!-- SOURCE id=gm-ama-1963 page=Chassis-4 years=1963 scope=passenger pdf_page=33 -->
 
 The kit's [revised rear-spring chart](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=33)
-distinguishes body, engine, transmission, and handed part numbers. Match the
-installed assembly to that chart before choosing a rear spring; a single
-universal rear-spring dimension is not supplied here.
-<!-- NEEDS REVIEW: January 1963 GM chassis p.4 gives multiple handed rear-spring part numbers and model/engine/transmission applications. Transcribe and verify the full matrix before indexing replacement rear-spring dimensions. -->
+is marked **revised January 1963**. Its black cells denote engine/body
+combinations not offered. A/C and B/D are left/right pairs, not interchangeable
+single springs.
+
+| Engine and transmission in factory chart | Models 527, 727, 769, 927 | Model 967 convertible | Model 969 sedan |
+| --- | --- | --- | --- |
+| 80 hp, 3-speed / 4-speed / Powerglide | A/C | B/D | A/C |
+| 84 hp, Powerglide | 927 only: A/C | B/D | A/C |
+| 102 hp, 3-speed / 4-speed / Powerglide | A/C | B/D | A/C |
+| 150 hp, 3-speed / 4-speed | 927 only: A/C | B/D | Not offered |
+
+| Rear spring code | GM part number | Side | Wire / outside / pitch diameter | Free height | Working height and load |
+| --- | --- | --- | --- | --- | --- |
+| A | 3789174 | Left | .617 / 4.687 / 4.070 in. | 11.36 in. | 7.45 in. at 1770 lb. |
+| C | 3797734 | Right | .617 / 4.687 / 4.070 in. | 11.03 in. | 7.45 in. at 1620 lb. |
+| B | 3830731 | Left | .630 / 4.713 / 4.083 in. | 11.23 in. | 7.45 in. at 1850 lb. |
+| D | 3830732 | Right | .630 / 4.713 / 4.083 in. | 10.92 in. | 7.45 in. at 1700 lb. |
+
+The source chart supplies the different free heights and loads in its `*`
+and `**` footnotes below the table. Use the body model, engine, transmission,
+and side together when matching a factory spring.
 
 <a id="p118"></a> **[PDF p.118](../page-images/p0118.png)** <!-- SOURCE id=base-1961 page=12-2 years=1961,1962,1963 scope=passenger applicability=inherited-bearing-construction -->
 
@@ -670,9 +735,28 @@ taper), with **1.366 in.** cutter diameter. Use the later supplement
 [p.12-6](#p629) for valve lifts, angles, and stem-to-guide clearances.
 
 The 1963 supplement restates the crankshaft clearances and valve lifts.
-Base theoretical valve-timing figures are not substituted for the 1963
-variant-specific distributor and cam data without corroboration.
-<!-- NEEDS REVIEW: Base Section 12 p.12-6 theoretical valve-timing chart is not repeated in the supplement; verify its 1963 cam/variant applicability before treating the timing angles as universal. -->
+Do not use the base theoretical valve-timing figures as universal 1963
+values: the year-specific GM chart distinguishes production, high-performance,
+and turbocharged cams.
+
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-7 years=1963 scope=passenger pdf_page=44 -->
+
+GM, *1963 Chevrolet Corvair Vehicle Information Kit*, [Power Trains p. 7](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=44),
+revised November 1962, gives the following valve timing. “Excluding ramps”
+and “including ramps” are distinct measurement conventions in that chart.
+The source abbreviates before top center as BTC and before bottom center as
+BBC; those are expanded below.
+
+| Valve event | Production, excluding / including ramps | High performance, excluding / including ramps | Turbocharged, excluding / including ramps |
+| --- | --- | --- | --- |
+| Inlet opens, ° BTDC | 15 / 43 | 36 / 54 | 58 / 70 |
+| Inlet closes, source says “ATC” | 27 / 93 | 62 / 118 | 86 / 110 <!-- NEEDS REVIEW: Revised 1963 GM Power Trains p.7 labels inlet closing “ATC,” but its opening angles and durations imply closing after bottom center. Preserve the printed angles and withhold a definitive directional label until another factory source confirms it. --> |
+| Inlet duration, ° | 222 / 316 | 278 / 352 | 324 / 360 |
+| Exhaust opens, ° BBDC | 59 / 87 | 77 / 95 | 98 / 110 |
+| Exhaust closes, ° ATDC | 13 / 69 | 22 / 78 | 46 / 70 |
+| Exhaust duration, ° | 252 / 336 | 279 / 353 | 324 / 360 |
+
+<!-- RESOLVED APPLICABILITY: The 1963 GM Power Trains p.7 chart (PDF p.44) explicitly separates production, high-performance, and turbocharged valve timing, superseding any universal reading of the inherited base Section 12 theoretical chart. -->
 
 <a id="p123"></a> **[PDF p.123](../page-images/p0123.png)** <!-- SOURCE id=base-1961 page=12-7 years=1961,1962,1963 scope=passenger applicability=inherited-lubrication-and-cooling -->
 

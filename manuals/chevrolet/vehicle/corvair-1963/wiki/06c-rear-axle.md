@@ -331,7 +331,14 @@ on a press bed with J-8619-1 beneath its puller ring, the plate's flat lip
 against that ring. Press off the oil deflector, bearing, shield and ring.
 The supplement's first bearing illustration depicts the **1962 design**
 for comparison; it does not authorize that bearing for a 1963 axle.
-<!-- NEEDS REVIEW: Supplement Section 6C p. 6C-1 step 1 prints J-8916-1, while the note/figure on the same page and special-tools list p. 6C-7 say J-8619-1 for the axle-bearing press plate. The latter is used in this chapter, but verify the tool number against another factory copy before obtaining a tool. -->
+Chevrolet Service News, August 1961, [p. 1](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-33-8.pdf#page=1),
+identifies **J-8619-1** in its passenger-car bearing-removal procedure and
+figure, and says it supersedes the reworked J-5741. The later supplement's
+step 1 prints **J-8916-1**, contrary to its own note, figure, and special-tools
+list. That isolated step is a factory text conflict; use the corroborated
+J-8619-1 designation when identifying the press plate.
+<!-- SOURCE id=chevrolet-service-news-33-8 page=1 years=1961 scope=passenger pdf_page=1 -->
+<!-- RESOLVED SOURCE CONFLICT: Supplement Section 6C p.6C-1 step 1 prints J-8916-1; its note/figure and p.6C-7 special-tools list say J-8619-1. Chevrolet Service News 33-8 p.1 (August 1961) independently labels the Corvair passenger press plate J-8619-1 in text and Figure 2. -->
 
 <a id="p670"></a> **[PDF p.670](../page-images/p0670.png)** <!-- SOURCE id=supplement-1962-63 page=6C-2 years=1963 scope=passenger -->
 

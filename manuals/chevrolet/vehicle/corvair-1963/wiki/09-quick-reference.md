@@ -229,12 +229,17 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 130 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
 | 20 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
 | .035 | ″ | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug gap .035″ |
+| 25 | ft. lb. | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug torque 25 ft. lb. |
 | 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 19–23 | oz. | [07-engine-tune-up.md](07-engine-tune-up.md) | Breaker-arm spring tension 19–23 oz. |
 | 4–5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
 | 1000 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | Fuel-pump pressure 4–5 lb at idle–1000 rpm |
 | 5 | lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Blower-belt strand tension 75 ±5 lb |
+| 25 | ft. lb. | [07-engine-tune-up.md](07-engine-tune-up.md) | marked **revised November 1962**, confirms both the gap and the 25 ft. lb. |
+| 20–25 | ft. lb. | [07-engine-tune-up.md](07-engine-tune-up.md) | also gives the gap and a 20–25 ft. lb. torque range. The supplement's Section 7 |
+| 15–20 | ft. lb. | [07-engine-tune-up.md](07-engine-tune-up.md) | tune-up table prints 15–20 ft. lb. torque, while both Section 12 charts print |
+| 20–25 | ft. lb. | [07-engine-tune-up.md](07-engine-tune-up.md) | 20–25 ft. lb.; use the later, 1963-specific GM chart for the stated value. |
 | 6,000 | miles | [07-engine-tune-up.md](07-engine-tune-up.md) | air-cleaner service at **6,000 miles** for regular and turbocharged |
 | 50 | rpm | [07-engine-tune-up.md](07-engine-tune-up.md) | block the valve opening and note rpm change. **Less than 50 rpm change** |
 | .05 | V | [08-electrical-systems.md](08-electrical-systems.md) | fine-scale voltmeter after one minute. A difference of **.05 V or |
@@ -483,6 +488,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 27–33 | ft. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball stud 27–33 ft. lb. |
 | 55–125 | in. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball-stud nut 55–125 in. lb. |
 | 10–15 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil-pressure switch, pipe thread 10–15 ft. lb. |
+| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see sourc |
+| 25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see sourc |
 | 40 | ° | [12-specifications.md](12-specifications.md) | wide, with a **40°** V angle. The exhaust thermostat starts opening at |
 | 200–210 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
 | 215–225 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
@@ -495,7 +502,12 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 7200–9500 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
 | 1.8 | Ω | [12-specifications.md](12-specifications.md) | Harness ignition resistor 1.8 Ω |
 | 14 | mm | [12-specifications.md](12-specifications.md) | Spark-plug size 14 mm |
-| .035 | ″ | [12-specifications.md](12-specifications.md) | All listed 1963 passenger engines, factory ignition .035″ |
+| 25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark-plug torque 25 ft. lb. in the revised 1963 GM chart (see source comparison) |
+| 25 | ft. lb. | [12-specifications.md](12-specifications.md) | 80, 84, 102, and 150 hp passenger engines. Its 25 ft. lb. torque falls within |
+| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | the 20–25 ft. lb. range in both supplement Section 12 charts and the October |
+| 15–20 | ft. lb. | [12-specifications.md](12-specifications.md) | 15–20 ft. lb. The revised, year-specific GM chart governs the 1963 lookup. |
+| .035 | ″ | [12-specifications.md](12-specifications.md) | All listed 1963 passenger engines, factory ignition .035″ 25 ft. lb. |
+| 25 | ft. lb. | [12-specifications.md](12-specifications.md) | All listed 1963 passenger engines, factory ignition .035″ 25 ft. lb. |
 | 12 | V | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
 | 80 | °F | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
 | 30 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
@@ -617,6 +629,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 155 | lb. | [12-specifications.md](12-specifications.md) | A, part 3789173; coupe and sedan 5.85 / 7.45 .450 in. 4.353 in. 3.903 in. 11.39 in. 6.42 i |
 | 855 | lb. | [12-specifications.md](12-specifications.md) | B, part 3826077; model 967 convertible 5.85 / 7.45 .470 in. 4.393 in. 3.923 in. 11.12 in.  |
 | 182 | lb. | [12-specifications.md](12-specifications.md) | B, part 3826077; model 967 convertible 5.85 / 7.45 .470 in. 4.393 in. 3.923 in. 11.12 in.  |
+| 1770 | lb. | [12-specifications.md](12-specifications.md) | A 3789174 Left .617 / 4.687 / 4.070 in. 11.36 in. 7.45 in. at 1770 lb. |
+| 1620 | lb. | [12-specifications.md](12-specifications.md) | C 3797734 Right .617 / 4.687 / 4.070 in. 11.03 in. 7.45 in. at 1620 lb. |
+| 1850 | lb. | [12-specifications.md](12-specifications.md) | B 3830731 Left .630 / 4.713 / 4.083 in. 11.23 in. 7.45 in. at 1850 lb. |
+| 1700 | lb. | [12-specifications.md](12-specifications.md) | D 3830732 Right .630 / 4.713 / 4.083 in. 10.92 in. 7.45 in. at 1700 lb. |
 | 9 | gal | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4000 | rpm | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4 | qt. | [12-specifications.md](12-specifications.md) | Crankcase capacity, dry / refill 5½ / 4 qt. |
