@@ -51,6 +51,36 @@
       "combined_pdf": false
     },
     {
+      "source_id": "chevrolet-powerglide-training-1960-p25",
+      "filename": "TOP-60-SM-4-p25.jpg",
+      "url": "https://chevy.oldcarmanualproject.com/booklets/60top04/images/6004top25.jpg",
+      "sha256": "cac529ecac6b08d8e7cb2cfb9d5902b457ae2699cab464b340e7fe016f0d6685",
+      "bytes": 389570,
+      "pages": 1,
+      "role": "Chevrolet Corvair Powerglide training booklet Part II p.25 explicitly gives 9–11 foot-pounds for valve-body attaching bolts; image of the factory page",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "corvair-supplement-1964-fuel",
+      "filename": "Corvair_1964SM_9.pdf",
+      "url": "https://northern-california-corvairs.com/64%20Shop%20Manual%20Ch%209-fuelExh-64.pdf",
+      "sha256": "7f26ff47d97a44e2ac6b4216a1011372880e65cbf23bc286d7f97840b60633cd",
+      "bytes": 4182054,
+      "pages": 34,
+      "role": "Later Chevrolet factory supplement Section 9 p.9-14 corroborates one-notch-lean on-car Carter YH choke adjustment",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "carter-yh-spec-chart",
+      "filename": "Carter-YH-Manual.pdf",
+      "url": "https://www.carburetor-parts.com/assets/manuals/Carter-YH-Manual.pdf",
+      "sha256": "565df033c1e26e706483b65c467e2aa2493ee32930a122729e36113e5e7392ab",
+      "bytes": 26155164,
+      "pages": 24,
+      "role": "Carter YH specification-chart compilation, PDF p.24: 1963–66 Chevrolet one notch lean versus 1962 one notch rich; corroborating reference, not a Chevrolet supplement",
+      "combined_pdf": false
+    },
+    {
       "source_id": "alternate-suspension-1961",
       "filename": "Corvair_1961SM_3.pdf",
       "url": "https://northern-california-corvairs.com/Corvair_1961SM_3.pdf",

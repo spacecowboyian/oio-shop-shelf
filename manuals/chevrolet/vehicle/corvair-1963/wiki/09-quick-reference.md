@@ -94,6 +94,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | .09375 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
 | 2 | ft. lb. | [03-suspension.md](03-suspension.md) | needed to turn the stud in its joint. The factory gives **2 ft. lb. minimum**; |
 | 5 | ft. lb. | [03-suspension.md](03-suspension.md) | for a well-lubricated joint suspected of being too tight, **5 ft. lb. maximum**. |
+| 30–40 | ft-lb | [03-suspension.md](03-suspension.md) | threshold above the supplement's **30–40 ft-lb** installation torque, |
 | 27 | ″ | [03-suspension.md](03-suspension.md) | point **27″ behind the front-wheel centerline**. The factory passenger-car |
 | 9⅜ | ″ | [03-suspension.md](03-suspension.md) | height is **9⅜″ ± ½″**. Repeat on the other side; side-to-side difference |
 | ½ | ″ | [03-suspension.md](03-suspension.md) | height is **9⅜″ ± ½″**. Repeat on the other side; side-to-side difference |
@@ -195,7 +196,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 5 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the base setting is **40 ±5 in-lb**, then back off **exactly four full |
 | 90 | ° | [06e-automatic-transmission.md](06e-automatic-transmission.md) | a new pin hole **90° from the original**, fitting the gear and pin, |
 | 38–50 | in-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | clutch-head screws to **38–50 in-lb**. Refit low-drive, throttle, detent, |
-| 9–11 | lbs. | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the 20 valve-body bolts. The base page says **“9–11 lbs. torque”** without |
+| 9–11 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | the 20 valve-body bolts to **9–11 ft-lb**. The base page shortens the unit |
 | 3–4 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | evenly to **3–4 ft-lb**; refill. Readjust the low band if its screw was |
 | 9–11 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Secure five rear-pump bolts to **9–11 ft-lb**. Stack reverse clutch |
 | 18–20 | ft-lb | [06e-automatic-transmission.md](06e-automatic-transmission.md) | sequence first**, then the five inner bolts, all at **18–20 ft-lb**. |
@@ -374,11 +375,12 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 80 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
 | 10 | oz | [11-accessories.md](11-accessories.md) | Compressor oil charge 10 oz of 525-viscosity oil 1962–63 factory A/C |
 | 40 | in. lb. | [11-accessories.md](11-accessories.md) | figure's slot relationship, then tighten to **40 in. lb.** Use approved |
-| 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. During |
-| 90–100 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
-| 300–310 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
-| 120 | °F | [11-accessories.md](11-accessories.md) | at 120°F and the fast-idle instruction expects **300 psi** under its |
-| 300 | psi | [11-accessories.md](11-accessories.md) | at 120°F and the fast-idle instruction expects **300 psi** under its |
+| 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. |
+| 275 | psi | [11-accessories.md](11-accessories.md) | **While adding refrigerant, compressor head pressure should not exceed 275 psi.** |
+| 90–100 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. This is a charging-process limit, |
+| 300–310 | psi | [11-accessories.md](11-accessories.md) | **300–310 psi** at 120°F grille air, and the fast-idle instruction uses |
+| 120 | °F | [11-accessories.md](11-accessories.md) | **300–310 psi** at 120°F grille air, and the fast-idle instruction uses |
+| 300 | psi | [11-accessories.md](11-accessories.md) | **300 psi** under its own conditions. Apply each number only to its |
 | 100 | psi | [11-accessories.md](11-accessories.md) | and bleed high side slowly through center port. Below **100 psi** high |
 | 5 | psi | [11-accessories.md](11-accessories.md) | side, open low side and continue until remaining pressure ≤**5 psi**; |
 | 1,000 | rpm | [11-accessories.md](11-accessories.md) | running for final charge, use at least **1,000 rpm**; check pressure, |

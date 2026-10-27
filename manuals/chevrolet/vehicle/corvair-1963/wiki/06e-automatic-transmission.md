@@ -195,14 +195,15 @@ spring with the shaft notch engaged on the band apply strut.
 Raise the valve body onto its case dowels while progressively releasing
 the fully tightened band screw, or withdraw the temporary servo strap
 when the body is almost seated. Engage the manual-valve lever. Install
-the 20 valve-body bolts. The base page says **“9–11 lbs. torque”** without
-identifying inch- or foot-pounds; confirm its unit before tightening.
-Then install the pickup
+the 20 valve-body bolts to **9–11 ft-lb**. The base page shortens the unit
+to “lbs. torque”; Chevrolet's [Corvair Powerglide training booklet, Part II,
+p. 25](https://chevy.oldcarmanualproject.com/booklets/60top04/6004top25.html)
+explicitly says **foot-pounds** for the valve-body attaching bolts. Then install the pickup
 pipe and its O-ring. Install a new pan gasket and tighten pan bolts
 evenly to **3–4 ft-lb**; refill. Readjust the low band if its screw was
 disturbed. Transmission removal and carrier/engine separation follow
 Section 6. Most further service requires power-train removal.
-<!-- NEEDS REVIEW: Base Powerglide Section 6E p. 6E-11 prints "9–11 lbs. torque" for 20 valve-body bolts without an inch- or foot-pound unit. Do not apply a guessed unit; verify against an original specification or service bulletin. -->
+<!-- RESOLVED UNIT: Base Section 6E p.6E-11 abbreviates "9–11 lbs. torque"; Chevrolet's Servicing the Corvair Powerglide Transmission Part II (T-O-P-60-S&M-4), p.25, explicitly states 9–11 foot-pounds for valve-body attaching bolts. -->
 
 <a id="p386"></a> **[PDF p.386](../page-images/p0386.png)** <!-- SOURCE id=base-1961 page=6E-12 years=1961,1962,1963 scope=passenger -->
 
@@ -420,9 +421,11 @@ reverse piston/clutch or blocked feed. Aerated fluid from overfill or
 pickup leakage can force fluid out the filler.
 
 The base diagnosis list mentions a **line-pressure limit valve**, but
-the same manual's opening page says that valve was deleted. Do not use
-that contradictory item as a 1963 diagnostic step.
-<!-- NEEDS REVIEW: Base Section 6E p. 6E-27 lists a defective line-pressure limit valve as a no-drive cause, but p. 6E-1 says that valve was deleted in the 1961 design. Confirm whether any 1963 passenger variant retained it before using that diagnosis. -->
+the same manual's opening description explicitly says that valve was
+**deleted from the 1961 design**. The 1962–63 supplement does not add it
+back; treat the diagnostic-list entry as retained older wording and do
+not search for that valve on a 1963 passenger Powerglide.
+<!-- RESOLVED STALE DIAGNOSIS: Base Section 6E p.6E-1 explicitly deletes the line-pressure limiting valve from the 1961 design, whereas the generic no-drive list on p.6E-27 still names it. The 1962–63 supplement contains no reinstatement. -->
 
 The factory's passenger Powerglide shift-point chart gives these road
 speed ranges where test conditions match its descriptions:

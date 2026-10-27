@@ -374,10 +374,13 @@ tang for **2⅜ in. ± 1⁄16 in.**; use a new bowl-cover gasket.
 At operating temperature and **850 rpm**, set ignition timing to
 **24° advance maximum**. The source says not to disconnect and plug
 the distributor pressure-retard hose for this check. The page's
-on-vehicle automatic-choke instruction reads **one notch lean**;
-the assembly procedure on p.733 reads **one notch rich**. Treat that
-setting as unresolved until the source conflict is reconciled.
-<!-- NEEDS REVIEW: Carter YH automatic-choke on-car setting p726 says one notch lean; assembly p733 says one notch rich. Do not publish an unconditional choke-notch value. -->
+on-vehicle automatic-choke instruction reads **one notch lean** for the
+1963 Spyder. The [1964 factory supplement, Section 9 p.9-14](https://northern-california-corvairs.com/64%20Shop%20Manual%20Ch%209-fuelExh-64.pdf)
+repeats **one notch lean**, and the [Carter YH specification chart](https://www.carburetor-parts.com/assets/manuals/Carter-YH-Manual.pdf#page=24)
+separates 1963–66 (**one notch lean**) from 1962 (**one notch rich**).
+The assembly paragraph on p.733 still prints **one notch rich**; it is
+retained below as an inconsistent instruction, not the 1963 final setting.
+<!-- RESOLVED 1963 CHOKE SETTING: Supplement Section 9 p.9-14 gives one notch lean on car; 1964 factory supplement Section 9 p.9-14 repeats it; Carter YH chart PDF p.24 identifies 1963–66 as 1NL and 1962 as 1NR. Supplement assembly p.9-21 prints one notch rich and remains documented as an inconsistent instruction. -->
 
 | Spyder Carter YH adjustment | Factory value |
 |---|---|
@@ -385,6 +388,7 @@ setting as unresolved until the source conflict is reconciled.
 | Float drop, gasket to free-end float bottom | 2⅜ in. ± 1⁄16 in. |
 | Warm idle | 850 rpm |
 | Ignition timing, maximum | 24° advance |
+| 1963 automatic-choke housing, final on-car setting | One notch lean |
 
 <a id="p727"></a> **[PDF p.727](../page-images/p0727.png)** <!-- SOURCE id=supplement-1962-63 page=9-15 years=1962,1963 scope=passenger variant=spyder -->
 
@@ -459,8 +463,9 @@ as needed.
 <a id="p733"></a> **[PDF p.733](../page-images/p0733.png)** <!-- SOURCE id=supplement-1962-63 page=9-21 years=1962,1963 scope=passenger variant=spyder -->
 
 The Carter YH assembly sequence says to set its choke-coil housing
-**one notch rich**, which conflicts with the on-car instruction
-on p.726; no unconditional notch setting is given here. Install the
+**one notch rich**, inconsistent with the on-car instruction on p.726
+and the later factory confirmation. Use the **one-notch-lean final
+setting** above for the 1963 Spyder after assembly. Install the
 carburetor with new air-cleaner O-ring, reconnect heat/fuel/linkage,
 then set idle and optional throttle-return check. For charger
 removal, take off spare tire and air cleaner, disconnect fuel/choke
