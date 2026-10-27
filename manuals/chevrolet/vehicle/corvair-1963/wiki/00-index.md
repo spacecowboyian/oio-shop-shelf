@@ -21,7 +21,7 @@
 | 10 | Body | [10-body.md](10-body.md) | 12-31, 32-81, 534-580 | ✅ done |
 | 11 | Accessories | [11-accessories.md](11-accessories.md) | 82-116, 581-623 | ✅ done |
 | 12 | Specifications | [12-specifications.md](12-specifications.md) | 117-129, 624-636 | ✅ done |
-| APP | Dimensions and Gauges | 13-dimensions-and-gauges.md | 529-531 | ⬜ pending |
+| APP | Dimensions and Gauges | [13-dimensions-and-gauges.md](13-dimensions-and-gauges.md) | 529-531 | ✅ done |
 
 ## Reference
 

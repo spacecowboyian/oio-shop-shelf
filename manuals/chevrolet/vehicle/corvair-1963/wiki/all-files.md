@@ -27,6 +27,7 @@ Fetch-only navigation: this repo's folder pages (`/tree/…`) are blocked for au
 - [wiki/11-accessories.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/11-accessories.md)
 - [wiki/11a-alphabetical-index.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/11a-alphabetical-index.md)
 - [wiki/12-specifications.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/12-specifications.md)
+- [wiki/13-dimensions-and-gauges.md](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/wiki/13-dimensions-and-gauges.md)
 - [data/manual-index.jsonl](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/data/manual-index.jsonl)
 - [data/page-continuity-report.txt](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/data/page-continuity-report.txt)
 - [data/pages.json](https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/chevrolet/vehicle/corvair-1963/data/pages.json)
