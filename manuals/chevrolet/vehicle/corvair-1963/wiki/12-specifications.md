@@ -331,13 +331,12 @@ at [base p.12-10](#p126). Tune-up values are in [Section 7](07-engine-tune-up.md
 | Monza Powerglide spark plug | AC-44FF |
 | Spark-plug size | 14 mm |
 | Spark-plug torque | Unresolved; Section 12 prints 20–25 ft. lb., Section 7 prints 15–20 ft. lb. | <!-- NEEDS REVIEW: Supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. spark-plug torque, while supplement tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. --> |
-| Spark-plug gap | Unresolved; shop supplement prints .023–.028 in., Service News prints .035 in. | <!-- NEEDS REVIEW: Chevrolet Service News October 1962 p.23 specifies .035 in. spark-plug gap for 1963, but the shop supplement Section 12 p.12-9 prints .023–.028 in. Determine the later applicable factory correction before using a gap. --> |
 
 The supplement groups Super Turbo-Air and turbocharged spark-plug applications
 without a legible type entry. Chevrolet Service News supplies the 1963 types
-below. Its plug gap conflicts with the shop supplement's specification
-page; neither gap is promoted as a settled 1963
-setting until the publication order or a correction is established.
+below. Its plug gap agrees with the supplement's 1963 tune-up table, while
+this Section 12 electrical chart prints a narrower range.
+<!-- RESOLVED SOURCE CONFLICT: Section 12 p.12-9 prints .023–.028 in.; Section 7 p.7-5 and October 1962 Service News p.23 print .035 in. The GM 1963 vehicle information kit, Power Trains p.11 (revised November 1962, PDF p.48), also prints .035 in. The year-specific, dated sources govern; do not index the contradictory Section 12 range. -->
 
 <!-- SOURCE id=chevrolet-service-news-34-9 page=23 years=1963 scope=passenger pdf_page=23 -->
 
@@ -351,6 +350,21 @@ SHA-256 `a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e`.
 | Monza Powerglide 84 hp | AC-44FF |
 | Super Turbo-Air 102 hp | AC-44FF |
 | Turbocharged Monza Spyder 150 hp | AC-44FF |
+
+### 1963 spark-plug gap
+
+<!-- SOURCE id=gm-ama-1963 page=Power-Trains-11 years=1963 scope=passenger pdf_page=48 -->
+
+GM, *1963 Chevrolet Corvair Vehicle Information Kit*, Power Trains p. 11
+([PDF p. 48](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=48)),
+marked **revised November 1962**, lists the following gap for its 80, 84,
+102, and 150 hp passenger engines. This agrees with the supplement's tune-up
+table and October 1962 Chevrolet Service News. The conflicting Section 12
+electrical entry remains in the linked original scan above for audit.
+
+| Application | Spark-plug gap |
+| --- | --- |
+| All listed 1963 passenger engines, factory ignition | .035″ |
 
 <a id="p632-generator"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->
 
