@@ -212,6 +212,13 @@ and **American Wire or B & S Gage** thickness. The standards differ;
 use the column named by the relevant procedure. A dash means the source
 prints no value. The source title has an asterisk after U.S. Standard
 Gage, but no corresponding footnote is visible on the supplied page.
+The independent U.S. Bureau of Standards [*Circular 391*, p. 5,
+Table 1](https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular391.pdf#page=9)
+matches the Chevrolet column's inch values to its **steel and
+open-hearth iron approximate thickness** column. This confirms the
+column's numerical basis, but does not reveal what Chevrolet's missing
+asterisk was intended to say. Neither table should be treated as a
+material tolerance for a specific body panel.
 <!-- NEEDS REVIEW: Source appendix gauge page marks U.S. Standard Gage with an asterisk but provides no visible footnote. Verify against a complete original before interpreting the asterisk. -->
 
 | Gauge number | U.S. Standard Gage approximate thickness (in.) | American Wire/B & S Gage thickness (in.) |

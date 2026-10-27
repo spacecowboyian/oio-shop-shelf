@@ -573,4 +573,9 @@ The supplement says that the 1961 manual's fig. 6E-29 on printed p. 6E-15
 places the front-pump gasket incorrectly. It states that corrected fig. 6E-6
 puts the gasket **between the front-pump body and the transmission case**.
 The recovered three-page supplement PDF does not include fig. 6E-6 itself.
+Chevrolet's [1964 supplement, Section 6E p. 6E-5, fig. 6E-6](https://www.scribd.com/document/364459154/1964-supplement-chevrolet-corvair-shop-manual-section-6e-automatic-transmission-pdf)
+also labels the front-pump gasket as item 8 directly behind the front-pump
+body. This later figure corroborates the **gasket position only**; its other
+1964 transmission details should not be substituted for a missing 1963
+exploded view.
 <!-- NEEDS REVIEW: Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. -->

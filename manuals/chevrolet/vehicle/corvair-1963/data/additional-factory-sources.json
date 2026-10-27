@@ -129,6 +129,16 @@
       "pages": 11,
       "role": "Independent factory Section 1 scan confirms printed p.1-7 machine-screw torque-chart designation #10-33",
       "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-parts-catalog-1969",
+      "filename": "1960-69-parts.pdf",
+      "url": "https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf",
+      "sha256": "a8bf0c633a7c40b51820bf20dbfb9572bfb2814f1646560aa815ba577dbfa1a8",
+      "bytes": 53354443,
+      "pages": 502,
+      "role": "1969 Chevrolet Corvair Parts & Accessories Catalog groups 4.351–4.352, printed p. 4-12: revised 1961–63 four-speed clutch gear 3814014 and 1961–66 four-speed roller part 7451240, quantity 72 total",
+      "combined_pdf": false
     }
   ]
 }
