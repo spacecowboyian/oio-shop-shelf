@@ -12,6 +12,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 51.5 | ″ | [01-general-information.md](01-general-information.md) | Overall loaded height, coupe and sedan 51.5″ F |
 | 54 | ″ | [01-general-information.md](01-general-information.md) | Tread width 54″ G |
 | 67.0 | ″ | [01-general-information.md](01-general-information.md) | Overall width 67.0″ H |
+| 14 | gal. | [01-general-information.md](01-general-information.md) | **14 gal.** as confirmed in the supplement fuel-system table. |
+| 26 | psi | [01-general-information.md](01-general-information.md) | The base page says to store the spare at **26 psi**, then reduce it to the |
+| 15 | psi | [01-general-information.md](01-general-information.md) | applicable **15 psi cold front pressure** if the spare is fitted to a front |
 | 2312 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
 | 2428 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
 | 2348 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door coupe 2348 lb. 2434 lb. |
@@ -33,7 +36,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 2 | lb. | [01-general-information.md](01-general-information.md) | Wheel trim cover 2 lb. |
 | 3 | lb. | [01-general-information.md](01-general-information.md) | Deluxe body equipment 3 lb. |
 | 2 | lb. | [01-general-information.md](01-general-information.md) | Padded instrument panel 2 lb. |
-| 25 | mph | [01-general-information.md](01-general-information.md) | the selector in **N** until the car reaches **25 mph**. |
+| 25 | mph | [01-general-information.md](01-general-information.md) | **25 mph**. |
 | 15 | mph | [01-general-information.md](01-general-information.md) | 2. At **15 mph**, slowly release the clutch pedal. |
 | 30 | mph | [01-general-information.md](01-general-information.md) | **30 mph**. Tow both manual and Powerglide cars in **Neutral** with the parking |
 | 4 | qt. | [02-lubrication.md](02-lubrication.md) | The base crankcase capacities are **4 qt.** for a refill, **½ qt.** extra for |

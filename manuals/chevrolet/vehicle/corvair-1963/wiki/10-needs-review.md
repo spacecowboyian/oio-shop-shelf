@@ -1,6 +1,6 @@
 # Needs Review
 
-_46 flag(s) across 18 chapter file(s)._
+_45 flag(s) across 18 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -8,7 +8,6 @@ _46 flag(s) across 18 chapter file(s)._
 | [01-general-information.md](01-general-information.md) | No factory weight is listed here for 1963 model 967 convertible; do not infer one from a coupe or sedan. |
 | [01-general-information.md](01-general-information.md) | Confirm fig. 1-18 lift-contact geometry for 1963 passenger variants, especially convertible, before treating the 1961 diagram as a complete lifting specification. |
 | [01-general-information.md](01-general-information.md) | The scan's fifth machine-screw thread designation is ambiguous (#10-32 or #10-33); its torque row is intentionally withheld from the 1963 lookup until checked against another factory copy. |
-| [01-general-information.md](01-general-information.md) | Reconcile the 1961 ratios, capacities, tire and oil guidance with the supplement's later sections before transcribing them into the 1963 lookup. |
 | [02-lubrication.md](02-lubrication.md) | Base Lubrication p. 2-7 prints 13–14 pints dry, while base Specifications p. 12-10 says approximately 13 pints; resolve the distinction before indexing a 1963 Powerglide dry-fill quantity. |
 | [03-suspension.md](03-suspension.md) | Base Section 3 p. 3-5 prints 33½°/30½°. Supplement Section 12 p. 12-3 prints 20° ±1°/18° ±1° without a year qualifier, while supplement Section 4 p. 4-3 expressly identifies 20° ±1°/18° ±1° as the 1962 relationship. Do not index either set as a 1963 specification until reconciled. |
 | [03-suspension.md](03-suspension.md) | Supplement Suspension p. 3-2 prints 40–50 ft. lb. for steering-arm bolts/locknuts, but supplement Specifications p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both are passenger-car figures; no definitive 1963 torque is indexed. |
@@ -53,6 +52,4 @@ _46 flag(s) across 18 chapter file(s)._
 
 ## Conversion coverage
 
-0 source section(s) pending cleanup; 1 partial.
-
-- Partial: [General Information](01-general-information.md)
+0 source section(s) pending cleanup; 0 partial.

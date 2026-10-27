@@ -1,19 +1,34 @@
 # General Information — 1963 Passenger Cars
 
-<!-- INCOMPLETE -->
-
 The 1961 manual supplies the base passenger-car information. Its procedures
 and values carry forward through 1962 and 1963 unless the supplement changes
 them. A 1963-specific entry takes precedence over a shared entry. The 1962
 weights and gasoline guidance in the supplement therefore carry forward for
 models and equipment still offered in 1963. Corvair 95 material and canceled
-passenger variants are excluded. Remaining tables in this chapter still need
-comparison with the supplement's later sections.
+passenger variants are excluded. For specifications revised elsewhere in the
+supplement, this chapter points to the applicable 1963 tables instead of
+repeating the obsolete base values.
 
 Source files: `1-Gen_info-61.pdf` (base, physical/combined PDF pp. 1–11)
 and `1-Gen_info-62-63.pdf` (supplement, physical pp. 1–2, combined
 pp. 532–533). Each block below carries its original printed page and a link
 to the corresponding combined PDF page image.
+
+<a id="p1"></a> **[PDF p.1](../page-images/p0001.png)** <!-- SOURCE id=base-1961 page=cover years=1961,1962,1963 scope=passenger -->
+
+The base manual's foreword explains its organization: passenger-car operations
+appear first in each section, followed by Corvair commercial differences;
+component specifications are collected in Section 12. The 1962–63 supplement
+updates that organization for the target year.
+
+<a id="p532"></a> **[PDF p.532](../page-images/p0532.png)** <!-- SOURCE id=supplement-1962-63 page=1-opening years=1962,1963 scope=passenger -->
+
+The supplement identifies the optional Super Turbo-Air engine by an emblem
+below the rear nameplate. Spyder identification includes fender and glove-box
+nameplates beneath the Monza emblem; turbocharged-engine emblems appear on the
+rear deck lid and steering-wheel hub. These identification details carry
+forward for those options offered in 1963. The page's **1962 model table** is
+superseded by the following 1963 lineup.
 
 ## 1963 passenger-car models
 
@@ -61,6 +76,26 @@ does not show the later convertible separately.
 <!-- NEEDS REVIEW: Fig. 1-1 predates the convertible; verify its 1963 loaded height and any body-specific dimensions before applying the base diagram to model 967. -->
 
 ![Factory passenger-car dimensions, fig. 1-1](../diagrams/p0002-passenger-dimensions.png)
+
+## General specifications and source precedence
+
+<a id="p3-specs"></a> **[PDF p.3](../page-images/p0003.png)** <!-- SOURCE id=base-1961 page=1-2 years=1961,1962,1963 scope=passenger applicability=base-tables-subject-to-later-supplement -->
+
+The base page lists gear and steering ratios, fluid capacities, tire data,
+and 1961 vehicle weights. Use its unchanged methods, but use the later factory
+tables for 1963 values: [engine specifications](12-specifications.md#engine-specifications),
+[axle ratios and 4½-pint capacity](12-specifications.md#p630),
+[manual gearbox ratios and capacities](12-specifications.md#transmissions),
+[Powerglide specifications](12-specifications.md#p126),
+[tire pressures](12-specifications.md#tire-size-and-inflation-pressure),
+and [steering ratio](12-specifications.md#p626). The 1963 fuel tank remains
+**14 gal.** as confirmed in the [supplement fuel-system table](12-specifications.md#fuel-and-exhaust-specifications).
+The base manual's **3-pint differential** and **1.9-pint manual-transmission**
+figures are superseded; its 1961 vehicle weights and station-wagon tire entry
+do not describe the 1963 lineup.
+The base page says to store the spare at **26 psi**, then reduce it to the
+applicable **15 psi cold front pressure** if the spare is fitted to a front
+wheel. The later 1963 tire table retains that front pressure.
 
 ## Carryover vehicle and equipment weights
 
@@ -141,6 +176,12 @@ engine-code list.
 
 <a id="p5"></a> **[PDF p.5](../page-images/p0005.png)** <!-- SOURCE id=base-1961 page=1-4 years=1963 scope=passenger -->
 
+The base page's engine-oil viscosity discussion remains useful, but its
+**4,000-mile** oil and filter intervals are superseded by the supplement's
+[1963 oil schedule and viscosity table](02-lubrication.md#engine-oil-and-filter).
+Use the [gasoline selection](#factory-gasoline-selection) above for the 1963
+engine and equipment variant.
+
 The base manual says service lock cylinders are supplied uncoded. Its
 passenger-car side-bar design is used for the ignition, doors, and front
 compartment; the glove-compartment lock is a single-bitted wafer-tumbler type
@@ -204,19 +245,19 @@ Factory assembly figs. 1-14 through 1-17 appear on [PDF p.7](../page-images/p000
 <a id="p8"></a> **[PDF p.8](../page-images/p0008.png)** <!-- SOURCE id=base-1961 page=1-7 years=1963 scope=passenger -->
 
 The base manual does not recommend towing a car to start it: the disabled car
-may accelerate into the tow car. Where its procedure is used, it gives these
-transmission-specific steps.
+may accelerate into the tow car. Its **1961 manual-choke instruction is
+inapplicable** because the 1963 passenger car uses an automatic choke. The
+remaining transmission-specific sequence carries forward:
 
 ### Push-start with Powerglide
 
-1. Turn ignition **ON**, pull the choke knob **1/3 of the way out**, and leave
-   the selector in **N** until the car reaches **25 mph**.
+1. Turn ignition **ON** and leave the selector in **N** until the car reaches
+   **25 mph**.
 2. Move the selector to **L**. When the engine starts, move it to **D**.
 
 ### Push-start with manual transmission
 
-1. Select **third gear**, pull the choke knob **1/3 of the way out**, depress
-   the clutch, and turn ignition **ON**.
+1. Select **third gear**, depress the clutch, and turn ignition **ON**.
 2. At **15 mph**, slowly release the clutch pedal.
 
 ### Emergency towing
@@ -285,13 +326,20 @@ grade. The later supplement's component torque values take precedence.
 
 ![Factory general steel-bolt torque chart](../diagrams/p0008-general-steel-bolt-torque.png)
 
-## Deferred general specifications
+## Commercial-only source pages
 
-The 1961 Section 1 pages also contain ratios, capacities, tire pressures,
-and oil intervals. Those base
-values carry forward **only until a supplement entry changes them**. For
-example, Section 12 changes tire guidance and some 1963 drivetrain ratios;
-Section 2 changes the 1963 oil schedule. Consult the [1963 specifications](12-specifications.md)
-and the cited source page images while these tables are reconciled. Do not
-use a base value where a later source gives a different 1963 value.
-<!-- NEEDS REVIEW: Reconcile the 1961 ratios, capacities, tire and oil guidance with the supplement's later sections before transcribing them into the 1963 lookup. -->
+<a id="p9"></a> **[PDF p.9](../page-images/p0009.png)** <!-- SOURCE id=base-1961 page=1-8 years=1961,1962,1963 scope=commercial -->
+
+This page begins the Corvair 95/Greenbrier section. Its model numbers, body
+dimensions, weights, and lifting points are commercial-only and excluded.
+
+<a id="p10"></a> **[PDF p.10](../page-images/p0010.png)** <!-- SOURCE id=base-1961 page=1-9 years=1961,1962,1963 scope=commercial -->
+
+The four-speed ratios, 18.5-gallon tank, 14-inch tires, and lifting diagram
+on this page belong to Corvair 95 commercial vehicles. Use the linked
+passenger specifications above.
+
+<a id="p11"></a> **[PDF p.11](../page-images/p0011.png)** <!-- SOURCE id=base-1961 page=1-10 years=1961,1962,1963 scope=commercial -->
+
+This page finishes commercial-only identification and jack locations. It
+supplies no additional 1963 passenger-car procedure.
