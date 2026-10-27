@@ -8,6 +8,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - 1963 axle shaft bearing replacement — [06c-rear-axle.md#p630](06c-rear-axle.md#p630) ([PDF p.630])
 - 1963 brake drums, shoes, and self-adjusting hardware — [05-brakes.md#p652](05-brakes.md#p652) ([PDF p.652])
+- 1963 distributor settings — [12-specifications.md#p633](12-specifications.md#p633) ([PDF p.633])
 - 1963 engine changes and carburetor access — [06a-engine.md#p306](06a-engine.md#p306) ([PDF p.306])
 - 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
 - 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
@@ -41,6 +42,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Body points serviced when accessible — [02-lubrication.md#p139](02-lubrication.md#p139) ([PDF p.139])
 - Brake master cylinder — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
 - Brake pedal removal and installation — [05-brakes.md#p651](05-brakes.md#p651) ([PDF p.651])
+- Brake specifications — [12-specifications.md#p626](12-specifications.md#p626) ([PDF p.626])
 - Brake-pedal free movement and main cylinder — [05-brakes.md#p651](05-brakes.md#p651) ([PDF p.651])
 
 ## C
@@ -54,6 +56,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
 - Check front riding height and spring sag — [03-suspension.md#p153](03-suspension.md#p153) ([PDF p.153])
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
+- Clutch and rear axle — [12-specifications.md#p630](12-specifications.md#p630) ([PDF p.630])
 - Clutch drum and rear pump — [06e-automatic-transmission.md#p392](06e-automatic-transmission.md#p392) ([PDF p.392])
 - Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
 - Compressor clutch and external service — [11-accessories.md#p606](11-accessories.md#p606) ([PDF p.606])
@@ -79,7 +82,9 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Electrical and fuel-system service — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Emergency towing — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
+- Engine electrical — [12-specifications.md#p632](12-specifications.md#p632) ([PDF p.632])
 - Engine fault diagnosis carried forward — [06a-engine.md#p299](06a-engine.md#p299) ([PDF p.299])
+- Engine specifications — [12-specifications.md#p628](12-specifications.md#p628) ([PDF p.628])
 - Evacuating and charging — [11-accessories.md#p597](11-accessories.md#p597) ([PDF p.597])
 - Evaporator, controls and compressor removal — [11-accessories.md#p602](11-accessories.md#p602) ([PDF p.602])
 - Exhaust valves, guides, push rods, and hydraulic lifters — [06a-engine.md#p663](06a-engine.md#p663) ([PDF p.663])
@@ -104,6 +109,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Front pump installation and hydraulic diagnosis — [06e-automatic-transmission.md#p398](06e-automatic-transmission.md#p398) ([PDF p.398])
 - Front wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Front-wheel bearing adjustment — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
+- Fuel and exhaust specifications — [12-specifications.md#p635](12-specifications.md#p635) ([PDF p.635])
+- Fuses, wiper and washer — [12-specifications.md#p634](12-specifications.md#p634) ([PDF p.634])
 
 ## G
 
@@ -112,12 +119,15 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## H
 
+- Heater and factory air-conditioning specifications — [12-specifications.md#p636](12-specifications.md#p636) ([PDF p.636])
+- Heavy-duty metallic service-brake option — [12-specifications.md#p627](12-specifications.md#p627) ([PDF p.627])
 - Hydraulic fluid and bleeding — [05-brakes.md#p650](05-brakes.md#p650) ([PDF p.650])
 - Hydraulic lines and flexible hoses carried forward — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
 
 ## I
 
 - In-vehicle shields and engine mounts carried forward — [06a-engine.md#p259](06a-engine.md#p259) ([PDF p.259])
+- Inherited base-manual specifications — [12-specifications.md#p636](12-specifications.md#p636) ([PDF p.636])
 - Inherited sedan door and glass procedures — [10-body.md#p53](10-body.md#p53) ([PDF p.53])
 - Initial shoe setting and automatic final adjustment — [05-brakes.md#p654](05-brakes.md#p654) ([PDF p.654])
 - Inspect and repair the gear — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
@@ -158,6 +168,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Padded instrument-panel cover — [11-accessories.md#p582](11-accessories.md#p582) ([PDF p.582])
 - Parking-brake adjustment and cable service — [05-brakes.md#p215](05-brakes.md#p215) ([PDF p.215])
+- Passenger bulb specifications — [12-specifications.md#p633](12-specifications.md#p633) ([PDF p.633])
 - Passenger fuel tank and lines — [09-fuel-and-exhaust.md#p522](09-fuel-and-exhaust.md#p522) ([PDF p.522])
 - Passenger-car dimensions carried from the base manual — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Passenger-car keys and locks — [01-general-information.md#p4](01-general-information.md#p4) ([PDF p.4])
@@ -166,6 +177,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Planet carrier removal and inspection — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Planet carrier repair — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Positraction clutch-pack service — [06c-rear-axle.md#p672](06c-rear-axle.md#p672) ([PDF p.672])
+- Powerglide automatic specifications — [12-specifications.md#p126](12-specifications.md#p126) ([PDF p.126])
 - Powerglide fluid level — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
 - Push-start with Powerglide — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Push-start with manual transmission — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
@@ -213,10 +225,12 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])
 - Steering gear removal and overhaul carried forward — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
+- Steering specifications — [12-specifications.md#p626](12-specifications.md#p626) ([PDF p.626])
 - Steering wheel and column alignment — [04-steering.md#p646](04-steering.md#p646) ([PDF p.646])
 - Steering-arm replacement — [04-steering.md#p646](04-steering.md#p646) ([PDF p.646])
 - Steering-gear lubrication and adjustment — [04-steering.md#p645](04-steering.md#p645) ([PDF p.645])
 - Suspension bolt torque — [12-specifications.md#p625](12-specifications.md#p625) ([PDF p.625])
+- Suspension hardware and spring data — [12-specifications.md#p117](12-specifications.md#p117) ([PDF p.117])
 - System diagnosis — [11-accessories.md#p591](11-accessories.md#p591) ([PDF p.591])
 
 ## T
@@ -226,6 +240,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Tire pressures, puncture checks, and wheel changes — [03-suspension.md#p643](03-suspension.md#p643) ([PDF p.643])
 - Tire size and inflation pressure — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
 - Transmission, rear axle, and controls — [02-lubrication.md#p135](02-lubrication.md#p135) ([PDF p.135])
+- Transmissions — [12-specifications.md#p631](12-specifications.md#p631) ([PDF p.631])
 - Troubleshooting and special tools — [05-brakes.md#p223](05-brakes.md#p223) ([PDF p.223])
 - Troubleshooting and special tools — [06b-clutch.md#p312](06b-clutch.md#p312) ([PDF p.312])
 - Troubleshooting and tools — [04-steering.md#p196](04-steering.md#p196) ([PDF p.196])
@@ -244,6 +259,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## V
 
+- Valve gear and engine torque — [12-specifications.md#p629](12-specifications.md#p629) ([PDF p.629])
 - Vinyl door weatherstrip — 27-style coupes — [10-body.md#p539](10-body.md#p539) ([PDF p.539])
 
 ## W

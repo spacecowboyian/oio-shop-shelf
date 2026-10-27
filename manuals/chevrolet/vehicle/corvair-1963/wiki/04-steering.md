@@ -64,7 +64,7 @@ See the [factory pull-scale setup](../diagrams/p0645-steering-pull-scale.png).
    **2½–3½ turns** to remove high-point loading.
 3. With J-5178 attached at the wheel rim, measure the effort required to
    **keep the steering wheel moving**. The worm-bearing range is
-   **7⁄16–11⁄16 lb pull**. Loosen the worm-bearing adjuster locknut, adjust
+   **7⁄16–1 1⁄16 lb pull**. Loosen the worm-bearing adjuster locknut, adjust
    until the reading is in range, snug the locknut after each change, and
    recheck with the locknut fully tightened. A lumpy feel after adjustment
    indicates likely bearing damage requiring gear disassembly and repair.
@@ -85,7 +85,7 @@ and does not apply here.
 
 | Steering-gear adjustment, passenger car | 1963 pull at steering-wheel rim |
 |---|---|
-| Worm-bearing preload | 7⁄16–11⁄16 lb. |
+| Worm-bearing preload | 7⁄16–1 1⁄16 lb. |
 | Sector lash at high point | 1⅛–1½ lb. |
 
 ## Steering wheel and column alignment

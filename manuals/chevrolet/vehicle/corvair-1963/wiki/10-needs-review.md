@@ -1,6 +1,6 @@
 # Needs Review
 
-_32 flag(s) across 16 chapter file(s)._
+_44 flag(s) across 16 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -36,12 +36,23 @@ _32 flag(s) across 16 chapter file(s)._
 | [11-accessories.md](11-accessories.md) | Source pressure conflict, not OCR: charging text p.11-17 says head pressure should not exceed 275 psi, while performance chart p.11-10 lists 300–310 psi at 120°F and fast-idle instruction p.11-41 expects 300 psi. Verify factory service bulletin or conditional meaning before treating 275 psi as universal. |
 | [12-specifications.md](12-specifications.md) | 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-2 prints 45–55 lb. ft. for rear lower-arm cross shaft to crossmember, while the base installation procedure gives a different value. Verify the applicable 1963 fastener and correction before indexing a torque. |
+| [12-specifications.md](12-specifications.md) | Source misprint, not OCR: supplement Section 12 p.12-5 visually prints main journals 3–4 as 2.0983–2.0983 in.; base Section 12 p.12-6 prints 2.0983–2.0993 in. Verify a factory correction before using either 1963 range. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-6 recommended valve-seat-width fractions are unclear in the available scan; verify before using as numeric specifications. |
+| [12-specifications.md](12-specifications.md) | Source Section 12 p.12-7 prints clutch spring pressure in “ft. lbs.”; physical meaning/unit appears questionable. Preserve print and verify before use. |
+| [12-specifications.md](12-specifications.md) | Same source unit issue as standard clutch spring pressure; verify factory unit. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-7 Positraction ratios are in vertically merged cells; verify alignment to each 1963 passenger engine/transmission row before indexing a ratio. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-9 has no clearly legible plug-type value opposite Super Turbo-Air/Super Turbo-Charger. Confirm applicable 1963 plug type rather than inherit AC-46FF or AC-44FF. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-9 lists optional generator 1105139, but its associated regulator 1119654 is labeled 1962. Verify the correct 1963 regulator before applying a setting. |
+| [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-13 independently prints 5 lb Freon-12, while Section 11 p.11-15 says 5 lb or five 15-oz cans. Do not convert five cans to five pounds. |
+| [12-specifications.md](12-specifications.md) | Base Section 12 opening page prints this diameter interval in descending order. Verify the original ball-stud limits before use. |
+| [12-specifications.md](12-specifications.md) | Base Section 12 opening-page spring dimensions were not explicitly reissued by the supplement. Verify whether 1963 passenger options used different springs before applying to a specific option package. |
+| [12-specifications.md](12-specifications.md) | Base Section 12 p.12-6 theoretical valve-timing chart is not repeated in the supplement; verify its 1963 cam/variant applicability before treating the timing angles as universal. |
 
 ## Conversion coverage
 
-2 source section(s) pending cleanup; 2 partial.
+2 source section(s) pending cleanup; 1 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
 - Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)
-- Partial: [Specifications](12-specifications.md)

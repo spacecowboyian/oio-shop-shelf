@@ -20,7 +20,7 @@
 | 9 | Fuel and Exhaust Systems | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | 501-528, 713-742 | ✅ done |
 | 10 | Body | [10-body.md](10-body.md) | 12-31, 32-81, 534-580 | ✅ done |
 | 11 | Accessories | [11-accessories.md](11-accessories.md) | 82-116, 581-623 | ✅ done |
-| 12 | Specifications | [12-specifications.md](12-specifications.md) | 117-129, 624-636 | ⚠ partial |
+| 12 | Specifications | [12-specifications.md](12-specifications.md) | 117-129, 624-636 | ✅ done |
 | APP | Dimensions and Gauges | 13-dimensions-and-gauges.md | 529-531 | ⬜ pending |
 
 ## Reference

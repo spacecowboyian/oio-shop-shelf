@@ -36,6 +36,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 25 | mph | [01-general-information.md](01-general-information.md) | the selector in **N** until the car reaches **25 mph**. |
 | 15 | mph | [01-general-information.md](01-general-information.md) | 2. At **15 mph**, slowly release the clutch pedal. |
 | 30 | mph | [01-general-information.md](01-general-information.md) | **30 mph**. Tow both manual and Powerglide cars in **Neutral** with the parking |
+| 4 | qt. | [02-lubrication.md](02-lubrication.md) | The base crankcase capacities are **4 qt.** for a refill, **½ qt.** extra for |
+| ½ | qt. | [02-lubrication.md](02-lubrication.md) | The base crankcase capacities are **4 qt.** for a refill, **½ qt.** extra for |
+| 5½ | qt. | [02-lubrication.md](02-lubrication.md) | an oil-filter change, and **5½ qt.** dry. Avoid spilling oil onto the engine |
 | 60 | °F | [02-lubrication.md](02-lubrication.md) | The engine leaves the factory with break-in oil. For operation at **60°F and |
 | 500 | miles | [02-lubrication.md](02-lubrication.md) | higher**, drain it after **500 miles** and refill with oil selected from the |
 | 60 | °F | [02-lubrication.md](02-lubrication.md) | When temperatures are **below 60°F**, the base break-in interval is **1,000 |
@@ -122,9 +125,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1⁄16 | ″ | [03-suspension.md](03-suspension.md) | radial eccentricity at the exposed bead seat to **1⁄16″**. Excess calls for |
 | 20–30 | mph | [03-suspension.md](03-suspension.md) | under those changes and may be clearest around **20–30 mph**. Its factory |
 | 50 | psi | [03-suspension.md](03-suspension.md) | and at a temporary **50 psi** test pressure, then restores each tire to its |
-| 7⁄16–11⁄16 | lb | [04-steering.md](04-steering.md) | **7⁄16–11⁄16 lb pull**. Loosen the worm-bearing adjuster locknut, adjust |
+| 7⁄16–1 1⁄16 | lb | [04-steering.md](04-steering.md) | **7⁄16–1 1⁄16 lb pull**. Loosen the worm-bearing adjuster locknut, adjust |
 | 1⅛–1½ | lb | [04-steering.md](04-steering.md) | screw **clockwise** until J-5178 reads **1⅛–1½ lb pull** while the wheel |
-| 7⁄16–11⁄16 | lb. | [04-steering.md](04-steering.md) | Worm-bearing preload 7⁄16–11⁄16 lb. |
+| 7⁄16–1 1⁄16 | lb. | [04-steering.md](04-steering.md) | Worm-bearing preload 7⁄16–1 1⁄16 lb. |
 | 1⅛–1½ | lb. | [04-steering.md](04-steering.md) | Sector lash at high point 1⅛–1½ lb. |
 | 35–40 | ft. lb. | [04-steering.md](04-steering.md) | torque is **35–40 ft. lb.** |
 | 15–22 | ft. lb. | [04-steering.md](04-steering.md) | tighten nuts at the bracket and relay rod to **15–22 ft. lb.** |
@@ -280,6 +283,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | them to **80 in-lb**. |
 | 30–40 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | oil lines, then torque V-clamp nut to **30–40 in-lb**. Reconnect |
 | 2 | oz. | [10-body.md](10-body.md) | For polyurethane foam, mix approximately **2 oz.** of white detergent |
+| 1 | gal. | [10-body.md](10-body.md) | powder per **1 gal.** of water. Use only the suds from a well-wrung |
 | 30⅝ | ″ | [10-body.md](10-body.md) | C 30⅝″ Idler-support lower inner surface to steering-gear plate lower edge |
 | 44⅝ | ″ | [10-body.md](10-body.md) | I 44⅝″ Front tie-down slot front edge to front side-rail inner lower corner at bumper supp |
 | 107¼ | ″ | [10-body.md](10-body.md) | M 107¼″ Front crossmember front bolt to rear crossmember rear mounting bolt |
@@ -417,3 +421,197 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 25–35 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Front 25–35 lb. ft. |
 | 55–75 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Rear 55–75 lb. ft. |
 | 55–75 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Rear crossmember support to body 55–75 lb. ft. |
+| 1⅛–1½ | lb | [12-specifications.md](12-specifications.md) | High-point lash adjustment, pull at wheel rim 1⅛–1½ lb |
+| 7⁄16–1 1⁄16 | lb | [12-specifications.md](12-specifications.md) | Worm-bearing preload, pull at wheel rim 7⁄16–1 1⁄16 lb |
+| 20 | ° | [12-specifications.md](12-specifications.md) | Toe-out on turns 20° inner wheel ±1°; 18° outer wheel ±1° |
+| 1 | ° | [12-specifications.md](12-specifications.md) | Toe-out on turns 20° inner wheel ±1°; 18° outer wheel ±1° |
+| 18 | ° | [12-specifications.md](12-specifications.md) | Toe-out on turns 20° inner wheel ±1°; 18° outer wheel ±1° |
+| 1 | ° | [12-specifications.md](12-specifications.md) | Toe-out on turns 20° inner wheel ±1°; 18° outer wheel ±1° |
+| 100 | lb | [12-specifications.md](12-specifications.md) | Line pressure at 100 lb pedal load 783 psi |
+| 783 | psi | [12-specifications.md](12-specifications.md) | Line pressure at 100 lb pedal load 783 psi |
+| 44 | ° | [12-specifications.md](12-specifications.md) | Intake face / seat angles 44° / 45° 45° / 45° |
+| 45 | ° | [12-specifications.md](12-specifications.md) | Intake face / seat angles 44° / 45° 45° / 45° |
+| 45 | ° | [12-specifications.md](12-specifications.md) | Intake face / seat angles 44° / 45° 45° / 45° |
+| 45 | ° | [12-specifications.md](12-specifications.md) | Intake face / seat angles 44° / 45° 45° / 45° |
+| 44 | ° | [12-specifications.md](12-specifications.md) | Exhaust face / seat angles 44° / 45° 45° / 44° |
+| 45 | ° | [12-specifications.md](12-specifications.md) | Exhaust face / seat angles 44° / 45° 45° / 44° |
+| 45 | ° | [12-specifications.md](12-specifications.md) | Exhaust face / seat angles 44° / 45° 45° / 44° |
+| 44 | ° | [12-specifications.md](12-specifications.md) | Exhaust face / seat angles 44° / 45° 45° / 44° |
+| 58–64 | lb | [12-specifications.md](12-specifications.md) | Spring closed pressure at length 58–64 lb at 1.508 in. 76–79 lb at 1.696 in. |
+| 76–79 | lb | [12-specifications.md](12-specifications.md) | Spring closed pressure at length 58–64 lb at 1.508 in. 76–79 lb at 1.696 in. |
+| 141–149 | lb | [12-specifications.md](12-specifications.md) | Spring open pressure at length 141–149 lb at 1.148 in. 159–169 lb at 1.306 in. |
+| 159–169 | lb | [12-specifications.md](12-specifications.md) | Spring open pressure at length 141–149 lb at 1.148 in. 159–169 lb at 1.306 in. |
+| 40–60 | in. lb. | [12-specifications.md](12-specifications.md) | Oil pan attachment 40–60 in. lb. |
+| 60–80 | in. lb. | [12-specifications.md](12-specifications.md) | Oil pump cover; oil cooler to head; rear shrouds; pushrod guide 60–80 in. lb. |
+| 30–50 | in. lb. | [12-specifications.md](12-specifications.md) | Valve rocker cover 30–50 in. lb. |
+| 7–13 | ft. lb. | [12-specifications.md](12-specifications.md) | Crankcase halves; crankcase cover; cooler adapter; oil-filter/generator adapter; rear hous |
+| 15–20 | ft. lb. | [12-specifications.md](12-specifications.md) | Clutch cover and pressure plate; driving strap 15–20 ft. lb. |
+| 20–26 | ft. lb. | [12-specifications.md](12-specifications.md) | Flywheel or drive plate to crankshaft 20–26 ft. lb. |
+| 20–30 | ft. lb. | [12-specifications.md](12-specifications.md) | Flywheel or clutch housing to crankcase; skid plate 20–30 ft. lb. |
+| 8–12 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil cooler attachment 8–12 ft. lb. |
+| 42–48 | ft. lb. | [12-specifications.md](12-specifications.md) | Crankcase halves, larger fastener 42–48 ft. lb. |
+| 9–15 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil filter to adapter 9–15 ft. lb. |
+| 45–65 | in. lb. | [12-specifications.md](12-specifications.md) | Oil-pressure switch, smaller thread 45–65 in. lb. |
+| 20–26 | ft. lb. | [12-specifications.md](12-specifications.md) | Connecting-rod nut 20–26 ft. lb. |
+| 10–20 | ft. lb. | [12-specifications.md](12-specifications.md) | Distributor clamp nut 10–20 ft. lb. |
+| 12–27 | ft. lb. | [12-specifications.md](12-specifications.md) | Exhaust-manifold-to-head nut 12–27 ft. lb. |
+| 20–30 | ft. lb. | [12-specifications.md](12-specifications.md) | Rear mounting-bracket nut 20–30 ft. lb. |
+| 5 | ft. lb. | [12-specifications.md](12-specifications.md) | Rear mounting stud 5 ft. lb. |
+| 27–33 | ft. lb. | [12-specifications.md](12-specifications.md) | Cylinder-head-to-crankcase nut 27–33 ft. lb. |
+| 10–30 | ft. lb. | [12-specifications.md](12-specifications.md) | Cylinder-head stud at crankcase assembly 10–30 ft. lb. |
+| 27–33 | ft. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball stud 27–33 ft. lb. |
+| 55–125 | in. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball-stud nut 55–125 in. lb. |
+| 10–15 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil-pressure switch, pipe thread 10–15 ft. lb. |
+| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. |
+| 40 | ° | [12-specifications.md](12-specifications.md) | wide, with a **40°** V angle. The exhaust thermostat starts opening at |
+| 200–210 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
+| 215–225 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
+| 50–70 | ft. lb. | [12-specifications.md](12-specifications.md) | with **50–70 ft. lb.** constant preload torque. |
+| 4½ | pt. | [12-specifications.md](12-specifications.md) | Lubricant refill capacity 4½ pt. |
+| 3 | pt. | [12-specifications.md](12-specifications.md) | 3-speed 3.50:1 1.99:1 1.00:1 — 3.97:1 3 pt. |
+| 3.75 | pt. | [12-specifications.md](12-specifications.md) | 4-speed 3.65:1 2.35:1 1.44:1 1.00:1 3.66:1 3.75 pt. |
+| 12 | V | [12-specifications.md](12-specifications.md) | Battery Delco-Remy, 12 V, nine plates per cell, 42 Ah at 20-hour rate |
+| 1.28–1.42 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
+| 7200–9500 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
+| 1.8 | Ω | [12-specifications.md](12-specifications.md) | Harness ignition resistor 1.8 Ω |
+| 14 | mm | [12-specifications.md](12-specifications.md) | Spark-plug size / gap / torque 14 mm / .023–.028 in. / 20–25 ft. lb. |
+| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark-plug size / gap / torque 14 mm / .023–.028 in. / 20–25 ft. lb. |
+| 12 | V | [12-specifications.md](12-specifications.md) | Generator Passenger application Cold output Field draw at 12 V, 80°F |
+| 80 | °F | [12-specifications.md](12-specifications.md) | Generator Passenger application Cold output Field draw at 12 V, 80°F |
+| 30 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
+| 14 | V | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
+| 2240 | rpm | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
+| 1.69–1.79 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
+| 35 | A | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
+| 14 | V | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
+| 1730 | rpm | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
+| 2.73–3.0 | A | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
+| 40 | A | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
+| 14 | V | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
+| 1930 | rpm | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
+| 2.73–3.0 | A | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
+| 125 | °F | [12-specifications.md](12-specifications.md) | Regulator Generator Voltage setting at 125°F Current setting at 125°F Voltage/current air  |
+| 125 | °F | [12-specifications.md](12-specifications.md) | Regulator Generator Voltage setting at 125°F Current setting at 125°F Voltage/current air  |
+| 13.8–14.7 | V | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
+| 27.0–31.0 | A | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
+| 11.8–13.5 | V | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
+| 13.8–14.6 | V | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
+| 31.0–35.5 | A | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
+| 11.8–13.0 | V | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
+| 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
+| 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
+| 10.6 | V | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
+| 6750–10,500 | rpm | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
+| 58 | A | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
+| 6750–10,500 | rpm | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
+| 58 | A | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
+| 4.0 | V | [12-specifications.md](12-specifications.md) | Locked-armature test at 4.0 V 280 A 280 A |
+| 280 | A | [12-specifications.md](12-specifications.md) | Locked-armature test at 4.0 V 280 A 280 A |
+| 280 | A | [12-specifications.md](12-specifications.md) | Locked-armature test at 4.0 V 280 A 280 A |
+| 20–30 | ft. lb. | [12-specifications.md](12-specifications.md) | Mounting-pad bolt torque 20–30 ft. lb. 20–30 ft. lb. |
+| 20–30 | ft. lb. | [12-specifications.md](12-specifications.md) | Mounting-pad bolt torque 20–30 ft. lb. 20–30 ft. lb. |
+| 10 | V | [12-specifications.md](12-specifications.md) | Solenoid hold-in / both windings at 10 V 10.5–12.5 A / 42–49 A Same |
+| 10.5–12.5 | A | [12-specifications.md](12-specifications.md) | Solenoid hold-in / both windings at 10 V 10.5–12.5 A / 42–49 A Same |
+| 42–49 | A | [12-specifications.md](12-specifications.md) | Solenoid hold-in / both windings at 10 V 10.5–12.5 A / 42–49 A Same |
+| 19–32 | oz. | [12-specifications.md](12-specifications.md) | end and use **.019 in. new / .016 in. used** point gap, **19–32 oz.** |
+| 31–34 | ° | [12-specifications.md](12-specifications.md) | point spring tension, **.18–.23 μF** condenser, **31–34°** dwell, and |
+| 9 | ° | [12-specifications.md](12-specifications.md) | distributor degrees; the turbocharged unit's starred **9° at 2 psi** is |
+| 2 | psi | [12-specifications.md](12-specifications.md) | distributor degrees; the turbocharged unit's starred **9° at 2 psi** is |
+| 4 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 0–2 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 600 | rpm | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 6–10 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 15–19 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 2200 | rpm | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 32 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 3600 | rpm | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 0 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 23 | ° | [12-specifications.md](12-specifications.md) | 1110294 Standard transmission 4° BTDC 0–2° at 600 rpm 6–10° at 1350; 15–19° at 2200 rpm 32 |
+| 13 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 0–2 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 1400 | rpm | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 4–8 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 13–17 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 2850 | rpm | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 24 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 3700 | rpm | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 0 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 23 | ° | [12-specifications.md](12-specifications.md) | 1110295 Powerglide 13° BTDC 0–2° at 1400 rpm 4–8° at 1975; 13–17° at 2850 rpm 24° at 3700  |
+| 13 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 0–2 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 700 | rpm | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 8–12 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 16–20 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 3550 | rpm | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 24 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 4800 | rpm | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 0 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 23 | ° | [12-specifications.md](12-specifications.md) | 1110296 Super Turbo-Air 13° BTDC 0–2° at 700 rpm 8–12° at 1950; 16–20° at 3550 rpm 24° at  |
+| 13 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 0–2 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 1600 | rpm | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 2–6 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 2100 | rpm | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 20 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 4100 | rpm | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 0 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 23 | ° | [12-specifications.md](12-specifications.md) | 1110297 Powerglide Monza 900 13° BTDC 0–2° at 1600 rpm 2–6° at 2100 rpm 20° at 4100 rpm 0° |
+| 24 | ° | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 0–2 | ° | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 3900 | rpm | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 12 | ° | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 4500 | rpm | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 0 | ° | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 1 | psi | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 9 | ° | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 2 | psi | [12-specifications.md](12-specifications.md) | 1110298 Super Turbo-Charger 24° BTDC 0–2° at 3900 rpm — 12° at 4500 rpm 0° at 1 psi / 9° r |
+| 11.5 | ° | [12-specifications.md](12-specifications.md) | The first four vacuum units have **11.5° maximum distributor advance**. |
+| 15 | A | [12-specifications.md](12-specifications.md) | The headlamp circuit uses a **15 A** breaker in the light switch. |
+| 10 | A | [12-specifications.md](12-specifications.md) | Heater blower / glovebox 3AG/AGC 10 A |
+| 20 | A | [12-specifications.md](12-specifications.md) | Gasoline heater where fitted 3AG/AGC 20 A |
+| 10 | A | [12-specifications.md](12-specifications.md) | Tail/stop, dome, cigarette lighter 3AG/AGC 10 A |
+| 20 | A | [12-specifications.md](12-specifications.md) | Heater total / back-up 3AG/AGC 20 A |
+| 4 | A | [12-specifications.md](12-specifications.md) | Radio 3AG/AGC 4 A |
+| 3 | A | [12-specifications.md](12-specifications.md) | Instrument, radio panel, heater panel 3AG/AGC 3 A |
+| 20 | A | [12-specifications.md](12-specifications.md) | Windshield wiper 3AG/AGC 20 A |
+| 15 | A | [12-specifications.md](12-specifications.md) | Factory A/C, two inline fuses 3AG/AGC 15 A each |
+| 43 | rpm | [12-specifications.md](12-specifications.md) | Single-speed crank speed, no load 43 rpm |
+| 3.0 | A | [12-specifications.md](12-specifications.md) | Single-speed draw, free / dry windshield / stalled 3.0 A max. / 3.5 A max. / 11 A |
+| 3.5 | A | [12-specifications.md](12-specifications.md) | Single-speed draw, free / dry windshield / stalled 3.0 A max. / 3.5 A max. / 11 A |
+| 11 | A | [12-specifications.md](12-specifications.md) | Single-speed draw, free / dry windshield / stalled 3.0 A max. / 3.5 A max. / 11 A |
+| 34 / 65 | rpm | [12-specifications.md](12-specifications.md) | Two-speed crank speed, low / high, no load 34 / 65 rpm minimum |
+| 5 / 12 | A | [12-specifications.md](12-specifications.md) | Two-speed draw, no-load low / dry glass / stalled 3.6 / 4.5 / 12 A |
+| 24 | Ω | [12-specifications.md](12-specifications.md) | Two-speed shunt-field resistance 24 Ω |
+| 11–15 | psi | [12-specifications.md](12-specifications.md) | Washer pressure / coil resistance 11–15 psi / 20 Ω |
+| 20 | Ω | [12-specifications.md](12-specifications.md) | Washer pressure / coil resistance 11–15 psi / 20 Ω |
+| 12 | V | [12-specifications.md](12-specifications.md) | Both wiper motors use **12 V DC** and turn counterclockwise when looking |
+| 14 | gal. | [12-specifications.md](12-specifications.md) | **14 gal.**, and fills through the left front fender. The tank unit is |
+| 65–145 | °F | [12-specifications.md](12-specifications.md) | Thermostat range 65–145°F |
+| 4,000 | Ω | [12-specifications.md](12-specifications.md) | Ignition coil, primary / secondary .4 / 4,000 Ω |
+| 50 | Ω | [12-specifications.md](12-specifications.md) | Solenoid-coil rating 50 Ω |
+| 4½–5½ | lb | [12-specifications.md](12-specifications.md) | Fuel pressure 4½–5½ lb as printed |
+| 14 | V | [12-specifications.md](12-specifications.md) | Cool Pack blower 14 V, 9.4 A maximum cold, 3100 rpm cold |
+| 9.4 | A | [12-specifications.md](12-specifications.md) | Cool Pack blower 14 V, 9.4 A maximum cold, 3100 rpm cold |
+| 3100 | rpm | [12-specifications.md](12-specifications.md) | Cool Pack blower 14 V, 9.4 A maximum cold, 3100 rpm cold |
+| 80 | °F | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
+| 3.85 | Ω | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
+| 3.2 | A | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
+| 12 | V | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
+| 5 | lb | [12-specifications.md](12-specifications.md) | Freon-12 charge / oil capacity 5 lb / 11 oz. |
+| 11 | oz. | [12-specifications.md](12-specifications.md) | Freon-12 charge / oil capacity 5 lb / 11 oz. |
+| 17–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Compressor suction/discharge connector bolt 17–23 ft. lb. |
+| 19–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Rear-head-to-shell stud nuts 19–23 ft. lb. |
+| 14–16 | ft. lb. | [12-specifications.md](12-specifications.md) | Shaft mounting nut 14–16 ft. lb. |
+| 15 | A | [12-specifications.md](12-specifications.md) | Cool Pack fuses Two 15 A |
+| 5 | lb | [12-specifications.md](12-specifications.md) | The **5 lb** charge here supports one half of the conflicting charge |
+| 815 | lb | [12-specifications.md](12-specifications.md) | Front spring working height / load 6.17 in. at 815 lb |
+| 168 / 86 | lb | [12-specifications.md](12-specifications.md) | Front spring rate / wheel rate 168 / 86 lb/in. |
+| 1600 | lb | [12-specifications.md](12-specifications.md) | Rear spring free / working / curb-weight height 11.02 / 8.11 at 1600 lb / 8.03 in. |
+| 550 / 192 | lb | [12-specifications.md](12-specifications.md) | Rear spring rate / wheel rate 550 / 192 lb/in. |
+| 9 | gal | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
+| 4000 | rpm | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
+| 4 | qt. | [12-specifications.md](12-specifications.md) | Crankcase capacity, dry / refill 5½ / 4 qt. |
+| 10 | psi | [12-specifications.md](12-specifications.md) | cylinder bank. Its bypass begins to open at **10 psi**. The full-flow |
+| 1.0 | pt. | [12-specifications.md](12-specifications.md) | oil filter holds **1.0 pt.**; the passenger oil filler is on the |
+| 2 | A | [12-specifications.md](12-specifications.md) | The rear-center oil-pan drain screw is a hex-head **½-20 UNF-2A** fastener |
+| 13 / 6 | pt. | [12-specifications.md](12-specifications.md) | Oil capacity, dry / refill Approx. 13 / 6 pt. |
