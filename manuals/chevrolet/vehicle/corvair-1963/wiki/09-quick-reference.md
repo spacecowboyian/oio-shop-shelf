@@ -505,6 +505,13 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 40 | ° | [12-specifications.md](12-specifications.md) | wide, with a **40°** V angle. The exhaust thermostat starts opening at |
 | 200–210 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
 | 215–225 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
+| 900–1075 | lb | [12-specifications.md](12-specifications.md) | 80 hp 900–1075 lb |
+| 900–1075 | lb | [12-specifications.md](12-specifications.md) | 102 hp 900–1075 lb |
+| 1250–1450 | lb | [12-specifications.md](12-specifications.md) | 150 hp turbocharged 1250–1450 lb |
+| 900–1075 | lb | [12-specifications.md](12-specifications.md) | print **900–1075 lb** and footnote **1250–1450 lb for the turbocharged |
+| 1250–1450 | lb | [12-specifications.md](12-specifications.md) | print **900–1075 lb** and footnote **1250–1450 lb for the turbocharged |
+| 900–1075 | lb | [12-specifications.md](12-specifications.md) | independently prints **900–1075 lb** for both 80 and 102 hp engines and |
+| 1250–1450 | lb | [12-specifications.md](12-specifications.md) | **1250–1450 lb** for the 150 hp turbocharged engine. The figures on that |
 | 50–70 | ft. lb. | [12-specifications.md](12-specifications.md) | with **50–70 ft. lb.** constant preload torque. |
 | 4½ | pt. | [12-specifications.md](12-specifications.md) | Lubricant refill capacity 4½ pt. |
 | 3 | pt. | [12-specifications.md](12-specifications.md) | 3-speed 3.50:1 1.99:1 1.00:1 — 3.97:1 3 pt. |

@@ -295,6 +295,17 @@ Factory fig. 1-18 identifies shaded contact areas for a drive-on hoist on the
 passenger-car body. For the vehicle jack, engage its tab with the outer body
 flange so it cannot slide too far under the car. The diagram predates the
 1963 convertible; its application to that variant is unverified.
+
+The [1963 Chevrolet Corvair Owners Guide, p. 36](https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf#page=20)
+provides a year-specific **vehicle-jack** illustration for Corvair and
+Spyder passenger cars: position the jack **4 in. behind the front wheel
+opening seam** or **10 in. ahead of the rear wheel opening**. Its drawing
+shows the jack's body-flange engagement and warns against placing a jack
+under the bumper. The guide gives no convertible-specific exception, but
+this is a scissors-jack instruction, not a hoist contact diagram. It does
+not establish that the 1961 hoist's shaded contact areas suit a 1963
+convertible.
+<!-- SOURCE id=chevrolet-owners-guide-1963-e3 page=36 years=1963 scope=passenger pdf_page=20 -->
 <!-- NEEDS REVIEW: Confirm fig. 1-18 lift-contact geometry for 1963 passenger variants, especially convertible, before treating the 1961 diagram as a complete lifting specification. -->
 
 ![Factory passenger-car lift-point diagram, fig. 1-18](../diagrams/p0007-passenger-lift-points.png)
