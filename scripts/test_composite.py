@@ -7,10 +7,16 @@ from composite import UnresolvedSourceConflict, applicable, parse_source_marker,
 from build_manual_index import harvest_file
 from _common import load_manifest, validate_manifest
 SPEC_RE = __import__("05_build_indexes").SPEC_RE
+strip_html_comments = __import__("05_build_indexes").strip_html_comments
 from validate_composite_map import validate
 
 
 class CompositeRulesTest(unittest.TestCase):
+    def test_multiline_html_comments_are_removed_without_shifting_lines(self):
+        self.assertEqual(
+            ["Before ", "", " after 12 in."],
+            strip_html_comments("Before <!-- hidden\n12 in.\n--> after 12 in.").splitlines())
+
     def test_quick_reference_preserves_printed_fractions(self):
         found = [(m.group("val"), m.group("unit")) for m in
                  SPEC_RE.finditer("33½° and 3⁄32″ and ⅛″–⅜″")]
