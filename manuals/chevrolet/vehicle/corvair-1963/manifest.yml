@@ -1,0 +1,884 @@
+# Composite working manifest; chapters combine applicable base and supplement sections.
+slug: chevrolet-corvair-1963
+title: 1963 Chevrolet Corvair Shop Manual
+conversion_status: complete-with-review-flags
+taxonomy:
+  make: chevrolet
+  category: vehicle
+  models:
+  - corvair
+  years: '1963'
+source:
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf"
+  pages: 742 # factory pages mapped below; released PDF has four appended index pages
+rights: Chevrolet Motor Division / General Motors factory service documentation; redistribution
+  rights have not been established. See CONTRIBUTING.md.
+composite:
+  target_year: 1963
+  scope: passenger
+  source_staging_dir: ../../../../_inbox/chevrolet-corvair-1963
+  source_inventory: data/source-inventory.json
+  sources:
+  - id: base-1961
+    title: 1961 Corvair and Corvair 95 factory shop manual
+    priority: 1
+  - id: supplement-1962-63
+    title: 1962–63 Corvair shop manual supplement
+    priority: 2
+  - id: gm-ama-1963
+    title: 1963 Chevrolet Corvair vehicle information kit, October 1962
+    priority: 3
+    url: https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf
+    sha256: af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe
+    pages: 99
+    external: true
+  - id: chevrolet-finger-tip-facts-1963
+    title: 1963 Chevrolet Finger Tip Facts
+    priority: 3
+    url: https://northern-california-corvairs.com/63FTF.pdf
+    sha256: eb3a5704360ddef56191e823815d26e1fcb1835fbb59a17d142d0944ddc6e541
+    pages: 45
+    external: true
+  - id: chevrolet-owners-guide-1963-e3
+    title: 1963 Chevrolet Corvair Owners Guide, third edition
+    priority: 3
+    url: https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf
+    sha256: 10431718be04260ae318d322acb0720f3c9e1cd10b9900c5b0363ecfa6e8c19d
+    pages: 31
+    external: true
+  - id: chevrolet-service-news-34-9
+    title: Chevrolet Service News, volume 34 number 9, October 1962
+    priority: 3
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf
+    sha256: a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e
+    pages: 48
+    external: true
+  - id: chevrolet-service-news-33-8
+    title: Chevrolet Service News, volume 33 number 8, August 1961
+    priority: 3
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-33-8.pdf
+    sha256: d37fea0ccfae921039d07a01e2aacf45788870d1b05050b1b56bdb3cb3051a60
+    pages: 4
+    external: true
+  - id: chevrolet-tsb-dr564
+    title: Chevrolet Technical Service Bulletin DR 564, December 4 1962
+    priority: 4
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1962/DR564.pdf
+    sha256: 5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e
+    pages: 2
+    external: true
+  - id: chevrolet-tsb-dr594
+    title: Chevrolet Technical Service Bulletin DR 594, May 13 1963
+    priority: 4
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR594.pdf
+    sha256: 7baa76c8882f059a0f01cf4038f2c911257bc128223aef9b3fb9264770d48d84
+    pages: 5
+    external: true
+  - id: delco-remy-1r-186
+    title: Delco-Remy Service Bulletin 1R-186, March 1 1968
+    priority: 3
+    url: https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf
+    sha256: 272007e0b95fa2182fbb74b4c2cccbc21adc9ba7bdae290f6454c36d8718957c
+    pages: 8
+    external: true
+  - id: chevrolet-parts-catalog-1969
+    title: Chevrolet Corvair Parts & Accessories Catalog, revised October 1969
+    priority: 3
+    url: https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf
+    sha256: a8bf0c633a7c40b51820bf20dbfb9572bfb2814f1646560aa815ba577dbfa1a8
+    pages: 502
+    external: true
+  provenance_map: data/source-page-map.jsonl
+  precedence: The supplement supersedes base procedures only where it explicitly changes
+    them; 1963-specific entries supersede shared 1962–63 entries. The October 1962
+    GM 1963 vehicle information kit supplies model-specific 1963 dimensions, weights,
+    and January 1963 revised chassis settings; later Chevrolet service publications
+    clarify 1963 component applications. Exclude 1961-only, 1962-only, and Corvair 95
+    commercial procedures. Conflicting facts remain flagged until source order is established.
+ocr:
+  language: eng
+  force: false
+render:
+  dpi: 200
+  diagram_dpi: 300
+chapters:
+- file: 01-general-information.md
+  section_code: '1'
+  title: General Information
+  source_id: base-1961
+  page_start: 1
+  page_end: 11
+  source_ranges:
+  - source_id: base-1961
+    source_file: 1-Gen_info-61.pdf
+    page_start: 1
+    page_end: 11
+  - source_id: supplement-1962-63
+    source_file: 1-Gen_info-62-63.pdf
+    page_start: 532
+    page_end: 533
+- file: 02-lubrication.md
+  section_code: '2'
+  title: Lubrication
+  source_id: base-1961
+  page_start: 130
+  page_end: 145
+  source_ranges:
+  - source_id: base-1961
+    source_file: 2-lubric-61.pdf
+    page_start: 130
+    page_end: 145
+  - source_id: supplement-1962-63
+    source_file: 2-lubric-62-63.pdf
+    page_start: 637
+    page_end: 639
+- file: 03-suspension.md
+  section_code: '3'
+  title: Suspension
+  source_id: base-1961
+  page_start: 146
+  page_end: 183
+  source_ranges:
+  - source_id: base-1961
+    source_file: 3-suspen-61.pdf
+    page_start: 146
+    page_end: 183
+  - source_id: supplement-1962-63
+    source_file: 3-suspen-62-63.pdf
+    page_start: 640
+    page_end: 644
+- file: 04-steering.md
+  section_code: '4'
+  title: Steering
+  source_id: base-1961
+  page_start: 184
+  page_end: 209
+  source_ranges:
+  - source_id: base-1961
+    source_file: 4-steer-61.pdf
+    page_start: 184
+    page_end: 209
+  - source_id: supplement-1962-63
+    source_file: 4-steer-62-63.pdf
+    page_start: 645
+    page_end: 648
+- file: 05-brakes.md
+  section_code: '5'
+  title: Brakes
+  source_id: base-1961
+  page_start: 210
+  page_end: 231
+  source_ranges:
+  - source_id: base-1961
+    source_file: 5-brakes-61.pdf
+    page_start: 210
+    page_end: 231
+  - source_id: supplement-1962-63
+    source_file: 5-brakes-62-63.pdf
+    page_start: 649
+    page_end: 657
+- file: 06-power-train.md
+  section_code: '6'
+  title: Power Train
+  source_id: base-1961
+  page_start: 232
+  page_end: 245
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6-pwrtrain-61.pdf
+    page_start: 232
+    page_end: 245
+  - source_id: supplement-1962-63
+    source_file: 6-pwrtrain-62-63.pdf
+    page_start: 658
+    page_end: 658
+- file: 06a-engine.md
+  section_code: 6A
+  title: Engine
+  source_id: base-1961
+  page_start: 246
+  page_end: 306
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6A-engine-61.pdf
+    page_start: 246
+    page_end: 306
+  - source_id: supplement-1962-63
+    source_file: 6A-engine-62-63.pdf
+    page_start: 659
+    page_end: 667
+- file: 06b-clutch.md
+  section_code: 6B
+  title: Clutch
+  source_id: base-1961
+  page_start: 307
+  page_end: 320
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6B-clutch-61.pdf
+    page_start: 307
+    page_end: 320
+  - source_id: supplement-1962-63
+    source_file: 6B-clutch-62-63.pdf
+    page_start: 668
+    page_end: 668
+- file: 06c-rear-axle.md
+  section_code: 6C
+  title: Rear Axle
+  source_id: base-1961
+  page_start: 321
+  page_end: 346
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6C-raxel-61.pdf
+    page_start: 321
+    page_end: 346
+  - source_id: supplement-1962-63
+    source_file: 6C-raxel-62-63.pdf
+    page_start: 669
+    page_end: 675
+- file: 06d-manual-transmission.md
+  section_code: 6D
+  title: Manual Transmission
+  source_id: base-1961
+  page_start: 347
+  page_end: 360
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6D-3spdTrns-61.pdf
+    page_start: 347
+    page_end: 360
+  - source_id: base-1961
+    source_file: 6D-4spdTrns-61.pdf
+    page_start: 361
+    page_end: 374
+  - source_id: supplement-1962-63
+    source_file: 6D-mantrans-62-63.pdf
+    page_start: 676
+    page_end: 677
+- file: 06e-automatic-transmission.md
+  section_code: 6E
+  title: Automatic Transmission
+  source_id: base-1961
+  page_start: 375
+  page_end: 404
+  source_ranges:
+  - source_id: base-1961
+    source_file: 6E-AutoTrns-61.pdf
+    page_start: 375
+    page_end: 404
+  - source_id: supplement-1962-63
+    source_file: 6E-AutoTrns-62-63.pdf
+    page_start: 678
+    page_end: 680
+- file: 07-engine-tune-up.md
+  section_code: '7'
+  title: Engine Tune-Up
+  source_id: base-1961
+  page_start: 405
+  page_end: 417
+  source_ranges:
+  - source_id: base-1961
+    source_file: 7-tuneUp-61.pdf
+    page_start: 405
+    page_end: 417
+  - source_id: supplement-1962-63
+    source_file: 7-tuneUp-62-63.pdf
+    page_start: 681
+    page_end: 686
+- file: 08-electrical-systems.md
+  section_code: '8'
+  title: Electrical Systems
+  source_id: base-1961
+  page_start: 418
+  page_end: 500
+  source_ranges:
+  - source_id: base-1961
+    source_file: 8-elctSys-61.pdf
+    page_start: 418
+    page_end: 500
+  - source_id: supplement-1962-63
+    source_file: 8-elctSys-62-63.pdf
+    page_start: 687
+    page_end: 712
+- file: 09-fuel-and-exhaust.md
+  section_code: '9'
+  title: Fuel and Exhaust Systems
+  source_id: base-1961
+  page_start: 501
+  page_end: 528
+  source_ranges:
+  - source_id: base-1961
+    source_file: 9-fuelExh-61.pdf
+    page_start: 501
+    page_end: 528
+  - source_id: supplement-1962-63
+    source_file: 9-fuelExh-62-63.pdf
+    page_start: 713
+    page_end: 742
+- file: 10-body.md
+  section_code: '10'
+  title: Body
+  source_id: base-1961
+  page_start: 12
+  page_end: 31
+  source_ranges:
+  - source_id: base-1961
+    source_file: 10-body-2d-61.pdf
+    page_start: 12
+    page_end: 31
+  - source_id: base-1961
+    source_file: 10-body-4d-61.pdf
+    page_start: 32
+    page_end: 81
+  - source_id: supplement-1962-63
+    source_file: 10-body-62-63.pdf
+    page_start: 534
+    page_end: 580
+- file: 11-accessories.md
+  section_code: '11'
+  title: Accessories
+  source_id: base-1961
+  page_start: 82
+  page_end: 116
+  source_ranges:
+  - source_id: base-1961
+    source_file: 11-assory-61.pdf
+    page_start: 82
+    page_end: 116
+  - source_id: supplement-1962-63
+    source_file: 11-assory-62-63.pdf
+    page_start: 581
+    page_end: 623
+- file: 12-specifications.md
+  section_code: '12'
+  title: Specifications
+  source_id: base-1961
+  page_start: 117
+  page_end: 129
+  source_ranges:
+  - source_id: base-1961
+    source_file: 12-specs-61.pdf
+    page_start: 117
+    page_end: 129
+  - source_id: supplement-1962-63
+    source_file: 12-specs-62-63.pdf
+    page_start: 624
+    page_end: 636
+- file: 13-dimensions-and-gauges.md
+  section_code: APP
+  title: Dimensions and Gauges
+  source_id: base-1961
+  page_start: 529
+  page_end: 531
+  source_ranges:
+  - source_id: base-1961
+    source_file: dimens-61.pdf
+    page_start: 529
+    page_end: 531
+diagrams:
+- page: 233
+  file: diagrams/p0233-power-train-engine-section.png
+  kind: exploded
+  depth: gray
+  caption: Engine side of the passenger power train sectional view, Figure 6-1
+  safety_relevant: false
+- page: 234
+  file: diagrams/p0234-power-train-sectional-view.png
+  kind: exploded
+  depth: gray
+  caption: Passenger power train sectional arrangement, Figure 6-1
+  safety_relevant: false
+- page: 236
+  file: diagrams/p0236-engine-electrical-connections.png
+  kind: wiring
+  depth: gray
+  caption: Engine electrical disconnections for power train removal, Figure 6-3
+  safety_relevant: true
+- page: 237
+  file: diagrams/p0237-power-train-removal-connections.png
+  kind: sequence
+  depth: gray
+  caption: Clutch and Powerglide control connections and engine support fixture
+  safety_relevant: true
+- page: 241
+  file: diagrams/p0241-powerglide-thrust-selection.png
+  kind: chart
+  depth: gray
+  caption: Rear Powerglide thrust-washer dial gauge and selection chart
+  safety_relevant: true
+- page: 85
+  file: diagrams/p0085-gasoline-heater-circuit.png
+  kind: wiring
+  depth: gray
+  caption: Passenger gasoline-heater wiring and fuse circuit
+  safety_relevant: true
+- page: 582
+  file: diagrams/p0582-1963-heater-control-lock.png
+  kind: chart
+  depth: gray
+  caption: 1963 direct-air heater cable setting and spring lock
+  safety_relevant: true
+- page: 585
+  file: diagrams/p0585-air-conditioning-cycle.png
+  kind: chart
+  depth: gray
+  caption: Factory air-conditioning refrigerant cycle
+  safety_relevant: false
+- page: 586
+  file: diagrams/p0586-refrigerant-pressure-temperature.png
+  kind: chart
+  depth: gray
+  caption: Freon-12 pressure–temperature chart as printed
+  safety_relevant: true
+- page: 598
+  file: diagrams/p0598-air-conditioning-service-connections.png
+  kind: chart
+  depth: gray
+  caption: Compressor gauge and charging connections
+  safety_relevant: true
+- page: 600
+  file: diagrams/p0600-j8393-charging-station.png
+  kind: chart
+  depth: gray
+  caption: J-8393 charging station and numbered control valves
+  safety_relevant: true
+- page: 610
+  file: diagrams/p0610-six-cylinder-compressor.png
+  kind: exploded
+  depth: gray
+  caption: Reverse-rotation six-cylinder compressor sectional parts
+  safety_relevant: true
+- page: 616
+  file: diagrams/p0616-compressor-shoe-gauging.png
+  kind: sequence
+  depth: gray
+  caption: Compressor shoe and thrust-race gauging setup
+  safety_relevant: true
+- page: 622
+  file: diagrams/p0622-air-conditioning-wiring.png
+  kind: wiring
+  depth: gray
+  caption: Passenger air-conditioning controls and electrical circuit
+  safety_relevant: true
+- page: 539
+  file: diagrams/p0539-coupe-vinyl-door-weatherstrip.png
+  kind: sequence
+  depth: gray
+  caption: Coupe vinyl door weatherstrip retention and installation
+  safety_relevant: false
+- page: 550
+  file: diagrams/p0550-body-underbody-reference-points.png
+  kind: chart
+  depth: gray
+  caption: Revised 1962–63 passenger coupe and sedan body alignment reference points
+  safety_relevant: true
+- page: 557
+  file: diagrams/p0557-convertible-top-frame.png
+  kind: exploded
+  depth: gray
+  caption: Model 967 convertible folding-top frame and components
+  safety_relevant: false
+- page: 562
+  file: diagrams/p0562-convertible-top-trim-spacing.png
+  kind: chart
+  depth: gray
+  caption: Model 967 top fabric and bow spacing reference
+  safety_relevant: true
+- page: 569
+  file: diagrams/p0569-power-top-pump.png
+  kind: exploded
+  depth: gray
+  caption: Optional convertible power-top pump and motor service
+  safety_relevant: true
+- page: 716
+  file: diagrams/p0716-rochester-h-float-setting.png
+  kind: sequence
+  depth: gray
+  caption: Rochester H automatic-choke carburetor float level and drop (figs. 9-10 and 9-11)
+  safety_relevant: true
+- page: 723
+  file: diagrams/p0723-spyder-turbo-flow.png
+  kind: sequence
+  depth: gray
+  caption: Spyder turbo-supercharger air-fuel, exhaust and oil flow (fig. 9-23)
+  safety_relevant: true
+- page: 735
+  file: diagrams/p0735-spyder-turbo-exploded.png
+  kind: exploded
+  depth: gray
+  caption: Spyder turbo-supercharger exploded components (fig. 9-47)
+  safety_relevant: true
+- page: 741
+  file: diagrams/p0741-spyder-exhaust-components.png
+  kind: sequence
+  depth: gray
+  caption: Spyder exhaust system and turbine pipe components (fig. 9-61)
+  safety_relevant: true
+- page: 703
+  file: diagrams/p0703-spyder-warning-circuit.png
+  kind: wiring
+  depth: gray
+  caption: Monza Spyder oil-pressure and temperature warning circuit (fig. 27)
+  safety_relevant: true
+- page: 707
+  file: diagrams/p0707-1963-front-dash-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger front and dash harness (fig. 8-32)
+  safety_relevant: true
+- page: 708
+  file: diagrams/p0708-1963-instrument-body-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger instrument-panel and body harness (fig. 8-33)
+  safety_relevant: true
+- page: 709
+  file: diagrams/p0709-1963-engine-tail-wiring.png
+  kind: wiring
+  depth: gray
+  caption: 1963 passenger engine and tail-lamp harness (fig. 8-34)
+  safety_relevant: true
+- page: 683
+  file: diagrams/p0683-carburetor-linkage.png
+  kind: sequence
+  depth: gray
+  caption: 1963 paired-carburetor cross-shaft and rod linkage (fig. 7-4)
+  safety_relevant: true
+- page: 686
+  file: diagrams/p0686-crankcase-ventilation.png
+  kind: sequence
+  depth: gray
+  caption: 1963 positive crankcase ventilation routing (fig. 9)
+  safety_relevant: true
+- page: 376
+  file: diagrams/p0376-powerglide-cross-section.png
+  kind: exploded
+  depth: gray
+  caption: Passenger Powerglide transaxle cross-section (fig. 6E-1)
+  safety_relevant: true
+- page: 362
+  file: diagrams/p0362-four-speed-cross-section.png
+  kind: exploded
+  depth: gray
+  caption: Four-speed transmission cross-section (fig. 6D-29)
+  safety_relevant: true
+- page: 676
+  file: diagrams/p0676-gearshift-support.png
+  kind: sequence
+  depth: gray
+  caption: Three-speed gearshift support bracket and linkage (fig. 6D-1)
+  safety_relevant: true
+- page: 342
+  file: diagrams/p0342-gear-contact-patterns.png
+  kind: chart
+  depth: gray
+  caption: Ring-and-pinion heel, toe, face and flank contact patterns (fig. 6C-54)
+  safety_relevant: true
+- page: 672
+  file: diagrams/p0672-positraction.png
+  kind: exploded
+  depth: gray
+  caption: Positraction differential clutch-pack arrangement (fig. 6C-10)
+  safety_relevant: true
+- page: 673
+  file: diagrams/p0673-positraction-clutch-pack.png
+  kind: sequence
+  depth: gray
+  caption: Positraction clutch-pack stack and case alignment (figs. 6C-11–13)
+  safety_relevant: true
+- page: 308
+  file: diagrams/p0308-clutch-linkage-adjustment.png
+  kind: sequence
+  depth: gray
+  caption: Passenger clutch cable and fork-rod adjustment (figs. 6B-2–3)
+  safety_relevant: true
+- page: 668
+  file: diagrams/p0668-spyder-clutch.png
+  kind: exploded
+  depth: gray
+  caption: 1963 pedal bracket and high-performance clutch identification (figs. 6B-2–3)
+  safety_relevant: true
+- page: 294
+  file: diagrams/p0294-camshaft-timing.png
+  kind: chart
+  depth: gray
+  caption: Camshaft end play and timing-gear backlash checks (figs. 6A-95–96)
+  safety_relevant: true
+- page: 297
+  file: diagrams/p0297-head-tightening.png
+  kind: sequence
+  depth: gray
+  caption: Cylinder-head tightening sequence and push-rod placement (figs. 6A-104–106)
+  safety_relevant: true
+- page: 661
+  file: diagrams/p0661-engine-shrouding.png
+  kind: exploded
+  depth: gray
+  caption: Revised 1963 engine sheet metal exploded view (fig. 6A-3)
+  safety_relevant: true
+- page: 663
+  file: diagrams/p0663-exhaust-valve-locks.png
+  kind: chart
+  depth: gray
+  caption: 1963 four-bead exhaust-valve locks and shroud access
+  safety_relevant: true
+- page: 666
+  file: diagrams/p0666-rear-main-bearing.png
+  kind: sequence
+  depth: gray
+  caption: Left flanged and right unflanged rear main-bearing halves (fig. 6A-11)
+  safety_relevant: true
+- page: 667
+  file: diagrams/p0667-monza-spyder-engine.png
+  kind: exploded
+  depth: gray
+  caption: Turbocharged Monza Spyder engine equipment (fig. 6A-12)
+  safety_relevant: true
+- page: 649
+  file: diagrams/p0649-1963-self-adjusting-brake.png
+  kind: exploded
+  depth: gray
+  caption: 1963 passenger self-adjusting brake hardware (fig. 5-1)
+  safety_relevant: true
+- page: 651
+  file: diagrams/p0651-brake-main-cylinder.png
+  kind: exploded
+  depth: gray
+  caption: 1963 brake main cylinder and pedal free-movement service (fig. 5-5)
+  safety_relevant: true
+- page: 654
+  file: diagrams/p0654-brake-shoe-assembly.png
+  kind: sequence
+  depth: gray
+  caption: 1963 brake-shoe assembly and lubrication contact points
+  safety_relevant: true
+- page: 655
+  file: diagrams/p0655-brake-clearance-gauge.png
+  kind: sequence
+  depth: gray
+  caption: Drum-to-shoe clearance gauge and self-adjuster checks (figs. 5-11 to 5-13)
+  safety_relevant: true
+- page: 185
+  file: diagrams/p0185-steering-linkage-and-gear.png
+  kind: exploded
+  depth: gray
+  caption: Passenger steering linkage, tie-rod end and recirculating gear
+  safety_relevant: true
+- page: 188
+  file: diagrams/p0188-steering-gear-exploded.png
+  kind: exploded
+  depth: gray
+  caption: Passenger steering gear exploded view and numbered parts (fig. 4-11)
+  safety_relevant: true
+- page: 191
+  file: diagrams/p0191-ball-nut-assembly.png
+  kind: sequence
+  depth: gray
+  caption: Ball-guide filling and insertion into steering ball nut (figs. 4-17 to 4-18)
+  safety_relevant: true
+- page: 196
+  file: diagrams/p0196-steering-linkage-alignment.png
+  kind: chart
+  depth: gray
+  caption: Passenger steering-linkage alignment (fig. 4-31)
+  safety_relevant: true
+- page: 645
+  file: diagrams/p0645-steering-pull-scale.png
+  kind: sequence
+  depth: gray
+  caption: Checking steering adjustment at wheel rim with pull scale J-5178
+  safety_relevant: true
+- page: 151
+  file: diagrams/p0151-front-hub-bearing-tools.png
+  kind: chart
+  depth: gray
+  caption: Front hub bearing-cup tool drawings and press setup (figs. 3-6 to 3-8)
+  safety_relevant: true
+- page: 152
+  file: diagrams/p0152-front-shock-installation.png
+  kind: exploded
+  depth: gray
+  caption: Front shock absorber installation (fig. 3-9)
+  safety_relevant: true
+- page: 153
+  file: diagrams/p0153-front-riding-height.png
+  kind: chart
+  depth: gray
+  caption: Passenger-car front riding-height measurement (fig. 3-10)
+  safety_relevant: true
+- page: 154
+  file: diagrams/p0154-front-spring-lower-arm-removal.png
+  kind: sequence
+  depth: gray
+  caption: Strut-rod attachment, front spring support, lower-arm and joint removal
+  safety_relevant: true
+- page: 155
+  file: diagrams/p0155-lower-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Lower-joint and lower-arm bushing press arrangement
+  safety_relevant: true
+- page: 156
+  file: diagrams/p0156-front-spring-installation.png
+  kind: sequence
+  depth: gray
+  caption: Front coil-spring installation using jackstand (fig. 3-18)
+  safety_relevant: true
+- page: 157
+  file: diagrams/p0157-upper-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Upper control-arm bushing installation press setup (fig. 3-20)
+  safety_relevant: true
+- page: 158
+  file: diagrams/p0158-front-crossmember-points.png
+  kind: chart
+  depth: gray
+  caption: Front crossmember and strut-rod attachment points (fig. 3-22)
+  safety_relevant: true
+- page: 159
+  file: diagrams/p0159-rear-riding-height.png
+  kind: chart
+  depth: gray
+  caption: Rear passenger-car riding-height measurement (fig. 3-23)
+  safety_relevant: true
+- page: 160
+  file: diagrams/p0160-rear-spring-service.png
+  kind: sequence
+  depth: gray
+  caption: Rear axle yoke position, spring release, and shock installation
+  safety_relevant: true
+- page: 161
+  file: diagrams/p0161-rear-control-arm-removal.png
+  kind: sequence
+  depth: gray
+  caption: Rear brake-shoe, backing-plate, and control-arm removal
+  safety_relevant: true
+- page: 162
+  file: diagrams/p0162-rear-arm-bushing-press.png
+  kind: sequence
+  depth: gray
+  caption: Rear control-arm bushing press setup and splash-shield orientation
+  safety_relevant: true
+- page: 163
+  file: diagrams/p0163-rear-crossmember-mounting.png
+  kind: exploded
+  depth: gray
+  caption: Rear crossmember mounts and power-plant brace (figs. 3-33 and 3-34)
+  safety_relevant: true
+- page: 164
+  file: diagrams/p0164-power-plant-brace.png
+  kind: exploded
+  depth: gray
+  caption: Power-plant brace and rear crossmember mounting geometry (fig. 3-35)
+  safety_relevant: true
+- page: 166
+  file: diagrams/p0166-jack-and-tire-rotation.png
+  kind: chart
+  depth: gray
+  caption: Passenger-car jacking points and five-tire rotation plan (figs. 3-36 and 3-37)
+  safety_relevant: true
+- page: 170
+  file: diagrams/p0170-outside-plug-repair.png
+  kind: sequence
+  depth: gray
+  caption: Factory self-vulcanizing outside-plug repair sequence (figs. 3-44 to 3-48)
+  safety_relevant: true
+- page: 171
+  file: diagrams/p0171-self-vulcanizing-patch.png
+  kind: sequence
+  depth: gray
+  caption: Factory self-vulcanizing patch filler and stitching sequence (figs. 3-49 and 3-50)
+  safety_relevant: true
+- page: 641
+  file: diagrams/p0641-lower-spherical-joint-inspection.png
+  kind: chart
+  depth: gray
+  caption: Factory lower spherical-joint wear measurement (fig. 3-1)
+  safety_relevant: true
+- page: 2
+  file: diagrams/p0002-passenger-dimensions.png
+  kind: chart
+  depth: mono
+  caption: Passenger-car body dimensions from factory fig. 1-1
+  safety_relevant: false
+- page: 6
+  file: diagrams/p0006-lock-tumbler-diagram.png
+  kind: chart
+  depth: mono
+  caption: Factory side-bar lock tumbler requirement diagram (fig. 1-13)
+  safety_relevant: false
+- page: 7
+  file: diagrams/p0007-passenger-lift-points.png
+  kind: chart
+  depth: mono
+  caption: Passenger-car hoist and jack contact areas (fig. 1-18)
+  safety_relevant: true
+- page: 8
+  file: diagrams/p0008-general-steel-bolt-torque.png
+  kind: chart
+  depth: mono
+  caption: Factory general steel-bolt torque chart, for steel parts without specific torque
+  safety_relevant: true
+- page: 137
+  file: diagrams/p0137-clutch-parking-brake-pulleys.png
+  kind: chart
+  depth: mono
+  caption: Clutch and parking-brake cable pulley lubrication points (figs. 2-12 and 2-13)
+  safety_relevant: false
+- page: 138
+  file: diagrams/p0138-body-lubrication.png
+  kind: chart
+  depth: mono
+  caption: Door-striker, drain strip, and front-compartment lubrication points
+  safety_relevant: false
+- page: 140
+  file: diagrams/p0140-door-window-regulator.png
+  kind: chart
+  depth: mono
+  caption: Door-window regulator and linkage lubrication points (fig. 2-23)
+  safety_relevant: false
+- page: 533
+  file: diagrams/p0533-1963-model-identification.png
+  kind: chart
+  depth: mono
+  caption: 1963 Corvair passenger-car model identification and source context
+  safety_relevant: false
+- page: 624
+  file: diagrams/p0624-1963-wheel-alignment.png
+  kind: chart
+  depth: mono
+  caption: 1962 and 1963 wheel-alignment columns; consult the 1963 column only
+  safety_relevant: true
+- page: 625
+  file: diagrams/p0625-suspension-torque.png
+  kind: chart
+  depth: mono
+  caption: Passenger-car suspension bolt torque alongside excluded Corvair 95 values
+  safety_relevant: true
+- page: 679
+  file: diagrams/p0679-planet-carrier.png
+  kind: exploded
+  depth: gray
+  caption: Factory planet-carrier exploded view and pinion-removal setup
+  safety_relevant: true
+- page: 678
+  file: diagrams/p0678-planet-gear-clearance.png
+  kind: chart
+  depth: gray
+  caption: Factory figure 6E-1 checking planet-gear end clearance
+  safety_relevant: true
+- page: 680
+  file: diagrams/p0680-pinion-installation.png
+  kind: sequence
+  depth: gray
+  caption: Factory pinion installation and staking operations
+  safety_relevant: true
+- page: 639
+  file: diagrams/p0639-rear-quarter-regulator.png
+  kind: chart
+  depth: mono
+  caption: Rear-quarter window regulator and guide lubrication points (fig. 2-1)
+  safety_relevant: false

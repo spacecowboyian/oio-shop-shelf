@@ -22,6 +22,10 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from _common import load_manifest  # noqa: E402
+from composite import parse_source_marker  # noqa: E402
+
 # generated / index / instruction files are not primary content
 SKIP_FILES = {
     "00-index.md", "09-quick-reference.md", "09-torque-specs.md", "10-needs-review.md",
@@ -39,11 +43,14 @@ REVIEW_RE = re.compile(r"<!--\s*NEEDS REVIEW:\s*(.*?)\s*-->", re.DOTALL)
 # Prose spec statements — a value+unit stated in running text or a NOTE (e.g. a torque in a
 # procedure step), which the table-flattener misses. Torque especially is often prose-only.
 PROSE_UNIT_RE = re.compile(
-    r"\d[\d.,]*\s*(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?ft|ft\.?[\s/]?lbs?|"
-    r"kg/sq\.?cm|lbs?/sq|psi|°|ohms?|Ω)", re.I)
+    r"(?:\d+\s*[⁄/]\s*\d+|\d+[¼½¾⅛⅜⅝⅞]|\d[\d.,]*|[¼½¾⅛⅜⅝⅞])\s*"
+    r"(?:m\.?kg|kg\.?m|lbs?\.?[\s/]?(?:ft|in)|(?:ft|in)\.?[\s/]?lbs?\.?|"
+    r"kg/sq\.?cm|lbs?/sq|psi|mph|miles?|months?|inch[- ]ounces?|fluid\s+oz\.?|oz\.?|lbs?\.?|pts?\.?|qts?\.?|gals?\.?|°|ohms?|Ω|[\"″])", re.I)
 NUM_TOK_RE = re.compile(r"\d[\d.,]{6,}")
 QUOTE_RE = re.compile(r'"([^"]*)"')
 SEP_RE = re.compile(r"^\|?\s*:?-{2,}")
+PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
+PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
 
 def comment_tokens(comment: str) -> set[str]:
@@ -59,7 +66,7 @@ def slug(header: str) -> str:
 
 
 def split_row(line: str) -> list[str]:
-    line = line.strip()
+    line = REVIEW_RE.sub("", line).strip()
     if line.startswith("|"):
         line = line[1:]
     if line.endswith("|"):
@@ -75,7 +82,7 @@ def page_of(line: str):
     return None
 
 
-def harvest_file(path: Path) -> list[dict]:
+def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
     comments = [c.strip().replace("\n", " ") for c in REVIEW_RE.findall(text)]
@@ -88,11 +95,48 @@ def harvest_file(path: Path) -> list[dict]:
     rows: list[dict] = []
     page = None
     section = None
+    provenance = None
+    external_source = None
+    source_pdf_page = None
+
+    def add_row(row: dict) -> None:
+        if composite is not None:
+            if provenance is None:
+                raise ValueError(f"{path}: spec row lacks a SOURCE marker")
+            source_id, original_page, years, scope, variant = provenance
+            if source_id not in {s["id"] for s in composite["sources"]}:
+                raise ValueError(f"{path}: unknown SOURCE id {source_id}")
+            if int(composite["target_year"]) not in years or scope not in (composite["scope"], "all"):
+                return
+            row.update({"_source_id": source_id, "_original_page": original_page,
+                        "_applicable_years": years, "_scope": scope})
+            if external_source:
+                row.update({"_source_url": external_source["url"],
+                            "_source_pdf_page": source_pdf_page})
+            if variant:
+                row["_variant"] = variant
+        rows.append(row)
+
     i = 0
     while i < len(lines):
         line = lines[i]
+        marker = parse_source_marker(line)
+        if marker:
+            provenance = marker
+            source = next((s for s in composite["sources"] if s["id"] == marker[0]), None) if composite else None
+            external_source = source if source and source.get("external") else None
+            if external_source:
+                source_page_match = re.search(r"\bpdf_page=(\d+)", line)
+                if not source_page_match:
+                    raise ValueError(f"{path}: external SOURCE needs pdf_page: {line}")
+                source_pdf_page = int(source_page_match.group(1))
+                if source_pdf_page < 1 or source_pdf_page > external_source["pages"]:
+                    raise ValueError(f"{path}: external SOURCE pdf_page outside source: {line}")
+                page = None
+            else:
+                source_pdf_page = None
         pg = page_of(line)
-        if pg:
+        if pg and not external_source:
             page = pg
         hm = HEADING_RE.match(line)
         if hm:
@@ -100,13 +144,15 @@ def harvest_file(path: Path) -> list[dict]:
         # prose spec statement (value+unit in running text / a NOTE) — the table-flattener
         # misses these, and torque is often prose-only. Strip list/quote/emphasis markers.
         if not line.strip().startswith("|"):
-            txt = re.sub(r"^[\s>*\-\d.)]+", "", line).strip().replace("**", "")
+            prose_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", line))
+            txt = re.sub(r"^[\s>*\-\d.)]+", "", prose_line).strip().replace("**", "")
             txt = re.sub(r"<!--.*?-->", "", txt).strip()
             if txt and len(txt) <= 240 and PROSE_UNIT_RE.search(txt):
                 fl = [c for c in comments
                       if any(t in txt and comment_tokens_count.get(t, 0) <= 3 for t in comment_tokens(c))]
-                rows.append({"_file": f"wiki/{path.name}", "_page": page,
-                             "_section": section, "_type": "spec", "text": txt, "_flags": fl})
+                fl.extend(c.strip() for c in REVIEW_RE.findall(line) if c.strip() not in fl)
+                add_row({"_file": f"wiki/{path.name}", "_page": page,
+                         "_section": section, "_type": "spec", "text": txt, "_flags": fl})
         # table = pipe header row followed by a separator row
         if line.strip().startswith("|") and i + 1 < len(lines) and SEP_RE.match(lines[i + 1].strip()):
             headers = split_row(line)
@@ -115,21 +161,24 @@ def harvest_file(path: Path) -> list[dict]:
             block_rows = []
             while i < len(lines) and lines[i].strip().startswith("|"):
                 if not SEP_RE.match(lines[i].strip()):
-                    block_rows.append(split_row(lines[i]))
+                    block_rows.append((split_row(lines[i]),
+                                       [c.strip() for c in REVIEW_RE.findall(lines[i])]))
                 i += 1
-            raws = [" | ".join((cs + [""] * len(keys))[: len(keys)]) for cs in block_rows]
+            raws = [" | ".join((cs + [""] * len(keys))[: len(keys)])
+                    for cs, _ in block_rows]
             tok_rowcount: dict[str, int] = {}
             for c in comments:
                 for t in comment_tokens(c):
                     tok_rowcount.setdefault(t, sum(1 for r in raws if t in r))
-            for cells in block_rows:
+            for cells, inline_flags in block_rows:
                 cells = (cells + [""] * len(keys))[: len(keys)]
                 obj = {k: v for k, v in zip(keys, cells)}
                 raw = " | ".join(cells)
                 label_parts = [c for c in cells if c and not re.fullmatch(r"[\d.,\s–-]+", c)][:3]
                 flags = [c for c in comments
                          if any(t in raw and tok_rowcount.get(t, 0) <= 2 for t in comment_tokens(c))]
-                rows.append({
+                flags.extend(c for c in inline_flags if c not in flags)
+                add_row({
                     "_file": f"wiki/{path.name}", "_page": page, "_section": section,
                     "_label": " — ".join(label_parts), **obj, "_flags": flags,
                 })
@@ -148,7 +197,7 @@ def main() -> int:
     files = sorted(f for f in wiki.glob("*.md") if f.name not in SKIP_FILES)
     all_rows: list[dict] = []
     for f in files:
-        all_rows.extend(harvest_file(f))
+        all_rows.extend(harvest_file(f, load_manifest(mdir).get("composite")))
     out = mdir / "data" / "manual-index.jsonl"
     out.parent.mkdir(exist_ok=True)
     with out.open("w", encoding="utf-8") as fh:
