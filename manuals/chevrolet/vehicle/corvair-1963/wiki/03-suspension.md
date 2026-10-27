@@ -861,10 +861,16 @@ adjustment** above.
 notches and use an arbor press to remove it. The factory specifies installer
 **J-8351** for the outer cup, **J-8349** for the inner cup, and driver handle
 **J-7079-2**. Seat each new cup squarely and fully against the hub shoulder.
-The source's homemade press-out tool dimensions in fig. 3-6 have not yet been
-independently verified from the scan; use the illustrated geometry rather than
-an inferred dimension.
-<!-- NEEDS REVIEW: Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. -->
+The dimensions in factory fig. 3-6 were checked against the
+[delivered page image](../page-images/p0151.png) and an
+[alternate scan of the same factory page](https://northern-california-corvairs.com/Corvair_1961SM_3.pdf#page=6).
+The text calls for steel bar stock from **¾ × ¾ in.** up to **¾ × 1 in.**
+in cross section; the two pieces drawn have **¾ × ¾ in.** cross sections.
+The drawing labels the **inner-cup piece 1⅞ in. long**, the **outer-cup
+piece 1½ in. long**, and the pressing pipe or arbor **1¼ in. diameter**.
+Follow the factory illustration for positioning the pieces in the hub's
+notches; the lengths alone do not describe the tool geometry.
+<!-- RESOLVED IMAGE READING: Base Section 3 p.3-6, fig.3-6 (combined PDF p.151), corroborated against an alternate scan of that factory page, shows 3/4 x 3/4 to 3/4 x 1 in. stock; depicted pieces 3/4 x 3/4 in.; inner 1 7/8 in.; outer 1 1/2 in.; pipe/arbor 1 1/4 in. diameter. -->
 
 ![Factory bearing-cup tools and hub-bolt press setup, figs. 3-6 to 3-8](../diagrams/p0151-front-hub-bearing-tools.png)
 

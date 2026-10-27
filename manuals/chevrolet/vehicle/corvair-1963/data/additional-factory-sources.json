@@ -51,6 +51,16 @@
       "combined_pdf": false
     },
     {
+      "source_id": "alternate-suspension-1961",
+      "filename": "Corvair_1961SM_3.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_3.pdf",
+      "sha256": "d7199c64e53c5c72a398efbecc4eca4cd9b8c09039dd65cc9acfdf08d5c0ba83",
+      "bytes": 1748516,
+      "pages": 38,
+      "role": "Alternate scan of factory Suspension p.3-6 used to verify figure 3-6 bearing-cup press-out tool dimensions",
+      "combined_pdf": false
+    },
+    {
       "source_id": "alternate-body-1961",
       "filename": "Corvair_1961SM_10.pdf",
       "url": "https://northern-california-corvairs.com/Corvair_1961SM_10.pdf",

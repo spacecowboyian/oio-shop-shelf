@@ -30,7 +30,12 @@ lower hole and adjust the cable clevis until the outboard lever has
 **⅛–⅜ in. clearance** to the front engine mount, as Figure 6B-2 shows.
 Pull the fork rod by hand until bearing-to-finger slack is gone; align its
 swivel with the lever's upper hole, back the swivel off **three full turns**,
-and clip it to the lever. Recheck pedal travel and release.
+and clip it to the lever. A [Chevrolet Service News adjustment for 1960–63
+passenger cars](https://www.corvair.org/chapters/corvanatics/files/documents/manuals/TSB/1963/ChySrvcNws-extracts.pdf)
+confirms the three turns and specifies the **center hole** instead on some
+early 1963 cars with a **three-hole lever**; never use that lever's upper
+hole. Later two-hole levers use the upper hole. Recheck pedal travel and
+release.
 
 | Passenger clutch linkage check | Factory value |
 |---|---|
