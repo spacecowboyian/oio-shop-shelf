@@ -1,6 +1,6 @@
 # Needs Review
 
-_44 flag(s) across 16 chapter file(s)._
+_45 flag(s) across 17 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -48,11 +48,11 @@ _44 flag(s) across 16 chapter file(s)._
 | [12-specifications.md](12-specifications.md) | Base Section 12 opening page prints this diameter interval in descending order. Verify the original ball-stud limits before use. |
 | [12-specifications.md](12-specifications.md) | Base Section 12 opening-page spring dimensions were not explicitly reissued by the supplement. Verify whether 1963 passenger options used different springs before applying to a specific option package. |
 | [12-specifications.md](12-specifications.md) | Base Section 12 p.12-6 theoretical valve-timing chart is not repeated in the supplement; verify its 1963 cam/variant applicability before treating the timing angles as universal. |
+| [13-dimensions-and-gauges.md](13-dimensions-and-gauges.md) | Source appendix gauge page marks U.S. Standard Gage with an asterisk but provides no visible footnote. Verify against a complete original before interpreting the asterisk. |
 
 ## Conversion coverage
 
-2 source section(s) pending cleanup; 1 partial.
+1 source section(s) pending cleanup; 1 partial.
 
 - Pending: Power Train (combined PDF pp. 232–245, 658–658)
-- Pending: Dimensions and Gauges (combined PDF pp. 529–531)
 - Partial: [General Information](01-general-information.md)

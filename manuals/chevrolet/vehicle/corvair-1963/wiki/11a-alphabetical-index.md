@@ -76,6 +76,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Distinguish tire noise from axle noise — [03-suspension.md#p172](03-suspension.md#p172) ([PDF p.172])
 - Door handles, glass strips, and coupe window cam — [10-body.md#p540](10-body.md#p540) ([PDF p.540])
 - Door trim, seals, and hardware — supplement updates — [10-body.md#p538](10-body.md#p538) ([PDF p.538])
+- Drill sizes — [13-dimensions-and-gauges.md#p529](13-dimensions-and-gauges.md#p529) ([PDF p.529])
 - Drum inspection and reconditioning — [05-brakes.md#p222](05-brakes.md#p222) ([PDF p.222])
 
 ## E
@@ -115,6 +116,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## G
 
 - Gasoline-heater component service — [11-accessories.md#p95](11-accessories.md#p95) ([PDF p.95])
+- Gauge thicknesses — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
 - General steel-bolt torque chart — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 
 ## H
@@ -140,6 +142,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## L
 
 - Leather, coated fabric, and polyurethane foam — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
+- Letter drills — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
 - Lifting points — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 
 ## M
@@ -153,6 +156,10 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Modulator, governor, valve body and low servo — [06e-automatic-transmission.md#p380](06e-automatic-transmission.md#p380) ([PDF p.380])
 - Monza Spyder warning instruments — [08-electrical-systems.md#p701](08-electrical-systems.md#p701) ([PDF p.701])
 - Monza Spyder: Carter YH and turbo-supercharger — [09-fuel-and-exhaust.md#p722](09-fuel-and-exhaust.md#p722) ([PDF p.722])
+
+## N
+
+- Number drills — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
 
 ## O
 

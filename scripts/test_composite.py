@@ -498,6 +498,22 @@ class CompositeRulesTest(unittest.TestCase):
             self.assertIn("7⁄16–1 1⁄16 lb", chapter)
             self.assertNotIn("7⁄16–11⁄16 lb", chapter)
 
+    def test_1963_shop_reference_appendix_has_complete_tables(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/13-dimensions-and-gauges.md").read_text()
+        for n in (529, 530, 531):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        appendix = [r for r in rows if r["_file"] == "wiki/13-dimensions-and-gauges.md"]
+        self.assertEqual({p: sum(r["_page"] == p for r in appendix)
+                          for p in ("p529", "p530", "p531")},
+                         {"p529": 64, "p530": 106, "p531": 51})
+        self.assertTrue(all(r["_variant"] == "shop-reference" and
+                            r["_scope"] == "passenger" and
+                            1963 in r["_applicable_years"] for r in appendix))
+
 
 if __name__ == "__main__":
     unittest.main()
