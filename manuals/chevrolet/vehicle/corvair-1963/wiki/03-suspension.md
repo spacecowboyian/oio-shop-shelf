@@ -566,10 +566,11 @@ end, invert the arm, and press out the second bushing. Remove the shaft.
    the suspension, then tighten the cross-shaft end bolts to the applicable
    **45–55 ft. lb.** figure from the spring-installation procedure.
 
-The base rear-crossmember installation later gives a different arm-mount
-torque than the supplement's passenger-car table. The arm-to-crossmember
-fastener torque is withheld pending resolution.
-<!-- NEEDS REVIEW: Base Suspension p. 3-19 gives 40–50 ft. lb. for the four rear control-arm-to-crossmember attaching bolts; supplement Specifications p. 12-2 gives 45–55 ft. lb. for rear lower control arm cross shaft to crossmember. Confirm whether these are the same fasteners and which torque governs 1963 before indexing or tightening. -->
+For the four **rear lower-arm cross-shaft-to-crossmember attaching bolts**, use
+the supplement's passenger-car torque of **45–55 ft. lb.** The base
+rear-crossmember installation prints a different torque for these same four
+arm-mount bolts; the later 1962–63 specifications table governs the 1963 car.
+<!-- RESOLVED SUPERSESSION: Base Section 3 p.3-19, step 10 identifies four control-arm attaching bolts at the crossmember and prints 40–50 ft. lb. Supplement Section 12 p.12-2 identifies the same rear lower-control-arm cross-shaft-to-crossmember joint and specifies 45–55 ft. lb. for 500/700/900 passenger cars. The year-specific supplement supersedes the base value. -->
 
 ### Remove and install the rear crossmember
 

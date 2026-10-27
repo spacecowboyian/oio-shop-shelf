@@ -117,6 +117,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 45 | ° | [03-suspension.md](03-suspension.md) | drum. Rotate the axle shaft until the yoke's side face sits **45° to the |
 | 45–55 | ft. lb. | [03-suspension.md](03-suspension.md) | **45–55 ft. lb.** |
 | 45–55 | ft. lb. | [03-suspension.md](03-suspension.md) | **45–55 ft. lb.** figure from the spring-installation procedure. |
+| 45–55 | ft. lb. | [03-suspension.md](03-suspension.md) | the supplement's passenger-car torque of **45–55 ft. lb.** The base |
 | 20–30 | ft. lb. | [03-suspension.md](03-suspension.md) | four bolts to **20–30 ft. lb.** |
 | 10 | ″ | [03-suspension.md](03-suspension.md) | point: approximately **10″ inward from the forward edge of the rear fender |
 | 4 | ″ | [03-suspension.md](03-suspension.md) | opening** for a rear wheel, or **4″ behind the front sill seam** for a front |
@@ -367,13 +368,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1,000 | miles | [11-accessories.md](11-accessories.md) | **1,000 miles**, inspect leaks, clamps, brace and belt. Check condenser |
 | 6,000 | miles | [11-accessories.md](11-accessories.md) | and drains periodically, sight glass every **6,000 miles**, hoses and |
 | 1500 | rpm | [11-accessories.md](11-accessories.md) | at **1500 rpm**, maximum cooling/high blower, heater off, gauges fitted, |
-| 5 | lb | [11-accessories.md](11-accessories.md) | The printed capacity box specifies **5 lb Freon-12 or 5 cans** and |
-| 10 | oz | [11-accessories.md](11-accessories.md) | **10 oz 525-viscosity oil**. Five of the source's 15 oz cans total |
-| 15 | oz | [11-accessories.md](11-accessories.md) | **10 oz 525-viscosity oil**. Five of the source's 15 oz cans total |
-| 75 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
-| 5 | lb | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
-| 80 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
-| 10 | oz | [11-accessories.md](11-accessories.md) | Compressor oil charge 10 oz of 525-viscosity oil 1962–63 factory A/C |
+| 5 | lb | [11-accessories.md](11-accessories.md) | The 1962–63 factory system specifies a **5 lb Freon-12 charge by mass**. |
+| 5 | lb | [11-accessories.md](11-accessories.md) | Freon-12 charge **5 lb by mass** 1962–63 factory A/C; printed can count is inexact |
 | 40 | in. lb. | [11-accessories.md](11-accessories.md) | figure's slot relationship, then tighten to **40 in. lb.** Use approved |
 | 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. |
 | 275 | psi | [11-accessories.md](11-accessories.md) | **While adding refrigerant, compressor head pressure should not exceed 275 psi.** |
@@ -444,6 +440,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 90–120 | lb. ft. | [12-specifications.md](12-specifications.md) | Front lower control arm Pivot bolt 90–120 lb. ft. |
 | 30–40 | lb. ft. | [12-specifications.md](12-specifications.md) | Front lower control arm Ball stud to steering knuckle 30–40 lb. ft. |
 | 45–55 | lb. ft. | [12-specifications.md](12-specifications.md) | Rear lower control arm Pivot bushing 45–55 lb. ft. |
+| 45–55 | lb. ft. | [12-specifications.md](12-specifications.md) | Rear lower control arm Cross shaft to crossmember, four attaching bolts 45–55 lb. ft. |
 | 50–70 | lb. ft. | [12-specifications.md](12-specifications.md) | Strut rod Rear nut 50–70 lb. ft. |
 | 38–50 | lb. ft. | [12-specifications.md](12-specifications.md) | Strut rod Front studs 38–50 lb. ft. |
 | 25–35 | lb. ft. | [12-specifications.md](12-specifications.md) | Crossmember to body Front 25–35 lb. ft. |
@@ -620,13 +617,11 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 3.85 | Ω | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
 | 3.2 | A | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
 | 12 | V | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
-| 5 | lb | [12-specifications.md](12-specifications.md) | Freon-12 charge / oil capacity 5 lb / 11 oz. |
-| 11 | oz. | [12-specifications.md](12-specifications.md) | Freon-12 charge / oil capacity 5 lb / 11 oz. |
+| 5 | lb | [12-specifications.md](12-specifications.md) | Freon-12 charge **5 lb by mass** |
 | 17–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Compressor suction/discharge connector bolt 17–23 ft. lb. |
 | 19–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Rear-head-to-shell stud nuts 19–23 ft. lb. |
 | 14–16 | ft. lb. | [12-specifications.md](12-specifications.md) | Shaft mounting nut 14–16 ft. lb. |
 | 15 | A | [12-specifications.md](12-specifications.md) | Cool Pack fuses Two 15 A |
-| 5 | lb | [12-specifications.md](12-specifications.md) | The **5 lb** charge here supports one half of the conflicting charge |
 | 770 | lb. | [12-specifications.md](12-specifications.md) | A, part 3789173; coupe and sedan 5.85 / 7.45 .450 in. 4.353 in. 3.903 in. 11.39 in. 6.42 i |
 | 155 | lb. | [12-specifications.md](12-specifications.md) | A, part 3789173; coupe and sedan 5.85 / 7.45 .450 in. 4.353 in. 3.903 in. 11.39 in. 6.42 i |
 | 855 | lb. | [12-specifications.md](12-specifications.md) | B, part 3826077; model 967 convertible 5.85 / 7.45 .470 in. 4.393 in. 3.923 in. 11.12 in.  |
