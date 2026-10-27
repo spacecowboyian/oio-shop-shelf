@@ -1,7 +1,7 @@
 # Composite working manifest; chapters combine applicable base and supplement sections.
 slug: chevrolet-corvair-1963
 title: 1963 Chevrolet Corvair Shop Manual
-conversion_status: in-progress
+conversion_status: complete-with-review-flags
 taxonomy:
   make: chevrolet
   category: vehicle
@@ -9,9 +9,9 @@ taxonomy:
   - corvair
   years: '1963'
 source:
-  type: local
-  location: chevrolet-corvair-1963-composite.pdf
-  pages: 742
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-corvair-1963/corvair-1963.pdf"
+  pages: 742 # factory pages mapped below; released PDF has four appended index pages
 rights: Chevrolet Motor Division / General Motors factory service documentation; redistribution
   rights have not been established. See CONTRIBUTING.md.
 composite:
