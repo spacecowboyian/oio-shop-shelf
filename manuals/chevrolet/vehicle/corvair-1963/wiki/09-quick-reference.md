@@ -163,6 +163,13 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 60–80 | ft-lb | [06-power-train.md](06-power-train.md) | Finish Powerglide engine attachment with remaining housing bolts, starter, two remaining c |
 | 50–60 | ft-lb | [06-power-train.md](06-power-train.md) | Finish Powerglide engine attachment with remaining housing bolts, starter, two remaining c |
 | 8–12 | ft. lb. | [06a-engine.md](06a-engine.md) | engine. The oil-cooler attaching bolt is **8–12 ft. lb.** The **rear right |
+| 25–35 | ft. lb. | [06a-engine.md](06a-engine.md) | Front rubber mount retaining nuts 25–35 ft. lb. Base procedure, installation step 1 |
+| 20–30 | ft. lb. | [06a-engine.md](06a-engine.md) | Front support-to-transmission bracket bolts 20–30 ft. lb. Base procedure, step 2 and illus |
+| 60–80 | ft. lb. | [06a-engine.md](06a-engine.md) | Front mount-stud castellated nuts 60–80 ft. lb. Base procedure, step 3 |
+| 40–50 | ft. lb. | [06a-engine.md](06a-engine.md) | Rear rubber mount's two body retainer bolts 40–50 ft. lb. Base procedure, rear-mount step  |
+| 50–60 | ft. lb. | [06a-engine.md](06a-engine.md) | Rear rubber mount's 7/16-20 castellated nut 50–60 ft. lb. Base procedure, rear-mount step  |
+| 20–30 | ft. lb. | [06a-engine.md](06a-engine.md) | Rear mounting-bracket-to-engine 3/8-16 nuts 20–30 ft. lb. Supplement torque chart; catalog |
+| 5 | ft. lb. | [06a-engine.md](06a-engine.md) | Rear mounting-bracket-to-engine 3/8-16 studs 5 ft. lb. Supplement torque chart; catalog fo |
 | 7–13 | ft. lb. | [06a-engine.md](06a-engine.md) | bolts to **7–13 ft. lb.** Restore generator, fuel lines, and belt and check |
 | 20–25 | ft. lb. | [06a-engine.md](06a-engine.md) | the shroud. The blower pulley bolts are **20–25 ft. lb.** |
 | 40–60 | in. lb. | [06a-engine.md](06a-engine.md) | fit the pan, and tighten its bolts to **40–60 in. lb.** Refill according to |
@@ -494,6 +501,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 10–15 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil-pressure switch, pipe thread 10–15 ft. lb. |
 | 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see sourc |
 | 25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see sourc |
+| 50–60 | ft. lb. | [12-specifications.md](12-specifications.md) | nut is torqued to 50–60 ft. lb. by the base procedure. The |
 | 40 | ° | [12-specifications.md](12-specifications.md) | wide, with a **40°** V angle. The exhaust thermostat starts opening at |
 | 200–210 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
 | 215–225 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |

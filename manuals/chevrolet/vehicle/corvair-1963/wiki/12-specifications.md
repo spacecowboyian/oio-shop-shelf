@@ -267,6 +267,15 @@ scan is ambiguous; identify the fastener by its factory description.
 | Oil-pressure switch, pipe thread | 10–15 ft. lb. |
 | Spark plug | 20–25 ft. lb. as printed; 1963 GM revised chart specifies 25 ft. lb. (see [source comparison](#1963-spark-plug-gap)) |
 
+The 3/8-16 rear mounting-bracket nuts and studs in this chart attach the
+bracket to the engine. The rear rubber mount's separate 7/16-20 castellated
+nut is torqued to 50–60 ft. lb. by the base procedure. The
+[GM mounting illustration](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=53)
+and [attaching-parts list](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=59)
+identify the two joints; see the [mount-fastener table](06a-engine.md#mount-fastener-identification-and-torque).
+<!-- SOURCE id=chevrolet-parts-catalog-1969 page=0-4P years=1963 scope=passenger pdf_page=53 -->
+<!-- SOURCE id=chevrolet-parts-catalog-1969 page=0-1 years=1963 scope=passenger pdf_page=59 -->
+
 The air-cooling system uses a V-belt **55.7 in.** long and **.380 ± .005 in.**
 wide, with a **40°** V angle. The exhaust thermostat starts opening at
 **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and

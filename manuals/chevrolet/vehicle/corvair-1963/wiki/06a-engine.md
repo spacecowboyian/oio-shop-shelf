@@ -205,6 +205,32 @@ engine enough to unload the mount, then remove its two mounting bolts.
 Install the new mount, raise engine into position, install nut and cotter
 pin, and restore center shield.
 
+### Mount-fastener identification and torque
+
+The [Chevrolet parts-catalog mounting illustration, printed p. 0-4P](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=53)
+separates the front support, the rear rubber mount and its lower nut.
+The [catalog's engine-mount attaching-parts list, printed p. 0-1](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=59)
+identifies the rear mount's molded bolt as **7/16-20** and the rear
+mounting-bracket-to-engine studs as **3/8-16**. Thus the supplement's
+3/8-16 bracket-nut and stud rows on [p. 12-6](../page-images/p0629.png)
+refer to different joints from the base procedure's rear castellated
+mount nut. Match the fastener to the joint before applying a value.
+<!-- SOURCE id=chevrolet-parts-catalog-1969 page=0-4P years=1963 scope=passenger pdf_page=53 -->
+<!-- SOURCE id=chevrolet-parts-catalog-1969 page=0-1 years=1963 scope=passenger pdf_page=59 -->
+
+| Joint and fastener | Factory torque | Printed source |
+| --- | --- | --- |
+| Front rubber mount retaining nuts | 25–35 ft. lb. | [Base procedure](../page-images/p0263.png), installation step 1 |
+| Front support-to-transmission bracket bolts | 20–30 ft. lb. | [Base procedure](../page-images/p0263.png), step 2 and illustration D |
+| Front mount-stud castellated nuts | 60–80 ft. lb. | [Base procedure](../page-images/p0263.png), step 3 |
+| Rear rubber mount's two body retainer bolts | 40–50 ft. lb. | [Base procedure](../page-images/p0263.png), rear-mount step 6 |
+| Rear rubber mount's 7/16-20 castellated nut | 50–60 ft. lb. | [Base procedure](../page-images/p0264.png), rear-mount step 8; [catalog](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=59) for size |
+| Rear mounting-bracket-to-engine 3/8-16 nuts | 20–30 ft. lb. | [Supplement torque chart](../page-images/p0629.png); [catalog](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=59) for stud identity |
+| Rear mounting-bracket-to-engine 3/8-16 studs | 5 ft. lb. | [Supplement torque chart](../page-images/p0629.png); [catalog](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=59) for stud identity |
+
+The base procedure's castellated nuts and the supplement's bracket nuts
+serve different fasteners; their torque figures do not conflict.
+
 <a id="p264"></a> **[PDF p.264](../page-images/p0264.png)** <!-- SOURCE id=base-1961 page=6A-19 years=1961,1962,1963 scope=passenger -->
 
 The **oil-filter and generator adapter** is removed after taking off blower
@@ -723,7 +749,7 @@ gear pressing, valve and bearing service, oil pickup installation, and
 engine support. Engine specifications are deferred by the base manual to
 Section 12; the 1963 Section 12 supplement governs year-specific values.
 
-<!-- NEEDS REVIEW: Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. -->
+<!-- RESOLVED SOURCE CONFLICT: The GM Corvair parts catalog illustration p.0-4P and attaching-parts list p.0-1 distinguish the rear rubber mount's 7/16-20 molded bolt/castellated nut from 3/8-16 studs securing the rear mounting bracket to the engine. Base Section 6A pp.6A-18-19 torques the former; supplement Section 12 p.12-6 names the latter. -->
 
 ## 1963 engine changes and carburetor access
 
