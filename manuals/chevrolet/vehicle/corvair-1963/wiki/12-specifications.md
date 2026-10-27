@@ -441,6 +441,11 @@ The bulletin gives pairings, not regulator adjustment settings. The shop
 supplement's 1119001E and 1119604 settings are not assigned to these 1963
 pairings; inspect the installed unit and obtain its matching factory service
 setting before adjustment.
+The earlier [1963 GM vehicle kit, AMA p. 10 (PDF p. 69)](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=69)
+names regulator 1119001 for the standard generator, another published
+identity that differs from the later DR 564 pairing. Its general regulated
+voltage/current entries therefore do not establish the service air gaps or
+adjustment settings for an installed 1119261.
 <!-- NEEDS REVIEW: DR 564 identifies 1963 passenger regulator 1119261 for generator 1102226 and Delcotron regulator pairings, while supplement Section 12 p.12-9 gives adjustment settings for different regulator numbers. Verify 1963 regulator settings before adjustment. -->
 
 <a id="p632-starter"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->

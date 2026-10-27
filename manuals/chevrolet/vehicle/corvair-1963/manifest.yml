@@ -54,6 +54,13 @@ composite:
     sha256: 5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e
     pages: 2
     external: true
+  - id: chevrolet-parts-catalog-1969
+    title: Chevrolet Corvair Parts & Accessories Catalog, revised October 1969
+    priority: 3
+    url: https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf
+    sha256: a8bf0c633a7c40b51820bf20dbfb9572bfb2814f1646560aa815ba577dbfa1a8
+    pages: 502
+    external: true
   provenance_map: data/source-page-map.jsonl
   precedence: The supplement supersedes base procedures only where it explicitly changes
     them; 1963-specific entries supersede shared 1962–63 entries. The October 1962

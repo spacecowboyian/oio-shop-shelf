@@ -256,11 +256,19 @@ needle bearing, then third gear with clutching teeth upward. Fit the
 shorter-hub 3–4 blocker ring to third gear, followed by the 3–4
 synchronizer and its other blocker ring; engage each ring's notches with
 the keys. Grease compatible clutch-gear rollers into their races before
-sliding the clutch gear over the mainshaft. **The base page's 33-inner /
-37-outer roller count has not been verified for the revised 1962–63
-clutch gear and is withheld as a 1963 parts specification.** The
-supplement requires its revised gear and needles with a revised mainshaft.
-<!-- NEEDS REVIEW: Base four-speed Section 6D p. 6D-22 calls for 33 inner and 37 outer clutch-gear rollers. The 1962–63 supplement specifies a revised clutch gear and needle-bearing set with the revised mainshaft, but gives no roller count. Verify the installed gear and matching service parts before using the base count. -->
+sliding the clutch gear over the mainshaft. The supplement requires a
+revised gear and matching needles with its revised mainshaft; identify
+the installed parts before assembly. Chevrolet's later [*1960–69 Corvair
+Parts & Accessories Catalog*, groups 4.351–4.352, printed p. 4-12](https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf#page=204)
+lists the 1961–63 four-speed clutch gear as part **3814014** and the
+1961–66 four-speed mainshaft rollers as part **7451240**, quantity **72**.
+That is a **total service-parts count**, not an inner/outer split. The
+base procedure's 33-inner / 37-outer placement totals only 70 and must
+not be applied to the revised gear without identifying the installed
+gear and rollers. The catalog gives no distribution between its two
+races.
+<!-- SOURCE id=chevrolet-parts-catalog-1969 page=4-12 years=1963 scope=passenger pdf_page=204 -->
+<!-- RESOLVED SOURCE CONFLICT: Supplement Section 6D calls for the revised clutch gear and needles with the revised mainshaft. GM Parts & Accessories Catalog group 4.352 explicitly lists part 7451240 quantity 72 for 1961-66 Corvair/F.C. four-speed; group 4.351 lists 3814014 for 1961-63 Corvair four-speed. Group 4.352's 7450247 A.R. row applies to three-speed, not this four-speed. No source establishes the inner/outer distribution of the revised set. -->
 
 <a id="p369"></a> **[PDF p.369](../page-images/p0369.png)** <!-- SOURCE id=base-1961 page=6D-23 years=1961,1962,1963 scope=passenger -->
 
