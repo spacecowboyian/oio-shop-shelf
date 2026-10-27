@@ -52,11 +52,16 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertNotIn('&lt;a id="p', quick.read_text())
         self.assertFalse(any("steering arm to steering knuckle" in
                              row.get("text", "").lower() for row in rows))
-        plug = [row for row in rows if row.get("component") in
-                {"Spark-plug gap", "Spark-plug torque"}]
-        self.assertTrue(plug)
-        self.assertTrue(all(row["_flags"] for row in plug))
-        self.assertNotIn("Spark-plug gap", quick.read_text())
+        gap = [row for row in rows if row.get("spark-plug-gap") == ".035″"]
+        self.assertEqual(len(gap), 1)
+        self.assertEqual(gap[0]["_source_id"], "gm-ama-1963")
+        self.assertEqual(gap[0]["_source_pdf_page"], 48)
+        self.assertFalse(gap[0]["_flags"])
+        plug_torque = [row for row in rows if row.get("component") == "Spark-plug torque"]
+        self.assertTrue(plug_torque)
+        self.assertTrue(all(row["_flags"] for row in plug_torque))
+        self.assertNotIn(".023–.028", quick.read_text())
+        self.assertIn("Spark-plug gap .035″", quick.read_text())
         self.assertNotIn("Spark-plug torque", quick.read_text())
         self.assertFalse(any(row.get("assembly") == "Rear lower control arm" and
                              row.get("fastener") == "Cross shaft to crossmember"

@@ -204,7 +204,7 @@ disconnected**.
 | All applicable 1963 passenger engines | Factory value |
 |---|---|
 | Compression pressure | 130 psi, variation 20 psi maximum |
-| Spark-plug gap | Unresolved; tune-up table prints .035 in., Section 12 prints .023–.028 in. <!-- NEEDS REVIEW: Supplement tune-up p.7-5 and October 1962 Service News p.23 specify .035 in. spark-plug gap, while supplement Section 12 p.12-9 specifies .023–.028 in. Verify controlling factory correction. --> |
+| Spark-plug gap | .035″ |
 | Spark-plug torque | Unresolved; tune-up table prints 15–20 ft. lb., Section 12 and Service News print 20–25 ft. lb. <!-- NEEDS REVIEW: Supplement tune-up p.7-5 prints 15–20 ft. lb. spark-plug torque, while supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. Verify controlling factory correction. --> |
 | Distributor cam angle | 31°–34° |
 | New / used contact-point gap | .019 / .016 in. |
@@ -215,6 +215,12 @@ disconnected**.
 | Fuel-pump volume | 1 pint in 30–45 sec. |
 | Blower-belt strand tension | 75 ±5 lb |
 | Exhaust damper door opening | Approx. 2⅜ in. from door top to opening top, rod against bellows stop |
+
+The GM [1963 vehicle information kit, Power Trains p. 11](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=48),
+marked **revised November 1962**, and Chevrolet's October 1962 Service News
+confirm this gap for the 1963 passenger engines. The supplement's Section 12
+electrical chart prints a different range; see the
+[source comparison](12-specifications.md#1963-spark-plug-gap).
 
 The [1963 lubrication schedule](02-lubrication.md#p637-cooling) sets
 air-cleaner service at **6,000 miles** for regular and turbocharged

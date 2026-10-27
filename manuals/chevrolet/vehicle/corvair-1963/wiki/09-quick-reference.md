@@ -228,6 +228,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 24 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-charged, manual AC-44FF standard; AC-42FF competition 24° 850 Neutral |
 | 130 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
 | 20 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
+| .035 | ″ | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug gap .035″ |
 | 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 19–23 | oz. | [07-engine-tune-up.md](07-engine-tune-up.md) | Breaker-arm spring tension 19–23 oz. |
@@ -494,6 +495,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 7200–9500 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
 | 1.8 | Ω | [12-specifications.md](12-specifications.md) | Harness ignition resistor 1.8 Ω |
 | 14 | mm | [12-specifications.md](12-specifications.md) | Spark-plug size 14 mm |
+| .035 | ″ | [12-specifications.md](12-specifications.md) | All listed 1963 passenger engines, factory ignition .035″ |
 | 12 | V | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
 | 80 | °F | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
 | 30 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |

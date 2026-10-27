@@ -1,6 +1,6 @@
 # Needs Review
 
-_42 flag(s) across 18 chapter file(s)._
+_40 flag(s) across 18 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -23,7 +23,6 @@ _42 flag(s) across 18 chapter file(s)._
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p. 6E-13 and its cross-section identify three reverse-clutch faced plates, while base Section 12 p. 12-10 specifies four driving and four driven plates. The 1962–63 supplement says automatic-transmission specifications are unchanged. Verify 1963 passenger reverse-clutch plate counts before ordering or assembly. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p. 6E-27 lists a defective line-pressure limit valve as a no-drive cause, but p. 6E-1 says that valve was deleted in the 1961 design. Confirm whether any 1963 passenger variant retained it before using that diagnosis. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Factory supplement refers to corrected fig. 6E-6, but the recovered three-page Section 6E PDF ends without that figure; locate the missing diagram before relying on the exploded view. |
-| [07-engine-tune-up.md](07-engine-tune-up.md) | Supplement tune-up p.7-5 and October 1962 Service News p.23 specify .035 in. spark-plug gap, while supplement Section 12 p.12-9 specifies .023–.028 in. Verify controlling factory correction. |
 | [07-engine-tune-up.md](07-engine-tune-up.md) | Supplement tune-up p.7-5 prints 15–20 ft. lb. spark-plug torque, while supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. Verify controlling factory correction. |
 | [08-electrical-systems.md](08-electrical-systems.md) | Supplement Section 8 p. 8-9 describes a four-lobe washer drive cam, while its diagnostic sequence on p. 8-14 calls for turning a three-lobe cam. Determine whether these describe different cam components or a factory error before using lobe count to identify a part. |
 | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | Carter YH automatic-choke on-car setting p726 says one notch lean; assembly p733 says one notch rich. Do not publish an unconditional choke-notch value. |
@@ -39,7 +38,6 @@ _42 flag(s) across 18 chapter file(s)._
 | [12-specifications.md](12-specifications.md) | Same source unit issue as standard clutch spring pressure; verify factory unit. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-7 Positraction ratios are in vertically merged cells; verify alignment to each 1963 passenger engine/transmission row before indexing a ratio. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. spark-plug torque, while supplement tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. |
-| [12-specifications.md](12-specifications.md) | Chevrolet Service News October 1962 p.23 specifies .035 in. spark-plug gap for 1963, but the shop supplement Section 12 p.12-9 prints .023–.028 in. Determine the later applicable factory correction before using a gap. |
 | [12-specifications.md](12-specifications.md) | DR 564 identifies 1963 passenger regulator 1119261 for generator 1102226 and Delcotron regulator pairings, while supplement Section 12 p.12-9 gives adjustment settings for different regulator numbers. Verify 1963 regulator settings before adjustment. |
 | [12-specifications.md](12-specifications.md) | Supplement Section 12 p.12-13 independently prints 5 lb Freon-12, while Section 11 p.11-15 says 5 lb or five 15-oz cans. Do not convert five cans to five pounds. |
 | [12-specifications.md](12-specifications.md) | Base Section 12 opening page prints this diameter interval in descending order. Verify the original ball-stud limits before use. |
