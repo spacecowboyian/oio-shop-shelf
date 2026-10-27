@@ -26,10 +26,34 @@ composite:
   - id: supplement-1962-63
     title: 1962–63 Corvair shop manual supplement
     priority: 2
+  - id: gm-ama-1963
+    title: 1963 Chevrolet Corvair vehicle information kit, October 1962
+    priority: 3
+    url: https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf
+    sha256: af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe
+    pages: 99
+    external: true
+  - id: chevrolet-service-news-34-9
+    title: Chevrolet Service News, volume 34 number 9, October 1962
+    priority: 3
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf
+    sha256: a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e
+    pages: 48
+    external: true
+  - id: chevrolet-tsb-dr564
+    title: Chevrolet Technical Service Bulletin DR 564, December 4 1962
+    priority: 4
+    url: https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1962/DR564.pdf
+    sha256: 5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e
+    pages: 2
+    external: true
   provenance_map: data/source-page-map.jsonl
   precedence: The supplement supersedes base procedures only where it explicitly changes
-    them; 1963-specific entries supersede shared 1962–63 entries. Exclude 1961-only,
-    1962-only, and Corvair 95 commercial procedures.
+    them; 1963-specific entries supersede shared 1962–63 entries. The October 1962
+    GM 1963 vehicle information kit supplies model-specific 1963 dimensions, weights,
+    and January 1963 revised chassis settings; later Chevrolet service publications
+    clarify 1963 component applications. Exclude 1961-only, 1962-only, and Corvair 95
+    commercial procedures. Conflicting facts remain flagged until source order is established.
 ocr:
   language: eng
   force: false

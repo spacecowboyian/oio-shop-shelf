@@ -9,22 +9,30 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 30.3 | ″ | [01-general-information.md](01-general-information.md) | Front overhang 30.3″ C |
 | 41.7 | ″ | [01-general-information.md](01-general-information.md) | Rear overhang 41.7″ D |
 | 6 | ″ | [01-general-information.md](01-general-information.md) | Minimum ground clearance 6″ E |
-| 51.5 | ″ | [01-general-information.md](01-general-information.md) | Overall loaded height, coupe and sedan 51.5″ F |
 | 54 | ″ | [01-general-information.md](01-general-information.md) | Tread width 54″ G |
 | 67.0 | ″ | [01-general-information.md](01-general-information.md) | Overall width 67.0″ H |
 | 14 | gal. | [01-general-information.md](01-general-information.md) | **14 gal.** as confirmed in the supplement fuel-system table. |
 | 26 | psi | [01-general-information.md](01-general-information.md) | The base page says to store the spare at **26 psi**, then reduce it to the |
 | 15 | psi | [01-general-information.md](01-general-information.md) | applicable **15 psi cold front pressure** if the spare is fitted to a front |
-| 2312 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
-| 2428 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door coupe 2312 lb. 2428 lb. |
-| 2348 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door coupe 2348 lb. 2434 lb. |
-| 2434 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door coupe 2348 lb. 2434 lb. |
-| 2369 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2369 lb. 2455 lb. |
-| 2455 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2369 lb. 2455 lb. |
-| 2398 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door coupe 2398 lb. 2484 lb. |
-| 2484 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door coupe 2398 lb. 2484 lb. |
-| 2417 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2417 lb. 2503 lb. |
-| 2503 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2417 lb. 2503 lb. |
+| 86 | lb. | [01-general-information.md](01-general-information.md) | shipping weight plus gasoline. The kit states an 86 lb. gasoline allowance; |
+| 2330 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door club coupe 2330 lb. 2420 lb. |
+| 2420 | lb. | [01-general-information.md](01-general-information.md) | 527 2-door club coupe 2330 lb. 2420 lb. |
+| 2355 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door club coupe 2355 lb. 2440 lb. |
+| 2440 | lb. | [01-general-information.md](01-general-information.md) | 727 2-door club coupe 2355 lb. 2440 lb. |
+| 2385 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2385 lb. 2470 lb. |
+| 2470 | lb. | [01-general-information.md](01-general-information.md) | 769 4-door sedan 2385 lb. 2470 lb. |
+| 2415 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door club coupe 2415 lb. 2500 lb. |
+| 2500 | lb. | [01-general-information.md](01-general-information.md) | 927 2-door club coupe 2415 lb. 2500 lb. |
+| 2525 | lb. | [01-general-information.md](01-general-information.md) | 967 2-door convertible 2525 lb. 2610 lb. |
+| 2610 | lb. | [01-general-information.md](01-general-information.md) | 967 2-door convertible 2525 lb. 2610 lb. |
+| 2450 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2450 lb. 2540 lb. |
+| 2540 | lb. | [01-general-information.md](01-general-information.md) | 969 4-door sedan 2450 lb. 2540 lb. |
+| 2340/2430 | lb. | [01-general-information.md](01-general-information.md) | The kit separately lists Powerglide models: 527P **2340/2430 lb.**, |
+| 2365/2450 | lb. | [01-general-information.md](01-general-information.md) | 727P **2365/2450 lb.**, 769P **2395/2480 lb.**, 927P **2425/2510 lb.**, |
+| 2395/2480 | lb. | [01-general-information.md](01-general-information.md) | 727P **2365/2450 lb.**, 769P **2395/2480 lb.**, 927P **2425/2510 lb.**, |
+| 2425/2510 | lb. | [01-general-information.md](01-general-information.md) | 727P **2365/2450 lb.**, 769P **2395/2480 lb.**, 927P **2425/2510 lb.**, |
+| 2535/2620 | lb. | [01-general-information.md](01-general-information.md) | 967P **2535/2620 lb.**, and 969P **2460/2550 lb.** (shipping/curb). |
+| 2460/2550 | lb. | [01-general-information.md](01-general-information.md) | 967P **2535/2620 lb.**, and 969P **2460/2550 lb.** (shipping/curb). |
 | 348 | lb. | [01-general-information.md](01-general-information.md) | The same page gives **348 lb.** for the six-cylinder engine, **43.5 lb.** for |
 | 43.5 | lb. | [01-general-information.md](01-general-information.md) | The same page gives **348 lb.** for the six-cylinder engine, **43.5 lb.** for |
 | 61.5 | lb. | [01-general-information.md](01-general-information.md) | the three-speed transmission, and **61.5 lb.** for the differential. Its |
@@ -133,6 +141,8 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 7⁄16–1 1⁄16 | lb. | [04-steering.md](04-steering.md) | Worm-bearing preload 7⁄16–1 1⁄16 lb. |
 | 1⅛–1½ | lb. | [04-steering.md](04-steering.md) | Sector lash at high point 1⅛–1½ lb. |
 | 35–40 | ft. lb. | [04-steering.md](04-steering.md) | torque is **35–40 ft. lb.** |
+| 20 | ° | [04-steering.md](04-steering.md) | 20° 18.18° |
+| 18.18 | ° | [04-steering.md](04-steering.md) | 20° 18.18° |
 | 15–22 | ft. lb. | [04-steering.md](04-steering.md) | tighten nuts at the bracket and relay rod to **15–22 ft. lb.** |
 | 15–22 | ft. lb. | [04-steering.md](04-steering.md) | the lower bolt and spacer; tighten frame bolts to **15–22 ft. lb.** Place |
 | 29–43 | ft. lb. | [04-steering.md](04-steering.md) | castellated nut to **29–43 ft. lb.** Continue tightening to the next cotter |
@@ -218,7 +228,6 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 24 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Turbo-charged, manual AC-44FF standard; AC-42FF competition 24° 850 Neutral |
 | 130 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
 | 20 | psi | [07-engine-tune-up.md](07-engine-tune-up.md) | Compression pressure 130 psi, variation 20 psi maximum |
-| 15–20 | ft-lb | [07-engine-tune-up.md](07-engine-tune-up.md) | Spark-plug gap and torque .035 in.; 15–20 ft-lb |
 | 31 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 34 | ° | [07-engine-tune-up.md](07-engine-tune-up.md) | Distributor cam angle 31°–34° |
 | 19–23 | oz. | [07-engine-tune-up.md](07-engine-tune-up.md) | Breaker-arm spring tension 19–23 oz. |
@@ -357,11 +366,9 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 75 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
 | 5 | lb | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
 | 80 | oz | [11-accessories.md](11-accessories.md) | 75 oz, while 5 lb is 80 oz; those differ **as printed**. |
-| 5 | lbs. | [11-accessories.md](11-accessories.md) | Freon-12 charge 5 lbs. or 5 Cans Unresolved source conflict; 1962–63 factory A/C |
 | 10 | oz | [11-accessories.md](11-accessories.md) | Compressor oil charge 10 oz of 525-viscosity oil 1962–63 factory A/C |
 | 40 | in. lb. | [11-accessories.md](11-accessories.md) | figure's slot relationship, then tighten to **40 in. lb.** Use approved |
 | 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. During |
-| 275 | psi | [11-accessories.md](11-accessories.md) | not exceed **275 psi** and container pressure should remain between |
 | 90–100 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
 | 300–310 | psi | [11-accessories.md](11-accessories.md) | **12 and 90–100 psi**. The performance chart allows **300–310 psi** |
 | 120 | °F | [11-accessories.md](11-accessories.md) | at 120°F and the fast-idle instruction expects **300 psi** under its |
@@ -400,10 +407,15 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 125 | psi | [11-accessories.md](11-accessories.md) | allows dry nitrogen flushing with drum pressure ≤**125 psi**. |
 | 550 | rpm | [11-accessories.md](11-accessories.md) | for 1963, sets **550 rpm** with A/C on, automatic transmission in DRIVE |
 | 300 | psi | [11-accessories.md](11-accessories.md) | or manual gearbox in NEUTRAL, and expects **300 psi** head pressure |
-| 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
-| ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
-| 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |
-| ½ | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |
+| 2 | ° | [12-specifications.md](12-specifications.md) | Caster +2° (+0°/−½°) |
+| 0 | ° | [12-specifications.md](12-specifications.md) | Caster +2° (+0°/−½°) |
+| ½ | ° | [12-specifications.md](12-specifications.md) | Caster +2° (+0°/−½°) |
+| ½ | ° | [12-specifications.md](12-specifications.md) | Camber +½° ± ½° |
+| ½ | ° | [12-specifications.md](12-specifications.md) | Camber +½° ± ½° |
+| ⅛ | ″ | [12-specifications.md](12-specifications.md) | Toe-in, per wheel ⅛″ to 3⁄16″ |
+| 3⁄16 | ″ | [12-specifications.md](12-specifications.md) | Toe-in, per wheel ⅛″ to 3⁄16″ |
+| ¼ | ″ | [12-specifications.md](12-specifications.md) | Toe-in, total both wheels ¼″ to ⅜″ |
+| ⅜ | ″ | [12-specifications.md](12-specifications.md) | Toe-in, total both wheels ¼″ to ⅜″ |
 | 7 | ° | [12-specifications.md](12-specifications.md) | Steering axis inclination 7° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Steering axis inclination 7° ± ½° |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Camber +1° ± ½° |
@@ -470,7 +482,6 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 27–33 | ft. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball stud 27–33 ft. lb. |
 | 55–125 | in. lb. | [12-specifications.md](12-specifications.md) | Rocker-arm-ball-stud nut 55–125 in. lb. |
 | 10–15 | ft. lb. | [12-specifications.md](12-specifications.md) | Oil-pressure switch, pipe thread 10–15 ft. lb. |
-| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark plug 20–25 ft. lb. |
 | 40 | ° | [12-specifications.md](12-specifications.md) | wide, with a **40°** V angle. The exhaust thermostat starts opening at |
 | 200–210 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
 | 215–225 | °F | [12-specifications.md](12-specifications.md) | **200–210°F** and **1.20 in.** travel; full open is **215–225°F** and |
@@ -482,30 +493,18 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1.28–1.42 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
 | 7200–9500 | Ω | [12-specifications.md](12-specifications.md) | Ignition-coil primary / secondary resistance 1.28–1.42 Ω / 7200–9500 Ω |
 | 1.8 | Ω | [12-specifications.md](12-specifications.md) | Harness ignition resistor 1.8 Ω |
-| 14 | mm | [12-specifications.md](12-specifications.md) | Spark-plug size / gap / torque 14 mm / .023–.028 in. / 20–25 ft. lb. |
-| 20–25 | ft. lb. | [12-specifications.md](12-specifications.md) | Spark-plug size / gap / torque 14 mm / .023–.028 in. / 20–25 ft. lb. |
-| 12 | V | [12-specifications.md](12-specifications.md) | Generator Passenger application Cold output Field draw at 12 V, 80°F |
-| 80 | °F | [12-specifications.md](12-specifications.md) | Generator Passenger application Cold output Field draw at 12 V, 80°F |
+| 14 | mm | [12-specifications.md](12-specifications.md) | Spark-plug size 14 mm |
+| 12 | V | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
+| 80 | °F | [12-specifications.md](12-specifications.md) | Generator in shop supplement Passenger application Cold output Field draw at 12 V, 80°F |
 | 30 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
 | 14 | V | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
 | 2240 | rpm | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
 | 1.69–1.79 | A | [12-specifications.md](12-specifications.md) | 1102226 Sedan, coupe, convertible 30 A at 14 V, 2240 rpm 1.69–1.79 A |
-| 35 | A | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
-| 14 | V | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
-| 1730 | rpm | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
-| 2.73–3.0 | A | [12-specifications.md](12-specifications.md) | 1105135 Optional 35 A at 14 V, 1730 rpm 2.73–3.0 A |
-| 40 | A | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
-| 14 | V | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
-| 1930 | rpm | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
-| 2.73–3.0 | A | [12-specifications.md](12-specifications.md) | 1105139 Optional 40 A at 14 V, 1930 rpm 2.73–3.0 A |
-| 125 | °F | [12-specifications.md](12-specifications.md) | Regulator Generator Voltage setting at 125°F Current setting at 125°F Voltage/current air  |
-| 125 | °F | [12-specifications.md](12-specifications.md) | Regulator Generator Voltage setting at 125°F Current setting at 125°F Voltage/current air  |
-| 13.8–14.7 | V | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
-| 27.0–31.0 | A | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
-| 11.8–13.5 | V | [12-specifications.md](12-specifications.md) | 1119001E 1102226 13.8–14.7 V 27.0–31.0 A .060 / .075 in. .020 / .020 in. / 11.8–13.5 V |
-| 13.8–14.6 | V | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
-| 31.0–35.5 | A | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
-| 11.8–13.0 | V | [12-specifications.md](12-specifications.md) | 1119604 (1963) 1105135 13.8–14.6 V 31.0–35.5 A .067 / .075 in. .020 / .020 in. / 11.8–13.0 |
+| 30 | A | [12-specifications.md](12-specifications.md) | Standard DC generator 1102226, 30 A 1119261 |
+| 12–42 | A | [12-specifications.md](12-specifications.md) | Optional Delcotron 1100629, 12–42 A 1119512 |
+| 5–52 | A | [12-specifications.md](12-specifications.md) | Optional Delcotron 1100633, 5–52 A 1119512 |
+| 23–62 | A | [12-specifications.md](12-specifications.md) | Optional Delcotron 1117765, 23–62 A 9000595 |
+| 5–52 | A | [12-specifications.md](12-specifications.md) | Delcotron with factory A/C 1100633, 5–52 A 1119512 |
 | 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
 | 35 | oz. | [12-specifications.md](12-specifications.md) | Brush spring tension 35 oz. 35 oz. |
 | 10.6 | V | [12-specifications.md](12-specifications.md) | Free speed at 10.6 V 6750–10,500 rpm; 58 A 6750–10,500 rpm; 58 A |
@@ -612,10 +611,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 14–16 | ft. lb. | [12-specifications.md](12-specifications.md) | Shaft mounting nut 14–16 ft. lb. |
 | 15 | A | [12-specifications.md](12-specifications.md) | Cool Pack fuses Two 15 A |
 | 5 | lb | [12-specifications.md](12-specifications.md) | The **5 lb** charge here supports one half of the conflicting charge |
-| 815 | lb | [12-specifications.md](12-specifications.md) | Front spring working height / load 6.17 in. at 815 lb |
-| 168 / 86 | lb | [12-specifications.md](12-specifications.md) | Front spring rate / wheel rate 168 / 86 lb/in. |
-| 1600 | lb | [12-specifications.md](12-specifications.md) | Rear spring free / working / curb-weight height 11.02 / 8.11 at 1600 lb / 8.03 in. |
-| 550 / 192 | lb | [12-specifications.md](12-specifications.md) | Rear spring rate / wheel rate 550 / 192 lb/in. |
+| 770 | lb. | [12-specifications.md](12-specifications.md) | A, part 3789173; coupe and sedan 5.85 / 7.45 .450 in. 4.353 in. 3.903 in. 11.39 in. 6.42 i |
+| 155 | lb. | [12-specifications.md](12-specifications.md) | A, part 3789173; coupe and sedan 5.85 / 7.45 .450 in. 4.353 in. 3.903 in. 11.39 in. 6.42 i |
+| 855 | lb. | [12-specifications.md](12-specifications.md) | B, part 3826077; model 967 convertible 5.85 / 7.45 .470 in. 4.393 in. 3.923 in. 11.12 in.  |
+| 182 | lb. | [12-specifications.md](12-specifications.md) | B, part 3826077; model 967 convertible 5.85 / 7.45 .470 in. 4.393 in. 3.923 in. 11.12 in.  |
 | 9 | gal | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4000 | rpm | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4 | qt. | [12-specifications.md](12-specifications.md) | Crankcase capacity, dry / refill 5½ / 4 qt. |

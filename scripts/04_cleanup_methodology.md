@@ -122,6 +122,17 @@ which:
 Never silently "fix" either. A reader must be able to tell an OCR artifact from a real
 manual typo.
 
+### Later factory references outside the combined PDF
+
+If a later factory document supplies a target-year value missing from the
+combined shop books, list it in `composite.sources` with `external: true`, its
+URL, SHA-256, and physical page count. Cite the document and printed page in
+the chapter, and add a `SOURCE` marker with `pdf_page=N`, target `years`, and
+`scope` before its facts. The lookup index then records `_source_url` and
+`_source_pdf_page` while leaving `_page` empty, so an external fact cannot
+appear to come from a page of the combined PDF. Preserve any conflicting
+older value as source context, but do not index it as a target-year fact.
+
 ## Rule 9 — Duplicate / abridged scans and misfiled pages
 
 A chapter's page range sometimes contains a **duplicate (often abridged) scan** of the same

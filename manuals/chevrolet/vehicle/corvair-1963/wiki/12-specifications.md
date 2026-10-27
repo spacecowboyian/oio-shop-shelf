@@ -1,25 +1,38 @@
 # Specifications — 1963 Passenger Cars
 
 The 1962–63 supplement takes precedence where it changes a base specification.
-Shared specifications carry through to 1963; rows expressly limited to 1961 or
-1962, station wagons, and Corvair 95/1200 commercial vehicles are excluded.
-Each page marker identifies the factory document and its original printed page.
+Later 1963-specific GM data and Chevrolet service publications supersede older
+values when their application and publication order are clear. Shared
+specifications carry through to 1963; rows expressly limited to 1961 or 1962,
+station wagons, and Corvair 95/1200 commercial vehicles are excluded. Each
+source marker identifies the factory document and its original printed page.
 
 <a id="p624"></a> **[PDF p.624](../page-images/p0624.png)** <!-- SOURCE id=supplement-1962-63 page=12-opening years=1963 scope=passenger -->
 
 ## Front wheel alignment at curb weight
 
+The supplement's opening specification page gives different caster and camber
+settings and an illegible front toe fraction. Chevrolet's October 1962
+[Service News, p. 23](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf#page=23)
+identifies updated 1963 alignment settings. The GM vehicle information kit's
+**January 1963 revised chassis sheet** confirms them, including the toe
+range per wheel. These later factory settings govern here.
+
+<!-- SOURCE id=gm-ama-1963 page=Chassis-2 years=1963 scope=passenger pdf_page=31 -->
+
+Source: GM, *1963 Chevrolet Corvair Vehicle Information Kit*, Chassis p. 2
+([PDF p. 31](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=31));
+sheet marked “Revised January 1963.”
+
 | Item | 1963 passenger-car specification |
 | --- | --- |
-| Caster | 1° ± ½° |
-| Camber | 0° ± ½° |
+| Caster | +2° (+0°/−½°) |
+| Camber | +½° ± ½° |
+| Toe-in, per wheel | ⅛″ to 3⁄16″ |
+| Toe-in, total both wheels | ¼″ to ⅜″ |
 | Steering axis inclination | 7° ± ½° |
 
-The 1962 caster and camber columns on the source page have different values and
-are deliberately excluded. The source's 1963 front toe-in fraction is not
-entered until the printed fraction is independently corroborated. A 600 DPI
-render still leaves the first numerator uncertain.
-<!-- NEEDS REVIEW: 1963 front toe-in fraction on Section 12 opening page remains ambiguous even at 600 DPI; do not substitute the 1962 column or infer a plausible value. -->
+<a id="p624-rear"></a> **[PDF p.624](../page-images/p0624.png)** <!-- SOURCE id=supplement-1962-63 page=12-opening years=1963 scope=passenger -->
 
 ## Rear wheel alignment at curb weight
 
@@ -198,6 +211,8 @@ an applicable 1963 lookup value.
 | Valve lifters | Hydraulic | Hydraulic |
 | Intake face / seat angles | 44° / 45° | 45° / 45° |
 | Exhaust face / seat angles | 44° / 45° | 45° / 44° |
+| Recommended intake seat width | 1/16–3/32 in. | 3/32 in. |
+| Recommended exhaust seat width | 1/16 in. | 1/16 in. |
 | Intake valve lift | .314 in. | .378 in. |
 | Exhaust valve lift | .344 in. | .378 in. |
 | Spring free length | 1.74 in. | 2.08 in. |
@@ -209,8 +224,6 @@ as one turn to center the hydraulic-lifter plunger for both intake and exhaust.
 Its shared new / used stem-to-guide limits are **.001–.0027 / .001–.004
 in.** for intake and exhaust valves.
 See [engine mechanical](06a-engine.md) for the adjustment procedure.
-The recommended valve-seat-width fractions are withheld pending a clearer scan.
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-6 recommended valve-seat-width fractions are unclear in the available scan; verify before using as numeric specifications. -->
 
 The supplement's engine torque chart applies to the passenger engines and
 supersedes corresponding base rows. Fastener size is omitted here where its
@@ -239,7 +252,7 @@ scan is ambiguous; identify the fastener by its factory description.
 | Rocker-arm-ball stud | 27–33 ft. lb. |
 | Rocker-arm-ball-stud nut | 55–125 in. lb. |
 | Oil-pressure switch, pipe thread | 10–15 ft. lb. |
-| Spark plug | 20–25 ft. lb. |
+| Spark plug | Unresolved; this chart prints 20–25 ft. lb., tune-up p.7-5 prints 15–20 ft. lb. <!-- NEEDS REVIEW: Supplement Section 12 p.12-6 engine torque chart prints 20–25 ft. lb. for spark plugs, while its tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. --> |
 
 The air-cooling system uses a V-belt **55.7 in.** long and **.380 ± .005 in.**
 wide, with a **40°** V angle. The exhaust thermostat starts opening at
@@ -316,29 +329,61 @@ at [base p.12-10](#p126). Tune-up values are in [Section 7](07-engine-tune-up.md
 | Harness ignition resistor | 1.8 Ω |
 | Standard Turbo-Air spark plug | AC-46FF |
 | Monza Powerglide spark plug | AC-44FF |
-| Spark-plug size / gap / torque | 14 mm / .023–.028 in. / 20–25 ft. lb. |
+| Spark-plug size | 14 mm |
+| Spark-plug torque | Unresolved; Section 12 prints 20–25 ft. lb., Section 7 prints 15–20 ft. lb. | <!-- NEEDS REVIEW: Supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. spark-plug torque, while supplement tune-up p.7-5 prints 15–20 ft. lb. Verify controlling factory correction. --> |
+| Spark-plug gap | Unresolved; shop supplement prints .023–.028 in., Service News prints .035 in. | <!-- NEEDS REVIEW: Chevrolet Service News October 1962 p.23 specifies .035 in. spark-plug gap for 1963, but the shop supplement Section 12 p.12-9 prints .023–.028 in. Determine the later applicable factory correction before using a gap. --> |
 
 The supplement groups Super Turbo-Air and turbocharged spark-plug applications
-without a legible type entry in the available scan; their plug type is withheld.
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-9 has no clearly legible plug-type value opposite Super Turbo-Air/Super Turbo-Charger. Confirm applicable 1963 plug type rather than inherit AC-46FF or AC-44FF. -->
+without a legible type entry. Chevrolet Service News supplies the 1963 types
+below. Its plug gap conflicts with the shop supplement's specification
+page; neither gap is promoted as a settled 1963
+setting until the publication order or a correction is established.
 
-| Generator | Passenger application | Cold output | Field draw at 12 V, 80°F |
+<!-- SOURCE id=chevrolet-service-news-34-9 page=23 years=1963 scope=passenger pdf_page=23 -->
+
+Source: Chevrolet, *Service News*, October 1962, p. 23
+([PDF p. 23](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf#page=23));
+SHA-256 `a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e`.
+
+| 1963 engine application | Production spark plug |
+| --- | --- |
+| Turbo-Air 80 hp | AC-46FF |
+| Monza Powerglide 84 hp | AC-44FF |
+| Super Turbo-Air 102 hp | AC-44FF |
+| Turbocharged Monza Spyder 150 hp | AC-44FF |
+
+<a id="p632-generator"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->
+
+| Generator in shop supplement | Passenger application | Cold output | Field draw at 12 V, 80°F |
 | --- | --- | --- | --- |
 | 1102226 | Sedan, coupe, convertible | 30 A at 14 V, 2240 rpm | 1.69–1.79 A |
-| 1105135 | Optional | 35 A at 14 V, 1730 rpm | 2.73–3.0 A |
-| 1105139 | Optional | 40 A at 14 V, 1930 rpm | 2.73–3.0 A |
 
-The 1102227 R10/station-wagon generator is outside this passenger scope.
-The only regulator columns clearly applicable in 1963 are these:
+The supplement also lists optional DC generators 1105135 and 1105139, but
+Chevrolet's later 1963 equipment bulletin instead lists the optional
+Delcotrons below. The 1102227 R10/station-wagon generator is outside this
+passenger scope.
 
-| Regulator | Generator | Voltage setting at 125°F | Current setting at 125°F | Voltage/current air gaps | Cutout gap / point opening / closing voltage |
-| --- | --- | --- | --- | --- | --- |
-| 1119001E | 1102226 | 13.8–14.7 V | 27.0–31.0 A | .060 / .075 in. | .020 / .020 in. / 11.8–13.5 V |
-| 1119604 (1963) | 1105135 | 13.8–14.6 V | 31.0–35.5 A | .067 / .075 in. | .020 / .020 in. / 11.8–13.0 V |
+<!-- SOURCE id=chevrolet-tsb-dr564 page=2 years=1963 scope=passenger pdf_page=2 -->
 
-The only regulator listed for optional 1105139 is expressly labeled 1962;
-the 1963 pairing is unresolved.
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-9 lists optional generator 1105139, but its associated regulator 1119654 is labeled 1962. Verify the correct 1963 regulator before applying a setting. -->
+Source: Chevrolet, Technical Service Bulletin **DR 564**, December 4, 1962,
+p. 2 ([PDF p. 2](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1962/DR564.pdf#page=2));
+SHA-256 `5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e`.
+
+| 1963 Corvair 500/700/900 equipment | Unit number and output | Matched regulator |
+| --- | --- | --- |
+| Standard DC generator | 1102226, 30 A | 1119261 |
+| Optional Delcotron | 1100629, 12–42 A | 1119512 |
+| Optional Delcotron | 1100633, 5–52 A | 1119512 |
+| Optional Delcotron | 1117765, 23–62 A | 9000595 |
+| Delcotron with factory A/C | 1100633, 5–52 A | 1119512 |
+
+The bulletin gives pairings, not regulator adjustment settings. The shop
+supplement's 1119001E and 1119604 settings are not assigned to these 1963
+pairings; inspect the installed unit and obtain its matching factory service
+setting before adjustment.
+<!-- NEEDS REVIEW: DR 564 identifies 1963 passenger regulator 1119261 for generator 1102226 and Delcotron regulator pairings, while supplement Section 12 p.12-9 gives adjustment settings for different regulator numbers. Verify 1963 regulator settings before adjustment. -->
+
+<a id="p632-starter"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->
 
 | Starter item | Standard transmission 1108306 | Automatic 1108307 |
 | --- | --- | --- |
@@ -504,24 +549,34 @@ replaces a base value, use the supplement table above.
 | Front wheel-to-spring ratio | 1.63:1 |
 | Front shock-piston diameter / travel | 1.00 / 4.75 in. |
 | Front ball-stud spherical diameter, upper and lower | 1.000–.996 in. as printed <!-- NEEDS REVIEW: Base Section 12 opening page prints this diameter interval in descending order. Verify the original ball-stud limits before use. --> |
-| Front spring, active / total coils | 5.85 / 7.45 |
-| Front spring wire / pitch / outside diameter | .460 / 3.913 / 4.373 in. |
-| Front spring free height | 11.00 in. |
-| Front spring working height / load | 6.17 in. at 815 lb |
-| Front spring curb-weight height | 6.96 in. |
-| Front spring rate / wheel rate | 168 / 86 lb/in. |
 | Rear jounce / rebound travel, metal to metal | 3.62 / 4.64 in. |
 | Rear wheel-to-spring ratio | 1.72:1 |
 | Rear shock-piston diameter / travel | 1.00 / 5.00 in. |
-| Rear spring, active / total coils | 6.5 / 7.95 |
-| Rear spring wire / pitch / outside diameter | .660 / 4.113 / 4.773 in. |
-| Rear spring free / working / curb-weight height | 11.02 / 8.11 at 1600 lb / 8.03 in. |
-| Rear spring rate / wheel rate | 550 / 192 lb/in. |
 
-The spring values are original passenger-car data. The supplement revises
-alignment and tire settings, which are shown above. Base spring part-number
-applicability to every 1963 option is not established by this source.
-<!-- NEEDS REVIEW: Base Section 12 opening-page spring dimensions were not explicitly reissued by the supplement. Verify whether 1963 passenger options used different springs before applying to a specific option package. -->
+The January 1963 revised GM chassis sheets list different front and rear
+spring assemblies. Do not use the base spring dimensions as universal 1963
+replacement specifications.
+
+<!-- SOURCE id=gm-ama-1963 page=Chassis-3 years=1963 scope=passenger pdf_page=32 -->
+
+GM, *1963 Chevrolet Corvair Vehicle Information Kit*, Chassis p. 3
+([PDF p. 32](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=32)),
+revised January 1963, identifies **front spring A, part 3789173** for the
+listed coupe and sedan applications and **front spring B, part 3826077** for
+model 967 convertible. The table excludes unoffered engine/body combinations.
+
+| 1963 front spring | Active / total coils | Wire diameter | Outside diameter | Pitch diameter | Free height | Working height and load | Spring rate |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A, part 3789173; coupe and sedan | 5.85 / 7.45 | .450 in. | 4.353 in. | 3.903 in. | 11.39 in. | 6.42 in. at 770 lb. | 155 lb./in. |
+| B, part 3826077; model 967 convertible | 5.85 / 7.45 | .470 in. | 4.393 in. | 3.923 in. | 11.12 in. | 6.42 in. at 855 lb. | 182 lb./in. |
+
+<!-- SOURCE id=gm-ama-1963 page=Chassis-4 years=1963 scope=passenger pdf_page=33 -->
+
+The kit's [revised rear-spring chart](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=33)
+distinguishes body, engine, transmission, and handed part numbers. Match the
+installed assembly to that chart before choosing a rear spring; a single
+universal rear-spring dimension is not supplied here.
+<!-- NEEDS REVIEW: January 1963 GM chassis p.4 gives multiple handed rear-spring part numbers and model/engine/transmission applications. Transcribe and verify the full matrix before indexing replacement rear-spring dimensions. -->
 
 <a id="p118"></a> **[PDF p.118](../page-images/p0118.png)** <!-- SOURCE id=base-1961 page=12-2 years=1961,1962,1963 scope=passenger applicability=inherited-bearing-construction -->
 

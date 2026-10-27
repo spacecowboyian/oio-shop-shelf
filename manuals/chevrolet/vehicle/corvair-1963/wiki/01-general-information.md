@@ -3,8 +3,9 @@
 The 1961 manual supplies the base passenger-car information. Its procedures
 and values carry forward through 1962 and 1963 unless the supplement changes
 them. A 1963-specific entry takes precedence over a shared entry. The 1962
-weights and gasoline guidance in the supplement therefore carry forward for
-models and equipment still offered in 1963. Corvair 95 material and canceled
+gasoline guidance and equipment weights in the supplement carry forward for
+models and equipment still offered in 1963. The GM 1963 vehicle information
+kit supplies revised vehicle weights and dimensions. Corvair 95 material and canceled
 passenger variants are excluded. For specifications revised elsewhere in the
 supplement, this chapter points to the applicable 1963 tables instead of
 repeating the obsolete base values.
@@ -69,11 +70,15 @@ does not show the later convertible separately.
 | Front overhang | 30.3″ | C |
 | Rear overhang | 41.7″ | D |
 | Minimum ground clearance | 6″ | E |
-| Overall loaded height, coupe and sedan | 51.5″ | F |
 | Tread width | 54″ | G |
 | Overall width | 67.0″ | H |
 
-<!-- NEEDS REVIEW: Fig. 1-1 predates the convertible; verify its 1963 loaded height and any body-specific dimensions before applying the base diagram to model 967. -->
+<!-- SOURCE id=gm-ama-1963 page=8-Dimensions-and-Weights-5 years=1963 scope=passenger pdf_page=18 -->
+
+The GM *1963 Chevrolet Corvair Vehicle Information Kit*, October 1962,
+Dimensions and Weights p. 5 ([PDF p. 18](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=18)),
+specifies **51.5 in. loaded height for models 527, 727, 927, 967, 769, and
+969**. This verifies the convertible height separately from the earlier figure.
 
 ![Factory passenger-car dimensions, fig. 1-1](../diagrams/p0002-passenger-dimensions.png)
 
@@ -97,22 +102,37 @@ The base page says to store the spare at **26 psi**, then reduce it to the
 applicable **15 psi cold front pressure** if the spare is fitted to a front
 wheel. The later 1963 tire table retains that front pressure.
 
-## Carryover vehicle and equipment weights
+## 1963 vehicle and carryover equipment weights
 
 <a id="p533-weights"></a> **[PDF p.533](../page-images/p0533.png)** <!-- SOURCE id=supplement-1962-63 page=1-2 years=1962,1963 scope=passenger -->
 
-The supplement gives these weights in its 1962 column and no replacement
-weights in its 1963 column. They carry forward for the five listed passenger
-models that remain in the 1963 lineup. Model 967 convertible has no weight in
-this table. Curb weight includes full fuel and oil but no passengers.
+The supplement's weights are explicitly in its 1962 column. The later GM
+1963 vehicle information kit gives the following replacement values for all
+1963 passenger models, including the convertible. Its curb weight is the
+shipping weight plus gasoline. The kit states an 86 lb. gasoline allowance;
+the table's rounded totals are reproduced as printed.
+
+<!-- SOURCE id=gm-ama-1963 page=8-Dimensions-and-Weights-8 years=1963 scope=passenger pdf_page=21 -->
+
+Source: GM, *1963 Chevrolet Corvair Vehicle Information Kit*, October 1962,
+Dimensions and Weights p. 8 ([PDF p. 21](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=21));
+SHA-256 `af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe`.
 
 | 1963 model | Body | Shipping weight | Curb weight |
 | --- | --- | --- | --- |
-| 527 | 2-door coupe | 2312 lb. | 2428 lb. |
-| 727 | 2-door coupe | 2348 lb. | 2434 lb. |
-| 769 | 4-door sedan | 2369 lb. | 2455 lb. |
-| 927 | 2-door coupe | 2398 lb. | 2484 lb. |
-| 969 | 4-door sedan | 2417 lb. | 2503 lb. |
+| 527 | 2-door club coupe | 2330 lb. | 2420 lb. |
+| 727 | 2-door club coupe | 2355 lb. | 2440 lb. |
+| 769 | 4-door sedan | 2385 lb. | 2470 lb. |
+| 927 | 2-door club coupe | 2415 lb. | 2500 lb. |
+| 967 | 2-door convertible | 2525 lb. | 2610 lb. |
+| 969 | 4-door sedan | 2450 lb. | 2540 lb. |
+
+The kit separately lists Powerglide models: 527P **2340/2430 lb.**,
+727P **2365/2450 lb.**, 769P **2395/2480 lb.**, 927P **2425/2510 lb.**,
+967P **2535/2620 lb.**, and 969P **2460/2550 lb.** (shipping/curb).
+The kit defines “P” as Powerglide.
+
+<a id="p533-equipment"></a> **[PDF p.533](../page-images/p0533.png)** <!-- SOURCE id=supplement-1962-63 page=1-2 years=1962,1963 scope=passenger -->
 
 The same page gives **348 lb.** for the six-cylinder engine, **43.5 lb.** for
 the three-speed transmission, and **61.5 lb.** for the differential. Its
@@ -129,8 +149,8 @@ additional weights for offered equipment are:
 | Deluxe body equipment | 3 lb. |
 | Padded instrument panel | 2 lb. |
 
-These are factory carryover figures, not newly measured 1963 weights.
-<!-- NEEDS REVIEW: No factory weight is listed here for 1963 model 967 convertible; do not infer one from a coupe or sedan. -->
+These additional equipment figures come from the shop supplement's 1962 table;
+the kit's model weights above take precedence for 1963.
 
 ## Factory gasoline selection
 

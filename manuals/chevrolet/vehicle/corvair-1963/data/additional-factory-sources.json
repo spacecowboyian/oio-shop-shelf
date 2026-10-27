@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "source_id": "gm-ama-1963",
+      "filename": "1963-GM-vehicle-information-kit.pdf",
+      "url": "https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf",
+      "sha256": "af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe",
+      "bytes": 3257355,
+      "pages": 99,
+      "role": "1963 dimensions, weights, chassis alignment, steering",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-service-news-34-9",
+      "filename": "CSN-34-9.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf",
+      "sha256": "a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e",
+      "bytes": 25963347,
+      "pages": 48,
+      "role": "1963 alignment and spark plug applications",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-tsb-dr564",
+      "filename": "DR564.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1962/DR564.pdf",
+      "sha256": "5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e",
+      "bytes": 504547,
+      "pages": 2,
+      "role": "1963 generator, Delcotron, regulator lineup",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-tsb-dr585",
+      "filename": "DR585.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR585.pdf",
+      "sha256": "2d564a1343b66f8de266228ab55d54879da8d842ea56af21fa018fe59755a8e5",
+      "bytes": 920770,
+      "pages": 5,
+      "role": "cylinder-head reconditioning; not yet reconciled into chapter",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "alternate-body-1961",
+      "filename": "Corvair_1961SM_10.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_10.pdf",
+      "sha256": "771582407bed24275a86b7a3e08c308dbc0a5f9039eb0bd27f3dd11d2cb5cf17",
+      "bytes": 2331083,
+      "pages": 50,
+      "role": "Alternate factory body scan checked for missing printed p.10-52; this PDF ends at p.10-51 and does not contain it",
+      "combined_pdf": false
+    }
+  ]
+}

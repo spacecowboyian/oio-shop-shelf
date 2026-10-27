@@ -107,6 +107,14 @@ def validate_manifest(data: dict) -> list[str]:
                     if source["id"] in ids:
                         errors.append(f"composite.sources[{i}] duplicate id")
                     ids.add(source["id"])
+                    if source.get("external"):
+                        url, digest, pages = source.get("url"), source.get("sha256"), source.get("pages")
+                        if not isinstance(url, str) or not url.startswith(("https://", "http://")):
+                            errors.append(f"composite.sources[{i}] external source needs URL")
+                        if not isinstance(digest, str) or len(digest) != 64 or any(c not in "0123456789abcdef" for c in digest.lower()):
+                            errors.append(f"composite.sources[{i}] external source needs SHA-256")
+                        if not isinstance(pages, int) or isinstance(pages, bool) or pages < 1:
+                            errors.append(f"composite.sources[{i}] external source needs page count")
                 for i, ch in enumerate(chapters if isinstance(chapters, list) else []):
                     if isinstance(ch, dict) and ch.get("source_id") not in ids:
                         errors.append(f"chapters[{i}] needs a composite source_id")

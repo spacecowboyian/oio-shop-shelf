@@ -152,12 +152,24 @@ alignment afterward.
 <a id="p647"></a><a id="p647-arm"></a> **[PDF p.647](../page-images/p0647.png)** <!-- SOURCE id=supplement-1962-63 page=4-3 years=1962,1963 scope=passenger -->
 
 After steering-arm installation, check cornering-wheel relationship and
-toe-in by the alignment procedure. The numeric values in this paragraph
-are expressly labeled **1962**. The supplement's specification table lists
-the same angles without a year qualifier, so no 1963 cornering-wheel angle
-is indexed pending reconciliation.
+toe-in by the alignment procedure. This supplement paragraph expressly
+labels its numeric relationship **1962**; GM's revised 1963 chassis sheet
+below supplies the target-year check.
 
-<!-- NEEDS REVIEW: Supplement Section 4 p. 4-3 says 1962 for the 20°/18° cornering relationship, while Section 12 p. 12-3 has the same figures without year labeling. Base Section 3 p. 3-5 has 33½°/30½°. Do not assign any set to 1963 silently. -->
+<!-- SOURCE id=gm-ama-1963 page=Chassis-3 years=1963 scope=passenger pdf_page=32 -->
+
+### Cornering-wheel relationship
+
+GM, *1963 Chevrolet Corvair Vehicle Information Kit*, Chassis p. 3
+([PDF p. 32](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=32)),
+sheet marked “Revised January 1963,” gives this cornering relationship:
+
+| Inside-wheel angle | Outside-wheel angle |
+| --- | --- |
+| 20° | 18.18° |
+
+This confirms the changed relationship in the supplement's shared
+specification table for 1963.
 
 ## 1963 idler arm and linkage
 
