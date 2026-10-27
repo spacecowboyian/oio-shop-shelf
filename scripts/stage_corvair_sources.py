@@ -26,7 +26,7 @@ FALLBACKS = {
 
 def fetch(url: str) -> bytes:
     cmd = ["curl", "--fail", "--location", "--silent", "--show-error", "--retry", "3"]
-    if "corvanatics.org" in url:
+    if urlsplit(url).hostname == "corvanatics.org":
         cmd += ["--user-agent", "Mozilla/5.0"]
     return subprocess.check_output(cmd + [url])
 

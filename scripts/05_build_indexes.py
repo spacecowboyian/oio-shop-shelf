@@ -45,6 +45,11 @@ PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
 
+def strip_html_comments(text: str) -> str:
+    return re.sub(r"<!--.*?-->", lambda match: "\n" * match.group().count("\n"),
+                  text, flags=re.DOTALL)
+
+
 def slugify_anchor(heading: str) -> str:
     """GitHub-style anchor from a heading."""
     s = heading.strip().lower()
@@ -80,6 +85,7 @@ def main() -> int:
 
     for f in files:
         lines = f.read_text(encoding="utf-8").splitlines()
+        spec_lines = strip_html_comments("\n".join(lines)).splitlines()
         cur_page = None  # source PDF page of the most recent "[PDF p.N]" marker
         in_scope = not composite
         seen_source = False
@@ -111,8 +117,7 @@ def main() -> int:
             # A flagged row is not a settled quick-reference specification.
             if REVIEW_RE.search(line):
                 continue
-            spec_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", line))
-            spec_line = re.sub(r"<!--.*?-->", "", spec_line)
+            spec_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", spec_lines[ln - 1]))
             for sm in SPEC_RE.finditer(spec_line):
                 if composite and not seen_source:
                     sys.exit(f"{f}:{ln}: composite specification lacks SOURCE marker")
