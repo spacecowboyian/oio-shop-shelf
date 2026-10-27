@@ -19,6 +19,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
 - 1963 passenger wiper and washer — [08-electrical-systems.md#p692](08-electrical-systems.md#p692) ([PDF p.692])
 - 1963 passenger wiring diagrams — [08-electrical-systems.md#p703](08-electrical-systems.md#p703) ([PDF p.703])
+- 1963 passenger-car models — [01-general-information.md#p532](01-general-information.md#p532) ([PDF p.532])
 - 1963 pedal and high-performance clutch changes — [06b-clutch.md#p318](06b-clutch.md#p318) ([PDF p.318])
 - 1963 three-speed linkage and support — [06d-manual-transmission.md#p374](06d-manual-transmission.md#p374) ([PDF p.374])
 
@@ -51,7 +52,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
 - Capacity, expansion valve and line connections — [11-accessories.md#p595](11-accessories.md#p595) ([PDF p.595])
 - Carpet and specific stains — [10-body.md#p537](10-body.md#p537) ([PDF p.537])
-- Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
+- Carryover vehicle and equipment weights — [01-general-information.md#p3](01-general-information.md#p3) ([PDF p.3])
 - Case, reverse clutch and front pump inspection — [06e-automatic-transmission.md#p386](06e-automatic-transmission.md#p386) ([PDF p.386])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
@@ -60,6 +61,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Clutch and rear axle — [12-specifications.md#p630](12-specifications.md#p630) ([PDF p.630])
 - Clutch drum and rear pump — [06e-automatic-transmission.md#p392](06e-automatic-transmission.md#p392) ([PDF p.392])
 - Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
+- Commercial-only source pages — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Compressor clutch and external service — [11-accessories.md#p606](11-accessories.md#p606) ([PDF p.606])
 - Compressor seal and internal mechanism — [11-accessories.md#p610](11-accessories.md#p610) ([PDF p.610])
 - Convertible top fabric — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
@@ -69,7 +71,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## D
 
-- Deferred general specifications — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 - Diagnose the gasoline heater — [11-accessories.md#p86](11-accessories.md#p86) ([PDF p.86])
 - Diagnose unusual tread wear — [03-suspension.md#p166](03-suspension.md#p166) ([PDF p.166])
 - Differential case, seals, and bearing service — [06c-rear-axle.md#p333](06c-rear-axle.md#p333) ([PDF p.333])
@@ -118,6 +119,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Gasoline-heater component service — [11-accessories.md#p95](11-accessories.md#p95) ([PDF p.95])
 - Gauge thicknesses — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
+- General specifications and source precedence — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - General steel-bolt torque chart — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 
 ## H
