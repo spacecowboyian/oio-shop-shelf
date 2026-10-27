@@ -211,10 +211,12 @@ revised measurement procedure above**. The base manual adds two diagnostic
 checks: a liner that partly or fully blocks the cleaned lubrication opening
 signals deterioration, and abnormal pressure needed to force lubricant
 through the joint can indicate that its lubrication grooves have worn away.
-The base also describes a lower-stud fastening check, but its diagnostic
-threshold conflicts with the supplement's installation torque. Do not use
-that check until the factory conflict is resolved.
-<!-- NEEDS REVIEW: Base Suspension p. 3-8 lower ball-stud looseness diagnostic says less than 45 ft. lb. at the original nut position suggests looseness; supplement Suspension p. 3-2 specifies 30–40 ft. lb. for lower ball-stud installation. Both claim passenger-car applicability. Withhold the old diagnostic threshold for 1963 until reconciled. -->
+The base also describes a lower-stud fastening check with a looseness
+threshold above the supplement's **30–40 ft-lb** installation torque,
+so it cannot classify a properly installed 1963 stud.
+Use the supplement's explicit **1961–63 displacement check** above for lower-joint
+wear; do not use the old torque-threshold diagnostic on a 1963 car.
+<!-- RESOLVED SUPERSESSION: Base Section 3 p.3-8 lower-stud looseness threshold (<45 ft-lb) is incompatible with the supplement's 30–40 ft-lb installation torque. Supplement Section 3 p.3-2 expressly applies a 3/32-in. displacement wear check to 1961–63 passenger cars. -->
 
 ### Check front riding height and spring sag
 

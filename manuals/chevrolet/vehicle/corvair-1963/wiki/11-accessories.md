@@ -552,12 +552,15 @@ manifold with correct adapters while keeping dirt out.
 The source's sea-level evacuation target is **26–28 in. Hg**; lower
 it **1 in. Hg per 1,000 ft** elevation (**21–23 in. Hg** at
 **5,000 ft**). Evacuate after any opening. Charge vapor after leak
-testing, warming upright containers only in water ≤**125°F**. During
-the charging operation the text says compressor head pressure should
-not exceed **275 psi** and container pressure should remain between <!-- NEEDS REVIEW: Source pressure conflict, not OCR: charging text p.11-17 says head pressure should not exceed 275 psi, while performance chart p.11-10 lists 300–310 psi at 120°F and fast-idle instruction p.11-41 expects 300 psi. Verify factory service bulletin or conditional meaning before treating 275 psi as universal. -->
-**12 and 90–100 psi**. The performance chart allows **300–310 psi**
-at 120°F and the fast-idle instruction expects **300 psi** under its
-own conditions; those printed values are left distinct.
+testing, warming upright containers only in water ≤**125°F**.
+**While adding refrigerant, compressor head pressure should not exceed 275 psi.**
+The page also says pressure within the Freon containers should stay between
+**12 and 90–100 psi**. This is a charging-process limit,
+not a universal operating ceiling: the separate performance test lists
+**300–310 psi** at 120°F grille air, and the fast-idle instruction uses
+**300 psi** under its own conditions. Apply each number only to its
+stated procedure.
+<!-- RESOLVED SCOPE: Supplement Section 11 p.11-17 puts the 275-psi limit under "Adding Refrigerant" with the compressor running; p.11-10's 300–310-psi row belongs to a 120°F performance test, and p.11-41's 300-psi statement to fast-idle setup. These values describe different procedures, not one universal operating limit. -->
 
 For the printed purging sequence, connect both gauges with engine off
 and bleed high side slowly through center port. Below **100 psi** high
