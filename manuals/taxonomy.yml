@@ -37,6 +37,14 @@
 #           family: <engine-family letter/series, optional>
 
 makes:
+  chevrolet:
+    name: Chevrolet
+    vpic_make_id: 467
+    models:
+      corvair:
+        name: Corvair  # Pre-VIN-era model absent from the current vPIC model list.
+        chassis: []
+    engines: {}
   toyota:
     name: Toyota
     vpic_make_id: 448

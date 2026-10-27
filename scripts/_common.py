@@ -85,6 +85,53 @@ def validate_manifest(data: dict) -> list[str]:
                 errors.append(f"chapters[{i}] page_start {ps} > page_end {pe}")
     elif chapters is not None:
         errors.append("chapters must be a list")
+    composite = data.get("composite")
+    if composite is not None:
+        if not isinstance(composite, dict):
+            errors.append("composite must be a mapping")
+        else:
+            year = composite.get("target_year")
+            if not isinstance(year, int) or isinstance(year, bool):
+                errors.append("composite.target_year must be an integer")
+            if composite.get("scope") not in ("passenger", "commercial", "all"):
+                errors.append("composite.scope must be passenger, commercial, or all")
+            sources = composite.get("sources")
+            if not isinstance(sources, list) or len(sources) < 2:
+                errors.append("composite.sources must list at least two sources")
+            else:
+                ids = set()
+                for i, source in enumerate(sources):
+                    if not isinstance(source, dict) or not source.get("id") or not source.get("title") or not isinstance(source.get("priority"), int):
+                        errors.append(f"composite.sources[{i}] needs id, title, priority")
+                        continue
+                    if source["id"] in ids:
+                        errors.append(f"composite.sources[{i}] duplicate id")
+                    ids.add(source["id"])
+                    if source.get("external"):
+                        url, digest, pages = source.get("url"), source.get("sha256"), source.get("pages")
+                        if not isinstance(url, str) or not url.startswith(("https://", "http://")):
+                            errors.append(f"composite.sources[{i}] external source needs URL")
+                        if not isinstance(digest, str) or len(digest) != 64 or any(c not in "0123456789abcdef" for c in digest.lower()):
+                            errors.append(f"composite.sources[{i}] external source needs SHA-256")
+                        if not isinstance(pages, int) or isinstance(pages, bool) or pages < 1:
+                            errors.append(f"composite.sources[{i}] external source needs page count")
+                for i, ch in enumerate(chapters if isinstance(chapters, list) else []):
+                    if isinstance(ch, dict) and ch.get("source_id") not in ids:
+                        errors.append(f"chapters[{i}] needs a composite source_id")
+                    if isinstance(ch, dict) and "source_ranges" in ch:
+                        ranges = ch["source_ranges"]
+                        if not isinstance(ranges, list) or not ranges:
+                            errors.append(f"chapters[{i}].source_ranges must be nonempty")
+                        else:
+                            for j, source_range in enumerate(ranges):
+                                if not isinstance(source_range, dict):
+                                    errors.append(f"chapters[{i}].source_ranges[{j}] must be a mapping")
+                                    continue
+                                if source_range.get("source_id") not in ids:
+                                    errors.append(f"chapters[{i}].source_ranges[{j}] has unknown source_id")
+                                lo, hi = source_range.get("page_start"), source_range.get("page_end")
+                                if not isinstance(lo, int) or not isinstance(hi, int) or lo < 1 or lo > hi:
+                                    errors.append(f"chapters[{i}].source_ranges[{j}] has invalid pages")
     errors += _taxonomy_shape_errors(data.get("taxonomy"))
     errors += _diagrams_shape_errors(data)
     return errors

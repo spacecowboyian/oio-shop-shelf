@@ -63,6 +63,34 @@ if [ -n "$pdf" ]; then
 
   echo "→ Publishing '$pdf' → release '$tag' on $repo (asset: $asset)"
   ensure_release
+  # A composite keeps each original factory PDF as an additional Release asset.
+  # Verify staged bytes against the committed inventory before uploading anything.
+  python3 - "$dir" "$tag" "$repo" <<'PY'
+import hashlib, json, subprocess, sys
+from pathlib import Path
+import yaml
+
+manual = Path(sys.argv[1]); tag, repo = sys.argv[2:]
+manifest = yaml.safe_load((manual / 'manifest.yml').read_text())
+composite = manifest.get('composite')
+if composite:
+    root = (manual / composite['source_staging_dir']).resolve()
+    inventory_file = manual / composite['source_inventory']
+    inventory = json.loads(inventory_file.read_text())
+    paths = []
+    for entry in inventory['entries']:
+        path = root / entry['source_id'] / entry['filename']
+        if not path.is_file():
+            raise SystemExit(f'Missing original source asset: {path}')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+            raise SystemExit(f'SHA-256 mismatch: {path}')
+        paths.append((entry, path))
+    for entry, path in paths:
+        subprocess.run(['gh', 'release', 'upload', tag, str(path), '--clobber'], check=True)
+        entry['release_url'] = (f'https://github.com/{repo}/releases/download/'
+                                f'{tag}/{entry["filename"]}')
+    inventory_file.write_text(json.dumps(inventory, indent=2) + '\n')
+PY
   gh release upload "$tag" "$upload" --clobber
 
   # Repoint the manifest: source.type -> url, source.location -> release URL. Targeted
@@ -77,6 +105,17 @@ s = re.sub(r'(?m)^\s{2}location:[^\n]*', '  location: "%s"' % url, s, count=1)
 open(f, "w", encoding="utf-8").write(s)
 PY
 
+  # Keep the optional committed page-image index pointed at the shipped PDF.
+  python3 - "$dir/data/pages.json" "$url" <<'PY'
+import json, sys
+from pathlib import Path
+p = Path(sys.argv[1])
+if p.is_file():
+    data = json.loads(p.read_text())
+    data['source_pdf'] = sys.argv[2]
+    p.write_text(json.dumps(data, indent=1) + '\n')
+PY
+
   # Refresh the README so its front matter + visible "Source PDF" link point at the URL.
   if python3 scripts/10_write_frontmatter.py "$dir" >/dev/null 2>&1; then
     git add "$dir/README.md"
@@ -87,6 +126,8 @@ PY
   [ "$upload" = "$pdf" ] || rm -f "$upload"
   git rm --quiet "$pdf"
   git add "$dir/manifest.yml"
+  git add "$dir/data/source-inventory.json" 2>/dev/null || true
+  git add "$dir/data/pages.json" 2>/dev/null || true
   echo "✓ '$pdf' removed from git; manifest source → $url"
 fi
 
