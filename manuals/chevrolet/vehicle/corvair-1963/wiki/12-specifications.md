@@ -74,6 +74,7 @@ excluded.
 | Front lower control arm | Pivot bolt | 90–120 lb. ft. |
 | Front lower control arm | Ball stud to steering knuckle | 30–40 lb. ft. |
 | Rear lower control arm | Pivot bushing | 45–55 lb. ft. |
+| Rear lower control arm | Cross shaft to crossmember, four attaching bolts | 45–55 lb. ft. |
 | Strut rod | Rear nut | 50–70 lb. ft. |
 | Strut rod | Front studs | 38–50 lb. ft. |
 | Crossmember to body | Front | 25–35 lb. ft. |
@@ -85,10 +86,11 @@ Suspension installation procedure disagrees with this table. See
 [steering-knuckle service](03-suspension.md#passenger-car-steering-knuckle-service).
 <!-- NEEDS REVIEW: Supplement Section 3 p. 3-2 prints 40–50 ft. lb. for the steering-arm bolts/locknuts, while supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both apply to passenger cars. Do not index either figure until resolved. -->
 
-The rear lower-arm cross-shaft-to-crossmember torque is also withheld:
-the base installation procedure and supplement table disagree. See
+The cross-shaft-to-crossmember row applies to the four arm-mount bolts in
 [rear lower-arm service](03-suspension.md#remove-the-rear-lower-control-arm-and-cross-shaft).
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-2 prints 45–55 lb. ft. for rear lower-arm cross shaft to crossmember, while the base installation procedure gives a different value. Verify the applicable 1963 fastener and correction before indexing a torque. -->
+The base installation procedure prints a different value for those bolts;
+the 1962–63 supplement supplies the passenger-car value above.
+<!-- RESOLVED SUPERSESSION: Base Section 3 p.3-19, step 10 gives 40–50 ft. lb. for four rear control-arm attaching bolts at the crossmember. Supplement Section 12 p.12-2 gives 45–55 lb. ft. for rear lower-control-arm cross shaft to crossmember. Same joint; year-specific supplement governs 1963. -->
 
 Source: Chevrolet, *1962–63 Corvair Shop Manual Supplement*, Section 12. The
 opening page has no visible printed number (original file
@@ -571,16 +573,18 @@ turbocharger inlet / outlet pipe OD is **1.875 / 2.50 in.**
 | Cool Pack blower | 14 V, 9.4 A maximum cold, 3100 rpm cold |
 | Clutch-coil resistance / draw at 80°F | 3.85 Ω / 3.2 A at 12 V |
 | Refrigerant / compressor oil | Freon-12 / Frigidaire 525 viscosity |
-| Freon-12 charge / oil capacity | 5 lb / 11 oz. |
+| Freon-12 charge | **5 lb by mass** |
+| Compressor oil capacity | Conflicting printed quantities; withheld |
 | Compressor suction/discharge connector bolt | 17–23 ft. lb. |
 | Rear-head-to-shell stud nuts | 19–23 ft. lb. |
 | Shaft mounting nut | 14–16 ft. lb. |
 | Cool Pack fuses | Two 15 A |
 
-The **5 lb** charge here supports one half of the conflicting charge
-statement on [accessories p.11-15](11-accessories.md#p595), which also
-says five 15-oz cans. The conflict remains unresolved.
-<!-- NEEDS REVIEW: Supplement Section 12 p.12-13 independently prints 5 lb Freon-12, while Section 11 p.11-15 says 5 lb or five 15-oz cans. Do not convert five cans to five pounds. -->
+The refrigerant mass specification here agrees with
+[accessories p.11-15](11-accessories.md#p595). Its can-count shorthand
+is not an exact equivalent to the printed package size. The oil-capacity
+entries on these same pages remain inconsistent.
+<!-- RESOLVED CAPACITY INTERPRETATION: Supplement Section 12 p.12-13 and Section 11 p.11-15 both specify 5 lb Freon-12. Section 11 p.11-9 defines the disposable cans as 15 oz each; five cans total 75 oz rather than 80 oz. Use the repeated mass specification and retain the faulty can equivalence as source context. -->
 
 ## Inherited base-manual specifications
 

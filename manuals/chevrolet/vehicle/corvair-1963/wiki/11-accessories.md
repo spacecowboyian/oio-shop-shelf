@@ -509,14 +509,17 @@ cycles, replace cover and reconfirm cable travel.
 
 ### Capacity, expansion valve and line connections
 
-The printed capacity box specifies **5 lb Freon-12 or 5 cans** and
-**10 oz 525-viscosity oil**. Five of the source's 15 oz cans total
-75 oz, while 5 lb is 80 oz; those differ **as printed**.
+The 1962–63 factory system specifies a **5 lb Freon-12 charge by mass**.
+Section 12 repeats that mass, while the can-count shorthand in this
+section conflicts with the printed can size. The oil quantity printed
+here also differs from Section 12; it is withheld below.
 
 | Factory capacity item | Printed value | Applicability |
 | --- | --- | --- |
-| Freon-12 charge | 5 lbs. or 5 Cans | Unresolved source conflict; 1962–63 factory A/C | <!-- NEEDS REVIEW: Source inconsistency, not OCR: supplement p.11-15 prints 5 lbs. or 5 Cans but p.11-9 says cans are 15 oz; 5 cans are 75 oz, not 80 oz. Confirm factory correction before selecting a single refrigerant charge. -->
-| Compressor oil charge | 10 oz of 525-viscosity oil | 1962–63 factory A/C |
+| Freon-12 charge | **5 lb by mass** | 1962–63 factory A/C; printed can count is inexact |
+| Compressor oil charge | Conflicting printed quantities; withheld | Verify the installed system before filling <!-- NEEDS REVIEW: Supplement Section 11 p.11-15 prints 10 oz 525-viscosity oil; Section 12 p.12-13 prints 11 oz for the same 1962–63 Cool Pack system. Find a controlling 1963 factory correction before selecting an oil quantity. --> |
+
+<!-- RESOLVED CAPACITY INTERPRETATION: Supplement Section 11 p.11-15 and Section 12 p.12-13 independently specify 5 lb Freon-12. Section 11 p.11-9 says each disposable can contains 15 oz, so its five-can shorthand is 75 oz, not the specified 80 oz. Retain the printed can statement as a source inconsistency; use the repeated mass specification. -->
 
 | Expansion-valve condition | Factory indications |
 | --- | --- |
