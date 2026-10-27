@@ -122,6 +122,17 @@ which:
 Never silently "fix" either. A reader must be able to tell an OCR artifact from a real
 manual typo.
 
+### Later factory references outside the combined PDF
+
+If a later factory document supplies a target-year value missing from the
+combined shop books, list it in `composite.sources` with `external: true`, its
+URL, SHA-256, and physical page count. Cite the document and printed page in
+the chapter, and add a `SOURCE` marker with `pdf_page=N`, target `years`, and
+`scope` before its facts. The lookup index then records `_source_url` and
+`_source_pdf_page` while leaving `_page` empty, so an external fact cannot
+appear to come from a page of the combined PDF. Preserve any conflicting
+older value as source context, but do not index it as a target-year fact.
+
 ## Rule 9 — Duplicate / abridged scans and misfiled pages
 
 A chapter's page range sometimes contains a **duplicate (often abridged) scan** of the same
@@ -264,6 +275,30 @@ it is fenced:
   manual fails in both directions at once (bad glyphs AND bad word order). Read the page image
   before transcribing any table whose cells carry type codes or specs.
 
+## Rule 14 — Composite manuals with one target year
+
+When a manifest has `composite`, clean each logical chapter from all of its
+`source_ranges` together. Keep only material applicable to the manifest's target
+year and scope. The base manual's information carries forward unless a later
+factory supplement changes it. A 1962 supplement update also carries into
+1963 unless a 1963 entry changes it. Preserve each unchanged base step and
+carryover update with its original source citation. Where a table explicitly
+separates years, transcribe the target-year column; do not promote the other
+column as a fallback. Exclude other vehicle scopes and canceled variants.
+
+Before every spec or procedure block, place a provenance marker such as
+`<!-- SOURCE id=supplement-1962-63 page=12-2 years=1963 scope=passenger -->`.
+Use a comma-separated year list only when the source supports every listed
+year. The `page` is the printed source page, or an explicit label such as
+`12-opening` when the scan has no printed number; also keep the combined PDF
+page marker and original filename. The index builders reject untagged composite
+specifications and exclude blocks outside the target year and scope.
+
+If applicability, supersession, a printed page number, or a conflicting value
+cannot be established from the source image, add a `NEEDS REVIEW` flag and keep
+the uncertain value out of the target-year lookup. Do not use the publication
+year of the base book as proof that its every value still applies.
+
 ## Output checklist (self-verify before saving)
 
 - [ ] Every number matches the OCR/image; none silently changed.
@@ -303,3 +338,7 @@ per change: date · what changed · why (link the PR/issue).
   rule never to render below the scan's native resolution (300 dpi recommended for zoom). Bolt
   sequences must be transcribed as text too — an assistant that cannot load the image could not
   answer "what's the head-bolt sequence?" from an image-only figure.
+- 2026-10-25 · Added Rule 14 for a target-year manual assembled from factory base and
+  supplement sources; applies explicit year and vehicle scope at each audited block.
+- 2026-10-25 · Clarified Rule 14 carry-forward: base information and intermediate-year
+  updates remain applicable until explicitly changed; year-separated columns do not.

@@ -150,6 +150,8 @@ def write_manuals_index(mdirs: list[Path], repo: str, branch: str) -> None:
         li = mdir / "wiki" / "llm-instructions.md"
         lines += [
             f"## {title}", "",
+            *( ["**Conversion in progress — cleaned 1963 coverage is incomplete.**", ""]
+               if manifest.get("conversion_status") == "in-progress" else [] ),
             f"- **All files (every raw URL):** {raw_url(repo, branch, af)}",
             f"- Manual entry point: {raw_url(repo, branch, li)}",
             f"- Chapter index: {raw_url(repo, branch, idx)}", "",

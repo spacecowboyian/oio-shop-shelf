@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "source_id": "gm-ama-1963",
+      "filename": "1963-GM-vehicle-information-kit.pdf",
+      "url": "https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf",
+      "sha256": "af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe",
+      "bytes": 3257355,
+      "pages": 99,
+      "role": "1963 dimensions, weights, chassis alignment, ball studs, springs, Powerglide capacity and clutch plates, clutch load comparison, and November 1962 crankshaft, valve-timing, and spark-plug specifications",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-service-news-34-9",
+      "filename": "CSN-34-9.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-34-9.pdf",
+      "sha256": "a498ab3c02afd3186ade6e5edeabc3724346b8b3a2a1ef450f2a3901b65a896e",
+      "bytes": 25963347,
+      "pages": 48,
+      "role": "1963 alignment, spark plug applications, and four-lobe washer drive",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-service-news-33-8",
+      "filename": "CSN-33-8.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/chevy-service-news/CSN-33-8.pdf",
+      "sha256": "d37fea0ccfae921039d07a01e2aacf45788870d1b05050b1b56bdb3cb3051a60",
+      "bytes": 2094830,
+      "pages": 4,
+      "role": "August 1961 Chevrolet passenger rear-wheel-bearing press-plate identification; corroborates J-8619-1 in the 1962\u201363 supplement",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-tsb-dr564",
+      "filename": "DR564.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1962/DR564.pdf",
+      "sha256": "5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e",
+      "bytes": 504547,
+      "pages": 2,
+      "role": "1963 generator, Delcotron, regulator lineup",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-tsb-dr594",
+      "filename": "DR594.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR594.pdf",
+      "sha256": "7baa76c8882f059a0f01cf4038f2c911257bc128223aef9b3fb9264770d48d84",
+      "bytes": 969378,
+      "pages": 5,
+      "role": "May 1963 Chevrolet revised diagnosis and adjustment procedure for two-unit Delcotron voltage regulators",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "delco-remy-1r-186",
+      "filename": "Delco-Remy-1R-186.pdf",
+      "url": "https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf",
+      "sha256": "272007e0b95fa2182fbb74b4c2cccbc21adc9ba7bdae290f6454c36d8718957c",
+      "bytes": 5429653,
+      "pages": 8,
+      "role": "Delco-Remy model-specific service test specifications for 1119261 and temperature charts; downloadable copy contains printed pp. 1-8 of 12",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-tsb-dr585",
+      "filename": "DR585.pdf",
+      "url": "https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR585.pdf",
+      "sha256": "2d564a1343b66f8de266228ab55d54879da8d842ea56af21fa018fe59755a8e5",
+      "bytes": 920770,
+      "pages": 5,
+      "role": "cylinder-head reconditioning; not yet reconciled into chapter",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-powerglide-training-1960-p25",
+      "filename": "TOP-60-SM-4-p25.jpg",
+      "url": "https://chevy.oldcarmanualproject.com/booklets/60top04/images/6004top25.jpg",
+      "sha256": "cac529ecac6b08d8e7cb2cfb9d5902b457ae2699cab464b340e7fe016f0d6685",
+      "bytes": 389570,
+      "pages": 1,
+      "role": "Chevrolet Corvair Powerglide training booklet Part II p.25 explicitly gives 9\u201311 foot-pounds for valve-body attaching bolts; image of the factory page",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "corvair-supplement-1964-fuel",
+      "filename": "Corvair_1964SM_9.pdf",
+      "url": "https://northern-california-corvairs.com/64%20Shop%20Manual%20Ch%209-fuelExh-64.pdf",
+      "sha256": "7f26ff47d97a44e2ac6b4216a1011372880e65cbf23bc286d7f97840b60633cd",
+      "bytes": 4182054,
+      "pages": 34,
+      "role": "Later Chevrolet factory supplement Section 9 p.9-14 corroborates one-notch-lean on-car Carter YH choke adjustment",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "carter-yh-spec-chart",
+      "filename": "Carter-YH-Manual.pdf",
+      "url": "https://www.carburetor-parts.com/assets/manuals/Carter-YH-Manual.pdf",
+      "sha256": "565df033c1e26e706483b65c467e2aa2493ee32930a122729e36113e5e7392ab",
+      "bytes": 26155164,
+      "pages": 24,
+      "role": "Carter YH specification-chart compilation, PDF p.24: 1963\u201366 Chevrolet one notch lean versus 1962 one notch rich; corroborating reference, not a Chevrolet supplement",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "alternate-suspension-1961",
+      "filename": "Corvair_1961SM_3.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_3.pdf",
+      "sha256": "d7199c64e53c5c72a398efbecc4eca4cd9b8c09039dd65cc9acfdf08d5c0ba83",
+      "bytes": 1748516,
+      "pages": 38,
+      "role": "Alternate scan of factory Suspension p.3-6 used to verify figure 3-6 bearing-cup press-out tool dimensions",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "alternate-body-1961",
+      "filename": "Corvair_1961SM_10.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_10.pdf",
+      "sha256": "771582407bed24275a86b7a3e08c308dbc0a5f9039eb0bd27f3dd11d2cb5cf17",
+      "bytes": 2331083,
+      "pages": 50,
+      "role": "Alternate factory body scan checked for missing printed p.10-52; this PDF ends at p.10-51 and does not contain it",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-finger-tip-facts-1963",
+      "filename": "63FTF.pdf",
+      "url": "https://northern-california-corvairs.com/63FTF.pdf",
+      "sha256": "eb3a5704360ddef56191e823815d26e1fcb1835fbb59a17d142d0944ddc6e541",
+      "bytes": 4427487,
+      "pages": 45,
+      "role": "1963 Chevrolet Finger Tip Facts p. Corvair-31: passenger Powerglide selector sequence and engine-specific clutch plate loads",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-owners-guide-1963-e3",
+      "filename": "63OM-E3.pdf",
+      "url": "https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf",
+      "sha256": "10431718be04260ae318d322acb0720f3c9e1cd10b9900c5b0363ecfa6e8c19d",
+      "bytes": 5832061,
+      "pages": 31,
+      "role": "Third-edition 1963 Chevrolet Corvair Owners Guide, printed p. 6, dashboard Powerglide quadrant illustration",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "alternate-general-1961",
+      "filename": "Corvair_1961SM_1.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_1.pdf",
+      "sha256": "2b62d6f2c6333aa18e9c16ace633de7820b4391cd4a49a21af3f78d0ad109226",
+      "bytes": 435707,
+      "pages": 11,
+      "role": "Independent factory Section 1 scan confirms printed p.1-7 machine-screw torque-chart designation #10-33",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-parts-catalog-1969",
+      "filename": "1960-69-parts.pdf",
+      "url": "https://northern-california-corvairs.com/1960-1969-Corvair-Parts-Catalog.pdf",
+      "sha256": "a8bf0c633a7c40b51820bf20dbfb9572bfb2814f1646560aa815ba577dbfa1a8",
+      "bytes": 53354443,
+      "pages": 502,
+      "role": "1969 Chevrolet Corvair Parts & Accessories Catalog groups 4.351–4.352, printed p. 4-12: revised 1961–63 four-speed clutch gear 3814014 and 1961–66 four-speed roller part 7451240, quantity 72 total",
+      "combined_pdf": false
+    }
+  ]
+}
