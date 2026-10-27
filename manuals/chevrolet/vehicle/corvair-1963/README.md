@@ -23,6 +23,9 @@ but [source conflicts and missing coverage](wiki/10-needs-review.md) still
 need review before publication. Do not use a flagged value as a service
 specification.
 
+The [release-readiness record](RELEASE-READINESS.md) lists the verified package
+checks and the remaining source and publication gates.
+
 The [source inventory](data/source-inventory.json) records each original PDF,
 its download URL, size, SHA-256, and physical page count. The
 [source page map](data/source-page-map.jsonl) maps each combined working page
