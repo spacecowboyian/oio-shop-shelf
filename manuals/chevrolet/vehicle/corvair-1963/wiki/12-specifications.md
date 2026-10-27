@@ -301,6 +301,12 @@ print 900–1075 with a 1250–1450 footnote for the turbocharged engine.
 The shop supplement, printed p. 12-7 ([PDF p.630](../page-images/p0630.png)),
 instead prints 900–1050 and 1500 with “ft. lbs.”. These are distinct factory
 statements; no 1963 application-specific load is selected from them.
+The [1963 Chevrolet *Finger Tip Facts*, printed p. Corvair-31](https://northern-california-corvairs.com/63FTF.pdf#page=31)
+adds engine-specific loads. Its standard-engine entry differs from the AMA
+chart's broader entry, so these remain source comparisons rather than a
+selected service setting until the applicable pressure-plate assembly is
+identified.
+<!-- FINGER TIP FACTS DETAIL, withheld from quick reference: printed Corvair-31 gives 900–1015 lb for 80 hp, 900–1075 lb for 102 hp, and 1250–1450 lb for 150-hp turbocharged. The 80-hp entry differs from the AMA's broad 900–1075 lb standard-engine figure. -->
 <!-- NEEDS REVIEW: The unit is force (lb.) in GM's 1963 Power Trains p.13 and AMA p.15, but pressure values conflict: supplement Section 12 p.12-7 prints 900–1050 and 1500 (mislabelled “ft. lbs.”); Power Trains p.13 prints 900–1075 lb across 80/102/150 hp; AMA p.15 prints 900–1075 lb with a 1250–1450 lb turbocharged footnote. Find a controlling factory correction before indexing a load. -->
 
 The rear axle is an integral differential with independent U-jointed axle

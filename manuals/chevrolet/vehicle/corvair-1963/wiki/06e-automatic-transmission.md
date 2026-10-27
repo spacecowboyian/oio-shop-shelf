@@ -56,10 +56,14 @@ Powerglide joins a two-speed planetary transmission and air-cooled torque
 converter to the differential carrier. The converter sits at the engine;
 the pump and turbine shafts pass through the carrier to the transmission.
 The selector has **Reverse, Neutral, Drive and Low**, with no Park detent.
-The base service description lists R-N-D-L top-to-bottom, while Section 12
-and the October 1962 GM kit, Power Trains p. 16, list L-D-N-R. Verify the
-physical quadrant before using either order.
-<!-- NEEDS REVIEW: Base Section 6E p.6E-1 lists selector positions top-to-bottom R-N-D-L; base Section 12 p.12-10 and the October 1962 GM 1963 Power Trains p.16 list L-D-N-R. Verify the actual 1963 passenger instrument-panel quadrant before documenting its physical order. -->
+For the 1963 passenger instrument-panel selector, use **L-D-N-R from top to
+bottom**. The [1963 Chevrolet *Finger Tip Facts*, printed p. Corvair-31](https://northern-california-corvairs.com/63FTF.pdf#page=31)
+and the 1963 GM kit's Power Trains p. 16 and AMA transmission chart give
+L-D-N-R. The [1963 owner's guide, printed p. 6](https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf#page=5)
+shows D, N, and R descending on the dashboard quadrant. The base Section 6E
+p. 6E-1 R-N-D-L description is a conflicting base-manual statement, not the
+1963 selector layout.
+<!-- RESOLVED SOURCE CONFLICT: The 1963 AMA selector-pattern chart and Chevrolet Finger Tip Facts give L-D-N-R. The 1963 owner-guide dashboard illustration shows D, N, R descending. Base 6E-1 instead prints R-N-D-L. -->
 The manual-low inhibitor prevents an unsafe downshift at high road speed.
 The opening page also lists changes already built into the 1961 unit;
 do not treat those as additional 1963 modifications. The inherited
