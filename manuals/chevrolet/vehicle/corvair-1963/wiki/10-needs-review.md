@@ -1,6 +1,6 @@
 # Needs Review
 
-_26 flag(s) across 18 chapter file(s)._
+_24 flag(s) across 18 chapter file(s)._
 
 | Chapter | Reason |
 | ------- | ------ |
@@ -9,9 +9,7 @@ _26 flag(s) across 18 chapter file(s)._
 | [03-suspension.md](03-suspension.md) | Supplement Suspension p. 3-2 prints 40–50 ft. lb. for steering-arm bolts/locknuts, but supplement Specifications p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both are passenger-car figures; no definitive 1963 torque is indexed. |
 | [03-suspension.md](03-suspension.md) | Base Suspension p. 3-8 lower ball-stud looseness diagnostic says less than 45 ft. lb. at the original nut position suggests looseness; supplement Suspension p. 3-2 specifies 30–40 ft. lb. for lower ball-stud installation. Both claim passenger-car applicability. Withhold the old diagnostic threshold for 1963 until reconciled. |
 | [03-suspension.md](03-suspension.md) | Base Suspension p. 3-19 gives 40–50 ft. lb. for the four rear control-arm-to-crossmember attaching bolts; supplement Specifications p. 12-2 gives 45–55 ft. lb. for rear lower control arm cross shaft to crossmember. Confirm whether these are the same fasteners and which torque governs 1963 before indexing or tightening. |
-| [03-suspension.md](03-suspension.md) | Base Suspension fig. 3-6 on printed p. 3-6 gives homemade bearing-cup press-out tool dimensions; OCR is unreadable. Verify each dimension from the source image before transcribing or making the tools. |
 | [04-steering.md](04-steering.md) | Supplement Section 4 p. 4-2 prints 40–50 ft. lb. for steering-arm retaining nuts; supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to knuckle. Base Section 3 and supplement Section 3 have further figures. Do not index a 1963 arm-fastener torque until reconciled. |
-| [06-power-train.md](06-power-train.md) | Factory Section 6 installation says two fork-rod swivel turns; detailed Section 6B adjustment says three. Confirm for 1963 before relying on the count. |
 | [06a-engine.md](06a-engine.md) | Base Section 6A pp. 6A-18–6A-19 prints front and rear engine-mount fastener torques. Supplement Section 12 engine torque table has a rear mounting-bracket nut value that may refer to a different fastener, but the names are not sufficiently clear. Keep mount torques out of the index until each fastener is matched to the drawing and year-specific table. |
 | [06d-manual-transmission.md](06d-manual-transmission.md) | Base four-speed Section 6D p. 6D-22 calls for 33 inner and 37 outer clutch-gear rollers. The 1962–63 supplement specifies a revised clutch gear and needle-bearing set with the revised mainshaft, but gives no roller count. Verify the installed gear and matching service parts before using the base count. |
 | [06e-automatic-transmission.md](06e-automatic-transmission.md) | Base Section 6E p.6E-1 lists selector positions top-to-bottom R-N-D-L; base Section 12 p.12-10 and the October 1962 GM 1963 Power Trains p.16 list L-D-N-R. Verify the actual 1963 passenger instrument-panel quadrant before documenting its physical order. |
