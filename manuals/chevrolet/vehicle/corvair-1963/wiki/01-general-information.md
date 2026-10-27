@@ -319,7 +319,12 @@ grade. The later supplement's component torque values take precedence.
 | #10-24 | 25 |
 | #12-24 | 35 |
 
-<!-- NEEDS REVIEW: The scan's fifth machine-screw thread designation is ambiguous (#10-32 or #10-33); its torque row is intentionally withheld from the 1963 lookup until checked against another factory copy. -->
+The fifth line is printed **#10-33, 30 in.-lb.** in both the combined image
+and an [independent scan of the factory page](https://northern-california-corvairs.com/Corvair_1961SM_1.pdf#page=8).
+Because #10-33 is not a standard machine-screw thread designation, that
+printed line is retained as a source error and excluded from the torque
+lookup; it must not be applied to a #10-32 screw.
+<!-- RESOLVED TRANSCRIPTION: Both factory-page scans visibly print #10-33. This is not normalized to #10-32; the torque row remains withheld. -->
 
 | Bolt size | Commercial low-carbon (ft.-lb.) | GM-280 / SAE-5 (ft.-lb.) | GM-290 / SAE-7 (ft.-lb.) | GM-300 / SAE-8 (ft.-lb.) |
 | --- | --- | --- | --- | --- |

@@ -27,7 +27,7 @@
       "sha256": "d37fea0ccfae921039d07a01e2aacf45788870d1b05050b1b56bdb3cb3051a60",
       "bytes": 2094830,
       "pages": 4,
-      "role": "August 1961 Chevrolet passenger rear-wheel-bearing press-plate identification; corroborates J-8619-1 in the 1962–63 supplement",
+      "role": "August 1961 Chevrolet passenger rear-wheel-bearing press-plate identification; corroborates J-8619-1 in the 1962\u201363 supplement",
       "combined_pdf": false
     },
     {
@@ -57,7 +57,7 @@
       "sha256": "cac529ecac6b08d8e7cb2cfb9d5902b457ae2699cab464b340e7fe016f0d6685",
       "bytes": 389570,
       "pages": 1,
-      "role": "Chevrolet Corvair Powerglide training booklet Part II p.25 explicitly gives 9–11 foot-pounds for valve-body attaching bolts; image of the factory page",
+      "role": "Chevrolet Corvair Powerglide training booklet Part II p.25 explicitly gives 9\u201311 foot-pounds for valve-body attaching bolts; image of the factory page",
       "combined_pdf": false
     },
     {
@@ -77,7 +77,7 @@
       "sha256": "565df033c1e26e706483b65c467e2aa2493ee32930a122729e36113e5e7392ab",
       "bytes": 26155164,
       "pages": 24,
-      "role": "Carter YH specification-chart compilation, PDF p.24: 1963–66 Chevrolet one notch lean versus 1962 one notch rich; corroborating reference, not a Chevrolet supplement",
+      "role": "Carter YH specification-chart compilation, PDF p.24: 1963\u201366 Chevrolet one notch lean versus 1962 one notch rich; corroborating reference, not a Chevrolet supplement",
       "combined_pdf": false
     },
     {
@@ -98,6 +98,36 @@
       "bytes": 2331083,
       "pages": 50,
       "role": "Alternate factory body scan checked for missing printed p.10-52; this PDF ends at p.10-51 and does not contain it",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-finger-tip-facts-1963",
+      "filename": "63FTF.pdf",
+      "url": "https://northern-california-corvairs.com/63FTF.pdf",
+      "sha256": "eb3a5704360ddef56191e823815d26e1fcb1835fbb59a17d142d0944ddc6e541",
+      "bytes": 4427487,
+      "pages": 45,
+      "role": "1963 Chevrolet Finger Tip Facts p. Corvair-31: passenger Powerglide selector sequence and engine-specific clutch plate loads",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "chevrolet-owners-guide-1963-e3",
+      "filename": "63OM-E3.pdf",
+      "url": "https://corvanatics.org/files/business-office/OwnMan-OwnPP/63OM-E3.pdf",
+      "sha256": "10431718be04260ae318d322acb0720f3c9e1cd10b9900c5b0363ecfa6e8c19d",
+      "bytes": 5832061,
+      "pages": 31,
+      "role": "Third-edition 1963 Chevrolet Corvair Owners Guide, printed p. 6, dashboard Powerglide quadrant illustration",
+      "combined_pdf": false
+    },
+    {
+      "source_id": "alternate-general-1961",
+      "filename": "Corvair_1961SM_1.pdf",
+      "url": "https://northern-california-corvairs.com/Corvair_1961SM_1.pdf",
+      "sha256": "2b62d6f2c6333aa18e9c16ace633de7820b4391cd4a49a21af3f78d0ad109226",
+      "bytes": 435707,
+      "pages": 11,
+      "role": "Independent factory Section 1 scan confirms printed p.1-7 machine-screw torque-chart designation #10-33",
       "combined_pdf": false
     }
   ]
