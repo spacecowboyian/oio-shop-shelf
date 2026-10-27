@@ -18,9 +18,10 @@ Monza Spyder is identified as an option. The 1200-series Corvair 95 vehicles are
 outside this manual's passenger-car scope. The factory supplement explicitly
 states that the 700 and Monza station wagons were canceled for 1963.
 
-**Conversion status: in progress.** The original PDF sections are acquired and
-mapped, but the cleaned 1963-only procedures and specification tables are not
-complete. Do not use an unreviewed OCR draft as a service specification.
+**Conversion status: in progress.** All 18 chapters have been reconstructed,
+but [source conflicts and missing coverage](wiki/10-needs-review.md) still
+need review before publication. Do not use a flagged value as a service
+specification.
 
 The [source inventory](data/source-inventory.json) records each original PDF,
 its download URL, size, SHA-256, and physical page count. The
@@ -33,6 +34,15 @@ labels disagree with their PDF positions; these are OCR or scan-order questions
 that still require image review. See the
 [continuity report](data/page-continuity-report.txt).
 The original scans and working combined PDF are staged under ignored `_inbox/`.
+
+The factory [1963 Chevrolet Corvair vehicle information kit](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf)
+supplies 1963-specific dimensions and model weights that supersede the shop
+supplement's 1962 weight column. Its SHA-256 is
+`af86a2221be8c3d59cc210ea6b890aceb41986383a30bd327c4a159cd07122fe`.
+This and later Chevrolet service publications are listed with hashes in the
+[additional factory source inventory](data/additional-factory-sources.json).
+Each is cited with its own printed and PDF page numbers. They are outside
+the 742-page shop-book composite PDF and page map.
 
 No numeric value is promoted to the 1963 lookup merely because it appeared in
 the base manual or a 1962 column. A 1963 fact needs explicit year, passenger

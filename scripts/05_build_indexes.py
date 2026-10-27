@@ -87,10 +87,13 @@ def main() -> int:
             source_marker = parse_source_marker(line)
             if source_marker and composite:
                 seen_source = True
-                if source_marker[0] not in {s["id"] for s in composite["sources"]}:
+                source = next((s for s in composite["sources"] if s["id"] == source_marker[0]), None)
+                if source is None:
                     sys.exit(f"{f}:{ln}: unknown composite SOURCE id")
                 in_scope = (composite["target_year"] in source_marker[2] and
                             source_marker[3] in (composite["scope"], "all"))
+                if source.get("external"):
+                    cur_page = None
             pm = PDF_PAGE_RE.search(line)
             if pm:
                 cur_page = int(pm.group(1))
@@ -105,6 +108,9 @@ def main() -> int:
                     alpha[text[0].upper() if text else "#"].append((text, f.name, cur_page))
             # Page markers contain id="p533", which looks like a 533-inch spec to
             # the broad quote-unit matcher. Strip delivery markup before harvesting.
+            # A flagged row is not a settled quick-reference specification.
+            if REVIEW_RE.search(line):
+                continue
             spec_line = PAGE_LINK_RE.sub("", PAGE_ANCHOR_RE.sub("", line))
             spec_line = re.sub(r"<!--.*?-->", "", spec_line)
             for sm in SPEC_RE.finditer(spec_line):
@@ -178,7 +184,7 @@ def main() -> int:
             nr.append(f"- Pending: {ch['title']} (combined PDF pp. {ranges})")
         for ch in partial:
             nr.append(f"- Partial: [{ch['title']}]({ch['file']})")
-    (wdir / "10-needs-review.md").write_text("\n".join(nr) + "\n", encoding="utf-8")
+    (wdir / "10-needs-review.md").write_text("\n".join(nr).rstrip() + "\n", encoding="utf-8")
 
     # 11a-alphabetical-index.md — entries in the shape 08 parses:
     #   "- <term> — [<file>#pN](<file>#pN) ([PDF p.N])"

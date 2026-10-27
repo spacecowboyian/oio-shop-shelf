@@ -13,7 +13,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 factory tune-up values — [07-engine-tune-up.md#p685](07-engine-tune-up.md#p685) ([PDF p.685])
 - 1963 four-speed part compatibility and linkage — [06d-manual-transmission.md#p676](06d-manual-transmission.md#p676) ([PDF p.676])
 - 1963 heater door and cable adjustment — [11-accessories.md#p582](11-accessories.md#p582) ([PDF p.582])
-- 1963 idler arm and linkage — [04-steering.md#p647](04-steering.md#p647) ([PDF p.647])
 - 1963 lubricant capacity — [06c-rear-axle.md#p345](06c-rear-axle.md#p345) ([PDF p.345])
 - 1963 passenger clutch specifications — [06b-clutch.md#p668](06b-clutch.md#p668) ([PDF p.668])
 - 1963 passenger wheels and tires — [03-suspension.md#p164](03-suspension.md#p164) ([PDF p.164])
@@ -22,6 +21,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - 1963 passenger-car models — [01-general-information.md#p532](01-general-information.md#p532) ([PDF p.532])
 - 1963 pedal and high-performance clutch changes — [06b-clutch.md#p318](06b-clutch.md#p318) ([PDF p.318])
 - 1963 three-speed linkage and support — [06d-manual-transmission.md#p374](06d-manual-transmission.md#p374) ([PDF p.374])
+- 1963 vehicle and carryover equipment weights — [01-general-information.md#p3](01-general-information.md#p3) ([PDF p.3])
 
 ## A
 
@@ -52,7 +52,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
 - Capacity, expansion valve and line connections — [11-accessories.md#p595](11-accessories.md#p595) ([PDF p.595])
 - Carpet and specific stains — [10-body.md#p537](10-body.md#p537) ([PDF p.537])
-- Carryover vehicle and equipment weights — [01-general-information.md#p3](01-general-information.md#p3) ([PDF p.3])
 - Case, reverse clutch and front pump inspection — [06e-automatic-transmission.md#p386](06e-automatic-transmission.md#p386) ([PDF p.386])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
 - Chassis, steering, bearings, and universal joints — [02-lubrication.md#p134](02-lubrication.md#p134) ([PDF p.134])
@@ -119,7 +118,6 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Gasoline-heater component service — [11-accessories.md#p95](11-accessories.md#p95) ([PDF p.95])
 - Gauge thicknesses — [13-dimensions-and-gauges.md#p530](13-dimensions-and-gauges.md#p530) ([PDF p.530])
-- General specifications and source precedence — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - General steel-bolt torque chart — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 
 ## H

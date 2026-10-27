@@ -5,6 +5,7 @@ from tempfile import TemporaryDirectory
 
 from composite import UnresolvedSourceConflict, applicable, parse_source_marker, resolve
 from build_manual_index import harvest_file
+from _common import load_manifest, validate_manifest
 SPEC_RE = __import__("05_build_indexes").SPEC_RE
 from validate_composite_map import validate
 
@@ -51,6 +52,12 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertNotIn('&lt;a id="p', quick.read_text())
         self.assertFalse(any("steering arm to steering knuckle" in
                              row.get("text", "").lower() for row in rows))
+        plug = [row for row in rows if row.get("component") in
+                {"Spark-plug gap", "Spark-plug torque"}]
+        self.assertTrue(plug)
+        self.assertTrue(all(row["_flags"] for row in plug))
+        self.assertNotIn("Spark-plug gap", quick.read_text())
+        self.assertNotIn("Spark-plug torque", quick.read_text())
         self.assertFalse(any(row.get("assembly") == "Rear lower control arm" and
                              row.get("fastener") == "Cross shaft to crossmember"
                              for row in rows))
@@ -80,6 +87,35 @@ class CompositeRulesTest(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["text"], "Ride height is 9⅜″ ± ½″.")
             self.assertEqual(rows[0]["_original_page"], "3-8")
+
+    def test_external_factory_source_keeps_its_own_pdf_page(self):
+        with TemporaryDirectory() as d:
+            path = Path(d) / "weight.md"
+            path.write_text(
+                '<a id="p533"></a> <!-- SOURCE id=supplement page=1-2 years=1963 scope=passenger -->\n'
+                '| Model | Weight |\n| --- | --- |\n| 727 | 2434 lb. |\n'
+                '<!-- SOURCE id=gm-ama page=8 years=1963 scope=passenger pdf_page=21 -->\n'
+                '| Model | Weight |\n| --- | --- |\n| 727 | 2440 lb. |\n'
+            )
+            rows = harvest_file(path, {
+                "target_year": 1963, "scope": "passenger", "sources": [
+                    {"id": "supplement"},
+                    {"id": "gm-ama", "external": True, "url": "https://example.org/1963.pdf", "pages": 99},
+                ]})
+            self.assertEqual(rows[0]["_page"], "p533")
+            self.assertIsNone(rows[1]["_page"])
+            self.assertEqual(rows[1]["_source_pdf_page"], 21)
+            self.assertEqual(rows[1]["_source_url"], "https://example.org/1963.pdf")
+
+    def test_external_factory_source_requires_auditable_metadata(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        manifest = load_manifest(manual)
+        self.assertEqual(validate_manifest(manifest), [])
+        source = next(s for s in manifest["composite"]["sources"] if s.get("external"))
+        old_hash = source.pop("sha256")
+        self.assertTrue(any("SHA-256" in e for e in validate_manifest(manifest)))
+        source["sha256"] = old_hash
 
     def test_inch_pound_torque_is_searchable(self):
         with TemporaryDirectory() as d:
@@ -121,9 +157,10 @@ class CompositeRulesTest(unittest.TestCase):
         self.assertTrue(any(r.get("steering-gear-adjustment-passenger-car") ==
                             "Worm-bearing preload" and r.get("_page") == "p646"
                             for r in steering))
-        self.assertFalse(any("20°" in r.get("text", "") or "18°" in
-                             r.get("text", "") or "33½°" in r.get("text", "")
-                             for r in steering))
+        self.assertTrue(any(r.get("inside-wheel-angle") == "20°" and
+                            r.get("outside-wheel-angle") == "18.18°" and
+                            r.get("_source_pdf_page") == 32 for r in steering))
+        self.assertFalse(any("33½°" in r.get("text", "") for r in steering))
         self.assertFalse(any("steering-arm" in r.get("text", "").lower() and
                              "40–50" in r.get("text", "") for r in steering))
 

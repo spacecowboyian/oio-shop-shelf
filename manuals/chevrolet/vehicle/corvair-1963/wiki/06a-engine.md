@@ -683,7 +683,6 @@ governs.
 | 1963 oil-pan attachment | Torque |
 |---|---|
 | ¼-20 bolts | 40–60 in. lb. |
-<!-- NEEDS REVIEW: Base Section 6A p. 6A-54 prints oil-pan torque 40–60 ft-lb, while supplement Section 12 p. 12-6 specifies 40–60 in-lb for the same ¼-20 attachment. Treat the base unit as a source error; the 1963 supplement supersedes it. Do not index the base value. -->
 
 The following base pages 6A-55–6A-57 describe **Corvair 95 commercial
 vehicles** and are excluded from this passenger-car procedure.

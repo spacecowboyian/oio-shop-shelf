@@ -96,6 +96,8 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
     page = None
     section = None
     provenance = None
+    external_source = None
+    source_pdf_page = None
 
     def add_row(row: dict) -> None:
         if composite is not None:
@@ -108,6 +110,9 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
                 return
             row.update({"_source_id": source_id, "_original_page": original_page,
                         "_applicable_years": years, "_scope": scope})
+            if external_source:
+                row.update({"_source_url": external_source["url"],
+                            "_source_pdf_page": source_pdf_page})
             if variant:
                 row["_variant"] = variant
         rows.append(row)
@@ -118,8 +123,20 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
         marker = parse_source_marker(line)
         if marker:
             provenance = marker
+            source = next((s for s in composite["sources"] if s["id"] == marker[0]), None) if composite else None
+            external_source = source if source and source.get("external") else None
+            if external_source:
+                source_page_match = re.search(r"\bpdf_page=(\d+)", line)
+                if not source_page_match:
+                    raise ValueError(f"{path}: external SOURCE needs pdf_page: {line}")
+                source_pdf_page = int(source_page_match.group(1))
+                if source_pdf_page < 1 or source_pdf_page > external_source["pages"]:
+                    raise ValueError(f"{path}: external SOURCE pdf_page outside source: {line}")
+                page = None
+            else:
+                source_pdf_page = None
         pg = page_of(line)
-        if pg:
+        if pg and not external_source:
             page = pg
         hm = HEADING_RE.match(line)
         if hm:

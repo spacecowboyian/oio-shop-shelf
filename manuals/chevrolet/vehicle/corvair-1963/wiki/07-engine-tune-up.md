@@ -204,7 +204,8 @@ disconnected**.
 | All applicable 1963 passenger engines | Factory value |
 |---|---|
 | Compression pressure | 130 psi, variation 20 psi maximum |
-| Spark-plug gap and torque | .035 in.; 15–20 ft-lb |
+| Spark-plug gap | Unresolved; tune-up table prints .035 in., Section 12 prints .023–.028 in. <!-- NEEDS REVIEW: Supplement tune-up p.7-5 and October 1962 Service News p.23 specify .035 in. spark-plug gap, while supplement Section 12 p.12-9 specifies .023–.028 in. Verify controlling factory correction. --> |
+| Spark-plug torque | Unresolved; tune-up table prints 15–20 ft. lb., Section 12 and Service News print 20–25 ft. lb. <!-- NEEDS REVIEW: Supplement tune-up p.7-5 prints 15–20 ft. lb. spark-plug torque, while supplement Section 12 p.12-9 and October 1962 Service News p.23 print 20–25 ft. lb. Verify controlling factory correction. --> |
 | Distributor cam angle | 31°–34° |
 | New / used contact-point gap | .019 / .016 in. |
 | Breaker-arm spring tension | 19–23 oz. |
