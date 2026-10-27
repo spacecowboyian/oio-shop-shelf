@@ -147,7 +147,12 @@ and use the [1963 front-wheel bearing adjustment](03-suspension.md#front-wheel-b
 Reconnect the tie-rod stud with its dust cover and cotter pin; check
 alignment afterward.
 
-<!-- NEEDS REVIEW: Supplement Section 4 p. 4-2 prints 40–50 ft. lb. for steering-arm retaining nuts; supplement Section 12 p. 12-2 prints 29–43 ft. lb. for steering arm to knuckle. Base Section 3 and supplement Section 3 have further figures. Do not index a 1963 arm-fastener torque until reconciled. -->
+Tighten the steering-arm retaining special locknuts to the value in
+[steering-knuckle installation](03-suspension.md#install-the-steering-knuckle).
+Supplement Section 3 specifies the same torque for the same bolts and
+locknuts. The lower value printed in the Section 12 summary table conflicts
+with both detailed installation procedures.
+<!-- RESOLVED PROCEDURE/TABLE CONFLICT: Supplement Section 4 p.4-2 step 2 and Section 3 p.3-2 step 4 both direct 40–50 ft. lb. for passenger steering-arm retaining locknuts. Section 12 p.12-2 prints 29–43 ft. lb. for steering arm to knuckle; the two fastener-specific service procedures govern. The 29–43 ft. lb. value in Section 4 p.4-3 applies to the distinct idler-arm castellated stud nut. -->
 
 <a id="p647"></a><a id="p647-arm"></a> **[PDF p.647](../page-images/p0647.png)** <!-- SOURCE id=supplement-1962-63 page=4-3 years=1962,1963 scope=passenger -->
 

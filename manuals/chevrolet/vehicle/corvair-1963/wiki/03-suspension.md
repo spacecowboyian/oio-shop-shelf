@@ -157,8 +157,9 @@ spring and arm remain at curb height.
    install a new cotter pin.
 3. Assemble the brake backing plate to the knuckle with its anchor bolt.
 4. Assemble the steering arm to the knuckle; pass its bolts and locknuts
-   through backing plate, knuckle, and arm. **The factory sources disagree
-   on the tightening torque; resolve the flagged conflict before tightening.**
+   through backing plate, knuckle, and arm. Tighten the special locknuts to
+   **40–50 ft. lb.**, as specified by the supplement's knuckle-installation
+   and steering-arm replacement procedures.
 5. Tighten the brake anchor bolt to **60–85 ft. lb.**
 6. Install brake shoes, retaining clips, and return springs on the backing
    plate and wheel cylinder.
@@ -168,7 +169,7 @@ spring and arm remain at curb height.
 9. Remove the jackstand and lower the car.
 10. Recheck and adjust front alignment as needed.
 
-<!-- NEEDS REVIEW: Supplement Suspension p. 3-2 prints 40–50 ft. lb. for steering-arm bolts/locknuts, but supplement Specifications p. 12-2 prints 29–43 ft. lb. for steering arm to steering knuckle. Both are passenger-car figures; no definitive 1963 torque is indexed. -->
+<!-- RESOLVED PROCEDURE/TABLE CONFLICT: Supplement Section 3 p.3-2 step 4 and Section 4 p.4-2 step 2 both direct 40–50 ft. lb. on the same steering-arm retaining locknuts for passenger cars. Supplement Section 12 p.12-2 instead prints 29–43 ft. lb. in its summary table; the matching, fastener-specific installation procedures govern. Section 4 p.4-3 also uses 29–43 ft. lb. for a different castellated idler-arm stud nut. -->
 
 ### Inspect lower spherical joints
 

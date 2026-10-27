@@ -89,6 +89,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | ⅜ | ″ | [03-suspension.md](03-suspension.md) | The supplement changes **rear toe-in to ⅛″–⅜″ total**. For front alignment, |
 | 30–40 | ft. lb. | [03-suspension.md](03-suspension.md) | 1. Set the knuckle on the lower ball stud. Tighten its nut to **30–40 ft. lb.** |
 | 30–40 | ft. lb. | [03-suspension.md](03-suspension.md) | 2. Insert the upper ball stud. Tighten its nut to **30–40 ft. lb.** and |
+| 40–50 | ft. lb. | [03-suspension.md](03-suspension.md) | **40–50 ft. lb.**, as specified by the supplement's knuckle-installation |
 | 60–85 | ft. lb. | [03-suspension.md](03-suspension.md) | 5. Tighten the brake anchor bolt to **60–85 ft. lb.** |
 | 3⁄32 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
 | .09375 | ″ | [03-suspension.md](03-suspension.md) | 4. If the difference on either side exceeds **3⁄32″ (.09375″)**, both lower |
@@ -369,7 +370,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 6,000 | miles | [11-accessories.md](11-accessories.md) | and drains periodically, sight glass every **6,000 miles**, hoses and |
 | 1500 | rpm | [11-accessories.md](11-accessories.md) | at **1500 rpm**, maximum cooling/high blower, heater off, gauges fitted, |
 | 5 | lb | [11-accessories.md](11-accessories.md) | The 1962–63 factory system specifies a **5 lb Freon-12 charge by mass**. |
+| 10 | oz | [11-accessories.md](11-accessories.md) | the Section 11 capacity box gives **10 oz of 525-viscosity oil**; its |
+| 10 | oz | [11-accessories.md](11-accessories.md) | fully charged with **10 oz**. The Section 12 summary table prints a |
 | 5 | lb | [11-accessories.md](11-accessories.md) | Freon-12 charge **5 lb by mass** 1962–63 factory A/C; printed can count is inexact |
+| 10 | oz | [11-accessories.md](11-accessories.md) | Compressor oil charge **10 oz of 525-viscosity oil** 1962–63 factory A/C; follow Section 1 |
 | 40 | in. lb. | [11-accessories.md](11-accessories.md) | figure's slot relationship, then tighten to **40 in. lb.** Use approved |
 | 125 | °F | [11-accessories.md](11-accessories.md) | testing, warming upright containers only in water ≤**125°F**. |
 | 275 | psi | [11-accessories.md](11-accessories.md) | **While adding refrigerant, compressor head pressure should not exceed 275 psi.** |
@@ -439,6 +443,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 20–25 | lb. ft. | [12-specifications.md](12-specifications.md) | Front upper control arm Replacement ball joints 20–25 lb. ft. |
 | 90–120 | lb. ft. | [12-specifications.md](12-specifications.md) | Front lower control arm Pivot bolt 90–120 lb. ft. |
 | 30–40 | lb. ft. | [12-specifications.md](12-specifications.md) | Front lower control arm Ball stud to steering knuckle 30–40 lb. ft. |
+| 40–50 | lb. ft. | [12-specifications.md](12-specifications.md) | Steering arm to knuckle Two retaining special locknuts 40–50 lb. ft. |
 | 45–55 | lb. ft. | [12-specifications.md](12-specifications.md) | Rear lower control arm Pivot bushing 45–55 lb. ft. |
 | 45–55 | lb. ft. | [12-specifications.md](12-specifications.md) | Rear lower control arm Cross shaft to crossmember, four attaching bolts 45–55 lb. ft. |
 | 50–70 | lb. ft. | [12-specifications.md](12-specifications.md) | Strut rod Rear nut 50–70 lb. ft. |
@@ -618,6 +623,7 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 3.2 | A | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
 | 12 | V | [12-specifications.md](12-specifications.md) | Clutch-coil resistance / draw at 80°F 3.85 Ω / 3.2 A at 12 V |
 | 5 | lb | [12-specifications.md](12-specifications.md) | Freon-12 charge **5 lb by mass** |
+| 10 | oz | [12-specifications.md](12-specifications.md) | Compressor oil capacity **10 oz of 525-viscosity oil**; follows Section 11 service procedu |
 | 17–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Compressor suction/discharge connector bolt 17–23 ft. lb. |
 | 19–23 | ft. lb. | [12-specifications.md](12-specifications.md) | Rear-head-to-shell stud nuts 19–23 ft. lb. |
 | 14–16 | ft. lb. | [12-specifications.md](12-specifications.md) | Shaft mounting nut 14–16 ft. lb. |
@@ -630,6 +636,10 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 1620 | lb. | [12-specifications.md](12-specifications.md) | C 3797734 Right .617 / 4.687 / 4.070 in. 11.03 in. 7.45 in. at 1620 lb. |
 | 1850 | lb. | [12-specifications.md](12-specifications.md) | B 3830731 Left .630 / 4.713 / 4.083 in. 11.23 in. 7.45 in. at 1850 lb. |
 | 1700 | lb. | [12-specifications.md](12-specifications.md) | D 3830732 Right .630 / 4.713 / 4.083 in. 10.92 in. 7.45 in. at 1700 lb. |
+| 43 | ° | [12-specifications.md](12-specifications.md) | the production cam including ramps gives 43° + 93° + 180° = 316°. |
+| 93 | ° | [12-specifications.md](12-specifications.md) | the production cam including ramps gives 43° + 93° + 180° = 316°. |
+| 180 | ° | [12-specifications.md](12-specifications.md) | the production cam including ramps gives 43° + 93° + 180° = 316°. |
+| 316 | ° | [12-specifications.md](12-specifications.md) | the production cam including ramps gives 43° + 93° + 180° = 316°. |
 | 9 | gal | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4000 | rpm | [12-specifications.md](12-specifications.md) | Pump capacity 9 gal/min at 4000 rpm |
 | 4 | qt. | [12-specifications.md](12-specifications.md) | Crankcase capacity, dry / refill 5½ / 4 qt. |
