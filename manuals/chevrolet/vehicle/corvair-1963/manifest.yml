@@ -312,6 +312,36 @@ chapters:
     page_start: 529
     page_end: 531
 diagrams:
+- page: 539
+  file: diagrams/p0539-coupe-vinyl-door-weatherstrip.png
+  kind: sequence
+  depth: gray
+  caption: Coupe vinyl door weatherstrip retention and installation
+  safety_relevant: false
+- page: 550
+  file: diagrams/p0550-body-underbody-reference-points.png
+  kind: chart
+  depth: gray
+  caption: Revised 1962–63 passenger coupe and sedan body alignment reference points
+  safety_relevant: true
+- page: 557
+  file: diagrams/p0557-convertible-top-frame.png
+  kind: exploded
+  depth: gray
+  caption: Model 967 convertible folding-top frame and components
+  safety_relevant: false
+- page: 562
+  file: diagrams/p0562-convertible-top-trim-spacing.png
+  kind: chart
+  depth: gray
+  caption: Model 967 top fabric and bow spacing reference
+  safety_relevant: true
+- page: 569
+  file: diagrams/p0569-power-top-pump.png
+  kind: exploded
+  depth: gray
+  caption: Optional convertible power-top pump and motor service
+  safety_relevant: true
 - page: 716
   file: diagrams/p0716-rochester-h-float-setting.png
   kind: sequence

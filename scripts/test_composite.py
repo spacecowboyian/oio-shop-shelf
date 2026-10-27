@@ -402,6 +402,27 @@ class CompositeRulesTest(unittest.TestCase):
                 harvest_file(path, {"target_year": 1963, "scope": "passenger",
                                     "sources": [{"id": "supplement"}]})
 
+    def test_1963_body_index_uses_revised_alignment_and_excludes_other_bodies(self):
+        manual = (Path(__file__).resolve().parent.parent / "manuals/chevrolet/vehicle/"
+                  "corvair-1963")
+        chapter = (manual / "wiki/10-body.md").read_text()
+        self.assertNotIn("<!-- INCOMPLETE", chapter)
+        for n in (*range(12, 82), *range(534, 581)):
+            self.assertIn(f'<a id="p{n}"></a>', chapter)
+        rows = [json.loads(line) for line in
+                (manual / "data/manual-index.jsonl").read_text().splitlines()]
+        body = [r for r in rows if r["_file"] == "wiki/10-body.md"]
+        self.assertTrue(any(r.get("horizontal-reference-fig-10-22") == "A" and
+                            r.get("factory-dimension") == "42⁵⁄₃₂″" and
+                            r.get("_source_id") == "supplement-1962-63" and
+                            r.get("_variant") == "sedan-coupe"
+                            for r in body))
+        excluded = {"p13", "p49", "p73", *(f"p{n}" for n in range(543, 547)),
+                    *(f"p{n}" for n in range(575, 581))}
+        self.assertFalse(any(r["_page"] in excluded for r in body))
+        self.assertTrue(all(1963 in r["_applicable_years"] and
+                            r["_scope"] == "passenger" for r in body))
+
 
 if __name__ == "__main__":
     unittest.main()

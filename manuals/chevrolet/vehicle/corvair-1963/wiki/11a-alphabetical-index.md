@@ -45,6 +45,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## C
 
 - Camshaft-lobe inspection and off-vehicle teardown — [06a-engine.md#p271](06a-engine.md#p271) ([PDF p.271])
+- Carpet and specific stains — [10-body.md#p537](10-body.md#p537) ([PDF p.537])
 - Carryover vehicle and equipment weights — [01-general-information.md#p2](01-general-information.md#p2) ([PDF p.2])
 - Case, reverse clutch and front pump inspection — [06e-automatic-transmission.md#p386](06e-automatic-transmission.md#p386) ([PDF p.386])
 - Change the oil-filter cartridge — [02-lubrication.md#p637](02-lubrication.md#p637) ([PDF p.637])
@@ -53,6 +54,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Check rear riding height — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Clutch drum and rear pump — [06e-automatic-transmission.md#p392](06e-automatic-transmission.md#p392) ([PDF p.392])
 - Clutch removal, inspection, and reassembly — [06b-clutch.md#p308](06b-clutch.md#p308) ([PDF p.308])
+- Convertible top fabric — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
 - Cooling air, ventilation, and intake air — [02-lubrication.md#p133](02-lubrication.md#p133) ([PDF p.133])
 - Cylinder head, valve gear, and lifters in the vehicle — [06a-engine.md#p265](06a-engine.md#p265) ([PDF p.265])
 - Cylinder-head repair and valve assembly — [06a-engine.md#p277](06a-engine.md#p277) ([PDF p.277])
@@ -64,6 +66,8 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Differential case, seals, and bearing service — [06c-rear-axle.md#p333](06c-rear-axle.md#p333) ([PDF p.333])
 - Dismount and mount a tubeless tire — [03-suspension.md#p167](03-suspension.md#p167) ([PDF p.167])
 - Distinguish tire noise from axle noise — [03-suspension.md#p172](03-suspension.md#p172) ([PDF p.172])
+- Door handles, glass strips, and coupe window cam — [10-body.md#p540](10-body.md#p540) ([PDF p.540])
+- Door trim, seals, and hardware — supplement updates — [10-body.md#p538](10-body.md#p538) ([PDF p.538])
 - Drum inspection and reconditioning — [05-brakes.md#p222](05-brakes.md#p222) ([PDF p.222])
 
 ## E
@@ -75,13 +79,18 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## F
 
+- Fabric with synthetic detergent — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
+- Fabric with volatile upholstery cleaner — [10-body.md#p535](10-body.md#p535) ([PDF p.535])
 - Factory figure 6E-2 callouts — [06e-automatic-transmission.md#p679](06e-automatic-transmission.md#p679) ([PDF p.679])
 - Factory gasoline selection — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Factory tire-puncture repair methods — [03-suspension.md#p168](03-suspension.md#p168) ([PDF p.168])
+- Folding-top alignment and locks — [10-body.md#p558](10-body.md#p558) ([PDF p.558])
+- Folding-top lock, lift, and trim replacement — [10-body.md#p562](10-body.md#p562) ([PDF p.562])
 - Forward cable — [05-brakes.md#p217](05-brakes.md#p217) ([PDF p.217])
 - Four-speed inspection and reassembly — [06d-manual-transmission.md#p365](06d-manual-transmission.md#p365) ([PDF p.365])
 - Four-speed layout and removal — [06d-manual-transmission.md#p360](06d-manual-transmission.md#p360) ([PDF p.360])
 - Front alignment adjustments carried forward — [03-suspension.md#p640](03-suspension.md#p640) ([PDF p.640])
+- Front fender and front-end welded panels — [10-body.md#p43](10-body.md#p43) ([PDF p.43])
 - Front hub, drum, and shock absorber service — [03-suspension.md#p173](03-suspension.md#p173) ([PDF p.173])
 - Front pump gasket figure correction — [06e-automatic-transmission.md#p680](06e-automatic-transmission.md#p680) ([PDF p.680])
 - Front pump installation and hydraulic diagnosis — [06e-automatic-transmission.md#p398](06e-automatic-transmission.md#p398) ([PDF p.398])
@@ -100,6 +109,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## I
 
 - In-vehicle shields and engine mounts carried forward — [06a-engine.md#p259](06a-engine.md#p259) ([PDF p.259])
+- Inherited sedan door and glass procedures — [10-body.md#p53](10-body.md#p53) ([PDF p.53])
 - Initial shoe setting and automatic final adjustment — [05-brakes.md#p654](05-brakes.md#p654) ([PDF p.654])
 - Inspect and repair the gear — [04-steering.md#p190](04-steering.md#p190) ([PDF p.190])
 - Inspect lower spherical joints — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
@@ -109,14 +119,17 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 ## L
 
+- Leather, coated fabric, and polyurethane foam — [10-body.md#p536](10-body.md#p536) ([PDF p.536])
 - Lifting points — [01-general-information.md#p8](01-general-information.md#p8) ([PDF p.8])
 
 ## M
 
 - Main-cylinder overhaul carried forward — [05-brakes.md#p217](05-brakes.md#p217) ([PDF p.217])
+- Manual bucket seats — [10-body.md#p548](10-body.md#p548) ([PDF p.548])
 - Manual transmission and rear axle — [02-lubrication.md#p136](02-lubrication.md#p136) ([PDF p.136])
 - Mast jacket and steering linkage carried forward — [04-steering.md#p193](04-steering.md#p193) ([PDF p.193])
 - Metallic-lining option — [05-brakes.md#p656](05-brakes.md#p656) ([PDF p.656])
+- Model 967 convertible — doors, quarters, and folding top — [10-body.md#p553](10-body.md#p553) ([PDF p.553])
 - Modulator, governor, valve body and low servo — [06e-automatic-transmission.md#p380](06e-automatic-transmission.md#p380) ([PDF p.380])
 - Monza Spyder warning instruments — [08-electrical-systems.md#p701](08-electrical-systems.md#p701) ([PDF p.701])
 - Monza Spyder: Carter YH and turbo-supercharger — [09-fuel-and-exhaust.md#p722](09-fuel-and-exhaust.md#p722) ([PDF p.722])
@@ -128,6 +141,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Oil pump, rod bearings, rear seal, and piston rings — [06a-engine.md#p268](06a-engine.md#p268) ([PDF p.268])
 - Oil-cooler cleaning and exhaust-damper setting — [06a-engine.md#p254](06a-engine.md#p254) ([PDF p.254])
 - Operation, fluid and controls — [06e-automatic-transmission.md#p126](06e-automatic-transmission.md#p126) ([PDF p.126])
+- Optional hydraulic folding top — [10-body.md#p568](10-body.md#p568) ([PDF p.568])
 
 ## P
 
@@ -148,6 +162,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 
 - Rear alignment adjustment carried forward — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
 - Rear cable — [05-brakes.md#p217](05-brakes.md#p217) ([PDF p.217])
+- Rear glass, engine lid, moldings, and bumpers — [10-body.md#p74](10-body.md#p74) ([PDF p.74])
 - Rear shock absorber and spring-load support — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Rear suspension service — [03-suspension.md#p159](03-suspension.md#p159) ([PDF p.159])
 - Rear wheel alignment at curb weight — [12-specifications.md#p624](12-specifications.md#p624) ([PDF p.624])
@@ -169,6 +184,7 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Remove the steering knuckle — [03-suspension.md#p641](03-suspension.md#p641) ([PDF p.641])
 - Renew the lower joint and arm bushing — [03-suspension.md#p154](03-suspension.md#p154) ([PDF p.154])
 - Replace bearing cups, brake drum, or hub — [03-suspension.md#p150](03-suspension.md#p150) ([PDF p.150])
+- Revised coupe and sedan underbody alignment — [10-body.md#p549](10-body.md#p549) ([PDF p.549])
 - Revised engine sheet metal — [06a-engine.md#p659](06a-engine.md#p659) ([PDF p.659])
 - Rim and valve service — [03-suspension.md#p171](03-suspension.md#p171) ([PDF p.171])
 - Ring-and-pinion bearing preload and backlash — [06c-rear-axle.md#p339](06c-rear-axle.md#p339) ([PDF p.339])
@@ -178,7 +194,9 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 ## S
 
 - Seals, carrier removal, and pinion setup — [06c-rear-axle.md#p327](06c-rear-axle.md#p327) ([PDF p.327])
+- Sedan and coupe headlining — [10-body.md#p69](10-body.md#p69) ([PDF p.69])
 - Shift linkage, parking brake, and clutch cables — [02-lubrication.md#p638](02-lubrication.md#p638) ([PDF p.638])
+- Soft trim and upholstery — 1962–63 update — [10-body.md#p40](10-body.md#p40) ([PDF p.40])
 - Starter solenoid and ignition circuit — [08-electrical-systems.md#p441](08-electrical-systems.md#p441) ([PDF p.441])
 - Starting and recovering a disabled passenger car — [01-general-information.md#p7](01-general-information.md#p7) ([PDF p.7])
 - Steering gear overhaul and worm-bearing cup — [04-steering.md#p187](04-steering.md#p187) ([PDF p.187])
@@ -202,12 +220,18 @@ _Auto-generated from chapter subsection headings. Confirm against the source man
 - Troubleshooting changes — [06e-automatic-transmission.md#p678](06e-automatic-transmission.md#p678) ([PDF p.678])
 - Turbocharged Monza Spyder variant — [06a-engine.md#p666](06a-engine.md#p666) ([PDF p.666])
 - Twice-yearly body points — [02-lubrication.md#p137](02-lubrication.md#p137) ([PDF p.137])
+- Two-door coupe-specific carryover procedures — [10-body.md#p81](10-body.md#p81) ([PDF p.81])
 
 ## U
 
+- Underbody mounting repair — [10-body.md#p41](10-body.md#p41) ([PDF p.41])
 - Unit and serial number locations — [01-general-information.md#p533](01-general-information.md#p533) ([PDF p.533])
 - Unresolved 1963 values — [04-steering.md#p209](04-steering.md#p209) ([PDF p.209])
 - Upper control arm, joint, cross shaft, and bushings — [03-suspension.md#p625](03-suspension.md#p625) ([PDF p.625])
+
+## V
+
+- Vinyl door weatherstrip — 27-style coupes — [10-body.md#p539](10-body.md#p539) ([PDF p.539])
 
 ## W
 
