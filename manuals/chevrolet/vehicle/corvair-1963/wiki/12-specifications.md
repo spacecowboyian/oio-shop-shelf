@@ -447,15 +447,52 @@ SHA-256 `5ac4206acf9d52bd79d34e388624971018c0a44a6312681a8644480e3e122b5e`.
 | Delcotron with factory A/C | 1100633, 5–52 A | 1119512 |
 
 The bulletin gives pairings, not regulator adjustment settings. The shop
-supplement's 1119001E and 1119604 settings are not assigned to these 1963
-pairings; inspect the installed unit and obtain its matching factory service
-setting before adjustment.
+supplement's 1119001E and 1119604 rows do not apply by part number to these
+1963 pairings. Identify the installed unit before using a service setting.
 The earlier [1963 GM vehicle kit, AMA p. 10 (PDF p. 69)](https://www.gm.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1963-Chevrolet-Corvair.pdf#page=69)
 names regulator 1119001 for the standard generator, another published
 identity that differs from the later DR 564 pairing. Its general regulated
 voltage/current entries therefore do not establish the service air gaps or
 adjustment settings for an installed 1119261.
-<!-- NEEDS REVIEW: DR 564 identifies 1963 passenger regulator 1119261 for generator 1102226 and Delcotron regulator pairings, while supplement Section 12 p.12-9 gives adjustment settings for different regulator numbers. Verify 1963 regulator settings before adjustment. -->
+
+### Matched regulator service settings
+
+For the **standard DC generator's 1119261 regulator**, Delco-Remy
+[Service Bulletin 1R-186, printed p. 5](https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf#page=5)
+names that exact regulator and assigns cutout chart 1, voltage chart 4,
+and current chart 8. Its [printed p. 6](https://sportsterpedia.com/lib/exe/fetch.php/pdf-bulletin:delco-remy_1r-186_-_3-1-1968.pdf#page=6)
+gives the temperature-dependent values. These are **1968 Delco service-test
+specifications for the matching 1963 part number**, rather than a claim about
+the 1963 production calibration. At **125°F regulator ambient temperature**,
+the listed ranges are cutout closing **11.5–13.1 V**, voltage setting
+**13.8–14.7 V**, and current setting **27–31 A**. At **85°F**, the respective
+ranges are **12.1–13.7 V**, **14.2–15.2 V**, and **29–34 A**. Consult the
+charts for other temperatures. The model row specifies cutout air gap
+**.023 in.**, point opening **.020 in.**, voltage-unit air gap **.075 in.**,
+and current-unit air gap **.070 in.** The bulletin calls for operating
+temperature, a **¼-ohm** series resistor, and the cover in place for setting
+checks; use the full Delco-Remy test procedure and the service method it references.
+<!-- SOURCE id=delco-remy-1r-186 page=5 years=1963 scope=passenger pdf_page=5 -->
+<!-- SOURCE id=delco-remy-1r-186 page=6 years=1963 scope=passenger pdf_page=6 -->
+
+For the **two-unit Delcotron regulator** in the 1963 lineup, Chevrolet's
+[DR 594, May 13, 1963, pp. 1–4](https://corvanatics.org/files/maintenance-repair/repair-manuals-bulletins/tech-service-bulletins/1963/DR594.pdf)
+supersedes previous service adjustment procedures. After its prescribed
+**¼-ohm, 25-watt** series-resistor test and **15-minute** warm-up at or above
+**1500 engine rpm**, **13.5–15.2 V** is the acceptable covered-regulator
+reading. If adjustment is needed, its uncovered setting is **14.2–14.6 V**;
+the bulletin requires refitting the cover and checking again. Follow DR 594's
+complete diagnostic and connector sequence, including its warning about
+disconnecting the four-terminal connector before removing or installing the
+cover. DR 564 pairs the two-unit **1119512** with the 42 A and 52 A
+Delcotrons; [Chevrolet Service News, October 1962, p. 13](https://www.corvair.org/chapters/corvanatics/files/documents/manuals/ChevServNws/CSN-34-9.pdf#page=13)
+distinguishes this two-unit type from the 62 A system's transistorized unit.
+<!-- SOURCE id=chevrolet-tsb-dr594 page=2-4 years=1963 scope=passenger pdf_page=2 -->
+
+The **9000595** paired with the 62 A Delcotron is a different transistorized
+regulator. Neither the 1119261 service chart nor DR 594's two-unit procedure
+establishes a service setting for that unit.
+<!-- NEEDS REVIEW: DR 564 pairs the optional 62 A Delcotron with transistorized regulator 9000595. Locate its model-specific factory service test or replacement instruction before advising an adjustment; do not apply the 1119261 or DR 594 two-unit settings. -->
 
 <a id="p632-starter"></a> **[PDF p.632](../page-images/p0632.png)** <!-- SOURCE id=supplement-1962-63 page=12-9 years=1963 scope=passenger -->
 
