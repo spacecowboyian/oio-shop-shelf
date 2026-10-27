@@ -246,6 +246,36 @@ _Auto-harvested spec values. Always confirm against the source manual._
 | 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | to **80 in-lb**. Before installation, pour oil into inlet until it |
 | 80 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | them to **80 in-lb**. |
 | 30–40 | in-lb | [09-fuel-and-exhaust.md](09-fuel-and-exhaust.md) | oil lines, then torque V-clamp nut to **30–40 in-lb**. Reconnect |
+| 30⅝ | ″ | [10-body.md](10-body.md) | C 30⅝″ Idler-support lower inner surface to steering-gear plate lower edge |
+| 44⅝ | ″ | [10-body.md](10-body.md) | I 44⅝″ Front tie-down slot front edge to front side-rail inner lower corner at bumper supp |
+| 107¼ | ″ | [10-body.md](10-body.md) | M 107¼″ Front crossmember front bolt to rear crossmember rear mounting bolt |
+| 103⅜ | ″ | [10-body.md](10-body.md) | N 103⅜″ Opposite front/rear crossmember bolt diagonal |
+| 45½ | ″ | [10-body.md](10-body.md) | O 45½″ Rear tie-down slot front edges |
+| 16¾ | ″ | [10-body.md](10-body.md) | Q 16¾″ Opposite rear tie-down slot front edge to rear crossmember rear bolt |
+| 33⅝ | ″ | [10-body.md](10-body.md) | S 33⅝″ Rear suspension front mounting bolt to rear mounting bolt on opposite side |
+| 39 | ″ | [10-body.md](10-body.md) | X, coupe/sedan 39″ Rear side-rail outer flanges at forward rear-bumper-bracket bolt holes |
+| 4 | ″ | [10-body.md](10-body.md) | G 4″ Front tie-down location, rail bottom surface |
+| 15¼ | ″ | [10-body.md](10-body.md) | J 15¼″ Rear crossmember rear support at bolt hole |
+| 9½ | ″ | [10-body.md](10-body.md) | L, sedan 9½″ Front lower edge of rear crossrail beneath rear engine-mount-bracket lower bo |
+| 12⅝ | ″ | [10-body.md](10-body.md) | Dust boot difficult to fit Adjust control-link plate fore/aft, align fasteners, repair thi |
+| 12⅝ | ″ | [10-body.md](10-body.md) | Dust boot too loose Move control-link plate forward, move rear seat back toward the same * |
+| ⅛ | ″ | [10-body.md](10-body.md) | Top material too low at side windows Add **one or two ⅛″ shims** between front bow and sla |
+| ⅛ | ″ | [10-body.md](10-body.md) | Top material too high Remove **one or two ⅛″ shims**; trim front-bow felt silencer to **⅛″ |
+| ⅛ | ″ | [10-body.md](10-body.md) | Top material too high Remove **one or two ⅛″ shims**; trim front-bow felt silencer to **⅛″ |
+| 2 | A | [10-body.md](10-body.md) | Fasteners Two No. 6 × ½ in. screws; one ¼-20 UNC-2A × 1 in. bolt; one ¼-20 UNC-2B wing nut |
+| 15 | ″ | [10-body.md](10-body.md) | and align both sides equally. Factory dimension **X is 15″ ± ¼″**, |
+| ¼ | ″ | [10-body.md](10-body.md) | and align both sides equally. Factory dimension **X is 15″ ± ¼″**, |
+| 14¾–15¼ | ″ | [10-body.md](10-body.md) | match within the **14¾–15¼″** range. Fit stay pads in bow/rail recesses, secure |
+| ½ | ″ | [10-body.md](10-body.md) | Center curtain on rear trim stick with lower edge **½″ below** its |
+| ½ | ″ | [10-body.md](10-body.md) | remove wrinkles. Before final attachment, leave back curtain **½″** |
+| ½–¾ | ″ | [10-body.md](10-body.md) | and top cover **½–¾″** below the trim-stick edge to limit water wicking. |
+| 12 | V | [10-body.md](10-body.md) | The hydraulic option has a **12 V reversible motor**, rotor pump, |
+| ¼ | ″ | [10-body.md](10-body.md) | fill to **¼″ below** the filler-hole lower edge. |
+| 340–380 | psi | [10-body.md](10-body.md) | The pump is designed for **340–380 psi** maximum delivery. The **red** |
+| ¼ | ″ | [10-body.md](10-body.md) | check reservoir level at **¼″ below** lower filler-hole edge. For a pump |
+| 9.5–11.0 | V | [10-body.md](10-body.md) | at **9.5–11.0 V**. Each port must read **340–380 psi**; differences |
+| 340–380 | psi | [10-body.md](10-body.md) | at **9.5–11.0 V**. Each port must read **340–380 psi**; differences |
+| ¼ | ″ | [10-body.md](10-body.md) | at **¼″ below** the lower edge of filler hole, then fit original plug. |
 | 1 | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | ½ | ° | [12-specifications.md](12-specifications.md) | Caster 1° ± ½° |
 | 0 | ° | [12-specifications.md](12-specifications.md) | Camber 0° ± ½° |
