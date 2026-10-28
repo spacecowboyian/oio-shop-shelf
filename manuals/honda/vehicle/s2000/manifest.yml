@@ -24,9 +24,9 @@ source:
   pages: 1970
 
 rights: >
-  Copyright of the original manual belongs to Honda / America Honda. No license was
-  sought; committing it here is a considered risk, taken deliberately. See
-  CONTRIBUTING.md.
+  Copyright of the original manual belongs to Honda / America Honda. The source PDF
+  and rendered pages are not included in this initial public branch push. Review
+  publication rights separately before adding those artifacts. See CONTRIBUTING.md.
 
 # OCR settings for 01_prepare_pdf.py
 ocr:
