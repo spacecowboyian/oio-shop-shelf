@@ -151,3 +151,19 @@ makes:
         # prints an engine code. So "1600 GS" is the designation the source actually uses,
         # not a stand-in for a code we failed to find.
         family: Cleon-Alu
+
+  # --- honda ---
+  # vPIC Make_ID 16. Could not be re-verified in this build environment (the vPIC
+  # API was unreachable); 16 is Honda's long-standing published id. Verify against
+  # vPIC before release.
+  honda:
+    name: Honda
+    vpic_make_id: 16            # unverified in build env -- verify against vPIC
+    models:
+      s2000:
+        name: S2000
+        # Chassis AP1/AP2/AP3 are the S2000 generations this FSM covers.
+        chassis: [AP1, AP2, AP3]
+        # No engine entries registered: per user direction, do NOT register K20A/K24A
+        # on this S2000 package.
+        engines: {}

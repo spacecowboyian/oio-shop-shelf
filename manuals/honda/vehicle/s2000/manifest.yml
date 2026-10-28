@@ -1,0 +1,194 @@
+# S2000 AP1/AP2/AP3 Service Manual (2000-2008) — single-manual package.
+# Taxonomy placement, source pointer, rights, and chapter map.
+# Required fields: slug, title, source, rights, chapters, taxonomy.
+# See manuals/_template/manifest.yml for the full field reference.
+
+slug: honda-s2000
+title: "Honda S2000 (AP1/AP2/AP3) Service Manual"
+
+# Placement in the automotive taxonomy — manuals/taxonomy.yml.
+# category: vehicle -> declare models + chassis. engines omitted per repo directive
+# (no K20A/K24A engine entries are registered for the S2000 package; the registry
+# keeps makes.honda.engines: {} for the same reason).
+taxonomy:
+  make: honda
+  category: vehicle
+  models: [s2000]
+  chassis: [AP1, AP2, AP3]
+  years: "2000-2008"
+
+# Pointer to the SOURCE PDF (contributor hand-off; not committed — PDFs are gitignored).
+source:
+  type: local
+  location: "2000-08 Honda S2000 SM.pdf"
+  pages: 1970
+
+rights: >
+  Copyright of the original manual belongs to Honda / America Honda. No license was
+  sought; committing it here is a considered risk, taken deliberately. See
+  CONTRIBUTING.md.
+
+# OCR settings for 01_prepare_pdf.py
+ocr:
+  language: eng
+  force: false
+
+# Render settings for 02_render_pages.py
+render:
+  dpi: 200
+
+# Chapter map: each entry becomes one raw draft and one wiki/*.md file.
+# page_start/page_end are 1-based, inclusive, source-PDF page numbers.
+# Large sections are split into lettered parts; the index builder groups by leading number.
+chapters:
+  - file: "01-front-matter.md"
+    title: "Front Matter"
+    page_start: 1
+    page_end: 2
+
+  - file: "02-general-information.md"
+    title: "General Information"
+    page_start: 3
+    page_end: 26
+
+  - file: "03-specifications.md"
+    title: "Specifications"
+    page_start: 27
+    page_end: 40
+
+  - file: "04-maintenance.md"
+    title: "Maintenance"
+    page_start: 41
+    page_end: 70
+
+  - file: "05-engine-electrical.md"
+    section_code: "4"
+    title: "Engine Electrical"
+    page_start: 71
+    page_end: 142
+
+  - file: "06a-engine-mechanical.md"
+    section_code: "5"
+    title: "Engine Mechanical (Part A)"
+    page_start: 143
+    page_end: 218
+
+  - file: "06b-engine-mechanical.md"
+    section_code: "5"
+    title: "Engine Mechanical (Part B)"
+    page_start: 219
+    page_end: 294
+
+  - file: "07a-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part A)"
+    page_start: 295
+    page_end: 385
+
+  - file: "07b-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part B)"
+    page_start: 386
+    page_end: 476
+
+  - file: "07c-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part C)"
+    page_start: 477
+    page_end: 567
+
+  - file: "07d-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part D)"
+    page_start: 568
+    page_end: 658
+
+  - file: "07e-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part E)"
+    page_start: 659
+    page_end: 749
+
+  - file: "07f-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part F)"
+    page_start: 750
+    page_end: 842
+
+  - file: "08a-transaxle.md"
+    section_code: "12"
+    title: "Transaxle (Part A)"
+    page_start: 843
+    page_end: 915
+
+  - file: "08b-transaxle.md"
+    section_code: "12"
+    title: "Transaxle (Part B)"
+    page_start: 916
+    page_end: 988
+
+  - file: "09-steering.md"
+    section_code: "17"
+    title: "Steering"
+    page_start: 989
+    page_end: 1050
+
+  - file: "10-suspension.md"
+    section_code: "18"
+    title: "Suspension"
+    page_start: 1051
+    page_end: 1134
+
+  - file: "11a-brakes.md"
+    section_code: "19"
+    title: "Brakes (Part A)"
+    page_start: 1135
+    page_end: 1199
+
+  - file: "11b-brakes.md"
+    section_code: "19"
+    title: "Brakes (Part B)"
+    page_start: 1200
+    page_end: 1265
+
+  - file: "12a-body.md"
+    section_code: "20"
+    title: "Body (Part A)"
+    page_start: 1266
+    page_end: 1334
+
+  - file: "12b-body.md"
+    section_code: "20"
+    title: "Body (Part B)"
+    page_start: 1335
+    page_end: 1408
+
+  - file: "13-hvac.md"
+    title: "HVAC (Heating, Ventilation, and Air Conditioning)"
+    page_start: 1409
+    page_end: 1491
+
+  - file: "14a-body-electrical.md"
+    title: "Body Electrical (Part A)"
+    page_start: 1492
+    page_end: 1588
+
+  - file: "14b-body-electrical.md"
+    title: "Body Electrical (Part B)"
+    page_start: 1589
+    page_end: 1685
+
+  - file: "14c-body-electrical.md"
+    title: "Body Electrical (Part C)"
+    page_start: 1686
+    page_end: 1782
+
+  - file: "15a-restraints.md"
+    title: "Restraints (Part A)"
+    page_start: 1783
+    page_end: 1876
+
+  - file: "15b-restraints.md"
+    title: "Restraints (Part B)"
+    page_start: 1877
+    page_end: 1970
