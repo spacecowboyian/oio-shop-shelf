@@ -36,6 +36,20 @@ Language note: the core is **Python on purpose** — it's what agents reach for,
 pipeline is already Python, and PyMuPDF/ocrmypdf/poppler are best-in-class. Don't
 rewrite it in another language; the portability wall is the binaries above, not Python.
 
+## Optional progress reporting (off by default)
+
+If the contributor requests progress visibility outside this session, read
+[references/progress-reporting.md](references/progress-reporting.md) before setup.
+Use only their explicitly chosen destination and authorized connector. Never use a
+maintainer's workspace, infer a destination from this repository, or require Notion
+for conversion. Without opt-in, keep the existing workflow unchanged.
+
+When enabled, record a small checkpoint at setup/resume, after each completed batch
+or phase, and before a planned pause, blocker, or finish. Keep processed, reviewed,
+and accepted page coverage separate; report only observed facts with timestamps.
+Publishing a checkpoint is not evidence that a detached worker is still running.
+This is an assistant-operated reporting step, not a new background service.
+
 ## 1. Input
 
 Accept either a local path or a link (Drive/URL). If it's a link, download it
