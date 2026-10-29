@@ -118,8 +118,16 @@ def harvest_file(path: Path, composite: dict | None = None) -> list[dict]:
         rows.append(row)
 
     i = 0
+    in_fence = False
     while i < len(lines):
         line = lines[i]
+        if line.lstrip().startswith(("```", "~~~")):
+            in_fence = not in_fence
+            i += 1
+            continue
+        if in_fence:
+            i += 1
+            continue
         marker = parse_source_marker(line)
         if marker:
             provenance = marker

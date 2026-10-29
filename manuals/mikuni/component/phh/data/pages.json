@@ -1,0 +1,471 @@
+{
+ "slug": "mikuni-phh-carburetor",
+ "title": "Mikuni PHH Carburetor Service Manual",
+ "page_count": 31,
+ "image": {
+  "format": "png",
+  "depth": "bilevel",
+  "dpi": 150,
+  "threshold_default": 60,
+  "dir": "page-images"
+ },
+ "base_url": {
+  "raw": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/",
+  "cdn": "https://cdn.jsdelivr.net/gh/spacecowboyian/oio-shop-shelf@main/manuals/mikuni/component/phh/",
+  "used": "raw",
+  "note": "`url` on each page is already absolute \u2014 prefer it. `cdn` is jsDelivr: use it for anything that has to RENDER in a chat client, which commonly refuses raw.githubusercontent.com as an image source. `raw` is GitHub itself and is the freshest, but is better for fetching a file than for displaying one. jsDelivr edge-caches a changed file ~12 h; purge.jsdelivr.net forces it."
+ },
+ "source_pdf": "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-phh/PHH-SERVICE-MANUAL.pdf",
+ "chapters": [
+  {
+   "file": "wiki/01-introduction-and-selection.md",
+   "title": "Purpose, Features and Model Selection",
+   "section_code": null,
+   "page_start": 1,
+   "page_end": 4
+  },
+  {
+   "file": "wiki/02-construction-and-functions.md",
+   "title": "Construction and Functions",
+   "section_code": null,
+   "page_start": 5,
+   "page_end": 9
+  },
+  {
+   "file": "wiki/03-mounting-and-adjustment.md",
+   "title": "Mounting and Adjustment",
+   "section_code": null,
+   "page_start": 10,
+   "page_end": 11
+  },
+  {
+   "file": "wiki/04-overhaul-and-maintenance.md",
+   "title": "Overhaul and Maintenance",
+   "section_code": null,
+   "page_start": 12,
+   "page_end": 18
+  },
+  {
+   "file": "wiki/05-fuel-level.md",
+   "title": "Fuel Level Inspection and Adjustment",
+   "section_code": null,
+   "page_start": 19,
+   "page_end": 19
+  },
+  {
+   "file": "wiki/06-setting-and-tune-up.md",
+   "title": "Setting and Tune-Up",
+   "section_code": null,
+   "page_start": 20,
+   "page_end": 21
+  },
+  {
+   "file": "wiki/07-troubleshooting.md",
+   "title": "Troubleshooting",
+   "section_code": null,
+   "page_start": 22,
+   "page_end": 23
+  },
+  {
+   "file": "wiki/08-exploded-overview.md",
+   "title": "Exploded Overview",
+   "section_code": null,
+   "page_start": 24,
+   "page_end": 24
+  },
+  {
+   "file": "wiki/09-parts-and-jetting.md",
+   "title": "Parts, Jetting and Gaskets",
+   "section_code": null,
+   "page_start": 25,
+   "page_end": 28
+  },
+  {
+   "file": "wiki/12-publication-and-applications.md",
+   "title": "Publication Notes and Applications",
+   "section_code": null,
+   "page_start": 29,
+   "page_end": 31
+  }
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "file": "page-images/p0001.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0001.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 27419,
+   "chapter_file": "wiki/01-introduction-and-selection.md",
+   "chapter_title": "Purpose, Features and Model Selection",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 2,
+   "file": "page-images/p0002.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0002.png",
+   "width": 1281,
+   "height": 1656,
+   "bytes": 19911,
+   "chapter_file": "wiki/01-introduction-and-selection.md",
+   "chapter_title": "Purpose, Features and Model Selection",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 3,
+   "file": "page-images/p0003.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0003.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 29462,
+   "chapter_file": "wiki/01-introduction-and-selection.md",
+   "chapter_title": "Purpose, Features and Model Selection",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 4,
+   "file": "page-images/p0004.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0004.png",
+   "width": 1278,
+   "height": 1653,
+   "bytes": 20763,
+   "chapter_file": "wiki/01-introduction-and-selection.md",
+   "chapter_title": "Purpose, Features and Model Selection",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 5,
+   "file": "page-images/p0005.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0005.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 34843,
+   "chapter_file": "wiki/02-construction-and-functions.md",
+   "chapter_title": "Construction and Functions",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 6,
+   "file": "page-images/p0006.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0006.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 26498,
+   "chapter_file": "wiki/02-construction-and-functions.md",
+   "chapter_title": "Construction and Functions",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 7,
+   "file": "page-images/p0007.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0007.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 42478,
+   "chapter_file": "wiki/02-construction-and-functions.md",
+   "chapter_title": "Construction and Functions",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 8,
+   "file": "page-images/p0008.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0008.png",
+   "width": 1278,
+   "height": 1653,
+   "bytes": 31501,
+   "chapter_file": "wiki/02-construction-and-functions.md",
+   "chapter_title": "Construction and Functions",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 9,
+   "file": "page-images/p0009.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0009.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 25148,
+   "chapter_file": "wiki/02-construction-and-functions.md",
+   "chapter_title": "Construction and Functions",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 10,
+   "file": "page-images/p0010.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0010.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 29204,
+   "chapter_file": "wiki/03-mounting-and-adjustment.md",
+   "chapter_title": "Mounting and Adjustment",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 11,
+   "file": "page-images/p0011.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0011.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 30934,
+   "chapter_file": "wiki/03-mounting-and-adjustment.md",
+   "chapter_title": "Mounting and Adjustment",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 12,
+   "file": "page-images/p0012.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0012.png",
+   "width": 1281,
+   "height": 1656,
+   "bytes": 32536,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 13,
+   "file": "page-images/p0013.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0013.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 20417,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 14,
+   "file": "page-images/p0014.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0014.png",
+   "width": 1282,
+   "height": 1655,
+   "bytes": 21912,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 15,
+   "file": "page-images/p0015.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0015.png",
+   "width": 1278,
+   "height": 1653,
+   "bytes": 22618,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 16,
+   "file": "page-images/p0016.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0016.png",
+   "width": 1279,
+   "height": 1652,
+   "bytes": 19508,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 17,
+   "file": "page-images/p0017.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0017.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 21229,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 18,
+   "file": "page-images/p0018.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0018.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 16182,
+   "chapter_file": "wiki/04-overhaul-and-maintenance.md",
+   "chapter_title": "Overhaul and Maintenance",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 19,
+   "file": "page-images/p0019.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0019.png",
+   "width": 1281,
+   "height": 1656,
+   "bytes": 28411,
+   "chapter_file": "wiki/05-fuel-level.md",
+   "chapter_title": "Fuel Level Inspection and Adjustment",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 20,
+   "file": "page-images/p0020.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0020.png",
+   "width": 1285,
+   "height": 1658,
+   "bytes": 27204,
+   "chapter_file": "wiki/06-setting-and-tune-up.md",
+   "chapter_title": "Setting and Tune-Up",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 21,
+   "file": "page-images/p0021.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0021.png",
+   "width": 1288,
+   "height": 1661,
+   "bytes": 26793,
+   "chapter_file": "wiki/06-setting-and-tune-up.md",
+   "chapter_title": "Setting and Tune-Up",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 22,
+   "file": "page-images/p0022.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0022.png",
+   "width": 1290,
+   "height": 1662,
+   "bytes": 23644,
+   "chapter_file": "wiki/07-troubleshooting.md",
+   "chapter_title": "Troubleshooting",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 23,
+   "file": "page-images/p0023.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0023.png",
+   "width": 1278,
+   "height": 1643,
+   "bytes": 27550,
+   "chapter_file": "wiki/07-troubleshooting.md",
+   "chapter_title": "Troubleshooting",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 24,
+   "file": "page-images/p0024.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0024.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 34611,
+   "chapter_file": "wiki/08-exploded-overview.md",
+   "chapter_title": "Exploded Overview",
+   "section_code": null,
+   "diagram": {
+    "file": "diagrams/p0024-exploded-overview.png",
+    "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/diagrams/p0024-exploded-overview.png",
+    "kind": "exploded",
+    "caption": "Mikuni PHH exploded overview",
+    "safety_relevant": false
+   }
+  },
+  {
+   "page": 25,
+   "file": "page-images/p0025.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0025.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 29426,
+   "chapter_file": "wiki/09-parts-and-jetting.md",
+   "chapter_title": "Parts, Jetting and Gaskets",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 26,
+   "file": "page-images/p0026.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0026.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 28288,
+   "chapter_file": "wiki/09-parts-and-jetting.md",
+   "chapter_title": "Parts, Jetting and Gaskets",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 27,
+   "file": "page-images/p0027.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0027.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 23446,
+   "chapter_file": "wiki/09-parts-and-jetting.md",
+   "chapter_title": "Parts, Jetting and Gaskets",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 28,
+   "file": "page-images/p0028.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0028.png",
+   "width": 1275,
+   "height": 1650,
+   "bytes": 21170,
+   "chapter_file": "wiki/09-parts-and-jetting.md",
+   "chapter_title": "Parts, Jetting and Gaskets",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 29,
+   "file": "page-images/p0029.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0029.png",
+   "width": 1310,
+   "height": 1677,
+   "bytes": 23210,
+   "chapter_file": "wiki/12-publication-and-applications.md",
+   "chapter_title": "Publication Notes and Applications",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 30,
+   "file": "page-images/p0030.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0030.png",
+   "width": 1278,
+   "height": 1653,
+   "bytes": 43994,
+   "chapter_file": "wiki/12-publication-and-applications.md",
+   "chapter_title": "Publication Notes and Applications",
+   "section_code": null,
+   "diagram": null
+  },
+  {
+   "page": 31,
+   "file": "page-images/p0031.png",
+   "url": "https://raw.githubusercontent.com/spacecowboyian/oio-shop-shelf/main/manuals/mikuni/component/phh/page-images/p0031.png",
+   "width": 1263,
+   "height": 1638,
+   "bytes": 48192,
+   "chapter_file": "wiki/12-publication-and-applications.md",
+   "chapter_title": "Publication Notes and Applications",
+   "section_code": null,
+   "diagram": null
+  }
+ ]
+}

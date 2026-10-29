@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from _common import load_manifest, manual_dir, wiki_dir  # noqa: E402
 from composite import parse_source_marker  # noqa: E402
 
-GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md"}
+GENERATED = {"00-index.md", "09-quick-reference.md", "10-needs-review.md", "all-files.md"}
 # generated alphabetical-index files are "11a-…"/"11b-…" etc. Match that exact shape,
 # NOT a bare "11" prefix — a chapter named "11-charging-system.md" must NOT be treated
 # as generated (the 4A reference had ≤9 chapters so never surfaced this).
@@ -82,8 +82,14 @@ def main() -> int:
         lines = f.read_text(encoding="utf-8").splitlines()
         cur_page = None  # source PDF page of the most recent "[PDF p.N]" marker
         in_scope = not composite
+        in_fence = False
         seen_source = False
         for ln, line in enumerate(lines, 1):
+            if line.lstrip().startswith(("```", "~~~")):
+                in_fence = not in_fence
+                continue
+            if in_fence:
+                continue
             source_marker = parse_source_marker(line)
             if source_marker and composite:
                 seen_source = True

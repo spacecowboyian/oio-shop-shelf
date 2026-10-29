@@ -18,6 +18,8 @@ title: "Example Make/Model Service Manual"   # (required) human title for the in
 # category: engine   -> whole-engine-family manual (spans many cars). Declare `engines:`.
 # category: vehicle  -> whole-vehicle / chassis manual. Declare `models:` (+ `chassis:`,
 #                       and `engines:` the vehicle uses). Example (a Toyota MR2, AW11):
+# category: component -> standalone part-family manual. Use the component maker as
+#                        `make` and declare `components:` (keys under that maker).
 #
 # taxonomy:
 #   make: toyota

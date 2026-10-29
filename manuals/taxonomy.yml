@@ -11,11 +11,12 @@
 #   to the right car.
 #
 # SOURCE / PROVENANCE
-#   Make + model names and IDs are anchored to the NHTSA vPIC catalog — the US DOT's
+#   Vehicle make + model names and IDs are anchored to the NHTSA vPIC catalog — the US DOT's
 #   public-domain Vehicle Product Information Catalog (https://vpic.nhtsa.dot.gov/api/).
 #   `vpic_make_id` is that catalog's stable Make_ID; `name` is its canonical Make_Name /
 #   Model_Name. Engine-family codes (4A-GE, etc.) have no clean open catalog, so those are
-#   OEM designations recorded by hand.
+#   OEM designations recorded by hand. Component makers need not have a vPIC ID;
+#   their component names follow the source manual.
 #
 # HOW TO ADD AN ENTRY
 #   Seed only what a committed manual actually needs — do NOT import all of vPIC. Before
@@ -45,6 +46,13 @@ makes:
         name: Corvair  # Pre-VIN-era model absent from the current vPIC model list.
         chassis: []
     engines: {}
+  mikuni:
+    name: Mikuni
+    models: {}
+    engines: {}
+    components:
+      phh:
+        name: PHH carburetor
   toyota:
     name: Toyota
     vpic_make_id: 448
