@@ -1,0 +1,44 @@
+slug: mikuni-phh-carburetor
+title: "Mikuni PHH Carburetor Service Manual"
+
+taxonomy:
+  make: mikuni
+  category: component
+  components: [phh]
+
+source:
+  type: url
+  location: "https://github.com/spacecowboyian/oio-shop-shelf/releases/download/manuals-phh/PHH-SERVICE-MANUAL.pdf"
+  pages: 31
+
+rights: >
+  Original manual copyright 1979 Mikuni American Corporation. No reuse license
+  was supplied with the scan. See CONTRIBUTING.md.
+
+ocr:
+  language: eng
+  force: false
+
+render:
+  dpi: 200
+  diagram_dpi: 300
+
+chapters:
+  - {file: "01-introduction-and-selection.md", title: "Purpose, Features and Model Selection", page_start: 1, page_end: 4}
+  - {file: "02-construction-and-functions.md", title: "Construction and Functions", page_start: 5, page_end: 9}
+  - {file: "03-mounting-and-adjustment.md", title: "Mounting and Adjustment", page_start: 10, page_end: 11}
+  - {file: "04-overhaul-and-maintenance.md", title: "Overhaul and Maintenance", page_start: 12, page_end: 18}
+  - {file: "05-fuel-level.md", title: "Fuel Level Inspection and Adjustment", page_start: 19, page_end: 19}
+  - {file: "06-setting-and-tune-up.md", title: "Setting and Tune-Up", page_start: 20, page_end: 21}
+  - {file: "07-troubleshooting.md", title: "Troubleshooting", page_start: 22, page_end: 23}
+  - {file: "08-exploded-overview.md", title: "Exploded Overview", page_start: 24, page_end: 24}
+  - {file: "09-parts-and-jetting.md", title: "Parts, Jetting and Gaskets", page_start: 25, page_end: 28}
+  - {file: "12-publication-and-applications.md", title: "Publication Notes and Applications", page_start: 29, page_end: 31}
+
+diagrams:
+  - page: 24
+    file: "diagrams/p0024-exploded-overview.png"
+    kind: exploded
+    depth: mono
+    caption: "Mikuni PHH exploded overview"
+    safety_relevant: false

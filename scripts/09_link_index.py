@@ -129,6 +129,9 @@ def write_all_files(mdir: Path, repo: str, branch: str) -> int:
     ]
     for f in files:
         lines.append(f"- [{f.relative_to(mdir).as_posix()}]({raw_url(repo, branch, f)})")
+    source = manifest.get("source") or {}
+    if source.get("type") == "url" and source.get("location"):
+        lines.append(f"- [Source PDF]({source['location']})")
     lines.append("")
     (mdir / "wiki" / "all-files.md").write_text("\n".join(lines), encoding="utf-8")
     return len(files)

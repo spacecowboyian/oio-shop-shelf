@@ -29,7 +29,11 @@ manuals/
   _template/                         # skeleton for a new manual
 ```
 
-Exactly **two buckets** under each make: `vehicle` and `engine`. That binary is what
+The taxonomy has three buckets under a maker: `vehicle`, `engine`, and `component`.
+The first two handle automotive factory manuals; `component` handles a service
+manual issued for a standalone part used across vehicles or engines.
+
+The `vehicle`/`engine` distinction is what
 handles "some manuals cross cars":
 
 - **`vehicle/`** — a manual tied to one vehicle generation/chassis (a whole FSM, or a
@@ -37,6 +41,11 @@ handles "some manuals cross cars":
   one chassis, so it gets one home.
 - **`engine/`** — a manual for an engine *family* (e.g. 4A-FE) that was fitted to many
   different cars. It has no single "model", so it lives by engine, not by car.
+- **`component/`** — a manual for a named part family, such as Mikuni PHH
+  carburetors, independent of its applications. Use the component maker as the
+  folder and `taxonomy.make`; list the component keys in `taxonomy.components`.
+  Vehicle fitment tables remain content within the manual and do not assign it
+  to every vehicle in the table.
 
 We deliberately do **not** split by system (brakes/suspension/etc.). `<unit>` is a short
 folder name — the make is already implied by the parent, so `mr2-aw11`, not
@@ -99,10 +108,12 @@ marker (for example, `variant=spyder`). The fast index preserves it as
 `taxonomy:` block must resolve to keys defined there; **CI blocks a manifest that names a
 make/model/engine not in the registry** (`scripts/validate_manifests.py`).
 
-**Provenance.** Make and model names/IDs are anchored to the NHTSA **vPIC** catalog — the
+**Provenance.** Vehicle make and model names/IDs are anchored to the NHTSA **vPIC** catalog — the
 US DOT's public-domain Vehicle Product Information Catalog
 (<https://vpic.nhtsa.dot.gov/api/>). `vpic_make_id` is that catalog's stable `Make_ID`.
 Engine-family codes have no clean open catalog, so those are OEM designations kept by hand.
+Component makers (such as Mikuni) may have no vPIC Make_ID; their component names
+come from the manual's cover and model-identification text.
 
 Seed **only what a committed manual needs** — do not import all of vPIC.
 
@@ -113,6 +124,7 @@ parts.
 
 ### a. Decide the category
 Engine-family manual → `engine`. Whole-vehicle/chassis manual → `vehicle`.
+Standalone part-family manual → `component`, filed under its manufacturer.
 
 ### b. Register the make/model/engine in `taxonomy.yml` (if new)
 Do this **before** referencing it. For a make not yet present, look up its canonical name +

@@ -11,7 +11,7 @@ except ImportError:  # pragma: no cover
 
 REQUIRED_MANIFEST_KEYS = ("slug", "title", "source", "rights", "chapters", "taxonomy")
 REQUIRED_CHAPTER_KEYS = ("file", "title", "page_start", "page_end")
-TAXONOMY_CATEGORIES = ("engine", "vehicle")
+TAXONOMY_CATEGORIES = ("engine", "vehicle", "component")
 
 # Optional `diagrams:` block — one entry per diagram-only source page rendered to an
 # image and delivered to the user in-chat (see issue #1). Absent for most manuals.
@@ -210,7 +210,10 @@ def _taxonomy_shape_errors(tax) -> list[str]:
     elif cat == "vehicle":
         if not _nonempty_list(tax.get("models")):
             errors.append("taxonomy.models must be a non-empty list for category: vehicle")
-    for key in ("engines", "models", "chassis"):
+    elif cat == "component":
+        if not _nonempty_list(tax.get("components")):
+            errors.append("taxonomy.components must be a non-empty list for category: component")
+    for key in ("engines", "models", "chassis", "components"):
         if key in tax and not isinstance(tax[key], list):
             errors.append(f"taxonomy.{key} must be a list")
     return errors
@@ -259,6 +262,12 @@ def validate_against_taxonomy(data: dict, taxonomy: dict) -> list[str]:
         if e not in known_engines:
             errors.append(
                 f"taxonomy.engines '{e}' is not under makes.{mk}.engines in taxonomy.yml."
+            )
+    known_components = (make_entry.get("components") or {})
+    for c in tax.get("components") or []:
+        if c not in known_components:
+            errors.append(
+                f"taxonomy.components '{c}' is not under makes.{mk}.components in taxonomy.yml."
             )
     known_models = (make_entry.get("models") or {})
     for mdl in tax.get("models") or []:

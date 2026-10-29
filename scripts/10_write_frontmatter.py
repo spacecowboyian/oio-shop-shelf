@@ -84,6 +84,9 @@ def build_front_matter(manifest: dict, taxonomy: dict) -> str:
     if tax.get("engines"):
         engines = _canonical_names(make_entry.get("engines") or {}, tax["engines"])
         lines.append(f"engines: {_list(engines)}")
+    if tax.get("components"):
+        components = _canonical_names(make_entry.get("components") or {}, tax["components"])
+        lines.append(f"components: {_list(components)}")
     if tax.get("years"):
         lines.append(f"years: {_q(tax['years'])}")
     # source PDF (only once it's hosted on a Release, i.e. source.type == url) — both a
