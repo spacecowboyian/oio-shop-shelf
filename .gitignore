@@ -21,3 +21,6 @@ venv/
 
 # Staged source PDFs awaiting conversion (the converted manual commits its own copy)
 _inbox/
+
+# Private per-user conversion reporting configuration and checkpoints
+.oio-local/

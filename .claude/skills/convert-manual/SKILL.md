@@ -1,6 +1,6 @@
 ---
 name: convert-manual
-description: Turn a service-manual PDF the contributor owns into this repo's full package — an OCR'd PDF with a baked-in clickable index, per-chapter markdown, and the index files — then walk them through opening a pull request. Use when someone says "convert this manual", "add my manual / PDF to the repo", "turn this service manual into markdown/wiki", "how do I contribute a manual", or points at a PDF file/link and wants it processed into `manuals/<slug>/`.
+description: Turn a service-manual PDF the contributor owns into this repo's full package — an OCR'd PDF with a baked-in clickable index, per-chapter markdown, and the index files — then walk them through opening a pull request. Use when someone says "convert this manual", "add my manual / PDF to the repo", "turn this service manual into markdown/wiki", "how do I contribute a manual", or points at a PDF file/link and wants it processed into a manuals slug folder.
 ---
 
 # Convert a manual PDF → repo package (+ PR)
@@ -30,6 +30,20 @@ The pipeline needs system binaries, not just Python — this determines the path
 Language note: the core is **Python on purpose** — it's what agents reach for, the
 pipeline is already Python, and PyMuPDF/ocrmypdf/poppler are best-in-class. Don't
 rewrite it in another language; the portability wall is the binaries above, not Python.
+
+## Optional progress reporting (off by default)
+
+If the contributor requests progress visibility outside this session, read
+[references/progress-reporting.md](references/progress-reporting.md) before setup.
+Use only their explicitly chosen destination and authorized connector. Never use a
+maintainer's workspace, infer a destination from this repository, or require Notion
+for conversion. Without opt-in, keep the existing workflow unchanged.
+
+When enabled, record a small checkpoint at setup/resume, after each completed batch
+or phase, and before a planned pause, blocker, or finish. Keep processed, reviewed,
+and accepted page coverage separate; report only observed facts with timestamps.
+Publishing a checkpoint is not evidence that a detached worker is still running.
+This is an assistant-operated reporting step, not a new background service.
 
 ## 1 — Input
 
