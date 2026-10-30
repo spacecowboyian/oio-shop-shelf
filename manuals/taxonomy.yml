@@ -151,3 +151,15 @@ makes:
         # prints an engine code. So "1600 GS" is the designation the source actually uses,
         # not a stand-in for a code we failed to find.
         family: Cleon-Alu
+
+  # --- honda ---
+  # vPIC GetModelsForMake/honda confirms Make_ID 474 and S2000 Model_ID 3153.
+  honda:
+    name: Honda
+    vpic_make_id: 474
+    models:
+      s2000:
+        name: S2000
+        # VIN examples in this manual identify AP1 (2000–03) and AP2 (2004–08).
+        chassis: [AP1, AP2]
+    engines: {}

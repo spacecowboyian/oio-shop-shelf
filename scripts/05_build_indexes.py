@@ -40,7 +40,7 @@ SPEC_RE = re.compile(
 )
 # per-page marker the cleaned chapters carry (e.g. "**[PDF p.7]**"); used to tag each
 # subsection heading with the source page it lives on so 08 can bake a jump target.
-PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\]")
+PDF_PAGE_RE = re.compile(r"\[PDF p\.(\d+)\b")
 PAGE_ANCHOR_RE = re.compile(r'<a\s+id="p\d+"></a>')
 PAGE_LINK_RE = re.compile(r'\*?\*?\[PDF p\.\d+\](?:\([^)]*\))?\*?\*?')
 
@@ -51,6 +51,28 @@ def slugify_anchor(heading: str) -> str:
     s = re.sub(r"[^\w\s-]", "", s)
     s = re.sub(r"\s+", "-", s)
     return s
+
+
+def indexable_heading(text: str) -> bool:
+    """Keep topic headings; omit page labels, procedure steps, and OCR debris."""
+    value = text.strip()
+    if not value or len(value) > 110:
+        return False
+    if re.match(r"(?i)(?:printed|pdf)?\s*page\s+\d+\b", value):
+        return False
+    if re.match(r"(?i)(?:step\s+)?\d+[.)]\s|step\s+\d+\b", value):
+        return False
+    if re.match(r"(?i)[('’]?[0-9]{2}(?:[-–][0-9]{2})?\s+models?\b", value):
+        return False
+    if value.lower() in {"chapter contents", "special tools required", "dtc troubleshooting",
+                         "dtc troubleshooting (cont'd)", "symptom troubleshooting",
+                         "symptom troubleshooting (cont'd)", "component location index",
+                         "system description (cont'd)", "installation", "removal"}:
+        return False
+    words = value.split()
+    if len(words) >= 4 and sum(len(word) == 1 for word in words) / len(words) >= 0.7:
+        return False
+    return True
 
 
 def is_generated(name: str) -> bool:
@@ -106,12 +128,25 @@ def main() -> int:
             m = HEADING_RE.match(line)
             if m:
                 level, text = len(m.group(1)), m.group(2).strip()
+                # Some chapters put their source marker immediately below a
+                # section heading. Associate that heading with the following
+                # page instead of the previous one.
+                heading_page = cur_page
+                if level in (2, 3):
+                    for following in lines[ln:ln + 4]:
+                        if not following.strip():
+                            continue
+                        if following.lstrip().startswith(("Source:", "Sources:", "Continuation source:")):
+                            next_page = PDF_PAGE_RE.search(following)
+                            if next_page:
+                                heading_page = int(next_page.group(1))
+                        break
                 # H2/H3 subsections become alphabetical-index terms, tagged with the
                 # source page they sit under (skip any heading before the first marker
                 # and the boilerplate "In this chapter" TOC heading).
-                if level in (2, 3) and cur_page is not None and in_scope \
-                        and text.strip().lower() != "in this chapter":
-                    alpha[text[0].upper() if text else "#"].append((text, f.name, cur_page))
+                if level in (2, 3) and heading_page is not None and in_scope \
+                        and indexable_heading(text) and text.strip().lower() != "in this chapter":
+                    alpha[text[0].upper() if text else "#"].append((text, f.name, heading_page))
             # Page markers contain id="p533", which looks like a 533-inch spec to
             # the broad quote-unit matcher. Strip delivery markup before harvesting.
             # A flagged row is not a settled quick-reference specification.

@@ -1,0 +1,1372 @@
+# S2000 AP1/AP2 Service Manual (2000-2008) — single-manual package.
+# Taxonomy placement, source pointer, rights, and chapter map.
+# Required fields: slug, title, source, rights, chapters, taxonomy.
+# See manuals/_template/manifest.yml for the full field reference.
+
+slug: honda-s2000
+title: "Honda S2000 (AP1/AP2) Service Manual"
+
+# Placement in the automotive taxonomy — manuals/taxonomy.yml.
+# category: vehicle -> declare models + chassis. engines omitted per repo directive
+# (no K20A/K24A engine entries are registered for the S2000 package; the registry
+# keeps makes.honda.engines: {} for the same reason).
+taxonomy:
+  make: honda
+  category: vehicle
+  models: [s2000]
+  chassis: [AP1, AP2]
+  years: "2000-2008"
+
+# Pointer to the SOURCE PDF (contributor hand-off; not committed — PDFs are gitignored).
+source:
+  type: local
+  location: "2000-08 Honda S2000 SM.pdf"
+  pages: 1970
+
+rights: >
+  Copyright of the original manual belongs to Honda / America Honda. The
+  maintainer-selected publication set includes the chapter text, all rendered
+  page images, and registered diagrams. The source PDF and raw OCR remain
+  private and excluded from Git. See CONTRIBUTING.md.
+
+# OCR settings for 01_prepare_pdf.py
+ocr:
+  language: eng
+  force: false
+
+# Render settings for 02_render_pages.py
+render:
+  dpi: 200
+
+diagrams:
+  - page: 39
+    file: "diagrams/p0039-body-dimensions-2000-2007.webp"
+    kind: chart
+    depth: mono
+    caption: "2000–2007 S2000 body dimensions"
+    safety_relevant: false
+  - page: 40
+    file: "diagrams/p0040-body-dimensions-2008.webp"
+    kind: chart
+    depth: mono
+    caption: "2008 S2000 body dimensions (CR shown)"
+    safety_relevant: false
+  - page: 42
+    file: "diagrams/p0042-engine-oil-viscosity-chart.webp"
+    kind: chart
+    depth: mono
+    caption: "Engine oil viscosity by ambient temperature and API certification seal"
+    safety_relevant: true
+  - page: 43
+    file: "diagrams/p0043-lubrication-points.webp"
+    kind: chart
+    depth: mono
+    caption: "S2000 lubrication points A–S, keyed to the fluid table"
+    safety_relevant: true
+  - page: 65
+    file: "diagrams/p0065-maintenance-minder-display.webp"
+    kind: chart
+    depth: mono
+    caption: "Maintenance Minder display and trip button, 2006–2008"
+    safety_relevant: false
+  - page: 66
+    file: "diagrams/p0066-maintenance-minder-oil-life.webp"
+    kind: chart
+    depth: mono
+    caption: "Maintenance Minder oil-life display states"
+    safety_relevant: false
+  - page: 67
+    file: "diagrams/p0067-maintenance-minder-reset.webp"
+    kind: sequence
+    depth: mono
+    caption: "Maintenance Minder overdue display and reset sequence"
+    safety_relevant: true
+  - page: 73
+    file: "diagrams/p0073-starting-component-locations.webp"
+    kind: chart
+    depth: mono
+    caption: "Starting system component locations"
+    safety_relevant: false
+  - page: 75
+    file: "diagrams/p0075-starting-circuit-2000-2005.webp"
+    kind: wiring
+    depth: mono
+    caption: "Starting system circuit for 2000–2005 models"
+    safety_relevant: true
+  - page: 76
+    file: "diagrams/p0076-starting-circuit-2006-2008.webp"
+    kind: wiring
+    depth: mono
+    caption: "Starting system circuit for 2006–2008 models"
+    safety_relevant: true
+  - page: 79
+    file: "diagrams/p0079-switch-solenoid-tests.webp"
+    kind: chart
+    depth: mono
+    caption: "Clutch interlock switch and starter solenoid tests"
+    safety_relevant: true
+  - page: 80
+    file: "diagrams/p0080-starter-performance-test.webp"
+    kind: wiring
+    depth: mono
+    caption: "Starter performance test connections"
+    safety_relevant: true
+  - page: 83
+    file: "diagrams/p0083-starter-alternator-installation.webp"
+    kind: chart
+    depth: mono
+    caption: "Starter and alternator installation and torque locations"
+    safety_relevant: true
+  - page: 84
+    file: "diagrams/p0084-air-cleaner-installation.webp"
+    kind: chart
+    depth: mono
+    caption: "Air cleaner reinstallation for 2000–2005 and 2006–2008 models"
+    safety_relevant: false
+  - page: 85
+    file: "diagrams/p0085-starter-overhaul-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Starter overhaul exploded view and torque locations"
+    safety_relevant: true
+  - page: 86
+    file: "diagrams/p0086-armature-inspection.webp"
+    kind: chart
+    depth: mono
+    caption: "Armature inspection and commutator measurements"
+    safety_relevant: true
+  - page: 87
+    file: "diagrams/p0087-armature-tests.webp"
+    kind: chart
+    depth: mono
+    caption: "Commutator mica depth and armature tests"
+    safety_relevant: true
+  - page: 88
+    file: "diagrams/p0088-starter-brush-tests.webp"
+    kind: chart
+    depth: mono
+    caption: "Starter brush and spring tension tests"
+    safety_relevant: true
+  - page: 89
+    file: "diagrams/p0089-brush-reassembly.webp"
+    kind: sequence
+    depth: mono
+    caption: "Starter brush reassembly and end cover torque locations"
+    safety_relevant: true
+  - page: 91
+    file: "diagrams/p0091-ignition-component-locations.webp"
+    kind: chart
+    depth: mono
+    caption: "Ignition system component locations"
+    safety_relevant: false
+  - page: 92
+    file: "diagrams/p0092-ignition-circuit-2000-2005.webp"
+    kind: wiring
+    depth: mono
+    caption: "Ignition system circuit for 2000–2005 models"
+    safety_relevant: true
+  - page: 93
+    file: "diagrams/p0093-ignition-circuit-2006-2008.webp"
+    kind: wiring
+    depth: mono
+    caption: "Ignition system circuit for 2006–2008 models"
+    safety_relevant: true
+  - page: 94
+    file: "diagrams/p0094-ignition-timing.webp"
+    kind: chart
+    depth: mono
+    caption: "Ignition timing service loop and pointer locations"
+    safety_relevant: true
+  - page: 95
+    file: "diagrams/p0095-ignition-coil-identification.webp"
+    kind: chart
+    depth: mono
+    caption: "Ignition coil locations and 2006–2008 coil identification"
+    safety_relevant: true
+  - page: 96
+    file: "diagrams/p0096-ignition-relay-test-1.webp"
+    kind: wiring
+    depth: mono
+    caption: "Ignition coil relay connector tests, steps 1–5"
+    safety_relevant: true
+  - page: 97
+    file: "diagrams/p0097-ignition-relay-test-2.webp"
+    kind: wiring
+    depth: mono
+    caption: "Ignition coil relay continuity tests, steps 12–13"
+    safety_relevant: true
+  - page: 98
+    file: "diagrams/p0098-spark-plug-inspection.webp"
+    kind: chart
+    depth: mono
+    caption: "Spark plug inspection points and electrode gap"
+    safety_relevant: true
+  - page: 99
+    file: "diagrams/p0099-charging-component-locations.webp"
+    kind: chart
+    depth: mono
+    caption: "Charging system component locations"
+    safety_relevant: false
+  - page: 101
+    file: "diagrams/p0101-charging-circuit-2000-2003.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging system circuit for 2000–2003 models"
+    safety_relevant: true
+  - page: 102
+    file: "diagrams/p0102-charging-circuit-2004-2005.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging system circuit for 2004–2005 models"
+    safety_relevant: true
+  - page: 103
+    file: "diagrams/p0103-charging-circuit-2006-2008.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging system circuit for 2006–2008 models"
+    safety_relevant: true
+  - page: 104
+    file: "diagrams/p0104-charging-indicator-test-1.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging indicator circuit tests, 2000–2005 models"
+    safety_relevant: true
+  - page: 105
+    file: "diagrams/p0105-charging-indicator-test-2.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging indicator tests at alternator and gauge connectors"
+    safety_relevant: true
+  - page: 106
+    file: "diagrams/p0106-charging-indicator-test-3.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging indicator circuit tests, 2006–2008 models"
+    safety_relevant: true
+  - page: 107
+    file: "diagrams/p0107-charging-indicator-test-4.webp"
+    kind: wiring
+    depth: mono
+    caption: "Charging indicator tests at alternator and ECM connector B"
+    safety_relevant: true
+  - page: 108
+    file: "diagrams/p0108-alternator-regulator-test.webp"
+    kind: wiring
+    depth: mono
+    caption: "VAT-40 alternator and regulator test connections"
+    safety_relevant: true
+  - page: 109
+    file: "diagrams/p0109-alternator-control-2000-2005-a.webp"
+    kind: wiring
+    depth: mono
+    caption: "Alternator control tests for 2000–2005 models"
+    safety_relevant: true
+  - page: 110
+    file: "diagrams/p0110-alternator-control-mixed.webp"
+    kind: wiring
+    depth: mono
+    caption: "Alternator control tests for 2000–2005 and 2006–2008 models"
+    safety_relevant: true
+  - page: 111
+    file: "diagrams/p0111-alternator-control-2006-2008-b.webp"
+    kind: wiring
+    depth: mono
+    caption: "Alternator control tests for 2006–2008 models"
+    safety_relevant: true
+  - page: 112
+    file: "diagrams/p0112-drive-belt-inspection.webp"
+    kind: chart
+    depth: mono
+    caption: "Drive belt inspection and replacement"
+    safety_relevant: true
+  - page: 113
+    file: "diagrams/p0113-auto-tensioner-inspection.webp"
+    kind: sequence
+    depth: mono
+    caption: "Drive belt auto-tensioner inspection"
+    safety_relevant: true
+  - page: 114
+    file: "diagrams/p0114-auto-tensioner-replacement.webp"
+    kind: exploded
+    depth: mono
+    caption: "Auto-tensioner and pulley replacement torque locations"
+    safety_relevant: true
+  - page: 115
+    file: "diagrams/p0115-alternator-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Alternator removal"
+    safety_relevant: true
+  - page: 116
+    file: "diagrams/p0116-alternator-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Alternator installation and torque locations"
+    safety_relevant: true
+  - page: 117
+    file: "diagrams/p0117-alternator-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Alternator overhaul exploded view and pulley locknut torque"
+    safety_relevant: true
+
+  - page: 119
+    file: "diagrams/p0119-alternator-disassembly.webp"
+    kind: sequence
+    depth: mono
+    caption: "Alternator disassembly steps 7–10"
+    safety_relevant: true
+  - page: 120
+    file: "diagrams/p0120-alternator-bearings.webp"
+    kind: sequence
+    depth: mono
+    caption: "Rear bearing removal and installation"
+    safety_relevant: true
+  - page: 121
+    file: "diagrams/p0121-front-bearing-rectifier.webp"
+    kind: sequence
+    depth: mono
+    caption: "Front bearing and rectifier test locations"
+    safety_relevant: true
+  - page: 122
+    file: "diagrams/p0122-alternator-tests.webp"
+    kind: sequence
+    depth: mono
+    caption: "Alternator brush, rotor, and stator test locations"
+    safety_relevant: true
+  - page: 123
+    file: "diagrams/p0123-cruise-locations.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cruise control component locations"
+    safety_relevant: true
+
+  - page: 128
+    file: "diagrams/p0128-cruise-circuit-2000-2003.webp"
+    kind: wiring
+    depth: mono
+    caption: "Cruise control circuit diagram, 2000–2003 models"
+    safety_relevant: true
+
+  - page: 129
+    file: "diagrams/p0129-cruise-circuit-2004-2005.webp"
+    kind: wiring
+    depth: mono
+    caption: "Cruise control circuit diagram, 2004–2005 models"
+    safety_relevant: true
+
+  - page: 130
+    file: "diagrams/p0130-cruise-circuit-2006-2008.webp"
+    kind: wiring
+    depth: mono
+    caption: "Cruise control circuit diagram, 2006–2008"
+    safety_relevant: true
+  - page: 132
+    file: "diagrams/p0132-cruise-input-test.webp"
+    kind: chart
+    depth: mono
+    caption: "Cruise control unit input test table"
+    safety_relevant: true
+  - page: 137
+    file: "diagrams/p0137-cruise-switch-test.webp"
+    kind: chart
+    depth: mono
+    caption: "Cruise steering switch connector and continuity tables"
+    safety_relevant: true
+  - page: 141
+    file: "diagrams/p0141-cruise-cable-adjustment.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cruise actuator cable adjustment dimensions"
+    safety_relevant: true
+
+  - page: 144
+    file: "diagrams/p0144-universal-eyelet.webp"
+    kind: chart
+    depth: mono
+    caption: "Universal eyelet special tool"
+    safety_relevant: true
+  - page: 145
+    file: "diagrams/p0145-engine-removal-start.webp"
+    kind: sequence
+    depth: mono
+    caption: "Hood support and ECM connector locations"
+    safety_relevant: true
+  - page: 148
+    file: "diagrams/p0148-engine-removal-hoses.webp"
+    kind: sequence
+    depth: mono
+    caption: "Model-specific engine removal hose locations"
+    safety_relevant: true
+  - page: 149
+    file: "diagrams/p0149-engine-removal-hoses.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine removal steps 26–28 and hose locations"
+    safety_relevant: true
+
+  - page: 150
+    file: "diagrams/p0150-engine-removal-hoist.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine hoist and mount bracket removal"
+    safety_relevant: true
+  - page: 151
+    file: "diagrams/p0151-accessory-brackets.webp"
+    kind: sequence
+    depth: mono
+    caption: "Accessory bracket bolt locations and torques"
+    safety_relevant: true
+  - page: 152
+    file: "diagrams/p0152-engine-install-mount.webp"
+    kind: sequence
+    depth: mono
+    caption: "Right engine mount tightening sequence"
+    safety_relevant: true
+  - page: 153
+    file: "diagrams/p0153-engine-install-hoses.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine installation hose connections"
+    safety_relevant: true
+  - page: 155
+    file: "diagrams/p0155-engine-install-wiring.webp"
+    kind: sequence
+    depth: mono
+    caption: "ECM wiring and EPS unit installation"
+    safety_relevant: true
+  - page: 159
+    file: "diagrams/p0159-engine-mount-subframe.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine mount and subframe bolt locations"
+    safety_relevant: true
+  - page: 160
+    file: "diagrams/p0160-engine-mount-torques.webp"
+    kind: sequence
+    depth: mono
+    caption: "Engine mount and steering joint torques"
+    safety_relevant: true
+
+  - page: 164
+    file: "diagrams/p0164-cylinder-head-tools.webp"
+    kind: chart
+    depth: mono
+    caption: "Cylinder head special tools"
+    safety_relevant: true
+  - page: 165
+    file: "diagrams/p0165-cylinder-head-index-2000-2005.webp"
+    kind: exploded
+    depth: mono
+    caption: "Cylinder head components, 2000–2005"
+    safety_relevant: true
+  - page: 166
+    file: "diagrams/p0166-cylinder-head-index-2006-2008.webp"
+    kind: exploded
+    depth: mono
+    caption: "Cylinder head components, 2006–2008"
+    safety_relevant: true
+  - page: 167
+    file: "diagrams/p0167-cylinder-head-index-valves.webp"
+    kind: exploded
+    depth: mono
+    caption: "Cylinder head valves and gear components"
+    safety_relevant: true
+  - page: 168
+    file: "diagrams/p0168-chain-case-index.webp"
+    kind: exploded
+    depth: mono
+    caption: "Chain case component index"
+    safety_relevant: true
+  - page: 172
+    file: "diagrams/p0172-valve-clearance.webp"
+    kind: sequence
+    depth: mono
+    caption: "Valve clearance and adjusting screw locations"
+    safety_relevant: true
+  - page: 174
+    file: "diagrams/p0174-crankshaft-pulley.webp"
+    kind: sequence
+    depth: mono
+    caption: "Crankshaft pulley removal and installation"
+    safety_relevant: true
+
+  - page: 178
+    file: "diagrams/p0178-cam-chain-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cam chain installation fastener locations and torques"
+    safety_relevant: true
+  - page: 183
+    file: "diagrams/p0183-head-cover-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Head cover removal and model-year connector layouts"
+    safety_relevant: true
+  - page: 185
+    file: "diagrams/p0185-head-cover-bolt-sequence.webp"
+    kind: sequence
+    depth: mono
+    caption: "Head cover washer seating and bolt sequence"
+    safety_relevant: true
+  - page: 186
+    file: "diagrams/p0186-head-cover-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Head cover hose and connector installation"
+    safety_relevant: true
+
+  - page: 188
+    file: "diagrams/p0188-cylinder-head-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Air cleaner and fuel hose removal by model year"
+    safety_relevant: true
+  - page: 189
+    file: "diagrams/p0189-cylinder-head-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Intake cover and hose removal by model year"
+    safety_relevant: true
+  - page: 191
+    file: "diagrams/p0191-cylinder-head-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Intake bracket and exhaust heat shield removal"
+    safety_relevant: true
+  - page: 194
+    file: "diagrams/p0194-head-bolt-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cylinder head bolt loosening sequence"
+    safety_relevant: true
+
+  - page: 198
+    file: "diagrams/p0198-rocker-shaft.webp"
+    kind: exploded
+    depth: mono
+    caption: "Rocker arm and shaft assembly"
+    safety_relevant: true
+  - page: 201
+    file: "diagrams/p0201-camshaft-inspection.webp"
+    kind: sequence
+    depth: mono
+    caption: "Camshaft inspection bolt tightening and end play"
+    safety_relevant: true
+  - page: 203
+    file: "diagrams/p0203-cam-lobes-valves.webp"
+    kind: chart
+    depth: mono
+    caption: "Cam lobe positions and valve spring removal"
+    safety_relevant: true
+  - page: 204
+    file: "diagrams/p0204-valve-inspection.webp"
+    kind: sequence
+    depth: mono
+    caption: "Valve seal removal and measurement locations"
+    safety_relevant: true
+  - page: 205
+    file: "diagrams/p0205-valve-guide.webp"
+    kind: chart
+    depth: mono
+    caption: "Valve guide tool dimensions and heating setup"
+    safety_relevant: true
+
+  - page: 207
+    file: "diagrams/p0207-valve-seat.webp"
+    kind: sequence
+    depth: mono
+    caption: "Valve guide reaming and valve seat cutter angles"
+    safety_relevant: true
+  - page: 210
+    file: "diagrams/p0210-rocker-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Rocker assembly installation and camshaft holder sequence"
+    safety_relevant: true
+  - page: 212
+    file: "diagrams/p0212-head-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cylinder head sealant path and tightening sequence"
+    safety_relevant: true
+  - page: 213
+    file: "diagrams/p0213-cam-chain-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Idler gear and cam chain sprocket installation"
+    safety_relevant: true
+  - page: 214
+    file: "diagrams/p0214-auto-tensioner.webp"
+    kind: sequence
+    depth: mono
+    caption: "Cam chain auto-tensioner installation and torque locations"
+    safety_relevant: true
+  - page: 215
+    file: "diagrams/p0215-camshaft-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Camshaft installation and holder tightening sequence"
+    safety_relevant: true
+  - page: 216
+    file: "diagrams/p0216-manifold-installation.webp"
+    kind: exploded
+    depth: mono
+    caption: "Intake and exhaust manifold fastener locations"
+    safety_relevant: true
+  - page: 217
+    file: "diagrams/p0217-manifold-water-outlet.webp"
+    kind: sequence
+    depth: mono
+    caption: "Manifold bracket and water outlet installation"
+    safety_relevant: true
+  - page: 218
+    file: "diagrams/p0218-evap-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "EVAP hose and intake bracket by model year"
+    safety_relevant: true
+
+  - page: 219
+    file: "diagrams/p0219-hose-installation.webp"
+    kind: sequence
+    depth: mono
+    caption: "Fuel and vacuum hose installation by model year"
+    safety_relevant: true
+  - page: 225
+    file: "diagrams/p0225-engine-block-index.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine block component index"
+    safety_relevant: true
+  - page: 226
+    file: "diagrams/p0226-piston-index.webp"
+    kind: exploded
+    depth: mono
+    caption: "Piston and connecting rod component index"
+    safety_relevant: true
+  - page: 229
+    file: "diagrams/p0229-main-bearing-selection.webp"
+    kind: chart
+    depth: mono
+    caption: "Main bearing code and color selection"
+    safety_relevant: true
+
+  - page: 231
+    file: "diagrams/p0231-rod-bearing-chart.webp"
+    kind: chart
+    depth: mono
+    caption: "Connecting rod bearing selection"
+    safety_relevant: true
+  - page: 232
+    file: "diagrams/p0232-oil-pan-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Oil pan and lower-block bolt removal"
+    safety_relevant: true
+  - page: 233
+    file: "diagrams/p0233-crankshaft-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Bearing cap loosening sequence"
+    safety_relevant: true
+  - page: 235
+    file: "diagrams/p0235-piston-inspection.webp"
+    kind: sequence
+    depth: mono
+    caption: "Piston diameter and lower-block tightening"
+    safety_relevant: true
+  - page: 237
+    file: "diagrams/p0237-bore-honing.webp"
+    kind: chart
+    depth: mono
+    caption: "Piston clearance and honing pattern"
+    safety_relevant: true
+  - page: 242
+    file: "diagrams/p0242-piston-rings.webp"
+    kind: sequence
+    depth: mono
+    caption: "Piston ring orientation and gap positions"
+    safety_relevant: true
+
+  - page: 245
+    file: "diagrams/p0245-crankshaft-gasket.webp"
+    kind: sequence
+    depth: mono
+    caption: "Crankshaft lower-block gasket path"
+    safety_relevant: true
+  - page: 246
+    file: "diagrams/p0246-crankshaft-bolts.webp"
+    kind: sequence
+    depth: mono
+    caption: "Crankshaft lower-block bolt sequences"
+    safety_relevant: true
+  - page: 247
+    file: "diagrams/p0247-oil-pan-install.webp"
+    kind: sequence
+    depth: mono
+    caption: "Oil-pan gasket path and bolt sequence"
+    safety_relevant: true
+  - page: 253
+    file: "diagrams/p0253-lubrication-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Engine lubrication component locations"
+    safety_relevant: true
+
+  - page: 260
+    file: "diagrams/p0260-oil-pump-exploded.webp"
+    kind: exploded
+    depth: mono
+    caption: "Oil pump exploded view"
+    safety_relevant: true
+  - page: 261
+    file: "diagrams/p0261-oil-pump-removal.webp"
+    kind: sequence
+    depth: mono
+    caption: "Oil pump removal"
+    safety_relevant: true
+  - page: 264
+    file: "diagrams/p0264-oil-pump-timing.webp"
+    kind: sequence
+    depth: mono
+    caption: "Oil pump chain timing and tensioner"
+    safety_relevant: true
+  - page: 266
+    file: "diagrams/p0266-intake-manifold.webp"
+    kind: exploded
+    depth: mono
+    caption: "2000–2005 intake manifold"
+    safety_relevant: true
+
+  - page: 267
+    file: "diagrams/p0267-intake-manifold.webp"
+    kind: exploded
+    depth: mono
+    caption: "2006–2008 intake manifold"
+    safety_relevant: true
+  - page: 268
+    file: "diagrams/p0268-exhaust-manifold.webp"
+    kind: exploded
+    depth: mono
+    caption: "Exhaust manifold"
+    safety_relevant: true
+  - page: 269
+    file: "diagrams/p0269-exhaust-system.webp"
+    kind: exploded
+    depth: mono
+    caption: "2000–2003 exhaust system"
+    safety_relevant: true
+  - page: 270
+    file: "diagrams/p0270-exhaust-system.webp"
+    kind: exploded
+    depth: mono
+    caption: "2004–2008 exhaust system"
+    safety_relevant: true
+  - page: 272
+    file: "diagrams/p0272-cooling-front.webp"
+    kind: exploded
+    depth: mono
+    caption: "Radiator and fan component locations"
+    safety_relevant: true
+  - page: 273
+    file: "diagrams/p0273-cooling-hoses.webp"
+    kind: exploded
+    depth: mono
+    caption: "2000–2005 cooling hoses"
+    safety_relevant: true
+  - page: 274
+    file: "diagrams/p0274-cooling-hoses.webp"
+    kind: exploded
+    depth: mono
+    caption: "2006–2008 cooling hoses"
+    safety_relevant: true
+  - page: 275
+    file: "diagrams/p0275-cooling-components.webp"
+    kind: exploded
+    depth: mono
+    caption: "Water pump and thermostat locations"
+    safety_relevant: true
+  - page: 277
+    file: "diagrams/p0277-fan-thermostat-test.webp"
+    kind: wiring
+    depth: mono
+    caption: "Fan terminals and thermostat test"
+    safety_relevant: true
+
+  - page: 282
+    file: "diagrams/p0282-radiator-fan.webp"
+    kind: exploded
+    depth: mono
+    caption: "Radiator and fan assembly"
+    safety_relevant: true
+  - page: 283
+    file: "diagrams/p0283-fan-controls.webp"
+    kind: chart
+    depth: mono
+    caption: "Fan control component locations"
+    safety_relevant: true
+  - page: 286
+    file: "diagrams/p0286-fan-circuit.webp"
+    kind: wiring
+    depth: mono
+    caption: "2000–2005 fan control circuit"
+    safety_relevant: true
+  - page: 287
+    file: "diagrams/p0287-fan-circuit.webp"
+    kind: wiring
+    depth: mono
+    caption: "2006–2008 fan control circuit"
+    safety_relevant: true
+  - page: 289
+    file: "diagrams/p0289-fan-diagnosis.webp"
+    kind: chart
+    depth: mono
+    caption: "2000–2005 fan diagnostic tests"
+    safety_relevant: true
+  - page: 291
+    file: "diagrams/p0291-fan-diagnosis.webp"
+    kind: chart
+    depth: mono
+    caption: "2006–2008 fan diagnostic tests"
+    safety_relevant: true
+  - page: 292
+    file: "diagrams/p0292-fan-switch-open.webp"
+    kind: chart
+    depth: mono
+    caption: "Fan switch open-circuit tests"
+    safety_relevant: true
+  - page: 293
+    file: "diagrams/p0293-fan-switch-test.webp"
+    kind: chart
+    depth: mono
+    caption: "Fan switch short-circuit and temperature test"
+    safety_relevant: true
+
+  - page: 298
+    file: "diagrams/p0298-special-tools.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions special tools"
+    safety_relevant: false
+
+  - page: 301
+    file: "diagrams/p0301-ecm-key.webp"
+    kind: exploded
+    depth: mono
+    caption: "Donor and temporary key orientation"
+    safety_relevant: true
+
+  - page: 302
+    file: "diagrams/p0302-dtc-index.webp"
+    kind: chart
+    depth: mono
+    caption: "DTC troubleshooting index, printed p.11-6"
+    safety_relevant: true
+  - page: 303
+    file: "diagrams/p0303-dtc-index.webp"
+    kind: chart
+    depth: mono
+    caption: "DTC troubleshooting index, printed p.11-7"
+    safety_relevant: true
+
+  - page: 304
+    file: "diagrams/p0304-dtc-index.webp"
+    kind: chart
+    depth: mono
+    caption: "DTC troubleshooting index, printed p.11-8"
+    safety_relevant: true
+  - page: 305
+    file: "diagrams/p0305-dtc-index.webp"
+    kind: chart
+    depth: mono
+    caption: "DTC troubleshooting index, printed p.11-9"
+    safety_relevant: true
+
+  - page: 311
+    file: "diagrams/p0311-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-15"
+    safety_relevant: true
+  - page: 312
+    file: "diagrams/p0312-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-16"
+    safety_relevant: true
+  - page: 313
+    file: "diagrams/p0313-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-17"
+    safety_relevant: true
+  - page: 316
+    file: "diagrams/p0316-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-20"
+    safety_relevant: true
+  - page: 317
+    file: "diagrams/p0317-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-21"
+    safety_relevant: true
+  - page: 318
+    file: "diagrams/p0318-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-22"
+    safety_relevant: true
+  - page: 319
+    file: "diagrams/p0319-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-23"
+    safety_relevant: true
+
+  - page: 321
+    file: "diagrams/p0321-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-25"
+    safety_relevant: true
+  - page: 324
+    file: "diagrams/p0324-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-28"
+    safety_relevant: true
+  - page: 325
+    file: "diagrams/p0325-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-29"
+    safety_relevant: true
+  - page: 326
+    file: "diagrams/p0326-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-30"
+    safety_relevant: true
+  - page: 327
+    file: "diagrams/p0327-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-31"
+    safety_relevant: true
+  - page: 328
+    file: "diagrams/p0328-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-32"
+    safety_relevant: true
+  - page: 329
+    file: "diagrams/p0329-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-33"
+    safety_relevant: true
+  - page: 330
+    file: "diagrams/p0330-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-34"
+    safety_relevant: true
+  - page: 331
+    file: "diagrams/p0331-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-35"
+    safety_relevant: true
+  - page: 332
+    file: "diagrams/p0332-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-36"
+    safety_relevant: true
+  - page: 333
+    file: "diagrams/p0333-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-37"
+    safety_relevant: true
+  - page: 334
+    file: "diagrams/p0334-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-38"
+    safety_relevant: true
+  - page: 335
+    file: "diagrams/p0335-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "Fuel and emissions system, printed p.11-39"
+    safety_relevant: true
+
+  - page: 339
+    file: "diagrams/p0339-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "PGM-FI component location index, printed p.11-43"
+    safety_relevant: true
+  - page: 340
+    file: "diagrams/p0340-fuel-system.webp"
+    kind: chart
+    depth: mono
+    caption: "PGM-FI component location index, printed p.11-44"
+    safety_relevant: true
+
+  - page: 341
+    file: "diagrams/p0341-dtc-map.webp"
+    kind: wiring
+    depth: mono
+    caption: "MAP DTC troubleshooting connector diagrams, printed p.11-45"
+    safety_relevant: true
+  - page: 342
+    file: "diagrams/p0342-dtc-map.webp"
+    kind: wiring
+    depth: mono
+    caption: "MAP DTC troubleshooting connector diagrams, printed p.11-46"
+    safety_relevant: true
+
+  - page: 344
+    file: "diagrams/p0344-dtc-map.webp"
+    kind: wiring
+    depth: mono
+    caption: "MAP DTC connector diagrams, printed p.11-48"
+    safety_relevant: true
+
+  - page: 346
+    file: "diagrams/p0346-dtc-iat.webp"
+    kind: wiring
+    depth: mono
+    caption: "IAT DTC connector diagrams, printed p.11-50"
+    safety_relevant: true
+  - page: 347
+    file: "diagrams/p0347-dtc-iat.webp"
+    kind: wiring
+    depth: mono
+    caption: "IAT DTC connector diagrams, printed p.11-51"
+    safety_relevant: true
+
+  - page: 349
+    file: "diagrams/p0349-dtc-ect.webp"
+    kind: wiring
+    depth: mono
+    caption: "ECT DTC connector diagram, printed p.11-53"
+    safety_relevant: true
+
+  - page: 351
+    file: "diagrams/p0351-dtc-connector.webp"
+    kind: wiring
+    depth: mono
+    caption: "DTC connector diagrams, printed p.11-55"
+    safety_relevant: true
+  - page: 353
+    file: "diagrams/p0353-dtc-connector.webp"
+    kind: wiring
+    depth: mono
+    caption: "DTC connector diagrams, printed p.11-57"
+    safety_relevant: true
+
+  - page: 357
+    file: "diagrams/p0357-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-61"
+    safety_relevant: true
+  - page: 358
+    file: "diagrams/p0358-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-62"
+    safety_relevant: true
+  - page: 359
+    file: "diagrams/p0359-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-63"
+    safety_relevant: true
+  - page: 360
+    file: "diagrams/p0360-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-64"
+    safety_relevant: true
+
+  - page: 361
+    file: "diagrams/p0361-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-65"
+    safety_relevant: true
+  - page: 363
+    file: "diagrams/p0363-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-67"
+    safety_relevant: true
+  - page: 364
+    file: "diagrams/p0364-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-68"
+    safety_relevant: true
+  - page: 365
+    file: "diagrams/p0365-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-69"
+    safety_relevant: true
+  - page: 366
+    file: "diagrams/p0366-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S DTC connector diagrams, printed p.11-70"
+    safety_relevant: true
+
+  - page: 367
+    file: "diagrams/p0367-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S heater DTC connector diagrams, printed p.11-71"
+    safety_relevant: true
+  - page: 368
+    file: "diagrams/p0368-dtc-ho2s.webp"
+    kind: wiring
+    depth: mono
+    caption: "HO2S heater DTC connector diagrams, printed p.11-72"
+    safety_relevant: true
+
+  - page: 369
+    file: "diagrams/p0369-dtc-ho2s.webp"
+    kind: chart
+    depth: mono
+    caption: "Secondary HO2S DTC diagrams, printed p.11-73"
+    safety_relevant: true
+  - page: 370
+    file: "diagrams/p0370-dtc-ho2s.webp"
+    kind: chart
+    depth: mono
+    caption: "Secondary HO2S DTC diagrams, printed p.11-74"
+    safety_relevant: true
+  - page: 371
+    file: "diagrams/p0371-dtc-ho2s.webp"
+    kind: chart
+    depth: mono
+    caption: "Secondary HO2S DTC diagrams, printed p.11-75"
+    safety_relevant: true
+  - page: 372
+    file: "diagrams/p0372-dtc-ho2s.webp"
+    kind: chart
+    depth: mono
+    caption: "Secondary HO2S DTC diagrams, printed p.11-76"
+    safety_relevant: true
+
+  - page: 375
+    file: "diagrams/p0375-dtc-misfire.webp"
+    kind: wiring
+    depth: mono
+    caption: "Misfire DTC table and connector diagrams, printed p.11-79"
+    safety_relevant: true
+  - page: 377
+    file: "diagrams/p0377-dtc-misfire.webp"
+    kind: wiring
+    depth: mono
+    caption: "Misfire DTC table and connector diagrams, printed p.11-81"
+    safety_relevant: true
+  - page: 378
+    file: "diagrams/p0378-dtc-misfire.webp"
+    kind: wiring
+    depth: mono
+    caption: "Misfire DTC table and connector diagrams, printed p.11-82"
+    safety_relevant: true
+  - page: 380
+    file: "diagrams/p0380-dtc-misfire.webp"
+    kind: wiring
+    depth: mono
+    caption: "Misfire DTC table and connector diagrams, printed p.11-84"
+    safety_relevant: true
+
+  - page: 381
+    file: "diagrams/p0381-dtc-sensor.webp"
+    kind: wiring
+    depth: mono
+    caption: "Sensor DTC connector diagrams, printed p.11-85"
+    safety_relevant: true
+  - page: 382
+    file: "diagrams/p0382-dtc-sensor.webp"
+    kind: wiring
+    depth: mono
+    caption: "Sensor DTC connector diagrams, printed p.11-86"
+    safety_relevant: true
+  - page: 383
+    file: "diagrams/p0383-dtc-sensor.webp"
+    kind: wiring
+    depth: mono
+    caption: "Sensor DTC connector diagrams, printed p.11-87"
+    safety_relevant: true
+  - page: 385
+    file: "diagrams/p0385-dtc-sensor.webp"
+    kind: wiring
+    depth: mono
+    caption: "Sensor DTC connector diagrams, printed p.11-89"
+    safety_relevant: true
+
+# Chapter map: each entry becomes one raw draft and one wiki/*.md file.
+# page_start/page_end are 1-based, inclusive, source-PDF page numbers.
+# Large sections are split into lettered parts; the index builder groups by leading number.
+chapters:
+  - file: "01-front-matter.md"
+    title: "Front Matter"
+    page_start: 1
+    page_end: 2
+
+  - file: "02-general-information.md"
+    title: "General Information"
+    page_start: 3
+    page_end: 26
+
+  - file: "03-specifications.md"
+    title: "Specifications"
+    page_start: 27
+    page_end: 40
+
+  - file: "04-maintenance.md"
+    title: "Maintenance"
+    page_start: 41
+    page_end: 70
+
+  - file: "05-engine-electrical.md"
+    section_code: "4"
+    title: "Engine Electrical"
+    page_start: 71
+    page_end: 142
+
+  - file: "06a-engine-mechanical.md"
+    section_code: "5"
+    title: "Engine Mechanical (Part A)"
+    page_start: 143
+    page_end: 218
+
+  - file: "06b-engine-mechanical.md"
+    section_code: "5"
+    title: "Engine Mechanical (Part B)"
+    page_start: 219
+    page_end: 294
+
+  - file: "07a-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part A)"
+    page_start: 295
+    page_end: 385
+
+  - file: "07b-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part B)"
+    page_start: 386
+    page_end: 476
+
+  - file: "07c-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part C)"
+    page_start: 477
+    page_end: 567
+
+  - file: "07d-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part D)"
+    page_start: 568
+    page_end: 658
+
+  - file: "07e-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part E)"
+    page_start: 659
+    page_end: 749
+
+  - file: "07f-fuel-emissions.md"
+    section_code: "11"
+    title: "Fuel and Emissions (Part F)"
+    page_start: 750
+    page_end: 842
+
+  - file: "08a-transaxle.md"
+    section_code: "12"
+    title: "Transaxle (Part A)"
+    page_start: 843
+    page_end: 915
+
+  - file: "08b-transaxle.md"
+    section_code: "12"
+    title: "Transaxle (Part B)"
+    page_start: 916
+    page_end: 988
+
+  - file: "09-steering.md"
+    section_code: "17"
+    title: "Steering"
+    page_start: 989
+    page_end: 1050
+
+  - file: "10-suspension.md"
+    section_code: "18"
+    title: "Suspension"
+    page_start: 1051
+    page_end: 1134
+
+  - file: "11a-brakes.md"
+    section_code: "19"
+    title: "Brakes (Part A)"
+    page_start: 1135
+    page_end: 1199
+
+  - file: "11b-brakes.md"
+    section_code: "19"
+    title: "Brakes (Part B)"
+    page_start: 1200
+    page_end: 1265
+
+  - file: "12a-body.md"
+    section_code: "20"
+    title: "Body (Part A)"
+    page_start: 1266
+    page_end: 1334
+
+  - file: "12b-body.md"
+    section_code: "20"
+    title: "Body (Part B)"
+    page_start: 1335
+    page_end: 1408
+
+  - file: "13-hvac.md"
+    title: "HVAC (Heating, Ventilation, and Air Conditioning)"
+    page_start: 1409
+    page_end: 1491
+
+  - file: "14a-body-electrical.md"
+    title: "Body Electrical (Part A)"
+    page_start: 1492
+    page_end: 1588
+
+  - file: "14b-body-electrical.md"
+    title: "Body Electrical (Part B)"
+    page_start: 1589
+    page_end: 1685
+
+  - file: "14c-body-electrical.md"
+    title: "Body Electrical (Part C)"
+    page_start: 1686
+    page_end: 1782
+
+  - file: "15a-restraints.md"
+    title: "Restraints (Part A)"
+    page_start: 1783
+    page_end: 1876
+
+  - file: "15b-restraints.md"
+    title: "Restraints (Part B)"
+    page_start: 1877
+    page_end: 1970
